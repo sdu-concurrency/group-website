@@ -1,0 +1,110 @@
+<header id="header">
+	<script>
+		var res = function( e ) {
+			var s = $( window ).width();
+			switch( true ){
+			case ( s < 870 ):
+				$( "#logo .small" ).show();
+				$( "#logo .medium" ).hide();
+				$( "#logo .large" ).hide();
+				break;
+			case ( s < 1200 ):
+				$( "#logo .small" ).show();
+				$( "#logo .medium" ).show();
+				$( "#logo .large" ).hide();
+				break;
+			case ( s > 1200 ):
+				$( "#logo .small" ).hide();
+				$( "#logo .medium" ).show();
+				$( "#logo .large" ).show();
+				break;
+			}
+		};
+		$( document ).ready( function() {
+			res();
+			$( window ).resize( res );
+		});
+	</script>
+
+				<h1 id="logo"><a href="/">
+						<strong class="small">PLS</strong>
+						<strong class="large">Programming, Logics, and Semantics</strong>
+						<span class="medium">Group</span>
+					</a>
+					</h1>
+				<nav id="nav">
+					<ul>
+          <li style="visibility: hidden;"><a href="/">Home</a></li>
+					<li class="submenu">
+						<a href="/research-areas.html">Research</a>
+							<ul>
+								<li><a href="/research-areas.html">Research areas</a></li>
+								<li><a href="/software.html">Software</a></li>
+								<li><a href="/publications.html">Publications</a></li>
+							</ul>
+						</li>
+
+						<li class="submenu">
+							<a href="/education.html">Education</a>
+							<ul>
+								<li><a href="/education.html#courses">Courses</a></li>
+								<li><a href="/education.html#msc_package">MSc Package</a></li>
+								<li><a href="/education.html#talent-fellowship">Talent Fellowship</a></li>
+								<li><a href="/education.html#thesis-proposals">Thesis Proposals</a></li>
+							</ul>
+						</li>
+
+						<li class="submenu">
+            <a href="/industry.html">Industry</a>
+							<ul>
+								<li><a href="/industry.html#consultancy">Consultancy</a></li>
+								<li><a href="/industry.html#phd-postdoc">Industrial PhD/PostDoc</a></li>
+								<li><a href="/industry.html#talent-fellowship">Talent Fellowship</a></li>
+								<li><a href="/industry.html#innovation-projects">Innovation Projects</a></li>
+								<li><a href="/industry.html#training">Training</a></li>
+							</ul>
+						</li>
+
+            <li><a href="/grants.html">Grants</a></li>
+            
+						<li class="submenu">
+            <a href="/people.html">People</a>
+							<ul>
+								<li><a href="/people.html">Members</a></li>
+								<li><a href="/people.html#career">Open Positions</a></li>
+							</ul>
+						</li>
+
+						<li class="submenu">
+            <a href="/events.html">Events</a>
+							<ul>
+								<li><a href="/events.html">Upcoming Events</a></li>
+								<li><a href="/events.html#news">News</a></li>
+							</ul>
+						</li>
+
+            <li><a href="/communities.html">Communities</a></li>
+            
+						<!-- <li class="submenu">
+							<a href="">Layouts</a>
+							<ul>
+								<li><a href="/left-sidebar.html">Left Sidebar</a></li>
+								<li><a href="/right-sidebar.html">Right Sidebar</a></li>
+								<li><a href="/no-sidebar.html">No Sidebar</a></li>
+								<li><a href="/contact.html">Contact</a></li>
+								<li class="submenu">
+									<a href="">Submenu</a>
+									<ul>
+										<li><a href="#">Dolore Sed</a></li>
+										<li><a href="#">Consequat</a></li>
+										<li><a href="#">Lorem Magna</a></li>
+										<li><a href="#">Sed Magna</a></li>
+										<li><a href="#">Ipsum Nisl</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<!-- <li><a href="#" class="button special">Sign Up</a></li> -->
+					</ul>
+				</nav>
+			</header>
