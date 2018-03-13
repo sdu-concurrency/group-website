@@ -1,0 +1,34 @@
+[
+  {
+    "year" : 2018,
+    "papers" : [
+      {
+        "content": "HICCS 2018",
+        "bibitem": "bibitem",
+        "pdf": "pdf",
+        "tags" : [ "Programming Languages", "Microservices", "Internet of Things" ] 
+      }      
+    ]
+  },
+  {
+    "year" : 2017,
+    "papers" : [
+      {
+        "content": "HICCS 2017",
+        "bibitem": "bibitem",
+        "pdf": "pdf",
+        "tags" : [ "Microservices", "Security", "Smart Cities" ] 
+      },
+      {
+        "content": "ITSC 2017",
+        "bibitem": "bibitem",
+        "pdf": "pdf",
+        "tags" : [ "Transportation", "Microservices", "Smart Cities" ] 
+      }
+    ]
+  }
+]
+
+
+
+            
