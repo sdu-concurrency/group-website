@@ -18,7 +18,7 @@ module Jekyll
         end
         string = ""
         topicsSet.each do | tag |
-          string += "<button class=\"btn btn-sm btn-tag btn-light\">#{tag}</button>"
+          string += "<button class=\"btn btn-sm btn-tag btn-light\">#{tag}</button><span> </span>"
         end
         string
       end
