@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var basicBtnClasses = "btn btn-xs btn-tag";
+    var basicBtnClasses = "btn btn-sm btn-tag";
     var selectedClass = "btn-primary";
     var unselectedClass = "btn-light";
     var sep = " ";
@@ -31,9 +31,7 @@ $(document).ready(function() {
         } else {
             filterFunction = function(i, e) {
                 $(e).hide();
-                console.log("hidden " + $(e).text());
                 $(e).find(".badge").each(function(j, ie) {
-                    console.log("testing for " + $(ie).text());
                     if (selectedTopics.has($(ie).text())) {
                         $(e).show();
                         return false;

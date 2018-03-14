@@ -14,12 +14,13 @@ layout: default
 		<div class="content">
 			<section>
 				<p>Filter by :<span id="filters" >
-					
+					{% assign data = site.data.papers %}
+					{{ data | collectFilters }}
 				</span>
 			</p>
 			
-			<div id="papers">
 
+			<div id="papers">
 		  {% for item in site.data.papers %}
 				<h4>{{ item.year }}</h4>
 		  	<ul>

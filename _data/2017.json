@@ -1,0 +1,14 @@
+[  
+  {
+    "content": "CONF1 2017",
+    "bibitem": "bibitem",
+    "pdf": "pdf",
+    "tags" : [ "Microservices", "Security", "Smart Cities" ] 
+  },
+  {
+    "content": "CONF2 2017",
+    "bibitem": "bibitem",
+    "pdf": "pdf",
+    "tags" : [ "Transportation", "Microservices", "Smart Cities" ] 
+  }
+]
