@@ -1107,3 +1107,34 @@
 			font-size: 11pt; 
 			line-height: 1.45; 
 		}
+
+		.pub-year {
+			padding: 5px;
+	    margin: 10px 0;
+	    border: 1px solid #eee;
+	    border-left-width: 5px;
+	    border-radius: 3px;
+	    padding-left: 15px;
+	    border-left-color: #1b809e;
+	    margin-bottom: 2em;
+		}
+
+		.bib {
+			background-image: url(/images/cite.png);
+	    background-repeat: no-repeat;
+	    background-size: 100%;
+	    width: 18px;
+	    height: 18px;
+	    display: inline-block;
+	    margin-bottom: -4px;
+		}
+
+		.pdf {
+	    background-image: url(/images/pdf.png);
+	    background-repeat: no-repeat;
+	    background-size: 100%;
+	    width: 15px;
+	    height: 21px;
+	    display: inline-block;
+	    margin-bottom: -4px;
+		}

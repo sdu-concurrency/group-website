@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var basicBtnClasses = "btn btn-sm btn-tag";
+    var basicBtnClasses = "btn btn-sm";
     var selectedClass = "btn-primary";
     var unselectedClass = "btn-light";
     var sep = " ";
@@ -8,7 +8,7 @@ $(document).ready(function() {
         return $(e).attr('class').indexOf(selectedClass) >= 0;
     };
 
-    $(".btn-tag").click(function(e) {
+    $(".btn-filter").click(function(e) {
         var updateClass = "";
         if (isSelected(this)) {
             updateClass = unselectedClass;

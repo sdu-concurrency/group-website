@@ -11,36 +11,58 @@ layout: default
 	<!-- One -->
 	<section class="wrapper style4 container">
 		<!-- Content -->
-		<div class="content">
-			<section>
-				<p>Filter by :<span id="filters" >
+		<div class="row">
+			<div class="6u">
+				<div>Filter by tags:</div>
+				<div><span class="filters" >
 					{% assign data = site.data.papers %}
-					{{ data | collectFilters }}
+					{{ data | collectTags }}
+				</span></div>
+			</div>
+			<div class="6u">
+				<div>Filter by author:</div>
+				<span class="filters" >
+					{% assign data = site.data.papers %}
+					{{ data | collectAuthors }}
 				</span>
-			</p>
-			
+			</div>
+		</div>
+	</section>
 
+	<section class="wrapper style4 container">
+		<div class="content">
 			<div id="papers">
-		  {% for item in site.data.papers %}
-				<h4>{{ item.year }}</h4>
-		  	<ul>
-		  
-		  	{% for paper in item.papers %}
-		  		<li>
-		  			<p>
-		  			{{ paper.content }} 
-		  			| bibitem: {{ paper.bibitem }}
-		  			| pdf: {{ paper.pdf }}
-		  			{% for tag in paper.tags %}
-		  			<span class="badge badge-light">{{ tag }}</span>
-  					{% endfor %}
-						</p>
-		  		</li>
-  			{% endfor %}
-		  
-		  	</ul>
-  		
-  		{% endfor %}
+				{% for item in site.data.papers %}
+
+				<div class="pub-year">
+					<h4>{{ item.year }}</h4>
+					<ul>
+						{% for paper in item.papers %}
+						<li>
+							{{ paper.content }} 
+							| <small><a href="{{ paper.bibitem }}"><span class="bib"></span> bibitem</a></small>
+							{% for pdf in paper.pdf %}
+							| <small><a href="{{ pdf.link }}"><span class="pdf"></span> 
+								{% assign name = pdf.name %}
+								{% assign size = name | size %}
+								{% if size <= 0 %}
+								{% assign name = "paper" %}
+								{% endif %}
+							{{ name }}</a></small>
+							{% endfor%}
+							{% for tag in paper.tags %}
+							<span style="visibility: hidden" class="badge badge-light">{{ tag }}</span>
+							{% endfor %}
+							{% for author in paper.authors %}
+							<span style="visibility: hidden" class="badge badge-light">{{ author }}</span>
+							{% endfor %}
+						</li>
+						{% endfor %}
+
+					</ul>
+				</div>
+
+				{% endfor %}
 
 			</div>
 

@@ -1,8 +1,9 @@
 [
   {
-    "content": "CONF1 2018",
+    "content": "Otherson, Other. \"A formulation of the simple theory of microservices.\" The journal of symbiotic services 5.2 (2018): 56-68.",
     "bibitem": "bibitem",
-    "pdf": "pdf",
-    "tags" : [ "Programming Languages", "Microservices", "Internet of Things" ] 
+    "pdf": [ { "link" : "http://somelink.com" } ],
+    "tags" : [ "Programming Languages", "Microservices", "Internet of Things" ],
+    "authors" : [ "Other Otherson" ]
   }
 ]
