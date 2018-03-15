@@ -5,10 +5,12 @@ layout: default
 <!-- Main -->
 <article id="main">
 
-	<header class="major container">
-		<h2><strong>People</strong></h2>
-		<p>A descriptive sentence.</p>
-	</header>
+<header class="major container" markdown="1">
+
+## People
+A descriptive sentence.
+
+</header>
 
 	<!-- One -->
 	<section class="wrapper style4 container">

@@ -4,16 +4,19 @@ layout: default
 <script src="/js/publications.js" type="text/javascript" charset="utf-8"></script>
 <!-- Main -->
 <article id="main">
-	<header class="major container">
-		<h2><strong>Publications</strong></h2>
-		<p>A descriptive sentence.</p>
-	</header>
-	<!-- One -->
+
+<header class="major container" markdown="1">
+
+## Publications
+A descriptive sentence.
+
+</header>
+
 	<section class="wrapper style4 container">
 		<!-- Content -->
 		<div class="row">
 			<div class="6u">
-				<div>Filter by tags:</div>
+				<div>Filter by keywords:</div>
 				<div><span class="filters" >
 					{% assign data = site.data.papers %}
 					{{ data | collectTags }}
@@ -65,8 +68,6 @@ layout: default
 				{% endfor %}
 
 			</div>
-
-		</section>
-	</div>
-</section>
+		</div>
+	</section>
 </article>

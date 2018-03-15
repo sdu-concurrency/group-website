@@ -3,7 +3,6 @@ layout: post
 title:  "Fourth Article"
 date:   2018-03-13 14:00:00
 permalink: /other-post.html
-excerpt_separator: <!--more-->
 ---
 
 <span class="image featured"><img src="/images/pic02.jpg" alt=""></span>

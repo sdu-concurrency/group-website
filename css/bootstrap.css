@@ -3855,10 +3855,20 @@ button.bg-dark:focus {
   border-radius: 0 !important;
 }
 
-.clearfix::after {
-  display: block;
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: " ";
+}
+
+.clearfix:after {
   clear: both;
-  content: "";
+}
+
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .d-none {

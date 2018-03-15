@@ -3,7 +3,6 @@ layout: post
 title:  "First Article"
 date:   2018-03-10 14:00:00
 permalink: /first-post.html
-excerpt_separator: <!--more-->
 ---
 <span class="image featured"><img src="/images/pic02.jpg" alt=""></span>
 This is the first post.
