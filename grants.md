@@ -2,31 +2,59 @@
 layout: default
 ---
 
-<article id="main"><header class="major container" markdown="1">
+<!-- Main -->
+<article id="main">
+  <style type="text/css">
+    .grant+.grant {
+      border-left: 1px solid #dee2e6;
+    }
+  </style>
 
-
+<header class="major container" markdown="1">
 
 ## Grants
-
 A descriptive sentence.
 
+</header>
 
+<section class="wrapper style4 container">
 
-</header><section class="wrapper style4 container"><div class="content"><section markdown="1">
+<div class="row">
+{% assign size = site.data.grants | size %}
+{% for grant in site.data.grants %}
+{% assign i = forloop.index | modulo: 2 %}
+<div class="grant 6u">
+<h2>{{ grant.title }}</h2>
+<ul>
+<li><strong>Duration</strong>: from {{ grant.period.start }} to {{ grant.period.end }}</li>
+<li><strong>Website</strong>: <a href="{{ grant.website }}" title="">{{ grant.website}}</a></li>
+<li><strong>Grant number</strong>: {{ grant.number }}</li>
+<li><strong>Foundation</strong>: {{ grant.foundation }}</li>
+</ul>
+<h3>Members</h3>
+<div class="row">
+{% for participant in grant.participants %}
+{% assign j = forloop.index | modulo: 2 %}
+<div class="6u">
+<div class="row">
+<div class="1u"><small><span class="icon fa-user"></span></small></div>
+<div class="10u"><small>{{ participant.name }}</small></div>
+<div class="1u"><small><span class="icon fa-university"></span></small></div>
+<div class="10u"><small>{{ participant.affiliation }}</small></div>
+<div class="1u"><small><span class="icon fa-university"></span></small></div>
+<div class="10u"><small>{{ participant.role }}</small></div>
+</div>
+</div>
+{% if j == 0 %}</div><div class="row">{% endif %}
+{% endfor %}
+</div>
+</div>
+{% if i == 0 %}
+</div>{% if forloop.index < size %}<hr>{% endif %}<div class="row">
+{% endif %}
+{% endfor %}
+</div>
 
+</section>
 
-
-<img class="center-block img-thumbnail" src="images/pic04.jpg" alt="" />
-
-### Dolore Amet Consequat
-						
-Aliquam massa urna, imperdiet sit amet mi non, bibendum euismod est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam quam, mollis at consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum. Morbi mattis elementum orci, nec dictum massa. Morbi eu faucibus massa. Aliquam massa urna, imperdiet sit amet mi non, bibendum euismod est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam.
-
-Vestibulum diam quam, mollis at consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum. Morbi mattis elementum orci, nec dictum porta cursus justo. Quisque ultricies lorem in ligula condimentum, et egestas turpis sagittis. Cras ac nunc urna. Nullam eget lobortis purus. Phasellus vitae tortor non est placerat tristique. Sed id sem et massa ornare pellentesque. Maecenas pharetra porta accumsan.
-
-In vestibulum massa quis arcu lobortis tempus. Nam pretium arcu in odio vulputate luctus. Suspendisse euismod lorem eget lacinia fringilla. Sed sed felis justo. Nunc sodales elit in laoreet aliquam. Nam gravida, nisl sit amet iaculis porttitor, risus nisi rutrum metus, non hendrerit ipsum arcu tristique est.
-
-
-
-
-</section></div></section></article>
+</article>

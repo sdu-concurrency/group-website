@@ -2,31 +2,58 @@
 layout: default
 ---
 
-<article id="main"><header class="major container" markdown="1">
+<!-- Main -->
+<article id="main">
+  <style type="text/css">
+    .topic {
+      .border-right: 1px lightgrey solid;
+    }
+  </style>
 
-
+<header class="major container" markdown="1">
 
 ## Software
-
 A descriptive sentence.
 
+</header>
 
+<section class="wrapper style4 container">
 
-</header><section class="wrapper style4 container"><div class="content"><section markdown="1">
+<div class="row">
+{% for software in site.data.software %}
 
+<div class="6u">
+<div class="row">
+<div class="5u align-middle">
+<img class="img-thumbnail" src="{{ software.logo }}" alt="">
+</div>
+<div class="7u">
+<div class="row">
+<div class="12u"><strong>{{ software.name }}</strong></div>
+<div class="12u">{{ software.short-bio }}</div>
+<div class="6u">
+    <a href="{{ software.website }}"><span class="icon fa-desktop"></span> Website</a>
+</div>
+<div class="6u">
+    <a href="{{ software.github }}"><span class="icon fa-graduation-cap"></span> Github</a>
+</div>
+</div>
+</div>
+</div>
+<div class="12u">
+<h4>Description</h4>
+<p><small>{{ software.bio }}</small></p>
+</div>
+<div class="12u">
+  <small>Keywords:
+{% for tag in software.tags %}
+<a href="/publications/#keyword_{{tag}}" class="nodec badge badge-light">{{ tag }}</a>
+{% endfor %}</small>
+</div>
+</div>
+{% endfor %}
+</div>
 
+</section>
 
-<img class="center-block img-thumbnail" src="images/pic04.jpg" alt="" />
-
-### Dolore Amet Consequat
-						
-Aliquam massa urna, imperdiet sit amet mi non, bibendum euismod est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam quam, mollis at consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum. Morbi mattis elementum orci, nec dictum massa. Morbi eu faucibus massa. Aliquam massa urna, imperdiet sit amet mi non, bibendum euismod est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam.
-
-Vestibulum diam quam, mollis at consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum. Morbi mattis elementum orci, nec dictum porta cursus justo. Quisque ultricies lorem in ligula condimentum, et egestas turpis sagittis. Cras ac nunc urna. Nullam eget lobortis purus. Phasellus vitae tortor non est placerat tristique. Sed id sem et massa ornare pellentesque. Maecenas pharetra porta accumsan.
-
-In vestibulum massa quis arcu lobortis tempus. Nam pretium arcu in odio vulputate luctus. Suspendisse euismod lorem eget lacinia fringilla. Sed sed felis justo. Nunc sodales elit in laoreet aliquam. Nam gravida, nisl sit amet iaculis porttitor, risus nisi rutrum metus, non hendrerit ipsum arcu tristique est.
-
-
-
-
-</section></div></section></article>
+</article>

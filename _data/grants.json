@@ -1,0 +1,95 @@
+[
+  {
+    "title" : "Telephony Considered Harmful",
+    "participants" : [ 
+      { 
+        "name" : "John McCarthy ",
+        "role" : "Principal Investigator",
+        "affiliation" : "Princeton University" 
+      },{ 
+        "name" : "Corrado Böhm",
+        "role" : "Investigator",
+        "affiliation" : "University of Rome \"La Sapienza\"" 
+      },{ 
+        "name" : "Kristen Nygaard",
+        "role" : "Investigator",
+        "affiliation" : "University of Oslo" 
+      }
+    ],
+    "website" : "LINK",
+    "number" : "#GR4N7",
+    "period" : { "start" : "12-2018", "end" : "12-2019" },
+    "foundation" : "Wayne Foundation"
+  },{
+    "title" : "Telephony Considered Very Harmful",
+    "participants" : [ 
+      { 
+        "name" : "John McCarthy ",
+        "role" : "Principal Investigator",
+        "affiliation" : "Princeton University" 
+      },{ 
+        "name" : "Corrado Böhm",
+        "role" : "Investigator",
+        "affiliation" : "University of Rome \"La Sapienza\"" 
+      },{ 
+        "name" : "Kristen Nygaard",
+        "role" : "Investigator",
+        "affiliation" : "University of Oslo" 
+      },{ 
+        "name" : "Kristen Nygaard",
+        "role" : "Investigator",
+        "affiliation" : "University of Oslo" 
+      },{ 
+        "name" : "Kristen Nygaard",
+        "role" : "Investigator",
+        "affiliation" : "University of Oslo" 
+      }
+    ],
+    "website" : "LINK",
+    "number" : "#GR4N7",
+    "period" : { "start" : "12-2018", "end" : "12-2019" },
+    "foundation" : "Wayne Foundation"
+  },{
+    "title" : "Telephony Considered Super Harmful",
+    "participants" : [ 
+      { 
+        "name" : "John McCarthy ",
+        "role" : "Principal Investigator",
+        "affiliation" : "Princeton University" 
+      },{ 
+        "name" : "Corrado Böhm",
+        "role" : "Investigator",
+        "affiliation" : "University of Rome \"La Sapienza\"" 
+      },{ 
+        "name" : "Kristen Nygaard",
+        "role" : "Investigator",
+        "affiliation" : "University of Oslo" 
+      }
+    ],
+    "website" : "LINK",
+    "number" : "#GR4N7",
+    "period" : { "start" : "12-2018", "end" : "12-2019" },
+    "foundation" : "Wayne Foundation"
+  },{
+    "title" : "Telephony Considered Very-Super-Hyper Harmful",
+    "participants" : [ 
+      { 
+        "name" : "John McCarthy ",
+        "role" : "Principal Investigator",
+        "affiliation" : "Princeton University" 
+      },{ 
+        "name" : "Corrado Böhm",
+        "role" : "Investigator",
+        "affiliation" : "University of Rome \"La Sapienza\"" 
+      },{ 
+        "name" : "Kristen Nygaard",
+        "role" : "Investigator",
+        "affiliation" : "University of Oslo" 
+      }
+    ],
+    "website" : "LINK",
+    "number" : "#GR4N7",
+    "period" : { "start" : "12-2018", "end" : "12-2019" },
+    "foundation" : "Wayne Foundation"
+  }, 
+]

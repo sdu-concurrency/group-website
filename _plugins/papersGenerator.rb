@@ -5,8 +5,7 @@ module Jekyll
     def generate(site)
       base = "#{site.source}/_data"
       papers = Array.new
-      Dir["#{base}/papers_*.json"].sort_by{ |f| File.basename( f , ".json" ) }.reverse.each do | f |
-        # json = "#{json}{\n \"year\": #{File.basename( f , ".json" )},\n \"papers\": #{File.read( f )}\n}"
+      Dir["#{base}/papers/*.json"].sort_by{ |f| File.basename( f , ".json" ) }.reverse.each do | f |
         papers << { "year" =>  File.basename( f , ".json" )[/\d+/], "papers" => JSON.parse( File.read( f ) ) }
       end
       site.data["papers"] = papers
