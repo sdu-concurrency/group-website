@@ -30,9 +30,8 @@ Publications are added inside the `_data` folder, within the root, in files name
 
 ```json
 {
-    "content": "TITLE",
-    "bibitem": "BIBLINK",
-    "pdf": [ 
+    "bibitem": "BIB_CONTENT",
+    "pdf": [
       { 
         "link" : "PAPERLINK", 
         "name" : "PAPERLINK_NAME" 
@@ -42,7 +41,8 @@ Publications are added inside the `_data` folder, within the root, in files name
       }
     ],
     "tags" : [ "TAG1", "TAG2", "TAG3" ],
-    "authors" : [ "MEMBER1" , "MEMBER2" ]
+    "member_authors" : [ "MEMBER1" , "MEMBER2" ],
+    "grants" : [ "G1" , "G2" ]
 }
 ```
 
@@ -62,12 +62,36 @@ People entries are also stored inside the `_data` folder, within the root, in js
 {
   "name" : "NAME",
   "role" : "ROLE",
-  "dblp_link" : "DBLP_LINK",
-  "website" : "WEBSITE_LINK",
+  "dblp" : "LINK",
+  "google_scholar" : "LINK",
+  "orcid" : "LINK",
+  "website" : "LINK",
   "bio" : "A SHORT BIO",
-  "photo" : "PHOTO_LINK"
+  "photo" : "LINK"
+  "research_topics" : [ "TOPIC1", "TOPIC2" ]
 }
 ```
 
 People images can be included in the folder `images/people` under the root. To link the image in the json entry use the path from the root to the file, e.g, `/images/people/PHOTO.jpg`.
 
+### Adding grants
+
+People entries are also stored inside the `_data` folder, within the root, in json files named with the prefix `grants_` followed by a name. The name is just a mnemonic handler and not visualised in the website. Each person follows the schema
+
+```json
+{
+  "title" : "NAME",
+  "participants" : [ 
+    { 
+      "name" : "NAME",
+      "role" : "ROLE",
+      "affiliation" : "AFF" 
+    }
+    , { /* PERSON2 */} ],
+  "website" : "LINK",
+  "grant_no" : "STRING",
+  "period" : "STRING",
+  "foundation" : "STRING",
+  "amount" : "STRING"
+}
+```
