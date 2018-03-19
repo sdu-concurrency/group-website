@@ -1,6 +1,7 @@
 [
   {
-    "title" : "Telephony Considered Harmful",
+    "title" : "Smart Mobility for All",
+    "id" : "SMAll",
     "participants" : [ 
       { 
         "name" : "John McCarthy ",
@@ -19,7 +20,8 @@
     "website" : "LINK",
     "number" : "#GR4N7",
     "period" : { "start" : "12-2018", "end" : "12-2019" },
-    "foundation" : "Wayne Foundation"
+    "foundation" : "Wayne Foundation",
+    "amount" : "100.000 dkk"
   },{
     "title" : "Telephony Considered Very Harmful",
     "participants" : [ 
@@ -48,7 +50,8 @@
     "website" : "LINK",
     "number" : "#GR4N7",
     "period" : { "start" : "12-2018", "end" : "12-2019" },
-    "foundation" : "Wayne Foundation"
+    "foundation" : "Wayne Foundation",
+    "amount" : "100.000 dkk"
   },{
     "title" : "Telephony Considered Super Harmful",
     "participants" : [ 
@@ -69,7 +72,8 @@
     "website" : "LINK",
     "number" : "#GR4N7",
     "period" : { "start" : "12-2018", "end" : "12-2019" },
-    "foundation" : "Wayne Foundation"
+    "foundation" : "Wayne Foundation",
+    "amount" : "100.000 dkk"
   },{
     "title" : "Telephony Considered Very-Super-Hyper Harmful",
     "participants" : [ 
@@ -90,6 +94,7 @@
     "website" : "LINK",
     "number" : "#GR4N7",
     "period" : { "start" : "12-2018", "end" : "12-2019" },
-    "foundation" : "Wayne Foundation"
+    "foundation" : "Wayne Foundation",
+    "amount" : "100.000 dkk"
   }, 
 ]

@@ -26,7 +26,7 @@ permalink: /first-post.html
 
 ### Adding publications
 
-Publications are added inside the `_data` folder, within the root, in files named with the prefix `papers_` and a year. E.g., file `papers_2017.json` is a json array `[ { object_1 }, { object_2 }, ... ]` that contains papers published in 2017. The schema for each `object` is
+Publications are added inside the `_data/papers` folder, within the root, in files named by year. E.g., file `2017.json` is a json array `[ { object_1 }, { object_2 }, ... ]` that contains papers published in 2017. The schema for each `object` is
 
 ```json
 {
@@ -41,22 +41,22 @@ Publications are added inside the `_data` folder, within the root, in files name
       }
     ],
     "tags" : [ "TAG1", "TAG2", "TAG3" ],
-    "member_authors" : [ "MEMBER1" , "MEMBER2" ],
+    "authors" : [ "MEMBER1" , "MEMBER2" ],
     "grants" : [ "G1" , "G2" ]
 }
 ```
 
 Where 
 
-- `TITLE` is the paper reference in some extended form, e.g., MLA, APA, etc.;
-- `BIBLINK` is the link to the bibitem (dblp, google scholar, self-hosted);
+- `BIBLINK` is the bibitem of the paper in linearised format (no new lines);
 - `"pdf"` contains a list of links to pdfs related to the publication. For each element, if the `"name"` attribute of the element is omitted, it will be visualised using the default name `paper`;
 - `"tags"` contains relevant tags/keywords for the paper, used by the by-keyword filter to select the related papers;
 - `"authors"` contains relevant the members in the PLS group that authored the paper. These are used by the by-author filter to select the related papers.
+- `"grants"` contains possible grants that supported the publication.
 
 ### Adding peoples
 
-People entries are also stored inside the `_data` folder, within the root, in json files named with the prefix `people_` followed by a name. The name is just a mnemonic handler and not visualised in the website. Each person follows the schema
+People entries are stored inside the `_data/people` folder, within the root, in json files. The name does not matter. Each person follows the schema
 
 ```json
 {
@@ -66,6 +66,7 @@ People entries are also stored inside the `_data` folder, within the root, in js
   "google_scholar" : "LINK",
   "orcid" : "LINK",
   "website" : "LINK",
+  "github" : "LINK",
   "bio" : "A SHORT BIO",
   "photo" : "LINK"
   "research_topics" : [ "TOPIC1", "TOPIC2" ]
@@ -76,22 +77,24 @@ People images can be included in the folder `images/people` under the root. To l
 
 ### Adding grants
 
-People entries are also stored inside the `_data` folder, within the root, in json files named with the prefix `grants_` followed by a name. The name is just a mnemonic handler and not visualised in the website. Each person follows the schema
+Grant entries are stored inside the `_data` folder, within the root, in a json file named `grants.json`. Each grant in the file follows the schema
 
 ```json
 {
   "title" : "NAME",
+  "id" : "NAME",
   "participants" : [ 
     { 
       "name" : "NAME",
       "role" : "ROLE",
       "affiliation" : "AFF" 
     }
-    , { /* PERSON2 */} ],
+    , { PERSON2 } ],
   "website" : "LINK",
-  "grant_no" : "STRING",
-  "period" : "STRING",
+  "number" : "STRING",
+  "period" : { "start": "STRING", "end": "STRING" }
   "foundation" : "STRING",
   "amount" : "STRING"
 }
 ```
+The fields above should be self-explanatory. `"id"` is used to add an `id` attribute in the grants page to link directly a specific grant from other pages.

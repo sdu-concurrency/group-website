@@ -17,7 +17,7 @@ A descriptive sentence.
 
 </header>
 
-<section class="wrapper style4 container">
+<section class="wrapper card style4 container">
 
 <div class="row">
 {% for person in site.data.people %}
@@ -33,40 +33,41 @@ A descriptive sentence.
 <div class="12u">{{ person.role }}</div>
 {%if person.website %}
 <div class="6u">
-    <a href="{{ person.website }}"><span class="icon fa-desktop"></span> Website</a>
+    <small><a class="nodec" href="{{ person.website }}"><span class="fa fa-desktop"></span> Website</a></small>
+</div><div class="6u">
+    <small><a class="nodec" href="/publications#author_{{ person.name }}"><span class="fa fa-list-ul"></span> PLS Pubs</a></small>
 </div>
 {% endif %}
 {%if person.orcid %}
 <div class="6u">
-    <a href="{{ person.orcid }}"><span class="icon fa-graduation-cap"></span> ORCID</a>
+    <small><a class="nodec" href="{{ person.orcid }}"><span class="ai ai-orcid"></span> ORCID</a></small>
 </div>
 {% endif %}
 {%if person.dblp %}
 <div class="6u">
-    <a href="{{ person.dblp }}"><span class="icon fa-list-ul"></span> DBLP</a>
+    <small><a class="nodec" href="{{ person.dblp }}"><span class="ai ai-dblp"></span> DBLP</a></small>
 </div>
 {% endif %}
 {%if person.google_scholar %}
 <div class="6u">
-    <a href="{{ person.google_scholar }}"><span class="icon fa-google"></span> Scholar</a>
+    <small><a class="nodec" href="{{ person.google_scholar }}"><span class="ai ai-google-scholar"></span> Scholar</a></small>
 </div>
 {% endif %}
 {%if person.github %}
 <div class="6u">
-    <a href="{{ person.github }}"><span class="icon fa-github"></span> Github</a>
+    <small><a class="nodec" href="{{ person.github }}"><span class="icon fa-github"></span> Github</a></small>
 </div>
 {% endif %}
 </div>
 </div>
 </div>
-<div class="12u">
-<h4>Short Bio</h4>
-<p>{{ person.bio }}</p>
+<div style="margin-top:1em;" class="-1u 9u">
+<p style="text-align: justify;" class="hyphenate"><small>{{ person.bio }}</small></p>
 </div>
-<div class="12u">
+<div style="margin-top:-1em; margin-bottom:2em;" class="12u">
   <small>Research Topics:
 {% for topic in person.research_topics %}
-<a href="/publications/#keyword_{{topic}}" class="nodec badge badge-light">{{ topic }}</a>
+<a class="nodec" href="/publications/#keyword_{{topic}}" class="nodec badge badge-light">{{ topic }}</a>
 {% endfor %}</small>
 </div>
 </div>

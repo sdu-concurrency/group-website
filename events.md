@@ -12,16 +12,20 @@ A descriptive sentence.
 
 <ul class="posts">
   {% for post in site.posts %}
-    <li class="wrapper style1">
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    {{ post.excerpt }}
-    <a href="{{ post.url }}">
-    <button class="btn btn-sm btn-primary">Read more</button>
-    </a>
-    <section class="special">
-    <ul class="buttons">
-    <li></li>
-    </ul>
+<li class="wrapper style1">
+<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+<div class="card">
+{{ post.excerpt }}
+<div>
+<a class="float-right nodec" href="{{ post.url }}">
+<button class="btn btn-sm btn-primary">Read more</button>
+</a>
+</div>
+</div>
+<section class="special">
+<ul class="buttons">
+<li></li>
+</ul>
 </section>
 </li>
 {% endfor %}
