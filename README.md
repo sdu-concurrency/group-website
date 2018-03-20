@@ -92,7 +92,7 @@ Grant entries are stored inside the `_data` folder, within the root, in a json f
   ],
   "website" : "LINK",
   "number" : "STRING",
-  "period" : { "start": "STRING", "end": "STRING" }
+  "period" : { "start": "STRING", "end": "STRING" },
   "foundation" : "STRING",
   "amount" : "STRING"
 }
