@@ -11,7 +11,7 @@ HTML tag.
 
 ### Writing event posts
 
-Event posts are found in `_posts` folder within the root. There, a post is a separate `.md` file named following the convention `dd-mm-yyyy-title.md`. The `title` is not important and the only constraint is that the first part of the name corresponds to a date formatted follow the previous rule.
+Event posts are found in `_posts` folder within the root. There, a post is a separate `.md` file named following the convention `yyyy-mm-dd-title.md`. The `title` is not important and the only constraint is that the first part of the name corresponds to a date formatted follow the previous rule.
 
 The header of each file follows the convention below, which is self-explanatory. In the main part of the post, please use the tag `<!--more-->` to set the limit of the post excerpt, used to preview the article.
 
