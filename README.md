@@ -68,7 +68,7 @@ People entries are stored inside the `_data/people` folder, within the root, in 
   "website" : "LINK",
   "github" : "LINK",
   "bio" : "A SHORT BIO",
-  "photo" : "LINK"
+  "photo" : "LINK",
   "research_topics" : [ "TOPIC1", "TOPIC2" ]
 }
 ```
@@ -89,7 +89,7 @@ Grant entries are stored inside the `_data` folder, within the root, in a json f
       "role" : "ROLE",
       "affiliation" : "AFF" 
     }
-    , { PERSON2 } ],
+  ],
   "website" : "LINK",
   "number" : "STRING",
   "period" : { "start": "STRING", "end": "STRING" }
