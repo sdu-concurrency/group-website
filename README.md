@@ -42,7 +42,8 @@ Publications are added inside the `_data/papers` folder, within the root, in fil
     ],
     "tags" : [ "TAG1", "TAG2", "TAG3" ],
     "authors" : [ "MEMBER1" , "MEMBER2" ],
-    "grants" : [ "G1" , "G2" ]
+    "grants" : [ "G1" , "G2" ],
+    "non_group" : FALSE
 }
 ```
 
@@ -51,8 +52,9 @@ Where
 - `BIBLINK` is the bibitem of the paper in linearised format (no new lines);
 - `"pdf"` contains a list of links to pdfs related to the publication. For each element, if the `"name"` attribute of the element is omitted, it will be visualised using the default name `paper`;
 - `"tags"` contains relevant tags/keywords for the paper, used by the by-keyword filter to select the related papers;
-- `"authors"` contains relevant the members in the PLS group that authored the paper. These are used by the by-author filter to select the related papers.
-- `"grants"` contains possible grants that supported the publication.
+- `"authors"` contains relevant the members in the PLS group that authored the paper. These are used by the by-author filter to select the related papers;
+- `"grants"` contains possible grants that supported the publication;
+- `"non_group"` is a flag (hence its related content is irrelevant) to mark the paper as not published by the group.
 
 ### Adding peoples
 
