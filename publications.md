@@ -13,23 +13,32 @@ A descriptive sentence.
 </header>
 
 	<section class="wrapper card style4 container">
+	{% assign data = site.data.papers %}
 		<!-- Content -->
 		<div class="row">
 			<div class="6u">
 				<div>Filter by keywords:</div>
 				<div><span class="filters" >
-					{% assign data = site.data.papers %}
 					{{ data | collectTags }}
 				</span></div>
 			</div>
 			<div class="6u">
 				<div>Filter by author:</div>
 				<span class="filters" >
-					{% assign data = site.data.papers %}
 					{{ data | collectAuthors }}
 				</span>
 			</div>
-		</div>
+			<div class="12u"><hr></div>
+			<div class="6u">
+				Display: <input id="display_papers" type="checkbox" checked data-toggle="toggle" data-on="All papers" data-off="PLS only" data-onstyle="info" data-offstyle="primary" data-size="small">
+		 	</div>
+			<div class="6u">
+				<div>Filter by publication type:</div>
+				<span class="filters" >
+					{{ data | collectTypes }}
+				</span>
+			</div>
+			</div>
 	</section>
 
 	<section class="wrapper card style4 container">
@@ -38,8 +47,7 @@ A descriptive sentence.
 				{% for item in site.data.papers %}
 
 				<div class="pub-year">
-					<h2 style="margin-top: -25px; background-color: white;width: 3em;
-    padding-left: 6px;">{{ item.year }}</h2>
+					<div style="margin-top: -20px; padding-bottom: 1em;"><span style="font-size: 1.5em; background-color: white; padding-left: 6px; padding-right: 6px;">{{ item.year }}</span></div>
 					<ul>
 						{% for paper in item.papers %}
 						<li>
@@ -81,6 +89,11 @@ A descriptive sentence.
 							{% for author in paper.authors %}
 							<span style="display: none;" class="badge badge-light">{{ author }}</span>
 							{% endfor %}
+							<span style="display: none;" class="badge badge-light">{{ paper.type }}</span>
+							{% if paper.non_group %}
+							<span style="display: none;" class="non_group" ></span>
+							{% endif %}
+							
 						</li>
 						{% endfor %}
 

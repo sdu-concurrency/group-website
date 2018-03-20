@@ -11,7 +11,6 @@ $(document).ready(function() {
 
     $(".bibitem_preview").click( function( e ) {
         $( "#bibitem_content_" + $( this ).attr( "id" ) ).toggle( 100 );
-        console.log( "clicked" );
         return false;
     });
 
@@ -26,9 +25,34 @@ $(document).ready(function() {
         return $( e ).attr('class').indexOf( selectedClass ) >= 0;
     };
 
+    var checkDisplay = function( e ){
+        var all_papers = $( "#display_papers" ).prop( 'checked' );
+        var non_group = $( e ).find( ".non_group" ).length;
+        if( !all_papers && non_group ){ $( e ).hide(); } else { $( e ).show(); }
+    };
+
+    var filterCollection = function( i, e ){
+        var papers = $( e ).find( "li" );
+        var items = $( papers ).length;
+        var hidden = 0;
+        $( papers ).each( function( i, el ) {
+            if( $( el ).css( "display" ) == "none" ){
+                hidden++;
+            }
+        });
+        console.log( "items: " + items + " hidden: " + hidden );
+        if( items == hidden ){
+            console.log( "hide " + $( e ).find( "h2" ).text() );
+            $( e ).hide();
+        } else {
+            console.log( "show " + $( e ).find( "h2" ).text() );
+            $( e ).show();
+        }
+    };
+
     var filterPapers = function( e ) {
         var updateClass = "";
-        if ( isSelected( this ) ) {
+        if ( $( this ).is( "button" ) && isSelected( this ) ) {
             updateClass = unselectedClass;
         } else {
             updateClass = selectedClass;
@@ -37,31 +61,33 @@ $(document).ready(function() {
 
         selectedTopics = new Set();
 
-        $.each($("." + selectedClass), function(i, e) {
-            selectedTopics.add($(e).text());
+        $.each( $( ".filters ." + selectedClass ), function( i, e ) {
+            selectedTopics.add( $( e ).text() );
         });
 
         var filterFunction;
-        if (selectedTopics.size == 0) {
+        if ( selectedTopics.size == 0 ) {
             filterFunction = function(i, e) {
-                $(e).show();
+                checkDisplay( e );
             }
         } else {
-            filterFunction = function(i, e) {
-                $(e).hide();
-                $(e).find(".badge").each(function(j, ie) {
-                    if (selectedTopics.has($(ie).text())) {
-                        $(e).show();
+            filterFunction = function( i, e ) {
+                $( e ).hide();
+                $( e ).find(".badge").each( function( j, ie ) {
+                    if ( selectedTopics.has( $( ie ).text() ) ) {
+                        checkDisplay( e );
                         return false;
                     }
                 });
             }
         }
 
-        $.each($("#papers li"), filterFunction);
-    }
+        $.each( $( "#papers li" ), filterFunction );
+        $.each( $( ".pub-year" ), filterCollection );
+    };
 
-    $(".btn-filter").click( filterPapers );
+    $( ".btn-filter" ).click( filterPapers );
+    $( "#display_papers" ).change( filterPapers );
 
     /* ---- FILTER FROM ADDRESS ---- */
 

@@ -7,12 +7,14 @@ module Jekyll
     class FiltersCollector
 
       def collectTags( data )
-        raise "received Nil data" unless !data.nil?
+        raise "received Nil data" unless not data.nil?
         topicsSet = Set.new()
         data.each do | item |
           item[ "papers" ].each do | paper |
             paper[ "tags" ].each do | tag |
-              topicsSet.add( tag )
+              if( (not tag.nil?) && tag.length > 0 )
+                topicsSet.add( tag )
+              end
             end
           end
         end
@@ -23,13 +25,33 @@ module Jekyll
         string
       end
 
+      def collectTypes( data )
+        raise "received Nil data" unless not data.nil?
+        typeSet = Set.new()
+        data.each do | item |
+          item[ "papers" ].each do | paper |
+            type = paper[ "type" ]
+            if( (not type.nil?) && type.length > 0 )
+              typeSet.add( type )
+            end
+          end
+        end
+        string = ""
+        typeSet.each do | tag |
+          string += "<button class=\"btn btn-sm btn-filter btn-light\">#{tag}</button><span> </span>"
+        end
+        string
+      end
+
       def collectAuthors( data )
-        raise "received Nil data" unless !data.nil?
+        raise "received Nil data" unless not data.nil?
         authorsSet = Set.new()
         data.each do | item |
           item[ "papers" ].each do | paper |
             paper[ "authors" ].each do | author |
-              authorsSet.add( author )
+              if( (not author.nil?) && author.length > 0 )
+                authorsSet.add( author )
+              end
             end
           end
         end
@@ -54,6 +76,11 @@ module Jekyll
       config = @context.registers[:site].config['collectAuthors'] || {}
       fc = FiltersCollector.new()
       fc.collectAuthors(data)
+    end
+    def collectTypes(data)
+      config = @context.registers[:site].config['collectTypes'] || {}
+      fc = FiltersCollector.new()
+      fc.collectTypes(data)
     end
   end
 end
