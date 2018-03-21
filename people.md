@@ -47,7 +47,7 @@ A descriptive sentence.
 </div>
 {% endif %}
 <div class="6u">
-    <small><a class="nodec" href="/publications#author_{{ person.name }}"><span class="fa fa-list-ul"></span> {{ group_short }} Pubs</a></small>
+    <small><a class="nodec" href="/publications#author_{{ person.name }}"><span class="fa fa-list-ul"></span> {{ site.group_short }} Pubs</a></small>
 </div>
 {%if person.orcid %}
 <div class="6u">
