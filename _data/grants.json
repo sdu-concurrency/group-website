@@ -1,100 +1,111 @@
 [
   {
-    "title" : "Smart Mobility for All",
-    "id" : "SMAll",
-    "participants" : [ 
-      { 
-        "name" : "John McCarthy ",
-        "role" : "Principal Investigator",
-        "affiliation" : "Princeton University" 
-      },{ 
-        "name" : "Corrado Böhm",
-        "role" : "Investigator",
-        "affiliation" : "University of Rome \"La Sapienza\"" 
-      },{ 
-        "name" : "Kristen Nygaard",
-        "role" : "Investigator",
-        "affiliation" : "University of Oslo" 
+    "title" : "Open Data Framework",
+    "id" : "ODF",
+    "participants" : [
+      {
+        "name" : "Fabrizio Montesi",
+        "role" : "PI",
+        "affiliation" : "University of Southern Denmark"
+      },
+      {
+        "name" : "Dalia Amor Conde",
+        "role" : "Co-PI",
+        "affiliation" : "University of Southern Denmark"
       }
     ],
-    "website" : "LINK",
-    "number" : "#GR4N7",
-    "period" : { "start" : "12-2018", "end" : "12-2019" },
-    "foundation" : "Wayne Foundation",
-    "amount" : "100.000 dkk"
-  },{
-    "title" : "Telephony Considered Very Harmful",
-    "participants" : [ 
-      { 
-        "name" : "John McCarthy ",
-        "role" : "Principal Investigator",
-        "affiliation" : "Princeton University" 
-      },{ 
-        "name" : "Corrado Böhm",
-        "role" : "Investigator",
-        "affiliation" : "University of Rome \"La Sapienza\"" 
-      },{ 
-        "name" : "Kristen Nygaard",
-        "role" : "Investigator",
-        "affiliation" : "University of Oslo" 
-      },{ 
-        "name" : "Kristen Nygaard",
-        "role" : "Investigator",
-        "affiliation" : "University of Oslo" 
-      },{ 
-        "name" : "Kristen Nygaard",
-        "role" : "Investigator",
-        "affiliation" : "University of Oslo" 
+    "_website" : "",
+    "_number" : "",
+    "period" : { "start" : "01-02-2017", "end" : "31-01-2019" },
+    "foundation" : "Max-Planck Odense Center, Species360, Odense Municipality, and University of Southern Denmark (Open Data Exploration strategic area)",
+    "amount" : "4,164,000 DKK"
+  },
+  {
+    "title" : "Online Algorithms and Cheminformatics Meet Concurrency",
+    "_id" : "",
+    "participants" : [
+      {
+        "name" : "Joan Boyar",
+        "role" : "PI",
+        "affiliation" : "University of Southern Denmark"
+      },
+      {
+        "name" : "Rolf Fagerberg",
+        "role" : "Co-PI",
+        "affiliation" : "University of Southern Denmark"
+      },
+      {
+        "name" : "Lene Monrad Favrholdt",
+        "role" : "Co-PI",
+        "affiliation" : "University of Southern Denmark"
+      },
+      {
+        "name" : "Kim Skak Larsen",
+        "role" : "Co-PI",
+        "affiliation" : "University of Southern Denmark"
+      },
+      {
+        "name" : "Daniel Merkle",
+        "role" : "Co-PI",
+        "affiliation" : "University of Southern Denmark"
+      },
+      {
+        "name" : "Fabrizio Montesi",
+        "role" : "Co-PI",
+        "affiliation" : "University of Southern Denmark"
       }
     ],
-    "website" : "LINK",
-    "number" : "#GR4N7",
-    "period" : { "start" : "12-2018", "end" : "12-2019" },
-    "foundation" : "Wayne Foundation",
-    "amount" : "100.000 dkk"
-  },{
-    "title" : "Telephony Considered Super Harmful",
-    "participants" : [ 
-      { 
-        "name" : "John McCarthy ",
-        "role" : "Principal Investigator",
-        "affiliation" : "Princeton University" 
-      },{ 
-        "name" : "Corrado Böhm",
-        "role" : "Investigator",
-        "affiliation" : "University of Rome \"La Sapienza\"" 
-      },{ 
-        "name" : "Kristen Nygaard",
-        "role" : "Investigator",
-        "affiliation" : "University of Oslo" 
+    "_website" : "",
+    "_number" : "",
+    "period" : { "start" : "01-07-2017", "end" : "31-06-2020" },
+    "foundation" : "Independent Research Fund Denmark - Nature and Universe",
+    "amount" : "1,382,962 DKK"
+  },
+  {
+    "title" : "Pseudoexon Risk Estimation Database and In silico Clinical Testing",
+    "id" : "PREDICT",
+    "participants" : [
+      {
+        "name" : "Brage Storstein Andresen",
+        "role" : "PI",
+        "affiliation" : "University of Southern Denmark"
+      },
+      {
+        "name" : "Maja Dembic",
+        "role" : "Co-PI",
+        "affiliation" : "University of Southern Denmark"
+      },
+      {
+        "name" : "Thomas Koed Doktor",
+        "role" : "Co-PI",
+        "affiliation" : "University of Southern Denmark"
+      },
+      {
+        "name" : "Fabrizio Montesi",
+        "role" : "Co-PI",
+        "affiliation" : "University of Southern Denmark"
       }
     ],
-    "website" : "LINK",
-    "number" : "#GR4N7",
-    "period" : { "start" : "12-2018", "end" : "12-2019" },
-    "foundation" : "Wayne Foundation",
-    "amount" : "100.000 dkk"
-  },{
-    "title" : "Telephony Considered Very-Super-Hyper Harmful",
-    "participants" : [ 
-      { 
-        "name" : "John McCarthy ",
-        "role" : "Principal Investigator",
-        "affiliation" : "Princeton University" 
-      },{ 
-        "name" : "Corrado Böhm",
-        "role" : "Investigator",
-        "affiliation" : "University of Rome \"La Sapienza\"" 
-      },{ 
-        "name" : "Kristen Nygaard",
-        "role" : "Investigator",
-        "affiliation" : "University of Oslo" 
+    "_website" : "",
+    "_number" : "",
+    "period" : { "start" : "01-02-2017", "end" : "31-01-2019" },
+    "foundation" : "University of Southern Denmark (Open Data Exploration strategic area)",
+    "amount" : "1,571,000 DKK"
+  },
+  {
+    "title" : "Choreographies for Reliable and efficient Communication software",
+    "id" : "CRC",
+    "participants" : [
+      {
+        "name" : "Fabrizio Montesi",
+        "role" : "PI",
+        "affiliation" : "University of Southern Denmark"
       }
     ],
-    "website" : "LINK",
-    "number" : "#GR4N7",
-    "period" : { "start" : "12-2018", "end" : "12-2019" },
-    "foundation" : "Wayne Foundation",
-    "amount" : "100.000 dkk"
-  }, 
+    "website" : "http://www.chor-lang.org",
+    "number" : "DFF 4005-00304",
+    "period" : { "start" : "01-08-2014", "end" : "31-07-2017" },
+    "foundation" : "Independent Research Fund Denmark - Technology and Production Sciences",
+    "amount" : "2,431,030 DKK"
+  }
 ]
