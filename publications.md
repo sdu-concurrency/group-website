@@ -55,15 +55,12 @@ A descriptive sentence.
 							{% assign id = id | plus: 1 %}
 							{{ paper.content }} 
 							| <small>
-								<a href="#" class="nodec bibitem_preview" id="{{ id }}" ><span class="bib"></span> bibitem</a></small>
-							{% for pdf in paper.pdf %}
-							| <small><a class="nodec" href="{{ pdf.link }}"><span class="pdf"></span> 
-								{% assign name = pdf.name %}
-								{% assign size = name | size %}
-								{% if size <= 0 %}
-								{% assign name = "paper" %}
-								{% endif %}
-							{{ name }}</a></small>
+								<a href="#" class="nodec bibitem_preview" id="{{ id }}" ><span class="fa fa-quote-right"></span> bibitem</a></small>
+							{% for link in paper.links %}
+							| <small><a class="nodec" href="{{ link.link }}">
+								{% assign name = link.name | default: "paper" %}
+								{% assign icon = link.icon | default: "fa fa-file-pdf"%}
+								<span class="{{icon}}"></span> {{ name }}</a></small>
 							{% endfor%}
 							| 
 							<small><a href="#" class="nodec abstract_preview" id="{{ id }}" ><span class="fa fa-align-left"></span> abstract</a></small>

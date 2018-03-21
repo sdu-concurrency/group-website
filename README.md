@@ -31,10 +31,11 @@ Publications are added inside the `_data/papers` folder, within the root, in fil
 ```json
 {
     "bibitem": "BIB_CONTENT",
-    "pdf": [
+    "links": [
       { 
         "link" : "PAPERLINK", 
-        "name" : "PAPERLINK_NAME" 
+        "name" : "PAPERLINK_NAME",
+        "icon" : "PAPERLINK_ICON" 
       }, 
       {
         "link" : "PAPERLINK"
@@ -50,7 +51,7 @@ Publications are added inside the `_data/papers` folder, within the root, in fil
 Where 
 
 - `BIBLINK` is the bibitem of the paper in linearised format (no new lines);
-- `"pdf"` contains a list of links to pdfs related to the publication. For each element, if the `"name"` attribute of the element is omitted, it will be visualised using the default name `paper`;
+- `"links"` contains a list of links related to the publication. For each element, if the `"name"` attribute of the element is omitted, it will be visualised using the default name `paper` and if the `"icon"` attribute of the element is omitted, it will be visualised using the default font-awesome pdf icon `fa fa-pdf`;
 - `"tags"` contains relevant tags/keywords for the paper, used by the by-keyword filter to select the related papers;
 - `"authors"` contains relevant the members in the PLS group that authored the paper. These are used by the by-author filter to select the related papers;
 - `"grants"` contains possible grants that supported the publication;

@@ -25,11 +25,11 @@ A descriptive sentence.
 <div class="6u">
 <div class="row">
 <div class="5u">
-<img class="img-thumbnail" src="{{person.photo}}" alt="">
+<img style="max-height: 10em;" class="img-thumbnail" src="{{person.photo}}" alt="">
 </div>
 <div class="7u">
 <div class="row">
-<div class="12u"><strong>{{ person.name }}</strong></div>
+<div id="{{person.id}}" class="12u"><strong>{{ person.name }}</strong></div>
 <div class="12u">{{ person.role }}</div>
 {%if person.website %}
 <div class="6u">
@@ -82,6 +82,10 @@ A descriptive sentence.
 {% endfor %}</small>
 </div>
 </div>
+{% assign index = forloop.index | modulo: 2 %}
+{% if index == 0 %}
+</div><div class="row">
+{% endif %}
 {% endfor %}
 </div>
 

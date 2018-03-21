@@ -1,0 +1,12 @@
+{
+  "name" : "Marco Peressotti",
+  "role" : "Post-doctoral Researcher",
+  "id" : "mp",
+  "dblp" : "p/Marco:Peressotti",
+  "google_scholar" : "LINK",
+  "orcid" : "LINK",
+  "github" : "LINK",
+  "website" : "http://wwww.professorprofessorson.com",
+  "photo" : "/images/people/professorson.jpg",
+  "research_topics" : [ "microservices", "security", "smart cities" ]
+}

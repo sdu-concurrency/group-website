@@ -1,0 +1,12 @@
+{
+  "name" : "Jacopo Mauro",
+  "role" : "Associate Professor",
+  "id" : "jm",
+  "dblp" : "m/Jacopo:Mauro",
+  "google_scholar" : "LINK",
+  "orcid" : "LINK",
+  "github" : "LINK",
+  "website" : "http://wwww.professorprofessorson.com",
+  "photo" : "/images/people/professorson.jpg",
+  "research_topics" : [ "microservices", "security", "smart cities" ]
+}

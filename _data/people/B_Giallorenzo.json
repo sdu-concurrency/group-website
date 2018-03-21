@@ -1,0 +1,12 @@
+{
+  "name" : "Saverio Giallorenzo",
+  "role" : "Post-doctoral Researcher",
+  "id" : "sg",
+  "dblp" : "g/Saverio:Giallorenzo",
+  "google_scholar" : "LINK",
+  "orcid" : "LINK",
+  "github" : "LINK",
+  "website" : "http://wwww.professorprofessorson.com",
+  "photo" : "/images/people/professorson.jpg",
+  "research_topics" : [ "microservices", "security", "smart cities" ]
+}

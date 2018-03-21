@@ -1,0 +1,12 @@
+{
+  "name" : "Larisa Safina",
+  "role" : "PhD Student",
+  "id" : "ls",
+  "dblp" : "s/Larisa:Safina",
+  "google_scholar" : "LINK",
+  "orcid" : "LINK",
+  "github" : "LINK",
+  "website" : "http://wwww.professorprofessorson.com",
+  "photo" : "/images/people/professorson.jpg",
+  "research_topics" : [ "microservices", "security", "smart cities" ]
+}
