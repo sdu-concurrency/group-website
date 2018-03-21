@@ -9,7 +9,7 @@ permalink: /microservices-community.html
 
 During the discussion panels at [Microservices2017](/microservices-2017.html), participants recognised the importance of constituting a communal place where international people from research institutions, private companies, universities, and public organisations (like municipalities) can share knowledge and foster collaborations about microservices.
 
-Prompted by this observation, the organisers of [Microservices2017](/microservices-2017.html) in PLS put forward the initiative of [Microservices Community](http://microservices.sdu.dk/), with the support of [SDU](https://www.sdu.dk/en). 
+Prompted by this observation, the organisers of [Microservices2017](/microservices-2017.html) in {{ site.group_short }} put forward the initiative of [Microservices Community](http://microservices.sdu.dk/), with the support of [SDU](https://www.sdu.dk/en). 
 
 <!--more-->
 

@@ -30,7 +30,7 @@ A descriptive sentence.
 			</div>
 			<div class="12u"><hr></div>
 			<div class="6u">
-				Display: <input id="display_papers" type="checkbox" checked data-toggle="toggle" data-on="All papers" data-off="PLS only" data-onstyle="info" data-offstyle="primary" data-size="small">
+				Display: <input id="display_papers" type="checkbox" checked data-toggle="toggle" data-on="All papers" data-off="{{ group_short }} only" data-onstyle="info" data-offstyle="primary" data-size="small">
 		 	</div>
 			<div class="6u">
 				<div>Filter by publication type:</div>
