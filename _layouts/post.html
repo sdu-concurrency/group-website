@@ -5,7 +5,12 @@ layout: default
   <article id="main">
   <header class="major container">
     <h2 class="post-title">{{ page.title }}</h2>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <p class="post-meta">
+			{% if page.place %}{{ page.place }}, {% endif %}
+			{{ page.date | date: "%b %-d, %Y" }}
+			{% if page.date-end %} - {{ page.date-end | date: "%b %-d, %Y" }}{% endif %}
+			{% if page.author %} • {{ page.author }}{% endif %}
+			{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
 
   <section class="style4 card wrapper container">
