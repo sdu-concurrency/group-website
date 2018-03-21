@@ -34,28 +34,39 @@ A descriptive sentence.
 {%if person.website %}
 <div class="6u">
     <small><a class="nodec" href="{{ person.website }}"><span class="fa fa-desktop"></span> Website</a></small>
-</div><div class="6u">
-    <small><a class="nodec" href="/publications#author_{{ person.name }}"><span class="fa fa-list-ul"></span> PLS Pubs</a></small>
 </div>
 {% endif %}
+{%if person.email %}
+<div class="6u">
+    <small><a class="nodec" href="mailto:{{ person.email }}"><span class="fas fa-envelope"></span> E-mail</a></small>
+</div>
+{% endif %}
+{%if person.phone %}
+<div class="6u">
+    <small><a class="nodec" href="tel:{{ person.phone }}"><span class="fas fa-phone"></span> {{ person.phone }}</a></small>
+</div>
+{% endif %}
+<div class="6u">
+    <small><a class="nodec" href="/publications#author_{{ person.name }}"><span class="fa fa-list-ul"></span> PLS Pubs</a></small>
+</div>
 {%if person.orcid %}
 <div class="6u">
-    <small><a class="nodec" href="{{ person.orcid }}"><span class="ai ai-orcid"></span> ORCID</a></small>
+    <small><a class="nodec" href="https://orcid.org/{{ person.orcid }}"><span class="ai ai-orcid"></span> ORCID</a></small>
 </div>
 {% endif %}
 {%if person.dblp %}
 <div class="6u">
-    <small><a class="nodec" href="{{ person.dblp }}"><span class="ai ai-dblp"></span> DBLP</a></small>
+    <small><a class="nodec" href="https://dblp.uni-trier.de/pers/hd/{{ person.dblp }}"><span class="ai ai-dblp"></span> DBLP</a></small>
 </div>
 {% endif %}
 {%if person.google_scholar %}
 <div class="6u">
-    <small><a class="nodec" href="{{ person.google_scholar }}"><span class="ai ai-google-scholar"></span> Scholar</a></small>
+    <small><a class="nodec" href="https://scholar.google.com/citations?user={{ person.google_scholar }}"><span class="ai ai-google-scholar"></span> Scholar</a></small>
 </div>
 {% endif %}
 {%if person.github %}
 <div class="6u">
-    <small><a class="nodec" href="{{ person.github }}"><span class="icon fa-github"></span> Github</a></small>
+    <small><a class="nodec" href="https://github.com/{{ person.github }}"><span class="icon fa-github"></span> Github</a></small>
 </div>
 {% endif %}
 </div>
