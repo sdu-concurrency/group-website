@@ -1,32 +1,28 @@
 ---
 layout: post
-title:  "First International Conference on Microservices"
+title:  "Creation of the Microservices Community"
 place: Odense
-date:   2017-10-25
-date-end:   2017-10-26
-permalink: /microservices-2017.html
+date:   2017-10-30
+permalink: /microservices-community.html
 ---
-<span class="image featured"><img src="/images/posts/microservices-2017-group.jpg" alt=""></span>
+<img class="img-fluid mx-auto d-block" src="/images/posts/microservices-community.png">
 
-On October 25th, PLS members [Luís Cruz-Felipe](/people#lcf), [Fabrizio Montesi](/people#fmontesi), [Saverio Giallorenzo](/people#sg), and [Marco Peressotti](/people#mp) with the collaboration of Barbara Tvede Andersen and Ronald Jabangwe
+During the discussion panels at [Microservices2017](/microservices-2017.html), participants recognised the importance of constituting a communal place where international people from research institutions, private companies, universities, and public organisations (like municipalities) can share knowledge and foster collaborations about microservices.
 
-The [International Conference on Microservices](http://conf-micro.services/) is a forum for the discussion of all aspects of designing and programming microservice architectures. Both theoretical and experimental contributions are welcome, on topics ranging from formal frameworks to industrial experience reports and demonstrations.
+Prompted by this observation, the organisers of [Microservices2017](/microservices-2017.html) in PLS put forward the initiative of [Microservices Community](http://microservices.sdu.dk/), with the support of [SDU](https://www.sdu.dk/en). 
 
 <!--more-->
 
-In microservices, software components are services that can be independently deployed and scaled. This brings all the benefits, but also all the issues, of distributed computing to the internals of applications. The resulting increase in complexity calls for a proportional improvement of techniques for software construction. This requires contributions from different areas, ranging from formal methods to software engineering and the general art of programming.
+The main activities of the initiative comprise:
 
-The event will place particular emphasis on the identification of the challenges that the community of microservices will face in the future, promising directions, and open discussions (panels) with experts from academia and industry.
+- the organise the International Conference on Microservices once a year (http://conf-micro.services), which acts also as a recurring opportunity for the physical gathering of the community;
 
-Topics of interest include (but are not limited to):
+- supporting the organisation of focused events on microservices. Examples include: technical workshops on industrial technologies, national meetings (like the Italian Meeting on Microservices), and academic forums;
 
-* Design and implementation of microservice architectures.
-* Empirical studies of microservices.
-* Software engineering methods for microservices.
-* Security in microservices.
-* Formal models for microservices.
-* Verification (both static and runtime) of microservice systems.
-* Programming languages and techniques for microservices.
-* Testing for microservices.
+- providing funding opportunities for travelling and the organisation of events in general;
 
-For more information, see the [conference website](http://conf-micro.services/).
+- publishing open access material on microservices, either through the website as informal publications (white papers), or through more formal channels (like edited books with chapters from multiple authors, or journals);
+
+- provide resources for the digital platform of the community, including this website.
+
+Several institutions and companies [quickly joined](http://microservices.sdu.dk/#members) the young yet growing community.

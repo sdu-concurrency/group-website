@@ -9,7 +9,6 @@
     "tags" : [ "Microservices", "Security", "Smart Cities" ],
     "authors" : [ "Saverio Giallorenzo" , "Fabrizio Montesi", "Larisa Safina" ],
     "type" : "Conference",
-    "non_group" : false,
-    "grants" : [ "SMAll" ]
+    "non_group" : false
   }
 ]
