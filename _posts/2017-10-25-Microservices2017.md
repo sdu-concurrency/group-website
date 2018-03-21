@@ -8,7 +8,7 @@ permalink: /microservices-2017.html
 ---
 <img class="img-fluid mx-auto d-block" src="/images/posts/microservices-2017-group.jpg">
 
-The [International Conference on Microservices](http://conf-micro.services/) is a forum for the discussion of all aspects of designing and programming microservice architectures. Both theoretical and experimental contributions are welcome, on topics ranging from formal frameworks to industrial experience reports and demonstrations.
+{{ site.group_short }} organised the first [International Conference on Microservices](http://conf-micro.services/) with the aim to provide a forum for the discussion of all aspects of designing and programming microservice architectures. Both theoretical and experimental contributions are welcome, on topics ranging from formal frameworks to industrial experience reports and demonstrations.
 
 <!--more-->
 
