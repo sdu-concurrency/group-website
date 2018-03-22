@@ -100,7 +100,7 @@ $(document).ready(function() {
             filter = filter.substring( 7 );
         }
         $( ".btn-filter" ).each( function(i, e) {
-            if( $( e ).text().toLowerCase() == filter ){
+            if( $( e ).text().toLowerCase() == filter.toLowerCase() ){
                 $( e ).trigger( 'click' );
                 return false;
             }
