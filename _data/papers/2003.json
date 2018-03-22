@@ -8,7 +8,8 @@
     "authors": [ "Luís Cruz-Filipe" ],
     "abstract": "We have finished a constructive formalization in the theorem prover Coq of the Fundamental Theorem of Calculus, which states that differentiation and integration are inverse processes.  In this formalization, we have closely followed Bishop's work [1]. In this paper, we describe the formalization in some detail, focusing on how some of Bishop's original proofs had to be refined, adapted or redone from scratch.<br />[1] Bishop, E., <em>Foundations of Constructive Analysis</em>, McGraw-Hill Book Company, 1967.",
     "non_group" : true,
-  },
+  }
+    ,
   {
     "bibitem": "@inproceedings{CS03, author = {Cruz-Filipe, Lu{\'\i}s and Spitters, Bas}, booktitle = {Theorem Proving in Higher Order Logics, 16th International Conference, TPHOLs 2003}, editor = {Basin, David A. and Wolff, Burkhart}, month = sep, doi = {10.1007/10930755\_14}, pages = {205--220}, publisher = {Springer}, series = {LNCS}, title = {Program Extraction from Large Proof Developments}, volume = 2758, year = 2003",
     "pdf": [
