@@ -1,0 +1,34 @@
+[  
+  {
+    "bibitem": "@inproceedings{CEGN2013, author = {Cruz-Filipe, Lu{\\'\\i}s and Engr{\\' a}cia, Patr{\\'\\i}cia and Gaspar, Gra{\\c c}a and Nunes, Isabel}, booktitle = {2013 International Symposium on Theoretical Aspects of Software Engineering, Birmingham, UK, July 1st--July 3rd 2013}, editor = {Wang, Hai and Banach, Richard}, month = jul, doi = {10.1109/TASE.2013.32}, pages = {183--190}, publisher = {IEEE}, title = {Computing Repairs from Active Integrity Constraints}, year = 2013}",
+    "pdf": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper10.pdf" },
+    ],
+    "tags": [ "Database Repair" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "Repairing an inconsistent knowledge base is a well-known problem for which several solutions have been proposed and implemented in the past.  In this paper, we start by looking at databases with active integrity constraints &ndash; consistency requirements that also indicate how the database should be updated when they are not met &ndash; as introduced by Caroprese et al.  We show that the different kinds of repairs considered by those authors can be effectively computed by searching for leaves of specific kinds of trees.  Although these computations are in general not very efficient (deciding the existence of a repair for a given database with active integrity constraints is NP-complete), on average the algorithms we present make significant reductions on the number of nodes in the search tree.  Finally, these algorithms also give an operational characterization of different kinds of repairs that can be used when we extend the concept of active integrity constraints to the more general setting of knowledge bases.",
+    "non_group" : true,
+  }
+,
+  {
+    "bibitem": "@inproceedings{CNG2013, author = {Cruz-Filipe, Lu{\\'\\i}s and Nunes, Isabel and Gaspar, Gra{\\c c}a}, booktitle = {KEOD 2013 Proceedings of the International Conference on Knowledge Engineering and Ontology Development, Vilamoura, Algarve, Portugal, 19-22 September, 2013}, editor = {Filipe, Joaquim and Dietz, Jan}, month = sep, doi = {10.5220/0004544100580069}, pages = {58--69}, publisher = {SCITEPRESS}, title = {Patterns for Interfacing between Logic Programs and Multiple Ontologies}, year = 2013}",
+    "pdf": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper11.pdf" },
+    ],
+    "tags": [ "Knowledge Representation" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "Originally proposed in the mid-90s, design patterns for software development played a key role in object-oriented programming not only in increasing software quality, but also by giving a better understanding of the power and limitations of this paradigm.  Since then, several authors have endorsed a similar task for other programming paradigms, in the hope of achieving similar benefits.<br />In this paper we discuss design patterns for hybrid semantic web systems combining several description logic knowledge bases via a logic program.  We introduce eight design patterns, grouped in three categories: three elementary patterns, which are the basic building blocks; four derived patterns, built from these; and a more complex pattern, the study of which can shed some insight in future syntactic developments of the underlying framework.  These patterns are extensively applied in a natural way in a large-scale example that illustrates how their usage greatly simplifies some programming tasks, at the level of both development and extension.<br />We work in a generalization of dl-programs that supports several (possibly different) description logics, but the results presented are easily adaptable to other existing frameworks such as multi-context systems.",
+    "non_group" : true,
+  }
+,
+  {
+    "bibitem": "@inproceedings{CHN2013b, author = {Cruz-Filipe, Lu{\\'\\i}s and Henriques, Rita and Nunes, Isabel}, booktitle = {Logic for Programming, Artificial Intelligence, and Reasoning, 19th International Conference, LPAR-19, Stellenbosch, South Africa, December 2013, Proceedings}, editor = {McMillan, Kenneth L. and Middeldorp, Aart and Voronkov, Andrei}, month = dec, doi = {10.1007/978-3-642-45221-5\\_18}, pages = {243--257}, publisher = {Springer}, series = {LNCS}, title = {Description Logics, Rules and Multi-context Systems}, volume = 8312, year = 2013}",
+    "pdf": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper12.pdf" },
+    ],
+    "tags": [ "Knowledge Representation" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "The combination of rules and ontologies has been a fertile topic of research in the last years, with the proposal of several different systems that achieve this goal.  In this paper, we look at two of these mechanisms, Mdl-programs and multi-context systems, which address different aspects of this combination, and include different, incomparable programming constructs.  Despite this, we show that every Mdl-program can be transformed in a multi-context system, and this transformation relates the different semantics for each paradigm in a natural way.  As an application, we show how a set of design patterns for multi-context systems can be obtained from previous work on Mdl-programs.",
+    "non_group" : true,
+  }
+]

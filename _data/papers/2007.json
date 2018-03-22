@@ -1,6 +1,6 @@
 [  
   {
-    "bibitem": "@article{CCMS07, author = {Chadha, Rohit and Cruz-Filipe, Lu{\'\i}s and Mateus, Paulo and Sernadas, Am{\'\i}lcar}, journal = {Theoretical Computer Science}, month = jun, doi = {10.1016/j.tcs.2007.02.040}, number = {1--2}, pages = {142--165}, publisher = {Elsevier}, title = {Reasoning about Probabilistic Sequential Programs}, volume = 379, year = 2007}",
+    "bibitem": "@article{CCMS07, author = {Chadha, Rohit and Cruz-Filipe, Lu{\\'\\i}s and Mateus, Paulo and Sernadas, Am{\\'\\i}lcar}, journal = {Theoretical Computer Science}, month = jun, doi = {10.1016/j.tcs.2007.02.040}, number = {1--2}, pages = {142--165}, publisher = {Elsevier}, title = {Reasoning about Probabilistic Sequential Programs}, volume = 379, year = 2007}",
     "pdf": [
       { "link" : "http://tinyurl.com/lcfilipe/pubs/paper06.pdf" },
     ],
