@@ -64,7 +64,7 @@
 
   var linearise = function(){
     var source = $( "#source" ).val();
-    source = source.replace( /\n|\s{2,}/g, " " );
+    source = source.replace( /\n|\t|\s{2,}/g, " " );
     $( "#destination" ).val( source );
     copyToClipboard( source );
     $( "#result" )
