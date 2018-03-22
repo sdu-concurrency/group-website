@@ -6,15 +6,14 @@ layout: default
 <article id="main">
   <style type="text/css">
     .software_row {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display:         flex;
-    }
-    .software {
       display: flex;
-      flex-direction: column;
     }
+    
+    .software {
+      flex: 1; /* additionally, equal width */
+      padding: 1em;
+    }
+    
     .software+.software {
       border-left: 1px solid #dee2e6;
     }

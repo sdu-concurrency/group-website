@@ -5,16 +5,15 @@ layout: default
 <!-- Main -->
 <article id="main">
   <style type="text/css">
-    .grants_row {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-    }
-    .grant{
+    .row  {
       display: flex;
-      flex-direction: column;
     }
+
+    .grant {
+      flex: 1; /* additionally, equal width */
+      padding: 1em;
+    }
+
     .grant+.grant {
       border-left: 1px solid #dee2e6;
     }
@@ -37,8 +36,12 @@ A descriptive sentence.
 <h2 id="{{ grant.id }}">{{ grant.title }}</h2>
 <ul>
 <li><strong>Duration</strong>: from {{ grant.period.start }} to {{ grant.period.end }}</li>
+{% if grant.website %}
 <li><strong>Website</strong>: <a href="{{ grant.website }}" title="">{{ grant.website}}</a></li>
+{% endif %}
+{% if grant.number %}
 <li><strong>Grant number</strong>: {{ grant.number }}</li>
+{% endif %}
 <li><strong>Foundation</strong>: {{ grant.foundation }}</li>
 <li><strong>Amount</strong>: {{ grant.amount }}</li>
 </ul>
