@@ -9,7 +9,10 @@ module Jekyll
     def addYear( file, papers )
       tmp = JSON.parse( File.read( file ) )
       tmp.each { |item|
-        b = BibTeX.parse(item["bibitem"])
+        bibitem = item["bibitem"].gsub("\\\\","\\")
+        b = BibTeX.parse( bibitem )
+        b[0].delete("doi")
+        b[0].title = "<span class=\"paper-title\">#{b[0].title}</span>"
         cp = CiteProc::Processor.new style: 'apa', format: 'text'
         cp.import b.to_citeproc
         item["content"] = cp.bibliography().references[0]

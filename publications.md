@@ -2,6 +2,15 @@
 layout: default
 ---
 <script src="/js/publications.js" type="text/javascript" charset="utf-8"></script>
+<style>
+.paper-title{
+	font-weight: 500;
+}
+.paper {
+	font-size: 11pt;
+	line-height: 1.4;
+}
+</style>
 <!-- Main -->
 <article id="main">
 
@@ -50,11 +59,14 @@ A descriptive sentence.
 					<div style="margin-top: -20px; padding-bottom: 1em;"><span style="font-size: 1.5em; background-color: white; padding-left: 6px; padding-right: 6px;">{{ item.year }}</span></div>
 					<ul>
 						{% for paper in item.papers %}
-						<li>
+						<li class="mb-4">
 							<div>
 							{% assign id = id | plus: 1 %}
-							{{ paper.content }} 
-							| <small>
+							<div class="paper">
+							{{ paper.content }}
+							</div>
+							<div>
+							<small>
 								<a href="#" class="nodec bibitem_preview" id="{{ id }}" ><span class="fa fa-quote-right"></span> bibitem</a></small>
 							{% for link in paper.links %}
 							| <small><a class="nodec" href="{{ link.link }}">
@@ -64,6 +76,7 @@ A descriptive sentence.
 							{% endfor%}
 							| 
 							<small><a href="#" class="nodec abstract_preview" id="{{ id }}" ><span class="fa fa-align-left"></span> abstract</a></small>
+							</div>
 							</div>
 							{% assign g_size = paper.grants | size %}
 							{% if g_size > 0 %}
