@@ -3,6 +3,7 @@ source "https://rubygems.org"
 group :jekyll_plugins do
   gem 'jekyll'
   gem 'json'
+  gem 'titleize'
   gem 'unicode_utils'
   gem 'bibtex-ruby'
   gem 'citeproc-ruby'

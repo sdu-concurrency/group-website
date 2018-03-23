@@ -23,7 +23,7 @@ module Jekyll
           end
       }
       item["links"] = links
-      bibitem = item["bibitem"].gsub("\\\\","\\")
+      bibitem = item["bibitem"]#.gsub("\\\\","\\")
       b = BibTeX.parse( bibitem ).convert(:latex)
         # use the the bib url if item does not specify a link for the paper
         unless b[0]["url"].nil? || links.any?{ |h| h["name"] == "paper" || h["name"] == nil}
@@ -33,7 +33,10 @@ module Jekyll
         end
         # use the the bib doi if item does not specify one
         unless b[0]["doi"].nil? || links.any?{ |h| h["name"] == "doi"}
-          links.insert(0, { "link" => "https://doi.org/" << b[0].doi, "name" => "doi", "icon" => "ai ai-doi" })
+          links.insert(0, { 
+						"link" => "https://doi.org/" << b[0].doi.gsub("\\",""), 
+						"name" => "doi", 
+						"icon" => "ai ai-doi" })
         end
         b[0].delete("doi")
         b[0].delete("url")

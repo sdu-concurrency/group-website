@@ -2,12 +2,13 @@
   {
     "bibitem": "@inproceedings{gabbrielli2018language,title={A Language-based Approach for Interoperability of IoT Platforms},author={Gabbrielli, Maurizio and Giallorenzo, Saverio and Lanese, Ivan and Zingaro, Stefano Pio},booktitle={Proceedings of the 51st Hawaii International Conference on System Sciences},year={2018}}",
     "links": [ 
-      { "link" : "http://somesite.com" }, 
-      { "name" : "website", "link" : "http://www.cs.unibo.it/projects/jolie/jiot.html", "icon" : "fa fa-desktop" } 
+      { "link" : "http://www.saveriogiallorenzo.com/publications/hicss2018/" }, 
+      { "name" : "website", "link" : "http://www.cs.unibo.it/projects/jolie/jiot.html", "icon" : "website" } 
     ],
     "abstract": "The Internet of Things (IoT) promotes the communication among heterogeneous entities, from small sensors to Cloud systems. However, this is realized using a wide range of communication media and data protocols, usually incompatible with each other. Thus, IoT systems tend to grow as homogeneous isolated platforms, which hardly interact. To achieve a higher degree of interoperability among disparate IoT platforms, we propose a language-based approach for communication technology integration. We build on the Jolie programming language, which allows programmers to easily make the same logic work over disparate communication stacks in a declarative, dynamic way. Jolie currently supports the main technologies from Service-Oriented Computing, such as TCP/IP, Bluetooth, and RMI at transport level, and HTTP and SOAP at application level. As technical result, we integrate in Jolie the two most adopted protocols for IoT communication, i.e., CoAP and MQTT. In this paper, we report our experience and we present high-level concepts valuable both for the general implementation of interoperable systems and for the development of other language-based solutions.",
     "tags" : [ "Microservices", "Internet of Things", "Integration" ],
     "authors" : [ "Saverio Giallorenzo" ],
-    "non_group" : true
+    "non_group" : true,
+    "type" : "Chapter"
   }
 ]
