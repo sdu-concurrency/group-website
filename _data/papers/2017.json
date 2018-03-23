@@ -12,7 +12,7 @@
     "non_group" : false
   },
   {
-    "bibitem": "@inproceedings{MMP17a,  author = {Mansutti, Alessio and  Miculan, Marino and  Peressotti, Marco},  editor = {Seidl, Martina and  Zschaler, Steffen},  title = {Loose Graph Simulations},  booktitle = {Software Technologies: Applications and Foundations - {STAF} 2017  Collocated Workshops, Marburg, Germany, July 17-21, 2017, Revised  Selected Papers},  series = {Lecture Notes in Computer Science},  volume = {10748},  pages = {109--126},  publisher = {Springer},  year = {2017},  doi = {10.1007/978-3-319-74730-9_9} }",
+    "bibitem": "@inproceedings{MMP17a,  author = {Mansutti, Alessio and  Miculan, Marino and  Peressotti, Marco},  editor = {Seidl, Martina and  Zschaler, Steffen},  title = {Loose Graph Simulations},  booktitle = {Software Technologies: Applications and Foundations - {STAF} 2017  Collocated Workshops, Marburg, Germany, July 17-21, 2017, Revised  Selected Papers},  series = {Lecture Notes in Computer Science},  volume = {10748},  pages = {109--126},  publisher = {Springer},  year = {2017},  doi = {10.1007/978-3-319-74730-9\\_9} }",
     "links": [ 
       { "name" : "technical report", 
         "link" : "http://arxiv.org/abs/1705.08241",

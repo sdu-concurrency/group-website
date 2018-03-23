@@ -1,5 +1,5 @@
 [{
-    "bibitem": "@inproceedings{CW04, author = {Cruz-Filipe, Lu{\\'\\i}s and Wiedijk, Freek}, booktitle = {Theorem Proving in Higher Order Logics, 17th International Conference, TPHOLs 2004}, editor = {Slind, Konrad and Bunker, Annette and Gopalakrishnan, Ganesh}, month = sep, doi = {10.1007/978-3-540-30142-4\_5}, pages = {66--81}, publisher = {Springer}, series = {LNCS}, title = {Hierarchical Reflection}, volume = 3223, year = 2004}",
+    "bibitem": "@inproceedings{CW04, author = {Cruz-Filipe, Lu{\\'\\i}s and Wiedijk, Freek}, booktitle = {Theorem Proving in Higher Order Logics, 17th International Conference, TPHOLs 2004}, editor = {Slind, Konrad and Bunker, Annette and Gopalakrishnan, Ganesh}, month = sep, doi = {10.1007/978-3-540-30142-4\\_5}, pages = {66--81}, publisher = {Springer}, series = {LNCS}, title = {Hierarchical Reflection}, volume = 3223, year = 2004}",
     "links": [{
       "link": "http://tinyurl.com/lcfilipe/pubs/paper03.pdf"
     }],
@@ -10,7 +10,7 @@
     "type": "conference"
   },
   {
-    "bibitem": "@inproceedings{CGW04, author ={Cruz-Filipe, Lu{\\'\\i}s and Geuvers, Herman and Wiedijk, Freek}, booktitle ={Mathematical Knowledge Management, Third International Conference, MKM 2004}, editor ={Asperti, Andrea and Bancerek, Grzegorz and Trybulec, Andrzej}, month = sep, doi ={10.1007/978-3-540-27818-4\_7}, pages ={88--103}, publisher ={Springer}, series ={LNCS}, title ={C-CoRN: the Constructive Coq Repository at Nijmegen}, volume = 3119, year = 2004}",
+    "bibitem": "@inproceedings{CGW04, author ={Cruz-Filipe, Lu{\\'\\i}s and Geuvers, Herman and Wiedijk, Freek}, booktitle ={Mathematical Knowledge Management, Third International Conference, MKM 2004}, editor ={Asperti, Andrea and Bancerek, Grzegorz and Trybulec, Andrzej}, month = sep, doi ={10.1007/978-3-540-27818-4\\_7}, pages ={88--103}, publisher ={Springer}, series ={LNCS}, title ={C-CoRN: the Constructive Coq Repository at Nijmegen}, volume = 3119, year = 2004}",
     "links": [{
       "link": "http://tinyurl.com/lcfilipe/pubs/paper04.pdf"
     }],
