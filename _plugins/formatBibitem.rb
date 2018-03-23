@@ -6,12 +6,7 @@ module Jekyll
 
       def formatBibitem( data )
         raise "received Nil data" unless !data.nil?
-        content = data.scan(/\w+\s*=\s*{.+?}/)
-        formatted = "#{data[0, data.index(",")]}"
-        content.each { | item |  
-          formatted = "#{formatted},\n #{item}"
-        }
-        formatted = "#{formatted}\n}"
+        BibTeX.parse( data ).to_s
       end
     end
   end
