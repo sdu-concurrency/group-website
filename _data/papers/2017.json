@@ -10,5 +10,18 @@
     "authors" : [ "Saverio Giallorenzo" , "Fabrizio Montesi", "Larisa Safina" ],
     "type" : "Conference",
     "non_group" : false
-  }
+  },
+	{
+		"bibitem": "@inproceedings{MMP17a,  author = {Mansutti, Alessio and  Miculan, Marino and  Peressotti, Marco},  editor = {Seidl, Martina and  Zschaler, Steffen},  title = {Loose Graph Simulations},  booktitle = {Software Technologies: Applications and Foundations - {STAF} 2017  Collocated Workshops, Marburg, Germany, July 17-21, 2017, Revised  Selected Papers},  series = {Lecture Notes in Computer Science},  volume = {10748},  pages = {109--126},  publisher = {Springer},  year = {2017},  url = {https://doi.org/10.1007/978-3-319-74730-9_9},  doi = {10.1007/978-3-319-74730-9_9} }",
+		"links": [ 
+			{ "name" : "technical report", 
+				"link" : "http://arxiv.org/abs/1705.08241",
+				"icon" : "ai ai-arxiv"}
+		],
+		"abstract": "Recently, unifying theories for processes combining non-determinism with quantitative aspects (such as probabilistic or stochastically timed executions) have been proposed with the aim of providing general results and tools. This paper provides two contributions in this respect. First, we present a general GSOS specification format and a corresponding notion of bisimulation for non-deterministic processes with quantitative aspects. These specifications define labelled transition systems according to the ULTraS model, an extension of the usual LTSs where the transition relation associates any source state and transition label with state reachability weight functions (like, e.g., probability distributions). This format, hence called Weight Function GSOS (WF-GSOS), covers many known systems and their bisimulations (e.g. PEPA, TIPP, PCSP) and GSOS formats (e.g. GSOS, Weighted GSOS, Segala-GSOS). <br/> The second contribution is a characterization of these systems as coalgebras of a class of functors, parametric in the weight structure. This result allows us to prove soundness and completeness of the WF-GSOS specification format, and that bisimilarities induced by these specifications are always congruences.",
+		"tags" : [ "Graph Theory" ],
+		"authors" : [ "Marco Peressotti" ],
+		"type" : "Journal",
+		"non_group" : true
+	}
 ]
