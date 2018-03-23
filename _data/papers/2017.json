@@ -48,7 +48,7 @@
     "type": "Chapter",
     "non_group": false
   }, {
-    "bibitem": "@inproceedings{CGMP17,  author = {Franco Callegati and  Saverio Giallorenzo and  Andrea Melis and  Marco Prandini},  title = {Insider Threats in Emerging Mobility-as-a-Service Scenarios},  booktitle = {50th Hawaii International Conference on System Sciences, {HICSS} 2017,  Hilton Waikoloa Village, Hawaii, USA, January 4-7, 2017},  year = {2017},  crossref = {DBLP:conf/hicss/2017},  url = {http://aisel.aisnet.org/hicss-50/eg/insider_threat/4},  timestamp = {Thu, 18 May 2017 12:28:39 +0200},  biburl = {https://dblp.org/rec/bib/conf/hicss/MelisPGC17},  publisher = {{AIS} Electronic Library (AISeL)},  bibsource = {dblp computer science bibliography, https://dblp.org} }",
+    "bibitem": "@inproceedings{CGMP17,  author = {Franco Callegati and  Saverio Giallorenzo and  Andrea Melis and  Marco Prandini},  title = {Insider Threats in Emerging Mobility-as-a-Service Scenarios},  booktitle = {50th Hawaii International Conference on System Sciences, {HICSS} 2017,  Hilton Waikoloa Village, Hawaii, USA, January 4-7, 2017},  year = {2017},  url = {http://aisel.aisnet.org/hicss-50/eg/insider_threat/4},  timestamp = {Thu, 18 May 2017 12:28:39 +0200},  biburl = {https://dblp.org/rec/bib/conf/hicss/MelisPGC17},  publisher = {{AIS} Electronic Library (AISeL)},  bibsource = {dblp computer science bibliography, https://dblp.org} }",
     "links": [{
       "link": "http://www.saveriogiallorenzo.com/publications/hicss2017/"
     }],
