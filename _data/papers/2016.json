@@ -1,0 +1,60 @@
+[  
+	{
+		"bibitem": "@article{MP2016a,  author = {Marino Miculan and  Marco Peressotti},  title = {Structural operational semantics for non-deterministic processes with  quantitative aspects},  journal = {Theor. Comput. Sci.},  volume = {655},  pages = {135--154},  year = {2016},  url = {https://doi.org/10.1016/j.tcs.2016.01.012},  doi = {10.1016/j.tcs.2016.01.012} }",
+		"links": [ 
+			{ "name" : "technical report", 
+				"link" : "https://arxiv.org/abs/1410.0893",
+				"icon" : "ai ai-arxiv"}
+		],
+		"abstract": "Recently, unifying theories for processes combining non-determinism with quantitative aspects (such as probabilistic or stochastically timed executions) have been proposed with the aim of providing general results and tools. This paper provides two contributions in this respect. First, we present a general GSOS specification format and a corresponding notion of bisimulation for non-deterministic processes with quantitative aspects. These specifications define labelled transition systems according to the ULTraS model, an extension of the usual LTSs where the transition relation associates any source state and transition label with state reachability weight functions (like, e.g., probability distributions). This format, hence called Weight Function GSOS (WF-GSOS), covers many known systems and their bisimulations (e.g. PEPA, TIPP, PCSP) and GSOS formats (e.g. GSOS, Weighted GSOS, Segala-GSOS). <br/> The second contribution is a characterization of these systems as coalgebras of a class of functors, parametric in the weight structure. This result allows us to prove soundness and completeness of the WF-GSOS specification format, and that bisimilarities induced by these specifications are always congruences.",
+		"tags" : [ "Coalgebras", "Quantitative Semantics", "Behavioural Theory" ],
+		"authors" : [ "Marco Peressotti" ],
+		"type" : "Journal",
+		"non_group" : true
+	},
+  {
+    "bibitem": "@InProceedings{BP2017a,  author = {Tomasz Brengos and Marco Peressotti},  title = {A Uniform Framework for Timed Automata},  booktitle = {27th International Conference on Concurrency Theory (CONCUR 2016)},  pages = {26:1--26:15},  series = {Leibniz International Proceedings in Informatics (LIPIcs)},  ISBN = {978-3-95977-017-0},  ISSN = {1868-8969},  year = {2016},  volume = {59},  editor = {Jos{\\'e}e Desharnais and Radha Jagadeesan},  publisher = {Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},  URN = {urn:nbn:de:0030-drops-61690},  doi = {10.4230/LIPIcs.CONCUR.2016.26}}",
+    "links": [ 
+      { "link" : "http://drops.dagstuhl.de/opus/volltexte/2016/6169/pdf/LIPIcs-CONCUR-2016-26.pdf"}
+    ],
+    "abstract": "Timed automata, and machines alike, currently lack a general mathematical characterisation. In this paper we provide a uniform coalgebraic understanding of these devices. This framework encompasses known behavioural equivalences for timed automata and paves the way for the extension of these notions to new timed behaviours and for the instantiation of established results from the coalgebraic theory as well. Key to this work is the use of lax functors for they allow us to model time flow as a context property and hence offer a general and expressive setting where to study timed systems: the index category encodes \"how step sequences form executions\" (e.g. whether steps duration get accumulated or kept distinct) whereas the base category encodes \"step nature and composition\" (e.g. non-determinism and labels). Finally, we develop the notion of general saturation for lax functors and show how equivalences of interest for timed behaviours are instances of this notion. This characterisation allows us to reason about the expressiveness of said notions within a uniform framework and organise them in a spectrum independent from the behavioural aspects encoded in the base category.",
+    "tags" : [ "Coalgebras", "Quantitative Semantics", "Behavioural Theory" ],
+    "authors" : [ "Marco Peressotti" ],
+    "type" : "Conference",
+    "non_group" : true
+  },
+	{
+    "bibitem": "@inproceedings{MP2016b,  author = {Marino Miculan and  Marco Peressotti},  editor = {Vittorio Bil{\\`{o}} and  Antonio Caruso},  title = {On the Bisimulation Hierarchy of State-to-Function Transition Systems},  booktitle = {Proceedings of the 17th Italian Conference on Theoretical Computer  Science, Lecce, Italy, September 7-9, 2016.},  series = {{CEUR} Workshop Proceedings},  volume = {1720},  pages = {88--102},  publisher = {CEUR-WS.org},  year = {2016},  url = {http://ceur-ws.org/Vol-1720/full7.pdf}}",
+    "links": [ 
+      { "link" : "http://ceur-ws.org/Vol-1720/full7.pdf"}
+    ],
+    "abstract": "Weighted labelled transition systems (WLTSs) are an established (meta-)model aiming to provide general results and tools for a wide range of systems such as non-deterministic, stochastic, and probabilistic systems. In order to encompass processes combining several quantitative aspects, extensions of the WLTS framework have been further proposed, state-to-function transition systems (FuTSs) and uniform labelled transition systems (ULTraSs) being two prominent examples. In this paper we show that this hierarchy of meta-models collapses when studied under the lens of bisimulation-coherent encodings.",
+    "tags" : [ "Coalgebras", "Quantitative Semantics", "Behavioural Theory" ],
+    "authors" : [ "Marco Peressotti" ],
+    "type" : "Conference",
+    "non_group" : true
+  },
+  {
+		"bibitem": "@inproceedings{DDPT16a,  author = {De Nart, Dario and  Degl'Innocenti, Dante and  Peressotti, Marco and  Tasso, Carlo},  editor = {Maristella Agosti and  Marco Bertini and  Stefano Ferilli and  Simone Marinai and  Nicola Orio},  title = {Stratifying Semantic Data for Citation and Trust: An Introduction  to {RDFDF}},  booktitle = {Digital Libraries and Multimedia Archives - 12th Italian Research  Conference on Digital Libraries, {IRCDL} 2016, Florence, Italy, February  4-5, 2016, Revised Selected Papers},  series = {Communications in Computer and Information Science},  volume = {701},  pages = {104--111},  year = {2016}, doi = {10.1007/978-3-319-56300-8_10} }",
+		"links": [],
+		"abstract": "In this paper we analyse the functional requirements of linked data citation and identify a minimal set of operations and primitives needed to realise such task. Citing linked data implies solving a series of data provenance issues and finding a way to identify data subsets. Those two tasks can be handled defining a simple type system inside data and verifying it with a type checker, which is significantly less complex than interpreting reified RDF statements and can be implemented in a non data invasive way. Finally we suggest that data citation should be handled outside of the data, and propose a simple language to describe RDF documents where separation between data and metainformation is explicitly specified.",
+		"tags" : [ "Digital Libraries" ],
+		"authors" : [ "Marco Peressotti" ],
+		"type" : "Conference",
+		"non_group" : true
+	},
+	{
+		"bibitem": "@article{DDP16,  author = {De Nart, Dario and  Degl'Innocenti, Dante and  Peressotti, Marco},  title = {Well-Stratified Linked Data for Well-Behaved Data Citation},  journal = {{TCDL} Bulletin},  volume = {12},  number = {1},  year = {2016},  url = {http://www.ieee-tcdl.org/Bulletin/v12n1/papers/IEEE-TCDL-DC-2016_paper_2.pdf}}",
+		"links": [
+			{"link": "http://www.ieee-tcdl.org/Bulletin/v12n1/papers/IEEE-TCDL-DC-2016_paper_2.pdf"},
+			{ "name" : "technical report", 
+				"link" : "https://arxiv.org/abs/1512.02898",
+				"icon" : "ai ai-arxiv"}
+		],
+		"abstract": "In this paper we analyse the functional requirements of linked data citation and identify a minimal set of operations and primitives needed to realise such task. Citing linked data implies solving a series of data provenance issues and finding a way to identify data subsets. Those two tasks can be handled defining a simple type system inside data and verifying it with a type checker, which is significantly less complex than interpreting reified RDF statements and can be implemented in a non data invasive way. Finally we suggest that data citation should be handled outside of the data, possibly with an ad hoc language.",
+		"tags" : [ "Digital Libraries" ],
+		"authors" : [ "Marco Peressotti" ],
+		"type" : "Journal",
+		"non_group" : true
+	}
+]
