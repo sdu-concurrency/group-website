@@ -1,0 +1,79 @@
+[  
+  {
+    "bibitem": "@inproceedings{CCS15, author = {Codish, Michael and Cruz-Filipe, Lu{\\'\\i}s and Schneider-Kamp, Peter}, booktitle = {Language and Automata Theory and Applications -- 9th International Conference, {LATA} 2015, Nice, France, March 2-6, 2015, Proceedings}, editor = {Dediu, Adrian-Horia and Formenti, Enrico and Mart{\\'\\i}n{-}Vide, Carlos and Truthe, Bianca}, doi = {10.1007/978-3-319-15579-1\\_52}, pages = {664--675}, publisher = {Springer}, series = {LNCS}, title = {Sorting networks: the end game}, volume = 8977, year = 2015}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper18.pdf" }
+    ],
+    "tags": [ "Sorting Networks" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "This paper studies properties of the back end of a sorting network and illustrates the utility of these in the search for networks of optimal size or depth. All previous works focus on properties of the front end of networks and on how to apply these to break symmetries in the search. The new properties help shed understanding on how sorting networks sort and speed-up solvers for both optimal size and depth by an order of magnitude.",
+    "non_group" : true,
+    "type": "conference"
+  },
+  {
+    "bibitem": "@article{CF15, author = {Cruz-Filipe, Lu{\\'\\i}s and Ferreira, Fernando}, title = {The Finitistic Consistency of Heck's Predicative Fregean System}, journal = {Notre-Dame Journal of Formal Logic}, volume = 56, number = 1, pages = {61--79}, year = 2015}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper19.pdf" }
+    ],
+    "tags": [ "Logic" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "Frege's theory is inconsistent (Russell's paradox). However, the predicative version of Frege's system is consistent. This was proved by Richard Heck in 1996 using a model theoretic argument. In this paper, we give a finitistic proof of this consistency result. As a consequence, Heck's predicative theory is rather weak (as was suspected). We also prove the finitistic consistency of the extension of Heck's theory to &Delta;<sup>1</sup><sub>1</sub>-comprehension and of Heck's ramified predicative second-order system.",
+    "non_group" : true,
+    "type": "journal"
+  },
+  {
+    "bibitem": "@inproceedings{CGN15, author = {Cruz-Filipe, Lu{\\'\\i}s and Gaspar, Gra{\\c c}a and Nunes, Isabel}, booktitle = {Knowledge Discovery, Knowledge Engineering and Knowledge Management}, editor = {Fred, Ana and Dietz, Jan L.G. and Liu, Kecheng and Filipe, Joaquim}, doi = {10.1007/978-3-662-46549-3\\_13}, pages = {199--214}, publisher = {Springer}, series = {CCIS}, title = {Design Patterns for Description-logic Programs}, volume = 454, year = 2015}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper20.pdf" }
+    ],
+    "tags": [ "Knowledge Representation" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "Originally proposed in the mid-90s, design patterns for software development played a key role in object-oriented programming not only in increasing software quality, but also by giving a better understanding of the power and limitations of this paradigm. Since then, several authors have endorsed a similar task for other programming paradigms, in the hope of achieving similar benefits.<br />In this paper we present a set of design patterns for Mdl-programs, a hybrid formalism combining several description logic knowledge bases via a logic program. These patterns are extensively applied in a natural way in a large-scale example that illustrates how their usage greatly simplifies some programming tasks, at the level of both development and extension.<br />We also discuss some limitations of this formalism, examining some usual patterns in other programming paradigms that have no parallel in Mdl-programs.",
+    "non_group" : true,
+    "type": "conference"
+  },
+  {
+    "bibitem": "@inproceedings{CS15a, author = {Cruz-Filipe, Lu{\\'\\i}s and Schneider-Kamp, Peter}, booktitle = {Intelligent Computer Mathematics -- International Conference, {CICM} 2015, Washington, DC, USA, July 13-17, 2015, Proceedings}, editor = {Kerber, Manfred and Carette, Jacques and Kaliszyk, Cezary and Rabe, Florian and Sorge, Volker}, doi = {10.1007/978-3-319-20615-8\\_4}, pages = {55--70}, publisher = {Springer}, series = {LNAI}, title = {Optimizing a Certified Proof Checker for a Large-Scale Computer-Generated Proof}, volume = 9150, year = 2015}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper21.pdf" }
+    ],
+    "tags": [ "Formal Proofs", "Sorting Networks" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "In recent work, we formalized the theory of optimal-size sorting networks with the goal of extracting a verified checker for the large-scale computer-generated proof that 25 comparisons are optimal when sorting 9 inputs, which required more than a decade of CPU time and produced 27 GB of proof witnesses.  The checker uses an untrusted oracle based on these witnesses and is able to verify the smaller case of 8 inputs within a couple of days, but it did not scale to the full proof for 9 inputs.<br />In this paper, we describe several non-trivial optimizations of the algorithm in the checker, obtained by appropriately changing the formalization and capitalizing on the symbiosis with an adequate implementation of the oracle. We provide experimental evidence of orders of magnitude improvements to both runtime and memory footprint for 8 inputs, and actually manage to check the full proof for 9 inputs.",
+    "non_group" : true,
+    "type": "conference"
+  },
+  {
+    "bibitem": "@inproceedings{CS15b, author = {Cruz-Filipe, Lu{\\'\\i}s and Schneider-Kamp, Peter}, booktitle = {Interactive Theorem Proving -- 6th International Conference, {ITP} 2015, Nanjing, China, August 24-27, 2015, Proceedings}, editor = {Urban, Christian and Zhang, Xingyuan}, doi = {10.1007/978-3-319-22102-1\\_10}, pages = {154--169}, publisher = {Springer}, series = {LNCS}, title = {Formalizing Size-Optimal Sorting Networks: Extracting a Certified Proof Checker}, volume = 9236, year = 2015}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper22.pdf" }
+    ],
+    "tags": [ "Formal Proofs", "Sorting Networks" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "Since the proof of the four color theorem in 1976, computer-generated proofs have become a reality in mathematics and computer science. During the last decade, we have seen formal proofs using verified proof assistants being used to verify the validity of such proofs.<br />In this paper, we describe a formalized theory of size-optimal sorting networks. From this formalization we extract a certified checker that successfully verifies computer-generated proofs of optimality on up to 8 inputs. The checker relies on an untrusted oracle to shortcut the search for witnesses on more than 1.6 million NP-complete subproblems.",
+    "non_group" : true,
+    "type": "conference"
+  },
+  {
+    "bibitem": "@inproceedings{CFHLNS15, author = {Cruz-Filipe, Lu{\\'\\i}s and Franz, Michael and Hakhverdyan, Artavazd and Ludovico, Marta and Nunes, Isabel and Schneider-Kamp, Peter}, booktitle = {Proceedings of the 7th International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management (IC3K2015)}, editor = {Fred, Ana and Dietz, Jan and Aveiro, David and Liu, Kecheng and Filipe, Joaquim}, month = nov, doi = {10.5220/0005586400170026}, pages = {17--26}, publisher = {SCITEPRESS}, title = {{repAIrC}: A Tool for Ensuring Data Consistency by Means of Active Integrity Constraints}, volume = 3, year = 2015}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper23.pdf" }
+    ],
+    "tags": [ "Database Repair" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "Consistency of knowledge repositories is of prime importance in organization management. Integrity constraints are a well-known vehicle for specifying data consistency requirements in knowledge bases; in particular, active integrity constraints go one step further, allowing the specification of preferred ways to overcome inconsistent situations in the context of database management.<br />This paper describes a tool to validate an SQL database with respect to a given set of active integrity constraints, proposing possible repairs in case the database is inconsistent. The tool is able to work with the different kinds of repairs proposed in the literature, namely simple, founded, well-founded and justified repairs. It also implements strategies for parallelizing the search for them, allowing the user both to compute partitions of independent or stratified active integrity constraints, and to apply these partitions to find repairs of inconsistent databases efficiently in parallel.",
+    "non_group" : true,
+    "type": "conference"
+  },
+  {
+    "bibitem": "@inproceedings{CCNS15, author = {Michael Codish and Lu{\\'\\i}s Cruz-Filipe and Markus Nebel and Peter Schneider-Kamp}, title = {Applying Sorting Networks to Synthesize Optimized Sorting Libraries}, pages = {127--142}, doi = {10.1007/978-3-319-27436-2_8}, editor = {Moreno Falaschi}, booktitle = {Logic-Based Program Synthesis and Transformation -- 25th International Symposium, {LOPSTR} 2015, Siena, Italy, July 13--15, 2015. Revised Selected Papers}, series = {LNCS}, volume = 9527, publisher = {Springer}, year = 2015, doi = {10.1007/978-3-319-27436-2}}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper24.pdf" }
+    ],
+    "tags": [ "Sorting Networks" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "This paper shows an application of the theory of sorting networks to facilitate the synthesis of optimized general purpose sorting libraries. Standard sorting libraries are often based on combinations of the classic Quicksort algorithm with insertion sort applied as the base case for small fixed numbers of inputs. Unrolling the code for the base case by ignoring loop conditions eliminates branching and results in code which is equivalent to a sorting network. This enables the application of further program transformations based on sorting network optimizations, and eventually the synthesis of code from sorting networks. We show that if considering the number of comparisons and swaps then theory predicts no real advantage of this approach. However, significant speed-ups are obtained when taking advantage of instruction level parallelism and non-branching conditional assignment instructions, both of which are common in modern CPU architectures. We provide empirical evidence that using code synthesized from efficient sorting networks as the base case for Quicksort libraries results in significant real-world speed-ups.",
+    "non_group" : true,
+    "type": "conference"
+  },
+]
