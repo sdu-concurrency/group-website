@@ -33,7 +33,7 @@
     "non_group": true
   },
   {
-    "bibitem": "@article{CGMP17, title = \"Cloud-of-Things meets Mobility-as-a-Service: An insider threat perspective\", journal = \"Computers & Security\", volume = \"74\", pages = \"277 - 295\", year = \"2018\", issn = \"0167-4048\", doi = \"https://doi.org/10.1016/j.cose.2017.10.006\", url = \"http://www.sciencedirect.com/science/article/pii/S0167404817302134\", author = \"Franco Callegati and Saverio Giallorenzo and Andrea Melis and Marco Prandini\", keywords = \"Mobility-as-a-Service, Federated platforms, Insider threat, Cloud-of-Things, Internet-of-Things\" }",
+    "bibitem": "@article{CGMP17b, title = \"Cloud-of-Things meets Mobility-as-a-Service: An insider threat perspective\", journal = \"Computers & Security\", volume = \"74\", pages = \"277 - 295\", year = \"2018\", issn = \"0167-4048\", doi = \"https://doi.org/10.1016/j.cose.2017.10.006\", url = \"http://www.sciencedirect.com/science/article/pii/S0167404817302134\", author = \"Franco Callegati and Saverio Giallorenzo and Andrea Melis and Marco Prandini\", keywords = \"Mobility-as-a-Service, Federated platforms, Insider threat, Cloud-of-Things, Internet-of-Things\" }",
     "links": [ { "link" : "http://www.saveriogiallorenzo.com/publications/cs2017/" } ],
     "abstract": "Mobility-as-a-Service (MaaS) applies the everything-as-a-service paradigm of Cloud Computing to transportation: a MaaS provider offers to its users the dynamic composition of solutions of different travel agencies into a single, consistent interface. Traditionally, transits and data on mobility belong to a scattered plethora of operators. Thus, we argue that the economic model of MaaS is that of federations of providers, each trading its resources to coordinate multi-modal solutions for mobility. Such flexibility comes with many security and privacy concerns, of which insider threat is one of the most prominent. In this paper, we revise and extend previous work where we classified the potential threats of individual operators and markets of federated MaaS providers, proposing appropriate countermeasures to mitigate the problems. In addition, we consider the emerging case of Cloud-of-Things (CoT) for mobility, i.e., networks of ubiquitous, pervasive devices that provide real-time data on objects and people. Automation and pervasiveness of CoT make an additional attack surface for insiders. In an effort to limit such phenomenon, we present an overlay networking architecture, based on gossip protocols, that lets users share information on mobility with each other. A peculiarity of the architecture is that it both constrains the quality and quantity of data obtainable by insiders, optimizing the routing of requests to involve only users that are able to answer them.",
     "tags": [ "Smart Cities", "Internet of Things", "Security", "Microservices" ],
@@ -57,6 +57,15 @@
     "tags": [ "Choreographic Programming", "Microservices" ],
     "authors": ["Saverio Giallorenzo"],
     "type": "Chapter",
+    "non_group": true
+  },
+  {
+    "bibitem": "@inproceedings{CGMP17a,  author = {Franco Callegati and  Saverio Giallorenzo and  Andrea Melis and  Marco Prandini},  title = {Insider Threats in Emerging Mobility-as-a-Service Scenarios},  booktitle = {50th Hawaii International Conference on System Sciences, {HICSS} 2017,  Hilton Waikoloa Village, Hawaii, USA, January 4-7, 2017},  year = {2017},  crossref = {DBLP:conf/hicss/2017},  url = {http://aisel.aisnet.org/hicss-50/eg/insider_threat/4},  timestamp = {Thu, 18 May 2017 12:28:39 +0200},  biburl = {https://dblp.org/rec/bib/conf/hicss/MelisPGC17}, publisher = {{AIS} Electronic Library (AISeL)}, bibsource = {dblp computer science bibliography, https://dblp.org} }",
+    "links": [ { "link" : "http://www.saveriogiallorenzo.com/publications/hicss2017/" } ],
+    "abstract": "Mobility as a Service (MaaS) applies the everything-as- a-service paradigm of Cloud Computing to transportation: a MaaS provider offers to its users the dynamic composition of solutions of different travel agencies into a single, consistent interface. Traditionally, transits and data on mobility belong to a scattered plethora of operators. Thus, we argue that the economic model of MaaS is that of federations of providers, each trading its resources to coordinate multi-modal solutions for mobility. Such flexibility comes with many security and privacy concerns, of which insider threat is one of the most prominent. In this paper, we follow a tiered structure — from individual operators to markets of federated MaaS providers — to classify the potential threats of each tier and propose the appropriate countermeasures, in an effort to mitigate the problems.",
+    "tags": [ "Security", "Microservices", "Smart Cities" ],
+    "authors": ["Saverio Giallorenzo"],
+    "type": "Conference",
     "non_group": true
   }
 ]
