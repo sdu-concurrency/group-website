@@ -40,12 +40,9 @@ $(document).ready(function() {
                 hidden++;
             }
         });
-        console.log( "items: " + items + " hidden: " + hidden );
         if( items == hidden ){
-            console.log( "hide " + $( e ).find( "h2" ).text() );
             $( e ).hide();
         } else {
-            console.log( "show " + $( e ).find( "h2" ).text() );
             $( e ).show();
         }
     };
@@ -62,7 +59,7 @@ $(document).ready(function() {
         selectedTopics = new Set();
 
         $.each( $( ".filters ." + selectedClass ), function( i, e ) {
-            selectedTopics.add( $( e ).text() );
+            selectedTopics.add( $( e ).text().toLowerCase() );
         });
 
         var filterFunction;
@@ -74,7 +71,7 @@ $(document).ready(function() {
             filterFunction = function( i, e ) {
                 $( e ).hide();
                 $( e ).find(".badge").each( function( j, ie ) {
-                    if ( selectedTopics.has( $( ie ).text() ) ) {
+                    if ( selectedTopics.has( $( ie ).text().toLowerCase() ) ) {
                         checkDisplay( e );
                         return false;
                     }

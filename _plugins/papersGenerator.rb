@@ -8,9 +8,21 @@ module Jekyll
 
     def addYear( file, papers, iconMap )
       tmp = JSON.parse( File.read( file ) )
-      tmp.each { |item|
+      hashMap = Hash.new
+      tmp.each { | item | 
+        bibitem = item[ "bibitem" ]
+        id = bibitem[ bibitem.index( "{" )+1..bibitem.index( "," )-1 ]
+        hashMap[ id ] = item
+      }
+
+      # extract key from bibitem
+      # create map key -> bibitem
+      # tmp.sort.each
+
+      hashMap.sort.each { | item |
+        item = item[1]
         links = item["links"] || Array.new
-        links.each { |link|
+        links.each { | link |
           unless link["name"].nil?
             link["name"].downcase!
           end
@@ -29,7 +41,8 @@ module Jekyll
         unless b[0]["url"].nil? || links.any?{ |h| h["name"] == "paper" || h["name"] == nil}
           links.insert(0, { 
             "link" => b[0].url, "name" => "paper", 
-            "icon" => (b[0].url.end_with?(".pdf") ? iconMap["pdf"] : iconMap["generic"] ) })
+            "icon" => (b[0].url.end_with?(".pdf") ? iconMap["pdf"] : iconMap["generic"] ) 
+          })
         end
         # use the the bib doi if item does not specify one
         unless b[0]["doi"].nil? || links.any?{ |h| h["name"] == "doi"}
