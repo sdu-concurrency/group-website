@@ -1,6 +1,7 @@
 # coding: utf-8
 
 require 'set'
+require 'titleize'
 
 module Jekyll
   module FiltersCollector
@@ -13,7 +14,7 @@ module Jekyll
           item[ "papers" ].each do | paper |
             paper[ "tags" ].each do | tag |
               if( (not tag.nil?) && tag.length > 0 )
-                topicsSet.add( tag )
+                topicsSet.add( tag.downcase.titleize )
               end
             end
           end
@@ -32,7 +33,7 @@ module Jekyll
           item[ "papers" ].each do | paper |
             type = paper[ "type" ]
             if( (not type.nil?) && type.length > 0 )
-              typeSet.add( type )
+              typeSet.add( type.downcase.titleize )
             end
           end
         end
@@ -50,7 +51,7 @@ module Jekyll
           item[ "papers" ].each do | paper |
             paper[ "authors" ].each do | author |
               if( (not author.nil?) && author.length > 0 )
-                authorsSet.add( author )
+                authorsSet.add( author.downcase.titleize )
               end
             end
           end
