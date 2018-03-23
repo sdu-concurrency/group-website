@@ -1,7 +1,7 @@
 [  
   {
     "bibitem": "@article{CL06, author = {Cruz-Filipe, Lu{\\'\\i}s and Letouzey, Pierre}, booktitle = {Proceedings of the 12th Symposium on the Integration of Symbolic Computation and Mechanized Reasoning (Calculemus 2005)}, editor = {Carette, Jacques and Farmer, William M.}, month = {mar}, doi = {10.1016/j.entcs.2005.11.024}, number = {1}, pages = {75--91}, publisher = {Elsevier}, journal = {Electronic Notes in Computer Science}, title = {A Large-Scale Experiment in Executing Extracted Programs}, volume = {151}, year = {2006}}",
-    "pdf": [
+    "links": [
       { "link" : "http://tinyurl.com/lcfilipe/pubs/paper05.pdf" }
     ],
     "tags": [ "Formal Proofs" ],

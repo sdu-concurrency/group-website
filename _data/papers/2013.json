@@ -1,6 +1,6 @@
 [{
     "bibitem": "@inproceedings{CEGN2013, author = {Cruz-Filipe, Lu{\\'\\i}s and Engr{\\' a}cia, Patr{\\'\\i}cia and Gaspar, Gra{\\c c}a and Nunes, Isabel}, booktitle = {2013 International Symposium on Theoretical Aspects of Software Engineering, Birmingham, UK, July 1st--July 3rd 2013}, editor = {Wang, Hai and Banach, Richard}, month = jul, doi = {10.1109/TASE.2013.32}, pages = {183--190}, publisher = {IEEE}, title = {Computing Repairs from Active Integrity Constraints}, year = 2013}",
-    "pdf": [{
+    "links": [{
       "link": "http://tinyurl.com/lcfilipe/pubs/paper10.pdf"
     }],
     "tags": ["Database Repair"],
@@ -10,7 +10,7 @@
   },
   {
     "bibitem": "@inproceedings{CNG2013, author = {Cruz-Filipe, Lu{\\'\\i}s and Nunes, Isabel and Gaspar, Gra{\\c c}a}, booktitle = {KEOD 2013 Proceedings of the International Conference on Knowledge Engineering and Ontology Development, Vilamoura, Algarve, Portugal, 19-22 September, 2013}, editor = {Filipe, Joaquim and Dietz, Jan}, month = sep, doi = {10.5220/0004544100580069}, pages = {58--69}, publisher = {SCITEPRESS}, title = {Patterns for Interfacing between Logic Programs and Multiple Ontologies}, year = 2013}",
-    "pdf": [{
+    "links": [{
       "link": "http://tinyurl.com/lcfilipe/pubs/paper11.pdf"
     }],
     "tags": ["Knowledge Representation"],
@@ -20,7 +20,7 @@
   },
   {
     "bibitem": "@inproceedings{CHN2013b, author = {Cruz-Filipe, Lu{\\'\\i}s and Henriques, Rita and Nunes, Isabel}, booktitle = {Logic for Programming, Artificial Intelligence, and Reasoning, 19th International Conference, LPAR-19, Stellenbosch, South Africa, December 2013, Proceedings}, editor = {McMillan, Kenneth L. and Middeldorp, Aart and Voronkov, Andrei}, month = dec, doi = {10.1007/978-3-642-45221-5\\_18}, pages = {243--257}, publisher = {Springer}, series = {LNCS}, title = {Description Logics, Rules and Multi-context Systems}, volume = 8312, year = 2013}",
-    "pdf": [{
+    "links": [{
       "link": "http://tinyurl.com/lcfilipe/pubs/paper12.pdf"
     }],
     "tags": ["Knowledge Representation"],
