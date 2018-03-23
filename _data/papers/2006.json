@@ -7,6 +7,7 @@
     "tags": [ "Formal Proofs" ],
     "authors": [ "Luís Cruz-Filipe" ],
     "abstract": "It is a well-known fact that algorithms are often hidden inside mathematical proofs. If these proofs are formalized inside a proof assistant, then a mechanism called extraction can generate the corresponding programs automatically. Previous work has focused on the difficulties in obtaining a program from a formalization of the Fundamental Theorem of Algebra inside the Coq proof assistant. In theory, this program allows one to compute approximations of roots of polynomials. However, as we show in this work, there is currently a big gap between theory and practice. We study the complexity of the extracted program and analyze the reasons of its inefficiency, showing that this is a direct consequence of the approach used throughout the formalization.",
-    "non_group" : true
+    "non_group" : true,
+    "type": "journal"
   }
 ]

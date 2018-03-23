@@ -6,7 +6,8 @@
     "tags": ["Logic"],
     "authors": ["Luís Cruz-Filipe"],
     "abstract": "Homogeneous fibring is a meta-logical constructor that produces new logics by combining logics presented in the same way (e.g. both of them endowed with an Hilbert calculus). Heterogeneous fibring (e.g. one of the logics is presented by an Hilbert calculus and the other by a sequent calculus) is an open problem that we solve now. We start by considering consequence systems as providing a solution (a good one when fibring a logic presented by semantic means and another one presented in a deductive way). However consequence systems are not good when we want to obtain as the result of fibring two deductive systems still a deductive system (where a notion of derivation appears in the fibring). The solution is to introduce the concept of (abstract) proof system. The fibring of proof systems is still a proof system and so we have that a derivation in the fibring is obtained from the derivations of the component. Some preservation results are discussed like compactness and semi-decidability.",
-    "non_group": true
+    "non_group": true,
+    "type": "journal"
   },
   {
     "bibitem": "@article{CFSS08, author = {Cruz-Filipe, Lu{\\'\\i}s and Rasga, Jo{\\~a}o and Sernadas, Am{\\'\\i}lcar and Sernadas, Cristina}, journal = {Journal of Logic and Computation}, month = {apr}, doi = {10.1093/logcom/exn014}, number = {6}, pages = {885--911}, publisher = {Oxford University Press}, title = {Complete Axiomatization of Discrete-Measure Almost-Everywhere Quantification}, volume = {18}, year = {2008}}",
@@ -16,7 +17,8 @@
     "tags": ["Logic"],
     "authors": ["Luís Cruz-Filipe"],
     "abstract": "Following recent developments in the topic of generalized quantifiers, and also having in mind applications in the areas of security and artificial intelligence, a conservative enrichment of (two-sorted) first-order logic with almost-everywhere quantification is proposed. The completeness of the axiomatization against the measure-theoretic semantics is carried out using a variant of the Lindenbaum&ndash;Henkin technique. The independence of the axioms is analyzed, and the almost-everywhere quantifier is compared with related notions of generalized quantification.",
-    "non_group": true
+    "non_group": true,
+    "type": "journal"
   },
   {
     "bibitem": "@incollection{CLMRV08, author = {Cruz-Filipe, Lu{\\'\\i}s and Lanese, Ivan and Martins, Francisco and Ravara, Ant{\\'o}nio and Vasconcelos, Vasco T.}, booktitle = {Proceedings of the 10th IFIP International Conference on Formal Methods for Open Object-based Distributed Systems (FMOODS'08)}, editor = {Barthe, Gilles and de Boer, Frank S.}, month = may, doi = {10.1007/978-3-540-68863-1\\_5}, pages = {59--77}, publisher = {Springer}, series = {LNCS}, title = {Behavioural Theory at Work: Program Transformations in a Service-Centred Calculus}, volume = {5051}, year = {2008}}",
@@ -26,6 +28,7 @@
     "tags": ["Process Calculi"],
     "authors": ["Luís Cruz-Filipe"],
     "abstract": "We analyse the relationship between object-oriented modelling and session-based, service-oriented modelling, starting from a typical UML Sequence Diagram and providing a program transformation into a service-oriented model.  We also provide a similar transformation from session-based specifications into request-response specifications.  All transformations are specified in SSCC &ndash; a process calculus for modelling and analysing service-oriented systems &ndash; and proved correct with respect to a suitable form of behavioural equivalence (full weak bisimilarity).  Since the equivalence is proved to be compositional, results remain valid in arbitrary contexts.",
-    "non_group": true
+    "non_group": true,
+    "type": "conference"
   }
 ]

@@ -1,0 +1,58 @@
+[
+  {
+    "bibitem": "@inproceedings{C14, author = {Cruz-Filipe, Lu{\\'\\i}s}, booktitle = {Foundations of Information and Knowledge Systems -- 8th International Symposium, FoIKS 2014, Bordeaux, France, March 3-7, 2014. Proceedings}, editor = {Beierle, Christoph and Meghini, Carlo}, doi = {10.1007/978-3-319-04939-7\\_18}, pages = {361--380}, publisher = {Springer}, series = {LNCS}, title = {Optimizing Computation of Repairs from Active Integrity Constraints}, volume = 8367, year = 2014}",
+    "links": [{
+      "link": "http://tinyurl.com/lcfilipe/pubs/paper13.pdf"
+    }],
+    "tags": ["Database Repair"],
+    "authors": ["Luís Cruz-Filipe"],
+    "abstract": "Active integrity constraints (AICs) are a form of integrity constraints for databases that not only identify inconsistencies, but also suggest how these can be overcome.  The semantics for AICs defines different types of repairs, but deciding whether an inconsistent database can be repaired and finding possible repairs is a NP- or &Sigma;<sup>p</sup><sub>2</sub>-complete problem, depending on the type of repairs one has in mind.  In this paper, we introduce two different relations on AICs: an equivalence relation of <i>independence</i>, allowing the search to be parallelized among the equivalence classes, and a <i>precedence</i> relation, inducing a stratification that allows repairs to be built progressively.  Although these relations have no impact on the worst-case scenario, they can make significant difference in the practical computation of repairs for inconsistent databases.",
+    "non_group": true,
+    "type": "conference"
+  },
+  {
+    "bibitem": "@article{CLMRV14, author = {Cruz-Filipe, Lu{\\'\\i}s and Lanese, Ivan and Martins, Francisco and Ravara, Ant{\\'o}nio and Vasconcelos, Vasco T.}, journal = {Formal Aspects of Computing}, month = sep, doi = {10.1007/s00165-013-0284-5}, pages = {865--918}, title = {The Stream-based Service-Centered Calculus: a Foundation for Service-Oriented Programming}, volume = 26, year = 2014}",
+    "links": [{
+      "link": "http://tinyurl.com/lcfilipe/pubs/paper14.pdf"
+    }],
+    "tags": ["Process Calculi"],
+    "authors": ["Luís Cruz-Filipe"],
+    "abstract": "We give a formal account of SSCC, a calculus for modeling service-based systems, suitable to describe both service composition (orchestration) and the protocols that services follow when invoked (conversation). The calculus includes primitives for defining and invoking services, for isolating conversations (called sessions) among clients and servers, and for orchestrating services. The calculus is equipped with a reduction and a labeled transition semantics related by an equivalence result.<br />SSCC provides a good trade-off between expressive power for modeling and simplicity for analysis. We assess the expressive power by modeling van der Aalst workflow patterns and an automotive case study from the European project Sensoria. For analysis, we present a simple type system ensuring compatibility of client and service protocols. We also study the behavioral theory of the calculus, highlighting some axioms that capture the behavior of the different primitives.<br />As a final application of the theory, we define and prove correct some program transformations. These allow to start modeling a system from a typical UML Sequence Diagram, and then transform the specification to match the service-oriented programming style, thus simplifying its implementation using web services technology.",
+    "non_group": true,
+    "type": "journal"
+  },
+  {
+    "bibitem": "@inproceedings{CCS14, author = {Codish, Michael and Cruz-Filipe, Lu{\\'\\i}s and Schneider-Kamp, Peter}, title = {The Quest for Optimal Sorting Networks: Efficient Generation of Two-Layer Prefixes}, pages = {359--366}, doi = {10.1109/SYNASC.2014.55}, editor = {Winkler, Franz and Negru, Viorel and Ida, Tetsuo and Jebelan, Tudor and Petcu, Dana and Watt, Stephen M. and Zaharie, Daniela}, booktitle = {16th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing, SYNASC 2014}, publisher = {IEEE}, year = 2015}",
+    "links": [{
+      "link": "http://tinyurl.com/lcfilipe/pubs/paper15.pdf"
+    }],
+    "tags": ["Sorting Networks"],
+    "authors": ["Luís Cruz-Filipe"],
+    "abstract": "Previous work identifying depth-optimal <i>n</i>-channel sorting networks for 9&le;<i>n</i>&le;16 is based on exploiting symmetries of the first two layers.  However, the naive generate-and-test approach typically applied does not scale. This paper revisits the problem of generating two-layer prefixes modulo symmetries. An improved notion of symmetry is provided and a novel technique based on regular languages and graph isomorphism is shown to generate the set of non-symmetric representations.  An empirical evaluation demonstrates that the new method outperforms the generate-and-test approach by orders of magnitude and easily scales until <i>n</i>=40.",
+    "non_group": true,
+    "type": "conference"
+  },
+  {
+    "bibitem": "@inproceedings{CGN2014, author = {Cruz-Filipe, Lu{\\'\\i}s and Gaspar, Gra{\\c c}a and Nunes, Isabel}, title = {Information Flow within Relational Multi-context Systems}, pages = {97--108}, doi = {10.1007/978-3-319-13704-9\\_8}, editor = {Janowicz, Krzysztof and Schlobach, Stefan and Lambrix, Patrick and Hyv{\\"{o}}nen, Eero}, booktitle = {Knowledge Engineering and Knowledge Management -- 19th International Conference, {EKAW} 2014, Link{\\"{o}}ping, Sweden, November 24--28, 2014. Proceedings}, publisher = {Springer}, series = {LNAI}, volume = 8876, year = 2014}",
+    "links": [{
+      "link": "http://tinyurl.com/lcfilipe/pubs/paper16.pdf"
+    }],
+    "tags": ["Knowledge Representation"],
+    "authors": ["Luís Cruz-Filipe"],
+    "abstract": "Multi-context systems (MCSs) are an important framework for heterogeneous combinations of systems within the Semantic Web. In this paper, we propose generic constructions to achieve specific forms of interaction in a principled way, and sistematize some useful techniques to work with ontologies within an MCS. All these mechanisms are presented in the form of general-purpose design patterns. Their study also suggests new ways in which this framework can be further extended.",
+    "non_group": true,
+    "type": "conference"
+  },
+  {
+    "bibitem": "@inproceedings{CCFS14, author = {Codish, Michael and Cruz-Filipe, Lu{\\'\\i}s and Frank, Michael and Schneider-Kamp, Peter}, title = {Twenty-Five Comparators is Optimal when Sorting Nine Inputs (and Twenty-Nine for Ten)}, pages = {186--193}, doi = {10.1109/ICTAI.2014.36}, booktitle = {26th {IEEE} International Conference on Tools with Artificial Intelligence, {ICTAI} 2014, Limassol, Cyprus, November 10--12, 2014}, publisher = {IEEE}, year = 2014, month = dec}",
+    "links": [{
+      "link": "http://tinyurl.com/lcfilipe/pubs/paper17.pdf"
+    }],
+    "tags": ["Sorting Networks"],
+    "authors": ["Luís Cruz-Filipe"],
+    "abstract": "This paper describes a computer-assisted non-existence proof of nine-input sorting networks consisting of 24 comparators, hence showing that the 25-comparator sorting network found by Floyd in 1964 is optimal. As a corollary, we obtain that the 29-comparator network found by Waksman in 1969 is optimal when sorting ten inputs.<br />This closes the two smallest open instances of the optimal size sorting network problem, which have been open since the results of Floyd and Knuth from 1966 proving optimality for sorting networks of up to eight inputs.<br />The proof involves a combination of two methodologies: one based on exploiting the abundance of symmetries in sorting networks, and the other, based on an encoding of the problem to that of satisfiability of propositional logic. We illustrate that, while each of these can single handed solve smaller instances of the problem, it is their combination which leads to an efficient solution for nine inputs.",
+    "non_group": true,
+    "type": "conference"
+  }
+
+]

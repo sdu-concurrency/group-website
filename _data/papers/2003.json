@@ -6,7 +6,8 @@
     "tags": ["Formal Proofs"],
     "authors": ["Luís Cruz-Filipe"],
     "abstract": "We have finished a constructive formalization in the theorem prover Coq of the Fundamental Theorem of Calculus, which states that differentiation and integration are inverse processes.  In this formalization, we have closely followed Bishop's work [1]. In this paper, we describe the formalization in some detail, focusing on how some of Bishop's original proofs had to be refined, adapted or redone from scratch.<br />[1] Bishop, E., <em>Foundations of Constructive Analysis</em>, McGraw-Hill Book Company, 1967.",
-    "non_group": true
+    "non_group": true,
+    "type": "conference"
   },
   {
     "bibitem": "@inproceedings{CS03, author = {Cruz-Filipe, Lu{\\'\\i}s and Spitters, Bas}, booktitle = {Theorem Proving in Higher Order Logics, 16th International Conference, TPHOLs 2003}, editor = {Basin, David A. and Wolff, Burkhart}, month = sep, doi = {10.1007/10930755\_14}, pages = {205--220}, publisher = {Springer}, series = {LNCS}, title = {Program Extraction from Large Proof Developments}, volume = 2758, year = 2003}",
@@ -16,6 +17,7 @@
     "tags": ["Formal Proofs"],
     "authors": ["Luís Cruz-Filipe"],
     "abstract": "It is well known that mathematical proofs often contain (abstract) algorithms, but although these algorithms can be understood by a human, it still takes a lot of time and effort to implement these algorithms on a computer; moreover, one runs the risk of making mistakes in the process.<br />From a fully formalized constructive proof one can automatically obtain a computer implementation of such an algorithm together with a proof that the program is correct. As an example we consider the fundamental theorem of algebra which states that every non-constant polynomial has a root. This theorem has been fully formalized in the Coq proof assistant. Unfortunately, when we first tried to extract a program, the computer ran out of resources.<br />We will discuss how we used logical techniques to make it possible to extract a feasible program. This example is used as a motivation for a broader perspective on how the formalization of mathematics should be done with program extraction in mind.",
-    "non_group": true
+    "non_group": true,
+    "type": "conference"
   }
 ]

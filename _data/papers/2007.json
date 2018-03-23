@@ -6,5 +6,6 @@
   "tags": ["Logic", "Semantics"],
   "authors": ["Luís Cruz-Filipe"],
   "abstract": "A complete and decidable Hoare-style calculus for iteration-free probabilistic sequential programs is presented using a state logic with truth-functional propositional (not arithmetical) connectives.",
-  "non_group": true
+  "non_group": true,
+    "type": "journal"
 }]
