@@ -53,7 +53,7 @@ Publications are added inside the `_data/papers` folder, within the root, in fil
 Where 
 
 - `BIBLINK` is the bibitem of the paper in linearised format (no new lines);
-- `"links"` contains a list of links related to the publication. For each element, if the `"name"` attribute of the element is omitted, it will be visualised using the default name `paper` and if the `"icon"` attribute of the element is omitted, it will be visualised using the default [font-awesome](https://fontawesome.com/) pdf icon `fa fa-pdf`;
+- `"links"` contains a list of links related to the publication. For each element, if the `"name"` attribute of the element is omitted, it will be visualised using the default name `paper` and if the `"icon"` attribute of the element is omitted, it will be visualised with the [generic link icon](https://fontawesome.com/icons/link?style=solid). Valid names for icons are: `pdf`, `paper` (aliases `pdf`), `arxiv`, `corr` (aliases `arxiv`) , `site`, `website` (aliases `site`), `video`, `slides`, `generic` (the default one);
 - `"tags"` contains relevant tags/keywords for the paper, used by the by-keyword filter to select the related papers;
 - `"authors"` contains relevant members in the PLS group that authored the paper. These are used by the by-author filter to select the related papers;
 - `"grants"` contains possible grants that supported the publication;
@@ -75,7 +75,6 @@ People entries are stored inside the `_data/people` folder, within the root, in 
   "google_scholar" : "USER",
   "orcid" : "ID",
   "github" : "USER",
-  "bio" : "A SHORT BIO",
   "photo" : "URL",
   "research_topics" : [ "TOPIC1", "TOPIC2" ]
 }
