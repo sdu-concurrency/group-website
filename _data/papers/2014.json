@@ -53,6 +53,40 @@
     "abstract": "This paper describes a computer-assisted non-existence proof of nine-input sorting networks consisting of 24 comparators, hence showing that the 25-comparator sorting network found by Floyd in 1964 is optimal. As a corollary, we obtain that the 29-comparator network found by Waksman in 1969 is optimal when sorting ten inputs.<br />This closes the two smallest open instances of the optimal size sorting network problem, which have been open since the results of Floyd and Knuth from 1966 proving optimality for sorting networks of up to eight inputs.<br />The proof involves a combination of two methodologies: one based on exploiting the abundance of symmetries in sorting networks, and the other, based on an encoding of the problem to that of satisfiability of propositional logic. We illustrate that, while each of these can single handed solve smaller instances of the problem, it is their combination which leads to an efficient solution for nine inputs.",
     "non_group": true,
     "type": "conference"
+  },
+  {
+    "bibitem": "@article{MMP14a,  author = {Alessio Mansutti and  Marino Miculan and  Marco Peressotti},  title = {Distributed execution of bigraphical reactive systems},  journal = {{ECEASST}},  volume = {71},  year = {2014},  url = {http://journal.ub.tu-berlin.de/eceasst/article/view/994} }",
+    "links": [ 
+      { "name" : "technical report", 
+        "link" : "https://arxiv.org/abs/1503.02434",
+        "icon" : "arxiv"}
+    ],
+    "abstract": "The bigraph embedding problem is crucial for many results and tools about bigraphs and bigraphical reactive systems (BRS). Current algorithms for computing bigraphical embeddings are centralized, i.e. designed to run locally with a complete view of the guest and host bigraphs. In order to deal with large bigraphs, and to parallelize reactions, we present a decentralized algorithm, which distributes both state and computation over several concurrent processes. This allows for distributed, parallel simulations where non-interfering reactions can be carried out concurrently; nevertheless, even in the worst case the complexity of this distributed algorithm is no worse than that of a centralized algorithm.",
+    "tags" : [ "Concurrency", "Rewriting Systems" ],
+    "authors" : [ "Marco Peressotti" ],
+    "type" : "Journal",
+    "non_group" : true
+  },
+  {
+    "bibitem": "@inproceedings{MMP14b,  author = {Alessio Mansutti and  Marino Miculan and  Marco Peressotti},  editor = {Kostas Magoutis and  Peter R. Pietzuch},  title = {Multi-agent Systems Design and Prototyping with Bigraphical Reactive  Systems},  booktitle = {Distributed Applications and Interoperable Systems - 14th {IFIP} {WG}  6.1 International Conference, {DAIS} 2014, Held as Part of the 9th  International Federated Conference on Distributed Computing Techniques,  DisCoTec 2014, Berlin, Germany, June 3-5, 2014, Proceedings},  series = {Lecture Notes in Computer Science},  volume = {8460},  pages = {201--208},  publisher = {Springer},  year = {2014},  doi = {10.1007/978-3-662-43352-2\\_16} }",
+    "links": [],
+    "abstract": "Several frameworks and methodologies have been proposed to ease the design of Multi Agent Systems (MAS), but the vast majority of them is tightly tied to specific implementation platforms. In this paper, we outline a methodology for MAS design and prototyping in the more abstract framework of Bigraphical Reactive Systems (BRS). In our approach, components and elements of the application domain are modelled as bigraphs, and their dynamics as graph rewriting rules. Desiderata can be encoded by means of type systems or logical formulae. Then, the BDI agents (i.e., their beliefs, desires and intentions) are identified and extracted from the BRS. This yield a prototype which can be run as distributed bigraphical system, evolving by means of distributed transactional rewritings triggered by cooperating agents depending on their internal intentions and beliefs. <br/> This methodology allows the designer to benefit from the results and tools from the theory of BRS, especially in the requirement analysis and validation phases. Among other results, we mention behavioural equivalences, temporal/spatial logics, visual tools for editing, for simulation and for model checking, etc. Moreover, bigraphs can be naturally composed, thus allowing for modular design of MAS.",
+    "tags" : [ "Concurrency", "Rewriting Systems"],
+    "authors" : [ "Marco Peressotti" ],
+    "type" : "Conference",
+    "non_group" : true
+  },
+  {
+    "bibitem": "@inproceedings{MP14,  author = {Marino Miculan and  Marco Peressotti},  editor = {Nathalie Bertrand and  Luca Bortolussi},  title = {{GSOS} for non-deterministic processes with quantitative aspects},  booktitle = {Proceedings Twelfth International Workshop on Quantitative Aspects  of Programming Languages and Systems, {QAPL} 2014, Grenoble, France,  12-13 April 2014.},  series = {{EPTCS}},  volume = {154},  pages = {17--33},  year = {2014},  url = {https://doi.org/10.4204/EPTCS.154.2},  doi = {10.4204/EPTCS.154.2} }",
+    "links": [ 
+      { "name" : "technical report", 
+        "link" : "https://arxiv.org/abs/1410.0893",
+        "icon" : "arxiv"}
+    ],
+    "abstract": "General frameworks have been recently proposed as unifying theories for processes combining non-determinism with quantitative aspects (such as probabilistic or stochastically timed executions), aiming to provide general results and tools. This paper provides two contributions in this respect. First, we present a general GSOS specification format and a corresponding notion of bisimulation for non-deterministic processes with quantitative aspects. These specifications define labelled transition systems according to the ULTraS model, an extension of the usual LTSs where the transition relation associates any source state and transition label with state reachability weight functions (like, e.g., probability distributions). This format, hence called Weight Function GSOS (WF-GSOS), covers many known systems and their bisimulations (e.g. PEPA, TIPP, PCSP) and GSOS formats (e.g. GSOS, Weighted GSOS, Segala-GSOS, among others). The second contribution is a characterization of these systems as coalgebras of a class of functors, parametric on the weight structure. This result allows us to prove soundness and completeness of the WF-GSOS specification format, and that bisimilarities induced by these specifications are always congruences.",
+    "tags" : [ "Concurrency", "Coalgebras", "Quantitative Semantics", "Behavioural Theory" ],
+    "authors" : [ "Marco Peressotti" ],
+    "type" : "Conference",
+    "non_group" : true
   }
-
 ]

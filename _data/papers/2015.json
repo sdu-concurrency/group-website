@@ -66,7 +66,7 @@
     "type": "conference"
   },
   {
-    "bibitem": "@inproceedings{CCNS15, author = {Michael Codish and Lu{\\'\\i}s Cruz-Filipe and Markus Nebel and Peter Schneider-Kamp}, title = {Applying Sorting Networks to Synthesize Optimized Sorting Libraries}, pages = {127--142}, doi = {10.1007/978-3-319-27436-2_8}, editor = {Moreno Falaschi}, booktitle = {Logic-Based Program Synthesis and Transformation -- 25th International Symposium, {LOPSTR} 2015, Siena, Italy, July 13--15, 2015. Revised Selected Papers}, series = {LNCS}, volume = 9527, publisher = {Springer}, year = 2015, doi = {10.1007/978-3-319-27436-2}}",
+    "bibitem": "@inproceedings{CCNS15, author = {Michael Codish and Lu{\\'\\i}s Cruz-Filipe and Markus Nebel and Peter Schneider-Kamp}, title = {Applying Sorting Networks to Synthesize Optimized Sorting Libraries}, pages = {127--142}, doi = {10.1007/978-3-319-27436-2\\_8}, editor = {Moreno Falaschi}, booktitle = {Logic-Based Program Synthesis and Transformation -- 25th International Symposium, {LOPSTR} 2015, Siena, Italy, July 13--15, 2015. Revised Selected Papers}, series = {LNCS}, volume = 9527, publisher = {Springer}, year = 2015, doi = {10.1007/978-3-319-27436-2}}",
     "links": [
       { "link" : "http://tinyurl.com/lcfilipe/pubs/paper24.pdf" }
     ],
@@ -75,5 +75,31 @@
     "abstract": "This paper shows an application of the theory of sorting networks to facilitate the synthesis of optimized general purpose sorting libraries. Standard sorting libraries are often based on combinations of the classic Quicksort algorithm with insertion sort applied as the base case for small fixed numbers of inputs. Unrolling the code for the base case by ignoring loop conditions eliminates branching and results in code which is equivalent to a sorting network. This enables the application of further program transformations based on sorting network optimizations, and eventually the synthesis of code from sorting networks. We show that if considering the number of comparisons and swaps then theory predicts no real advantage of this approach. However, significant speed-ups are obtained when taking advantage of instruction level parallelism and non-branching conditional assignment instructions, both of which are common in modern CPU architectures. We provide empirical evidence that using code synthesized from efficient sorting networks as the base case for Quicksort libraries results in significant real-world speed-ups.",
     "non_group" : true,
     "type": "conference"
+  },
+  {
+    "bibitem": "@article{BMP15,  author = {Tomasz Brengos and  Marino Miculan and  Marco Peressotti},  title = {Behavioural equivalences for coalgebras with unobservable moves},  journal = {J. Log. Algebr. Meth. Program.},  volume = {84},  number = {6},  pages = {826--852},  year = {2015},  doi = {10.1016/j.jlamp.2015.09.002} }",
+    "links": [ 
+      { "name" : "technical report", 
+        "link" : "https://arxiv.org/abs/1411.0090",
+        "icon" : "arxiv"}
+    ],
+    "abstract": "We introduce a general categorical framework for the definition of weak behavioural equivalences, building on and extending recent results in the field. This framework is based on parametrized saturation categories, i.e. categories whose hom-sets are endowed with complete orders and a suitable iteration operators; this structure allows us to provide the abstract definitions of various (weak) behavioural equivalence. We show that the Kleisli categories of many common monads are categories of this kind. This allows us to readily instantiate the abstract definitions to a wide range of existing systems (weighted LTS, Segala systems, calculi with names, etc.), recovering the corresponding notions of weak behavioural equivalences. Moreover, we can provide neatly new weak behavioural equivalences for more complex behaviours, like those definable on topological spaces, measurable spaces, etc.",
+    "tags" : [ "Concurrency", "Coalgebras", "Quantitative Semantics", "Behavioural Theory" ],
+    "authors" : [ "Marco Peressotti" ],
+    "type" : "Journal",
+    "non_group" : true
+  },
+  {
+    "bibitem": "@inproceedings{MPT15,  author = {Marino Miculan and  Marco Peressotti and  Andrea Toneguzzo},  editor = {Tom Holvoet and  Mirko Viroli},  title = {Open Transactions on Shared Memory},  booktitle = {Coordination Models and Languages - 17th {IFIP} {WG} 6.1 International  Conference, {COORDINATION} 2015, Held as Part of the 10th International  Federated Conference on Distributed Computing Techniques, DisCoTec  2015, Grenoble, France, June 2-4, 2015, Proceedings},  series = {Lecture Notes in Computer Science},  volume = {9037},  pages = {213--229},  publisher = {Springer},  year = {2015},  doi = {10.1007/978-3-319-19282-6\\_14}}",
+    "links": [ 
+      { "name" : "technical report", 
+        "link" : "https://arxiv.org/abs/1503.09097",
+        "icon" : "arxiv"}
+    ],
+    "abstract": "Transactional memory has arisen as a good way for solving many of the issues of lock-based programming. However, most implementations admit isolated transactions only, which are not adequate when we have to coordinate communicating processes. To this end, in this paper we present OCTM, an Haskell-like language with open transactions over shared transactional memory: processes can join transactions at runtime just by accessing to shared variables. Thus a transaction can co-operate with the environment through shared variables, but if it is rolled-back, also all its effects on the environment are retracted. For proving the expressive power of TCCS we give an implementation of TCCS, a CCS-like calculus with open transactions.",
+    "tags" : [ "Concurrency", "Programming Languages", "Transactional Memory" ],
+    "authors" : [ "Marco Peressotti" ],
+    "type" : "Conference",
+    "non_group" : true
   }
 ]

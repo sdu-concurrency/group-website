@@ -59,23 +59,23 @@
     "non_group": false
   },
   {
-    "bibitem": "@inproceedings{MMP17a,  author = {Mansutti, Alessio and  Miculan, Marino and  Peressotti, Marco},  editor = {Seidl, Martina and  Zschaler, Steffen},  title = {Loose Graph Simulations},  booktitle = {Software Technologies: Applications and Foundations - {STAF} 2017  Collocated Workshops, Marburg, Germany, July 17-21, 2017, Revised  Selected Papers},  series = {Lecture Notes in Computer Science},  volume = {10748},  pages = {109--126},  publisher = {Springer},  year = {2017},  doi = {10.1007/978-3-319-74730-9\\_9} }",
+    "bibitem": "@inproceedings{MMP17,  author = {Mansutti, Alessio and  Miculan, Marino and  Peressotti, Marco},  editor = {Seidl, Martina and  Zschaler, Steffen},  title = {Loose Graph Simulations},  booktitle = {Software Technologies: Applications and Foundations - {STAF} 2017  Collocated Workshops, Marburg, Germany, July 17-21, 2017, Revised  Selected Papers},  series = {Lecture Notes in Computer Science},  volume = {10748},  pages = {109--126},  publisher = {Springer},  year = {2017},  doi = {10.1007/978-3-319-74730-9\\_9} }",
     "links": [ 
       { "name" : "technical report", 
         "link" : "http://arxiv.org/abs/1705.08241",
-        "icon" : "ai ai-arxiv"}
+        "icon" : "arxiv"}
     ],
-    "abstract": "Recently, unifying theories for processes combining non-determinism with quantitative aspects (such as probabilistic or stochastically timed executions) have been proposed with the aim of providing general results and tools. This paper provides two contributions in this respect. First, we present a general GSOS specification format and a corresponding notion of bisimulation for non-deterministic processes with quantitative aspects. These specifications define labelled transition systems according to the ULTraS model, an extension of the usual LTSs where the transition relation associates any source state and transition label with state reachability weight functions (like, e.g., probability distributions). This format, hence called Weight Function GSOS (WF-GSOS), covers many known systems and their bisimulations (e.g. PEPA, TIPP, PCSP) and GSOS formats (e.g. GSOS, Weighted GSOS, Segala-GSOS). <br/> The second contribution is a characterization of these systems as coalgebras of a class of functors, parametric in the weight structure. This result allows us to prove soundness and completeness of the WF-GSOS specification format, and that bisimilarities induced by these specifications are always congruences.",
+    "abstract": "We introduce loose graph simulations (LGS), a new notion about labelled graphs which subsumes in an intuitive and natural way subgraph isomorphism (SGI), regular language pattern matching (RLPM) and graph simulation (GS). Being a unification of all these notions, LGS allows us to express directly also problems which are \"mixed\" instances of previous ones, and hence which would not fit easily in any of them. After the definition and some examples, we show that the problem of finding loose graph simulations is NP-complete, we provide formal translation of SGI, RLPM, and GS into LGSs, and we give the representation of a problem which extends both SGI and RLPM. Finally, we identify a subclass of the LGS problem that is polynomial.",
     "tags": ["Graph Theory"],
     "authors": ["Marco Peressotti"],
-    "type": "Journal",
+    "type": "Conference",
     "non_group": true
   },
   {
-    "bibitem": "@inproceedings{MP17a,  author = {Miculan, Marino and  Peressotti, Marco},  editor = {Della Monica, Dario and  Murano, Aniello and  Rubin, Sasha and  Sauro, Luigi},  title = {Deciding Weak Weighted Bisimulation},  booktitle = {Joint Proceedings of the 18th Italian Conference on Theoretical Computer  Science and the 32nd Italian Conference on Computational Logic co-located  with the 2017 {IEEE} International Workshop on Measurements and Networking  {(2017} {IEEE} M{\\&}N), Naples, Italy, September 26-28, 2017.},  series = {{CEUR} Workshop Proceedings},  volume = {1949},  pages = {126--137},  publisher = {CEUR-WS.org},  year = {2017},  url = {http://ceur-ws.org/Vol-1949/ICTCSpaper11.pdf} }",
+    "bibitem": "@inproceedings{MP17,  author = {Miculan, Marino and  Peressotti, Marco},  editor = {Della Monica, Dario and  Murano, Aniello and  Rubin, Sasha and  Sauro, Luigi},  title = {Deciding Weak Weighted Bisimulation},  booktitle = {Joint Proceedings of the 18th Italian Conference on Theoretical Computer  Science and the 32nd Italian Conference on Computational Logic co-located  with the 2017 {IEEE} International Workshop on Measurements and Networking  {(2017} {IEEE} M{\\&}N), Naples, Italy, September 26-28, 2017.},  series = {{CEUR} Workshop Proceedings},  volume = {1949},  pages = {126--137},  publisher = {CEUR-WS.org},  year = {2017},  url = {http://ceur-ws.org/Vol-1949/ICTCSpaper11.pdf} }",
     "links": [],
     "abstract": "Weighted labelled transition systems are LTSs whose transitions are given weights drawn from a commutative monoid, subsuming a wide range of systems with quantitative aspects. In this paper we extend this theory towards other behavioural equivalences, by considering semirings of weights. Taking advantage of this extra structure, we consider a general notion of weak weighted bisimulation, which coincides with the usual weak bisimulations in the cases of non-deterministic and fully-probabilistic systems. We present a general algorithm for deciding weak weighted bisimulation. The procedure relies on certain systems of linear equations over the semiring of weights hence it can be readily instantiated to a wide range of models. We prove that these systems admit a unique solution for ω-continuous semirings",
-    "tags": ["Quantitative Semantics", "Behavioural Theory"],
+    "tags": [ "Concurrency", "Quantitative Semantics", "Behavioural Theory"],
     "authors": ["Marco Peressotti"],
     "type": "Conference",
     "non_group": true
