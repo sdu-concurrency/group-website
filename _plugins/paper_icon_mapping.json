@@ -1,0 +1,11 @@
+{
+"paper" : "fa fa-file-pdf",
+"pdf" : "fa fa-file-pdf",
+"arxiv" : "ai ai-arxiv",
+"corr" : "ai ai-arxiv",
+"site" : "fa fa-desktop",
+"website" : "fa fa-desktop",
+"video" : "fa fa-video",
+"slides" : "fa fa-list-alt",
+"generic" : "fa fa-link"
+}

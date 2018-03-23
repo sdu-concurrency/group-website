@@ -6,7 +6,7 @@ module Jekyll
   class PapersGenerator < Generator
     priority :highest
 
-    def addYear( file, papers )
+    def addYear( file, papers, iconMap )
       tmp = JSON.parse( File.read( file ) )
       tmp.each { |item|
         links = item["links"] || Array.new
@@ -14,15 +14,22 @@ module Jekyll
           unless link["name"].nil?
             link["name"].downcase!
           end
-        }
-        item["links"] = links
-        bibitem = item["bibitem"].gsub("\\\\","\\")
-        b = BibTeX.parse( bibitem ).convert(:latex)
+          if ( link["icon"].nil? )
+            link["icon"] = iconMap[ link["pdf"] ]
+          else
+           unless iconMap[ link["icon"] ].nil? 
+            link["icon"] = iconMap[ link["icon"] ]
+           end
+          end
+      }
+      item["links"] = links
+      bibitem = item["bibitem"].gsub("\\\\","\\")
+      b = BibTeX.parse( bibitem ).convert(:latex)
         # use the the bib url if item does not specify a link for the paper
         unless b[0]["url"].nil? || links.any?{ |h| h["name"] == "paper" || h["name"] == nil}
           links.insert(0, { 
             "link" => b[0].url, "name" => "paper", 
-            "icon" => (b[0].url.end_with?(".pdf") ? "fa fa-pdf-file" : "fa fa-book") })
+            "icon" => (b[0].url.end_with?(".pdf") ? iconMap["pdf"] : iconMap["generic"] ) })
         end
         # use the the bib doi if item does not specify one
         unless b[0]["doi"].nil? || links.any?{ |h| h["name"] == "doi"}
@@ -42,17 +49,18 @@ module Jekyll
       end
 
       def generate(site)
+        iconMap = JSON.parse( File.read( "#{site.source}/_plugins/paper_icon_mapping.json" ) )
         base = "#{site.source}/_data"
         papers = Array.new
         Dir["#{base}/papers/*.json"]
         .select{ |f| /\d+/.match( f ) }
         .sort_by{ |f| File.basename( f , ".json" ) }.reverse
         .each do | f |
-          addYear( f, papers )
+          addYear( f, papers, iconMap )
         end
         ## plus add preprints
-        addYear( Dir["#{base}/papers/Preprints.json"][0], papers )
+        addYear( Dir["#{base}/papers/Preprints.json"][0], papers, iconMap )
         site.data["papers"] = papers
+      end
     end
   end
-end
