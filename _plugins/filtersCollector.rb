@@ -10,18 +10,26 @@ module Jekyll
       def collectTags( data )
         raise "received Nil data" unless not data.nil?
         topicsSet = Set.new()
+        topicsCount = Hash.new()
         data.each do | item |
           item[ "papers" ].each do | paper |
             paper[ "tags" ].each do | tag |
               if( (not tag.nil?) && tag.length > 0 )
                 topicsSet.add( tag.downcase.titleize )
+                if topicsCount[ tag.downcase.titleize ].nil? 
+                  topicsCount[ tag.downcase.titleize ] = 1
+                else
+                  topicsCount[ tag.downcase.titleize ] = topicsCount[ tag.downcase.titleize ]+1
+                end
               end
             end
           end
         end
         string = ""
         topicsSet.to_a.sort.each do | tag |
-          string += "<button class=\"btn btn-sm btn-filter btn-light\">#{tag}</button><span> </span>"
+          string += "<button class=\"btn btn-sm btn-filter btn-light\">#{tag}
+          <span class=\"tot badge badge-pill badge-dark\" style=\" font-size: 8pt;\">
+          #{topicsCount[ tag.downcase.titleize ]}</span></button><span> </span>"
         end
         string
       end
@@ -39,7 +47,8 @@ module Jekyll
         end
         string = ""
         typeSet.to_a.sort.each do | tag |
-          string += "<button class=\"btn btn-sm btn-filter btn-light\">#{tag}</button><span> </span>"
+          string += "<button class=\"btn btn-sm btn-filter 
+          btn-light\">#{tag}</button><span> </span>"
         end
         string
       end
@@ -58,7 +67,8 @@ module Jekyll
         end
         string = ""
         authorsSet.to_a.sort.each do | author |
-          string += "<button class=\"btn btn-sm btn-filter btn-light\">#{author}</button><span> </span>"
+          string += "<button class=\"btn btn-sm btn-filter 
+          btn-light\">#{author}</button><span> </span>"
         end
         string
       end

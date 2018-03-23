@@ -45,7 +45,7 @@
     "bibitem": "@inproceedings{CGGMP17,  title={Smart Mobility for All: A Global Federated Market for Mobility-as-a-Service Operators},  author={Callegati, Franco and Gabbrielli, Maurizio and Giallorenzo, Saverio and Melis, Andrea and Prandini, Marco},  booktitle={ITSC2017-20th International Conference on Intelligent Transportation},  year={2017} }",
     "links": [ { "link" : "http://www.saveriogiallorenzo.com/publications/itsc2017" } ],
     "abstract": "Multi-modal travelling is a common phenomenon. However, planning multi-modal journeys is still an unstructured and time-consuming experience for customers: they lose time assembling a comprehensive plan out of disparate data, spread over a multitude of information systems — each corresponding to a different company responsible for one of the legs in the journey. Also transport operators are affected by the sparsity of the transportation market, as they might lose potential customers who could not find or know about their services. In this paper, we propose Mobility as a Service (MaaS) as a solution to such problems. Key element of MaaS is that MaaS operators can aggregate solutions of multiple providers to deliver dynamic, transparent multi-modal travels to their users, who experience transportation as managed directly by a single operator. However, given the volume and sparsity of the transportation market, we argue that MaaS operators cannot rely on one-to-one, custom contracts of usage with single mobility operators. Instead, we envision the creation of platforms that automatise the marketing of services for mobility among many mobility providers. In this work, we detail the required features of a general software platform for such a MaaS market. In particular, we provide a precise definition of MaaS through the MaaS Stack — a tiered view of the components needed by entities to join the MaaS market. Then, through the lens of the MaaS Stack, we elicit the features of an enabling software platform. Finally, to validate our approach, we present a compliant prototype, called SMAll, and discuss its main design choices, among which: i) how SMAll supports the creation of a federation-based MaaS market and ii) how microservices — an emerging architectural style that fosters cohesiveness and minimality of components — enhance flexibility and let the platform and the services of its members efficiently scale according to dynamic demands.",
-    "tags": [ "Smart Cities", "Microservices", "Federation" ],
+    "tags": [ "Smart Cities", "Microservices" ],
     "authors": ["Saverio Giallorenzo"],
     "type": "Conference",
     "non_group": true
@@ -55,7 +55,7 @@
     "links": [ { "link" : "http://www.saveriogiallorenzo.com/publications/betty2017" } ],
     "abstract": "This tutorial describes AIOCJ, which stands for Adaptive Interaction Oriented Choreographies in Jolie, a choreographic language for programming microservice-based applications which can be updated at runtime. The compilation of a single AIOCJ program generates the whole set of distributed microservices that compose the application. Adaptation is performed using adaptation rules. Abstractly, each rule replaces a pre-delimited part of the program with the new code contained in the rule itself. Concretely, at runtime, the application of a rule updates part of the microservices that compose the application so to match the behaviour specified by the updated program. Thanks to the properties of choreographies, the adaptive application is free from communication deadlocks and message races even after adaptation.",
     "tags": [ "Choreographic Programming", "Microservices" ],
-    "authors": ["Saverio Giallorenzo"],
+    "authors": ["Saverio Giallorenzo", "Jacopo Mauro"],
     "type": "Chapter",
     "non_group": true
   },
@@ -66,6 +66,15 @@
     "tags": [ "Security", "Microservices", "Smart Cities" ],
     "authors": ["Saverio Giallorenzo"],
     "type": "Conference",
+    "non_group": true
+  },
+  {
+    "bibitem": "@article{PGGLM16,  author = {Mila Dalla Preda and  Maurizio Gabbrielli and  Saverio Giallorenzo and  Ivan Lanese and  Jacopo Mauro},  title = {Dynamic Choreographies: Theory And Implementation},  journal = {Logical Methods in Computer Science},  volume = {13},  number = {2},  year = {2017},  url = {https://doi.org/10.23638/LMCS-13(2:1)2017},  doi = {10.23638/LMCS-13(2:1)2017},  timestamp = {Wed, 03 May 2017 14:36:07 +0200},  biburl = {https://dblp.org/rec/bib/journals/corr/PredaGGLM16},  bibsource = {dblp computer science bibliography, https://dblp.org} }",
+    "links": [ { "link" : "http://www.saveriogiallorenzo.com/publications/lmcs2017/" } ],
+    "abstract": "Programming distributed applications free from communication deadlocks and race conditions is complex. Preserving these properties when applications are updated at runtime is even harder. We present a choreographic approach for programming updatable, distributed applications. We define a choreography language, called Dynamic Interaction-Oriented Choreography (DIOC), that allows the programmer to specify, from a global viewpoint, which parts of the application can be updated. At runtime, these parts may be replaced by new DIOC fragments from outside the application. DIOC programs are compiled, generating code for each participant in a process-level language called Dynamic Process-Oriented Choreographies (DPOC). We prove that DPOC distributed applications generated from DIOC specifications are deadlock free and race free and that these properties hold also after any runtime update. We instantiate the theoretical model above into a programming framework called Adaptable Interaction-Oriented Choreographies in Jolie (AIOCJ) that comprises an integrated development environment, a compiler from an extension of DIOCs to distributed Jolie programs, and a runtime environment to support their execution.",
+    "tags": [ "Choreographic Programming", "Adaptation" ],
+    "authors": ["Saverio Giallorenzo", "Jacopo Mauro"],
+    "type": "Journal",
     "non_group": true
   }
 ]

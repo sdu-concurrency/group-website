@@ -21,7 +21,7 @@
   "website" : "https://forumvirium.fi/en/small-develops-mobility-as-a-service/",
   "github" : "https://github.com/small-dev",
   "logo" : "/images/software/small.png",
-  "tags" : [ "microservices", "federation" ]
+  "tags" : [ "microservices" ]
 },{
   "name" : "JIoT",
   "short-bio" : "Integrating IoT-related technologies into the Jolie language.",

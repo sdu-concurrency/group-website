@@ -88,5 +88,17 @@
     "authors" : [ "Marco Peressotti" ],
     "type" : "Conference",
     "non_group" : true
+  },
+  {
+    "bibitem": "@inproceedings{PGLMG14,  author = {Mila Dalla Preda and  Saverio Giallorenzo and  Ivan Lanese and  Jacopo Mauro and  Maurizio Gabbrielli},  title = {{AIOCJ:} {A} Choreographic Framework for Safe Adaptive Distributed  Applications},  booktitle = {Software Language Engineering - 7th International Conference, {SLE}  2014, V{\\\"{a}}ster{\\aa}s, Sweden, September 15-16, 2014. Proceedings},  pages = {161--170},  year = {2014},  crossref = {DBLP:conf/sle/2014},  url = {https://doi.org/10.1007/978-3-319-11245-9_9},  doi = {10.1007/978-3-319-11245-9_9},  timestamp = {Tue, 23 May 2017 01:10:43 +0200},  biburl = {https://dblp.org/rec/bib/conf/sle/PredaGLMG14},  publisher = {Springer}, bibsource = {dblp computer science bibliography, https://dblp.org} }",
+    "links": [ 
+      { "link" : "http://www.saveriogiallorenzo.com/publications/aiocj/" },
+      { "name" : "website", "icon" : "site", "link" : "http://www.cs.unibo.it/projects/jolie/aiocj.html" }
+    ],
+    "abstract": "We present AIOCJ, a framework for programming distributed adaptive applications. Applications are programmed using AIOC, a choreographic language suited for expressing patterns of interaction from a global point of view. AIOC allows the programmer to specify which parts of the application can be adapted. Adaptation takes place at runtime by means of rules, which can change during the execution to tackle possibly unforeseen adaptation needs. AIOCJ relies on a solid theory that ensures applications to be deadlock-free by construction also after adaptation. We describe the architecture of AIOCJ, the design of the AIOC language, and an empirical validation of the framework.",
+    "tags" : [ "Choreographic Programming", "Adaptation" ],
+    "authors" : [ "Saverio Giallorenzo", "Jacopo Mauro" ],
+    "type" : "Conference",
+    "non_group" : true
   }
 ]

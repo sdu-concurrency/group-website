@@ -101,5 +101,23 @@
     "authors" : [ "Marco Peressotti" ],
     "type" : "Conference",
     "non_group" : true
+  },
+  {
+    "bibitem": "@inproceedings{PGGLM15b,  author = {Mila Dalla Preda and  Maurizio Gabbrielli and  Saverio Giallorenzo and  Ivan Lanese and  Jacopo Mauro},  title = {Dynamic Choreographies - Safe Runtime Updates of Distributed Applications},  booktitle = {Coordination Models and Languages - 17th {IFIP} {WG} 6.1 International  Conference, {COORDINATION} 2015, Held as Part of the 10th International  Federated Conference on Distributed Computing Techniques, DisCoTec  2015, Grenoble, France, June 2-4, 2015, Proceedings},  pages = {67--82},  year = {2015},  crossref = {DBLP:conf/coordination/2015},  url = {https://doi.org/10.1007/978-3-319-19282-6_5},  doi = {10.1007/978-3-319-19282-6_5},  timestamp = {Thu, 15 Jun 2017 21:33:32 +0200},  biburl = {https://dblp.org/rec/bib/conf/coordination/PredaGGLM15},  publisher = {Springer},  bibsource = {dblp computer science bibliography, https://dblp.org} }",
+    "links": [ { "link" : "http://www.saveriogiallorenzo.com/publications/dioc/" } ],
+    "abstract": "Programming distributed applications free from communication deadlocks and races is complex. Preserving these properties when applications are updated at runtime is even harder. <br /> We present DIOC, a language for programming distributed applications that are free from deadlocks and races by construction. A DIOC program describes a whole distributed application as a unique entity (choreography). DIOC allows the programmer to specify which parts of the application can be updated. At runtime, these parts may be replaced by new DIOC fragments from outside the application. DIOC programs are compiled, generating code for each site, in a lower-level language called DPOC. We formalise both DIOC and DPOC semantics as labelled transition systems and prove the correctness of the compilation as a trace equivalence result. As corollaries, DPOC applications are free from communication deadlocks and races, even in presence of runtime updates.",
+    "tags" : [ "Choreographic Programming", "Adaptation" ],
+    "authors" : [ "Saverio Giallorenzo", "Jacopo Mauro" ],
+    "type" : "Conference",
+    "non_group" : true
+  },
+  {
+    "bibitem": "@article{PGGLM15a,  author = {Mila Dalla Preda and  Maurizio Gabbrielli and  Saverio Giallorenzo and  Ivan Lanese and  Jacopo Mauro},  title = {Developing correct, distributed, adaptive software},  journal = {Sci. Comput. Program.},  volume = {97},  pages = {41--46},  year = {2015},  url = {https://doi.org/10.1016/j.scico.2013.11.019},  doi = {10.1016/j.scico.2013.11.019},  timestamp = {Wed, 14 Jun 2017 20:29:38 +0200},  biburl = {https://dblp.org/rec/bib/journals/scp/PredaGGLM15},  bibsource = {dblp computer science bibliography, https://dblp.org} }",
+    "links": [ { "link" : "http://www.saveriogiallorenzo.com/publications/scp2014/" } ],
+    "abstract": "We illustrate our approach to develop and verify distributed, adaptive software systems. The cornerstone of our framework is the use of choreography languages, which allow us to obtain correctness by construction. Workflow Patterns are also used as abstract tools to design real systems, while techniques based on abstract interpretation and on dynamic verification are integrated in our framework to reduce the complexity of verification.",
+    "tags" : [ "Choreographic Programming", "Adaptation" ],
+    "authors" : [ "Saverio Giallorenzo", "Jacopo Mauro" ],
+    "type" : "Journal",
+    "non_group" : true
   }
 ]

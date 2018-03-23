@@ -1,5 +1,9 @@
-$(document).ready(function() {
+$.fn.ignore = function(sel){
+  return this.clone().find(sel||">*").remove().end();
+};
 
+$(document).ready(function() {
+    
     /* ---- ABSTRACT PREVIEW LOGIC ---- */
     
     $(".abstract_preview").click( function( e ) {
@@ -59,7 +63,8 @@ $(document).ready(function() {
         selectedTopics = new Set();
 
         $.each( $( ".filters ." + selectedClass ), function( i, e ) {
-            selectedTopics.add( $( e ).text().toLowerCase() );
+            console.log( "adding \"" + $.trim( $( e ).ignore(".tot").text().toLowerCase() ) + "\"" );
+            selectedTopics.add( $.trim( $( e ).ignore(".tot").text().toLowerCase() ) );
         });
 
         var filterFunction;
@@ -97,7 +102,7 @@ $(document).ready(function() {
             filter = filter.substring( 7 );
         }
         $( ".btn-filter" ).each( function(i, e) {
-            if( $( e ).text().toLowerCase() == filter.toLowerCase() ){
+            if( $( e ).ignore(".tot").text().toLowerCase() == filter.toLowerCase() ){
                 $( e ).trigger( 'click' );
                 return false;
             }
