@@ -1,6 +1,6 @@
 [  
   {
-    "bibitem": "@inproceedings{gabbrielli2018language,title={A Language-based Approach for Interoperability of IoT Platforms},author={Gabbrielli, Maurizio and Giallorenzo, Saverio and Lanese, Ivan and Zingaro, Stefano Pio},booktitle={Proceedings of the 51st Hawaii International Conference on System Sciences},year={2018}}",
+    "bibitem": "@inproceedings{GGLZ18,title={A Language-based Approach for Interoperability of IoT Platforms},author={Gabbrielli, Maurizio and Giallorenzo, Saverio and Lanese, Ivan and Zingaro, Stefano Pio},booktitle={Proceedings of the 51st Hawaii International Conference on System Sciences},year={2018}}",
     "links": [ 
       { "link" : "http://www.saveriogiallorenzo.com/publications/hicss2018/" }, 
       { "name" : "website", "link" : "http://www.cs.unibo.it/projects/jolie/jiot.html", "icon" : "website" } 
@@ -9,7 +9,7 @@
     "tags" : [ "Microservices", "Internet of Things", "Integration" ],
     "authors" : [ "Saverio Giallorenzo" ],
     "non_group" : true,
-    "type" : "Chapter"
+    "type" : "Conference"
   },
   {
     "bibitem": "@article{BC18, author = {Bogaerts, Bart and Cruz-Filipe, Lu{\\'\\i}s}, title = {Fixpoint Semantics for Active Integrity Constraints}, year = 2018, journal = {Artificial Intelligence}, month = feb, volume = 255, pages = {43--70}}",

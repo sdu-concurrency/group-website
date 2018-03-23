@@ -20,7 +20,7 @@ module Jekyll
           end
         end
         string = ""
-        topicsSet.each do | tag |
+        topicsSet.to_a.sort.each do | tag |
           string += "<button class=\"btn btn-sm btn-filter btn-light\">#{tag}</button><span> </span>"
         end
         string
@@ -38,7 +38,7 @@ module Jekyll
           end
         end
         string = ""
-        typeSet.each do | tag |
+        typeSet.to_a.sort.each do | tag |
           string += "<button class=\"btn btn-sm btn-filter btn-light\">#{tag}</button><span> </span>"
         end
         string
@@ -57,7 +57,7 @@ module Jekyll
           end
         end
         string = ""
-        authorsSet.each do | author |
+        authorsSet.to_a.sort.each do | author |
           string += "<button class=\"btn btn-sm btn-filter btn-light\">#{author}</button><span> </span>"
         end
         string
