@@ -14,13 +14,11 @@ module Jekyll
         id = bibitem[ bibitem.index( "{" )+1..bibitem.index( "," )-1 ]
         hashMap[ id ] = item
       }
-
-      # extract key from bibitem
-      # create map key -> bibitem
-      # tmp.sort.each
-
+      tmp = Array.new
       hashMap.sort.each { | item |
-        item = item[1]
+        tmp << item[1]
+      }
+      tmp.each { | item |
         links = item["links"] || Array.new
         links.each { | link |
           unless link["name"].nil?
