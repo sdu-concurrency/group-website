@@ -12,7 +12,7 @@
     "non_group" : false
   },
   {
-    "bibitem": "@inproceedings{MMP17a,  author = {Mansutti, Alessio and  Miculan, Marino and  Peressotti, Marco},  editor = {Seidl, Martina and  Zschaler, Steffen},  title = {Loose Graph Simulations},  booktitle = {Software Technologies: Applications and Foundations - {STAF} 2017  Collocated Workshops, Marburg, Germany, July 17-21, 2017, Revised  Selected Papers},  series = {Lecture Notes in Computer Science},  volume = {10748},  pages = {109--126},  publisher = {Springer},  year = {2017},  doi = {10.1007/978-3-319-74730-9_9} }",
+    "bibitem": "@inproceedings{MMP17a,  author = {Mansutti, Alessio and  Miculan, Marino and  Peressotti, Marco},  editor = {Seidl, Martina and  Zschaler, Steffen},  title = {Loose Graph Simulations},  booktitle = {Software Technologies: Applications and Foundations - {STAF} 2017  Collocated Workshops, Marburg, Germany, July 17-21, 2017, Revised  Selected Papers},  series = {Lecture Notes in Computer Science},  volume = {10748},  pages = {109--126},  publisher = {Springer},  year = {2017},  doi = {10.1007/978-3-319-74730-9\\_9} }",
     "links": [ 
       { "name" : "technical report", 
         "link" : "http://arxiv.org/abs/1705.08241",
@@ -32,5 +32,170 @@
     "authors" : [ "Marco Peressotti" ],
     "type" : "Conference",
     "non_group" : true
+  },
+  {
+    "bibitem": "@article{BCCSZ17, author = {Bundala, Daniel and Codish, Michael and Cruz-Filipe, Lu{\\'\\i}s and Schneider-Kamp, Peter and Z{\\'a}vodn{\\'y}, Jakub}, title = {Optimal-Depth Sorting Networks}, journal = {Journal of Computer and System Sciences}, year = 2017, month = mar, pages = {185--204}, volume = 84, doi = {10.1016/j.jcss.2016.09.004}}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper31.pdf" }
+    ],
+    "tags": [ "Sorting Networks" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "We solve a 40-year-old open problem on the depth optimality of sorting networks. In 1973, Donald E.&nbsp;Knuth detailed, in Volume&nbsp;3 of <i>The Art of Computer Programming</i>, sorting networks of the smallest depth known at the time for <i>n</i>&leq;16 inputs, quoting optimality for <i>n</i>&leq;8. In 1989, Parberry proved the optimality of the networks with 9&leq;<i>n</i>&leq;10 inputs. In this article, we present a general technique for obtaining such optimality results, and use it to prove the optimality of the remaining open cases of 11&leq;<i>n</i>&leq;16 inputs. We show how to exploit symmetry to construct a small set of two-layer networks on <i>n</i> inputs such that if there is a sorting network on <i>n</i> inputs of a given depth, then there is one whose first layers are in this set. For each network in the resulting set, we construct a propositional formula whose satisfiability is necessary for the existence of a sorting network of a given depth. Using an off-the-shelf SAT solver we show that the sorting networks listed by Knuth are optimal. For <i>n</i>&leq;10 inputs, our algorithm is orders of magnitude faster than the prior ones.",
+    "non_group" : true,
+    "type": "journal"
+  },
+  {
+    "bibitem": "@article{CHN17, author = {Cruz-Filipe, Lu{\\'\\i}s and Gaspar, Graça and Nunes, Isabel}, title = {From description-logic programs to multi-context systems}, journal = {Journal of Logical and Algebraic Methods in Programming}, year = 2017, month = apr, volume = 88, pages = {26--44}, doi = {10.1016/j.jlamp.2017.01.005}}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper32.pdf" }
+    ],
+    "tags": [ "Knowledge Representation" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "The combination of logic program-style rules with other reasoning systems has been a fertile topic of research in the last years, with the proposal of several different systems that achieve this goal.  In this work, we look at two of these systems, dl-programs and multi-context systems, which address different aspects of this combination, and include different, incomparable programming constructs.  We prove that every dl-program can be transformed into a multi-context system in such a way that the different semantics for each paradigm are naturally related.  As a consequence, constructions developed for dl-programs can be automatically ported to multi-context systems.  In particular, we show how to model default rules over ontologies with the usual semantics.",
+    "non_group" : true,
+    "type": "journal"
+  },
+  {
+    "bibitem": "@inproceedings{CLM17, author = {Cruz{-}Filipe, Lu{\\'\\i}s and Larsen, Kim S. and Montesi, Fabrizio}, title = {The Paths to Choreography Extraction}, editor = {Esparza, Javier and Murawski, Andrzej S.}, series = {LNCS}, booktitle = {FoSSaCS}, volume = 10203, publisher = {Springer}, year = 2017, pages = {424--440}}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper33.pdf" }
+    ],
+    "tags": [ "Choreographic Programming" ],
+    "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi" ],
+    "abstract": "Choreographies are global descriptions of interactions among concurrent components, most notably used in the settings of verification (e.g., Multiparty Session Types) and synthesis of correct-by-construction software (Choreographic Programming).  They require a top-down approach: programmers first write choreographies, and then use them to verify or synthesize their programs.  However, most existing software does not come with choreographies yet, which prevents their application.<br />To attack this problem, we propose a novel methodology (called choreography extraction) that, given a set of programs or protocol specifications, automatically constructs a choreography that describes their behavior. The key to our extraction is identifying a set of paths in a graph that represents the symbolic execution of the programs of interest. Our method improves on previous work in several directions: we can now deal with programs that are equipped with a state and internal computation capabilities; time complexity is dramatically better; we capture programs that are correct but not necessarily synchronizable, i.e., they work because they exploit asynchronous communication.",
+    "non_group" : false,
+    "type": "conference"
+  },
+  {
+    "bibitem": "@inproceedings{CMS17, author = {Lu\\'{\\i}s Cruz-Filipe and Joao Marques-Silva and Peter Schneider-Kamp}, title = {Efficient Certified Resolution Proof Checking}, editor = {Legay, Axel and Margaria, Tiziana}, year = 2017, series = {LNCS}, booktitle = {TACAS}, volume = 10205, publisher = {Springer}, pages = {118--135}}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper34.pdf" }
+    ],
+    "tags": [ "Formal Proofs" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "We present a novel propositional proof tracing format that eliminates complex processing, thus enabling efficient (formal) proof checking.  The benefits of this format are demonstrated by implementing a proof checker in C, which outperforms a state-of-the-art checker by two orders of magnitude.  We then formalize the theory underlying propositional proof checking in Coq, and extract a correct-by-construction proof checker for our format from the formalization.  An empirical evaluation using 280 unsatisfiable instances from the 2015 and 2016 SAT competitions shows that this certified checker usually performs comparably to a state-of-the-art non-certified proof checker.  Using this format, we formally verify the recent 200 TB proof of the Boolean Pythagorean Triples conjecture.",
+    "non_group" : true,
+    "type": "conference"
+  },
+  {
+    "bibitem": "@inproceedings{CM17a, author = {Lu{\\'\\i}s Cruz-Filipe and Fabrizio Montesi}, title = {A Core Model for Choreographic Programming}, publisher = {Springer}, series = {LNCS}, booktitle = {FACS}, year = 2017, volume = 10231, pages = {17--35}, editor = {Kouchnarenko, Olga and Khosravi, Ramin}}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper35.pdf" }
+    ],
+    "tags": [ "Choreographic Programming" ],
+    "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi" ],
+    "abstract": "Choreographic Programming is a paradigm for developing concurrent programs that are deadlock-free by construction, by programming communications declaratively and then synthesising process implementations automatically. Despite strong interest on choreographies, a foundational model that explains which computations can be performed with the hallmark constructs of choreographies is still missing.<br />In this work, we introduce Core Choreographies (CC), a model that includes only the core primitives of choreographic programming. Every computable function can be implemented as a choreography in CC, from which we can synthesise a process implementation where independent computations run in parallel. We discuss the design of CC and argue that it constitutes a canonical model for choreographic programming.",
+    "non_group" : false,
+    "type": "conference"
+  },
+  {
+    "bibitem": "@article{CCNS17, author = {Codish, Michael and Cruz-Filipe, Lu{\\'\\i}s and Nebel, Markus and Schneider-Kamp, Peter}, title = {Optimizing Sorting Algorithms by Using Sorting Networks}, journal = {Formal Aspects of Computing}, year = 2017, month = may, pages = {559--579}, volume = 29, doi = {10.1007/s00165-016-0401-3}}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper36.pdf" }
+    ],
+    "tags": [ "Sorting Networks" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "In this paper, we show how the theory of sorting networks can be applied to synthesize optimized general-purpose sorting libraries.  Standard sorting libraries are often based on combinations of the classic Quicksort algorithm, with insertion sort applied as base case for small, fixed, numbers of inputs.  Unrolling the code for the base case by ignoring loop conditions eliminates branching, resulting in code equivalent to a sorting network.  By replacing it with faster sorting networks, we can improve the performance of these algorithms.  We show that by considering the number of comparisons and swaps alone we are not able to predict any real advantage of this approach.  However, significant speed-ups are obtained when taking advantage of instruction level parallelism and non-branching conditional assignment instructions, both of which are common in modern CPU architectures.  Furthermore, a close control of how often registers have to be spilled to memory gives us a complete explanation of the performance of different sorting networks, allowing us to choose an optimal one for each particular architecture.  Our experimental results show that using code synthesized from these efficient sorting networks as the base case for Quicksort libraries results in significant real-world speed-ups.",
+    "non_group" : true,
+    "type": "journal"
+  },
+  {
+    "bibitem": "@inproceedings{CS17, author = {Cruz{-}Filipe, Lu{\\'\\i}s and Schneider{-}Kamp, Peter}, title = {Formally Proving the Boolean Triples Conjecture}, year = 2017, series = {EPiC Series in Computing}, editor = {Eiter, Thomas and Sands, David}, publisher = {EasyChair Publications}, booktitle = {Proceedings of LPAR-21}, volume = 46, pages = {509--522}}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper37.pdf" }
+    ],
+    "tags": [ "Formal Proofs" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "In 2016, Heule, Kullmann and Marek solved the Boolean Pythagorean Triples problem: is there a binary coloring of the natural numbers such that every Pythagorean triple contains an element of each color?  By encoding a finite portion of this problem as a propositional formula and showing its unsatisfiability, they established that such a coloring does not exist.  Subsequently, this answer was verified by a correct-by-construction checker extracted from a Coq formalization, which was able to reproduce the original proof.  However, none of these works address the question of formally addressing the relationship between the propositional formula that was constructed and the mathematical problem being considered.  In this work, we formalize the Boolean Pythagorean Triples problem in Coq.  We recursively define a family of propositional formulas, parameterized on a natural number <i>n</i>, and show that unsatisfiability of this formula for any particular <i>n</i> implies that there does not exist a solution to the problem.  We then formalize the mathematical argument behind the simplification step in the original proof of unsatisfiability and the logical argument underlying cube-and-conquer, obtaining a verified proof of Heule <i>et al.</i>'s solution.",
+    "non_group" : true,
+    "type": "conference"
+  },
+  {
+    "bibitem": "@inproceedings{CM17b, author = {Cruz-Filipe, Lu{\\'\\i}s and Montesi, Fabrizio}, title = {Encoding Asynchrony in Choreographies}, editor = {Shin, D. and Lencastre, M.}, pages = {1175--1177}, booktitle = {Proceedings of the Symposium on Applied Computing, {SAC} 2017, Marrakech, Morocco, April 3-7, 2017}, year = 2017, doi = {10.1145/3019612.3019901}}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper38.pdf" }
+    ],
+    "tags": [ "Choreographic Programming" ],
+    "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi" ],
+    "abstract": "Choreographies are widely used for the specification of concurrent and distributed software architectures.  Since asynchronous communications are ubiquitous in real-world systems, previous works have proposed different approaches for the formal modelling of asynchrony in choreographies.  Such approaches typically rely on ad-hoc syntactic terms or semantics for capturing the concept of messages in transit, yielding different formalisms that have to be studied separately.<br />In this work, we take a different approach, and show that such extensions are not needed to reason about asynchronous communications in choreographies. Rather, we demonstrate how a standard choreography calculus already has all the needed expressive power to encode messages in transit (and thus asynchronous communications) through the primitives of process spawning and name mobility.  The practical consequence of our results is that we can reason about real-world systems within a choreography formalism that is simpler than those hitherto proposed.",
+    "non_group" : false,
+    "type": "conference"
+  },
+  {
+    "bibitem": "@inproceedings{CM17c, author = {Cruz-Filipe, Lu{\\'\\i}s and Montesi, Fabrizio}, title = {Procedural Choreographic Programming}, pages = {92--107}, editor = {Ahmed Bouajjani and Alexandra Silva}, booktitle = {Formal Techniques for Distributed Objects, Components, and Systems -- 37th IFIP WG 6.1 International Conference, FORTE 2017}, series = {LNCS}, publisher = {Springer}, year = 2017, volume = 10321}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper39.pdf" }
+    ],
+    "tags": [ "Choreographic Programming" ],
+    "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi" ],
+    "abstract": "Choreographic Programming is an emerging paradigm for correct-by-construction concurrent programming. However, its applicability is limited by the current lack of support for reusable procedures.<br />We propose Procedural Choreographies (PC), a choreographic language model with full procedural abstraction. PC includes unbounded process creation and name mobility, yielding a powerful framework for writing correct concurrent algorithms that can be compiled into a process calculus. This increased expressivity requires a typing discipline to ensure that processes are properly connected when enacting procedures.",
+    "non_group" : false,
+    "type": "conference"
+  },
+  {
+    "bibitem": "@incollection{CM17d, author = {Cruz-Filipe, Lu{\\'\\i} and Montesi, Fabrizio}, title = {That's Enough: Asynchrony with Standard Choreography Primitives}, booktitle = {Logic and Computation: Essays in Honour of Am{\\'\\i}lcar Sernadas}, editor = {Caleiro, Carlos and Dion{\\'\\i}sio, Francisco and Gouveia, Paula and Mateus, Paulo and Rasga, Jo{\\~a}o}, publisher = {College Publications}, series = {Tributes}, volume = 33, year = 2017, isbn = {978-1-84890-248-0}, pages = {125--142}}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper40.pdf" }
+    ],
+    "tags": [ "Choreographic Programming" ],
+    "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi" ],
+    "abstract": "Choreographies are widely used for the specification of concurrent and distributed software architectures.  Since asynchronous communications are ubiquitous in real-world systems, previous works have proposed different approaches for the formal modelling of asynchrony in choreographies.  Such approaches typically rely on ad-hoc syntactic terms or semantics for capturing the concept of messages in transit, yielding different formalisms that have to be studied separately.<br />In this work, we take a different approach, and show that such extensions are not needed to reason about asynchronous communications in choreographies. Rather, we demonstrate how a standard choreography calculus already has all the needed expressive power to encode messages in transit (and thus asynchronous communications) through the primitives of process spawning and name mobility.  The practical consequence of our results is that we can reason about real-world systems within a choreography formalism that is simpler than those hitherto proposed.",
+    "non_group" : false,
+    "type": "book chapter"
+  },
+  {
+    "bibitem": "@inproceedings{CHHKS17, author = {Cruz-Filipe, Lu{\\'\\i}s and Heule, Marijn and Hunt Jr., Warren and Kaufmann, Matt and Schneider-Kamp, Peter}, title = {Efficient Certified {RAT} Verification}, year = 2017, booktitle = {CADE 2017}, editor = {de Moura, Leonardo}, doi = {10.1007/978-3-319-63046-5\\_14}, publisher = {Springer}, series = {LNAI}, volume = 10395, pages = {220--236}}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper41.pdf" }
+    ],
+    "tags": [ "Formal Proofs" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "Clausal proofs have become a popular approach to validate the results of SAT solvers. However, validating clausal proofs in the most widely supported format (DRAT) is expensive even in highly optimized implementations.  We present a new format, called LRAT, which extends the DRAT format with hints that facilitate a simple and fast validation algorithm.  Checking validity of LRAT proofs can be implemented using trusted systems such as the languages supported by theorem provers.  We demonstrate this by implementing two certified LRAT checkers, one in Coq and one in ACL2.",
+    "non_group" : true,
+    "type": "conference"
+  },
+  {
+    "bibitem": "@inproceedings{BC17, author = {Bogaerts, Bart and Cruz-Filipe, Lu{\\'\\i}s}, title = {Semantics for Active Integrity Constraints Using Approximation Fixpoint Theory}, year = 2017, pages = {866--872}, editor = {Carles Sierra}, booktitle = {Proceedings of the Twenty-Sixth International Joint Conference on Artificial Intelligence, {IJCAI} 2017, Melbourne, Australia, August 19-25, 2017}, publisher = {ijcai.org}}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper42.pdf" }
+    ],
+    "tags": [ "Database Repair" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "Active integrity constraints (AICs) constitute a formalism to associate with a database not just the constraints it should adhere to, but also how to fix the database in case one or more of these constraints are violated. The intuitions regarding which repairs are &ldquo;good&rdquo; given such a description are closely related to intuitions that live in various areas of non-monotonic reasoning.<br />In this paper, we apply <i>approximation fixpoint theory</i>, an abstract, algebraic framework designed to unify semantics of non-monotonic logics, to the field of AICs. This results in a new family of semantics for AICs. We study properties of our new semantics and relationships to existing semantics. In particular, we argue that the AFT-well-founded semantics has some very desirable properties.",
+    "non_group" : true,
+    "type": "conference"
+  },
+  {
+    "bibitem": "@inproceedings{CLS17a, author = {Cruz-Filipe, Lu{\\'\\i}s and Larsen, Kim S. and Schneider-Kamp, Peter}, booktitle = {Interactive Theorem Proving -- 8th International Conference, {ITP} 2017, Bras{\\'\\i}lia, Brazil, September 26-29, 2017, Proceedings}, editor = {Ayala-Rincon, Mauricio and Mu{\\~n}oz, Cesar}, publisher = {Springer}, series = {LNCS}, volume = 10499, pages = {164--170}, title = {How to Get More Out of Your Oracles}, year = 2017}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper43.pdf" }
+    ],
+    "tags": [ "Formal Proofs" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "Formal verification of large computer-generated proofs often relies on certified checkers based on oracles.  We propose a methodology for such proofs, advocating a separation of concerns between formalizing the underlying theory and optimizing the algorithm implemented in the checker, based on the observation that such optimizations can benefit significantly from adequately adapting the oracle.",
+    "non_group" : true,
+    "type": "conference"
+  },
+  {
+    "bibitem": "@article{CLS17b, author = {Cruz{-}Filipe, Lu{\\'\\i}s and Larsen, Kim S. and Schneider{-}Kamp, Peter}, title = {Formally Proving Size Optimality of Sorting Networks}, year = 2017, month = dec, volume = 59, number = 4, pages = {425--454}, journal = {Journal of Automated Reasoning}}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper44.pdf" }
+    ],
+    "tags": [ "Formal Proofs", "Sorting Networks" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "Recent successes in formally verifying increasingly larger computer-generated proofs have relied extensively on (a) using oracles, to find answers for recurring subproblems efficiently, and (b) extracting formally verified checkers, to perform exhaustive case analysis in feasible time.<br />In this work we present a formal verification of optimality of sorting networks on up to 9 inputs, making it one of the largest computer-generated proofs that has been formally verified.  We show that an adequate pre-processing of the information provided by the oracle is essential for feasibility, as it improves the time required by our extracted checker by several orders of magnitude.",
+    "non_group" : true,
+    "type": "journal"
+  },
+  {
+    "bibitem": "@incollection{CM17e, author = {Cruz-Filipe, L. and Montesi, F.}, title = {On Asynchrony and Choreographies}, booktitle = {Proceedings 10th Interaction and Concurrency Experience}, editor = {Bartoletti, M. and Bocchi, L. and Henrio, L. and Knight, S.}, publisher = {Open Publishing Association}, series = {EPTCS}, volume = 261, year = 2017, pages = {76--90}, doi = {10.4204/EPTCS.261.8}}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper45.pdf" }
+    ],
+    "tags": [ "Choreographic Programming" ],
+    "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi" ],
+    "abstract": "Choreographic Programming is a paradigm for the development of concurrent software, where deadlocks are prevented syntactically.  However, choreography languages are typically synchronous, whereas many real-world systems have asynchronous communications.  Previous attempts at enriching choreographies with asynchrony rely on <i>ad-hoc</i> constructions, whose adequacy is only argued informally.  In this work, we formalise the properties that an asynchronous semantics for choreographies should have: messages can be sent without the intended receiver being ready, and all sent messages are eventually received.  We explore how out-of-order execution, used in choreographies for modelling concurrency, can be exploited to endow choreographies with an asynchronous semantics. Our approach satisfies the properties we identified.  We show how our development yields a pleasant correspondence with FIFO-based asynchronous messaging, modelled in a process calculus, and discuss how it can be adopted in more complex choreography models.",
+    "non_group" : false,
+    "type": "workshop"
   }
 ]
