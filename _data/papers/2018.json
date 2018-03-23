@@ -10,5 +10,16 @@
     "authors" : [ "Saverio Giallorenzo" ],
     "non_group" : true,
     "type" : "Chapter"
+  },
+  {
+    "bibitem": "@article{BC18, author = {Bogaerts, Bart and Cruz-Filipe, Lu{\\'\\i}s}, title = {Fixpoint Semantics for Active Integrity Constraints}, year = 2018, journal = {Artificial Intelligence}, month = feb, volume = 255, pages = {43--70}}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper46.pdf" }
+    ],
+    "tags": [ "Database Repair" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "Active integrity constraints (AICs) constitute a formalism to associate with a database not just the constraints it should adhere to, but also how to fix the database in case one or more of these constraints are violated. The intuitions regarding which repairs are &ldquo;good&rdquo; given such a description are closely related to intuitions that live in various areas of non-monotonic reasoning, such as logic programming and autoepistemic logic.<br />In this paper, we apply <i>approximation fixpoint theory</i>, an abstract, algebraic framework designed to unify semantics of non-monotonic logics, to the field of AICs. This results in a new family of semantics for AICs. We study properties of our new semantics and relationships to existing semantics. In particular, we argue that two of the newly defined semantics stand out. <i>Grounded repairs</i> have a simple definition that is purely based on semantic principles that semantics for AICs should adhere to. And, as we show, they coincide with the intended interpretation of AICs on many examples. The second semantics of interest is the AFT-well-founded semantics: it is a computationally cheap semantics that provides upper- and lower bounds for many other classes of repairs.",
+    "non_group" : true,
+    "type": "journal"
   }
 ]
