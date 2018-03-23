@@ -34,14 +34,16 @@
   },
   {
     "bibitem": "@unpublished{CMP18, author = {Cruz-Filipe, Lu{\\'\\i}s and Montesi, Fabrizio and Peressotti, Marco}, title = {Communications in Choreographies, Revisited}, booktitle = {Proceedings of the Symposium on Applied Computing, {SAC} 2018, Pau, France, April 9-13, 2018}, note = {accepted for publication}}",
-    "links": [
-      { "link" : "http://tinyurl.com/lcfilipe/pubs/paperD.pdf" }
-    ],
+		"links": [ 
+			{ "name" : "technical report", 
+				"link" : "https://arxiv.org/abs/1711.10201",
+				"icon" : "arxiv"}
+		],
     "tags": [ "Choreographic Programming" ],
     "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi", "Marco Peressotti" ],
     "abstract": "Choreographic Programming is a paradigm for developing correct-by-construction concurrent programs, by writing high-level descriptions of the desired communications and then synthesising process implementations automatically. So far, choreographic programming has been explored in the <i>monadic</i> setting: interaction terms express point-to-point communications of a single value. However, real-world systems often rely on interactions of <i>polyadic</i> nature, where multiple values are communicated among two or more parties, like multicast, scatter-gather, and atomic exchanges.<br />We introduce a new model for choreographic programming equipped with a primitive for grouped interactions that subsumes all the above scenarios. Intuitively, grouped interactions can be thought of as being carried out as one single interaction. In practice, they are implemented by processes that carry them out in a concurrent fashion. After formalising the intuitive semantics of grouped interactions, we prove that choreographic programs and their implementations are correct and deadlock-free by construction.",
     "non_group" : false,
-    "type": "conference"
+    "type": "Conference"
   },
   {
     "bibitem": "@unpublished{CMa, author = {Lu{\\'\\i}s Cruz-Filipe and Fabrizio Montesi}, title = {A Core Model for Choreographic Programming}, note = {submitted for publication}}",
