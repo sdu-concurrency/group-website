@@ -68,14 +68,13 @@ A descriptive sentence.
 							<div>
 							<small>
 								<a href="#" class="nodec bibitem_preview" id="{{ id }}" ><span class="fa fa-quote-right"></span> bibitem</a></small>
+							| <small><a href="#" class="nodec abstract_preview" id="{{ id }}" ><span class="fa fa-align-left"></span> abstract</a></small>
 							{% for link in paper.links %}
 							| <small><a class="nodec" href="{{ link.link }}">
 								{% assign name = link.name | default: "paper" %}
 								{% assign icon = link.icon | default: "fa fa-file-pdf"%}
 								<span class="{{icon}}"></span> {{ name }}</a></small>
 							{% endfor%}
-							| 
-							<small><a href="#" class="nodec abstract_preview" id="{{ id }}" ><span class="fa fa-align-left"></span> abstract</a></small>
 							</div>
 							</div>
 							{% assign g_size = paper.grants | size %}

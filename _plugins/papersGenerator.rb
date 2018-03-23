@@ -9,9 +9,20 @@ module Jekyll
     def addYear( file, papers )
       tmp = JSON.parse( File.read( file ) )
       tmp.each { |item|
+        links = item["links"] || Array.new
+        links.each { |link|
+          unless link["name"].nil?
+            link["name"].downcase!
+          end
+        }
+        item["links"] = links
         bibitem = item["bibitem"].gsub("\\\\","\\")
-        b = BibTeX.parse( bibitem )
+        b = BibTeX.parse( bibitem ).convert(:latex)
+        unless b[0]["doi"].nil? || links.any?{ |h| h["name"] == "doi"}
+          links.insert(0, { "link" => "https://doi.org/" << b[0].doi, "name" => "doi", "icon" => "ai ai-doi" })
+        end
         b[0].delete("doi")
+        b[0].delete("url")
         b[0].title = "<span class=\"paper-title\">#{b[0].title}</span>"
         cp = CiteProc::Processor.new style: 'apa', format: 'text'
         cp.import b.to_citeproc
