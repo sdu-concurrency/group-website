@@ -1,6 +1,6 @@
 [  
   {
-    "bibitem": "@article{MP16a,  author = {Marino Miculan and  Marco Peressotti},  title = {Structural operational semantics for non-deterministic processes with  quantitative aspects},  journal = {Theor. Comput. Sci.},  volume = {655},  pages = {135--154},  year = {2016}, doi = {10.1016/j.tcs.2016.01.012} }",
+    "bibitem": "@article{MP16a,  author = {Marino Miculan and  Marco Peressotti},  title = {Structural operational semantics for non-deterministic processes with  quantitative aspects},  journal = {Theor.\\ Comput.\\ Sci.},  volume = {655},  pages = {135--154},  year = {2016}, doi = {10.1016/j.tcs.2016.01.012} }",
     "links": [ 
       { "name" : "technical report", 
         "link" : "https://arxiv.org/abs/1410.0893",
@@ -33,7 +33,7 @@
     "non_group" : true
   },
   {
-    "bibitem": "@inproceedings{DDPT16a,  author = {De Nart, Dario and  Degl'Innocenti, Dante and  Peressotti, Marco and  Tasso, Carlo},  editor = {Maristella Agosti and  Marco Bertini and  Stefano Ferilli and  Simone Marinai and  Nicola Orio},  title = {Stratifying Semantic Data for Citation and Trust: An Introduction  to {RDFDF}},  booktitle = {Digital Libraries and Multimedia Archives - 12th Italian Research  Conference on Digital Libraries, {IRCDL} 2016, Florence, Italy, February  4-5, 2016, Revised Selected Papers},  series = {Communications in Computer and Information Science},  volume = {701},  pages = {104--111},  year = {2016}, doi = {10.1007/978-3-319-56300-8_10} }",
+    "bibitem": "@inproceedings{DDPT16a,  author = {De Nart, Dario and  Degl'Innocenti, Dante and  Peressotti, Marco and  Tasso, Carlo},  editor = {Maristella Agosti and  Marco Bertini and  Stefano Ferilli and  Simone Marinai and  Nicola Orio},  title = {Stratifying Semantic Data for Citation and Trust: An Introduction  to {RDFDF}},  booktitle = {Digital Libraries and Multimedia Archives - 12th Italian Research  Conference on Digital Libraries, {IRCDL} 2016, Florence, Italy, February  4-5, 2016, Revised Selected Papers},  series = {Communications in Computer and Information Science},  volume = {701},  pages = {104--111},  year = {2016}, doi = {10.1007/978-3-319-56300-8\\_10} }",
     "links": [],
     "abstract": "In this paper we analyse the functional requirements of linked data citation and identify a minimal set of operations and primitives needed to realise such task. Citing linked data implies solving a series of data provenance issues and finding a way to identify data subsets. Those two tasks can be handled defining a simple type system inside data and verifying it with a type checker, which is significantly less complex than interpreting reified RDF statements and can be implemented in a non data invasive way. Finally we suggest that data citation should be handled outside of the data, and propose a simple language to describe RDF documents where separation between data and metainformation is explicitly specified.",
     "tags" : [ "Digital Libraries" ],
@@ -53,5 +53,71 @@
     "authors" : [ "Marco Peressotti" ],
     "type" : "Journal",
     "non_group" : true
+  },
+  {
+    "bibitem": "@inproceedings{CNS16, author = {Cruz-Filipe, Lu{\\'\\i}s and Nunes, Isabel and Schneider-Kamp, Peter}, booktitle = {Foundations of Information and Knowledge Systems -- 9th International Symposium, FoIKS 2016, Linz, Austria, March 7--11, 2016. Proceedings}, doi = {10.1007/978-3-319-30024-5\\_13}, editor = {Gyssens, Marc and Simari, Guillermo}, pages = {235--254}, publisher = {Springer}, series = {LNCS}, title = {Integrity Constraints for General-Purpose Knowledge Bases}, volume = 9616, year = 2016}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper25.pdf" }
+    ],
+    "tags": [ "Database Repair" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "Integrity constraints in databases have been studied extensively since the 1980s, and they are considered essential to guarantee database integrity. In recent years, several authors have studied how the same notion can be adapted to reasoning frameworks, in such a way that they achieve the purpose of guaranteeing a system's consistency, but are kept separate from the reasoning mechanisms.<br />In this paper we focus on multi-context systems, a general-purpose framework for combining heterogeneous reasoning systems, enhancing them with a notion of integrity constraints that generalizes the corresponding concept in the database world.",
+    "non_group" : true,
+    "type": "conference"
+  },
+  {
+    "bibitem": "@article{CCFS16, author = {Codish, Michael and Cruz-Filipe, Lu{\\'\\i}s and Frank, Michael and Schneider-Kamp, Peter}, title = {Sorting nine inputs requires twenty-five comparisons}, journal = {Journal of Computer and System Sciences}, volume = 82, number = 3, pages = {551--563}, year = 2016, doi = {10.1016/j.jcss.2015.11.014}}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper26.pdf" }
+    ],
+    "tags": [ "Sorting Networks" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "This paper describes a computer-assisted non-existence proof of 9-input sorting networks consisting of 24 comparators, hence showing that the 25-comparator sorting network found by Floyd in 1964 is optimal. As a corollary, the 29-comparator network found by Waksman in 1969 is optimal when sorting 10 inputs.<br />This closes the two smallest open instances of the optimal-size sorting network problem, which have been open since the results of Floyd and Knuth from 1966 proving optimality for sorting networks of up to 8 inputs.",
+    "non_group" : true,
+    "type": "journal"
+  },
+  {
+    "bibitem": "@inproceedings{CM16, author = {Lu{\\'\\i}s Cruz-Filipe and Fabrizio Montesi}, title = {Choreographies in Practice}, pages = {114--123}, doi = {10.1007/978-3-319-39570-8\\_8}, editor = {Elvira Albert and Ivan Lanese}, booktitle = {Formal Techniques for Distributed Objects, Components, and Systems -- 36th IFIP WG 6.1 International Conference, FORTE 2016}, series = {LNCS}, volume = 9688, publisher = {Springer}, year = 2016}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper27.pdf" }
+    ],
+    "tags": [ "Choreographic Programming" ],
+    "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi"],
+    "abstract": "Choreographic Programming is a development methodology for concurrent software that guarantees correctness by construction. The key to this paradigm is to disallow mismatched I/O operations in programs, and mechanically synthesise process implementations.<br />There is still a lack of practical illustrations of the applicability of choreographies to computational problems with standard concurrent solutions. In this work, we explore the potential of choreographic programming by writing concurrent algorithms for sorting, solving linear equations, and computing Fast Fourier Transforms. The lessons learned from this experiment give directions for future improvements of the paradigm.",
+    "non_group" : false,
+    "type": "conference"
+  },
+  {
+    "bibitem": "@inproceedings{C16, author = {Lu{\\'\\i}s Cruz-Filipe}, title = {Grounded Fixpoints and Active Integrity Constraints}, pages = {11.1--11.14}, doi = {10.4230/OASIcs.ICLP.2016.11}, editor = {Carro, Manuel and King, Andy and De Vos, Marina and Saeedloei, Neda}, booktitle = {Technical Communications of the 32nd International Conference on Logic Programming (ICLP'16)}, series = {OASIcs}, volume = 52, publisher = {Schloss Dagstuhl}, month = nov, year = 2016}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper28.pdf" }
+    ],
+    "tags": [ "Database Repair" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "The formalism of active integrity constraints was introduced as a way to specify particular classes of integrity constraints over relational databases together with preferences on how to repair existing inconsistencies.  The rule-based syntax of such integrity constraints also provides algorithms for finding such repairs that achieve the best asymptotic complexity.<br />However, the different semantics that have been proposed for these integrity constraints all exhibit some counter-intuitive examples.  In this work, we look at active integrity constraints using ideas from algebraic fixpoint theory.  We show how database repairs can be modeled as fixpoints of particular operators on databases, and study how the notion of grounded fixpoint induces a corresponding notion of grounded database repair that captures several natural intuitions, and in particular avoids the problems of previous alternative semantics.<br />In order to study grounded repairs in their full generality, we need to generalize the notion of grounded fixpoint to non-deterministic operators.  We propose such a definition and illustrate its plausibility in the database context.",
+    "non_group" : true,
+    "type": "conference"
+  },
+  {
+    "bibitem": "@inproceedings{CGNS16, author = {Cruz-Filipe, Lu{\\'\\i}s and Gaspar, Gra{\\c c}a and Nunes, Isabel and Schneider-Kamp, Peter}, title = {Active Integrity Constraints for Multi-Context Systems}, pages = {98--112}, doi = {10.1007/978-3-319-49004-5\\_7}, editor = {Blomqvist, Eva and Vitali, Fabio and Ciancarini, Paolo and Poggi, Francesco}, booktitle = {Knowledge Engineering and Knowledge Management -- 20th International Conference, {EKAW} 2016, Bologna, Italy, November 19-23, 2016. Proceedings}, publisher = {Springer}, series = {LNAI}, month = nov, year = 2016, volume = 10024}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper29.pdf" }
+    ],
+    "tags": [ "Database Repair" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "We introduce a formalism to couple integrity constraints over general-purpose knowledge bases with actions that can be executed to restore consistency.  This formalism generalizes active integrity constraints over databases.  In the more general setting of multi-context systems, adding repair suggestions to integrity constraints allows defining simple iterative algorithms to find all possible grounded repairs &ndash; repairs for the global system that follow the suggestions given by the actions in the individual rules.  We apply our methodology to ontologies, and show that it can express most relevant types of integrity constraints in this domain.",
+    "non_group" : true,
+    "type": "conference"
+  },
+  {
+    "bibitem": "@inproceedings{CFHLNS16, author = {Cruz-Filipe, Lu{\\'\\i}s and Franz, Michael and Hakhverdyan, Artavazd and Ludovico, Marta and Nunes, Isabel and Schneider-Kamp, Peter}, booktitle = {Knowledge Discovery, Knowledge Engineering and Knowledge Management}, editor = {Fred, Ana and Dietz, Jan L.G. and Aveiro, David and Liu, Kecheng and Filipe, Joaquim}, publisher = {Springer}, series = {CCIS}, number = 631, pages = {399--420}, title = {Active Integrity Constraints: from Theory to Implementation}, doi = {10.1007/978-3-662-46549-3\\_13}, year = 2016}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper30.pdf" }
+    ],
+    "tags": [ "Database Repair" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "The problem of database consistency relative to a set of integrity constraints has been extensively studied since the 1980s, and is still recognized as one of the most important and complex in the field.  In recent years, with the proliferation of knowledge repositories (not only databases) in practical applications, there has also been an effort to develop implementations of consistency maintenance algorithms that have a solid theoretical basis.<br />The framework of active integrity constraints (AICs) is one example of such an effort, providing theoretical grounds for rule-based algorithms for ensuring database consistency.  An AIC consists of an integrity constraint together with a specification of actions that may be taken to repair a database that does not satisfy it.  Both denotational and operational semantics have been proposed for AICs.<br />In this paper, we describe <code>repAIrC</code>, a prototype implementation of the algorithms previously proposed targetting SQL databases, i.e., the most prolific type of databases.  Using <code>repAIrC</code>, we can both validate an SQL database with respect to a given set of AICs and compute possible repairs in case the database is inconsistent; the tool is able to work with the different kinds of repairs that have been considered, and achieves optimal asymptotic complexity in their computation.  It also implements strategies for parallelizing the search for repairs, which in many cases can make untractable problems become easily solvable.",
+    "non_group" : true,
+    "type": "conference"
   }
 ]
