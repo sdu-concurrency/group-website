@@ -31,33 +31,49 @@ module Jekyll
             link["icon"] = iconMap[ link["icon"] ]
            end
           end
-      }
-      item["links"] = links
-      bibitem = item["bibitem"]#.gsub("\\\\","\\")
-      b = BibTeX.parse( bibitem ).convert(:latex)
-        # use the the bib url if item does not specify a link for the paper
-        unless b[0]["url"].nil? || links.any?{ |h| h["name"] == "paper" || h["name"] == nil}
-          links.insert(0, { 
-            "link" => b[0].url, "name" => "paper", 
-            "icon" => (b[0].url.end_with?(".pdf") ? iconMap["pdf"] : iconMap["generic"] ) 
-          })
-        end
-        # use the the bib doi if item does not specify one
-        unless b[0]["doi"].nil? || links.any?{ |h| h["name"] == "doi"}
-          links.insert(0, { 
-						"link" => "https://doi.org/" << b[0].doi.gsub("\\",""), 
-						"name" => "doi", 
-						"icon" => "ai ai-doi" })
-        end
-        b[0].delete("doi")
-        b[0].delete("url")
-        b[0].title = "<span class=\"paper-title\">#{b[0].title}</span>"
-        cp = CiteProc::Processor.new style: 'apa', format: 'text'
-        cp.import b.to_citeproc
-        item["content"] = cp.bibliography().references[0]
+        }
+        bibitem = item["bibitem"]#.gsub("\\\\","\\")
+        b = BibTeX.parse( bibitem ).convert(:latex)
+          # use the the bib url if item does not specify a link for the paper
+          unless b[0]["url"].nil? || links.any?{ |h| h["name"] == "paper" || h["name"] == nil}
+            links.insert(0, { 
+              "link" => b[0].url, "name" => "paper", 
+              "icon" => (b[0].url.end_with?(".pdf") ? iconMap["pdf"] : iconMap["generic"] ) 
+            })
+          end
+          # use the the bib doi if item does not specify one
+          unless b[0]["doi"].nil? || links.any?{ |h| h["name"] == "doi"}
+            links.insert(0, { 
+              "link" => "https://doi.org/" << b[0].doi.gsub("\\",""), 
+              "name" => "doi", 
+              "icon" => "ai ai-doi" 
+            })
+          end
+          b[0].delete("doi")
+          b[0].delete("url")
+          b[0].title = "<span class=\"paper-title\">#{b[0].title}</span>"
+          cp = CiteProc::Processor.new style: 'apa', format: 'text'
+          cp.import b.to_citeproc
+          item["content"] = cp.bibliography().references[0]
           # unless cp.items.size <= 0
           #   item["abstract"] = cp.items[cp.items.keys[0]].abstract.value
           # end
+          item["links"] = links
+          # titlecaseing and null filtering for tags, type, and authors
+          type = item["type"]
+          unless type.nil? || type.length == 0 
+            item["type"] = type.downcase.titleize
+          end
+          item["authors"].map! { | e |
+            unless e.nil? || e.length == 0 
+              e.downcase.titleize
+            end
+            }.collect!
+          item["tags"].map! { | e |
+            unless e.nil? || e.length == 0 
+              e.downcase.titleize
+            end
+            }.collect!
         }
         papers << { "year" =>  File.basename( file , ".json" ), "papers" => tmp }
       end

@@ -14,14 +14,14 @@ module Jekyll
         data.each do | item |
           item[ "papers" ].each do | paper |
             paper[ "tags" ].each do | tag |
-              if( (not tag.nil?) && tag.length > 0 )
-                topicsSet.add( tag.downcase.titleize )
-                if topicsCount[ tag.downcase.titleize ].nil? 
-                  topicsCount[ tag.downcase.titleize ] = 1
+              #if( (not tag.nil?) && tag.length > 0 )
+                topicsSet.add( tag )
+                if topicsCount[ tag ].nil? 
+                  topicsCount[ tag ] = 1
                 else
-                  topicsCount[ tag.downcase.titleize ] = topicsCount[ tag.downcase.titleize ]+1
+                  topicsCount[ tag ] = topicsCount[ tag ]+1
                 end
-              end
+              #end
             end
           end
         end
@@ -41,7 +41,7 @@ module Jekyll
           item[ "papers" ].each do | paper |
             type = paper[ "type" ]
             if( (not type.nil?) && type.length > 0 )
-              typeSet.add( type.downcase.titleize )
+              typeSet.add( type )
             end
           end
         end
@@ -59,9 +59,9 @@ module Jekyll
         data.each do | item |
           item[ "papers" ].each do | paper |
             paper[ "authors" ].each do | author |
-              if( (not author.nil?) && author.length > 0 )
-                authorsSet.add( author.downcase.titleize )
-              end
+              #if( (not author.nil?) && author.length > 0 )
+                authorsSet.add( author )
+              #end
             end
           end
         end
