@@ -59,15 +59,15 @@ A descriptive sentence.
 					<div style="margin-top: -20px; padding-bottom: 1em;"><span style="font-size: 1.5em; background-color: white; padding-left: 6px; padding-right: 6px;">{{ item.year }}</span></div>
 					<ul>
 						{% for paper in item.papers %}
-						<li class="mb-4">
+						<li class="paper mb-4">
 							<div>
 							{% assign id = id | plus: 1 %}
 							<div class="paper">
 							{{ paper.content }}
 							</div>
 							<div>
-							<small>
-								<a href="#" class="nodec bibitem_preview" id="{{ id }}" ><span class="fa fa-quote-right"></span> bibitem</a></small>
+							<small><a href="#" class="nodec tags_preview" id="{{ id }}" ><span class="fa fa-tags"></span> tags</a></small>
+							| <small><a href="#" class="nodec bibitem_preview" id="{{ id }}" ><span class="fa fa-quote-right"></span> bibitem</a></small>
 							| <small><a href="#" class="nodec abstract_preview" id="{{ id }}" ><span class="fa fa-align-left"></span> abstract</a></small>
 							{% for link in paper.links %}
 							| <small><a class="nodec" href="{{ link.link }}">
@@ -85,6 +85,19 @@ A descriptive sentence.
 							{% endfor%}
 							</small></div>
 							{% endif%}
+							<div style="display: none;" class="card" id="tags_content_{{ id }}">
+								<div class="card-body">
+									<ul style="margin:0">
+										<li><small><strong>Publication type:</strong> <a href="#" class="nodec tags_item">{{ paper.type }}</a></small></li>
+										<li><small><strong>Keywords:</strong>
+											{% for tag in paper.tags %}
+												<a href="#" class="nodec tags_item">{{ tag }}</a>;
+											{% endfor %}</small></li>
+										<li><small><strong>Authors:</strong>
+											{% for author in paper.authors %}
+											<a href="#" class="nodec tags_item">{{ author }}</a>;
+											{% endfor %}</small></li>
+										</ul></div></div>
 							<div style="display: none;" class="card" id="abstract_content_{{ id }}">
 								<div style="background-color: #dceaff;" class="card-body"><small>{{ paper.abstract }}</small></div>
 							</div>

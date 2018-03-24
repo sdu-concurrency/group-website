@@ -17,7 +17,25 @@ $(document).ready(function() {
         $( "#bibitem_content_" + $( this ).attr( "id" ) ).toggle( 100 );
         return false;
     });
+    
+    /* ---- TAGS VIEW LOGIC ---- */
 
+    $(".tags_preview").click( function( e ) {
+        $( "#tags_content_" + $( this ).attr( "id" ) ).toggle( 100 );
+        return false;
+    });
+    $(".tags_item").click( function( e ) {
+      var filter = $(this).text().trim().toLowerCase(); 
+      console.log("tag \"" + filter + "\"" );
+      $( ".btn-filter" ).each( function(i, e) {
+          if( $.trim( $( e ).ignore(".tot").text().toLowerCase() ) == filter){
+              $( e ).trigger( 'click' );
+              return false;
+          }
+      });
+      return false;
+    })
+    
     /* ---- FILTERS LOGIC ---- */
 
     var basicBtnClasses = "btn btn-sm";
@@ -36,7 +54,7 @@ $(document).ready(function() {
     };
 
     var filterCollection = function( i, e ){
-        var papers = $( e ).find( "li" );
+        var papers = $( e ).find( "li.paper" );
         var items = $( papers ).length;
         var hidden = 0;
         $( papers ).each( function( i, el ) {
@@ -84,7 +102,7 @@ $(document).ready(function() {
             }
         }
 
-        $.each( $( "#papers li" ), filterFunction );
+        $.each( $( "#papers li.paper" ), filterFunction );
         $.each( $( ".pub-year" ), filterCollection );
     };
 
@@ -101,8 +119,9 @@ $(document).ready(function() {
         } else if( filter.indexOf( "author_" ) > -1 ){
             filter = filter.substring( 7 );
         }
+        filter = filter.toLowerCase();
         $( ".btn-filter" ).each( function(i, e) {
-            if( $( e ).ignore(".tot").text().toLowerCase() == filter.toLowerCase() ){
+            if( $( e ).ignore(".tot").text().toLowerCase() == filter){
                 $( e ).trigger( 'click' );
                 return false;
             }
