@@ -2,7 +2,7 @@
   {
     "bibitem": "@article{GGM15, author = {Maurizio Gabbrielli and Saverio Giallorenzo and Fabrizio Montesi}, title = {Applied Choreographies}, journal = {CoRR}, volume = {abs/1510.03637}, year = {2015}}",
     "links": [ 
-      { "name" : "technical report", "link" : "http://arxiv.org/abs/1510.03637" } 
+      { "name" : "technical report", "link" : "http://arxiv.org/abs/1510.03637", "icon" : "arxiv" } 
     ],
     "abstract": "Choreographic Programming is a methodology for the development of concurrent software based on a correctness-by-construction approach which, given a global description of a system (a choreography), automatically generates deadlock-free communicating programs via an EndPoint Projection (EPP). Previous works use target-languages for EPP that, like their source choreography languages, model communications using channel names (e.g., variants of CCS and π-calculus). This leaves a gap between such models and real-world implementations, where communications are concretely supported by low-level mechanisms for message routing. We bridge this gap by developing Applied Choreographies (AC), a new model for choreographic programming. AC brings the correctness-by-construction methodology of choreographies down to the level of a real executable language. The key feature of AC is that its semantics is based on message correlation --- a standard technique in Service-Oriented Computing --- while retaining the usual simple and intuitive syntax of choreography languages. We provide AC with a typing discipline that ensures the correct use of the low-level mechanism of message correlation, thus avoiding communication errors. We also define a two-step compilation from AC to a low-level Correlation Calculus, which is the basis of a real executable language (Jolie). Finally, we prove an operational correspondence theorem, which ensures that compiled programs behave as the original choreography. This is the first result of such correctness property in the case of a real-world implemented language.",
     "tags" : [ "Choreographic Programming" ],
@@ -96,6 +96,29 @@
     "tags": [ "Choreographic Programming" ],
     "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi" ],
     "abstract": "We present Multiparty Classical Choreographies (MCC), a language model where global descriptions of communicating systems (choreographies) and processes can be modularly composed to implement typed multiparty sessions. Typing is achieved by generalising classical linear logic to judgements that explicitly record parallelism by means of hypersequents. Our approach unifies different lines of work on choreographies and processes with multiparty sessions, as well as their connection to linear logic. Thus, results developed in one context are carried over to the others. Key novelties of MCC include support for behavioural polymorphism in choreographies, as well as a translation from processes with replication to choreographies.",
+    "non_group" : false,
+    "type": "preprint"
+  },
+  {
+    "bibitem": "@article{MP17,  author = {Fabrizio Montesi and  Marco Peressotti},  title = {Choreographies meet Communication Failures},  journal = {CoRR},  volume = {abs/1712.05465},  year = {2017},  url = {http://arxiv.org/abs/1712.05465} }",
+    "links": [
+      { "link" : "https://arxiv.org/abs/1803.01049", "icon" : "arxiv"}
+    ],
+    "tags": [ "Choreographic Programming" ],
+    "authors": [ "Fabrizio Montesi", "Marco Peressotti" ],
+    "abstract": "Choreographies are global descriptions of communication structures, inspired by the \"Alice and Bob\" notation of security protocols. They have been successfully employed in the design and implementation of distributed systems. However, there is still limited evidence of the applicability of choreographies in the real-world setting of distributed programming, where communication actions may fail. In this work, we propose the first choreography model that allows for communication failures and the programming of user-defined code to deal with such failures. We validate our model by implementing common strategies for handling communication failures in a robust way, which in turn can be used as a library by choreographies that assume reliable communication. We equip our model with a typing discipline that can statically verify reliability properties, in particular at-most-once and exactly-once delivery. We demonstrate the applicability of our model by defining a semantics-preserving compilation procedure towards a process calculus equipped with unreliable I/O actions.",
+    "non_group" : false,
+    "type": "preprint"
+  },
+  {
+    "bibitem": "@article{MP18,  author = {Fabrizio Montesi and  Marco Peressotti},  title = {Classical Transitions},  journal = {CoRR},  volume = {abs/1803.01049},  year = {2018},  url = {http://arxiv.org/abs/1803.01049} }",
+    "links": [
+      { "link" : "http://arxiv.org/abs/1803.01049",
+        "icon" : "arxiv"}
+    ],
+    "tags": [ "Process Calculi" ],
+    "authors": [ "Fabrizio Montesi", "Marco Peressotti" ],
+    "abstract": "We introduce the calculus of Classical Transitions (CT), which extends the research line on the relationship between linear logic and processes to labelled transitions. The key twist from previous work is registering parallelism in typing judgements, by generalising linear logic judgements from one sequents to many (hypersequents). This allows us to bridge the gap between the structures of operators used as proof terms in previous work and those of the standard π-calculus (in particular parallel operator and restriction). The proof theory of CT allows for new proof transformations, which we show correspond to a labelled transition system (LTS) for processes. We prove that CT enjoys subject reduction and progress.",
     "non_group" : false,
     "type": "preprint"
   }
