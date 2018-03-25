@@ -69,38 +69,48 @@ $(document).ready(function() {
         }
     };
 
+    var selectedTopics = [new Set(), new Set(), new Set()];
+    var topicCategory = ["keyword","author","type"];
+
     var filterPapers = function( e ) {
-        var updateClass = "";
-        if ( $( this ).is( "button" ) && isSelected( this ) ) {
-            updateClass = unselectedClass;
-        } else {
-            updateClass = selectedClass;
+        if ( $( this ).is( "button" ) ) {
+          $( this ).toggleClass(selectedClass).toggleClass(unselectedClass);
+          for(i = 0; i < 3; i++){
+            if ( $( this ).hasClass(topicCategory[i])){
+                var topic = $.trim($( this ).ignore(".tot").text());
+                if ( $(this).hasClass(selectedClass)){
+                  selectedTopics[i].add(topic);
+                  console.log( "add \"" + topic + "\" to \"" + topicCategory[i] + "s\"" );
+                }else{
+                  selectedTopics[i].delete(topic);
+                  console.log( "del \"" + topic + "\" from \"" + topicCategory[i] + "s\"");
+                }
+                break;
+            }}
         }
-        $( this ).attr( 'class', basicBtnClasses + sep + updateClass );
-
-        selectedTopics = new Set();
-
-        $.each( $( ".filters ." + selectedClass ), function( i, e ) {
-            console.log( "adding \"" + $.trim( $( e ).ignore(".tot").text().toLowerCase() ) + "\"" );
-            selectedTopics.add( $.trim( $( e ).ignore(".tot").text().toLowerCase() ) );
-        });
-
-        var filterFunction;
-        if ( selectedTopics.size == 0 ) {
-            filterFunction = function(i, e) {
-                checkDisplay( e );
-            }
-        } else {
-            filterFunction = function( i, e ) {
-                $( e ).hide();
-                $( e ).find(".badge").each( function( j, ie ) {
-                    if ( selectedTopics.has( $( ie ).text().toLowerCase() ) ) {
-                        checkDisplay( e );
-                        return false;
-                    }
-                });
-            }
-        }
+        
+        var filterCategory = function (i,e){
+          var found = false;
+          if (selectedTopics[i].size == 0){
+            found =  true;
+          } else {
+            var badgeClass = ".badge." + topicCategory[i];
+            var selected = selectedTopics[i];
+            $( e ).find(badgeClass).each( function( j, je ) {
+                found = selected.has( $( je ).text() );
+                return !found; //break
+              });
+          };
+          return found;
+        };
+         
+        var filterFunction = function(i,e){
+          if (filterCategory(0,e) && filterCategory(1,e) && filterCategory(2,e)) {
+            checkDisplay(e);
+          }else{
+            $( e ).hide();
+          }
+        };
 
         $.each( $( "#papers li.paper" ), filterFunction );
         $.each( $( ".pub-year" ), filterCollection );

@@ -14,22 +14,20 @@ module Jekyll
         data.each do | item |
           item[ "papers" ].each do | paper |
             paper[ "tags" ].each do | tag |
-              #if( (not tag.nil?) && tag.length > 0 )
-                topicsSet.add( tag )
-                if topicsCount[ tag ].nil? 
-                  topicsCount[ tag ] = 1
-                else
-                  topicsCount[ tag ] = topicsCount[ tag ]+1
-                end
-              #end
+              topicsSet.add( tag )
+              if topicsCount[ tag ].nil? 
+                topicsCount[ tag ] = 1
+              else
+                topicsCount[ tag ] = topicsCount[ tag ]+1
+              end
             end
           end
         end
         string = ""
         topicsSet.to_a.sort.each do | tag |
-          string += "<button class=\"btn btn-sm btn-filter btn-light\">#{tag}
+          string += "<button class=\"btn btn-sm btn-filter btn-light keyword\">#{tag}
           <span class=\"tot badge badge-pill badge-dark\" style=\" font-size: 8pt;\">
-          #{topicsCount[ tag.downcase.titleize ]}</span></button><span> </span>"
+          #{topicsCount[ tag ]}</span></button><span> </span>"
         end
         string
       end
@@ -48,7 +46,7 @@ module Jekyll
         string = ""
         typeSet.to_a.sort.each do | tag |
           string += "<button class=\"btn btn-sm btn-filter 
-          btn-light\">#{tag}</button><span> </span>"
+          btn-light type\">#{tag}</button><span> </span>"
         end
         string
       end
@@ -59,16 +57,14 @@ module Jekyll
         data.each do | item |
           item[ "papers" ].each do | paper |
             paper[ "authors" ].each do | author |
-              #if( (not author.nil?) && author.length > 0 )
-                authorsSet.add( author )
-              #end
+              authorsSet.add( author )
             end
           end
         end
         string = ""
         authorsSet.to_a.sort.each do | author |
           string += "<button class=\"btn btn-sm btn-filter 
-          btn-light\">#{author}</button><span> </span>"
+          btn-light author\">#{author}</button><span> </span>"
         end
         string
       end

@@ -106,12 +106,12 @@ A descriptive sentence.
 								<div style="background-color: #ffffe0;" class="card-body"><pre><code><small>{{ bibitem }}</small></code></pre></div>
 							</div>
 							{% for tag in paper.tags %}
-							<span style="display: none;" class="badge badge-light">{{ tag }}</span>
+							<span style="display: none;" class="badge badge-light keyword">{{ tag }}</span>
 							{% endfor %}
 							{% for author in paper.authors %}
-							<span style="display: none;" class="badge badge-light">{{ author }}</span>
+							<span style="display: none;" class="badge badge-light author">{{ author }}</span>
 							{% endfor %}
-							<span style="display: none;" class="badge badge-light">{{ paper.type }}</span>
+							<span style="display: none;" class="badge badge-light type">{{ paper.type }}</span>
 							{% if paper.non_group %}
 							<span style="display: none;" class="non_group" ></span>
 							{% endif %}
