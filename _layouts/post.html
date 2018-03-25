@@ -7,8 +7,11 @@ layout: default
     <h2 class="post-title">{{ page.title }}</h2>
     <p class="post-meta">
 			{% if page.place %}{{ page.place }}, {% endif %}
-			{{ page.date | date: "%b %-d, %Y" }}
-			{% if page.date-end %} - {{ page.date-end | date: "%b %-d, %Y" }}{% endif %}
+      {% if page.date-end %} 
+        {{ page.date | date: "%b %-d, %Y" }} - {{ page.date-end | date: "%b %-d, %Y" }}
+      {% else %}
+			   {{ page.date | date: "%b %-d, %Y" }}
+      {% endif %}
 			{% if page.author %} • {{ page.author }}{% endif %}
 			{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
