@@ -39,7 +39,7 @@ A descriptive sentence.
 			</div>
 			<div class="12u"><hr></div>
 			<div class="6u">
-				Display: <input id="display_papers" type="checkbox" checked data-toggle="toggle" data-on="All papers" data-off="{{ site.group_short }} only" data-onstyle="info" data-offstyle="primary" data-size="small">
+				Display: <input id="display_papers" type="checkbox" checked data-toggle="toggle" data-on="All papers " data-off="{{ site.group_short }} only" data-onstyle="info" data-offstyle="primary" data-size="small">
 		 	</div>
 			<div class="6u">
 				<div>Filter by publication type:</div>
@@ -88,14 +88,14 @@ A descriptive sentence.
 							<div style="display: none;" class="card" id="tags_content_{{ id }}">
 								<div class="card-body">
 									<ul style="margin:0">
-										<li><small><strong>Publication type:</strong> <a href="#" class="nodec tags_item">{{ paper.type }}</a></small></li>
+										<li><small><strong>Publication type:</strong> <a href="#" class="nodec tags-item type">{{ paper.type }}</a></small></li>
 										<li><small><strong>Keywords:</strong>
 											{% for tag in paper.tags %}
-												<a href="#" class="nodec tags_item">{{ tag }}</a>;
+												<a href="#" class="nodec tags-item keyword">{{ tag }}</a>;
 											{% endfor %}</small></li>
 										<li><small><strong>Authors:</strong>
 											{% for author in paper.authors %}
-											<a href="#" class="nodec tags_item">{{ author }}</a>;
+											<a href="#" class="nodec tags-item author">{{ author }}</a>;
 											{% endfor %}</small></li>
 										</ul></div></div>
 							<div style="display: none;" class="card" id="abstract_content_{{ id }}">
@@ -103,22 +103,13 @@ A descriptive sentence.
 							</div>
 							<div style="display: none;" class="card" id="bibitem_content_{{ id }}">
 								{% assign bibitem = paper.bibitem | formatBibitem %}
-								<div style="background-color: #ffffe0;" class="card-body"><pre><code><small>{{ bibitem }}</small></code></pre></div>
+								<div style="background-color: #ffffe0;" class="card-body bibitem_content"><pre><code><small>{{ bibitem }}</small></code></pre></div>
 							</div>
-							{% for tag in paper.tags %}
-							<span style="display: none;" class="badge badge-light keyword">{{ tag }}</span>
-							{% endfor %}
-							{% for author in paper.authors %}
-							<span style="display: none;" class="badge badge-light author">{{ author }}</span>
-							{% endfor %}
-							<span style="display: none;" class="badge badge-light type">{{ paper.type }}</span>
 							{% if paper.non_group %}
 							<span style="display: none;" class="non_group" ></span>
 							{% endif %}
-							
 						</li>
 						{% endfor %}
-
 					</ul>
 				</div>
 
@@ -126,5 +117,12 @@ A descriptive sentence.
 
 			</div>
 		</div>
+	</section>
+	
+	<section class="wrapper card style4 container">
+			<div> Export as BibTex: 
+			<button id="download-bibtex" class="btn btn-sm btn-light"><span class="fa fa-download"></span> Download</button>
+			<button id="copy-bibtex" class="btn btn-sm btn-light"><span class="fa fa-clipboard-list"></span> Copy</button>
+			</div>
 	</section>
 </article>

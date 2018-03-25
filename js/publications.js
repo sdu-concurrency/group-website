@@ -24,11 +24,11 @@ $(document).ready(function() {
         $( "#tags_content_" + $( this ).attr( "id" ) ).toggle( 100 );
         return false;
     });
-    $(".tags_item").click( function( e ) {
-      var filter = $(this).text().trim().toLowerCase(); 
+    $(".tags-item").click( function( e ) {
+      var filter = $(this).text().trim(); 
       console.log("tag \"" + filter + "\"" );
       $( ".btn-filter" ).each( function(i, e) {
-          if( $.trim( $( e ).ignore(".tot").text().toLowerCase() ) == filter){
+          if( $.trim( $( e ).ignore(".tot").text() ) == filter){
               $( e ).trigger( 'click' );
               return false;
           }
@@ -41,6 +41,7 @@ $(document).ready(function() {
     var basicBtnClasses = "btn btn-sm";
     var selectedClass = "btn-primary";
     var unselectedClass = "btn-light";
+    var tagClass = "tags-item"; // "badge"
     var sep = " ";
 
     var isSelected = function( e ) {
@@ -94,9 +95,9 @@ $(document).ready(function() {
           if (selectedTopics[i].size == 0){
             found =  true;
           } else {
-            var badgeClass = ".badge." + topicCategory[i];
+            var sel = "." + tagClass + "." + topicCategory[i];
             var selected = selectedTopics[i];
-            $( e ).find(badgeClass).each( function( j, je ) {
+            $( e ).find(sel).each( function( j, je ) {
                 found = selected.has( $( je ).text() );
                 return !found; //break
               });
@@ -137,5 +138,62 @@ $(document).ready(function() {
             }
         });
     }
-
+    
+    var collectBibtex = function(){
+      var text = "";
+      $("li.paper").filter(":visible").each(function(i,e){
+        text += $(this).find(".bibitem_content").text();
+      });
+      return text;
+    }
+        
+    $("#copy-bibtex").click( function(e){
+      var icon = $(this).children("span");
+      icon.attr("class","fa fa-clock");
+      var text = collectBibtex();
+      // copyToClipboard
+      const el = document.createElement('textarea');
+      el.value = text;
+      el.setAttribute('readonly', '');
+      el.style.position = 'absolute';
+      el.style.left = '-9999px';
+      document.body.appendChild(el);
+      const selected =
+        document.getSelection().rangeCount > 0 
+          ? document.getSelection().getRangeAt(0)
+          : false;
+      el.select();
+      document.execCommand('copy');
+      document.body.removeChild(el);
+      if (selected) {
+        document.getSelection().removeAllRanges();
+        document.getSelection().addRange(selected);
+      }
+      // end copyToClipboard
+      icon.attr("class","fa fa-check");
+      setTimeout(function() {
+        icon.attr("class","fa fa-clipboard-list");
+      }, 250);
+      return false;
+    }).children("span").attr("class","fa fa-clipboard-list");
+    
+    $("#download-bibtex").click( function(e){
+      var icon = $(this).children("span");
+      icon.attr("class","fa fa-clock");
+      var text = collectBibtex();
+      // download
+      var element = document.createElement('a');
+      element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+      element.setAttribute('download', "bibliography.bib");
+      element.style.display = 'none';
+      document.body.appendChild(element);
+      element.click();
+      document.body.removeChild(element);
+      //end download
+      icon.attr("class","fa fa-check");
+      setTimeout(function() {
+        icon.attr("class","fa fa-download");
+      }, 250);
+      return false;
+    }).children("span").attr("class","fa fa-download");
 });
