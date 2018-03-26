@@ -1,3 +1,9 @@
+<style>
+  svg a {
+    cursor: pointer;
+  }
+</style>
+
 {% assign attr = "data-toggle='tooltip' data-placement='auto'" %}
 {% assign ra_dy = 17 %}
 {% assign ra_dys = 12 %}
@@ -7,8 +13,8 @@
 {% capture ra_pl %}
 <tspan
     {{ attr }} title="{{ ra_pl_title }}"><a
-    xlink:href="#pl_desc"><tspan>PROGRAMMING</tspan><tspan
-    x="{{ ra_pl_x }}" dy="{{ ra_dy}}">LANGUAGES</tspan></a></tspan>
+    xlink:href="#ra_pl"><tspan>PROGRAMMING</tspan><tspan
+    x="{{ ra_pl_x }}" dy="{{ ra_dy }}">LANGUAGES</tspan></a></tspan>
 {% endcapture %}
 
 {% assign ra_ct_title = "Models for independent, interacting programming systems" %}
@@ -16,8 +22,8 @@
 {% capture ra_ct %} 
 <tspan
     {{ attr }} title="{{ ra_ct_title }}"><a
-    xlink:href="#ct_desc"><tspan>CONCURRENCY</tspan><tspan
-    x="{{ ra_ct_x }}" dy="{{ ra_dy}}">THEORY</tspan></a></tspan>
+    xlink:href="#ra_ct"><tspan>CONCURRENCY</tspan><tspan
+    x="{{ ra_ct_x }}" dy="{{ ra_dy }}">THEORY</tspan></a></tspan>
 {% endcapture %} 
 
 {% assign ra_al_title = "Using logic tools to model, study and solve problems in Computer Science" %}
@@ -25,24 +31,24 @@
 {% capture ra_al %} 
 <tspan
     {{ attr }} title="{{ ra_al_title }}"><a
-    xlink:href="#al_desc"><tspan>APPLIED</tspan><tspan
-    x="{{ ra_al_x }}" dy="{{ ra_dy}}">LOGIC</tspan></a></tspan>
+    xlink:href="#ra_al"><tspan>APPLIED</tspan><tspan
+    x="{{ ra_al_x }}" dy="{{ ra_dy }}">LOGIC</tspan></a></tspan>
 {% endcapture %} 
 
-{% assign ra_se_title = "The art of developing software in a systemaic way" %}
+{% assign ra_se_title = "The art of developing software in a systematic way" %}
 {% assign ra_se_x = "228.95979" %}
 {% capture ra_se %} 
 <tspan
     {{ attr }} title="{{ ra_se_title }}"><a
-    xlink:href="#se_desc"><tspan>SOFTWARE</tspan><tspan
-    x="{{ ra_se_x }}" dy="{{ ra_dy}}">ENGINEERING</tspan></a></tspan>
+    xlink:href="#ra_se"><tspan>SOFTWARE</tspan><tspan
+    x="{{ ra_se_x }}" dy="{{ ra_dy }}">ENGINEERING</tspan></a></tspan>
 {% endcapture %} 
 
 {% assign ra_cp_title = "Choreographic programming is a new programming paradigm that avoids communication mismatches by specifying global views of concurrent protocols" %}
 {% assign ra_cp_x = "222.47815" %}
 {% capture ra_cp %} 
 <tspan {{ attr }} title="{{ ra_cp_title }}"><a
-    xlink:href="#cp_desc"><tspan>Choreographic</tspan><tspan
+    xlink:href="#rt_cp"><tspan>Choreographic</tspan><tspan
     x="{{ ra_cp_x }}" dy="{{ ra_dys }}">programming</tspan></a></tspan>
 {% endcapture %} 
 
@@ -50,7 +56,7 @@
 {% assign ra_qm_x = "-194.78731" %}
 {% capture ra_qm %} 
 <tspan {{ attr }} title="{{ ra_qm_title }}"><a
-    xlink:href="#qm_desc"><tspan>Quantitative</tspan><tspan
+    xlink:href="#rt_qm"><tspan>Quantitative</tspan><tspan
     x="{{ ra_qm_x }}" dy="{{ ra_dys }}">models</tspan></a></tspan>
 {% endcapture %} 
 
@@ -58,14 +64,14 @@
 {% assign ra_ms_x = "-160.50664" %}
 {% capture ra_ms %} 
 <tspan {{ attr }} title="{{ ra_ms_title }}"><a
-    xlink:href="#ms_desc"><tspan>Microservices</tspan></a></tspan>
+    xlink:href="#rt_ms"><tspan>Microservices</tspan></a></tspan>
 {% endcapture %} 
 
 {% assign ra_tp_title = "Theorem provers, either fully automated or interactive, are computer programs with a solid logical background that can do mathematical proofs &ndash; in particular, verifying properties of other programs" %}
 {% assign ra_tp_x = "387.18256" %}
 {% capture ra_tp %} 
 <tspan {{ attr }} title="{{ ra_tp_title }}"><a
-    xlink:href="#tp_desc"><tspan>Theorem</tspan><tspan
+    xlink:href="#rt_tp"><tspan>Theorem</tspan><tspan
     x="{{ ra_tp_x }}" dy="{{ ra_dys }}">proving</tspan></a></tspan>
 {% endcapture %} 
 
@@ -73,35 +79,35 @@
 {% assign ra_do_x = "222.47815" %}
 {% capture ra_do %} 
 <tspan {{ attr }} title="{{ ra_do_title }}"><a
-    xlink:href="#do_desc"><tspan>DevOps</tspan></a></tspan>
+    xlink:href="#rt_do"><tspan>DevOps</tspan></a></tspan>
 {% endcapture %} 
 
 {% assign ra_dc_title = "As larger and larger quantities of data are stored, it is increasingly important to have solid mechanisms for detecting and repairing errors" %}
 {% assign ra_dc_x = "453.35278" %}
 {% capture ra_dc %} 
 <tspan {{ attr }} title="{{ ra_dc_title }}"><a
-    xlink:href="#dc_desc"><tspan>Data</tspan><tspan
+    xlink:href="#rt_dc"><tspan>Data</tspan><tspan
     x="{{ ra_dc_x }}" dy="{{ ra_dys }}">consistency</tspan></a></tspan>
 {% endcapture %} 
 
 {% assign ra_rc_title = "The last decades have seen computers taking over more and more tasks that were traditionally performed by humans. As these tasks become more critical, it is increasingly important to make sure that software conforms to specifications." %}
 {% capture ra_rc %} 
 <tspan {{ attr }} title="{{ ra_rc_title }}"><a
-    xlink:href="#rc_desc">Reliable computing</a>
+    xlink:href="#sa_rc">Reliable computing</a>
 </tspan>
 {% endcapture %} 
 
 {% assign ra_cc_title = "A recent survey showed that more than half of adult Americans believe bad weather negatively affects cloud computing." %}
 {% capture ra_cc %} 
 <tspan {{ attr }} title="{{ ra_cc_title }}"><a
-    xlink:href="#cc_desc">Cloud computing</a>
+    xlink:href="#sa_cc">Cloud computing</a>
 </tspan>
 {% endcapture %} 
 
 {% assign ra_dt_title = "Industry 4.0, Internet of Things, Smart Cities, and a lot of other buzz keywords!" %}
 {% capture ra_dt %} 
 <tspan {{ attr }} title="{{ ra_dt_title }}"><a
-    xlink:href="#dt_desc">Digital transformation</a>
+    xlink:href="#sa_dt">Digital transformation</a>
 </tspan>
 {% endcapture %} 
 
