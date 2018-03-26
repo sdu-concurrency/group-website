@@ -25,9 +25,8 @@
 {% capture ra_al %} 
 <tspan
     {{ attr }} title="{{ ra_al_title }}"><a
-    xlink:href="#al_desc">APPLIED</tspan><tspan
+    xlink:href="#al_desc"><tspan>APPLIED</tspan><tspan
     x="{{ ra_al_x }}" dy="{{ ra_dy}}">LOGIC</tspan></a></tspan>
-</tspan>
 {% endcapture %} 
 
 {% assign ra_se_title = "The art of developing software in a systemaic way" %}
@@ -35,16 +34,15 @@
 {% capture ra_se %} 
 <tspan
     {{ attr }} title="{{ ra_se_title }}"><a
-    xlink:href="#se_desc">SOFTWARE</tspan><tspan
+    xlink:href="#se_desc"><tspan>SOFTWARE</tspan><tspan
     x="{{ ra_se_x }}" dy="{{ ra_dy}}">ENGINEERING</tspan></a></tspan>
-</tspan>
 {% endcapture %} 
 
 {% assign ra_cp_title = "Choreographic programming is a new programming paradigm that avoids communication mismatches by specifying global views of concurrent protocols" %}
 {% assign ra_cp_x = "222.47815" %}
 {% capture ra_cp %} 
 <tspan {{ attr }} title="{{ ra_cp_title }}"><a
-    xlink:href="#cp_desc"><tspan>Choreographic</tspan><tspan>
+    xlink:href="#cp_desc"><tspan>Choreographic</tspan><tspan
     x="{{ ra_cp_x }}" dy="{{ ra_dys }}">programming</tspan></a></tspan>
 {% endcapture %} 
 
@@ -52,7 +50,7 @@
 {% assign ra_qm_x = "-194.78731" %}
 {% capture ra_qm %} 
 <tspan {{ attr }} title="{{ ra_qm_title }}"><a
-    xlink:href="#qm_desc"><tspan>Qualitative</tspan><tspan>
+    xlink:href="#qm_desc"><tspan>Quantitative</tspan><tspan
     x="{{ ra_qm_x }}" dy="{{ ra_dys }}">models</tspan></a></tspan>
 {% endcapture %} 
 
@@ -67,7 +65,7 @@
 {% assign ra_tp_x = "387.18256" %}
 {% capture ra_tp %} 
 <tspan {{ attr }} title="{{ ra_tp_title }}"><a
-    xlink:href="#tp_desc"><tspan>Theorem</tspan><tspan>
+    xlink:href="#tp_desc"><tspan>Theorem</tspan><tspan
     x="{{ ra_tp_x }}" dy="{{ ra_dys }}">proving</tspan></a></tspan>
 {% endcapture %} 
 
@@ -82,7 +80,7 @@
 {% assign ra_dc_x = "453.35278" %}
 {% capture ra_dc %} 
 <tspan {{ attr }} title="{{ ra_dc_title }}"><a
-    xlink:href="#dc_desc"><tspan>Data</tspan><tspan>
+    xlink:href="#dc_desc"><tspan>Data</tspan><tspan
     x="{{ ra_dc_x }}" dy="{{ ra_dys }}">consistency</tspan></a></tspan>
 {% endcapture %} 
 
@@ -282,13 +280,7 @@
        x="-194.78731"
        y="413.35312"
        id="text4177"
-       transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"><tspan
-         id="tspan4179"
-         x="-194.78731"
-         y="413.35312">Quantitative</tspan><tspan
-         x="-194.78731"
-         y="425.85312"
-         id="tspan4181">models</tspan></text>
+       transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)">{{ ra_qm }}</text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
@@ -304,6 +296,7 @@
        transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"><tspan
          id="tspan4185"
          x="-160.50664"
-         y="550.57513">Microservices</tspan></text>
+         y="550.57513">{{ ra_ms }}</tspan></text>
   </g>
 </svg>
+<script>$('[data-toggle="tooltip"]').tooltip()</script>

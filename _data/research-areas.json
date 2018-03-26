@@ -1,0 +1,26 @@
+[
+        {
+                "title" : "Research Areas", 
+                "elements" : [
+                        { "title" : "Area 1", "description" : "Description 1" },
+                        { "title" : "Area 2", "description" : "Description 2" },
+                        { "title" : "Area 3", "description" : "Description 3" }
+                ]
+        },
+        {
+                "title" : "Research Topics",
+                "elements" : [
+                        { "title" : "Topic 1", "description" : "Description 1" },
+                        { "title" : "Topic 2", "description" : "Description 2" },
+                        { "title" : "Topic 3", "description" : "Description 3" }
+                ]
+        },
+        {
+                "title" : "Research Applications",
+                "elements" : [
+                        { "title" : "Application 1", "description" : "Description 1" },
+                        { "title" : "Application 2", "description" : "Description 2" },
+                        { "title" : "Application 3", "description" : "Description 3" }
+                ]
+        }
+]
