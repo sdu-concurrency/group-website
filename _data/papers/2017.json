@@ -5,7 +5,7 @@
       { "link" : "http://www.saveriogiallorenzo.com/publications/msytt/" }
     ],
     "abstract": "Microservices is an architectural style inspired by service-oriented computing that has recently started gaining popularity. Before presenting the current state of the art in the field, this chapter reviews the history of software architecture, the reasons that led to the diffusion of objects and services first, and microservices later. Finally, open problems and future challenges are introduced. This survey primarily addresses newcomers to the discipline, while offering an academic viewpoint on the topic. In addition, we investigate some practical issues and point out a few potential solutions.",
-    "tags" : [ "Microservices", "Security", "Smart Cities" ],
+    "tags" : [ "Microservices" ],
     "authors" : [ "Saverio Giallorenzo" , "Fabrizio Montesi", "Larisa Safina" ],
     "type" : "Chapter",
     "non_group" : false

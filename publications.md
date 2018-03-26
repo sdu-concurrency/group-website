@@ -11,6 +11,9 @@ layout: default
 	line-height: 1.4;
 }
 </style>
+
+{% assign view-download = "<section class='wrapper card style4 container'><div> Export this view as BibTex: <button class='download-bibtex' class='btn btn-sm btn-light'><span class='fa fa-download'></span> Download</button><button class='copy-bibtex' class='btn btn-sm btn-light'><span class='fa fa-clipboard-list'></span> Copy</button></div></section>" %}
+
 <!-- Main -->
 <article id="main">
 
@@ -32,23 +35,26 @@ A descriptive sentence.
 				</span></div>
 			</div>
 			<div class="6u">
-				<div>Filter by author:</div>
+				<div class="12u"><div>Filter by author:</div>
 				<span class="filters" >
 					{{ data | collectAuthors }}
-				</span>
-			</div>
-			<div class="12u"><hr></div>
-			<div class="6u">
-				Display: <input id="display_papers" type="checkbox" checked data-toggle="toggle" data-on="All papers " data-off="{{ site.group_short }} only" data-onstyle="info" data-offstyle="primary" data-size="small">
-		 	</div>
-			<div class="6u">
-				<div>Filter by publication type:</div>
+				</span></div>
+				<hr>
+				<div class="12u">
+					<div>Filter by publication type:</div>
 				<span class="filters" >
 					{{ data | collectTypes }}
-				</span>
+				</span></div>
+				<hr>
+				<div class="12u">
+				Display: <input id="display_papers" type="checkbox" checked data-toggle="toggle" data-on="All papers " data-off="{{ site.group_short }} only" data-onstyle="info" data-offstyle="primary" data-size="small">
+		 	</div>
 			</div>
+			
 			</div>
 	</section>
+
+	{{ view-download }}
 
 	<section class="wrapper card style4 container">
 		<div class="content">
@@ -93,7 +99,7 @@ A descriptive sentence.
 											{% for tag in paper.tags %}
 												<a href="#" class="nodec tags-item keyword">{{ tag }}</a>;
 											{% endfor %}</small></li>
-										<li><small><strong>Authors:</strong>
+										<li><small><strong>{{ site.group_short }} Authors:</strong>
 											{% for author in paper.authors %}
 											<a href="#" class="nodec tags-item author">{{ author }}</a>;
 											{% endfor %}</small></li>
@@ -119,10 +125,7 @@ A descriptive sentence.
 		</div>
 	</section>
 	
-	<section class="wrapper card style4 container">
-			<div> Export as BibTex: 
-			<button id="download-bibtex" class="btn btn-sm btn-light"><span class="fa fa-download"></span> Download</button>
-			<button id="copy-bibtex" class="btn btn-sm btn-light"><span class="fa fa-clipboard-list"></span> Copy</button>
-			</div>
-	</section>
+	{{ view-download }}
+	
+
 </article>

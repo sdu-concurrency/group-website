@@ -147,7 +147,7 @@ $(document).ready(function() {
       return text;
     }
         
-    $("#copy-bibtex").click( function(e){
+    $(".copy-bibtex").click( function(e){
       var icon = $(this).children("span");
       icon.attr("class","fa fa-clock");
       var text = collectBibtex();
@@ -177,7 +177,7 @@ $(document).ready(function() {
       return false;
     }).children("span").attr("class","fa fa-clipboard-list");
     
-    $("#download-bibtex").click( function(e){
+    $(".download-bibtex").click( function(e){
       var icon = $(this).children("span");
       icon.attr("class","fa fa-clock");
       var text = collectBibtex();
