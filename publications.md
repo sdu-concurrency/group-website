@@ -12,7 +12,7 @@ layout: default
 }
 </style>
 
-{% assign view-download = "<section class='wrapper card style4 container'><div> Export this view as BibTex: <button class='download-bibtex' class='btn btn-sm btn-light'><span class='fa fa-download'></span> Download</button><button class='copy-bibtex' class='btn btn-sm btn-light'><span class='fa fa-clipboard-list'></span> Copy</button></div></section>" %}
+{% assign view-download = "<div> Export this view as BibTex: <button class='download-bibtex' class='btn btn-sm btn-light'><span class='fa fa-download'></span> Download</button><button class='copy-bibtex' class='btn btn-sm btn-light'><span class='fa fa-clipboard-list'></span> Copy</button></div>" %}
 
 <!-- Main -->
 <article id="main">
@@ -48,13 +48,13 @@ A descriptive sentence.
 				<hr>
 				<div class="12u">
 				Display: <input id="display_papers" type="checkbox" checked data-toggle="toggle" data-on="All papers " data-off="{{ site.group_short }} only" data-onstyle="info" data-offstyle="primary" data-size="small">
+		 	 </div>
 		 	</div>
-			</div>
-			
-			</div>
+		 </div>
+	 	 <hr>
+		 {{ view-download }}
 	</section>
 
-	{{ view-download }}
 
 	<section class="wrapper card style4 container">
 		<div class="content">
@@ -125,7 +125,8 @@ A descriptive sentence.
 		</div>
 	</section>
 	
+	<section class="wrapper card style4 container">
 	{{ view-download }}
-	
+	</section>
 
 </article>
