@@ -37,7 +37,7 @@
     "links": [
       { "link" : "http://tinyurl.com/lcfilipe/pubs/paper21.pdf" }
     ],
-    "tags": [ "Formal Proofs", "Sorting Networks" ],
+    "tags": [ "Theorem Proving", "Sorting Networks" ],
     "authors": [ "Luís Cruz-Filipe" ],
     "abstract": "In recent work, we formalized the theory of optimal-size sorting networks with the goal of extracting a verified checker for the large-scale computer-generated proof that 25 comparisons are optimal when sorting 9 inputs, which required more than a decade of CPU time and produced 27 GB of proof witnesses.  The checker uses an untrusted oracle based on these witnesses and is able to verify the smaller case of 8 inputs within a couple of days, but it did not scale to the full proof for 9 inputs.<br />In this paper, we describe several non-trivial optimizations of the algorithm in the checker, obtained by appropriately changing the formalization and capitalizing on the symbiosis with an adequate implementation of the oracle. We provide experimental evidence of orders of magnitude improvements to both runtime and memory footprint for 8 inputs, and actually manage to check the full proof for 9 inputs.",
     "non_group" : true,
@@ -48,7 +48,7 @@
     "links": [
       { "link" : "http://tinyurl.com/lcfilipe/pubs/paper22.pdf" }
     ],
-    "tags": [ "Formal Proofs", "Sorting Networks" ],
+    "tags": [ "Theorem Proving", "Sorting Networks" ],
     "authors": [ "Luís Cruz-Filipe" ],
     "abstract": "Since the proof of the four color theorem in 1976, computer-generated proofs have become a reality in mathematics and computer science. During the last decade, we have seen formal proofs using verified proof assistants being used to verify the validity of such proofs.<br />In this paper, we describe a formalized theory of size-optimal sorting networks. From this formalization we extract a certified checker that successfully verifies computer-generated proofs of optimality on up to 8 inputs. The checker relies on an untrusted oracle to shortcut the search for witnesses on more than 1.6 million NP-complete subproblems.",
     "non_group" : true,
