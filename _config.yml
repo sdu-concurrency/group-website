@@ -13,3 +13,4 @@ exclude: [ "layout_archive", "utils" ]
 excerpt_separator: "<!--more-->"
 group_short: "PLS"
 group_name: "Programming, Logics, and Systems"
+exclude: [ "no_publications" ]

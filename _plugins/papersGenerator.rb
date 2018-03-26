@@ -82,11 +82,13 @@ module Jekyll
         iconMap = JSON.parse( File.read( "#{site.source}/_plugins/paper_icon_mapping.json" ) )
         base = "#{site.source}/_data"
         papers = Array.new
-        Dir["#{base}/papers/*.json"]
-        .select{ |f| /\d+/.match( f ) }
-        .sort_by{ |f| File.basename( f , ".json" ) }.reverse
-        .each do | f |
-          addYear( f, papers, iconMap )
+        unless File.file?( "#{site.source}/no_publications" ) 
+          Dir["#{base}/papers/*.json"]
+          .select{ |f| /\d+/.match( f ) }
+          .sort_by{ |f| File.basename( f , ".json" ) }.reverse
+          .each do | f |
+            addYear( f, papers, iconMap )
+          end
         end
         ## plus add preprints
         addYear( Dir["#{base}/papers/Preprints.json"][0], papers, iconMap )
