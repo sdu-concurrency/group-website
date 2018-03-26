@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
+{% assign attr = "data-toggle='tooltip' data-placement='auto'" %}
+{% assign ra_pl_title = "Programming Languages" %}
+{% capture ra_pl %} 
+<tspan {{ attr }} title="{{ ra_pl_title }}">
+  <a xlink:href="/publications#keyword_Programming Languages">PL</a>
+</tspan>
+{% endcapture %} 
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -244,7 +253,7 @@
          sodipodi:role="line"
          id="tspan3830"
          x="554.35474"
-         y="-495.39282">{{ site.ra.cc }}</tspan></text>
+         y="-495.39282">{{ ra_cc }}</tspan></text>
     <text
        xml:space="preserve"
        style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-style:italic"
@@ -256,7 +265,7 @@
          sodipodi:role="line"
          id="tspan3826"
          x="424.35471"
-         y="-495.39282">{{  site.ra.rc }}</tspan></text>
+         y="-495.39282">{{  ra_rc }}</tspan></text>
     <text
        xml:space="preserve"
        style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-style:italic"
@@ -268,7 +277,7 @@
          sodipodi:role="line"
          id="tspan3834"
          x="-534.35474"
-         y="120.39284">{{ stie.ra.dt }}</tspan></text>
+         y="120.39284">{{ stie.ra_dt }}</tspan></text>
     <path
        style="fill:none;stroke:#7f7f7f;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1, 1;stroke-dashoffset:0"
        d="m 355.39285,544.35471 44.95435,17.87834"
@@ -297,7 +306,7 @@
          sodipodi:role="line"
          id="tspan4133"
          x="389.85464"
-         y="546.32721">{{ site.ra.do }}</tspan></text>
+         y="546.32721">{{ ra_do }}</tspan></text>
     <text
        xml:space="preserve"
        style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-weight:bold"
@@ -308,7 +317,7 @@
          sodipodi:role="line"
          x="444.45416"
          y="523.4035"
-         id="tspan4091">{{ site.ra.al }}</tspan></text>
+         id="tspan4091">{{ ra_al }}</tspan></text>
     <text
        xml:space="preserve"
        style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
@@ -319,7 +328,7 @@
          sodipodi:role="line"
          x="453.35278"
          y="469.73642"
-         id="tspan4129">{{ site.ra.dc }}</tspan></text>
+         id="tspan4129">{{ ra_dc }}</tspan></text>
     <text
        xml:space="preserve"
        style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
@@ -330,7 +339,7 @@
          sodipodi:role="line"
          x="387.18256"
          y="445.11816"
-         id="tspan4109">{{ site.ra.tp }}</tspan></text>
+         id="tspan4109">{{ ra_tp }}</tspan></text>
     <text
        xml:space="preserve"
        style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-weight:bold"
@@ -341,7 +350,7 @@
          sodipodi:role="line"
          x="346.95728"
          y="381.05057"
-         id="tspan4083">{{ site.ra.pl }}</tspan></text>
+         id="tspan4083">{{ ra_pl }}</tspan></text>
     <text
        xml:space="preserve"
        style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-weight:bold"
@@ -352,7 +361,7 @@
          sodipodi:role="line"
          x="203.52802"
          y="389.42355"
-         id="tspan4087">{{ site.ra.ct }}</tspan></text>
+         id="tspan4087">{{ ra_ct }}</tspan></text>
     <text
        xml:space="preserve"
        style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
@@ -363,7 +372,7 @@
          sodipodi:role="line"
          x="222.47815"
          y="425.20578"
-         id="tspan4139">{{ site.ra.cp }}</tspan></text>
+         id="tspan4139">{{ ra_cp }}</tspan></text>
     <text
        xml:space="preserve"
        style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
@@ -375,7 +384,7 @@
          sodipodi:role="line"
          x="-194.78731"
          y="413.35312"
-         id="tspan4181">{{ site.ra.qm }}</tspan></text>
+         id="tspan4181">{{ ra_qm }}</tspan></text>
     <text
        xml:space="preserve"
        style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-weight:bold"
@@ -386,7 +395,7 @@
          sodipodi:role="line"
          x="228.95979"
          y="576.87036"
-         id="tspan4095">{{ site.ra.se }}</tspan></text>
+         id="tspan4095">{{ ra_se }}</tspan></text>
     <text
        xml:space="preserve"
        style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
@@ -398,6 +407,6 @@
          sodipodi:role="line"
          id="tspan4185"
          x="-160.50664"
-         y="550.57513">{{ site.ra.m }}</tspan></text>
+         y="550.57513">{{ ra_m }}</tspan></text>
   </g>
 </svg>
