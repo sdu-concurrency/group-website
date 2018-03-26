@@ -6,42 +6,45 @@
 {% assign ra_pl_title = "description" %}
 {% capture ra_pl %} 
 <tspan {{ attr }} title="{{ ra_pl_title }}">
-  <a xlink:href="#pl_desc">Programming<br />Languages</a>
+  <a xlink:href="#pl_desc">
+    <tspan>Programming</tspan>
+    <tspan x="0mm" dy="-1.5em" >Languages</tspan>
+  </a>
 </tspan>
 {% endcapture %} 
 
 {% assign ra_ct_title = "description" %}
 {% capture ra_ct %} 
 <tspan {{ attr }} title="{{ ra_ct_title }}">
-  <a xlink:href="#ct_desc">Concurrency<br />Theory</a>
+  <a xlink:href="#ct_desc">Concurrency Theory</a>
 </tspan>
 {% endcapture %} 
 
 {% assign ra_al_title = "description" %}
 {% capture ra_al %} 
 <tspan {{ attr }} title="{{ ra_al_title }}">
-  <a xlink:href="#al_desc">Applied<br />Logic</a>
+  <a xlink:href="#al_desc">Applied Logic</a>
 </tspan>
 {% endcapture %} 
 
 {% assign ra_se_title = "description" %}
 {% capture ra_se %} 
 <tspan {{ attr }} title="{{ ra_se_title }}">
-  <a xlink:href="#se_desc">Software<br />Engineering</a>
+  <a xlink:href="#se_desc">Software Engineering</a>
 </tspan>
 {% endcapture %} 
 
 {% assign ra_cp_title = "description" %}
 {% capture ra_cp %} 
 <tspan {{ attr }} title="{{ ra_cp_title }}">
-  <a xlink:href="/publications#keyword_Choreographic%20Programming">Choreographic<br />Programming</a>
+  <a xlink:href="/publications#keyword_Choreographic%20Programming">Choreographic Programming</a>
 </tspan>
 {% endcapture %} 
 
 {% assign ra_qm_title = "description" %}
 {% capture ra_qm %} 
 <tspan {{ attr }} title="{{ ra_qm_title }}">
-  <a xlink:href="/publications#keyword_bok">Qualitative<br />Models</a>
+  <a xlink:href="/publications#keyword_bok">Qualitative Models</a>
 </tspan>
 {% endcapture %} 
 
@@ -55,7 +58,7 @@
 {% assign ra_tp_title = "description" %}
 {% capture ra_tp %} 
 <tspan {{ attr }} title="{{ ra_tp_title }}">
-  <a xlink:href="/publications#keyword_Theorem%20Proving">Theorem<br />Proving</a>
+  <a xlink:href="/publications#keyword_Theorem%20Proving">Theorem Proving</a>
 </tspan>
 {% endcapture %} 
 
@@ -69,7 +72,7 @@
 {% assign ra_dc_title = "description" %}
 {% capture ra_dc %} 
 <tspan {{ attr }} title="{{ ra_dc_title }}">
-  <a xlink:href="/publications#keyword_Database%20Repair_and_Knowledge%20Representation">Data<br />Consistency</a>
+  <a xlink:href="/publications#keyword_Database%20Repair_and_Knowledge%20Representation">Data Consistency</a>
 </tspan>
 {% endcapture %} 
 
