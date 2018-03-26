@@ -1,0 +1,12 @@
+{
+  "name" : "Luís Cruz-Filipe",
+  "role" : "Assistant Professor",
+  "id" : "lcf",
+  "dblp" : "c/Cruz=Filipe:Lu=iacute=s",
+  "google_scholar" : "pACNOc8AAAAJ",
+  "orcid" : "0000-0002-7866-7484",
+  "github" : "lcfilipe",
+  "website" : "http://tinyurl.com/lcfilipe",
+  "photo" : "/images/people/professorson.jpg",
+  "research_topics" : [ "choreographic programming", "theorem proving", "data consistency" ]
+}
