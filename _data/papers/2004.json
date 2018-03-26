@@ -3,7 +3,7 @@
     "links": [{
       "link": "http://tinyurl.com/lcfilipe/pubs/paper03.pdf"
     }],
-    "tags": ["Formal Proofs"],
+    "tags": ["Theorem Proving"],
     "authors": ["Luís Cruz-Filipe"],
     "abstract": "The technique of reflection is a way to automate proof construction in type theoretical proof assistants. Reflection is based on the definition of a type of syntactic expressions that gets interpreted in the domain of discourse. By allowing the interpretation function to be partial or even a relation one gets a more general method known as &quot;partial reflection&quot;. In this paper we show how one can take advantage of the partiality of the interpretation to uniformly define a family of tactics for equational reasoning that will work in different algebraic structures. The tactics then follow the hierarchy of those algebraic structures in a natural way.",
     "non_group": true,
@@ -14,7 +14,7 @@
     "links": [{
       "link": "http://tinyurl.com/lcfilipe/pubs/paper04.pdf"
     }],
-    "tags": ["Formal Proofs"],
+    "tags": ["Theorem Proving"],
     "authors": ["Luís Cruz-Filipe"],
     "abstract": "We present C-CoRN, the Constructive Coq Repository at Nijmegen. It consists of a library of constructive algebra and analysis, formalized in the theorem prover Coq. In this paper we explain the structure, the contents and the use of the library. Moreover we discuss the motivation and the (possible) applications of such a library.",
     "non_group": true,
