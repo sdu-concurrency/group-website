@@ -1,98 +1,109 @@
 {% assign attr = "data-toggle='tooltip' data-placement='auto'" %}
 {% assign ra_dy = 17 %}
+{% assign ra_dys = 12 %}
 
-{% assign ra_pl_title = "description" %}
+{% assign ra_pl_title = "Design, theory and implementation of programming languages, with focus on those that exploit concurrency" %}
 {% assign ra_pl_x = "346.95728" %}
 {% capture ra_pl %}
-<tspan {{ attr }} title="{{ ra_pl_title }}">
-  <a xlink:href="#pl_desc">
-    <tspan>PROGRAMMING</tspan>
-    <tspan x="ra_pl_x" dy="ra_pl_dy">LANGUAGES</tspan>
-  </a>
-</tspan>
-{% endcapture %} 
+<tspan
+    {{ attr }} title="{{ ra_pl_title }}"><a
+    xlink:href="#pl_desc"><tspan>PROGRAMMING</tspan><tspan
+    x="{{ ra_pl_x }}" dy="{{ ra_dy}}">LANGUAGES</tspan></a></tspan>
+{% endcapture %}
 
-{% assign ra_ct_title = "description" %}
+{% assign ra_ct_title = "Models for independent, interacting programming systems" %}
+{% assign ra_ct_x = "203.52802" %}
 {% capture ra_ct %} 
-<tspan {{ attr }} title="{{ ra_ct_title }}">
-  <a xlink:href="#ct_desc">Concurrency Theory</a>
-</tspan>
+<tspan
+    {{ attr }} title="{{ ra_ct_title }}"><a
+    xlink:href="#ct_desc"><tspan>CONCURRENCY</tspan><tspan
+    x="{{ ra_ct_x }}" dy="{{ ra_dy}}">THEORY</tspan></a></tspan>
 {% endcapture %} 
 
-{% assign ra_al_title = "description" %}
+{% assign ra_al_title = "Using logic tools to model, study and solve problems in Computer Science" %}
+{% assign ra_al_x = "444.45416" %}
 {% capture ra_al %} 
-<tspan {{ attr }} title="{{ ra_al_title }}">
-  <a xlink:href="#al_desc">Applied Logic</a>
+<tspan
+    {{ attr }} title="{{ ra_al_title }}"><a
+    xlink:href="#al_desc">APPLIED</tspan><tspan
+    x="{{ ra_al_x }}" dy="{{ ra_dy}}">LOGIC</tspan></a></tspan>
 </tspan>
 {% endcapture %} 
 
-{% assign ra_se_title = "description" %}
+{% assign ra_se_title = "The art of developing software in a systemaic way" %}
+{% assign ra_se_x = "228.95979" %}
 {% capture ra_se %} 
-<tspan {{ attr }} title="{{ ra_se_title }}">
-  <a xlink:href="#se_desc">Software Engineering</a>
+<tspan
+    {{ attr }} title="{{ ra_se_title }}"><a
+    xlink:href="#se_desc">SOFTWARE</tspan><tspan
+    x="{{ ra_se_x }}" dy="{{ ra_dy}}">ENGINEERING</tspan></a></tspan>
 </tspan>
 {% endcapture %} 
 
-{% assign ra_cp_title = "description" %}
+{% assign ra_cp_title = "Choreographic programming is a new programming paradigm that avoids communication mismatches by specifying global views of concurrent protocols" %}
+{% assign ra_cp_x = "222.47815" %}
 {% capture ra_cp %} 
-<tspan {{ attr }} title="{{ ra_cp_title }}">
-  <a xlink:href="/publications#keyword_Choreographic%20Programming">Choreographic Programming</a>
-</tspan>
+<tspan {{ attr }} title="{{ ra_cp_title }}"><a
+    xlink:href="#cp_desc"><tspan>Choreographic</tspan><tspan>
+    x="{{ ra_cp_x }}" dy="{{ ra_dys }}">programming</tspan></a></tspan>
 {% endcapture %} 
 
-{% assign ra_qm_title = "description" %}
+{% assign ra_qm_title = "This is a very cool area that Marco needs to write some catchy stuff about :-)" %}
+{% assign ra_qm_x = "-194.78731" %}
 {% capture ra_qm %} 
-<tspan {{ attr }} title="{{ ra_qm_title }}">
-  <a xlink:href="/publications#keyword_bok">Qualitative Models</a>
-</tspan>
+<tspan {{ attr }} title="{{ ra_qm_title }}"><a
+    xlink:href="#qm_desc"><tspan>Qualitative</tspan><tspan>
+    x="{{ ra_qm_x }}" dy="{{ ra_dys }}">models</tspan></a></tspan>
 {% endcapture %} 
 
-{% assign ra_ms_title = "description" %}
+{% assign ra_ms_title = "Microservices are a new way of programming where applications are structured as loosely-coupled, lightweight services running concurrently" %}
+{% assign ra_ms_x = "-160.50664" %}
 {% capture ra_ms %} 
-<tspan {{ attr }} title="{{ ra_ms_title }}">
-  <a xlink:href="/publications#keyword_Microservices">Microservices</a>
-</tspan>
+<tspan {{ attr }} title="{{ ra_ms_title }}"><a
+    xlink:href="#ms_desc"><tspan>Microservices</tspan></a></tspan>
 {% endcapture %} 
 
-{% assign ra_tp_title = "description" %}
+{% assign ra_tp_title = "Theorem provers, either fully automated or interactive, are computer programs with a solid logical background that can do mathematical proofs &ndash; in particular, verifying properties of other programs" %}
+{% assign ra_tp_x = "387.18256" %}
 {% capture ra_tp %} 
-<tspan {{ attr }} title="{{ ra_tp_title }}">
-  <a xlink:href="/publications#keyword_Theorem%20Proving">Theorem Proving</a>
-</tspan>
+<tspan {{ attr }} title="{{ ra_tp_title }}"><a
+    xlink:href="#tp_desc"><tspan>Theorem</tspan><tspan>
+    x="{{ ra_tp_x }}" dy="{{ ra_dys }}">proving</tspan></a></tspan>
 {% endcapture %} 
 
-{% assign ra_do_title = "description" %}
+{% assign ra_do_title = "No idea what to write here" %}
+{% assign ra_do_x = "222.47815" %}
 {% capture ra_do %} 
-<tspan {{ attr }} title="{{ ra_do_title }}">
-  <a xlink:href="/publications#keyword_DevOps">DevOps</a>
-</tspan>
+<tspan {{ attr }} title="{{ ra_do_title }}"><a
+    xlink:href="#do_desc"><tspan>DevOps</tspan></a></tspan>
 {% endcapture %} 
 
-{% assign ra_dc_title = "description" %}
+{% assign ra_dc_title = "As larger and larger quantities of data are stored, it is increasingly important to have solid mechanisms for detecting and repairing errors" %}
+{% assign ra_dc_x = "453.35278" %}
 {% capture ra_dc %} 
-<tspan {{ attr }} title="{{ ra_dc_title }}">
-  <a xlink:href="/publications#keyword_Database%20Repair_and_Knowledge%20Representation">Data Consistency</a>
-</tspan>
+<tspan {{ attr }} title="{{ ra_dc_title }}"><a
+    xlink:href="#dc_desc"><tspan>Data</tspan><tspan>
+    x="{{ ra_dc_x }}" dy="{{ ra_dys }}">consistency</tspan></a></tspan>
 {% endcapture %} 
 
-{% assign ra_rc_title = "description" %}
+{% assign ra_rc_title = "The last decades have seen computers taking over more and more tasks that were traditionally performed by humans. As these tasks become more critical, it is increasingly important to make sure that software conforms to specifications." %}
 {% capture ra_rc %} 
-<tspan {{ attr }} title="{{ ra_rc_title }}">
-  <a xlink:href="#rc_desc">Reliable computing</a>
+<tspan {{ attr }} title="{{ ra_rc_title }}"><a
+    xlink:href="#rc_desc">Reliable computing</a>
 </tspan>
 {% endcapture %} 
 
-{% assign ra_cc_title = "description" %}
+{% assign ra_cc_title = "A recent survey showed that more than half of adult Americans believe bad weather negatively affects cloud computing." %}
 {% capture ra_cc %} 
-<tspan {{ attr }} title="{{ ra_cc_title }}">
-  <a xlink:href="#cc_desc">Cloud computing</a>
+<tspan {{ attr }} title="{{ ra_cc_title }}"><a
+    xlink:href="#cc_desc">Cloud computing</a>
 </tspan>
 {% endcapture %} 
 
-{% assign ra_dt_title = "description" %}
+{% assign ra_dt_title = "Industry 4.0, Internet of Things, Smart Cities, and a lot of other buzz keywords!" %}
 {% capture ra_dt %} 
-<tspan {{ attr }} title="{{ ra_dt_title }}">
-  <a xlink:href="#dt_desc">Digital transformation</a>
+<tspan {{ attr }} title="{{ ra_dt_title }}"><a
+    xlink:href="#dt_desc">Digital transformation</a>
 </tspan>
 {% endcapture %} 
 
@@ -188,7 +199,7 @@
          id="tspan3830"
          x="554.35474"
          y="-495.39282"
-         style="font-style:italic">Cloud computing</tspan></text>
+         style="font-style:italic">{{ ra_cc }}</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
@@ -199,7 +210,7 @@
          id="tspan3826"
          x="424.35471"
          y="-495.39282"
-         style="font-style:italic">Reliable computing</tspan></text>
+         style="font-style:italic">{{ ra_rc }}</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
@@ -210,7 +221,7 @@
          id="tspan3834"
          x="-534.35474"
          y="120.39284"
-         style="font-style:italic">Digital transformation</tspan></text>
+         style="font-style:italic">{{ ra_dt }}</tspan></text>
     <path
        style="fill:none;stroke:#7f7f7f;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1, 1;stroke-dashoffset:0"
        d="m 355.39285,544.35471 44.95435,17.87834"
@@ -228,46 +239,25 @@
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
        x="389.85464"
        y="546.32721"
-       id="text4131"><tspan
-         id="tspan4133"
-         x="389.85464"
-         y="546.32721">DevOps</tspan></text>
+       id="text4131">{{ ra_do }}</text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
        x="444.45416"
        y="523.4035"
-       id="text4071"><tspan
-         x="444.45416"
-         y="523.4035"
-         id="tspan4081">APPLIED</tspan><tspan
-         x="444.45416"
-         y="540.90344"
-         id="tspan4091">LOGIC</tspan></text>
+       id="text4071">{{ ra_al }}</text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
        x="453.35278"
        y="469.73642"
-       id="text4125"><tspan
-         id="tspan4127"
-         x="453.35278"
-         y="469.73642">Data</tspan><tspan
-         x="453.35278"
-         y="482.23642"
-         id="tspan4129">consistency</tspan></text>
+       id="text4125">{{ ra_dc }}</text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
        x="387.18256"
        y="445.11816"
-       id="text4099"><tspan
-         x="387.18256"
-         y="445.11816"
-         id="tspan4103">Theorem</tspan><tspan
-         x="387.18256"
-         y="457.61816"
-         id="tspan4109">proving</tspan></text>
+       id="text4099">{{ ra_tp }}</text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
@@ -279,25 +269,13 @@
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
        x="203.52802"
        y="389.42355"
-       id="text4075"><tspan
-         x="203.52802"
-         y="389.42355"
-         id="tspan4079">CONCURRENCY</tspan><tspan
-         x="203.52802"
-         y="406.92355"
-         id="tspan4087">THEORY</tspan></text>
+       id="text4075">{{ ra_ct }}</text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
        x="222.47815"
        y="425.20578"
-       id="text4135"><tspan
-         id="tspan4137"
-         x="222.47815"
-         y="425.20578">Choreographic</tspan><tspan
-         x="222.47815"
-         y="437.70578"
-         id="tspan4139">programming</tspan></text>
+       id="text4135">{{ ra_cp }}</text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
@@ -316,13 +294,7 @@
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
        x="228.95979"
        y="576.87036"
-       id="text4067"><tspan
-         id="tspan4069"
-         x="228.95979"
-         y="576.87036">SOFTWARE</tspan><tspan
-         x="228.95979"
-         y="594.37036"
-         id="tspan4095">ENGINEERING</tspan></text>
+       id="text4067">{{ ra_se }}</text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
