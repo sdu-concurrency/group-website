@@ -50,6 +50,10 @@ a.nodec {
 				border-bottom: none;
 }
 
+a.reset {
+				color: inherit;
+}
+
 a:hover {
 				border-bottom-color: transparent;
 }

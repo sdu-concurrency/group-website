@@ -3,15 +3,15 @@
              "title" : "Application to Society",
              "id" : "sa",
              "elements" : [
-                { 
-                        "title" : "Digital Transformation", 
-                        "description" : "Digital Transformation", 
-                        "id": "dt"
-                },
                 {
                         "title" : "Cloud Computing", 
                         "description" : "Cloud Computing", 
                         "id": "cc"
+                },
+                { 
+                        "title" : "Digital Transformation", 
+                        "description" : "Digital Transformation", 
+                        "id": "dt"
                 },
                 {
                         "title" : "Reliable Computing", 
@@ -24,11 +24,6 @@
              "title" : "Research Areas",
              "id" : "ra",
                    "elements" : [
-                { 
-                        "title" : "Software Engineering", 
-                        "description" : "Software Engineering", 
-                        "id": "se"
-                },
                 { 
                         "title" : "Applied Logic", 
                         "description" : "Applied Logic", 
@@ -43,6 +38,11 @@
                         "title" : "Programming Languages", 
                         "description" : "Programming Languages", 
                         "id": "pl"
+                },
+                { 
+                        "title" : "Software Engineering", 
+                        "description" : "Software Engineering", 
+                        "id": "se"
                 }
         ]
      },
@@ -51,24 +51,9 @@
              "id" : "rt",
                    "elements" : [
                 { 
-                        "title" : "Microservices", 
-                        "description" : "Microservices", 
-                        "id": "ms"
-                },
-                { 
-                        "title" : "DevOps", 
-                        "description" : "DevOps", 
-                        "id": "do"
-                },
-                { 
                         "title" : "Choreographic Programming", 
                         "description" : "Choreographic Programming", 
                         "id": "cp"
-                },
-                { 
-                        "title" : "Theorem Proving", 
-                        "description" : "Theorem Proving", 
-                        "id": "tp"
                 },
                 { 
                         "title" : "Data Consistency", 
@@ -76,9 +61,24 @@
                         "id": "dc"
                 },
                 { 
+                        "title" : "DevOps", 
+                        "description" : "DevOps", 
+                        "id": "do"
+                },
+                { 
+                        "title" : "Microservices", 
+                        "description" : "Microservices", 
+                        "id": "ms"
+                },
+                { 
                         "title" : "Quantitative Models", 
                         "description" : "Quantitative Models", 
                         "id": "qm"
+                },
+                { 
+                        "title" : "Theorem Proving", 
+                        "description" : "Theorem Proving", 
+                        "id": "tp"
                 }
         ]
      }
