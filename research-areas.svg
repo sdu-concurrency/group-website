@@ -75,7 +75,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -245,7 +245,7 @@
          id="tspan3830"
          x="554.35474"
          y="-495.39282"
-         style="font-style:italic">Cloud computing</tspan></text>
+         style="font-style:italic">{{ site.ra.cc }}</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
@@ -258,7 +258,7 @@
          id="tspan3826"
          x="424.35471"
          y="-495.39282"
-         style="font-style:italic">Reliable computing</tspan></text>
+         style="font-style:italic">{{  site.ra.rc }}</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
@@ -271,7 +271,7 @@
          id="tspan3834"
          x="-534.35474"
          y="120.39284"
-         style="font-style:italic">Digital transformation</tspan></text>
+         style="font-style:italic">{{ stie.ra.dt }}</tspan></text>
     <path
        style="fill:none;stroke:#7f7f7f;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1, 1;stroke-dashoffset:0"
        d="m 355.39285,544.35471 44.95435,17.87834"
@@ -300,7 +300,7 @@
          sodipodi:role="line"
          id="tspan4133"
          x="389.85464"
-         y="546.32721">DevOps</tspan></text>
+         y="546.32721">{{ site.ra.do }}</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
@@ -311,13 +311,8 @@
          sodipodi:role="line"
          x="444.45416"
          y="523.4035"
-         id="tspan4081"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial Bold">APPLIED</tspan><tspan
-         sodipodi:role="line"
-         x="444.45416"
-         y="540.90344"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial Bold"
-         id="tspan4091">LOGIC</tspan></text>
+         id="tspan4091">{{ site.ra.al }}</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
@@ -326,13 +321,9 @@
        id="text4125"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan4127"
          x="453.35278"
-         y="469.73642">Data</tspan><tspan
-         sodipodi:role="line"
-         x="453.35278"
-         y="482.23642"
-         id="tspan4129">consistency</tspan></text>
+         y="469.73642"
+         id="tspan4129">{{ site.ra.dc }}</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
@@ -343,13 +334,8 @@
          sodipodi:role="line"
          x="387.18256"
          y="445.11816"
-         id="tspan4103"
-         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">Theorem</tspan><tspan
-         sodipodi:role="line"
-         x="387.18256"
-         y="457.61816"
          id="tspan4109"
-         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">proving</tspan></text>
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">{{ site.ra.tp }}</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
@@ -358,15 +344,10 @@
        id="text4063"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan4065"
          x="346.95728"
          y="381.05057"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial Bold">PROGRAMMING</tspan><tspan
-         sodipodi:role="line"
-         x="346.95728"
-         y="398.55057"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial Bold"
-         id="tspan4083">LANGUAGES</tspan></text>
+         id="tspan4083">{{ site.ra.pl }}</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
@@ -377,13 +358,8 @@
          sodipodi:role="line"
          x="203.52802"
          y="389.42355"
-         id="tspan4079"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial Bold">CONCURRENCY</tspan><tspan
-         sodipodi:role="line"
-         x="203.52802"
-         y="406.92355"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial Bold"
-         id="tspan4087">THEORY</tspan></text>
+         id="tspan4087">{{ site.ra.ct }}</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
@@ -392,13 +368,9 @@
        id="text4135"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan4137"
          x="222.47815"
-         y="425.20578">Choreographic</tspan><tspan
-         sodipodi:role="line"
-         x="222.47815"
-         y="437.70578"
-         id="tspan4139">programming</tspan></text>
+         y="425.20578"
+         id="tspan4139">{{ site.ra.cp }}</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
@@ -408,13 +380,9 @@
        sodipodi:linespacing="125%"
        transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"><tspan
          sodipodi:role="line"
-         id="tspan4179"
          x="-194.78731"
-         y="413.35312">Quantitative</tspan><tspan
-         sodipodi:role="line"
-         x="-194.78731"
-         y="425.85312"
-         id="tspan4181">models</tspan></text>
+         y="413.35312"
+         id="tspan4181">{{ site.ra.qm }}</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
@@ -423,15 +391,10 @@
        id="text4067"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan4069"
          x="228.95979"
          y="576.87036"
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial Bold">SOFTWARE</tspan><tspan
-         sodipodi:role="line"
-         x="228.95979"
-         y="594.37036"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial Bold"
-         id="tspan4095">ENGINEERING</tspan></text>
+         id="tspan4095">{{ site.ra.se }}</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
@@ -443,6 +406,6 @@
          sodipodi:role="line"
          id="tspan4185"
          x="-160.50664"
-         y="550.57513">Microservices</tspan></text>
+         y="550.57513">{{ site.ra.m }}</tspan></text>
   </g>
 </svg>
