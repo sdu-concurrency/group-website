@@ -5,8 +5,8 @@
 </style>
 
 {% assign attr = "data-toggle='tooltip' data-placement='auto'" %}
-{% assign ra_dy = 17 %}
-{% assign ra_dys = 12 %}
+{% assign dy = 17 %}
+{% assign dys = 12 %}
 
 {% assign ra_pl_title = "Design, theory and implementation of programming languages, with focus on those that exploit concurrency" %}
 {% assign ra_pl_x = "346.95728" %}
@@ -14,7 +14,7 @@
 <tspan
     {{ attr }} title="{{ ra_pl_title }}"><a
     xlink:href="#ra_pl"><tspan>PROGRAMMING</tspan><tspan
-    x="{{ ra_pl_x }}" dy="{{ ra_dy }}">LANGUAGES</tspan></a></tspan>
+    x="{{ ra_pl_x }}" dy="{{ dy }}">LANGUAGES</tspan></a></tspan>
 {% endcapture %}
 
 {% assign ra_ct_title = "Models for independent, interacting programming systems" %}
@@ -23,7 +23,7 @@
 <tspan
     {{ attr }} title="{{ ra_ct_title }}"><a
     xlink:href="#ra_ct"><tspan>CONCURRENCY</tspan><tspan
-    x="{{ ra_ct_x }}" dy="{{ ra_dy }}">THEORY</tspan></a></tspan>
+    x="{{ ra_ct_x }}" dy="{{ dy }}">THEORY</tspan></a></tspan>
 {% endcapture %} 
 
 {% assign ra_al_title = "Using logic tools to model, study and solve problems in Computer Science" %}
@@ -32,7 +32,7 @@
 <tspan
     {{ attr }} title="{{ ra_al_title }}"><a
     xlink:href="#ra_al"><tspan>APPLIED</tspan><tspan
-    x="{{ ra_al_x }}" dy="{{ ra_dy }}">LOGIC</tspan></a></tspan>
+    x="{{ ra_al_x }}" dy="{{ dy }}">LOGIC</tspan></a></tspan>
 {% endcapture %} 
 
 {% assign ra_se_title = "The art of developing software in a systematic way" %}
@@ -41,72 +41,72 @@
 <tspan
     {{ attr }} title="{{ ra_se_title }}"><a
     xlink:href="#ra_se"><tspan>SOFTWARE</tspan><tspan
-    x="{{ ra_se_x }}" dy="{{ ra_dy }}">ENGINEERING</tspan></a></tspan>
+    x="{{ ra_se_x }}" dy="{{ dy }}">ENGINEERING</tspan></a></tspan>
 {% endcapture %} 
 
-{% assign ra_cp_title = "Choreographic programming is a new programming paradigm that avoids communication mismatches by specifying global views of concurrent protocols" %}
-{% assign ra_cp_x = "222.47815" %}
-{% capture ra_cp %} 
-<tspan {{ attr }} title="{{ ra_cp_title }}"><a
+{% assign rt_cp_title = "Choreographic programming is a new programming paradigm that avoids communication mismatches by specifying global views of concurrent protocols" %}
+{% assign rt_cp_x = "222.47815" %}
+{% capture rt_cp %} 
+<tspan {{ attr }} title="{{ rt_cp_title }}"><a
     xlink:href="#rt_cp"><tspan>Choreographic</tspan><tspan
-    x="{{ ra_cp_x }}" dy="{{ ra_dys }}">programming</tspan></a></tspan>
+    x="{{ rt_cp_x }}" dy="{{ dys }}">programming</tspan></a></tspan>
 {% endcapture %} 
 
-{% assign ra_qm_title = "This is a very cool area that Marco needs to write some catchy stuff about :-)" %}
-{% assign ra_qm_x = "-194.78731" %}
-{% capture ra_qm %} 
-<tspan {{ attr }} title="{{ ra_qm_title }}"><a
+{% assign rt_qm_title = "This is a very cool area that Marco needs to write some catchy stuff about :-)" %}
+{% assign rt_qm_x = "-194.78731" %}
+{% capture rt_qm %} 
+<tspan {{ attr }} title="{{ rt_qm_title }}"><a
     xlink:href="#rt_qm"><tspan>Quantitative</tspan><tspan
-    x="{{ ra_qm_x }}" dy="{{ ra_dys }}">models</tspan></a></tspan>
+    x="{{ rt_qm_x }}" dy="{{ dys }}">models</tspan></a></tspan>
 {% endcapture %} 
 
-{% assign ra_ms_title = "Microservices are a new way of programming where applications are structured as loosely-coupled, lightweight services running concurrently" %}
-{% assign ra_ms_x = "-160.50664" %}
-{% capture ra_ms %} 
-<tspan {{ attr }} title="{{ ra_ms_title }}"><a
+{% assign rt_ms_title = "Microservices are a new way of programming where applications are structured as loosely-coupled, lightweight services running concurrently" %}
+{% assign rt_ms_x = "-160.50664" %}
+{% capture rt_ms %} 
+<tspan {{ attr }} title="{{ rt_ms_title }}"><a
     xlink:href="#rt_ms"><tspan>Microservices</tspan></a></tspan>
 {% endcapture %} 
 
-{% assign ra_tp_title = "Theorem provers, either fully automated or interactive, are computer programs with a solid logical background that can do mathematical proofs &ndash; in particular, verifying properties of other programs" %}
-{% assign ra_tp_x = "387.18256" %}
-{% capture ra_tp %} 
-<tspan {{ attr }} title="{{ ra_tp_title }}"><a
+{% assign rt_tp_title = "Theorem provers, either fully automated or interactive, are computer programs with a solid logical background that can do mathematical proofs &ndash; in particular, verifying properties of other programs" %}
+{% assign rt_tp_x = "387.18256" %}
+{% capture rt_tp %} 
+<tspan {{ attr }} title="{{ rt_tp_title }}"><a
     xlink:href="#rt_tp"><tspan>Theorem</tspan><tspan
-    x="{{ ra_tp_x }}" dy="{{ ra_dys }}">proving</tspan></a></tspan>
+    x="{{ rt_tp_x }}" dy="{{ dys }}">proving</tspan></a></tspan>
 {% endcapture %} 
 
-{% assign ra_do_title = "No idea what to write here" %}
-{% assign ra_do_x = "222.47815" %}
-{% capture ra_do %} 
-<tspan {{ attr }} title="{{ ra_do_title }}"><a
+{% assign rt_do_title = "No idea what to write here" %}
+{% assign rt_do_x = "222.47815" %}
+{% capture rt_do %} 
+<tspan {{ attr }} title="{{ rt_do_title }}"><a
     xlink:href="#rt_do"><tspan>DevOps</tspan></a></tspan>
 {% endcapture %} 
 
-{% assign ra_dc_title = "As larger and larger quantities of data are stored, it is increasingly important to have solid mechanisms for detecting and repairing errors" %}
-{% assign ra_dc_x = "453.35278" %}
-{% capture ra_dc %} 
-<tspan {{ attr }} title="{{ ra_dc_title }}"><a
+{% assign rt_dc_title = "As larger and larger quantities of data are stored, it is increasingly important to have solid mechanisms for detecting and repairing errors" %}
+{% assign rt_dc_x = "453.35278" %}
+{% capture rt_dc %} 
+<tspan {{ attr }} title="{{ rt_dc_title }}"><a
     xlink:href="#rt_dc"><tspan>Data</tspan><tspan
-    x="{{ ra_dc_x }}" dy="{{ ra_dys }}">consistency</tspan></a></tspan>
+    x="{{ rt_dc_x }}" dy="{{ dys }}">consistency</tspan></a></tspan>
 {% endcapture %} 
 
-{% assign ra_rc_title = "The last decades have seen computers taking over more and more tasks that were traditionally performed by humans. As these tasks become more critical, it is increasingly important to make sure that software conforms to specifications." %}
-{% capture ra_rc %} 
-<tspan {{ attr }} title="{{ ra_rc_title }}"><a
+{% assign sa_rc_title = "The last decades have seen computers taking over more and more tasks that were traditionally performed by humans. As these tasks become more critical, it is increasingly important to make sure that software conforms to specifications." %}
+{% capture sa_rc %} 
+<tspan {{ attr }} title="{{ sa_rc_title }}"><a
     xlink:href="#sa_rc">Reliable computing</a>
 </tspan>
 {% endcapture %} 
 
-{% assign ra_cc_title = "A recent survey showed that more than half of adult Americans believe bad weather negatively affects cloud computing." %}
-{% capture ra_cc %} 
-<tspan {{ attr }} title="{{ ra_cc_title }}"><a
+{% assign sa_cc_title = "A recent survey showed that more than half of adult Americans believe bad weather negatively affects cloud computing." %}
+{% capture sa_cc %} 
+<tspan {{ attr }} title="{{ sa_cc_title }}"><a
     xlink:href="#sa_cc">Cloud computing</a>
 </tspan>
 {% endcapture %} 
 
-{% assign ra_dt_title = "Industry 4.0, Internet of Things, Smart Cities, and a lot of other buzz keywords!" %}
-{% capture ra_dt %} 
-<tspan {{ attr }} title="{{ ra_dt_title }}"><a
+{% assign sa_dt_title = "Industry 4.0, Internet of Things, Smart Cities, and a lot of other buzz keywords!" %}
+{% capture sa_dt %} 
+<tspan {{ attr }} title="{{ sa_dt_title }}"><a
     xlink:href="#sa_dt">Digital transformation</a>
 </tspan>
 {% endcapture %} 
@@ -125,182 +125,167 @@
      id="layer1"
      transform="translate(-111.75848,-344.35471)">
     <path
-       style="fill:#000000;fill-opacity:0.37254902;stroke:none"
+       style="fill:#000000;fill-opacity:0.37254902"
        d="m 505.39285,604.35454 0,100 -400.88537,0 0.88537,-260"
-       id="path3863" />
+       id="sa_dt_bg" />
     <path
-       style="fill:#000000;fill-opacity:0.24705882;stroke:none"
+       style="fill:#000000;fill-opacity:0.24705882"
        d="m 104.50748,384.35454 0.88537,60 400,160 0,-90 z"
-       id="path3865" />
+       id="sa_cc_bg" />
     <path
-       style="fill:#000000;fill-opacity:0.12156863;stroke:none"
+       style="fill:#000000;fill-opacity:0.12156863"
        d="m 104.50748,384.35454 0,-90 400.88537,0 0,220"
-       id="path3861" />
+       id="sa_rc_bg" />
     <path
-       style="fill:#ff0000;fill-opacity:0.24705882;fill-rule:evenodd;stroke:none"
-       id="path2991"
+       style="fill:#ff0000;fill-opacity:0.24705882"
+       id="ra_al_bg"
        d="m 684.89154,342.44577 a 93.514038,93.514038 0 1 1 -187.02808,0 93.514038,93.514038 0 1 1 187.02808,0 z"
        transform="translate(-195.98466,168.39473)" />
     <path
-       style="fill:#3f3fff;fill-opacity:0.24705882;fill-rule:evenodd;stroke:none"
-       id="path2993"
-       d="m 777.58635,726.38013 a 189.50157,189.50157 0 1 1 -379.00314,0 189.50157,189.50157 0 1 1 379.00314,0 z"
-       transform="matrix(0.73345868,0,0,0.73345868,-149.81882,53.908327)" />
+       style="fill:#3f3fff;fill-opacity:0.24705882"
+       id="ra_se_bg"
+       d="m 299.06133,240.60075 a 139.56195,139.56195 0 1 1 -279.123906,0 139.56195,139.56195 0 1 1 279.123906,0 z"
+       transform="translate(121.6367,348.40978)" />
     <path
-       style="fill:#ffff00;fill-opacity:0.24705882;fill-rule:evenodd;stroke:none"
-       id="path2987-4"
+       style="fill:#ffff00;fill-opacity:0.24705882"
+       id="ra_ct_bg"
        d="m 246.29754,381.95874 a 79.025948,79.025948 0 1 1 -158.051896,0 79.025948,79.025948 0 1 1 158.051896,0 z"
        transform="translate(37.147206,52.395796)" />
     <path
-       style="fill:#00ff00;fill-opacity:0.24705882;fill-rule:evenodd;stroke:none"
-       id="path2989"
+       style="fill:#00ff00;fill-opacity:0.24705882"
+       id="ra_pl_bg"
        d="m 470.20438,356.2753 a 99.440979,99.440979 0 1 1 -198.88196,0 99.440979,99.440979 0 1 1 198.88196,0 z"
        transform="matrix(1.2871957,0,0,1.2871957,-171.8522,-32.241499)" />
     <path
-       style="fill:none;stroke:#7f7f7f;stroke-opacity:1"
-       id="path2987-8"
+       style="fill:none;stroke:#7f7f7f"
+       id="rt_ct+qm_border"
        d="M 90.642915,401.27574 A 79.025948,79.025948 0 1 1 174.32701,460.6691"
        transform="translate(37.147206,52.395796)" />
     <path
-       style="fill:none;stroke:#7f7f7f;stroke-width:1.36340332;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.36340332, 4.09020996;stroke-dashoffset:0"
-       id="path2993-7-1"
-       d="M 472.69056,595.46077 A 174.51562,174.51562 0 0 1 595.29949,552.0137"
-       transform="matrix(0.73345716,0,0,0.7334587,-154.81779,43.908656)" />
+       style="fill:none;stroke:#7f7f7f;stroke-dasharray:1.36340332, 4.09020996;stroke-dashoffset:0"
+       id="rt_cp_dashed"
+       d="m 68.876481,134.46391 a 139.56195,139.56195 0 0 1 90.677239,-33.4251"
+       transform="translate(121.63705,348.41001)" />
     <path
-       style="fill:none;stroke:#7f7f7f;stroke-width:1.36340332;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="path2993-7-1-4"
-       d="m 588.91992,551.8665 a 174.51562,174.51562 0 0 1 52.58146,8.37402"
-       transform="matrix(0.73345868,0,0,0.73345868,-149.81901,43.908425)" />
+       style="fill:none;stroke:#7f7f7f;stroke-miterlimit:4;stroke-opacity:1"
+       id="rt_ms_border"
+       d="m 160.63892,101.04346 a 139.56195,139.56195 0 0 1 38.06852,5.61602"
+       transform="translate(121.63705,348.41001)" />
     <path
-       style="fill:none;stroke:#7f7f7f;stroke-width:1.36340332;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="path2993-7-1-4-7"
-       d="m 734.8306,631.92713 a 174.51562,174.51562 0 0 1 26.55713,114.99053"
-       transform="matrix(0.76156031,0,0,0.76155999,-159.69663,31.670642)" />
+       style="fill:none;stroke:#7f7f7f"
+       id="rt_do_border"
+       d="m 277.42527,165.96148 a 139.56195,139.56195 0 0 1 21.09525,86.91355"
+       transform="translate(121.63705,348.41001)" />
     <path
-       style="fill:none;stroke:#7f7f7f;stroke-opacity:1"
-       id="path2991-9-6"
-       d="m 593.83841,435.92742 a 93.514038,93.514038 0 1 1 91.03404,-95.37135"
+       style="fill:none;stroke:#7f7f7f"
+       id="ra_al_border"
+       d="m 615.3,433 a 93.514038,93.514038 0 1 1 70,-92"
        transform="translate(-195.98466,168.39473)" />
     <path
-       style="fill:none;stroke:#7f7f7f;stroke-width:0.77688265;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="path2989-0-7"
+       style="fill:none;stroke:#7f7f7f"
+       id="rt_tp_dc_border"
        d="m 470.20251,355.6666 a 99.440979,99.440979 0 0 1 -11.50979,47.05159"
        transform="matrix(1.2871957,0,0,1.2871957,-171.8519,-32.241039)" />
     <path
-       style="fill:none;stroke:#7f7f7f;stroke-width:0.77688265;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="path2989-0-7-5"
+       style="fill:none;stroke:#7f7f7f"
+       id="ra_pl_border"
        d="M 443.86707,423.68718 A 99.440979,99.440979 0 0 1 287.94384,301.23505"
        transform="matrix(1.2871957,0,0,1.2871957,-171.8522,-32.241499)" />
     <text
        xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-size:10px;text-align:center;text-anchor:middle;fill:#000000;font-style:italic"
        x="554.35474"
        y="-495.39282"
-       id="text3828"
-       transform="matrix(0,1,-1,0,0,0)"><tspan
-         id="tspan3830"
-         x="554.35474"
-         y="-495.39282"
-         style="font-style:italic">{{ ra_cc }}</tspan></text>
+       id="sa_cc_label"
+       transform="matrix(0,1,-1,0,0,0)"><tspan>{{ sa_cc }}</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-size:10px;text-align:center;text-anchor:middle;fill:#000000;font-style:italic"
        x="424.35471"
        y="-495.39282"
-       id="text3824"
-       transform="matrix(0,1,-1,0,0,0)"><tspan
-         id="tspan3826"
-         x="424.35471"
-         y="-495.39282"
-         style="font-style:italic">{{ ra_rc }}</tspan></text>
+       id="sa_rc_label"
+       transform="matrix(0,1,-1,0,0,0)"><tspan>{{ sa_rc }}</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-size:10px;text-align:center;text-anchor:middle;fill:#000000,font-style:italic"
        x="-534.35474"
        y="120.39284"
-       id="text3832"
-       transform="matrix(0,-1,1,0,0,0)"><tspan
-         id="tspan3834"
-         x="-534.35474"
-         y="120.39284"
-         style="font-style:italic">{{ ra_dt }}</tspan></text>
+       id="sa_dt_label"
+       transform="matrix(0,-1,1,0,0,0)"><tspan>{{ sa_dt }}</tspan></text>
     <path
-       style="fill:none;stroke:#7f7f7f;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1, 1;stroke-dashoffset:0"
-       d="m 355.39285,544.35471 44.95435,17.87834"
-       id="path4057" />
+       style="fill:none;stroke:#7f7f7f;stroke-dasharray:1, 1;stroke-dashoffset:0"
+       d="m 355.39285,544.35471 63.54008,25.48159"
+       id="rt_do_dashed" />
     <path
-       style="fill:none;stroke:#7f7f7f;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.49803922"
+       style="fill:none;stroke:#7f7f7f"
        d="m 320.66337,454.98049 168.00232,54.11139"
-       id="path3822" />
+       id="sa_rc_cc_border" />
     <path
-       style="fill:none;stroke:#7f7f7f;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;stroke:#7f7f7f"
        d="m 128.09283,453.67365 59.65766,23.22201"
-       id="path3820" />
+       id="sa_cc_dt_border" />
     <text
        xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-size:10px;text-align:center;text-anchor:middle;fill:#000000"
        x="389.85464"
        y="546.32721"
-       id="text4131">{{ ra_do }}</text>
+       id="rt_do_label">{{ rt_do }}</text>
     <text
        xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-size:14px;font-weight:bold;text-align:center;line-height:125%;text-anchor:middle;fill:#000000"
        x="444.45416"
        y="523.4035"
-       id="text4071">{{ ra_al }}</text>
+       id="rt_al_label">{{ rt_al }}</text>
     <text
        xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-size:10px;text-align:center;line-height:125%;text-anchor:middle;fill:#000000"
        x="453.35278"
        y="469.73642"
-       id="text4125">{{ ra_dc }}</text>
+       id="rt_dc_label">{{ rt_dc }}</text>
     <text
        xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-size:10px;text-align:center;line-height:125%;text-anchor:middle;fill:#000000"
        x="387.18256"
        y="445.11816"
-       id="text4099">{{ ra_tp }}</text>
+       id="rt_tp_label">{{ rt_tp }}</text>
     <text
        xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-size:14px;font-weight:bold;text-align:center;line-height:125%;text-anchor:middle;fill:#000000"
        x="346.95728"
        y="381.05057"
-       id="text4063">{{ ra_pl }}</text>
+       id="rt_pl_label">{{ rt_pl }}</text>
     <text
        xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-size:14px;font-weight:bold;text-align:center;line-height:125%;text-anchor:middle;fill:#000000"
        x="203.52802"
        y="389.42355"
-       id="text4075">{{ ra_ct }}</text>
+       id="rt_ct_label">{{ rt_ct }}</text>
     <text
        xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-size:10px;text-align:center;line-height:125%;text-anchor:middle;fill:#000000"
        x="222.47815"
        y="425.20578"
-       id="text4135">{{ ra_cp }}</text>
+       id="rt_cp_label">{{ rt_cp }}</text>
     <text
        xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-size:10px;text-align:center;line-height:125%;text-anchor:middle;fill:#000000"
        x="-194.78731"
        y="413.35312"
-       id="text4177"
-       transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)">{{ ra_qm }}</text>
+       id="rt_qm_label"
+       transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)">{{ rt_qm }}</text>
     <text
        xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-size:14px;font-weight:bold;text-align:center;line-height:125%;text-anchor:middle;fill:#000000"
        x="228.95979"
        y="576.87036"
-       id="text4067">{{ ra_se }}</text>
+       id="rt_se_label">{{ rt_se }}</text>
     <text
        xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-size:10px;text-align:center;line-height:125%;text-anchor:middle;fill:#000000"
        x="-160.50664"
        y="550.57513"
-       id="text4183"
-       transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"><tspan
-         id="tspan4185"
-         x="-160.50664"
-         y="550.57513">{{ ra_ms }}</tspan></text>
+       id="rt_ms"
+       transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"><tspan>{{ rt_ms }}</tspan></text>
   </g>
 </svg>
 <script>$('[data-toggle="tooltip"]').tooltip()</script>
