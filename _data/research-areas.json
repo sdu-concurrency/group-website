@@ -52,12 +52,12 @@
                    "elements" : [
                 { 
                         "title" : "Choreographic Programming", 
-                        "description" : "Choreographic Programming", 
+                        "description" : "Choreographic Programming is an emerging paradigm for correct-by-construction concurrent programming based on message passing. In this paradigm, communications are specified using an Alice-to-Bob notation, rather than as two separate send and receive actions. As a consequence, protocols are guaranteed not to deadlock because of communication mismatches. Models based on choreographic programming have been successfully developed for different settings where concurrent programming is challenging, including service-oriented computing and cyber-physical systems.<br />In our group, we are extending choreographic programming by developing more expressive and powerful languages that can be used in real-world applications. The main challenge is to increase expressitivy while maintaining the good theoretical properties that made choreography languages successful in the first place.",
                         "id": "cp"
                 },
                 { 
-                        "title" : "Data Consistency", 
-                        "description" : "Data Consistency", 
+                        "title" : "Data Consistency",
+                        "description" : "The increasing dependency on computers to perform everyday tasks is associated with the need to store larger and larger quantities of information, which must be efficiently processed and retrieved. One of the challenges involved in managing this data is ensuring its internal consistency, especially as the information being stored changes due to the evolution of the real-world data it models.<br />Modern-day database management systems address this problem by allowing the user to define integrity constraints &ndash; properties of the data that should hold at all times &ndash; and algorithms to repair the database when these properties no longer hold. Extending these techniques to more powerful reasoning tools, such as those used in the Semantic Web, is however an ongoing complex process, which we address in our research.",
                         "id": "dc"
                 },
                 { 
@@ -76,8 +76,8 @@
                         "id": "qm"
                 },
                 { 
-                        "title" : "Theorem Proving", 
-                        "description" : "Theorem Proving", 
+                        "title" : "Theorem Proving",
+                        "description" : "Since researchers in 1973 proved a mathematical result (the four-color theorem) using a computer program, there has been an increasing interest in using computers to do abstract mathematics &ndash; rather than simply viewing them as extremely powerful calculators. Although the classical results of Gödel and Turing tell us that there are limits to how much can be automated, computers have gained notourious success at being able to prove safety and correctness properties of sensitive software &ndash; either on their own or interactively.<br />Building upon our group's expertise on theorem proving, we plan to start applying it to choreographic programming, evolving our mathematical constructions into full-fledged certified compilers that are guaranteed not to introduce errors in the code they generate.",
                         "id": "tp"
                 }
         ]
