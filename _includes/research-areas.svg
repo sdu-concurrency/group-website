@@ -182,12 +182,12 @@
        d="m 615.3,433 a 93.514038,93.514038 0 1 1 70,-92"
        transform="translate(-195.98466,168.39473)" />
     <path
-       style="fill:none;stroke:#7f7f7f"
+       style="fill:none;stroke:#7f7f7f;stroke-width:0.75"
        id="rt_tp_dc_border"
        d="m 470.20251,355.6666 a 99.440979,99.440979 0 0 1 -11.50979,47.05159"
        transform="matrix(1.2871957,0,0,1.2871957,-171.8519,-32.241039)" />
     <path
-       style="fill:none;stroke:#7f7f7f"
+       style="fill:none;stroke:#7f7f7f;stroke-width:0.75"
        id="ra_pl_border"
        d="M 443.86707,423.68718 A 99.440979,99.440979 0 0 1 287.94384,301.23505"
        transform="matrix(1.2871957,0,0,1.2871957,-171.8522,-32.241499)" />
@@ -235,7 +235,7 @@
        style="font-size:14px;font-weight:bold;text-align:center;line-height:125%;text-anchor:middle;fill:#000000"
        x="444.45416"
        y="523.4035"
-       id="rt_al_label">{{ rt_al }}</text>
+       id="ra_al_label">{{ ra_al }}</text>
     <text
        xml:space="preserve"
        style="font-size:10px;text-align:center;line-height:125%;text-anchor:middle;fill:#000000"
@@ -253,13 +253,13 @@
        style="font-size:14px;font-weight:bold;text-align:center;line-height:125%;text-anchor:middle;fill:#000000"
        x="346.95728"
        y="381.05057"
-       id="rt_pl_label">{{ rt_pl }}</text>
+       id="ra_pl_label">{{ ra_pl }}</text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-weight:bold;text-align:center;line-height:125%;text-anchor:middle;fill:#000000"
        x="203.52802"
        y="389.42355"
-       id="rt_ct_label">{{ rt_ct }}</text>
+       id="ra_ct_label">{{ ra_ct }}</text>
     <text
        xml:space="preserve"
        style="font-size:10px;text-align:center;line-height:125%;text-anchor:middle;fill:#000000"
@@ -278,7 +278,7 @@
        style="font-size:14px;font-weight:bold;text-align:center;line-height:125%;text-anchor:middle;fill:#000000"
        x="228.95979"
        y="576.87036"
-       id="rt_se_label">{{ rt_se }}</text>
+       id="ra_se_label">{{ ra_se }}</text>
     <text
        xml:space="preserve"
        style="font-size:10px;text-align:center;line-height:125%;text-anchor:middle;fill:#000000"
