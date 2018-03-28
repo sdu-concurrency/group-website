@@ -1,0 +1,94 @@
+{
+  "name": "PCS",
+  "children": [{
+      "name": "Industry & <br> Public Organisations",
+      "children": [{
+          "name": "Odense Kommune",
+          "tooltip" : "Done something for the Odense Kommune"
+        },
+        {
+          "name": "Technology Denmark"
+        },
+        {
+          "name": "ItalianaSoftware"
+        }, {
+          "name": "Mandriva"
+        }, {
+          "name": "Statoil"
+        }
+      ]
+    },
+    {
+      "name": "Open Source",
+      "children": [{
+          "name": "Jolie"
+        },
+        {
+          "name": "Chor"
+        },
+        {
+          "name": "AIOCJ"
+        },
+        {
+          "name": "LibBiG"
+        },
+        {
+          "name": "Zephyrus"
+        }
+      ]
+    },
+    {
+      "name": "Academia",
+      "children": [{
+          "name": "England",
+          "children": [ { "name" : "University of Edinburgh" }, { "name" : "Imperial College" } ]
+        },
+        {
+          "name": "Italy",
+          "children": [ { "name" : "Università di Bologna" } ]
+        },
+        {
+          "name": "France",
+          "children": [ { "name" : "INRIA FoCUS team,<br> Sophia-Antipolis" } ]
+        },
+        {
+          "name": "Denmark",
+          "children": [
+            { "name" : "Technical University of Denmark" }, 
+            { "name" : "Information Technology University" }, 
+            { "name" : "University of Copenhagen" }
+          ]
+        },
+        {
+          "name": "Poland",
+          "children": [ { "name" : "Warsaw University of Technology" } ]
+        }
+      ]
+    },
+    {
+      "name": "Community Organisation",
+      "children": [{
+          "name": "Conferences",
+          "children": [
+            { "name" : "FACS 2014" },
+            { "name" : "RC 2016" },
+            { "name" : "SAC 2014" },
+            { "name" : "SAC 2015" },
+            { "name" : "SAC 2016" },
+            { "name" : "SAC 2017" },
+            { "name" : "SAC 2018" },
+            { "name" : "SAC 2018" },
+            { "name" : "MADE 2018" }
+          ]
+        },
+        {
+          "name": "Research Communities",
+          "children": [
+            { "name" : "Betty Cost Action" },
+            { "name" : "Microservices Community" }
+          ]
+        }
+      ]
+    }
+  ]
+}
