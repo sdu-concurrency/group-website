@@ -13,7 +13,6 @@ layout: default
 <header class="major container" markdown="1">
 
 ## People
-A descriptive sentence.
 
 </header>
 

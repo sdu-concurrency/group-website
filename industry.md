@@ -4,19 +4,9 @@ layout: default
 
 <article id="main"><header class="major container" markdown="1">
 
-
-
 ## Industry
 
-A descriptive sentence.
-
-
-
 </header><section class="wrapper style4 card container"><div class="content"><section markdown="1">
-
-
-
-<img class="center-block img-thumbnail" src="images/pic04.jpg" alt="" />
 
 ### Dolore Amet Consequat
 						

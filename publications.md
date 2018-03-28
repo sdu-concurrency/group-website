@@ -20,7 +20,6 @@ layout: default
 <header class="major container" markdown="1">
 
 ## Publications
-A descriptive sentence.
 
 </header>
 

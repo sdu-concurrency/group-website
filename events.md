@@ -6,8 +6,6 @@ layout: default
 
 ## Events
 
-A descriptive sentence.
-
 </header><section class="wrapper style4 container"><div class="content"><section markdown="1">
 
 <ul class="posts">

@@ -22,7 +22,6 @@ layout: default
 <header class="major container" markdown="1">
 
 ## Grants
-A descriptive sentence.
 
 </header>
 
