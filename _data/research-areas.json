@@ -25,8 +25,8 @@
              "id" : "ra",
                    "elements" : [
                 { 
-                        "title" : "Applied Logic", 
-                        "description" : "Applied Logic", 
+                        "title" : "Applied Logic",
+                        "description" : "Traditionally the science that studies reasoning, logic has become an important tool in several areas of Computer Science. In our group, we apply logic and logic techniques to specify and verify properties of programming models, be it in the form of particular logics that we can use to write and prove interesting properties; as type systems that automatically ensure interesting properties of our systems; or through correspondences between logic proofs and programs that allow us to view the latter in insightful new ways.",
                         "id": "al"
                 },
                 { 
