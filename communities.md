@@ -175,7 +175,7 @@ layout: default
       adjustTextX( d.adjustX, d.name ) : 10; 
     })
     .attr( "y", function(d) { return d.children || d._children ? 
-      ".45em" : -14;
+      ".65em" : -14;
     })
     .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
     .attr( 'width', adjustWidth )
