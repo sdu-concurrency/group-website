@@ -24,8 +24,7 @@ layout: default
   stroke-width: 1.5px;
 }
 
-.tooltip {
-  position: absolute;
+.myTooltip div {
   z-index: 1070;
   display: block;
   margin: 0;
@@ -60,7 +59,7 @@ layout: default
 
 <article id="main"><header class="major container" markdown="1">
 
-  ## Communities
+## Communities
 
 </header><section class="wrapper card style4 container"><div class="content"><section markdown="1">
 
@@ -183,17 +182,19 @@ layout: default
     .on("mouseover", function(d) {
           var g = d3.select(this.parentNode); // The node
           // The class is used to remove the additional text later
-          console.log( d.name );
           var info = g.append('svg:foreignObject')
-             .attr('width', 100)
-             .attr('x', 20)
-             .attr('y', 10)
-             .classed('tooltip', true)
-             .text('More info');
-      })
+             .attr( 'width', '100%' )
+             .attr( 'height', '100%' )
+             .classed( "myTooltip", true )
+             .attr( 'x', 20 )
+             .attr( 'y', 10 )
+             .append( 'xhtml:div' )
+             .text( 'More info' );
+    })
     .on("mouseout", function() {
           // Remove the info text on mouse out.
-          d3.select(this).select('text.tooltip').remove()
+          d3.select(this.parentNode)
+            .select( 'foreignObject.myTooltip' ).remove();
     })
     .html( function( d ){ return "<div style=\"text-align:center;\">" + d.name + "</div>" } );
     //.style("fill-opacity", 1e-6);
