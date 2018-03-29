@@ -284,7 +284,7 @@
        style="font-size:10px;text-align:center;line-height:125%;text-anchor:middle;fill:#000000"
        x="-160.50664"
        y="550.57513"
-       id="rt_ms"
+       id="rt_ms_label"
        transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"><tspan>{{ rt_ms }}</tspan></text>
   </g>
 </svg>
