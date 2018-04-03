@@ -4,9 +4,9 @@
   "id" : "jm",
   "dblp" : "m/Mauro:Jacopo",
   "google_scholar" : "brh_I2kAAAAJ",
-  "orcid" : "LINK",
-  "github" : "LINK",
-  "website" : "http://wwww.professorprofessorson.com",
-  "photo" : "/images/people/professorson.jpg",
-  "research_topics" : [ "microservices", "security", "smart cities" ]
+  "orcid" : "0000-0002-5285-2868",
+  "github" : "https://github.com/jacopoMauro",
+  "website" : "http://heim.ifi.uio.no/~jacopom/",
+  "photo" : "/images/people/jmauro.jpg",
+  "research_topics" : [ "optimization", "formal methods", "cloud computing", "service-oriented computing", "concurrent languages", "AI planning", "machine learning" ]
 }

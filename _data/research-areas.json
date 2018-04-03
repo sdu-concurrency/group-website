@@ -26,7 +26,7 @@
                    "elements" : [
                 { 
                         "title" : "Applied Logic",
-                        "description" : "Traditionally the science that studies reasoning, logic has become an important tool in several areas of Computer Science. In our group, we apply logic and logic techniques to specify and verify properties of programming models, be it in the form of particular logics that we can use to write and prove interesting properties; as type systems that automatically ensure interesting properties of our systems; or through correspondences between logic proofs and programs that allow us to view the latter in insightful new ways.",
+                        "description" : "Traditionally the science that studies reasoning, logic has become an important tool in several areas of Computer Science. In our group, we apply logic and logic techniques to specify and verify properties of programming models, be it in the form of particular logics that we can use to write and prove interesting properties; as type systems that automatically ensure interesting properties of our systems; or through correspondences between logic proofs and programs that allow us to view the latter in insightful new ways. We also use logic and state-of-the-art solvers to optimize real world problems such as scheduling, packing, timetabling, configuration, and logistics problems.",
                         "id": "al"
                 },
                 { 
@@ -41,7 +41,7 @@
                 },
                 { 
                         "title" : "Software Engineering", 
-                        "description" : "Software Engineering", 
+                        "description" : "Software Engineering is the establishment and use of sound engineering principles in order to economically obtain software that is reliable and works efficiently on real machines. Software engineering is needed due to the hight rate of change in user requirements and environment on which the software is working. Based on the application to develop, the available resources and constraints, Software Engineering provides best practices and methodologies to ease and guide the task of developing and maintaining the software from the initial requirement specification through its entire evolution.", 
                         "id": "se"
                 }
         ]
@@ -62,7 +62,7 @@
                 },
                 { 
                         "title" : "DevOps", 
-                        "description" : "DevOps", 
+                        "description" : "DevOps is a software engineering collections of practices to link the software development (Dev) with software operation (Ops). DevOps strongly advocates for automation and monitoring at all steps of software construction, from integration, testing, releasing to deployment and infrastructure management. By using DevOps methodology it is possible to reduce the time between committing a change to a system and the change being placed into normal production, while ensuring high quality.", 
                         "id": "do"
                 },
                 { 
