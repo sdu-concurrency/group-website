@@ -52,7 +52,7 @@
     x="{{ rt_cp_x }}" dy="{{ dys }}">programming</tspan></a></tspan>
 {% endcapture %} 
 
-{% assign rt_qm_title = "This is a very cool area that Marco needs to write some catchy stuff about :-)" %}
+{% assign rt_qm_title = "Effective quantification of critical properties in complex systems." %}
 {% assign rt_qm_x = "-194.78731" %}
 {% capture rt_qm %} 
 <tspan {{ attr }} title="{{ rt_qm_title }}"><a

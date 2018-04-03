@@ -1,4 +1,4 @@
-[
+﻿[
        {
              "title" : "Application to Society",
              "id" : "sa",
@@ -72,7 +72,7 @@
                 },
                 { 
                         "title" : "Quantitative Models", 
-                        "description" : "Quantitative Models", 
+                        "description" : "The quantification of properties in complex systems is essential to improve the understanding of situations, to identify problems, and to support decision making. Quantitative models offer solid methodologies to conceptualise systems and access this critical information. They are assets of increasing importance since dependency and complexity of systems continues to grow due to the ongoing digital transformation. Building upon our group's expertise on quantitative methods, complex concurrent systems, and programming languages, we plan to enrich choreographic programming with new tools and techniques to effectively quantify properties of interest. Most of all, availability, efficiency, performance, reliability, robustness, safety, security, survivability, and timeliness.", 
                         "id": "qm"
                 },
                 { 
