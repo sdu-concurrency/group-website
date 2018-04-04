@@ -2,15 +2,18 @@
   "name": "PCS",
   "children": [{
       "name": "Industry & <br> Public Organisations",
+      "tooltip": "These entries correspond to collaborations with industrial partners and public entities.",
       "children": [{
           "name": "Odense Kommune",
-          "tooltip" : "Done something for the Odense Kommune"
+          "tooltip" : "The municipality of Odense, Denmark. Collaboration regards the implementation of microservice architectures for Smart City and Big Data projects."
         },
         {
-          "name": "Technology Denmark"
+          "name": "Technology Denmark",
+          "tooltip" : "Technology Denmark is a non-profit organization set in Denmark and aimed at bringing together IT & Tech companies, educational institutions, and the public sector. Collaboration regard digital transfer, training, and grant applications."
         },
         {
-          "name": "ItalianaSoftware"
+          "name": "ItalianaSoftware",
+          "tooltip" : "ItalianaSoftware is a software company set in Italy and leader in microservice systems. Collaboration regard both theoretical and practical discussion on the evolution of microservices. ItalianaSoftware has also a central role in the development of the Jolie language."
         }, {
           "name": "Mandriva"
         }, {
