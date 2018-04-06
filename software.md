@@ -5,19 +5,10 @@ layout: default
 <!-- Main -->
 <article id="main">
   <style type="text/css">
-    .software_row {
-      display: flex;
-    }
-    
-    .software {
-      flex: 1; /* additionally, equal width */
-      padding: 1em;
-    }
-    
-    .software+.software {
-      border-left: 1px solid #dee2e6;
-    }
-  </style>
+  .divider {
+    border-left: 1px solid #dee2e6;
+  }
+</style>
 
 <header class="major container" markdown="1">
 
@@ -26,47 +17,61 @@ layout: default
 </header>
 
 <section class="wrapper card style3 container">
-{% assign size = site.data.software | size %}
-<div class="software_row row">
+  {% assign size = site.data.software | size %}
+  <div class="item-row row">
 {% for software in site.data.software %}
 {% assign i = forloop.index | modulo: 2 %}
 
-<div class="software 6u">
+<div class="item col-12 col-lg-6">
 <div class="media">
-<img class="4u align-self-center" src="{{ software.logo }}">
-<div class="-1u media-body">
-<h5>{{ software.name }}</h5>
-<div>{{ software.short-bio }}</div>
-<div class="12u">
+  <img class="col-4 align-self-center" src="{{ software.logo }}">
+  <div class="media-body">
+  <h2>{{ software.name }}</h2>
+  <div>{{ software.short-bio }}</div>
+<div class="col-12">
 <small><a class="nodec" href="{{ software.website }}"><span class="fa fa-desktop"></span> Website</a></small>
- | 
+| 
 <small><a class="nodec" href="{{ software.github }}"><span class="fab fa-github"></span> Github</a></small>
 </div>
 </div>
 </div>
-
-  {% if i == 0 %}
-<div style="margin-top:2em;" class="12u">
-  {% else %}
-<div style="margin-top:2em;" class="11u">
-  {% endif %}
-<p style="text-align:justify;" class="hyphenate"><small>{{ software.bio }}</small></p>
+<hr>
+<div class="col-12">
+  <p style="text-align:justify;" class="hyphenate"><small>{{ software.bio }}</small></p>
 </div>
-<div class="12u">
+<div class="col-12">
   <small>Keywords:
-{% for tag in software.tags %}
-<a href="/publications/#keyword_{{tag}}" class="nodec badge badge-light">{{ tag }}</a>
-{% endfor %}</small>
+    {% for tag in software.tags %}
+    <a href="/publications/#keyword_{{tag}}" class="nodec badge badge-light">{{ tag | capitalize }}</a>
+  {% endfor %}</small>
 </div>
 </div>
 {% if forloop.index < size %}
-  {% if i == 0 %}
-    </div><hr><div class="software_row row">
-  {% endif %}
+{% if i == 0 %}
+</div><hr><div class="item-row row">
 {% else %}
-  </div>
+<div class="col-12 d-lg-none"><hr></div>
+{% endif %}
+{% else %}
+</div>
 {% endif %}
 {% endfor %}
 </section>
 
 </article>
+
+<script>
+var res = function(){
+  $( ".item-row" ).each( function(i, row) {
+    if( $( row ).find( ".item + div" ).is(":visible") ){
+      $( row ).find( ".item + div + .item" ).removeClass( "divider" );
+    } else {
+      $( row ).find( ".item + div + .item" ).addClass( "divider" );
+    }
+  });
+}
+$( document ).ready( function() {
+  res();
+  $( window ).resize( res );
+});
+</script>

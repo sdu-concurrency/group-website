@@ -109,52 +109,52 @@
     "amount" : "2,431,030 DKK"
   },
 	{
-		"title" : "Evolving software systems: analysis and innovative approaches for smart management",
-		"id" : "EVOSOFT",
-		"website" : "http://www.hrzz.hr/default.aspx?id=1205&pid=7945&rok=2014-09",
-		"number" : "7945",
-		"period" : { "start" : "01-07-2015", "end" : "30-06-2018" },
-		"foundation" : "Croatian Science Foundation",
-		"amount" : "594,300 HRK",
-		"participants" : [
-			{
-				"name" : "Tihana Galinac Grbac",
-				"role" : "PI",
-				"affiliation" : "University of Rijeka"
-			},
-			{
-				"name" : "Darko Huljenić",
-				"role" : "Investigator",
-				"affiliation" : "University of Zagreb"
-			},
-			{
+    "title" : "Evolving software systems: analysis and innovative approaches for smart management",
+    "id" : "EVOSOFT",
+    "website" : "http://www.hrzz.hr/default.aspx?id=1205&pid=7945&rok=2014-09",
+    "number" : "7945",
+    "period" : { "start" : "01-07-2015", "end" : "30-06-2018" },
+    "foundation" : "Croatian Science Foundation",
+    "amount" : "594,300 HRK",
+    "participants" : [
+      {
+        "name" : "Tihana Galinac Grbac",
+        "role" : "PI",
+        "affiliation" : "University of Rijeka"
+      },
+      {
+        "name" : "Darko Huljenić",
+        "role" : "Investigator",
+        "affiliation" : "University of Zagreb"
+      },
+      {
         "name" : "Goran Mauša",
         "role" : "Investigator",
         "affiliation" : "University of Rijeka"
       },
-			{
+      {
         "name" : "Fabrizio Montesi",
         "role" : "Investigator",
         "affiliation" : "University of Southern Denmark"
       },
-			{
+      {
         "name" : "Jean Petric",
-        "role" : "Investigator",
+        "role" : "Investigator"
       },
-			{
-				"name" : "Per Runeson",
+      {
+        "name" : "Per Runeson",
         "role" : "Investigator",
         "affiliation" : "Lund University"
-			},
-			{
-				"name" : "Ivan Štajduhar",
-				"role" : "Investigator",
-				"affiliation" : "University of Rijeka"
-			},
-			{
-				"name" : "Nikola Tanković",
-				"role" : "Investigator",
-			}
-		]
-	}
+      },
+      {
+        "name" : "Ivan Štajduhar",
+        "role" : "Investigator",
+        "affiliation" : "University of Rijeka"
+      },
+      {
+        "name" : "Nikola Tanković",
+        "role" : "Investigator"
+      }
+    ]
+  }
 ]

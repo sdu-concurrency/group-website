@@ -6,26 +6,17 @@ layout: default
 
 ## Events
 
-</header><section class="wrapper style4 container"><div class="content"><section markdown="1">
+</header><section class="wrapper style4"><div class="content"><section markdown="1">
 
-<ul class="posts">
-  {% for post in site.posts %}
-<li class="wrapper style1">
-<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-<div class="card">
+{% for post in site.posts %}
+<div class="card wrapper style1">
+<div class="card-body">
+<h2 class="card-title" ><a href="{{ post.url }}">{{ post.title }}</a></h2>
 {{ post.excerpt }}
-<div>
 <a class="float-right nodec" href="{{ post.url }}">
 <button class="btn btn-sm btn-primary">Read more</button>
 </a>
 </div>
 </div>
-<section class="special">
-<ul class="buttons">
-<li></li>
-</ul>
-</section>
-</li>
 {% endfor %}
-</ul>
 </section></div></section></article>

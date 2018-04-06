@@ -35,7 +35,7 @@ textarea {
 				line-height: 1.75em;
 }
 
-a {
+/*a {
 				-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 				-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 				-o-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
@@ -56,7 +56,7 @@ a.reset {
 
 a:hover {
 				border-bottom-color: transparent;
-}
+}*/
 
 strong,
 b {
@@ -80,7 +80,8 @@ h6 {
 				color: inherit;
 				font-weight: 300;
 				line-height: 1.75em;
-				margin-bottom: 1em;
+				padding-bottom: .5em;
+				padding-top: .5em;
 				text-transform: uppercase;
 }
 
@@ -998,7 +999,7 @@ input[type="reset"].small,
 				background-position: top left, top right, bottom left, bottom right;
 				background-repeat: no-repeat;
 				background-size: 25em;
-				padding: 7em 0;
+				padding: 1em 0;
 }
 
 #main> :last-child {

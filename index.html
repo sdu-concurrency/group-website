@@ -7,7 +7,7 @@ layout: landing-page
 	<section class="wrapper style1 container special intro-box">
 		<div class="row">
 
-			<div class="4u"> <section> <header> <h3><span class="fa fa-search
+			<div class="col-4"> <section> <header> <h3><span class="fa fa-search
 				fa-sm"></span> <a href="/research-areas">Cross-cutting
 				Research</a></h3> </header> <p class="hyphenate">Achieving challenging
 				research visions demands expertise in many research fields. Our group
@@ -16,7 +16,7 @@ layout: landing-page
 				investigation and where formal solutions are applied to solve
 				real-world challenges.</p> </section> </div>
 
-			<div class="4u">
+			<div class="col-4">
 				<section>
 					<header>
 						<h3><a href="/education"><span class="fa fa-graduation-cap fa-sm"></span> Education & Training</a></h3>
@@ -32,7 +32,7 @@ layout: landing-page
 				</section>
 			</div>
 
-			<div class="4u">
+			<div class="col-4">
 				<section>
 					<header>
 						<h3><a href="/industry"><span class="fa fa-briefcase fa-sm"></span> Industrial Collaboration</a></h3>
@@ -51,52 +51,62 @@ layout: landing-page
 	</section>
 
 	<!-- Three -->
-	<section class="wrapper style3 card container special">
+	<section class="card container special">
 
-		<header class="major">
+		<header>
 			<h2>Latest Events</h2>
 		</header>
 
 		{% assign latest_posts = site.posts | slice: 0, 4%}
 	
 		<div class="row">
-		<div class="6u">
+		<div class="col-12 col-lg-6">
 		{% for post in latest_posts %}
 		{% assign index = forloop.index | modulo: 2 %}
 		{% if index == 1 %}
-			<div class="12u">
-				<section>
-					<header>
+				<section class="card border-0">
+					<div class="card-body">
+					<div class="card-title alert-info rounded-top">
 						<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-					</header>
-					<div class="card text-justify hyphenate"><div class="-1u 10u"><div class="mt-4"></div><small>{{ post.excerpt }}</small></div>
-					<a class="nodec" href="{{ post.url }}"><button class="float-right btn btn-sm btn-primary">Continue reading</button></a></div>
-					<div class="mt-4"></div>
+					</div>
+					<div style="margin-top: -.8em;" class="border border-top-0 text-justify hyphenate">
+				 		<div class="col-12"><div class="pt-4"></div><small>{{ post.excerpt }}</small></div>
+						<a class="nodec float-right" href="{{ post.url }}">
+							<button class="rounded-0 btn btn-primary">Continue reading <span class="fa fa-arrow-circle-right"></span></button>
+						</a>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="mt-4"></div>
 				</section>
-			</div>
 		{% endif %}
 		{% endfor %}
 		</div>
-		<div class="6u">
+		<div class="col-12 col-lg-6">
 		{% for post in latest_posts %}
 		{% assign index = forloop.index | modulo: 2 %}
 		{% if index == 0 %}
-			<div class="12u">
-				<section>
-					<header>
+				<section class="card border-0">
+					<div class="card-body">
+					<div class="card-title alert-info rounded-top">
 						<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-					</header>
-					<div class="card text-justify hyphenate"><div class="-1u 10u"><div class="mt-4"></div><small>{{ post.excerpt }}</small></div>
-					<a class="nodec" href="{{ post.url }}"><button class="float-right btn btn-sm btn-primary">Continue reading</button></a></div>
-					<div class="mt-4"></div>
+					</div>
+					<div style="margin-top: -1.2em;" class="border border-top-0 text-justify hyphenate">
+				 		<div class="col-12"><div class="pt-4"></div><small>{{ post.excerpt }}</small></div>
+						<a class="nodec float-right" href="{{ post.url }}">
+							<button class="rounded-0 btn btn-primary">Continue reading <span class="fa fa-arrow-circle-right"></span></button>
+						</a>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="mt-4"></div>
 				</section>
-			</div>
 		{% endif %}
 		{% endfor %}
 		</div>
 		</div>
 
-		<footer class="major">
+		<footer class="major pb-4">
 			<ul class="buttons">
 				<li><a href="/events.html" class="button">Events Page</a></li>
 			</ul>
