@@ -11,7 +11,7 @@ layout: default
 <article id="main">
 <header class="major container" markdown="1">
 
-## Grants
+# Grants
 
 </header>
 

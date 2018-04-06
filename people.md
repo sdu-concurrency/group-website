@@ -12,7 +12,7 @@ layout: default
 
 <header class="major container" markdown="1">
 
-## People
+# People
 
 </header>
 
@@ -77,7 +77,7 @@ layout: default
 <div style="margin-top:-1em; margin-bottom:2em;" class="col-sm-12">
   <small>Research Topics:
 {% for topic in person.research_topics %}
-<a class="nodec" href="/publications/#keyword_{{topic}}" class="nodec badge badge-light">{{ topic }}</a>
+<a class="nodec" href="/publications/#keyword_{{topic}}" class="nodec badge badge-light">{{ topic | capitalize }}</a>
 {% endfor %}</small>
 </div>
 </div>

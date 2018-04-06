@@ -138,8 +138,20 @@ article.special {
 }
 
 header.major {
-				padding-bottom: 2em;
-				text-align: center;
+		padding-bottom: 2em;
+    text-align: center;
+    background: rgba(29, 57, 64, 0.65);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: -1em;
+    padding-top: 1em;
+}
+
+header.major>h1,
+header.major>h2,
+header.major>h3,
+header.major>h4 {
+	-webkit-text-stroke: 3px white;
 }
 
 header.special {
@@ -639,6 +651,8 @@ input[type="reset"].small,
 				background: white;
 				color: inherit;
 				padding: 4em;
+		    border-top-left-radius: 0px;
+    		border-top-right-radius: 0px;
 }
 
 
@@ -923,16 +937,17 @@ input[type="reset"].small,
 }
 
 #banner {
-				background-attachment: scroll, scroll, scroll, fixed;
-				background-color: #645862;
-				background-image: url("images/dark-bl.svg"), url("images/dark-br.svg"), url("images/overlay.png"), url("../images/banner.jpg");
-				background-position: bottom left, bottom right, top left, top center;
-				background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-				background-size: 25em, 25em, auto, cover;
-				color: white;
-				cursor: default;
-				padding: 6em 0;
-				text-align: center;
+    background-attachment: scroll, scroll, scroll, fixed;
+    background-color: #645862;
+    background-image: url(images/dark-bl.svg), url(images/dark-br.svg), url(images/overlay.png), url(../images/banner.jpg);
+    background-position: bottom left, bottom right, top left, top center;
+    background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+    background-size: 25em, 25em, auto, cover;
+    color: white;
+    cursor: default;
+    padding-top: 3em;
+    text-align: center;
+    margin-bottom: -2.5em
 }
 
 #banner .inner {
@@ -995,11 +1010,14 @@ input[type="reset"].small,
 /* Main */
 
 #main {
-				/*background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");*/
-				background-position: top left, top right, bottom left, bottom right;
-				background-repeat: no-repeat;
-				background-size: 25em;
-				padding: 1em 0;
+		    background-attachment: scroll, scroll, scroll, fixed;
+    		background-color: #645862;
+    		background-image: url(images/dark-bl.svg), url(images/dark-br.svg), url(images/overlay.png), url(../images/banner.jpg);
+		    background-position: bottom left, bottom right, top left, top center;
+		    background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+		    background-size: 25em, 25em, auto, cover;
+		    cursor: default;
+		    padding: 1em 0;
 }
 
 #main> :last-child {

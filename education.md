@@ -4,7 +4,7 @@ layout: default
 
 <article id="main"><header class="major container" markdown="1">
 
-## Education
+# Education
 
 </header><section class="wrapper card style4 container"><div class="content"><section markdown="1">
 

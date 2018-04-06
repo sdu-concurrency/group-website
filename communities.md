@@ -32,7 +32,7 @@ layout: default
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  text-align: left;
+  text-align: justify;
   text-align: start;
   text-decoration: none;
   text-shadow: none;
@@ -48,7 +48,6 @@ layout: default
   max-width: 200px;
   padding: 0.25rem 0.5rem;
   color: #fff;
-  text-align: center;
   background-color: #000;
   border-radius: 0.25rem;
 }
@@ -59,7 +58,7 @@ layout: default
 
 <article id="main"><header class="major container" markdown="1">
 
-## Communities
+# Communities
 
 </header><section class="wrapper card style4 container"><div class="content"><section markdown="1">
 
@@ -75,7 +74,7 @@ layout: default
 <script>
   var margin = {top: 20, right: 120, bottom: 20, left: 20},
   width = 960 - margin.right - margin.left,
-  height = 800 - margin.top - margin.bottom;
+  height = 1024 - margin.top - margin.bottom;
 
   var i = 0,
   duration = 750,
@@ -112,7 +111,7 @@ layout: default
     update(root);
   });
 
-  d3.select(self.frameElement).style("height", "800px");
+  d3.select(self.frameElement).style("height", "1024px");
 
   function update(source) {
 
@@ -175,7 +174,7 @@ layout: default
       adjustTextX( d.adjustX, d.name ) : 10; 
     })
     .attr( "y", function(d) { return d.children || d._children ? 
-      ".65em" : -14;
+      ".1em" : -14;
     })
     .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
     .attr( 'width', adjustWidth )

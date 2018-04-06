@@ -1,6 +1,6 @@
 [  
   {
-    "bibitem": "@inproceedings{CCS15, author = {Codish, Michael and Cruz-Filipe, Lu{\\'\\i}s and Schneider-Kamp, Peter}, booktitle = {Language and Automata Theory and Applications -- 9th International Conference, {LATA} 2015, Nice, France, March 2-6, 2015, Proceedings}, editor = {Dediu, Adrian-Horia and Formenti, Enrico and Mart{\\'\\i}n{-}Vide, Carlos and Truthe, Bianca}, doi = {10.1007/978-3-319-15579-1\\_52}, pages = {664--675}, publisher = {Springer}, series = {LNCS}, title = {Sorting networks: the end game}, volume = 8977, year = 2015}",
+    "bibitem": "@inproceedings{CCS15, author = {Codish, Michael and Cruz-Filipe, Lu{\\'i}s and Schneider-Kamp, Peter}, booktitle = {Language and Automata Theory and Applications -- 9th International Conference, {LATA} 2015, Nice, France, March 2-6, 2015, Proceedings}, editor = {Dediu, Adrian-Horia and Formenti, Enrico and Mart{\\'\\i}n{-}Vide, Carlos and Truthe, Bianca}, doi = {10.1007/978-3-319-15579-1\\_52}, pages = {664--675}, publisher = {Springer}, series = {LNCS}, title = {Sorting networks: the end game}, volume = 8977, year = 2015}",
     "links": [
       { "link" : "http://tinyurl.com/lcfilipe/pubs/paper18.pdf" }
     ],
@@ -11,7 +11,7 @@
     "type": "conference"
   },
   {
-    "bibitem": "@article{CF15, author = {Cruz-Filipe, Lu{\\'\\i}s and Ferreira, Fernando}, title = {The Finitistic Consistency of Heck's Predicative Fregean System}, journal = {Notre-Dame Journal of Formal Logic}, volume = 56, number = 1, pages = {61--79}, year = 2015}",
+    "bibitem": "@article{CF15, author = {Cruz-Filipe, Lu{\\'i}s and Ferreira, Fernando}, title = {The Finitistic Consistency of Heck's Predicative Fregean System}, journal = {Notre-Dame Journal of Formal Logic}, volume = 56, number = 1, pages = {61--79}, year = 2015}",
     "links": [
       { "link" : "http://tinyurl.com/lcfilipe/pubs/paper19.pdf" }
     ],
@@ -22,7 +22,7 @@
     "type": "journal"
   },
   {
-    "bibitem": "@inproceedings{CGN15, author = {Cruz-Filipe, Lu{\\'\\i}s and Gaspar, Gra{\\c c}a and Nunes, Isabel}, booktitle = {Knowledge Discovery, Knowledge Engineering and Knowledge Management}, editor = {Fred, Ana and Dietz, Jan L.G. and Liu, Kecheng and Filipe, Joaquim}, doi = {10.1007/978-3-662-46549-3\\_13}, pages = {199--214}, publisher = {Springer}, series = {CCIS}, title = {Design Patterns for Description-logic Programs}, volume = 454, year = 2015}",
+    "bibitem": "@inproceedings{CGN15, author = {Cruz-Filipe, Lu{\\'i}s and Gaspar, Gra{\\c c}a and Nunes, Isabel}, booktitle = {Knowledge Discovery, Knowledge Engineering and Knowledge Management}, editor = {Fred, Ana and Dietz, Jan L.G. and Liu, Kecheng and Filipe, Joaquim}, doi = {10.1007/978-3-662-46549-3\\_13}, pages = {199--214}, publisher = {Springer}, series = {CCIS}, title = {Design Patterns for Description-logic Programs}, volume = 454, year = 2015}",
     "links": [
       { "link" : "http://tinyurl.com/lcfilipe/pubs/paper20.pdf" }
     ],
@@ -33,7 +33,7 @@
     "type": "conference"
   },
   {
-    "bibitem": "@inproceedings{CS15a, author = {Cruz-Filipe, Lu{\\'\\i}s and Schneider-Kamp, Peter}, booktitle = {Intelligent Computer Mathematics -- International Conference, {CICM} 2015, Washington, DC, USA, July 13-17, 2015, Proceedings}, editor = {Kerber, Manfred and Carette, Jacques and Kaliszyk, Cezary and Rabe, Florian and Sorge, Volker}, doi = {10.1007/978-3-319-20615-8\\_4}, pages = {55--70}, publisher = {Springer}, series = {LNAI}, title = {Optimizing a Certified Proof Checker for a Large-Scale Computer-Generated Proof}, volume = 9150, year = 2015}",
+    "bibitem": "@inproceedings{CS15a, author = {Cruz-Filipe, Lu{\\'i}s and Schneider-Kamp, Peter}, booktitle = {Intelligent Computer Mathematics -- International Conference, {CICM} 2015, Washington, DC, USA, July 13-17, 2015, Proceedings}, editor = {Kerber, Manfred and Carette, Jacques and Kaliszyk, Cezary and Rabe, Florian and Sorge, Volker}, doi = {10.1007/978-3-319-20615-8\\_4}, pages = {55--70}, publisher = {Springer}, series = {LNAI}, title = {Optimizing a Certified Proof Checker for a Large-Scale Computer-Generated Proof}, volume = 9150, year = 2015}",
     "links": [
       { "link" : "http://tinyurl.com/lcfilipe/pubs/paper21.pdf" }
     ],
@@ -44,7 +44,7 @@
     "type": "conference"
   },
   {
-    "bibitem": "@inproceedings{CS15b, author = {Cruz-Filipe, Lu{\\'\\i}s and Schneider-Kamp, Peter}, booktitle = {Interactive Theorem Proving -- 6th International Conference, {ITP} 2015, Nanjing, China, August 24-27, 2015, Proceedings}, editor = {Urban, Christian and Zhang, Xingyuan}, doi = {10.1007/978-3-319-22102-1\\_10}, pages = {154--169}, publisher = {Springer}, series = {LNCS}, title = {Formalizing Size-Optimal Sorting Networks: Extracting a Certified Proof Checker}, volume = 9236, year = 2015}",
+    "bibitem": "@inproceedings{CS15b, author = {Cruz-Filipe, Lu{\\'i}s and Schneider-Kamp, Peter}, booktitle = {Interactive Theorem Proving -- 6th International Conference, {ITP} 2015, Nanjing, China, August 24-27, 2015, Proceedings}, editor = {Urban, Christian and Zhang, Xingyuan}, doi = {10.1007/978-3-319-22102-1\\_10}, pages = {154--169}, publisher = {Springer}, series = {LNCS}, title = {Formalizing Size-Optimal Sorting Networks: Extracting a Certified Proof Checker}, volume = 9236, year = 2015}",
     "links": [
       { "link" : "http://tinyurl.com/lcfilipe/pubs/paper22.pdf" }
     ],
@@ -55,7 +55,7 @@
     "type": "conference"
   },
   {
-    "bibitem": "@inproceedings{CFHLNS15, author = {Cruz-Filipe, Lu{\\'\\i}s and Franz, Michael and Hakhverdyan, Artavazd and Ludovico, Marta and Nunes, Isabel and Schneider-Kamp, Peter}, booktitle = {Proceedings of the 7th International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management (IC3K2015)}, editor = {Fred, Ana and Dietz, Jan and Aveiro, David and Liu, Kecheng and Filipe, Joaquim}, month = nov, doi = {10.5220/0005586400170026}, pages = {17--26}, publisher = {SCITEPRESS}, title = {{repAIrC}: A Tool for Ensuring Data Consistency by Means of Active Integrity Constraints}, volume = 3, year = 2015}",
+    "bibitem": "@inproceedings{CFHLNS15, author = {Cruz-Filipe, Lu{\\'i}s and Franz, Michael and Hakhverdyan, Artavazd and Ludovico, Marta and Nunes, Isabel and Schneider-Kamp, Peter}, booktitle = {Proceedings of the 7th International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management (IC3K2015)}, editor = {Fred, Ana and Dietz, Jan and Aveiro, David and Liu, Kecheng and Filipe, Joaquim}, month = nov, doi = {10.5220/0005586400170026}, pages = {17--26}, publisher = {SCITEPRESS}, title = {{repAIrC}: A Tool for Ensuring Data Consistency by Means of Active Integrity Constraints}, volume = 3, year = 2015}",
     "links": [
       { "link" : "http://tinyurl.com/lcfilipe/pubs/paper23.pdf" }
     ],
@@ -66,7 +66,7 @@
     "type": "conference"
   },
   {
-    "bibitem": "@inproceedings{CCNS15, author = {Michael Codish and Lu{\\'\\i}s Cruz-Filipe and Markus Nebel and Peter Schneider-Kamp}, title = {Applying Sorting Networks to Synthesize Optimized Sorting Libraries}, pages = {127--142}, doi = {10.1007/978-3-319-27436-2\\_8}, editor = {Moreno Falaschi}, booktitle = {Logic-Based Program Synthesis and Transformation -- 25th International Symposium, {LOPSTR} 2015, Siena, Italy, July 13--15, 2015. Revised Selected Papers}, series = {LNCS}, volume = 9527, publisher = {Springer}, year = 2015, doi = {10.1007/978-3-319-27436-2}}",
+    "bibitem": "@inproceedings{CCNS15, author = {Michael Codish and Lu{\\'i}s Cruz-Filipe and Markus Nebel and Peter Schneider-Kamp}, title = {Applying Sorting Networks to Synthesize Optimized Sorting Libraries}, pages = {127--142}, doi = {10.1007/978-3-319-27436-2\\_8}, editor = {Moreno Falaschi}, booktitle = {Logic-Based Program Synthesis and Transformation -- 25th International Symposium, {LOPSTR} 2015, Siena, Italy, July 13--15, 2015. Revised Selected Papers}, series = {LNCS}, volume = 9527, publisher = {Springer}, year = 2015, doi = {10.1007/978-3-319-27436-2}}",
     "links": [
       { "link" : "http://tinyurl.com/lcfilipe/pubs/paper24.pdf" }
     ],

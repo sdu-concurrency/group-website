@@ -9,6 +9,11 @@ layout: default
 .paper {
 	font-size: 11pt;
 	line-height: 1.4;
+	list-style: none;
+}
+
+ul {
+	margin-left: -2em;
 }
 </style>
 
@@ -19,7 +24,7 @@ layout: default
 
 <header class="major container" markdown="1">
 
-## Publications
+# Publications
 
 </header>
 

@@ -16,7 +16,7 @@ layout: default
 
 <article id="main"><header class="major container" markdown="1">
 
-## Research Areas
+# Research Areas
 
 </header><section class="wrapper card card-body style4 container"><div class="content"><section markdown="1">
 
@@ -50,7 +50,7 @@ layout: default
     <div class="tab-pane fade{% if forloop.first %}show active{% endif %}" 
     id="{{ item.id }}" role="tabpanel" aria-labelledby="{{ item.id }}-tab">
     {% for element in item.elements %}
-    <div class="pl-4 pb-4 border-dark">
+    <div class="pl-4 border-dark">
       <a class="nodec reset" data-toggle="collapse" href="#{{ item.id }}_{{ element.id }}" aria-expanded="false" id="{{ item.id }}_{{ element.id }}-item" aria-controls="{{ item.id }}_{{ element.id }}">
         <h5 class="card-title">{{ element.title }}</h5></a>
         <div class="collapse" id="{{ item.id }}_{{ element.id }}">

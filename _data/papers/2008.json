@@ -1,5 +1,5 @@
 [{
-    "bibitem": "@article{CSS08, author = {Cruz-Filipe, Lu{\\'\\i}s and Sernadas, Am{\\'\\i}lcar and Sernadas, Cristina}, journal = {Logic Journal of the IGPL}, month = {apr}, doi = {10.1093/jigpal/jzm057}, number = {2}, pages = {121--153}, publisher = {Oxford University Press}, title = {Heterogeneous Fibring of Deductive Systems via Abstract Proof Systems}, volume = {16}, year = {2008}}",
+    "bibitem": "@article{CSS08, author = {Cruz-Filipe, Lu{\\'i}s and Sernadas, Am{\\'\\i}lcar and Sernadas, Cristina}, journal = {Logic Journal of the IGPL}, month = {apr}, doi = {10.1093/jigpal/jzm057}, number = {2}, pages = {121--153}, publisher = {Oxford University Press}, title = {Heterogeneous Fibring of Deductive Systems via Abstract Proof Systems}, volume = {16}, year = {2008}}",
     "links": [{
       "link": "http://tinyurl.com/lcfilipe/pubs/paper07.pdf"
     }],
@@ -10,7 +10,7 @@
     "type": "journal"
   },
   {
-    "bibitem": "@article{CFSS08, author = {Cruz-Filipe, Lu{\\'\\i}s and Rasga, Jo{\\~a}o and Sernadas, Am{\\'\\i}lcar and Sernadas, Cristina}, journal = {Journal of Logic and Computation}, month = {apr}, doi = {10.1093/logcom/exn014}, number = {6}, pages = {885--911}, publisher = {Oxford University Press}, title = {Complete Axiomatization of Discrete-Measure Almost-Everywhere Quantification}, volume = {18}, year = {2008}}",
+    "bibitem": "@article{CFSS08, author = {Cruz-Filipe, Lu{\\'i}s and Rasga, Jo{\\~a}o and Sernadas, Am{\\'\\i}lcar and Sernadas, Cristina}, journal = {Journal of Logic and Computation}, month = {apr}, doi = {10.1093/logcom/exn014}, number = {6}, pages = {885--911}, publisher = {Oxford University Press}, title = {Complete Axiomatization of Discrete-Measure Almost-Everywhere Quantification}, volume = {18}, year = {2008}}",
     "links": [{
       "link": "http://tinyurl.com/lcfilipe/pubs/paper08.pdf"
     }],
@@ -21,7 +21,7 @@
     "type": "journal"
   },
   {
-    "bibitem": "@incollection{CLMRV08, author = {Cruz-Filipe, Lu{\\'\\i}s and Lanese, Ivan and Martins, Francisco and Ravara, Ant{\\'o}nio and Vasconcelos, Vasco T.}, booktitle = {Proceedings of the 10th IFIP International Conference on Formal Methods for Open Object-based Distributed Systems (FMOODS'08)}, editor = {Barthe, Gilles and de Boer, Frank S.}, month = may, doi = {10.1007/978-3-540-68863-1\\_5}, pages = {59--77}, publisher = {Springer}, series = {LNCS}, title = {Behavioural Theory at Work: Program Transformations in a Service-Centred Calculus}, volume = {5051}, year = {2008}}",
+    "bibitem": "@incollection{CLMRV08, author = {Cruz-Filipe, Lu{\\'i}s and Lanese, Ivan and Martins, Francisco and Ravara, Ant{\\'o}nio and Vasconcelos, Vasco T.}, booktitle = {Proceedings of the 10th IFIP International Conference on Formal Methods for Open Object-based Distributed Systems (FMOODS'08)}, editor = {Barthe, Gilles and de Boer, Frank S.}, month = may, doi = {10.1007/978-3-540-68863-1\\_5}, pages = {59--77}, publisher = {Springer}, series = {LNCS}, title = {Behavioural Theory at Work: Program Transformations in a Service-Centred Calculus}, volume = {5051}, year = {2008}}",
     "links": [{
       "link": "http://tinyurl.com/lcfilipe/pubs/paper09.pdf"
     }],
