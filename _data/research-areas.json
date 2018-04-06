@@ -67,7 +67,7 @@
                 },
                 { 
                         "title" : "Microservices", 
-                        "description" : "Microservices", 
+                        "description" : "The microservices architectural style has been recently proposed to cope with the problems of scaling and evolving software in a distributed setting. A microservice is a cohesive, independent process interacting via messages. Following the microservices architectural style, a network of interacting microservices corresponds to the interconnected modules of a distributed software. Microservices are usually contrasted with traditional single executable artefacts, also called \"monoliths\". In monoliths, modules communicate via locally-available resources (memory, databases, files), making them tightly coupled together and ultimately hindering both software scalability and evolvability. The principle of microservices assists project managers and developers: it provides a guideline for the design and implementation of distributed applications. Following this principle, developers focus on the implementation and testing of a few, cohesive functionalities.  This holds also for higher-level microservices, which are concerned with coordinating the functionalities of other microservices.", 
                         "id": "ms"
                 },
                 { 

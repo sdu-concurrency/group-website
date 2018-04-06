@@ -4,9 +4,9 @@
   "id" : "sg",
   "dblp" : "g/Giallorenzo:Saverio",
   "google_scholar" : "4CLysk8AAAAJ",
-  "orcid" : "ID",
-  "github" : "ID",
-  "website" : "http://wwww.professorprofessorson.com",
+  "orcid" : "0000-0002-3658-6395",
+  "github" : "thesave",
+  "website" : "http://saveriogiallorenzo.com",
   "photo" : "/images/people/professorson.jpg",
-  "research_topics" : [ "microservices", "security", "smart cities" ]
+  "research_topics" : [ "choreographic programming", "adaptation", "microservices", "security", "smart cities" ]
 }
