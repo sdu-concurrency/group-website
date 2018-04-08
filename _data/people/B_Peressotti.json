@@ -2,11 +2,11 @@
   "name" : "Marco Peressotti",
   "role" : "Post-doctoral Researcher",
   "id" : "mp",
-	"email": "peressotti@imada.sdu.dk",
-	"phone": "+45 65 50 90 26",
+	"phone": "+45 65509026",
 	"dblp" : "p/Peressotti:Marco",
 	"google_scholar" : "O9ZAc-MAAAAJ",
 	"orcid" : "0000-0002-0243-0480",
+  "github" : "mperessotti",
 	"photo" : "/images/people/mperessotti.jpg",
-	"research_topics" : [ "Concurrency", "Programming Languages", "Formal Methods", "Coalgebra", "Quantitative Semantics" ]
+	"research_topics" : [ "Concurrency", "Programming Languages", "Formal Methods", "Coalgebras", "Quantitative Semantics" ]
 }

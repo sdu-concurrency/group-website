@@ -42,7 +42,7 @@ layout: default
 {% endif %}
 {%if person.phone %}
 <div class="col-sm-6">
-    <small><a class="nodec" href="tel:{{ person.phone }}"><span class="fas fa-phone"></span> {{ person.phone }}</a></small>
+    <small><a class="nodec" href="tel:{{ person.phone }}"><span class="fas fa-phone"></span> Phone</a></small>
 </div>
 {% endif %}
 <div class="col-sm-6">

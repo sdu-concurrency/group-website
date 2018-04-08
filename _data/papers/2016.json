@@ -54,7 +54,7 @@
     "bibitem": "@inproceedings{DDPT16,  author = {De Nart, Dario and  Degl'Innocenti, Dante and  Peressotti, Marco and  Tasso, Carlo},  editor = {Maristella Agosti and  Marco Bertini and  Stefano Ferilli and  Simone Marinai and  Nicola Orio},  title = {Stratifying Semantic Data for Citation and Trust: An Introduction  to {RDFDF}},  booktitle = {Digital Libraries and Multimedia Archives - 12th Italian Research  Conference on Digital Libraries, {IRCDL} 2016, Florence, Italy, February  4-5, 2016, Revised Selected Papers},  series = {Communications in Computer and Information Science},  volume = {701},  pages = {104--111},  year = {2016}, doi = {10.1007/978-3-319-56300-8\\_10} }",
     "links": [],
     "abstract": "In this paper we analyse the functional requirements of linked data citation and identify a minimal set of operations and primitives needed to realise such task. Citing linked data implies solving a series of data provenance issues and finding a way to identify data subsets. Those two tasks can be handled defining a simple type system inside data and verifying it with a type checker, which is significantly less complex than interpreting reified RDF statements and can be implemented in a non data invasive way. Finally we suggest that data citation should be handled outside of the data, and propose a simple language to describe RDF documents where separation between data and metainformation is explicitly specified.",
-    "tags" : [ "Digital Libraries" ],
+    "tags" : [ "Knowledge Representation" ],
     "authors" : [ "Marco Peressotti" ],
     "type" : "Conference",
     "non_group" : true
@@ -67,7 +67,7 @@
         "icon" : "arxiv"}
     ],
     "abstract": "In this paper we analyse the functional requirements of linked data citation and identify a minimal set of operations and primitives needed to realise such task. Citing linked data implies solving a series of data provenance issues and finding a way to identify data subsets. Those two tasks can be handled defining a simple type system inside data and verifying it with a type checker, which is significantly less complex than interpreting reified RDF statements and can be implemented in a non data invasive way. Finally we suggest that data citation should be handled outside of the data, possibly with an ad hoc language.",
-    "tags" : [ "Digital Libraries" ],
+    "tags" : [ "Knowledge Representation" ],
     "authors" : [ "Marco Peressotti" ],
     "type" : "Journal",
     "non_group" : true

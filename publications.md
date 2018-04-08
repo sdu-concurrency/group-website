@@ -109,11 +109,11 @@ ul {
 											{% endfor %}</small></li>
 										</ul></div></div>
 							<div style="display: none;" class="card" id="abstract_content_{{ id }}">
-								<div style="background-color: #dceaff;" class="card-body"><small>{{ paper.abstract }}</small></div>
+								<div style="background-color: #dceaff;" class="card-body">{{ paper.abstract }}</div>
 							</div>
 							<div style="display: none;" class="card" id="bibitem_content_{{ id }}">
 								{% assign bibitem = paper.bibitem | formatBibitem %}
-								<div style="background-color: #ffffe0;" class="card-body bibitem_content"><pre><code><small>{{ bibitem }}</small></code></pre></div>
+								<div style="background-color: #ffffe0;" class="card-body bibitem_content"><pre><code>{{ bibitem }}</code></pre></div>
 							</div>
 							{% if paper.non_group %}
 							<span style="display: none;" class="non_group" ></span>
