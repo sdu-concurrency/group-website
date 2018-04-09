@@ -4,9 +4,8 @@
   "id" : "ls",
   "dblp" : "s/Safina:Larisa",
   "google_scholar" : "XifW61cAAAAJ",
-  "orcid" : "ID",
-  "github" : "ID",
-  "website" : "http://wwww.professorprofessorson.com",
-  "photo" : "/images/people/professorson.jpg",
-  "research_topics" : [ "microservices", "security", "smart cities" ]
+  "orcid" : "0000-0002-4490-7451",
+  "github" : "lsafina",
+  "photo" : "/images/people/ls.jpg",
+  "research_topics" : [ "microservices", "choreographic programming" ]
 }
