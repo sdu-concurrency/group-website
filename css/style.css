@@ -82,7 +82,7 @@ h6 {
 				line-height: 1.75em;
 				padding-bottom: .5em;
 				padding-top: .5em;
-				text-transform: uppercase;
+				font-variant: small-caps;
 }
 
 h1 a,

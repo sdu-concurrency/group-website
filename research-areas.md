@@ -24,7 +24,7 @@ layout: default
 
   In the table below, we summarise in the top-most row the main research challenges targeted by our group, while in the left-most column we list our main research areas. In the other cells we report the keywords corresponding to the intersection of an area and a research topic. 
 
-  <div class="-1u 10u center">{% include research-areas.svg %}</div>
+  <div class="offset-1 col-10 center">{% include research-areas.svg %}</div>
 
   <div class="mt-4"></div>
 

@@ -88,6 +88,12 @@ layout: default
 {% endfor %}
 </div>
 
+<hr>
+
+<h2 id="career">Open Positions</h2>
+
+<span class="text-muted">No open positions are available at the moment.</span>
+
 </section>
 
 </article>

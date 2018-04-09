@@ -1,9 +1,10 @@
 {
   "name": "PSL",
-  "children": [{
-      "name": "Industry & <br> Public Organisations",
+  "children": [
+    { "name": "Industry & <br> Public Organisations",
       "tooltip": "These entries correspond to collaborations with industrial partners and public entities.",
-      "children": [{
+      "children": [
+        {
           "name": "Odense Kommune",
           "tooltip" : "The municipality of Odense, Denmark. Collaboration regards the implementation of microservice architectures for Smart City and Big Data projects."
         },
@@ -21,77 +22,77 @@
         }
       ]
     },
-    {
-      "name": "Open Source",
+    { "name": "Open Source",
+      "tooltip" : "The source code of open-source software is freely available to anyone who wants to use, study, and change it. All members of the PSL group are strongly involved in many open-source projects." ,
       "children": [{
-          "name": "Jolie"
-        },
-        {
-          "name": "Chor"
-        },
-        {
-          "name": "AIOCJ"
-        },
-        {
-          "name": "LibBiG"
-        },
-        {
-          "name": "Zephyrus"
-        }
-      ]
+        "name": "Jolie"
+      },
+      {
+        "name": "Chor"
+      },
+      {
+        "name": "AIOCJ"
+      },
+      {
+        "name": "LibBiG"
+      },
+      {
+        "name": "Zephyrus"
+      }
+    ]
     },
-    {
-      "name": "Academia",
+    { "name": "Academia",
+      "tooltip" : "These entries correspond to collaborations that members of the PSL group have with other groups in academia, listed by nation and institution.",
       "children": [{
-          "name": "England",
-          "children": [ { "name" : "University of Edinburgh" }, { "name" : "Imperial College" } ]
-        },
-        {
-          "name": "Italy",
-          "children": [ { "name" : "Università di Bologna" } ]
-        },
-        {
-          "name": "France",
-          "children": [ { "name" : "INRIA FoCUS team,<br> Sophia-Antipolis" } ]
-        },
-        {
-          "name": "Denmark",
-          "children": [
-            { "name" : "Technical University of Denmark" }, 
-            { "name" : "Information Technology University" }, 
-            { "name" : "University of Copenhagen" }
-          ]
-        },
-        {
-          "name": "Poland",
-          "children": [ { "name" : "Warsaw University of Technology" } ]
-        },
-        {
-          "name": "Norway",
-          "children": [ { "name" : "University of Oslo" } ]
-        }
-      ]
+        "name": "England",
+        "children": [ { "name" : "University of Edinburgh" }, { "name" : "Imperial College" } ]
+      },
+      {
+        "name": "Italy",
+        "children": [ { "name" : "Università di Bologna" } ]
+      },
+      {
+        "name": "France",
+        "children": [ { "name" : "INRIA FoCUS team,<br> Sophia-Antipolis" } ]
+      },
+      {
+        "name": "Denmark",
+        "children": [
+          { "name" : "Technical University of Denmark" }, 
+          { "name" : "Information Technology University" }, 
+          { "name" : "University of Copenhagen" }
+        ]
+      },
+      {
+        "name": "Poland",
+        "children": [ { "name" : "Warsaw University of Technology" } ]
+      },
+      {
+        "name": "Norway",
+        "children": [ { "name" : "University of Oslo" } ]
+      }
+    ]
     },
-    {
-      "name": "Community Organisation",
+    { "name": "Community Organisation",
+      "tooltip" : "These entries correspond to venues and communities where members of the PSL group had an active role in creating and/or organising.",
       "children": [{
-          "name": "Conferences",
-          "children": [
-            { "name" : "FACS 2014" },
-            { "name" : "RC 2016" },
-            { "name" : "SAC 2014-2018"},
-            { "name" : "Microservices 2017" },
-            { "name" : "MADE 2018" }
-          ]
-        },
-        {
-          "name": "Research Communities",
-          "children": [
-            { "name" : "Betty Cost Action" },
-            { "name" : "Microservices Community" }
-          ]
-        }
-      ]
+        "name": "Conferences",
+        "children": [
+          { "name" : "FACS 2014" },
+          { "name" : "RC 2016" },
+          { "name" : "SAC 2014-2018"},
+          { "name" : "Microservices 2017" },
+          { "name" : "MADE 2018" }
+        ]
+      },
+      {
+        "name": "Research Communities",
+        "children": [
+          { "name" : "BETTY Cost Action", "tooltip" : "The Behavioural Types for Reliable Large Software Systems (BETTY), European COST Action IC1201. Fabrizio Montesi was vice-chair of the working group on Tools and Applications. The Cost Action used behavioural type theory as the basis for new foundations, programming languages, and software development methods for communication-intensive distributed systems." },
+          { "name" : "Microservices Community", "tooltip" : "All members of the PSL group are involved in the creation and management of the Microservices Community, an international community interested in the software paradigm of Microservices. The community aims at the sharing knowledge and fostering collaborations about microservices." }
+        ]
+      }
+    ]
     }
   ]
 }
