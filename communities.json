@@ -1,5 +1,5 @@
 {
-  "name": "PCS",
+  "name": "PSL",
   "children": [{
       "name": "Industry & <br> Public Organisations",
       "tooltip": "These entries correspond to collaborations with industrial partners and public entities.",
@@ -65,6 +65,10 @@
         {
           "name": "Poland",
           "children": [ { "name" : "Warsaw University of Technology" } ]
+        },
+        {
+          "name": "Norway",
+          "children": [ { "name" : "University of Oslo" } ]
         }
       ]
     },
@@ -75,12 +79,8 @@
           "children": [
             { "name" : "FACS 2014" },
             { "name" : "RC 2016" },
-            { "name" : "SAC 2014" },
-            { "name" : "SAC 2015" },
-            { "name" : "SAC 2016" },
-            { "name" : "SAC 2017" },
-            { "name" : "SAC 2018" },
-            { "name" : "SAC 2018" },
+            { "name" : "SAC 2014-2018"},
+            { "name" : "Microservices 2017" },
             { "name" : "MADE 2018" }
           ]
         },

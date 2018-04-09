@@ -23,7 +23,7 @@ layout: default
 
 <div class="col-sm-12 col-lg-6">
 <div class="row">
-<div class="col-sm-5">
+<div class="text-center col-sm-5">
 <img style="max-height: 8em;" class="img-thumbnail" src="{{person.photo}}" alt="">
 </div>
 <div class="col-sm-7">

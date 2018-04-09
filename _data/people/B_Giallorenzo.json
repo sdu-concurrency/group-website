@@ -7,6 +7,13 @@
   "orcid" : "0000-0002-3658-6395",
   "github" : "thesave",
   "website" : "http://saveriogiallorenzo.com",
-  "photo" : "/images/people/professorson.jpg",
-  "research_topics" : [ "choreographic programming", "adaptation", "microservices", "security", "smart cities" ]
+  "photo" : "/images/people/sg.jpg",
+  "research_topics" : [ 
+    "adaptation", 
+    "choreographic programming", 
+    "microservices", 
+    "security", 
+    "smart cities", 
+    "internet of things" 
+  ]
 }
