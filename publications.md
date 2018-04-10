@@ -17,7 +17,7 @@ ul {
 }
 </style>
 
-{% assign view-download = "<div> Export this view as BibTex: <button class='download-bibtex btn btn-sm btn-light'><span class='fa fa-download'></span> Download</button><button class='copy-bibtex btn btn-sm btn-light'><span class='fa fa-clipboard-list'></span> Copy</button></div>" %}
+{% assign view-download = "<div> Export this view as BibTex: <button class='download-bibtex btn btn-sm btn-light'><span class='fa fa-download'></span> Download</button> <button class='copy-bibtex btn btn-sm btn-light'><span class='fa fa-clipboard-list'></span> Copy</button></div>" %}
 
 <!-- Main -->
 <article id="main">

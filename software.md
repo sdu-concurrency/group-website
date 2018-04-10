@@ -18,7 +18,7 @@ layout: default
 
 <div class="item mb-4 col-12 col-lg-6">
 <div class="media border border-bottom-0 rounded-top">
-  <img class="col-4 align-self-center" src="{{ software.logo }}">
+  <div class="col-4 align-self-center"><img style="padding-top:15px;max-width:100%;height:auto" src="{{ software.logo }}"></div>
   <div class="col-8 media-body">
   <h2>{{ software.name }}</h2>
   <div>{{ software.short-bio }}</div>
