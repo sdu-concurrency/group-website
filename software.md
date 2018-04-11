@@ -11,8 +11,8 @@ layout: default
 </header>
 
 <section class="wrapper card style4 container">
-  {% assign size = site.data.software | size %}
-  <div class="item-row row">
+{% assign size = site.data.software | size %}
+<div class="item-row row">
 {% for software in site.data.software %}
 {% assign i = forloop.index | modulo: 2 %}
 
@@ -39,14 +39,15 @@ layout: default
 </div>
 </div>
 </div>
-{% if forloop.index < size %}
-{% if i == 0 %}
-</div><div class="item-row row">
-{% endif %}
-{% else %}
-</div>
-{% endif %}
 {% endfor %}
+</div>
 </section>
-
 </article>
+
+<script>
+jQuery(document).ready(function($) {
+  $('.item-row').masonry({
+    itemSelector : '.item'
+  });  
+});
+</script>
