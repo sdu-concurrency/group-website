@@ -14,7 +14,7 @@ layout: default
   stroke-width: 1.5px;
 }
 
-.node text {
+.text {
   font-size: 14px;
 }
 
@@ -25,7 +25,6 @@ layout: default
 }
 
 .myTooltip div {
-  z-index: 1070;
   display: block;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -62,10 +61,15 @@ layout: default
 
 </header><section class="wrapper card style4 container"><div class="content"><section markdown="1">
 
-
   The graph below represents the interactions that members of the {{ site.group_short }} have with industrial and public organisations, other academic groups and individuals, open-source communities, and interest groups.
 
   To explore a node, click on it.
+
+<span style="visibility:hidden; !important" id="text-ruler" class="text">
+</span>
+<div style="visibility:hidden; !important" class="myTooltip">
+  <div id="tooltip-ruler"></div>
+</div>
 
   <div id="image"></div>
 
@@ -74,8 +78,10 @@ layout: default
 <script>
   var margin = {top: 20, right: 120, bottom: 20, left: 20},
   width = 960 - margin.right - margin.left,
-  height = 1024 - margin.top - margin.bottom;
-
+  height = 1024 - margin.top - margin.bottom,
+  rectW = 70,
+  rectH = 30;
+  
   var i = 0,
   duration = 750,
   root;
@@ -84,7 +90,8 @@ layout: default
   .size([height, width]);
 
   var diagonal = d3.svg.diagonal()
-  .projection(function(d) { return [d.y, d.x]; });
+  .projection(function(d) 
+    { return [d.y, d.x]; });
 
   var svg = d3.select("#image").append("svg")
   .attr("width", width + margin.right + margin.left)
@@ -130,65 +137,35 @@ layout: default
     var nodeEnter = node.enter().append("g")
     .attr("class", "node")
     .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
-    .on("click", click);
-
-    nodeEnter.append("circle")
-    .attr("r", 1e-6)
-    .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
-
-    var adjustTextX = function( a, n ){
-      if( a != undefined ){
-        return a;
-      } else {
-        var length = 0;
-        if( n.indexOf( "<br>" ) > -1 ){
-          $.each( n.split( "<br>" ), function(i, el) {
-          if( length < el.length ){
-            length = el.length;
-          }
-          });  
-        } else {
-          length = n.length;
-        }
-        return -length*5.6;
-      }
-    }
-
-    var adjustWidth = function( n ){
-      name = n.name;
-      var length=0;
-      if( name.indexOf( "<br>" ) > -1 ){
-        $.each( name.split( "<br>" ), function(i, el) {
-        if( length < el.length ){
-          length = el.length;
-        }
-      });  
-      } else {
-        length = name.length;
-      }
-      return length*12;
-    }
-
-    var text = nodeEnter.append("svg:foreignObject")
-    .attr("x", function(d) { return d.children || d._children ? 
-      adjustTextX( d.adjustX, d.name ) : 10; 
-    })
-    .attr( "y", function(d) { return d.children || d._children ? 
-      ".1em" : -14;
-    })
-    .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
-    .attr( 'width', adjustWidth )
-    .on("mouseover", function(d) {
+    .on("click", click)
+    .on("mouseenter", function(d) {
           if( d.tooltip != undefined ){
-            var g = d3.select(this.parentNode); // The node
+            //var g = d3.select(this.parentNode); // The node
+            var g = d3.select( this ); // The node
             
-            // The class is used to remove the additional text later
             var info = g.append('svg:foreignObject')
              .attr( 'width', '100%' )
              .attr( 'height', '100%' )
+             // .classed( "myTooltip", true )
+             .attr( 'x', function( d ){
+              if( d._children || d.children ){
+                // over it
+               return -getLength( d.name )/2;
+              } else {
+                //next to it
+               return 20 + getLength( d.name );
+              }
+             })
+             .attr( 'y', function( d ){
+              if( d._children || d.children ){
+                // over it
+               return -( 20 + getTooltipHeight( d.tooltip ) );
+              } else {
+                //next to it
+               return -getTooltipHeight( d.tooltip )/3;
+              }
+             })
              .classed( "myTooltip", true )
-             .attr( 'x', 20 )
-             .attr( 'y', 10 )
              .append( 'xhtml:div' )
              .text( d.tooltip );
           }
@@ -199,8 +176,44 @@ layout: default
           d3.select(this.parentNode)
             .select( 'foreignObject.myTooltip' ).remove();
       }
+    });
+
+    nodeEnter.append("circle")
+    .attr("r", 1e-6)
+    .attr("z-index", -1)
+    .style( "fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+
+    var adjustTextX = function( a, n ){
+      var length = getLength( n.name );
+      return -length/2;
+    };
+
+    var getLength = function( n ){
+      var ruler = $( "#text-ruler" );
+      ruler.html( n );
+      var length = ruler.outerWidth( true );
+      ruler.html( "" );
+      return length+2;
+    }; 
+
+    var getTooltipHeight = function( n ){
+      var ruler = $( "#tooltip-ruler" );
+      ruler.html( n );
+      var height = ruler.height();
+      ruler.html( "" );
+      return height+2;
+    };
+
+    var text = nodeEnter.append("svg:foreignObject")
+    .attr("x", function(d) { return d.children || d._children ? 
+      adjustTextX( d.adjustX, d ) : 10; 
     })
-    .html( function( d ){ return "<div style=\"text-align:center;\">" + d.name + "</div>" } );
+    .attr( "y", function(d) { return d.children || d._children ? 
+      ".1em" : -14;
+    })
+    .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
+    .attr( 'width', function(d){ return getLength( d.name ); } )
+    .html( function( d ){ return "<div class=\"text\" style=\"text-align:center;\">" + d.name + "</div>" } );
     //.style("fill-opacity", 1e-6);
 
     // Transition nodes to their new position.
