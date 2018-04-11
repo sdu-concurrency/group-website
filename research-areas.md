@@ -1,7 +1,18 @@
 ---
 layout: default
 ---
-
+<style type="text/css">
+  .collapse_icon {
+    margin-right : 1ex;
+  }
+  .collapsed .collapse_icon {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+</style>
 <script type="text/javascript" charset="utf-8">
   var open_tab = function() {
     item = $( this ).attr( "xlink:href" );
@@ -51,8 +62,8 @@ layout: default
     id="{{ item.id }}" role="tabpanel" aria-labelledby="{{ item.id }}-tab">
     {% for element in item.elements %}
     <div class="pl-4 border-dark">
-      <a class="nodec reset" data-toggle="collapse" href="#{{ item.id }}_{{ element.id }}" aria-expanded="false" id="{{ item.id }}_{{ element.id }}-item" aria-controls="{{ item.id }}_{{ element.id }}">
-        <h5 class="card-title">{{ element.title }}</h5></a>
+      <a class="nodec reset collapsed" data-toggle="collapse" href="#{{ item.id }}_{{ element.id }}" aria-expanded="false" id="{{ item.id }}_{{ element.id }}-item" aria-controls="{{ item.id }}_{{ element.id }}">
+        <h5 class="card-title "><span class="collapse_icon fas fa-angle-up"></span>{{ element.title }}</h5></a>
         <div class="collapse" id="{{ item.id }}_{{ element.id }}">
           <div class="card-body">
             <p class="card-text"><small>{{ element.description }}</small></p>
