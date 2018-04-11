@@ -6,10 +6,12 @@ layout: default
 
 # Events
 
-</header><section class="wrapper style4"><div class="container"><section class="row" markdown="1">
-
+</header>
+<section class="wrapper style4">
+<div class="container">
+<div class="item-row row" markdown="1">
 {% for post in site.posts %}
-<section class="col-12 col-lg-6 card border-0">
+<div class="item col-12 col-lg-6 card border-0">
   <div class="card-body">
   <div class="card-title text-center alert-info rounded-top">
     <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
@@ -23,7 +25,17 @@ layout: default
     </div>
   </div>
     <div class="mt-4"></div>
-</section>
+</div>
 {% endfor %}
-</section></div></section></article>
+</div>
+</div>
+</section>
+</article>
 
+<script>
+jQuery(document).ready(function($) {
+  $('.item-row').masonry({
+    itemSelector : '.item'
+  });  
+});
+</script>
