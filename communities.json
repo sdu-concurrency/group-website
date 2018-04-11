@@ -70,7 +70,16 @@
       {
         "name": "Norway",
         "children": [ { "name" : "University of Oslo" } ]
+      },
+      {
+        "name": "Belgium",
+        "children": [ { "name" : "Katholieke Universiteit Leuven" } ]
+      },
+      {
+        "name": "Portugal",
+        "children": [ { "name" : "University of Lisbon" } ]
       }
+
     ]
     },
     { "name": "Community Organisation",

@@ -14,8 +14,8 @@
                         "id": "dt"
                 },
                 {
-                        "title" : "Reliable Computing", 
-                        "description" : "Reliable Computing", 
+                        "title" : "Reliable Computing",
+                        "description" : "In a world where we rely more and more on computers to perform tasks of ever-increasing responsibility, it is essential to be able to guarantee that these computers are doing their work correctly. It is unacceptable that a plane crashes because of a software fault, or that a patient in a hospital dies because a computer assigned them the wrong medication.<br />One of the goals of our group's research is to increase reliability of computations, by either designing tools and techniques to generate code that is mathematically guaranteed to satisfy specific safety properties (correctness-by-construction) or by exploring methods to verify interesting properties of existing computer systems (hardware/software verification).",
                         "id": "rc"
                 }
         ]
