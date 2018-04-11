@@ -8,7 +8,7 @@ layout: default
 
 </header><section class="wrapper card style4 container"><div class="content"><section markdown="1">
 
-<!-- insert your text -->
+<!-- insert your text below -->
 
 ### Dolore Amet Consequat
             
