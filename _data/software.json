@@ -52,5 +52,32 @@
     "github" : "https://github.com/bigraphs/jlibbig",
     "logo" : "/images/software/jlibbig.png",
     "tags" : [ "rewriting systems" ]
-  }
+  },
+	{
+    "name" : "Zephyrus2",
+    "short-bio" : "A configurator optimizer for distributed system.",
+    "bio" : "Zephyrus2 is a tool that starting from a simple description of the software components that can be deploy, with their requirements and resources needs, it can compute what is the optimal deployment solution that satisfies all the user needs. Zephyrus2 relies on SMT or CP solvers for the exploration of the search space and provides a new declarative specification language to define the desired configuration and user preferences. It can be deployed as a service by using the Docker container technology.",
+    "website" : "https://bitbucket.org/jacopomauro/zephyrus2/src",
+    "github" : "",
+    "logo" : "",
+    "tags" : [ "deployment", "optimization", "configuration", "services" ]
+  },
+	{
+    "name" : "sunny-cp",
+    "short-bio" : "A Parallel Constraint Problem (CP) Portfolio Solver",
+    "bio" : "sunny-cp is a parallel parallel portfolio solver that allows to solve a Constraint (Satisfaction/Optimization) Problem defined in the MiniZinc language. sunny-cp is built on top of state-of-the-art constraint solvers, including: Choco, Chuffed, G12/LazyFD, G12/FD, G12/Gurobi, G12/MIP, Gecode, HaifaCSP, JaCoP, MinisatID, OR-Tools, Picat that are used to provide a faster and better global solver. sunny-cp performed very well in the MiniZinc Challenge, the international solver competition for the evaluation of CP solvers, winning three goal medals in the editions of 2015, 2016, and 2017. sunny-cp can be deployed as a service by using the Docker container technology.",
+    "website" : "https://github.com/CP-Unibo/sunny-cp",
+    "github" : "https://github.com/CP-Unibo/sunny-cp",
+    "logo" : "",
+    "tags" : [ "constraint programming", "MiniZinc", "optimization", "portfolio" ]
+  },
+	{
+    "name" : "HyVarRec",
+    "short-bio" : "A reconfigurator tool for Software Product Line (SPL)",
+    "bio" : "HyVarRec is a tool that allows to reconfigure an existing configuration for a given Software Product Line (SPL) when it is subject to contextual changes. It can be also used to analyze the correctness of the SPL find when it does not allow a configuration or if there are dead or false optional features. In case no configuration is possible, HyVarRec can provide also an explanation that can be later used by the SPL developers to solve the inconsistency. HyVarRec uses the SMT solver Z3 to solve the optimization problems involved in the reconfiguration and the maximization of the user preferences. HyVarRec can be deployed as a service by using the Docker container technology.",
+    "website" : "https://github.com/HyVar/hyvar-rec",
+    "github" : "https://github.com/HyVar/hyvar-rec",
+    "logo" : "",
+    "tags" : [ "Software Product Line", "reconfiguration", "anomalies", "explanations" ]
+  },
 ]

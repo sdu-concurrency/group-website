@@ -75,7 +75,7 @@
     x="{{ rt_tp_x }}" dy="{{ dys }}">proving</tspan></a></tspan>
 {% endcapture %} 
 
-{% assign rt_do_title = "No idea what to write here" %}
+{% assign rt_do_title = "DevOps is a software engineering collections of practices to link the software development (Dev) with software operations (Ops)" %}
 {% assign rt_do_x = "222.47815" %}
 {% capture rt_do %} 
 <tspan {{ attr }} title="{{ rt_do_title }}"><a
@@ -97,7 +97,7 @@
 </tspan>
 {% endcapture %} 
 
-{% assign sa_cc_title = "A recent survey showed that more than half of adult Americans believe bad weather negatively affects cloud computing." %}
+{% assign sa_cc_title = "Cloud computing enables the ubiquitous access to pools of computing resources that can be rapidly provisioned with minimal management effort and used to develop scalable applications." %}
 {% capture sa_cc %} 
 <tspan {{ attr }} title="{{ sa_cc_title }}"><a
     xlink:href="#sa_cc">Cloud computing</a>

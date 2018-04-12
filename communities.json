@@ -15,10 +15,22 @@
         {
           "name": "ItalianaSoftware",
           "tooltip" : "ItalianaSoftware is a software company set in Italy and leader in microservice systems. Collaboration regard both theoretical and practical discussion on the evolution of microservices. ItalianaSoftware has also a central role in the development of the Jolie language."
-        }, {
-          "name": "Mandriva"
-        }, {
-          "name": "Statoil"
+        },
+				{
+          "name": "Magneti Marelli",
+					"tooltip" : "Magneti Marelli is an Italian company that develops and manufactures high-tech components for the automotive industry. Collaboration regard the development and the context based reconfiguration of software for Electronic Control Units."
+        },
+				{
+          "name": "SDL",
+					"tooltip" : "SDL is a multinational software and professional services specializes in digital marketing software and services. Collaboration regard the optimization and analysis of cloud based applications."
+        },
+				{
+          "name": "Atbrox",
+					"tooltip" : "Atbrox is a small Norwegian company providing customize open source solutions. Collaboration regard the deployment and optimization of microservice architecture on the cloud."
+        },
+				{
+          "name": "Reply",
+					"tooltip" : "Reply is a company that specialises in consulting, system integration and digital services. Collaboration regard the study of a framework for the development of highly variable and evolving software."
         }
       ]
     },
@@ -38,6 +50,12 @@
       },
       {
         "name": "Zephyrus"
+      },
+			{
+        "name": "HyVarRec"
+      },
+			{
+        "name": "sunny-cp"
       }
     ]
     },
@@ -49,11 +67,14 @@
       },
       {
         "name": "Italy",
-        "children": [ { "name" : "Università di Bologna" } ]
+        "children": [ { "name" : "University of Bologna" },
+						{ "name" : "University of Turin" }
+				 ]
       },
       {
         "name": "France",
-        "children": [ { "name" : "INRIA FoCUS team,<br> Sophia-Antipolis" } ]
+        "children": [ { "name" : "INRIA FoCUS team, Sophia-Antipolis" },
+				{ "name" : "Paris Diderot University" } ]
       },
       {
         "name": "Denmark",
@@ -63,13 +84,20 @@
           { "name" : "University of Copenhagen" }
         ]
       },
+			{
+        "name": "Germany",
+        "children": [
+          { "name" : "RWTH Aachen University " },
+					{ "name": "Braunschweig Technical University" }
+        ]
+      },
       {
         "name": "Poland",
         "children": [ { "name" : "Warsaw University of Technology" } ]
       },
       {
         "name": "Norway",
-        "children": [ { "name" : "University of Oslo" } ]
+        "children": [ { "name" : "University of Oslo" }, { "name" : "Norwegian University of Science and Technology" } ]
       },
       {
         "name": "Belgium",
@@ -78,8 +106,11 @@
       {
         "name": "Portugal",
         "children": [ { "name" : "University of Lisbon" } ]
+      },
+			{
+        "name": "Netherlands",
+        "children": [ { "name" : "Open University of the Netherlands" }, { "name" : "Centrum Wiskunde & Informatica" }   ]
       }
-
     ]
     },
     { "name": "Community Organisation",
@@ -91,7 +122,9 @@
           { "name" : "RC 2016" },
           { "name" : "SAC 2014-2018"},
           { "name" : "Microservices 2017" },
-          { "name" : "MADE 2018" }
+          { "name" : "MADE 2018" },
+					{ "name" : "ESOCC 2017" },
+					{ "name" : "NIKT 2018" }
         ]
       },
       {
