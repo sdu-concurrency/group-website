@@ -10,7 +10,7 @@
                 },
                 { 
                         "title" : "Digital Transformation", 
-                        "description" : "Digital Transformation", 
+                        "description" : "The promise of Digital Transformation is to accelerate and improve business activities, processes, and models through digital automation. This process has already started decades ago, but recently it has become a crucial asset for companies in highly-competing markets. At the essence of Digital Transformation there are two factors: integration and flexibility. Companies already own many digital systems, used to automate specific tasks. However, these systems are frequently silos: they are not meant to interact with other systems and the data they manage is difficult to extract and share. Integration of these legacy systems (both within the same company or belonging to different ones) as well as with recent applications, devices, and the Cloud must go hand-in-hand with a high flexibility to change how the integrated systems interact with each other. Together, these two factors lead to increased productivity, as well as better reactivity and system consistency.",
                         "id": "dt"
                 },
                 {
