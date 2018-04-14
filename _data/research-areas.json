@@ -31,7 +31,7 @@
                 },
                 { 
                         "title" : "Concurrency Theory", 
-                        "description" : "Concurrency Theory", 
+                        "description" : "Concurrency refers to the ability of multiple (possibly interacting) activities to overlap over time, so that one starts before the other finishes. Digital systems are a prime example of such ability for they exhibit concurrent aspects at every scale: from computing clouds to modern CPUs. Concurrency Theory is the science of concurrency. This research area started as part of Theoretical Computer Science but extends far beyond that. In fact, concurrent features appear in many different fields like Biology, Economics, Medicine, and Social Sciences. Building upon our group’s expertise in applied logic, programming languages, and software engineering, we continuously apply and advance the state-of-the-art in concurrency. Most of all, we focus on programming languages and tools to design, develop, and analyse complex concurrent systems.", 
                         "id": "ct"
                 },
                 { 
