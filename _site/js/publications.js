@@ -26,7 +26,6 @@ $(document).ready(function() {
     });
     $(".tags-item").click( function( e ) {
       var filter = $(this).text().trim(); 
-      console.log("tag \"" + filter + "\"" );
       $( ".btn-filter" ).each( function(i, e) {
           if( $.trim( $( e ).ignore(".tot").text() ) == filter){
               $( e ).trigger( 'click' );
@@ -81,10 +80,8 @@ $(document).ready(function() {
                 var topic = $.trim($( this ).ignore(".tot").text());
                 if ( $(this).hasClass(selectedClass)){
                   selectedTopics[i].add(topic);
-                  console.log( "add \"" + topic + "\" to \"" + topicCategory[i] + "s\"" );
                 }else{
                   selectedTopics[i].delete(topic);
-                  console.log( "del \"" + topic + "\" from \"" + topicCategory[i] + "s\"");
                 }
                 break;
             }}

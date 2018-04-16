@@ -4,10 +4,10 @@
     <title>Programming Languages, Systems, and Logic</title>
     <description>Programming Languages, Systems, and Logic research group website.
 </description>
-    <link>http://psl.sdu.dk/</link>
-    <atom:link href="http://psl.sdu.dk/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 16 Apr 2018 13:05:07 +0200</pubDate>
-    <lastBuildDate>Mon, 16 Apr 2018 13:05:07 +0200</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 16 Apr 2018 14:14:48 +0200</pubDate>
+    <lastBuildDate>Mon, 16 Apr 2018 14:14:48 +0200</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
@@ -30,8 +30,8 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Thu, 25 Jan 2018 00:00:00 +0100</pubDate>
-        <link>http://psl.sdu.dk/events/2018-01-25-MADE18</link>
-        <guid isPermaLink="true">http://psl.sdu.dk/events/2018-01-25-MADE18</guid>
+        <link>http://localhost:4000/events/2018-01-25-MADE18</link>
+        <guid isPermaLink="true">http://localhost:4000/events/2018-01-25-MADE18</guid>
         
         
       </item>
@@ -69,8 +69,8 @@
 &lt;p&gt;Several institutions and companies &lt;a href=&quot;http://microservices.sdu.dk/#members&quot;&gt;quickly joined&lt;/a&gt; the young yet growing community.&lt;/p&gt;
 </description>
         <pubDate>Mon, 30 Oct 2017 00:00:00 +0100</pubDate>
-        <link>http://psl.sdu.dk/events/2017-10-30-Foundation_Microservices_Community</link>
-        <guid isPermaLink="true">http://psl.sdu.dk/events/2017-10-30-Foundation_Microservices_Community</guid>
+        <link>http://localhost:4000/events/2017-10-30-Foundation_Microservices_Community</link>
+        <guid isPermaLink="true">http://localhost:4000/events/2017-10-30-Foundation_Microservices_Community</guid>
         
         
       </item>
@@ -103,8 +103,8 @@
 &lt;p&gt;For more information, see the &lt;a href=&quot;http://conf-micro.services/&quot;&gt;conference website&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Wed, 25 Oct 2017 00:00:00 +0200</pubDate>
-        <link>http://psl.sdu.dk/events/2017-10-25-Microservices_Conference</link>
-        <guid isPermaLink="true">http://psl.sdu.dk/events/2017-10-25-Microservices_Conference</guid>
+        <link>http://localhost:4000/events/2017-10-25-Microservices_Conference</link>
+        <guid isPermaLink="true">http://localhost:4000/events/2017-10-25-Microservices_Conference</guid>
         
         
       </item>
@@ -127,8 +127,8 @@ Giallorenzo&lt;/a&gt; gave a talk on the &lt;a href=&quot;http://www.saveriogial
 between microservices and choreographies&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Wed, 25 Jan 2017 00:00:00 +0100</pubDate>
-        <link>http://psl.sdu.dk/events/2017-01-25-MoM2016</link>
-        <guid isPermaLink="true">http://psl.sdu.dk/events/2017-01-25-MoM2016</guid>
+        <link>http://localhost:4000/events/2017-01-25-MoM2016</link>
+        <guid isPermaLink="true">http://localhost:4000/events/2017-01-25-MoM2016</guid>
         
         
       </item>

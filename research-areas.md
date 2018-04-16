@@ -17,11 +17,14 @@ layout: default
   var open_tab = function() {
     item = $( this ).attr( "xlink:href" );
     tab = item.split( "_" )[0];
-    console.log( tab );
-    console.log( item );
+    $( '[id*="-item"]' ).each(function(i, e) {
+      if( $( e ).attr( "aria-expanded" ) == "true" ){
+        $( e ).trigger( 'click' );
+      }
+    });
     $( tab + "-tab" ).trigger( 'click' );
     $( item + "-item" ).trigger( 'click' );
-    return false;
+    //return false;
   };
 </script>
 

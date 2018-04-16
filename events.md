@@ -7,7 +7,7 @@ layout: default
 # Events
 
 </header>
-<section class="wrapper style4">
+<section class="wrapper container style4">
 <div class="container">
 <div class="item-row row" markdown="1">
 {% for post in site.posts %}
