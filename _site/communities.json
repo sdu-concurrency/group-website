@@ -1,0 +1,140 @@
+{
+  "name": "PSL",
+  "children": [
+    { "name": "Industry & <br> Public Organisations",
+      "tooltip": "These entries correspond to collaborations with industrial partners and public entities.",
+      "children": [
+        {
+          "name": "Odense Kommune",
+          "tooltip" : "The municipality of Odense, Denmark. Collaboration regards the implementation of microservice architectures for Smart City and Big Data projects."
+        },
+        {
+          "name": "Technology Denmark",
+          "tooltip" : "Technology Denmark is a non-profit organization set in Denmark and aimed at bringing together IT & Tech companies, educational institutions, and the public sector. Collaboration regard digital transfer, training, and grant applications."
+        },
+        {
+          "name": "ItalianaSoftware",
+          "tooltip" : "ItalianaSoftware is a software company set in Italy and leader in microservice systems. Collaboration regard both theoretical and practical discussion on the evolution of microservices. ItalianaSoftware has also a central role in the development of the Jolie language."
+        },
+				{
+          "name": "Magneti Marelli",
+					"tooltip" : "Magneti Marelli is an Italian company that develops and manufactures high-tech components for the automotive industry. Collaboration regard the development and the context based reconfiguration of software for Electronic Control Units."
+        },
+				{
+          "name": "SDL",
+					"tooltip" : "SDL is a multinational software and professional services specializes in digital marketing software and services. Collaboration regard the optimization and analysis of cloud based applications."
+        },
+				{
+          "name": "Atbrox",
+					"tooltip" : "Atbrox is a small Norwegian company providing customize open source solutions. Collaboration regard the deployment and optimization of microservice architecture on the cloud."
+        },
+				{
+          "name": "Reply",
+					"tooltip" : "Reply is a company that specialises in consulting, system integration and digital services. Collaboration regard the study of a framework for the development of highly variable and evolving software."
+        }
+      ]
+    },
+    { "name": "Open Source",
+      "tooltip" : "The source code of open-source software is freely available to anyone who wants to use, study, and change it. All members of the PSL group are strongly involved in many open-source projects." ,
+      "children": [{
+        "name": "Jolie"
+      },
+      {
+        "name": "Chor"
+      },
+      {
+        "name": "AIOCJ"
+      },
+      {
+        "name": "LibBiG"
+      },
+      {
+        "name": "Zephyrus"
+      },
+			{
+        "name": "HyVarRec"
+      },
+			{
+        "name": "sunny-cp"
+      }
+    ]
+    },
+    { "name": "Academia",
+      "tooltip" : "These entries correspond to collaborations that members of the PSL group have with other groups in academia, listed by nation and institution.",
+      "children": [{
+        "name": "England",
+        "children": [ { "name" : "University of Edinburgh" }, { "name" : "Imperial College" } ]
+      },
+      {
+        "name": "Italy",
+        "children": [ { "name" : "University of Bologna" },
+						{ "name" : "University of Turin" }
+				 ]
+      },
+      {
+        "name": "France",
+        "children": [ { "name" : "INRIA FoCUS team, Sophia-Antipolis" },
+				{ "name" : "Paris Diderot University" } ]
+      },
+      {
+        "name": "Denmark",
+        "children": [
+          { "name" : "Technical University of Denmark" }, 
+          { "name" : "Information Technology University" }, 
+          { "name" : "University of Copenhagen" }
+        ]
+      },
+			{
+        "name": "Germany",
+        "children": [
+          { "name" : "RWTH Aachen University " },
+					{ "name": "Braunschweig Technical University" }
+        ]
+      },
+      {
+        "name": "Poland",
+        "children": [ { "name" : "Warsaw University of Technology" } ]
+      },
+      {
+        "name": "Norway",
+        "children": [ { "name" : "University of Oslo" }, { "name" : "Norwegian University of Science and Technology" } ]
+      },
+      {
+        "name": "Belgium",
+        "children": [ { "name" : "Katholieke Universiteit Leuven" } ]
+      },
+      {
+        "name": "Portugal",
+        "children": [ { "name" : "University of Lisbon" } ]
+      },
+			{
+        "name": "Netherlands",
+        "children": [ { "name" : "Open University of the Netherlands" }, { "name" : "Centrum Wiskunde & Informatica" }   ]
+      }
+    ]
+    },
+    { "name": "Community Organisation",
+      "tooltip" : "These entries correspond to venues and communities where members of the PSL group had an active role in creating and/or organising.",
+      "children": [{
+        "name": "Conferences",
+        "children": [
+          { "name" : "FACS 2014" },
+          { "name" : "RC 2016" },
+          { "name" : "SAC 2014-2018"},
+          { "name" : "Microservices 2017" },
+          { "name" : "MADE 2018" },
+					{ "name" : "ESOCC 2017" },
+					{ "name" : "NIKT 2018" }
+        ]
+      },
+      {
+        "name": "Research Communities",
+        "children": [
+          { "name" : "BETTY Cost Action", "tooltip" : "The Behavioural Types for Reliable Large Software Systems (BETTY), European COST Action IC1201. Fabrizio Montesi was vice-chair of the working group on Tools and Applications. The Cost Action used behavioural type theory as the basis for new foundations, programming languages, and software development methods for communication-intensive distributed systems." },
+          { "name" : "Microservices Community", "tooltip" : "All members of the PSL group are involved in the creation and management of the Microservices Community, an international community interested in the software paradigm of Microservices. The community aims at the sharing knowledge and fostering collaborations about microservices." }
+        ]
+      }
+    ]
+    }
+  ]
+}
