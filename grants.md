@@ -46,7 +46,7 @@ layout: default
       <td><small>{{ participant.name }}</small></td>
     </tr>
     {% if participant.affiliation %}
-    <tr class="alert-secondary">
+    <tr style="background-color: #d3d3d333;">
       <td><span class="fa fa-university"></span> </td>
       <td><small>{{ participant.affiliation }}</small></td>
     </tr>

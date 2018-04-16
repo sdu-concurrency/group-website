@@ -151,7 +151,11 @@ header.major>h1,
 header.major>h2,
 header.major>h3,
 header.major>h4 {
-	-webkit-text-stroke: 3px white;
+	color: white;
+}
+
+header.major p {
+	color: white;
 }
 
 header.special {

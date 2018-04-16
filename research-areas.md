@@ -17,13 +17,16 @@ layout: default
   var open_tab = function() {
     item = $( this ).attr( "xlink:href" );
     tab = item.split( "_" )[0];
-    $( '[id*="-item"]' ).each(function(i, e) {
-      if( $( e ).attr( "aria-expanded" ) == "true" ){
+    $( '[id*="-item"]')
+      .filter("[aria-expanded=true]")
+      .filter(":not(" + item + "-item" + ")")
+      .each(function(i, e) {
         $( e ).trigger( 'click' );
-      }
     });
     $( tab + "-tab" ).trigger( 'click' );
-    $( item + "-item" ).trigger( 'click' );
+    if( $( item + "-item" ).attr( "aria-expanded" ) == "false" ){
+      $( item + "-item" ).trigger( 'click' );
+    }
     //return false;
   };
 </script>
