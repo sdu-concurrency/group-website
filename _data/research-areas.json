@@ -36,7 +36,7 @@
                 },
                 { 
                         "title" : "Programming Languages", 
-                        "description" : "Programming Languages", 
+                        "description" : "Programming languages have a central role in solving computing problems for they empower developers with building blocks for solving problems or classes of problems. Research on programming languages is not just to find solutions to important problems, but to find the best expression of those solutions, typically in the form of a language, language extension, library, program analysis, or transformation. The aim is for simple, understandable solutions that are also general since by acting at the level of a language (or its toolchain) they apply to many sorts of programs and sorts of problems. Therefore, a rigorous approach to software behaviour is critical to prove that (classes of) programs enjoy desired properties, and/or eschew undesired ones. Building upon our group’s expertise, we develop programming language solutions to the challenges issued by the growing complexity of concurrent systems, especially in the wake of the digital transformation.", 
                         "id": "pl"
                 },
                 { 
