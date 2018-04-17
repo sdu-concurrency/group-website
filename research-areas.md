@@ -36,10 +36,8 @@ layout: default
 # Research Areas
 
 </header><section class="wrapper card card-body style4 container"><div class="content"><section markdown="1">
-
-  Achieving challenging research visions demands expertise in many research fields. Our group fosters collaborations among researchers with varied backgrounds. A positive feedback loop where practical problems inspire theoretical investigation and where formal solutions are applied to solve real-world challenges. 
-
-  In the table below, we summarise in the top-most row the main research challenges targeted by our group, while in the left-most column we list our main research areas. In the other cells we report the keywords corresponding to the intersection of an area and a research topic. 
+Our research topics fit in four research areas and address issues in three different societal challenges.
+The interrelation between these components is illustrated below.
 
   <div class="offset-1 col-10 center">{% include research-areas.svg %}</div>
 
@@ -48,9 +46,9 @@ layout: default
   <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
     {% for item in site.data.research-areas %}
     <li class="nav-item">
-      <a class="reset nav-link {% if forloop.first %}active{% endif %}" 
-      id="{{ item.id }}-tab" data-toggle="tab" href="#{{ item.id }}" 
-      role="tab" aria-controls="{{ item.id }}" 
+      <a class="reset nav-link {% if forloop.first %}active{% endif %}"
+      id="{{ item.id }}-tab" data-toggle="tab" href="#{{ item.id }}"
+      role="tab" aria-controls="{{ item.id }}"
       {% if forloop.first %}
       aria-selected="true"
       {% else %}
@@ -64,7 +62,7 @@ layout: default
   <div class="pt-3 border-top-0 card tab-content" id="myTabContent">
     <div class="mt-4"></div>
     {% for item in site.data.research-areas %}
-    <div class="tab-pane fade{% if forloop.first %}show active{% endif %}" 
+    <div class="tab-pane fade{% if forloop.first %}show active{% endif %}"
     id="{{ item.id }}" role="tabpanel" aria-labelledby="{{ item.id }}-tab">
     {% for element in item.elements %}
     <div class="pl-4 border-dark">
