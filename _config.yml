@@ -13,5 +13,5 @@ exclude: [ "layout_archive", "utils" ]
 excerpt_separator: "<!--more-->"
 group_short: "PSL"
 group_name: "Programming Languages, Systems, and Logic"
-exclude: [ "no_publications" ]
+exclude: [ "no_publications", "images/communities.graffle"]
 incremental: false
