@@ -8,4 +8,5 @@ group :jekyll_plugins do
   gem 'bibtex-ruby'
   gem 'citeproc-ruby'
   gem 'csl-styles'
+  gem 'concurrent-ruby'
 end

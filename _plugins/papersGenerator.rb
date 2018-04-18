@@ -1,12 +1,13 @@
 require 'bibtex'
 require 'citeproc'
 require 'csl/styles'
+require 'concurrent'
 
 module Jekyll
   class PapersGenerator < Generator
     priority :highest
 
-    def addYear( file, papers, iconMap )
+    def getYear( file, iconMap )
       tmp = JSON.parse( File.read( file ) )
       hashMap = Hash.new
       tmp.each { | item | 
@@ -81,23 +82,32 @@ module Jekyll
             end
             }.collect!
         }
-        papers << { "year" =>  File.basename( file , ".json" ), "papers" => tmp }
+        { "year" =>  File.basename( file , ".json" ), "papers" => tmp }
       end
 
       def generate(site)
         iconMap = JSON.parse( File.read( "#{site.source}/_plugins/paper_icon_mapping.json" ) )
         base = "#{site.source}/_data"
         papers = Array.new
-        unless File.file?( "#{site.source}/no_publications" ) 
+        pool = Concurrent::FixedThreadPool.new(6)
+        i=0
+        # unless File.file?( "#{site.source}/no_publications" )
+        unless site.config["no_publications"]
           Dir["#{base}/papers/*.json"]
           .select{ |f| /\d+/.match( f ) }
           .sort_by{ |f| File.basename( f , ".json" ) }.reverse
           .each do | f |
-            addYear( f, papers, iconMap )
+            j = i
+            i = i + 1
+            pool.post do
+              papers[ j ] = getYear( f, iconMap )
+            end
           end
         end
         ## plus add preprints
-        addYear( Dir["#{base}/papers/Preprints.json"][0], papers, iconMap )
+        pool.shutdown
+        pool.wait_for_termination
+        papers[ i ] = getYear( Dir["#{base}/papers/Preprints.json"][0], iconMap )
         site.data["papers"] = papers
       end
     end

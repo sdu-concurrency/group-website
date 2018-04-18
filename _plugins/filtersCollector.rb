@@ -12,7 +12,10 @@ module Jekyll
         topicsSet = Set.new()
         topicsCount = Hash.new()
         data.each do | item |
+          raise "received Nil element in data array" unless not item.nil?
+          raise "received Nil papers in #{year}" unless not item["papers"].nil?
           item[ "papers" ].each do | paper |
+            raise "Found paper with no tags: #{paper}" unless not paper["tags"].nil?
             paper[ "tags" ].each do | tag |
               topicsSet.add( tag )
               if topicsCount[ tag ].nil? 
