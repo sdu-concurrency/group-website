@@ -1,10 +1,9 @@
 ---
 layout: post
 title:  "First International Conference on Microservices"
-place: Odense
+place: Odense, Denmark
 date: 2017-10-25
 date-end:   2017-10-26
-<!-- permalink: /Microservices_Conference_2017.html -->
 ---
 <img class="img-fluid mx-auto d-block" src="/images/posts/microservices-2017-group.jpg">
 

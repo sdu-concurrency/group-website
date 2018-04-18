@@ -1,9 +1,8 @@
 ---
 layout: post
 title:  "Creation of the Microservices Community"
-place:  Odense
+place:  Odense, Denmark
 date:   2017-10-30
-<!-- permalink: /microservices-community.html -->
 ---
 <img class="img-fluid mx-auto d-block" src="/images/posts/microservices-community.png">
 

@@ -6,7 +6,7 @@ layout: default
   <header class="major container">
     <h2 class="post-title">{{ page.title }}</h2>
     <p class="post-meta">
-			{% if page.place %}{{ page.place }}, {% endif %}
+			{% if page.place %}{{ page.place }} • {% endif %}
       {% if page.date-end %} 
         {{ page.date | date: "%b %-d, %Y" }} - {{ page.date-end | date: "%b %-d, %Y" }}
       {% else %}
@@ -19,12 +19,19 @@ layout: default
   <section class="style4 card wrapper container">
     {{ content }}
   </section>
-    
-    <footer>
-        {% if page.previous %}
-        <a href="{{ page.previous.url }}" class="post-prev">&larr; Previous post</a> {% endif %}
-        {% if page.next %}
-        <a href="{{ page.next.url }}" class="post-next">Next post &rarr;</a> {% endif %}
-    </footer>
+  
+  {% if page.previous or page.next %}
+  <section class="style4 card container">
+    <div class="reset">
+    {% if page.previous %}
+    <a href="{{ page.previous.url }}" class="post-prev"><button class="btn btn-light"><span class="fa fa-arrow-circle-left"></span> Previous post</button></a>
+    {% endif %}
+    {% if page.next %}
+    <a href="{{ page.next.url }}" class="post-next"><button class="btn btn-light">Next post <span class="fa fa-arrow-circle-right"></span></button></a>
+    {% endif %}
+    </div>
+	</section>
+  {% endif %}
+  
 </article>
 
