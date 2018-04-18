@@ -1,4 +1,38 @@
-[{
+[
+	{
+		"bibitem" : "@inproceedings{DBLP:conf/sefm/LaneseGMZ08,  author = {Ivan Lanese and  Claudio Guidi and  Fabrizio Montesi and  Gianluigi Zavattaro},  title = {Bridging the Gap between Interaction- and Process-Oriented Choreographies},  booktitle = {{SEFM}},  pages = {323--332},  publisher = {{IEEE} Computer Society},  year = {2008} }",
+		"links" : [
+			{ "link" : "http://fabriziomontesi.com/files/mglz08.pdf" }
+		],
+		"abstract" : "Dynamic fault handling is a new approach for dealing with fault management in service-oriented applications. Fault handlers, termination handlers and compensation handlers are installed at execution time instead of being statically defined. In this paper we present this programming style and our implementation of dynamic fault handling in JOLIE, providing finally a nontrivial example of its usage.",
+		"tags" : [ "Jolie", "Microservices" ],
+		"authors" : [ "Fabrizio Montesi" ],
+		"non_group": true,
+		"type" : "Conference"
+	},
+	{
+		"bibitem" : "@inproceedings{DBLP:conf/sefm/LaneseGMZ08,  author = {Ivan Lanese and  Claudio Guidi and  Fabrizio Montesi and  Gianluigi Zavattaro},  title = {Bridging the Gap between Interaction- and Process-Oriented Choreographies},  booktitle = {{SEFM}},  pages = {323--332},  publisher = {{IEEE} Computer Society},  year = {2008} }",
+		"links" : [
+			{ "link" : "http://fabriziomontesi.com/files/lgmz08.pdf" }
+		],
+		"abstract" : "In service oriented computing, choreography languages are used to specify multi-party service compositions. Two main approaches have been followed: the interaction-oriented approach of WS-CDL and the process-oriented approach of BPEL4Chor. We investigate the relationship between them.In particular, we consider several interpretations for interaction-oriented choreographies spanning from synchronous to asynchronous communication. Under each of these interpretations we characterize the class of interaction-oriented choreographies which have a process-oriented counterpart, and we formalize the notion of equivalence between the initial interaction-oriented choreography and the corresponding process-oriented one.",
+		"tags" : [ "Choreographic Programming", "Process Calculi" ],
+		"authors" : [ "Fabrizio Montesi" ],
+		"non_group": true,
+		"type" : "Conference"
+	},
+	{
+		"bibitem" : "@inproceedings{DBLP:conf/acsd/GuidiLMZ08,  author = {Claudio Guidi and  Ivan Lanese and  Fabrizio Montesi and  Gianluigi Zavattaro},  title = {On the interplay between fault handling and request-response service  invocations},  booktitle = {{ACSD}},  pages = {190--198},  publisher = {{IEEE}},  year = {2008} }",
+		"links" : [
+			{ "link" : "http://fabriziomontesi.com/files/glmz08.pdf" }
+		],
+		"abstract" : "Service Oriented Computing (SOC) allows for the composition of services which communicate using unidirectional notification or bidirectional request-response primitives. Most service orchestration languages proposed so far provide also primitives to handle faults and compensations. The interplay between fault handling and request-response invocations is nontrivial since, for instance, faults should be notified to the requestresponse communication partners in order to compensate also the remote activities. Our work is motivated by the difficulties encountered in programming, using current orchestration languages, some fault handling strategies. We propose as a solution an orchestration programming style in which fault and compensation handlers are dynamically installed. We show the adequacy of our proposal defining its semantics, and proving that it satisfies some expected high-level properties. Finally, we also show how to apply dynamic handler installation in a nontrivial automotive scenario.",
+		"tags" : [ "Jolie", "Microservices", "Process Calculi" ],
+		"authors" : [ "Fabrizio Montesi" ],
+		"non_group": true,
+		"type" : "Conference"
+	},
+	{
     "bibitem": "@article{CSS08, author = {Cruz-Filipe, Lu{\\'i}s and Sernadas, Am{\\'\\i}lcar and Sernadas, Cristina}, journal = {Logic Journal of the IGPL}, month = {apr}, doi = {10.1093/jigpal/jzm057}, number = {2}, pages = {121--153}, publisher = {Oxford University Press}, title = {Heterogeneous Fibring of Deductive Systems via Abstract Proof Systems}, volume = {16}, year = {2008}}",
     "links": [{
       "link": "http://tinyurl.com/lcfilipe/pubs/paper07.pdf"

@@ -1,4 +1,27 @@
-[{
+[
+	{
+		"bibitem" : "@inproceedings{DBLP:conf/ecows/MontesiGZ07,  author = {Fabrizio Montesi and  Claudio Guidi and  Gianluigi Zavattaro},  title = {Composing Services with {JOLIE}},  booktitle = {{ECOWS}},  pages = {13--22},  publisher = {{IEEE} Computer Society},  year = {2007} }",
+		"links" : [
+			{ "link" : "http://fabriziomontesi.com/files/mgz07.pdf" }
+		],
+		"abstract" : "Service composition and service statefulness are key concepts in Web Service system programming. In this paper we present JOLIE, which is the full implementation of our formal calculus for service orchestration called SOCK. JOLIE inherits all the formal semantics of SOCK and provides a C-like syntax which allows the programmer to design the service behaviour and the service deployment information separately. The service behaviour is exploited to design the interaction workflow and the computational functionalities of the service, whereas the service deployment information deals with service interface definition, statefulness and service session management. On the one hand, JOLIE offers a simple syntax for dealing with service composition and efficient multiple request processing; on the other hand, it is based on a formal semantics which offers a solid development base, along with the future possibility of creating automated tools for testing system properties such as deadlock freeness.",
+		"tags" : [ "Jolie", "Microservices" ],
+		"authors" : [ "Fabrizio Montesi" ],
+		"non_group": true,
+		"type" : "Conference"
+	},
+	{
+		"bibitem" : "@article{DBLP:journals/entcs/MontesiGLZ07,  author = {Fabrizio Montesi and  Claudio Guidi and  Roberto Lucchi and  Gianluigi Zavattaro},  title = {{JOLIE:} a Java Orchestration Language Interpreter Engine},  journal = {Electr. Notes Theor. Comput. Sci.},  volume = {181},  pages = {19--33},  year = {2007},  url = {https://doi.org/10.1016/j.entcs.2007.01.051},  doi = {10.1016/j.entcs.2007.01.051},  timestamp = {Mon, 05 Jun 2017 20:49:21 +0200},  biburl = {https://dblp.org/rec/bib/journals/entcs/MontesiGLZ07},  bibsource = {dblp computer science bibliography, https://dblp.org} }",
+		"links" : [
+			{ "link" : "http://fabriziomontesi.com/files/mglz07.pdf" }
+		],
+		"abstract" : "Service oriented computing is an emerging paradigm for programming distributed applications based on services. Services are simple software elements that supply their functionalities by exhibiting their interfaces and that can be invoked by exploiting simple communication primitives. The emerging mechanism exploited in service oriented computing for composing services –in order to provide more complex functionalities by means of orchestrators. An orchestrator is able to invoke and coordinate other services by exploiting typical workflow patterns such as parallel composition, sequencing and choices. Examples of orchestration languages are XLANG and WS-BPEL. In this paper we present JOLIE, an interpreter and engine for orchestration programs. The main novelties of JOLIE are that it provides an easy to use development environment (because it supports a more programmer friendly C/Java-like syntax instead of an XML-based syntax) and it is based on a solid mathematical underlying model (developed in previous works of the authors).",
+		"tags" : [ "Jolie", "Microservices" ],
+		"authors" : [ "Fabrizio Montesi" ],
+		"non_group": true,
+		"type" : "Workshop"
+	},
+	{
   "bibitem": "@article{CCMS07, author = {Chadha, Rohit and Cruz-Filipe, Lu{\\'i}s and Mateus, Paulo and Sernadas, Am{\\'\\i}lcar}, journal = {Theoretical Computer Science}, month = jun, doi = {10.1016/j.tcs.2007.02.040}, number = {1--2}, pages = {142--165}, publisher = {Elsevier}, title = {Reasoning about Probabilistic Sequential Programs}, volume = 379, year = 2007}",
   "links": [{
     "link": "http://tinyurl.com/lcfilipe/pubs/paper06.pdf"
@@ -8,4 +31,5 @@
   "abstract": "A complete and decidable Hoare-style calculus for iteration-free probabilistic sequential programs is presented using a state logic with truth-functional propositional (not arithmetical) connectives.",
   "non_group": true,
     "type": "journal"
-}]
+}
+]

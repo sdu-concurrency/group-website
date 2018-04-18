@@ -1,4 +1,37 @@
-[  
+[
+	{
+    "bibitem": "@inproceedings{DBLP:conf/dais/MontesiT17,  author = {Fabrizio Montesi and  Dan Sebastian Thrane},  title = {Packaging Microservices - (Work in Progress)},  booktitle = {{DAIS}},  series = {Lecture Notes in Computer Science},  volume = {10320},  pages = {131--137},  publisher = {Springer},  year = {2017} }",
+    "links": [
+      { "link" : "http://fabriziomontesi.com/files/mt17.pdf" }
+    ],
+    "abstract": "We describe a first proposal for a new packaging system for microservices based on the Jolie programming language, called the Jolie Package Manager (JPM). Its main features revolve around service interfaces, which make the functionalities that a service provides and depends on explicit. For the first time, JPM supports binding a service to an externally-provided package, and a notion of interface parametricity that can be used to develop generic service libraries that can modify the behaviour of arbitrary services. We illustrate the latter with a generic circuit breaker package.",
+		"tags" : [ "Microservices", "Jolie" ],
+    "authors" : [ "Fabrizio Montesi", "Dan Sebastian Thrane" ],
+    "type" : "Conference",
+    "non_group" : false
+  },
+	{
+    "bibitem": "@inproceedings{DBLP:conf/forte/Montesi17,  author = {Fabrizio Montesi},  title = {Classical Higher-Order Processes - (Short Paper)},  booktitle = {{FORTE}},  series = {Lecture Notes in Computer Science},  volume = {10321},  pages = {171--178},  publisher = {Springer},  year = {2017} }",
+    "links": [
+      { "link" : "http://fabriziomontesi.com/files/m17_forte.pdf" }
+    ],
+    "abstract": "Classical Processes (CP) is a calculus where the proof theory of classical linear logic types processes `a la π-calculus, building on a CurryHoward correspondence between session types and linear propositions. We contribute to this research line by extending CP with process mobility, inspired by the Higher-Order π-calculus. The key to our calculus is that sequents are asymmetric: one side types sessions as in CP and the other types process variables, which can be instantiated with process values. The controlled interaction between the two sides ensures that process variables can be used at will, but always respecting the linear usage of sessions expected by the environment.",
+		"tags" : [ "Session Types", "Logic", "Process Calculi" ],
+    "authors" : [ "Fabrizio Montesi" ],
+    "type" : "Conference",
+    "non_group" : false
+  },
+	{
+    "bibitem": "@article{DBLP:journals/acta/CarboneMSY17,  author = {Marco Carbone and  Fabrizio Montesi and  Carsten Sch{\\\"{u}}rmann and  Nobuko Yoshida},  title = {Multiparty session types as coherence proofs},  journal = {Acta Inf.},  volume = {54},  number = {3},  pages = {243--269},  year = {2017} }",
+    "links": [
+      { "link" : "http://fabriziomontesi.com/files/cmsy16.pdf" }
+    ],
+    "abstract": "We propose a Curry-Howard correspondence between a language for programming multiparty sessions and a generalisation of Classical Linear Logic (CLL). In this framework, propositions correspond to the local behaviour of a participant in a multiparty session type, proofs to processes, and proof normalisation to executing communications. Our key contribution is generalising duality, from CLL, to a new notion of n-ary compatibility, called coherence. Building on coherence as a principle of compositionality, we generalise the cut rule of CLL to a new rule for composing many processes communicating in a multiparty session. We prove the soundness of our model by showing the admissibility of our new rule, which entails deadlock-freedom via our correspondence.",
+    "tags" : [ "Session Types", "Logic", "Process Calculi" ],
+    "authors" : [ "Fabrizio Montesi" ],
+    "type" : "Journal",
+    "non_group" : false
+  },
   {
     "bibitem": "@incollection{DGLMMMS17, title={Microservices: yesterday, today, and tomorrow}, author={Dragoni, Nicola and Giallorenzo, Saverio and Lafuente, Alberto Lluch and Mazzara, Manuel and Montesi, Fabrizio and Mustafin, Ruslan and Safina, Larisa}, booktitle={Present and Ulterior Software Engineering}, pages={195--216}, year={2017}, publisher={Springer}}",
     "links": [
@@ -12,8 +45,8 @@
   },
   {
     "bibitem": "@inproceedings{MMP17,  author = {Mansutti, Alessio and  Miculan, Marino and  Peressotti, Marco},  editor = {Seidl, Martina and  Zschaler, Steffen},  title = {Loose Graph Simulations},  booktitle = {Software Technologies: Applications and Foundations - {STAF} 2017  Collocated Workshops, Marburg, Germany, July 17-21, 2017, Revised  Selected Papers},  series = {Lecture Notes in Computer Science},  volume = {10748},  pages = {109--126},  publisher = {Springer},  year = {2017},  doi = {10.1007/978-3-319-74730-9\\_9} }",
-    "links": [ 
-      { "name" : "technical report", 
+    "links": [
+      { "name" : "technical report",
         "link" : "http://arxiv.org/abs/1705.08241",
         "icon" : "arxiv"}
     ],
