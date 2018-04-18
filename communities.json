@@ -1,8 +1,10 @@
 {
   "name": "PSL",
+  "group": 1,
   "children": [
-    { "name": "Industry & <br> Public Organisations",
+    { "name": "Industry & Public Organisations",
       "tooltip": "These entries correspond to collaborations with industrial partners and public entities.",
+      "group": 2,
       "children": [
         {
           "name": "Odense Kommune",
@@ -16,25 +18,26 @@
           "name": "ItalianaSoftware",
           "tooltip" : "ItalianaSoftware is a software company set in Italy and leader in microservice systems. Collaboration regard both theoretical and practical discussion on the evolution of microservices. ItalianaSoftware has also a central role in the development of the Jolie language."
         },
-				{
+        {
           "name": "Magneti Marelli",
-					"tooltip" : "Magneti Marelli is an Italian company that develops and manufactures high-tech components for the automotive industry. Collaboration regard the development and the context based reconfiguration of software for Electronic Control Units."
+          "tooltip" : "Magneti Marelli is an Italian company that develops and manufactures high-tech components for the automotive industry. Collaboration regard the development and the context based reconfiguration of software for Electronic Control Units."
         },
-				{
+        {
           "name": "SDL",
-					"tooltip" : "SDL is a multinational software and professional services specializes in digital marketing software and services. Collaboration regard the optimization and analysis of cloud based applications."
+          "tooltip" : "SDL is a multinational software and professional services specializes in digital marketing software and services. Collaboration regard the optimization and analysis of cloud based applications."
         },
-				{
+        {
           "name": "Atbrox",
-					"tooltip" : "Atbrox is a small Norwegian company providing customize open source solutions. Collaboration regard the deployment and optimization of microservice architecture on the cloud."
+          "tooltip" : "Atbrox is a small Norwegian company providing customize open source solutions. Collaboration regard the deployment and optimization of microservice architecture on the cloud."
         },
-				{
+        {
           "name": "Reply",
-					"tooltip" : "Reply is a company that specialises in consulting, system integration and digital services. Collaboration regard the study of a framework for the development of highly variable and evolving software."
+          "tooltip" : "Reply is a company that specialises in consulting, system integration and digital services. Collaboration regard the study of a framework for the development of highly variable and evolving software."
         }
       ]
     },
     { "name": "Open Source",
+      "group": 3,
       "tooltip" : "The source code of open-source software is freely available to anyone who wants to use, study, and change it. All members of the PSL group are strongly involved in many open-source projects." ,
       "children": [{
         "name": "Jolie"
@@ -60,6 +63,7 @@
     ]
     },
     { "name": "Academia",
+      "group": 4,
       "tooltip" : "These entries correspond to collaborations that members of the PSL group have with other groups in academia, listed by nation and institution.",
       "children": [{
         "name": "England",
@@ -114,6 +118,7 @@
     ]
     },
     { "name": "Community Organisation",
+      "group": 5,
       "tooltip" : "These entries correspond to venues and communities where members of the PSL group had an active role in creating and/or organising.",
       "children": [{
         "name": "Conferences",

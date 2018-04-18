@@ -72,7 +72,7 @@ ul {
 						<li class="paper mb-4">
 							<div>
 							{% assign id = id | plus: 1 %}
-							<div class="paper">
+							<div id="paper_{{paper.id}}" class="paper">
 							{{ paper.content }}
 							</div>
 							<div>

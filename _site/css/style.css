@@ -830,12 +830,12 @@ input[type="reset"].small,
 
 .post-next {
 				float: right;
-				margin-right: 3em;
+				margin: 1em 0em 1em 1em;
 }
 
 .post-prev {
 				float: left;
-				margin-left: 3em;
+				margin: 1em 1em 1em 0em;
 }
 
 
