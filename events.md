@@ -19,7 +19,7 @@ layout: default
     <div style="margin-top: -1.2em;" class="border border-top-0 text-justify hyphenate">
     <div class="col-12"><div class="pt-4"></div><small>{{ post.excerpt }}</small></div>
     <a class="nodec float-right" href="{{ post.url }}">
-    <button class="rounded-0 btn btn-primary">Continue reading <span class="fa fa-arrow-circle-right"></span></button>
+    <button class="rounded-0 btn btn-light">Continue reading <span class="fa fa-arrow-circle-right"></span></button>
     </a>
     <div class="clearfix"></div>
     </div>
