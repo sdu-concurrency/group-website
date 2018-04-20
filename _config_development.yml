@@ -9,7 +9,7 @@ permalink: /events/:year-:month-:day-:title
 # Build settings
 incremental: true
 markdown: kramdown
-exclude: [ "layout_archive", "utils" ]
+exclude: [ "layout_archive", "utils", "areas.md"  ]
 excerpt_separator: "<!--more-->"
 group_short: "PSL"
 group_name: "Programming Languages, Systems, and Logic"
