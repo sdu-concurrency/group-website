@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming Languages, Systems, and Logic</title>
+    <description>Programming Languages, Systems, and Logic research group website.
+</description>
+    <link>http://psl.sdu.dk/</link>
+    <atom:link href="http://psl.sdu.dk/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 20 Apr 2018 09:23:12 +0200</pubDate>
+    <lastBuildDate>Fri, 20 Apr 2018 09:23:12 +0200</lastBuildDate>
+    <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>PSL @ ACM/SIGAPP Symposium On Applied Computing</title>
+        <description>&lt;p&gt;&lt;img class=&quot;img-fluid mx-auto d-block&quot; src=&quot;/images/posts/acmsac-2018.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Our group presented works on choreographic programming and muicroservice programming at the &lt;a href=&quot;https://www.sigapp.org/sac/sac2018/&quot;&gt;33&lt;sup&gt;rd&lt;/sup&gt; ACM/SIGAPP Symposium On Applied Computing&lt;/a&gt;.
+&lt;a href=&quot;/people#mp&quot;&gt;Marco Peressotti&lt;/a&gt; gave a talk about communication abstractions in concurrent programming and &lt;a href=&quot;https://www.linkedin.com/in/j-webs&quot;&gt;Janine Weber&lt;/a&gt; presented a poster about patterns for failure handling in microservice programming.&lt;/p&gt;
+
+&lt;!--more--&gt;
+</description>
+        <pubDate>Mon, 09 Apr 2018 00:00:00 +0200</pubDate>
+        <link>http://psl.sdu.dk/events/2018-04-09-ACMSAC18</link>
+        <guid isPermaLink="true">http://psl.sdu.dk/events/2018-04-09-ACMSAC18</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Microservices: Agile and DevOps Experiences (MADE18)</title>
+        <description>&lt;p&gt;&lt;img class=&quot;img-fluid mx-auto d-block&quot; src=&quot;/images/posts/xp-2018.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/people#sg&quot;&gt;Saverio Giallorenzo&lt;/a&gt; is co-chairing the &lt;a href=&quot;https://sites.google.com/view/made18/&quot;&gt;Second International Workshop on Microservices: Agile and DevOps Experience (MADE18)&lt;/a&gt; taking place on May 21st, 2018 and co-located with the &lt;a href=&quot;https://www.agilealliance.org/xp2018/&quot;&gt;XP2018&lt;/a&gt; conference in Porto, Portugal.&lt;/p&gt;
+
+&lt;p&gt;MADE18 is the follow-up workshop of the first International Workshop on Microservices for Agile software development (WMSA17) organized at XP2017. The venue is also a continuation of discussions on software engineering from the first International Conference on Microservices (&lt;a href=&quot;/events/2017-10-25-Microservices_Conference&quot;&gt;Microservices
+2017&lt;/a&gt; organized by the members of PSL. The workshop will be conducted in collaboration with the &lt;a href=&quot;http://microservices.sdu.dk/&quot;&gt;Microservices Community&lt;/a&gt;, which was formed at the Microservices 2017 conference.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Quoting the website call for papers:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In the last years, cloud-native architectures have emerged as a target platform for the deployment of microservice architectures. The migration of existing monoliths into cloud-native applications is still in the early phase, and only few companies already started their migrations. Therefore, success and failure stories about different approaches are not available in the literature. This context connects also to the recently discussed DevOps context where development and continuous deployment are closely linked.&lt;/p&gt;
+
+  &lt;p&gt;To address the current uncertainties including a limited documentation of best-practice and benefits, this workshop aims at collecting experiences on microservice adoption, reporting best practices, but also specially failure cases, so as to build a community knowledge based on previous errors and successes. The workshop is open to experience reports from practitioners and academia.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Thu, 25 Jan 2018 00:00:00 +0100</pubDate>
+        <link>http://psl.sdu.dk/events/2018-01-25-MADE18</link>
+        <guid isPermaLink="true">http://psl.sdu.dk/events/2018-01-25-MADE18</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Creation of the Microservices Community</title>
+        <description>&lt;p&gt;&lt;img class=&quot;img-fluid mx-auto d-block&quot; src=&quot;/images/posts/microservices-community.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;During the discussion panels at &lt;a href=&quot;/events/2017-10-25-Microservices_Conference&quot;&gt;Microservices 2017&lt;/a&gt;, participants recognised the importance of constituting a communal place where international people from research institutions, private companies, universities, and public organisations (like municipalities) can share knowledge and foster collaborations about microservices.&lt;/p&gt;
+
+&lt;p&gt;Prompted by this observation, the organisers of &lt;a href=&quot;/events/2017-10-25-Microservices_Conference&quot;&gt;Microservices 2017&lt;/a&gt; in PSL put forward the initiative of &lt;a href=&quot;http://microservices.sdu.dk/&quot;&gt;Microservices Community&lt;/a&gt;, with the support of &lt;a href=&quot;https://www.sdu.dk/en&quot;&gt;SDU&lt;/a&gt;.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;The main activities of the initiative comprise:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;the organise the International Conference on Microservices once a year (http://conf-micro.services), which acts also as a recurring opportunity for the physical gathering of the community;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;supporting the organisation of focused events on microservices. Examples include: technical workshops on industrial technologies, national meetings (like the Italian Meeting on Microservices), and academic forums;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;providing funding opportunities for travelling and the organisation of events in general;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;publishing open access material on microservices, either through the website as informal publications (white papers), or through more formal channels (like edited books with chapters from multiple authors, or journals);&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;provide resources for the digital platform of the community, including this website.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Several institutions and companies &lt;a href=&quot;http://microservices.sdu.dk/#members&quot;&gt;quickly joined&lt;/a&gt; the young yet growing community.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 30 Oct 2017 00:00:00 +0100</pubDate>
+        <link>http://psl.sdu.dk/events/2017-10-30-Foundation_Microservices_Community</link>
+        <guid isPermaLink="true">http://psl.sdu.dk/events/2017-10-30-Foundation_Microservices_Community</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>First International Conference on Microservices</title>
+        <description>&lt;p&gt;&lt;img class=&quot;img-fluid mx-auto d-block&quot; src=&quot;/images/posts/microservices-2017-group.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;PSL organised the first &lt;a href=&quot;http://conf-micro.services/&quot;&gt;International Conference on Microservices&lt;/a&gt; with the aim to provide a forum for the discussion of all aspects of designing and programming microservice architectures. Both theoretical and experimental contributions are welcome, on topics ranging from formal frameworks to industrial experience reports and demonstrations.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;In microservices, software components are services that can be independently deployed and scaled. This brings all the benefits, but also all the issues, of distributed computing to the internals of applications. The resulting increase in complexity calls for a proportional improvement of techniques for software construction. This requires contributions from different areas, ranging from formal methods to software engineering and the general art of programming.&lt;/p&gt;
+
+&lt;p&gt;The event will place particular emphasis on the identification of the challenges that the community of microservices will face in the future, promising directions, and open discussions (panels) with experts from academia and industry.&lt;/p&gt;
+
+&lt;p&gt;Topics of interest include (but are not limited to):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Design and implementation of microservice architectures.&lt;/li&gt;
+  &lt;li&gt;Empirical studies of microservices.&lt;/li&gt;
+  &lt;li&gt;Software engineering methods for microservices.&lt;/li&gt;
+  &lt;li&gt;Security in microservices.&lt;/li&gt;
+  &lt;li&gt;Formal models for microservices.&lt;/li&gt;
+  &lt;li&gt;Verification (both static and runtime) of microservice systems.&lt;/li&gt;
+  &lt;li&gt;Programming languages and techniques for microservices.&lt;/li&gt;
+  &lt;li&gt;Testing for microservices.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For more information, see the &lt;a href=&quot;http://conf-micro.services/&quot;&gt;conference website&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 25 Oct 2017 00:00:00 +0200</pubDate>
+        <link>http://psl.sdu.dk/events/2017-10-25-Microservices_Conference</link>
+        <guid isPermaLink="true">http://psl.sdu.dk/events/2017-10-25-Microservices_Conference</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>First Edition of the Meeting on Microservices</title>
+        <description>&lt;p&gt;&lt;img class=&quot;img-fluid mx-auto d-block&quot; src=&quot;/images/posts/meeting-on-microservices.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Edition 2016 of the Meeting on Microservices (MoM2016) took place on December 20th, 2016. The event has been mainly organised by &lt;a href=&quot;http://www.italianasoftware.com/&quot;&gt;ItalianaSoftware&lt;/a&gt;, a close industrial collaborator of PSL.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;MoM2016 has been the first Italian venue dedicated to IT technologies based on microservices, ranging from practical experiences and applications, to more technical and theoretical aspects. The event has been hosted by &lt;a href=&quot;http://www.monrifgroup.net/en/&quot;&gt;Monrif S.p.A.&lt;/a&gt;, the fifth publishing group in Italy and early adopter of microservice technologies.&lt;/p&gt;
+
+&lt;p&gt;At the event, small, medium, and large companies reported their experiences
+with the adoption and usage of microservices in production. The event also
+included discussion panels on Industry 4.0 and digitalisation as well as
+academic presentations. Among these, &lt;a href=&quot;/people.html#sg&quot;&gt;Saverio
+Giallorenzo&lt;/a&gt; gave a talk on the &lt;a href=&quot;http://www.saveriogiallorenzo.com/publications/seminars/MoM2016.pdf&quot;&gt;interplay
+between microservices and choreographies&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 25 Jan 2017 00:00:00 +0100</pubDate>
+        <link>http://psl.sdu.dk/events/2017-01-25-MoM2016</link>
+        <guid isPermaLink="true">http://psl.sdu.dk/events/2017-01-25-MoM2016</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
