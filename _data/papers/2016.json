@@ -1,4 +1,55 @@
-[  
+[
+	{
+    "bibitem": "@inproceedings{DBLP:conf/aina/SafinaMMR16,  author = {Larisa Safina and  Manuel Mazzara and  Fabrizio Montesi and  V{\\'{\\i}}ctor Rivera},  title = {Data-Driven Workflows for Microservices: Genericity in Jolie},  booktitle = {{AINA}},  pages = {430--437},  publisher = {{IEEE} Computer Society},  year = {2016} }",
+    "links": [
+      { "link" : "https://arxiv.org/abs/1511.02597", "icon" : "arxiv" }
+    ],
+    "abstract": "Microservices is an architectural style inspired by service-oriented computing that has recently started gaining popularity. Jolie is a programming language based on the microservices paradigm: the main building block of Jolie systems are services, in contrast to, e.g., functions or objects. The primitives offered by the Jolie language elicit many of the recurring patterns found in microservices, like load balancers and structured processes. However, Jolie still lacks some useful constructs for dealing with message types and data manipulation that are present in service-oriented computing. In this paper, we focus on the possibility of expressing choices at the level of data types, a feature well represented in standards for Web Services, e.g., WSDL. We extend Jolie to support such type choices and show the impact of our implementation on some of the typical scenarios found in microservice systems. This shows how computation can move from a process-driven to a data-driven approach, and leads to the preliminary identification of recurring communication patterns that can be shaped as design patterns.",
+		"tags" : [ "Microservices", "Jolie" ],
+    "authors" : [ "Fabrizio Montesi", "Larisa Safina" ],
+    "type" : "Conference",
+    "non_group" : false
+  },
+	{
+    "bibitem": "@inproceedings{DBLP:conf/concur/CarboneLMSW16,  author = {Marco Carbone and  Sam Lindley and  Fabrizio Montesi and  Carsten Sch{\\\"{u}}rmann and  Philip Wadler},  title = {Coherence Generalises Duality: {A} Logical Explanation of Multiparty  Session Types},  booktitle = {{CONCUR}},  series = {LIPIcs},  volume = {59},  pages = {33:1--33:15},  publisher = {Schloss Dagstuhl - Leibniz-Zentrum fuer Informatik},  year = {2016} }",
+    "links": [
+      {
+				"name" : "publisher's website",
+				"link" : "http://drops.dagstuhl.de/opus/volltexte/2016/6181/"
+			},
+			{ "link" : "http://fabriziomontesi.com/files/clmsw16.pdf" }
+    ],
+    "abstract": "Wadler introduced Classical Processes (CP), a calculus based on a propositions-as-types correspondence between propositions of classical linear logic and session types. Carbone et al. introduced Multiparty Classical Processes, a calculus that generalises CP to multiparty session types, by replacing the duality of classical linear logic (relating two types) with a more general notion of coherence (relating an arbitrary number of types). This paper introduces variants of CP and MCP, plus a new intermediate calculus of Globally-governed Classical Processes (GCP). We show a tight relation between these three calculi, giving semantics-preserving translations from GCP to CP and from MCP to GCP. The translation from GCP to CP interprets a coherence proof as an arbiter process that mediates communications in a session, while MCP adds annotations that permit processes to communicate directly without centralised control.",
+		"tags" : [ "Session Types", "Logic", "Process Calculi" ],
+    "authors" : [ "Fabrizio Montesi" ],
+    "type" : "Conference",
+    "non_group" : false
+  },
+	{
+    "bibitem": "@article{DBLP:journals/ftpl/AnconaBB0CDGGGH16,  author = {Davide Ancona and  Viviana Bono and  Mario Bravetti and  Joana Campos and  Giuseppe Castagna and  Pierre{-}Malo Deni{\\'{e}}lou and  Simon J. Gay and  Nils Gesbert and  Elena Giachino and  Raymond Hu and  Einar Broch Johnsen and  Francisco Martins and  Viviana Mascardi and  Fabrizio Montesi and  Rumyana Neykova and  Nicholas Ng and  Luca Padovani and  Vasco T. Vasconcelos and  Nobuko Yoshida},  title = {Behavioral Types in Programming Languages},  journal = {Foundations and Trends in Programming Languages},  volume = {3},  number = {2-3},  pages = {95--230},  year = {2016} } ",
+    "links": [
+      {
+				"name" : "publisher's website",
+				"link" : "https://www.nowpublishers.com/article/Details/PGL-031"
+			}
+    ],
+    "abstract": "A recent trend in programming language research is to use behavioral type theory to ensure various correctness properties of largescale, communication-intensive systems. Behavioral types encompass concepts such as interfaces, communication protocols, contracts, and choreography. The successful application of behavioral types requires a solid understanding of several practical aspects, from their representation in a concrete programming language, to their integration with other programming constructs such as methods and functions, to design and monitoring methodologies that take behaviors into account. This survey provides an overview of the state of the art of these aspects, which we summarize as the pragmatics of behavioral types.",
+		"tags" : [ "Choreographic Programming", "Session Types", "Jolie" ],
+    "authors" : [ "Fabrizio Montesi" ],
+    "type" : "Journal",
+    "non_group" : false
+  },
+	{
+    "bibitem": "@article{DBLP:journals/scp/Montesi16,  author = {Fabrizio Montesi},  title = {Process-aware web programming with Jolie},  journal = {Sci. Comput. Program.},  volume = {130},  pages = {69--96},  year = {2016} }",
+    "links": [
+      { "link" : "http://fabriziomontesi.com/files/m16.pdf" }
+    ],
+    "abstract": "We extend the Jolie programming language to capture the native modelling of process-aware web information systems, i.e., web information systems based upon the execution of business processes. Our main contribution is to offer a unifying approach for the programming of distributed architectures on the web, which can capture web servers, stateful process execution, and the composition of services via mediation. We discuss applications of this approach through a series of examples that cover, e.g., static content serving, multiparty sessions, and the evolution of web systems. Finally, we present a performance evaluation that includes a comparison of Jolie-based web systems to other frameworks and a measurement of its scalability.",
+		"tags" : [ "Microservices", "Jolie" ],
+    "authors" : [ "Fabrizio Montesi" ],
+    "type" : "Journal",
+    "non_group" : false
+  },
   {
     "bibitem": "@inproceedings{CGMP16,  author = {Franco Callegati and  Saverio Giallorenzo and  Andrea Melis and  Marco Prandini},  title = {Data security issues in MaaS-enabling platforms},  booktitle = {{IEEE} 2nd International Forum on Research and Technologies for Society  and Industry Leveraging a better tomorrow, {RTSI} 2016, Bologna, Italy,  September 7-9, 2016},  pages = {1--5},  year = {2016}, url = {https://doi.org/10.1109/RTSI.2016.7740624},  doi = {10.1109/RTSI.2016.7740624},  timestamp = {Thu, 15 Jun 2017 21:43:44 +0200},  biburl = {https://dblp.org/rec/bib/conf/rtsi/CallegatiGMP16},  publisher = {{IEEE}},  bibsource = {dblp computer science bibliography, https://dblp.org} }",
     "links": [ { "link" : "http://www.saveriogiallorenzo.com/publications/rtsi2016/" } ],
@@ -19,8 +70,8 @@
   },
   {
     "bibitem": "@article{MP16a,  author = {Marino Miculan and  Marco Peressotti},  title = {Structural operational semantics for non-deterministic processes with  quantitative aspects},  journal = {Theor.\\ Comput.\\ Sci.},  volume = {655},  pages = {135--154},  year = {2016}, doi = {10.1016/j.tcs.2016.01.012} }",
-    "links": [ 
-      { "name" : "technical report", 
+    "links": [
+      { "name" : "technical report",
         "link" : "https://arxiv.org/abs/1410.0893",
         "icon" : "arxiv"}
     ],
@@ -32,7 +83,7 @@
   },
   {
     "bibitem": "@InProceedings{BP16,  author = {Tomasz Brengos and Marco Peressotti},  title = {A Uniform Framework for Timed Automata},  booktitle = {27th International Conference on Concurrency Theory (CONCUR 2016)},  pages = {26:1--26:15},  series = {Leibniz International Proceedings in Informatics (LIPIcs)},  ISBN = {978-3-95977-017-0},  ISSN = {1868-8969},  year = {2016},  volume = {59},  editor = {Jos{\\'e}e Desharnais and Radha Jagadeesan},  publisher = {Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},  URN = {urn:nbn:de:0030-drops-61690},  doi = {10.4230/LIPIcs.CONCUR.2016.26}}",
-    "links": [ 
+    "links": [
       { "link" : "http://drops.dagstuhl.de/opus/volltexte/2016/6169/pdf/LIPIcs-CONCUR-2016-26.pdf"}
     ],
     "abstract": "Timed automata, and machines alike, currently lack a general mathematical characterisation. In this paper we provide a uniform coalgebraic understanding of these devices. This framework encompasses known behavioural equivalences for timed automata and paves the way for the extension of these notions to new timed behaviours and for the instantiation of established results from the coalgebraic theory as well. Key to this work is the use of lax functors for they allow us to model time flow as a context property and hence offer a general and expressive setting where to study timed systems: the index category encodes \"how step sequences form executions\" (e.g. whether steps duration get accumulated or kept distinct) whereas the base category encodes \"step nature and composition\" (e.g. non-determinism and labels). Finally, we develop the notion of general saturation for lax functors and show how equivalences of interest for timed behaviours are instances of this notion. This characterisation allows us to reason about the expressiveness of said notions within a uniform framework and organise them in a spectrum independent from the behavioural aspects encoded in the base category.",
@@ -62,7 +113,7 @@
   {
     "bibitem": "@article{DDP16,  author = {De Nart, Dario and  Degl'Innocenti, Dante and  Peressotti, Marco},  title = {Well-Stratified Linked Data for Well-Behaved Data Citation},  journal = {{TCDL} Bulletin},  volume = {12},  number = {1},  year = {2016},  url = {http://www.ieee-tcdl.org/Bulletin/v12n1/papers/IEEE-TCDL-DC-2016_paper_2.pdf}}",
     "links": [
-      { "name" : "technical report", 
+      { "name" : "technical report",
         "link" : "https://arxiv.org/abs/1512.02898",
         "icon" : "arxiv"}
     ],

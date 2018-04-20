@@ -1,6 +1,6 @@
 [
 	{
-    "bibitem": "@inproceedings{DBLP:conf/dais/MontesiT17,  author = {Fabrizio Montesi and  Dan Sebastian Thrane},  title = {Packaging Microservices - (Work in Progress)},  booktitle = {{DAIS}},  series = {Lecture Notes in Computer Science},  volume = {10320},  pages = {131--137},  publisher = {Springer},  year = {2017} }",
+    "bibitem": "@inproceedings{MT17,  author = {Fabrizio Montesi and  Dan Sebastian Thrane},  title = {Packaging Microservices - (Work in Progress)},  booktitle = {{DAIS}},  series = {Lecture Notes in Computer Science},  volume = {10320},  pages = {131--137},  publisher = {Springer},  year = {2017} }",
     "links": [
       { "link" : "http://fabriziomontesi.com/files/mt17.pdf" }
     ],
@@ -11,7 +11,7 @@
     "non_group" : false
   },
 	{
-    "bibitem": "@inproceedings{DBLP:conf/forte/Montesi17,  author = {Fabrizio Montesi},  title = {Classical Higher-Order Processes - (Short Paper)},  booktitle = {{FORTE}},  series = {Lecture Notes in Computer Science},  volume = {10321},  pages = {171--178},  publisher = {Springer},  year = {2017} }",
+    "bibitem": "@inproceedings{M17,  author = {Fabrizio Montesi},  title = {Classical Higher-Order Processes - (Short Paper)},  booktitle = {{FORTE}},  series = {Lecture Notes in Computer Science},  volume = {10321},  pages = {171--178},  publisher = {Springer},  year = {2017} }",
     "links": [
       { "link" : "http://fabriziomontesi.com/files/m17_forte.pdf" }
     ],
@@ -22,7 +22,7 @@
     "non_group" : false
   },
 	{
-    "bibitem": "@article{DBLP:journals/acta/CarboneMSY17,  author = {Marco Carbone and  Fabrizio Montesi and  Carsten Sch{\\\"{u}}rmann and  Nobuko Yoshida},  title = {Multiparty session types as coherence proofs},  journal = {Acta Inf.},  volume = {54},  number = {3},  pages = {243--269},  year = {2017} }",
+    "bibitem": "@article{CMSY17,  author = {Marco Carbone and  Fabrizio Montesi and  Carsten Sch{\\\"{u}}rmann and  Nobuko Yoshida},  title = {Multiparty session types as coherence proofs},  journal = {Acta Inf.},  volume = {54},  number = {3},  pages = {243--269},  year = {2017} }",
     "links": [
       { "link" : "http://fabriziomontesi.com/files/cmsy16.pdf" }
     ],
@@ -30,6 +30,14 @@
     "tags" : [ "Session Types", "Logic", "Process Calculi" ],
     "authors" : [ "Fabrizio Montesi" ],
     "type" : "Journal",
+    "non_group" : false
+  },
+	{
+    "bibitem": "@incollection{GLMM17,  author = {Claudio Guidi and  Ivan Lanese and  Manuel Mazzara and  Fabrizio Montesi},  title = {Microservices: {A} Language-Based Approach},  booktitle = {Present and Ulterior Software Engineering},  pages = {217--225},  publisher = {Springer},  year = {2017} }",
+    "abstract": "Microservices is an emerging development paradigm where software is obtained by composing autonomous entities, called (micro)services. However, microservice systems are currently developed using general-purpose programming languages that do not provide dedicated abstractions for service composition. Instead, current practice is focused on the deployment aspects of microservices, in particular by using containerization. In this chapter, we make the case for a language-based approach to the engineering of microservice architectures, which we believe is complementary to current practice. We discuss the approach in general, and then we instantiate it in terms of the Jolie programming language.",
+    "tags" : [ "Microservices", "Jolie" ],
+    "authors" : [ "Fabrizio Montesi" ],
+    "type" : "Chapter",
     "non_group" : false
   },
   {
