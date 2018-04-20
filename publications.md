@@ -31,32 +31,34 @@ ul {
 	<section class="wrapper card style4 container">
 	{% assign data = site.data.papers %}
 		<!-- Content -->
-		<div class="row">
-			<div class="6u">
-				<div>Filter by keywords:</div>
-				<div><span class="filters" >
-					{{ data | collectTags }}
-				</span></div>
-			</div>
-			<div class="6u">
-				<div class="12u"><div>Filter by author:</div>
-				<span class="filters" >
-					{{ data | collectAuthors }}
-				</span></div>
-				<hr>
-				<div class="12u">
-					<div>Filter by publication type:</div>
-				<span class="filters" >
-					{{ data | collectTypes }}
-				</span></div>
-				<hr>
-				<div class="12u">
-				Display: <input id="display_papers" type="checkbox" checked data-toggle="toggle" data-on="All papers " data-off="{{ site.group_short }} only" data-onstyle="info" data-offstyle="primary" data-size="small">
-		 	 </div>
-		 	</div>
-		 </div>
-	 	 <hr>
-		 {{ view-download }}
+		<div>
+			<div>Filter by keywords:</div>
+			<span class="filters" >
+				{{ data | collectTags }}
+			</span>
+		</div>
+		<hr />
+		<div>
+			<div>Filter by author:</div>
+			<span class="filters" >
+				{{ data | collectAuthors }}
+			</span>
+		</div>
+		<hr />
+		<div>
+			<div>Filter by publication type:</div>
+			<span class="filters" >
+				{{ data | collectTypes }}
+			</span>
+		</div>
+		<hr />
+		<div>
+			Display: <input id="display_papers" type="checkbox" checked data-toggle="toggle" data-on="All papers " data-off="{{ site.group_short }} only" data-onstyle="info" data-offstyle="primary" data-size="small">
+	 	</div>
+		<hr />
+		<div>
+		  {{ view-download }}
+		</div>
 	</section>
 
 
