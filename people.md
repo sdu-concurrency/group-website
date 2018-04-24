@@ -46,7 +46,7 @@ layout: default
 </div>
 {% endif %}
 <div class="col-sm-6">
-    <small><a class="nodec" href="/publications#author_{{ person.name }}"><span class="fa fa-list-ul"></span> {{ site.group_short }} Pubs</a></small>
+    <small><a class="nodec" href="/publications.html#author_{{ person.name }}"><span class="fa fa-list-ul"></span> {{ site.group_short }} Pubs</a></small>
 </div>
 {%if person.orcid %}
 <div class="col-sm-6">
