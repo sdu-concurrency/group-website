@@ -1,4 +1,5 @@
-[  
+{ "title" : "2015",
+  "papers": [  
   {
     "bibitem": "@inproceedings{CCS15, author = {Codish, Michael and Cruz-Filipe, Lu{\\'i}s and Schneider-Kamp, Peter}, booktitle = {Language and Automata Theory and Applications -- 9th International Conference, {LATA} 2015, Nice, France, March 2-6, 2015, Proceedings}, editor = {Dediu, Adrian-Horia and Formenti, Enrico and Mart{\\'\\i}n{-}Vide, Carlos and Truthe, Bianca}, doi = {10.1007/978-3-319-15579-1\\_52}, pages = {664--675}, publisher = {Springer}, series = {LNCS}, title = {Sorting networks: the end game}, volume = 8977, year = 2015}",
     "links": [
@@ -121,3 +122,4 @@
     "non_group" : true
   }
 ]
+}

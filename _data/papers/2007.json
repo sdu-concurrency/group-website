@@ -1,4 +1,5 @@
-[
+{ "title" : "2007",
+  "papers": [
 	{
 		"bibitem" : "@inproceedings{DBLP:conf/ecows/MontesiGZ07,  author = {Fabrizio Montesi and  Claudio Guidi and  Gianluigi Zavattaro},  title = {Composing Services with {JOLIE}},  booktitle = {{ECOWS}},  pages = {13--22},  publisher = {{IEEE} Computer Society},  year = {2007} }",
 		"links" : [
@@ -33,3 +34,4 @@
     "type": "journal"
 }
 ]
+}

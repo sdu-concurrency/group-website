@@ -1,4 +1,6 @@
-[{
+{ "title" : "2013",
+  "papers": [
+    {
     "bibitem": "@inproceedings{CEGN2013, author = {Cruz-Filipe, Lu{\\'i}s and Engr{\\' a}cia, Patr{\\'\\i}cia and Gaspar, Gra{\\c c}a and Nunes, Isabel}, booktitle = {2013 International Symposium on Theoretical Aspects of Software Engineering, Birmingham, UK, July 1st--July 3rd 2013}, editor = {Wang, Hai and Banach, Richard}, month = jul, doi = {10.1109/TASE.2013.32}, pages = {183--190}, publisher = {IEEE}, title = {Computing Repairs from Active Integrity Constraints}, year = 2013}",
     "links": [{
       "link": "http://tinyurl.com/lcfilipe/pubs/paper10.pdf"
@@ -32,3 +34,4 @@
     "type": "conference"
   }
 ]
+}

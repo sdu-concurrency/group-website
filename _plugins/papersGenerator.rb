@@ -10,16 +10,16 @@ module Jekyll
     def getYear( file, iconMap )
       tmp = JSON.parse( File.read( file ) )
       hashMap = Hash.new
-      tmp.each { | item | 
+      tmp["papers"].each { | item | 
         bibitem = item[ "bibitem" ]
         id = bibitem[ bibitem.index( "{" )+1..bibitem.index( "," )-1 ]
         hashMap[ id ] = item
       }
-      tmp = Array.new
+      tmp_p = Array.new
       hashMap.sort.each { | item |
-        tmp << item[1]
+        tmp_p << item[1]
       }
-      tmp.each { | item |
+      tmp_p.each { | item |
         links = item["links"] || Array.new
         links.each { | link |
           unless link["name"].nil?
@@ -84,7 +84,7 @@ module Jekyll
           end
           }.collect!
       }
-      { "year" =>  File.basename( file , ".json" ), "papers" => tmp }
+      { "year" => tmp["title"], "papers" => tmp_p }
     end
 
     def generate(site)
@@ -92,7 +92,7 @@ module Jekyll
       base = "#{site.source}/_data"
       papers = Array.new
       pool = Concurrent::FixedThreadPool.new(6)
-      i=0
+      i=1
       # unless File.file?( "#{site.source}/no_publications" )
       unless site.config["no_publications"]
         Dir["#{base}/papers/*.json"]
@@ -109,7 +109,8 @@ module Jekyll
       ## plus add preprints
       pool.shutdown
       pool.wait_for_termination
-      papers[ i ] = getYear( Dir["#{base}/papers/Preprints.json"][0], iconMap )
+      papers[ 0 ] = getYear( Dir["#{base}/papers/preprints.json"][0], iconMap )
+      papers[ i ] = getYear( Dir["#{base}/papers/drafts.json"][0], iconMap )
       site.data["papers"] = papers
     end
   end

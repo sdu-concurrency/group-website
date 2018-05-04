@@ -1,4 +1,5 @@
-[
+{ "title" : "2014",
+  "papers": [
   {
     "bibitem": "@inproceedings{C14, author = {Cruz-Filipe, Lu{\\'i}s}, booktitle = {Foundations of Information and Knowledge Systems -- 8th International Symposium, FoIKS 2014, Bordeaux, France, March 3-7, 2014. Proceedings}, editor = {Beierle, Christoph and Meghini, Carlo}, doi = {10.1007/978-3-319-04939-7\\_18}, pages = {361--380}, publisher = {Springer}, series = {LNCS}, title = {Optimizing Computation of Repairs from Active Integrity Constraints}, volume = 8367, year = 2014}",
     "links": [{
@@ -102,3 +103,4 @@
     "non_group" : true
   }
 ]
+}

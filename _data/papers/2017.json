@@ -1,4 +1,5 @@
-[
+{ "title" : "2017",
+  "papers": [
 	{
     "bibitem": "@inproceedings{MT17,  author = {Fabrizio Montesi and  Dan Sebastian Thrane},  title = {Packaging Microservices - (Work in Progress)},  booktitle = {{DAIS}},  series = {Lecture Notes in Computer Science},  volume = {10320},  pages = {131--137},  publisher = {Springer},  year = {2017} }",
     "links": [
@@ -284,3 +285,4 @@
     "type": "workshop"
   }
 ]
+}

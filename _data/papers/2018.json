@@ -1,4 +1,5 @@
-[
+{ "title" : "2018",
+  "papers": [
 	{
 		"bibitem": "@article{DBLP:journals/dc/CarboneMS18,  author = {Marco Carbone and  Fabrizio Montesi and  Carsten Sch{\\\"{u}}rmann},  title = {Choreographies, logically},  journal = {Distributed Computing},  volume = {31},  number = {1},  pages = {51--67},  year = {2018},  url = {https://doi.org/10.1007/s00446-017-0295-1},  doi = {10.1007/s00446-017-0295-1},  timestamp = {Thu, 25 Jan 2018 11:13:07 +0100},  biburl = {https://dblp.org/rec/bib/journals/dc/CarboneMS18},  bibsource = {dblp computer science bibliography, https://dblp.org} }",
 		"links": [
@@ -33,3 +34,4 @@
     "type": "journal"
   }
 ]
+}

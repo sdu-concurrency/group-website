@@ -1,4 +1,5 @@
-[
+{ "title" : "2008",
+  "papers": [
 	{
 		"bibitem" : "@inproceedings{DBLP:conf/sefm/LaneseGMZ08,  author = {Ivan Lanese and  Claudio Guidi and  Fabrizio Montesi and  Gianluigi Zavattaro},  title = {Bridging the Gap between Interaction- and Process-Oriented Choreographies},  booktitle = {{SEFM}},  pages = {323--332},  publisher = {{IEEE} Computer Society},  year = {2008} }",
 		"links" : [
@@ -66,3 +67,4 @@
     "type": "conference"
   }
 ]
+}

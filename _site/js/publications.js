@@ -3,7 +3,7 @@ $.fn.ignore = function(sel){
 };
 
 $(document).ready(function() {
-    
+
     /* ---- ABSTRACT PREVIEW LOGIC ---- */
     
     $(".abstract_preview").click( function( e ) {
@@ -193,4 +193,7 @@ $(document).ready(function() {
       }, 250);
       return false;
     }).children("span").attr("class","fa fa-download");
+
+    filterPapers( $("#display_papers") );
+
 });

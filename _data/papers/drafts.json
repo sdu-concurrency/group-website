@@ -1,5 +1,5 @@
-{ "title" : "Preprints of Accepted Papers",
-  "papers": [
+{ "title" : "Technical Reports",
+  "papers": [  
   {
     "bibitem": "@article{GGM15, author = {Maurizio Gabbrielli and Saverio Giallorenzo and Fabrizio Montesi}, title = {Applied Choreographies}, journal = {CoRR}, volume = {abs/1510.03637}, year = {2015}}",
     "links": [ 

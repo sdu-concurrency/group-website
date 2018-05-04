@@ -52,8 +52,13 @@ ul {
 			</span>
 		</div>
 		<hr />
-		<div>
-			Display: <input id="display_papers" type="checkbox" checked data-toggle="toggle" data-on="All papers " data-off="{{ site.group_short }} only" data-onstyle="info" data-offstyle="primary" data-size="small">
+		<div class="row">
+			<div class="col-4 col-lg-3">
+			Display: <input id="display_papers" type="checkbox" data-toggle="toggle" data-on="All papers " data-off="{{ site.group_short }} only" data-onstyle="info" data-offstyle="primary" data-size="small">
+	 		</div>
+	 		<div class="col-8 col-lg-9 alert alert-warning" role="alert">
+			<div style="line-height: 1.2;" class="small">This button toggles the display of either "Only {{site.group_short}}" papers, i.e., papers written since its foundation of the group and within its context, or "All papers" published by the members of the  group.</div>
+	 		</div>
 	 	</div>
 		<hr />
 		<div>
