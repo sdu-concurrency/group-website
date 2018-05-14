@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Programming Languages, Systems, and Logic</title>
-    <description>Programming Languages, Systems, and Logic research group website.
+    <title>Concurrency and Logic</title>
+    <description>Concurrency and Logic research group website.
 </description>
-    <link>http://psl.sdu.dk/</link>
-    <atom:link href="http://psl.sdu.dk/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 04 May 2018 11:44:03 +0200</pubDate>
-    <lastBuildDate>Fri, 04 May 2018 11:44:03 +0200</lastBuildDate>
+    <link>http://concurrency.sdu.dk/</link>
+    <atom:link href="http://concurrency.sdu.dk/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 14 May 2018 15:36:51 +0200</pubDate>
+    <lastBuildDate>Mon, 14 May 2018 15:36:51 +0200</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
@@ -20,8 +20,8 @@
 &lt;!--more--&gt;
 </description>
         <pubDate>Mon, 09 Apr 2018 00:00:00 +0200</pubDate>
-        <link>http://psl.sdu.dk/events/2018-04-09-ACMSAC18.html</link>
-        <guid isPermaLink="true">http://psl.sdu.dk/events/2018-04-09-ACMSAC18.html</guid>
+        <link>http://concurrency.sdu.dk/events/2018-04-09-ACMSAC18.html</link>
+        <guid isPermaLink="true">http://concurrency.sdu.dk/events/2018-04-09-ACMSAC18.html</guid>
         
         
       </item>
@@ -33,7 +33,7 @@
 &lt;p&gt;&lt;a href=&quot;/people.html#sg&quot;&gt;Saverio Giallorenzo&lt;/a&gt; is co-chairing the &lt;a href=&quot;https://sites.google.com/view/made18/&quot;&gt;Second International Workshop on Microservices: Agile and DevOps Experience (MADE18)&lt;/a&gt; taking place on May 21st, 2018 and co-located with the &lt;a href=&quot;https://www.agilealliance.org/xp2018/&quot;&gt;XP2018&lt;/a&gt; conference in Porto, Portugal.&lt;/p&gt;
 
 &lt;p&gt;MADE18 is the follow-up workshop of the first International Workshop on Microservices for Agile software development (WMSA17) organized at XP2017. The venue is also a continuation of discussions on software engineering from the first International Conference on Microservices (&lt;a href=&quot;/events/2017-10-25-Microservices_Conference&quot;&gt;Microservices
-2017&lt;/a&gt; organized by the members of PSL. The workshop will be conducted in collaboration with the &lt;a href=&quot;http://microservices.sdu.dk/&quot;&gt;Microservices Community&lt;/a&gt;, which was formed at the Microservices 2017 conference.&lt;/p&gt;
+2017&lt;/a&gt; organized by the members of CL. The workshop will be conducted in collaboration with the &lt;a href=&quot;http://microservices.sdu.dk/&quot;&gt;Microservices Community&lt;/a&gt;, which was formed at the Microservices 2017 conference.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -46,8 +46,8 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Thu, 25 Jan 2018 00:00:00 +0100</pubDate>
-        <link>http://psl.sdu.dk/events/2018-01-25-MADE18.html</link>
-        <guid isPermaLink="true">http://psl.sdu.dk/events/2018-01-25-MADE18.html</guid>
+        <link>http://concurrency.sdu.dk/events/2018-01-25-MADE18.html</link>
+        <guid isPermaLink="true">http://concurrency.sdu.dk/events/2018-01-25-MADE18.html</guid>
         
         
       </item>
@@ -58,7 +58,7 @@
 
 &lt;p&gt;During the discussion panels at &lt;a href=&quot;/events/2017-10-25-Microservices_Conference&quot;&gt;Microservices 2017&lt;/a&gt;, participants recognised the importance of constituting a communal place where international people from research institutions, private companies, universities, and public organisations (like municipalities) can share knowledge and foster collaborations about microservices.&lt;/p&gt;
 
-&lt;p&gt;Prompted by this observation, the organisers of &lt;a href=&quot;/events/2017-10-25-Microservices_Conference&quot;&gt;Microservices 2017&lt;/a&gt; in PSL put forward the initiative of &lt;a href=&quot;http://microservices.sdu.dk/&quot;&gt;Microservices Community&lt;/a&gt;, with the support of &lt;a href=&quot;https://www.sdu.dk/en&quot;&gt;SDU&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Prompted by this observation, the organisers of &lt;a href=&quot;/events/2017-10-25-Microservices_Conference&quot;&gt;Microservices 2017&lt;/a&gt; in CL put forward the initiative of &lt;a href=&quot;http://microservices.sdu.dk/&quot;&gt;Microservices Community&lt;/a&gt;, with the support of &lt;a href=&quot;https://www.sdu.dk/en&quot;&gt;SDU&lt;/a&gt;.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -85,8 +85,8 @@
 &lt;p&gt;Several institutions and companies &lt;a href=&quot;http://microservices.sdu.dk/#members&quot;&gt;quickly joined&lt;/a&gt; the young yet growing community.&lt;/p&gt;
 </description>
         <pubDate>Mon, 30 Oct 2017 00:00:00 +0100</pubDate>
-        <link>http://psl.sdu.dk/events/2017-10-30-Foundation_Microservices_Community.html</link>
-        <guid isPermaLink="true">http://psl.sdu.dk/events/2017-10-30-Foundation_Microservices_Community.html</guid>
+        <link>http://concurrency.sdu.dk/events/2017-10-30-Foundation_Microservices_Community.html</link>
+        <guid isPermaLink="true">http://concurrency.sdu.dk/events/2017-10-30-Foundation_Microservices_Community.html</guid>
         
         
       </item>
@@ -95,7 +95,7 @@
         <title>First International Conference on Microservices</title>
         <description>&lt;p&gt;&lt;img class=&quot;img-fluid mx-auto d-block&quot; src=&quot;/images/posts/microservices-2017-group.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;PSL organised the first &lt;a href=&quot;http://conf-micro.services/&quot;&gt;International Conference on Microservices&lt;/a&gt; with the aim to provide a forum for the discussion of all aspects of designing and programming microservice architectures. Both theoretical and experimental contributions are welcome, on topics ranging from formal frameworks to industrial experience reports and demonstrations.&lt;/p&gt;
+&lt;p&gt;CL organised the first &lt;a href=&quot;http://conf-micro.services/&quot;&gt;International Conference on Microservices&lt;/a&gt; with the aim to provide a forum for the discussion of all aspects of designing and programming microservice architectures. Both theoretical and experimental contributions are welcome, on topics ranging from formal frameworks to industrial experience reports and demonstrations.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -119,8 +119,8 @@
 &lt;p&gt;For more information, see the &lt;a href=&quot;http://conf-micro.services/&quot;&gt;conference website&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Wed, 25 Oct 2017 00:00:00 +0200</pubDate>
-        <link>http://psl.sdu.dk/events/2017-10-25-Microservices_Conference.html</link>
-        <guid isPermaLink="true">http://psl.sdu.dk/events/2017-10-25-Microservices_Conference.html</guid>
+        <link>http://concurrency.sdu.dk/events/2017-10-25-Microservices_Conference.html</link>
+        <guid isPermaLink="true">http://concurrency.sdu.dk/events/2017-10-25-Microservices_Conference.html</guid>
         
         
       </item>
@@ -129,7 +129,7 @@
         <title>First Edition of the Meeting on Microservices</title>
         <description>&lt;p&gt;&lt;img class=&quot;img-fluid mx-auto d-block&quot; src=&quot;/images/posts/meeting-on-microservices.png&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Edition 2016 of the Meeting on Microservices (MoM2016) took place on December 20th, 2016. The event has been mainly organised by &lt;a href=&quot;http://www.italianasoftware.com/&quot;&gt;ItalianaSoftware&lt;/a&gt;, a close industrial collaborator of PSL.&lt;/p&gt;
+&lt;p&gt;Edition 2016 of the Meeting on Microservices (MoM2016) took place on December 20th, 2016. The event has been mainly organised by &lt;a href=&quot;http://www.italianasoftware.com/&quot;&gt;ItalianaSoftware&lt;/a&gt;, a close industrial collaborator of CL.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -143,8 +143,8 @@ Giallorenzo&lt;/a&gt; gave a talk on the &lt;a href=&quot;http://www.saveriogial
 between microservices and choreographies&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Wed, 25 Jan 2017 00:00:00 +0100</pubDate>
-        <link>http://psl.sdu.dk/events/2017-01-25-MoM2016.html</link>
-        <guid isPermaLink="true">http://psl.sdu.dk/events/2017-01-25-MoM2016.html</guid>
+        <link>http://concurrency.sdu.dk/events/2017-01-25-MoM2016.html</link>
+        <guid isPermaLink="true">http://concurrency.sdu.dk/events/2017-01-25-MoM2016.html</guid>
         
         
       </item>
