@@ -1,4 +1,4 @@
-# The PLS Research Group Website
+# The CL Research Group Website
 
 ## Guidelines for website content management
 
