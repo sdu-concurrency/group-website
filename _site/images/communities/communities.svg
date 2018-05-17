@@ -1,494 +1,514 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="101 62 938 693" xmlns:dc="http://purl.org/dc/elements/1.1/">
-        <defs>
-                <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="#9a9a9a">
-                        <g>
-                                <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1" />
-                        </g>
-                </marker>
-        </defs>
-        <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
-                <title>Canvas 1</title>
-                <g>
-                        <title>Layer 1</title>
-                        <ellipse cx="581.75984" cy="400.2447" rx="11.005531" ry="10.7789465" fill="#5b87f2" />
-                        <ellipse cx="581.75984" cy="400.2447" rx="11.005531" ry="10.7789465" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <ellipse cx="383.51202" cy="264.82886" rx="10.152161" ry="9.7107626" fill="#5b87f2" />
-                        <ellipse cx="383.51202" cy="264.82886" rx="10.152161" ry="9.7107626" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <line x1="575.06498" y1="409.4195" x2="460.65828" y2="566.20524" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <line x1="572.31846" y1="393.79563" x2="400.36287" y2="276.33912" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <line x1="591.77105" y1="394.68064" x2="738.51888" y2="313.12076" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <line x1="591.09545" y1="406.8397" x2="773.7777" y2="535.89306" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="414.44524" y="702.99212" width="83.149606" height="42.519685" id="path" />
-                        <clipPath id="clip_path">
-                                <use xl:href="#path" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path)">
-                                <image xl:href="image4.png" width="96" height="72" transform="translate(414.44524 691.65354) scale(.86614173)" />
-                        </g>
-                        <rect x="138.54605" y="99.2126" width="104.88189" height="45.35433" id="path_2" />
-                        <clipPath id="clip_path_2">
-                                <use xl:href="#path_2" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_2)">
-                                <image xl:href="image5.png" width="400" height="300" transform="translate(131.93188 76.535434) scale(.29291338)" />
-                        </g>
-                        <line x1="375.70865" y1="257.87876" x2="319.90485" y2="208.17688" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="233.40587" y="535.74803" width="96" height="28.346457" id="path_3" />
-                        <clipPath id="clip_path_3">
-                                <use xl:href="#path_3" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_3)">
-                                <image xl:href="image6.png" width="96" height="72" transform="translate(233.40587 511.937)" />
-                        </g>
-                        <rect x="295.39645" y="73.700787" width="98.267716" height="36.850393" id="path_4" />
-                        <clipPath id="clip_path_4">
-                                <use xl:href="#path_4" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_4)">
-                                <image xl:href="image7.png" width="288" height="216" transform="translate(295.39645 53.858266) scale(.34120735)" />
-                        </g>
-                        <line x1="379.7502" y1="255.27364" x2="354.48338" y2="191.09439" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="178.88524" y="338.74016" width="30.776153" height="53.858267" id="path_5" />
-                        <clipPath id="clip_path_5">
-                                <use xl:href="#path_5" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_5)">
-                                <image xl:href="image8.png" width="96" height="72" transform="translate(158.36781 338.74016) scale(.7480315)" />
-                        </g>
-                        <rect x="246.26259" y="260.7874" width="41.254997" height="26.929134" id="path_6" />
-                        <clipPath id="clip_path_6">
-                                <use xl:href="#path_6" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_6)">
-                                <image xl:href="image9.png" width="258" height="195" transform="matrix(.15990309 0 0 .13809812 246.26259 260.7874)" />
-                        </g>
-                        <rect x="246.26259" y="260.7874" width="41.254997" height="26.929134" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <line x1="372.8973" y1="265.68653" x2="297.8838" y2="271.74766" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <line x1="255.8836" y1="288.10805" x2="215.8191" y2="338.54528" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="376.65629" y="147.40157" width="39.68504" height="28.346457" id="path_7" />
-                        <clipPath id="clip_path_7">
-                                <use xl:href="#path_7" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_7)">
-                                <image xl:href="image11.png" width="1280" height="640" transform="matrix(.031003937 0 0 .044291338 376.65629 147.40157)" />
-                        </g>
-                        <rect x="376.65629" y="147.40157" width="39.68504" height="28.346457" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="415.80983" y="73.700787" width="34.547244" height="36.850393" id="path_8" />
-                        <clipPath id="clip_path_8">
-                                <use xl:href="#path_8" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_8)">
-                                <image xl:href="image13.png" width="1200" height="1280" transform="translate(415.80983 73.700787) scale(.02878937)" />
-                        </g>
-                        <line x1="384.7871" y1="254.69112" x2="393.41833" y2="186.06673" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <line x1="404.1981" y1="146.9592" x2="418.7632" y2="119.310174" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="461.69566" y="87.874015" width="38.615007" height="38.87244" id="path_9" />
-                        <clipPath id="clip_path_9">
-                                <use xl:href="#path_9" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_9)">
-                                <image xl:href="image14.png" width="1200" height="1208" transform="translate(461.69566 87.874015) scale(.032179173)" />
-                        </g>
-                        <line x1="416.76205" y1="148.56274" x2="453.36532" y2="125.05791" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="253.2795" y="215.43307" width="38.33742" height="25.511811" id="path_a" />
-                        <clipPath id="clip_path_a">
-                                <use xl:href="#path_a" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_a)">
-                                <image xl:href="image15.png" width="275" height="183" transform="translate(253.2795 215.43307) scale(.1394088)" />
-                        </g>
-                        <rect x="253.2795" y="215.43307" width="38.33742" height="25.511811" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <line x1="373.43765" y1="261.50533" x2="301.49335" y2="237.77095" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="149.88464" y="158.74016" width="35.11687" height="34.015748" id="path_b" />
-                        <clipPath id="clip_path_b">
-                                <use xl:href="#path_b" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_b)">
-                                <image xl:href="image16.png" width="310" height="162" transform="translate(135.00461 158.74016) scale(.20997375)" />
-                        </g>
-                        <line x1="252.83218" y1="218.39247" x2="193.85841" y2="188.9402" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="138.54605" y="215.43307" width="36.850393" height="36.850393" id="path_c" />
-                        <clipPath id="clip_path_c">
-                                <use xl:href="#path_c" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_c)">
-                                <image xl:href="image17.png" width="180" height="180" transform="translate(138.54605 215.43307) scale(.20472441)" />
-                        </g>
-                        <line x1="252.7801" y1="229.15457" x2="185.28454" y2="232.46824" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="277.44369" y="174.80315" width="39.68504" height="26.456693" id="path_d" />
-                        <clipPath id="clip_path_d">
-                                <use xl:href="#path_d" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_d)">
-                                <image xl:href="image18.png" width="255" height="170" transform="translate(277.44369 174.80315) scale(.1556276)" />
-                        </g>
-                        <rect x="277.44369" y="174.80315" width="39.68504" height="26.456693" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <line x1="277.01916" y1="175.42089" x2="235.8381" y2="149.79712" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="199.14404" y="73.700787" width="83.968944" height="34.015748" id="path_e" />
-                        <clipPath id="clip_path_e">
-                                <use xl:href="#path_e" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_e)">
-                                <image xl:href="image19.png" width="353" height="143" transform="translate(199.14404 73.700787) scale(.23787236)" />
-                        </g>
-                        <line x1="289.40323" y1="174.37007" x2="255.89038" y2="116.291394" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="325.63267" y="155.00873" width="39.68504" height="26.40859" id="path_f" />
-                        <clipPath id="clip_path_f">
-                                <use xl:href="#path_f" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_f)">
-                                <image xl:href="image20.png" width="275" height="183" transform="translate(325.63267 155.00873) scale(.14430923)" />
-                        </g>
-                        <rect x="325.63267" y="155.00873" width="39.68504" height="26.40859" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <line x1="345.305" y1="154.50877" x2="344.88205" y2="120.45042" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="110.853745" y="267.87401" width="47.443017" height="34.015748" id="path_10" />
-                        <clipPath id="clip_path_10">
-                                <use xl:href="#path_10" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_10)">
-                                <image xl:href="image21.png" width="265" height="190" transform="translate(110.853745 267.87401) scale(.17903025)" />
-                        </g>
-                        <line x1="245.7642" y1="275.94918" x2="168.16497" y2="282.18335" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="122.19233" y="324.56693" width="39.862204" height="39.68504" id="path_11" />
-                        <clipPath id="clip_path_11">
-                                <use xl:href="#path_11" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_11)">
-                                <image xl:href="image22.png" width="225" height="224" transform="translate(122.19233 324.56693) scale(.17716535)" />
-                        </g>
-                        <line x1="245.82676" y1="286.09607" x2="170.68383" y2="328.34966" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="257.60117" y="307.84252" width="39.68504" height="23.811023" id="path_12" />
-                        <clipPath id="clip_path_12">
-                                <use xl:href="#path_12" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_12)">
-                                <image xl:href="image23.png" width="290" height="174" transform="translate(257.60117 307.84252) scale(.13684496)" />
-                        </g>
-                        <rect x="257.60117" y="307.84252" width="39.68504" height="23.811023" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="144.1176" y="411.02362" width="76.63318" height="22.677165" id="path_13" />
-                        <clipPath id="clip_path_13">
-                                <use xl:href="#path_13" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_13)">
-                                <image xl:href="image24.png" width="341" height="148" transform="translate(134.73394 400.07602) scale(.27586207)" />
-                        </g>
-                        <line x1="266.08079" y1="332.02043" x2="199.65848" y2="403.75926" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <line x1="374.13762" y1="269.68265" x2="306.52167" y2="304.69227" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="231.30069" y="416.6929" width="34.80442" height="42.519685" id="path_14" />
-                        <clipPath id="clip_path_14">
-                                <use xl:href="#path_14" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_14)">
-                                <image xl:href="image25.png" width="203" height="248" transform="translate(231.30069 416.6929) scale(.17145034)" />
-                        </g>
-                        <line x1="274.4308" y1="332.13939" x2="256.21109" y2="407.07318" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="430.86614" y="156.68404" width="39.68504" height="24.733281" id="path_15" />
-                        <clipPath id="clip_path_15">
-                                <use xl:href="#path_15" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_15)">
-                                <image xl:href="image26.png" width="284" height="177" transform="translate(430.86614 156.68404) scale(.13973605)" />
-                        </g>
-                        <rect x="430.86614" y="156.68404" width="39.68504" height="24.733281" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <line x1="389.4574" y1="256.35467" x2="436.05933" y2="189.93098" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="519.8059" y="111.201755" width="39.68504" height="39.034465" id="path_16" />
-                        <clipPath id="clip_path_16">
-                                <use xl:href="#path_16" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_16)">
-                                <image xl:href="image27.png" width="257" height="196" transform="translate(510.69785 108.59946) scale(.2295082)" />
-                        </g>
-                        <line x1="471.01035" y1="160.30096" x2="510.71432" y2="143.189145" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="297.28621" y="342.51789" width="39.68504" height="28.820694" id="path_17" />
-                        <clipPath id="clip_path_17">
-                                <use xl:href="#path_17" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_17)">
-                                <image xl:href="image28.png" width="263" height="191" transform="translate(297.28621 342.51789) scale(.150893685)" />
-                        </g>
-                        <rect x="297.28621" y="342.51789" width="39.68504" height="28.820694" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <line x1="377.45616" y1="273.23068" x2="333.5965" y2="334.08105" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="288.78227" y="416.6929" width="36.850393" height="36.850393" id="path_18" />
-                        <clipPath id="clip_path_18">
-                                <use xl:href="#path_18" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_18)">
-                                <image xl:href="image29.png" width="225" height="225" transform="translate(288.78227 416.6929) scale(.16377953)" />
-                        </g>
-                        <line x1="315.2373" y1="371.8346" x2="310.79157" y2="406.87166" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <line x1="322.2462" y1="371.8114" x2="351.02874" y2="455.51986" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="311.81102" y="464.8819" width="97.5" height="36.850393" id="path_19" />
-                        <clipPath id="clip_path_19">
-                                <use xl:href="#path_19" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_19)">
-                                <image xl:href="image31.png" width="225" height="225" transform="translate(311.81102 435.40157) scale(.43333333)" />
-                        </g>
-                        <rect x="467.36495" y="189.92126" width="39.68504" height="25.511811" id="path_1a" />
-                        <clipPath id="clip_path_1a">
-                                <use xl:href="#path_1a" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_1a)">
-                                <image xl:href="image32.png" width="241" height="209" transform="matrix(.16466821 0 0 .12206608 467.36495 189.92126)" />
-                        </g>
-                        <rect x="467.36495" y="189.92126" width="39.68504" height="25.511811" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <line x1="392.54554" y1="259.41446" x2="458.44453" y2="219.91673" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="484.37282" y="229.6063" width="42.519685" height="28.346457" id="path_1b" />
-                        <clipPath id="clip_path_1b">
-                                <use xl:href="#path_1b" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_1b)">
-                                <image xl:href="image33.png" width="255" height="170" transform="translate(484.37282 229.6063) scale(.16674386)" />
-                        </g>
-                        <rect x="484.37282" y="229.6063" width="42.519685" height="28.346457" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <line x1="393.99686" y1="263.02163" x2="474.12395" y2="249.21053" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="349.27046" y="353.59802" width="44.393702" height="29.81183" id="path_1c" />
-                        <clipPath id="clip_path_1c">
-                                <use xl:href="#path_1c" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_1c)">
-                                <image xl:href="image34.png" width="274" height="184" transform="translate(349.27046 353.59802) scale(.16202081)" />
-                        </g>
-                        <rect x="349.27046" y="353.59802" width="44.393702" height="29.81183" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <line x1="382.333" y1="274.97721" x2="374.39922" y2="343.2675" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="580.39237" y="204.09449" width="31.539506" height="62.362204" id="path_1d" />
-                        <clipPath id="clip_path_1d">
-                                <use xl:href="#path_1d" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_1d)">
-                                <image xl:href="image35.png" width="173" height="291" transform="translate(574.6579 198.36003) scale(.25287357)" />
-                        </g>
-                        <line x1="527.39032" y1="241.73571" x2="570.53576" y2="237.68282" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="560.90826" y="158.74016" width="68.38308" height="22.677165" id="path_1e" />
-                        <clipPath id="clip_path_1e">
-                                <use xl:href="#path_1e" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_1e)">
-                                <image xl:href="image36.png" width="389" height="129" transform="translate(560.90826 158.74016) scale(.17579198)" />
-                        </g>
-                        <line x1="507.52862" y1="196.53736" x2="551.43137" y2="183.27265" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="430.51456" y="374.17323" width="39.68504" height="40.218919" id="path_1f" />
-                        <clipPath id="clip_path_1f">
-                                <use xl:href="#path_1f" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_1f)">
-                                <image xl:href="image37.png" width="223" height="226" transform="translate(430.51456 374.17323) scale(.17795982)" />
-                        </g>
-                        <line x1="394.13943" y1="375.91249" x2="421.10422" y2="384.72375" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="362.48306" y="416.6929" width="51.925554" height="24.305579" id="path_20" />
-                        <clipPath id="clip_path_20">
-                                <use xl:href="#path_20" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_20)">
-                                <image xl:href="image38.png" width="306" height="165" transform="translate(358.61626 412.27372) scale(.19487427)" />
-                        </g>
-                        <line x1="375.79686" y1="383.89116" x2="382.3449" y2="407.16297" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <text transform="translate(566.25984 356.764)" fill="black">
-                                <tspan font-size="16" font-weight="bold" x=".228" y="16" textLength="30.544">PSL</tspan>
-                        </text>
-                        <rect x="456.37795" y="337.32283" width="64" height="25" fill="white" />
-                        <text transform="translate(461.37795 342.65483)" fill="black">
-                                <tspan font-size="12" font-weight="500" x=".216" y="11" textLength="53.568">Academia</tspan>
-                        </text>
-                        <rect x="650.33858" y="464.8819" width="81" height="25" fill="white" />
-                        <text transform="translate(655.33858 470.2139)" fill="black">
-                                <tspan font-size="12" font-weight="500" x=".154" y="11" textLength="62.02">Open Source</tspan>
-                        </text>
-                        <rect x="636.3307" y="322.0748" width="78" height="39" fill="white" />
-                        <text transform="translate(641.3307 327.2388)" fill="black">
-                                <tspan font-size="12" font-weight="500" x="3.094" y="11" textLength="65.148">Community </tspan>
-                                <tspan font-size="12" font-weight="500" x=".052" y="25.335999" textLength="68.232">Organisation</tspan>
-                        </text>
-                        <ellipse cx="757.18346" cy="302.74743" rx="11.005531" ry="10.7789465" fill="#5b87f2" />
-                        <ellipse cx="757.18346" cy="302.74743" rx="11.005531" ry="10.7789465" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="456.37795" y="464.8819" width="121" height="39" fill="white" />
-                        <text transform="translate(461.37795 470.0459)" fill="black">
-                                <tspan font-size="12" font-weight="500" x="22.044" y="11" textLength="70.248">Industry and </tspan>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" viewBox="101 62 938 693" width="938pt" height="693pt">
+  <defs>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="#9a9a9a">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>Canvas 1</title>
+    <rect fill="white" width="1155" height="783"/>
+    <g>
+      <title>Layer 1</title>
+      <rect x="959.2795" y="348.66142" width="63" height="23" fill="white"/>
+      <text transform="translate(964.2795 354.02142)" fill="black">
+        <tspan font-size="10" font-weight="500" x=".295" y="10" textLength="52.41">Cost Action</tspan>
+      </text>
+      <rect x="920.7874" y="448.37795" width="66" height="33" fill="white"/>
+      <text transform="translate(925.7874 453.62595)" fill="black">
+        <tspan font-size="9" font-weight="500" x=".1675" y="9" textLength="67.667">Microservices</tspan>
+        <tspan font-size="9" font-weight="500" x="4.8205" y="20.251999" textLength="46.359">Community</tspan>
+      </text>
+      <ellipse cx="581.75984" cy="400.2447" rx="11.005531" ry="10.7789465" fill="#5b87f2"/>
+      <ellipse cx="581.75984" cy="400.2447" rx="11.005531" ry="10.7789465" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <ellipse cx="383.51202" cy="264.82886" rx="10.152161" ry="9.7107626" fill="#5b87f2"/>
+      <ellipse cx="383.51202" cy="264.82886" rx="10.152161" ry="9.7107626" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="575.06498" y1="409.4195" x2="460.65836" y2="566.2053" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="572.31846" y1="393.79563" x2="400.3629" y2="276.33908" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="591.77105" y1="394.68064" x2="738.5189" y2="313.12084" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="591.09545" y1="406.8397" x2="773.7777" y2="535.89302" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="414.44524" y="702.99212" width="83.149606" height="42.519685" id="path"/>
+      <clipPath id="clip_path">
+        <use xl:href="#path"/>
+      </clipPath>
+      <g clip-path="url(#clip_path)">
+        <image xl:href="image4.png" width="96" height="72" transform="translate(414.44524 691.65354) scale(.86614173)"/>
+      </g>
+      <rect x="138.54605" y="99.2126" width="104.88189" height="45.35433" id="path_2"/>
+      <clipPath id="clip_path_2">
+        <use xl:href="#path_2"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_2)">
+        <image xl:href="image5.png" width="400" height="300" transform="translate(131.93188 76.535434) scale(.29291338)"/>
+      </g>
+      <line x1="375.70865" y1="257.87876" x2="319.90485" y2="208.17688" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="233.40587" y="535.74803" width="96" height="28.346457" id="path_3"/>
+      <clipPath id="clip_path_3">
+        <use xl:href="#path_3"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_3)">
+        <image xl:href="image6.png" width="96" height="72" transform="translate(233.40587 511.937)"/>
+      </g>
+      <rect x="295.39645" y="73.700787" width="98.267716" height="36.850393" id="path_4"/>
+      <clipPath id="clip_path_4">
+        <use xl:href="#path_4"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_4)">
+        <image xl:href="image7.png" width="288" height="216" transform="translate(295.39645 53.858266) scale(.34120735)"/>
+      </g>
+      <line x1="379.7502" y1="255.27364" x2="354.48338" y2="191.09439" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="178.88524" y="338.74016" width="30.776153" height="53.858267" id="path_5"/>
+      <clipPath id="clip_path_5">
+        <use xl:href="#path_5"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_5)">
+        <image xl:href="image8.png" width="96" height="72" transform="translate(158.36781 338.74016) scale(.7480315)"/>
+      </g>
+      <rect x="246.26259" y="260.7874" width="41.254997" height="26.929134" id="path_6"/>
+      <clipPath id="clip_path_6">
+        <use xl:href="#path_6"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_6)">
+        <image xl:href="image9.png" width="258" height="195" transform="matrix(.15990309 0 0 .13809812 246.26259 260.7874)"/>
+      </g>
+      <rect x="246.26259" y="260.7874" width="41.254997" height="26.929134" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="372.8973" y1="265.68653" x2="297.8838" y2="271.74766" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="255.8836" y1="288.10805" x2="215.8191" y2="338.54528" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="376.65629" y="147.40157" width="39.68504" height="28.346457" id="path_7"/>
+      <clipPath id="clip_path_7">
+        <use xl:href="#path_7"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_7)">
+        <image xl:href="image11.png" width="1280" height="640" transform="matrix(.031003937 0 0 .044291338 376.65629 147.40157)"/>
+      </g>
+      <rect x="376.65629" y="147.40157" width="39.68504" height="28.346457" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="415.80983" y="73.700787" width="34.547244" height="36.850393" id="path_8"/>
+      <clipPath id="clip_path_8">
+        <use xl:href="#path_8"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_8)">
+        <image xl:href="image13.png" width="1200" height="1280" transform="translate(415.80983 73.700787) scale(.02878937)"/>
+      </g>
+      <line x1="384.7871" y1="254.69112" x2="393.41833" y2="186.06673" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="404.1981" y1="146.9592" x2="418.7632" y2="119.310174" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="461.69566" y="87.874015" width="38.615007" height="38.87244" id="path_9"/>
+      <clipPath id="clip_path_9">
+        <use xl:href="#path_9"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_9)">
+        <image xl:href="image14.png" width="1200" height="1208" transform="translate(461.69566 87.874015) scale(.032179173)"/>
+      </g>
+      <line x1="416.76205" y1="148.56274" x2="453.36532" y2="125.05791" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="253.2795" y="215.43307" width="38.33742" height="25.511811" id="path_a"/>
+      <clipPath id="clip_path_a">
+        <use xl:href="#path_a"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_a)">
+        <image xl:href="image15.png" width="275" height="183" transform="translate(253.2795 215.43307) scale(.1394088)"/>
+      </g>
+      <rect x="253.2795" y="215.43307" width="38.33742" height="25.511811" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="373.43765" y1="261.50533" x2="301.49335" y2="237.77095" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="166.14297" y="158.74016" width="35.11687" height="34.015748" id="path_b"/>
+      <clipPath id="clip_path_b">
+        <use xl:href="#path_b"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_b)">
+        <image xl:href="image16.png" width="310" height="162" transform="translate(151.26294 158.74016) scale(.20997375)"/>
+      </g>
+      <line x1="252.84915" y1="216.59595" x2="209.78077" y2="191.1206" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="138.89764" y="221.10236" width="36.850393" height="36.850393" id="path_c"/>
+      <clipPath id="clip_path_c">
+        <use xl:href="#path_c"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_c)">
+        <image xl:href="image17.png" width="180" height="180" transform="translate(138.89764 221.10236) scale(.20472441)"/>
+      </g>
+      <line x1="252.7819" y1="230.12583" x2="185.60036" y2="236.74227" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="277.44369" y="174.80315" width="39.68504" height="26.456693" id="path_d"/>
+      <clipPath id="clip_path_d">
+        <use xl:href="#path_d"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_d)">
+        <image xl:href="image18.png" width="255" height="170" transform="translate(277.44369 174.80315) scale(.1556276)"/>
+      </g>
+      <rect x="277.44369" y="174.80315" width="39.68504" height="26.456693" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="277.01916" y1="175.42089" x2="235.8381" y2="149.79712" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="199.14404" y="73.700787" width="83.968944" height="34.015748" id="path_e"/>
+      <clipPath id="clip_path_e">
+        <use xl:href="#path_e"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_e)">
+        <image xl:href="image19.png" width="353" height="143" transform="translate(199.14404 73.700787) scale(.23787236)"/>
+      </g>
+      <line x1="289.40323" y1="174.37007" x2="255.89038" y2="116.291394" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="325.63267" y="155.00873" width="39.68504" height="26.40859" id="path_f"/>
+      <clipPath id="clip_path_f">
+        <use xl:href="#path_f"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_f)">
+        <image xl:href="image20.png" width="275" height="183" transform="translate(325.63267 155.00873) scale(.14430923)"/>
+      </g>
+      <rect x="325.63267" y="155.00873" width="39.68504" height="26.40859" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="345.305" y1="154.50877" x2="344.88205" y2="120.45042" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="110.853745" y="267.87401" width="47.443017" height="34.015748" id="path_10"/>
+      <clipPath id="clip_path_10">
+        <use xl:href="#path_10"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_10)">
+        <image xl:href="image21.png" width="265" height="190" transform="translate(110.853745 267.87401) scale(.17903025)"/>
+      </g>
+      <line x1="245.7642" y1="275.94918" x2="168.16497" y2="282.18335" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="122.19233" y="324.56693" width="39.862204" height="39.68504" id="path_11"/>
+      <clipPath id="clip_path_11">
+        <use xl:href="#path_11"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_11)">
+        <image xl:href="image22.png" width="225" height="224" transform="translate(122.19233 324.56693) scale(.17716535)"/>
+      </g>
+      <line x1="245.82676" y1="286.09607" x2="170.68383" y2="328.34966" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="257.60117" y="307.84252" width="39.68504" height="23.811023" id="path_12"/>
+      <clipPath id="clip_path_12">
+        <use xl:href="#path_12"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_12)">
+        <image xl:href="image23.png" width="290" height="174" transform="translate(257.60117 307.84252) scale(.13684496)"/>
+      </g>
+      <rect x="257.60117" y="307.84252" width="39.68504" height="23.811023" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="144.1176" y="411.02362" width="76.63318" height="22.677165" id="path_13"/>
+      <clipPath id="clip_path_13">
+        <use xl:href="#path_13"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_13)">
+        <image xl:href="image24.png" width="341" height="148" transform="translate(134.73394 400.07602) scale(.27586207)"/>
+      </g>
+      <line x1="266.08079" y1="332.02043" x2="199.65848" y2="403.75926" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="374.13762" y1="269.68265" x2="306.52167" y2="304.69227" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="231.30069" y="416.6929" width="34.80442" height="42.519685" id="path_14"/>
+      <clipPath id="clip_path_14">
+        <use xl:href="#path_14"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_14)">
+        <image xl:href="image25.png" width="203" height="248" transform="translate(231.30069 416.6929) scale(.17145034)"/>
+      </g>
+      <line x1="274.4308" y1="332.13939" x2="256.21109" y2="407.07318" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="430.86614" y="156.68404" width="39.68504" height="24.733281" id="path_15"/>
+      <clipPath id="clip_path_15">
+        <use xl:href="#path_15"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_15)">
+        <image xl:href="image26.png" width="284" height="177" transform="translate(430.86614 156.68404) scale(.13973605)"/>
+      </g>
+      <rect x="430.86614" y="156.68404" width="39.68504" height="24.733281" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="389.4574" y1="256.35467" x2="436.05933" y2="189.93098" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="519.8059" y="111.201755" width="39.68504" height="39.034465" id="path_16"/>
+      <clipPath id="clip_path_16">
+        <use xl:href="#path_16"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_16)">
+        <image xl:href="image27.png" width="257" height="196" transform="translate(510.69785 108.59946) scale(.2295082)"/>
+      </g>
+      <line x1="471.01035" y1="160.30096" x2="510.71432" y2="143.189145" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="297.28621" y="342.51789" width="39.68504" height="28.820694" id="path_17"/>
+      <clipPath id="clip_path_17">
+        <use xl:href="#path_17"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_17)">
+        <image xl:href="image28.png" width="263" height="191" transform="translate(297.28621 342.51789) scale(.150893685)"/>
+      </g>
+      <rect x="297.28621" y="342.51789" width="39.68504" height="28.820694" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="377.45616" y1="273.23068" x2="333.5965" y2="334.08105" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="288.78227" y="416.6929" width="36.850393" height="36.850393" id="path_18"/>
+      <clipPath id="clip_path_18">
+        <use xl:href="#path_18"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_18)">
+        <image xl:href="image29.png" width="225" height="225" transform="translate(288.78227 416.6929) scale(.16377953)"/>
+      </g>
+      <line x1="315.2373" y1="371.8346" x2="310.79157" y2="406.87166" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="322.24366" y1="371.81144" x2="351.01168" y2="455.51936" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="311.81102" y="464.8819" width="97.5" height="36.850393" id="path_19"/>
+      <clipPath id="clip_path_19">
+        <use xl:href="#path_19"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_19)">
+        <image xl:href="image31.png" width="225" height="225" transform="translate(311.81102 435.40157) scale(.43333333)"/>
+      </g>
+      <rect x="467.36495" y="189.92126" width="39.68504" height="25.511811" id="path_1a"/>
+      <clipPath id="clip_path_1a">
+        <use xl:href="#path_1a"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_1a)">
+        <image xl:href="image32.png" width="241" height="209" transform="matrix(.16466821 0 0 .12206608 467.36495 189.92126)"/>
+      </g>
+      <rect x="467.36495" y="189.92126" width="39.68504" height="25.511811" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="392.54554" y1="259.41446" x2="458.44453" y2="219.91673" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="484.37282" y="229.6063" width="42.519685" height="28.346457" id="path_1b"/>
+      <clipPath id="clip_path_1b">
+        <use xl:href="#path_1b"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_1b)">
+        <image xl:href="image33.png" width="255" height="170" transform="translate(484.37282 229.6063) scale(.16674386)"/>
+      </g>
+      <rect x="484.37282" y="229.6063" width="42.519685" height="28.346457" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="393.99686" y1="263.02163" x2="474.12395" y2="249.21053" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="349.27046" y="353.59802" width="44.393702" height="29.81183" id="path_1c"/>
+      <clipPath id="clip_path_1c">
+        <use xl:href="#path_1c"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_1c)">
+        <image xl:href="image34.png" width="274" height="184" transform="translate(349.27046 353.59802) scale(.16202081)"/>
+      </g>
+      <rect x="349.27046" y="353.59802" width="44.393702" height="29.81183" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="382.333" y1="274.97721" x2="374.39922" y2="343.2675" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="580.39237" y="204.09449" width="31.539506" height="62.362204" id="path_1d"/>
+      <clipPath id="clip_path_1d">
+        <use xl:href="#path_1d"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_1d)">
+        <image xl:href="image35.png" width="173" height="291" transform="translate(574.6579 198.36003) scale(.25287357)"/>
+      </g>
+      <line x1="527.39032" y1="241.73571" x2="570.53576" y2="237.68282" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="560.90826" y="158.74016" width="68.38308" height="22.677165" id="path_1e"/>
+      <clipPath id="clip_path_1e">
+        <use xl:href="#path_1e"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_1e)">
+        <image xl:href="image36.png" width="389" height="129" transform="translate(560.90826 158.74016) scale(.17579198)"/>
+      </g>
+      <line x1="507.52862" y1="196.53736" x2="551.43137" y2="183.27265" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="430.51456" y="374.17323" width="39.68504" height="40.218919" id="path_1f"/>
+      <clipPath id="clip_path_1f">
+        <use xl:href="#path_1f"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_1f)">
+        <image xl:href="image37.png" width="223" height="226" transform="translate(430.51456 374.17323) scale(.17795982)"/>
+      </g>
+      <line x1="394.13943" y1="375.91249" x2="421.10422" y2="384.72375" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="362.48306" y="416.6929" width="51.925554" height="24.305579" id="path_20"/>
+      <clipPath id="clip_path_20">
+        <use xl:href="#path_20"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_20)">
+        <image xl:href="image38.png" width="306" height="165" transform="translate(358.61626 412.27372) scale(.19487427)"/>
+      </g>
+      <line x1="375.79686" y1="383.89116" x2="382.3449" y2="407.16297" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(570.75984 356.764)" fill="black">
+        <tspan font-size="16" font-weight="bold" x=".328" y="16" textLength="21.344">CL</tspan>
+      </text>
+      <rect x="456.37795" y="337.32283" width="64" height="25" fill="white"/>
+      <text transform="translate(461.37795 342.65483)" fill="black">
+        <tspan font-size="12" font-weight="500" x=".216" y="11" textLength="53.568">Academia</tspan>
+      </text>
+      <rect x="650.33858" y="464.8819" width="81" height="25" fill="white"/>
+      <text transform="translate(655.33858 470.2139)" fill="black">
+        <tspan font-size="12" font-weight="500" x=".154" y="11" textLength="62.02">Open Source</tspan>
+      </text>
+      <rect x="636.3307" y="322.0748" width="78" height="39" fill="white"/>
+      <text transform="translate(641.3307 327.2388)" fill="black">
+        <tspan font-size="12" font-weight="500" x="3.094" y="11" textLength="65.148">Community </tspan>
+        <tspan font-size="12" font-weight="500" x=".052" y="25.335999" textLength="68.232">Organisation</tspan>
+      </text>
+      <ellipse cx="757.18346" cy="302.74743" rx="11.005531" ry="10.7789465" fill="#5b87f2"/>
+      <ellipse cx="757.18346" cy="302.74743" rx="11.005531" ry="10.7789465" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="456.37795" y="464.8819" width="121" height="39" fill="white"/>
+      <text transform="translate(461.37795 470.0459)" fill="black">
+        <tspan font-size="12" font-weight="500" x="22.044" y="11" textLength="70.248">Industry and </tspan>
                                 <tspan font-size="12" font-weight="500" x=".216" y="25.335999" textLength="110.904">Public Organisations</tspan>
-                        </text>
-                        <ellipse cx="448.12792" cy="583.37735" rx="11.005531" ry="10.7789465" fill="#5b87f2" />
-                        <ellipse cx="448.12792" cy="583.37735" rx="11.005531" ry="10.7789465" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <ellipse cx="822.3803" cy="192.80375" rx="11.005531" ry="10.7789465" fill="#5b87f2" />
-                        <ellipse cx="822.3803" cy="192.80375" rx="11.005531" ry="10.7789465" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <line x1="762.96716" y1="292.99417" x2="811.547" y2="211.07236" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <line x1="767.47363" y1="307.79926" x2="890.41076" y2="368.1537" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <ellipse cx="909.5882" cy="377.56753" rx="11.005531" ry="10.7789465" fill="#5b87f2" />
-                        <ellipse cx="909.5882" cy="377.56753" rx="11.005531" ry="10.7789465" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="745.1534" y="243.77953" width="79" height="25" fill="white" />
-                        <text transform="translate(750.1534 249.11153)" fill="black">
-                                <tspan font-size="12" font-weight="500" x=".498" y="11" textLength="68.220">Conferences</tspan>
-                        </text>
-                        <rect x="790.05118" y="317.48031" width="81" height="39" fill="white" />
-                        <text transform="translate(795.05118 322.64431)" fill="black">
-                                <tspan font-size="12" font-weight="500" x="10.276" y="11" textLength="50.662">Research</tspan>
-                                <tspan font-size="12" font-weight="500" x=".04" y="25.335999" textLength="70.92">Communities</tspan>
-                        </text>
-                        <ellipse cx="791.1992" cy="548.2002" rx="11.005531" ry="10.7789465" fill="#5b87f2" />
-                        <ellipse cx="791.1992" cy="548.2002" rx="11.005531" ry="10.7789465" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="813.95388" y="480.9055" width="59.116986" height="17.992126" id="path_21" />
-                        <clipPath id="clip_path_21">
-                                <use xl:href="#path_21" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_21)">
-                                <image xl:href="image40.png" width="115" height="35" transform="translate(813.95388 480.9055) scale(.51406075)" />
-                        </g>
-                        <rect x="884.03646" y="552.7559" width="57.065893" height="25.511811" id="path_22" />
-                        <clipPath id="clip_path_22">
-                                <use xl:href="#path_22" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_22)">
-                                <image xl:href="image41.png" width="113.33333" height="50.666667" transform="translate(884.03646 552.7559) scale(.50352258)" />
-                        </g>
-                        <rect x="774.4196" y="613.9567" width="36.289063" height="34.716537" id="path_23" />
-                        <clipPath id="clip_path_23">
-                                <use xl:href="#path_23" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_23)">
-                                <image xl:href="image42.png" width="300" height="287" transform="translate(774.4196 613.9567) scale(.12096354)" />
-                        </g>
-                        <rect x="827.8729" y="655.32283" width="82.04837" height="16.488189" id="path_24" />
-                        <clipPath id="clip_path_24">
-                                <use xl:href="#path_24" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_24)">
-                                <image xl:href="image43.png" width="209" height="42" transform="translate(827.8729 655.32283) scale(.39257593)" />
-                        </g>
-                        <rect x="646.2992" y="607.49684" width="65.19685" height="18.959852" id="path_25" />
-                        <clipPath id="clip_path_25">
-                                <use xl:href="#path_25" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_25)">
-                                <image xl:href="image44.png" width="524.88" height="152.64" transform="translate(646.2992 607.49684) scale(.12421287)" />
-                        </g>
-                        <line x1="798.80106" y1="539.7334" x2="828.8513" y2="506.26413" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <line x1="802.58534" y1="549.82532" x2="874.2358" y2="560.05194" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="655.03937" y="535.98425" width="33.779528" height="33.779528" id="path_26" />
-                        <clipPath id="clip_path_26">
-                                <use xl:href="#path_26" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_26)">
-                                <image xl:href="image45.png" width="150" height="150" transform="translate(655.03937 535.98425) scale(.22519685)" />
-                        </g>
-                        <line x1="779.70283" y1="548.65095" x2="698.7113" y2="551.8266" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <line x1="791.3844" y1="559.47767" x2="792.1165" y2="604.05802" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <line x1="781.44057" y1="554.17926" x2="702.86085" y2="602.32474" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <line x1="797.5395" y1="557.6145" x2="857.8135" y2="647.11143" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="871.937" y="504.56693" width="72" height="25" fill="white" />
-                        <text transform="translate(876.937 509.89893)" fill="black">
-                                <tspan font-size="12" font-weight="500" x=".34" y="11" textLength="62.544">SUNNY-CP</tspan>
-                        </text>
-                        <rect x="874.10236" y="609.96063" width="67" height="25" fill="white" />
-                        <text transform="translate(879.10236 615.29263)" fill="black">
-                                <tspan font-size="12" font-weight="500" x=".048" y="11" textLength="56.904">Zephyrus2</tspan>
-                        </text>
-                        <rect x="682.5118" y="663.8189" width="63" height="25" fill="white" />
-                        <text transform="translate(687.5118 669.1509)" fill="black">
-                                <tspan font-size="12" font-weight="500" x=".058" y="11" textLength="53.448">HyVarRec</tspan>
-                        </text>
-                        <line x1="802.29696" y1="545.2171" x2="862.3764" y2="529.06768" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <line x1="785.34836" y1="557.91483" x2="726.6731" y2="655.33822" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <line x1="800.8414" y1="554.35776" x2="879.56667" y2="604.63224" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="679.6811" y="158.74016" width="71" height="25" fill="white" />
-                        <text transform="translate(684.6811 164.07216)" fill="black">
-                                <tspan font-size="12" font-weight="500" x=".266" y="11" textLength="6.888">F</tspan>
-                                <tspan font-size="12" font-weight="500" x="6.494" y="11" textLength="54.24">ACS 2014</tspan>
-                        </text>
-                        <rect x="711.18897" y="119.05512" width="57" height="25" fill="white" />
-                        <text transform="translate(716.18897 124.38712)" fill="black">
-                                <tspan font-size="12" font-weight="500" x=".046" y="11" textLength="46.908">RC 2016</tspan>
-                        </text>
-                        <rect x="751.1811" y="71.55118" width="69" height="39" fill="white" />
-                        <text transform="translate(756.1811 76.71518)" fill="black">
-                                <tspan font-size="12" font-weight="500" x="17.392" y="11" textLength="27.552">SAC </tspan>
-                                <tspan font-size="12" font-weight="500" x=".478" y="25.335999" textLength="58.044">2014-2018</tspan>
-                        </text>
-                        <rect x="828.22047" y="76.535433" width="85" height="39" fill="white" />
-                        <text transform="translate(833.22047 81.699434)" fill="black">
-                                <tspan font-size="12" font-weight="500" x=".39" y="11" textLength="73.656">Microservices</tspan>
-                                <tspan font-size="12" font-weight="500" x="24.156" y="25.335999" textLength="26.688">2017</tspan>
-                        </text>
-                        <rect x="904.40944" y="105.56693" width="45" height="39" fill="white" />
-                        <text transform="translate(909.40944 110.73093)" fill="black">
-                                <tspan font-size="12" font-weight="500" x=".496" y="11" textLength="34.008">MADE</tspan>
-                                <tspan font-size="12" font-weight="500" x="4.156" y="25.335999" textLength="26.688">2018</tspan>
-                        </text>
-                        <rect x="903.2756" y="195.59055" width="52" height="39" fill="white" />
-                        <text transform="translate(908.2756 200.75455)" fill="black">
-                                <tspan font-size="12" font-weight="500" x=".222" y="11" textLength="41.556">ESOCC</tspan>
-                                <tspan font-size="12" font-weight="500" x="7.656" y="25.335999" textLength="26.688">2017</tspan>
-                        </text>
-                        <rect x="937.2638" y="144.56693" width="37" height="39" fill="white" />
-                        <text transform="translate(942.2638 149.73093)" fill="black">
-                                <tspan font-size="12" font-weight="500" x=".168" y="11" textLength="26.664">NIKT</tspan>
-                                <tspan font-size="12" font-weight="500" x=".156" y="25.335999" textLength="26.688">2018</tspan>
-                        </text>
-                        <line x1="833.63485" y1="195.15275" x2="893.5844" y2="207.66519" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <line x1="833.61896" y1="190.38243" x2="927.58584" y2="170.13773" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <line x1="831.97804" y1="186.57991" x2="896.10305" y2="144.9968" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <line x1="827.44177" y1="182.67162" x2="856.55514" y2="124.39187" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <line x1="818.53673" y1="182.17016" x2="796.01494" y2="119.86164" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <line x1="813.1995" y1="186.00361" x2="764.52054" y2="149.94761" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <line x1="811.1079" y1="190.53892" x2="760.38713" y2="180.34819" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="926.92913" y="311.81102" width="102.14286" height="36.850393" id="path_27" />
-                        <clipPath id="clip_path_27">
-                                <use xl:href="#path_27" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_27)">
-                                <image xl:href="image46.png" width="220" height="150" transform="translate(926.92913 296.018) scale(.46428571)" />
-                        </g>
-                        <rect x="927.90186" y="408.18897" width="50.050886" height="45.35433" id="path_28" />
-                        <clipPath id="clip_path_28">
-                                <use xl:href="#path_28" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_28)">
-                                <image xl:href="image47.png" width="350.4" height="317.52" transform="translate(927.90186 408.18897) scale(.14283929)" />
-                        </g>
-                        <line x1="916.7407" y1="386.40332" x2="928.1472" y2="400.49415" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <line x1="918.9719" y1="371.0383" x2="943.00534" y2="354.31578" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <line x1="436.85496" y1="581.1152" x2="339.11236" y2="561.5012" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <line x1="448.75884" y1="594.6394" x2="454.27526" y2="693.10762" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="252.87044" y="586.77165" width="76.142943" height="25.511811" id="path_29" />
-                        <clipPath id="clip_path_29">
-                                <use xl:href="#path_29" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_29)">
-                                <image xl:href="image48.png" width="388" height="130" transform="translate(252.87044 586.77165) scale(.1962447)" />
-                        </g>
-                        <line x1="436.68472" y1="584.5531" x2="338.86153" y2="594.604" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="267.04366" y="643.46456" width="64.070868" height="32.440946" id="path_2a" />
-                        <clipPath id="clip_path_2a">
-                                <use xl:href="#path_2a" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_2a)">
-                                <image xl:href="image49.png" width="316" height="160" transform="translate(267.04366 643.46456) scale(.20275591)" />
-                        </g>
-                        <line x1="437.92688" y1="588.59992" x2="339.57417" y2="638.953" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="343.5791" y="677.4803" width="61.580233" height="28.346457" id="path_2b" />
-                        <clipPath id="clip_path_2b">
-                                <use xl:href="#path_2b" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_2b)">
-                                <image xl:href="image50.png" width="600" height="400" transform="translate(332.17535 665.75074) scale(.13956014)" />
-                        </g>
-                        <line x1="441.7372" y1="592.75877" x2="389.59777" y2="669.29834" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="493.81532" y="666.14173" width="54.954575" height="14.9527565" id="path_2c" />
-                        <clipPath id="clip_path_2c">
-                                <use xl:href="#path_2c" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_2c)">
-                                <image xl:href="image51.png" width="430" height="117" transform="translate(493.81532 666.14173) scale(.12780134)" />
-                        </g>
-                        <line x1="455.28736" y1="592.20776" x2="508.9961" y2="658.4517" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                        <rect x="536.335" y="598.37795" width="32.756846" height="30.913387" id="path_2d" />
-                        <clipPath id="clip_path_2d">
-                                <use xl:href="#path_2d" />
-                        </clipPath>
-                        <g clip-path="url(#clip_path_2d)">
-                                <image xl:href="image52.png" width="231" height="218" transform="translate(536.335 598.37795) scale(.14180453)" />
-                        </g>
-                        <line x1="459.15905" y1="586.58983" x2="526.82986" y2="606.29685" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-                </g>
-        </g>
+      </text>
+      <ellipse cx="448.12792" cy="583.37735" rx="11.005531" ry="10.7789465" fill="#5b87f2"/>
+      <ellipse cx="448.12792" cy="583.37735" rx="11.005531" ry="10.7789465" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <ellipse cx="822.3803" cy="192.80375" rx="11.005531" ry="10.7789465" fill="#5b87f2"/>
+      <ellipse cx="822.3803" cy="192.80375" rx="11.005531" ry="10.7789465" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="762.96716" y1="292.99417" x2="811.547" y2="211.07236" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="767.47366" y1="307.7992" x2="890.41115" y2="368.15294" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <ellipse cx="909.5882" cy="377.56753" rx="11.005531" ry="10.7789465" fill="#5b87f2"/>
+      <ellipse cx="909.5882" cy="377.56753" rx="11.005531" ry="10.7789465" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="745.1534" y="243.77953" width="79" height="25" fill="white"/>
+      <text transform="translate(750.1534 249.11153)" fill="black">
+        <tspan font-size="12" font-weight="500" x=".498" y="11" textLength="68.220">Conferences</tspan>
+      </text>
+      <rect x="790.05118" y="317.48031" width="81" height="39" fill="white"/>
+      <text transform="translate(795.05118 322.64431)" fill="black">
+      <tspan font-size="12" font-weight="500" x="10.276" y="11" textLength="50.662">Research</tspan>
+      <tspan font-size="12" font-weight="500" x=".04" y="25.335999" textLength="70.92">Communities</tspan>
+      </text>
+      <ellipse cx="791.1992" cy="548.2002" rx="11.005531" ry="10.7789465" fill="#5b87f2"/>
+      <ellipse cx="791.1992" cy="548.2002" rx="11.005531" ry="10.7789465" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="813.95388" y="480.9055" width="59.116986" height="17.992126" id="path_21"/>
+      <clipPath id="clip_path_21">
+        <use xl:href="#path_21"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_21)">
+        <image xl:href="image40.png" width="115" height="35" transform="translate(813.95388 480.9055) scale(.51406075)"/>
+      </g>
+      <rect x="884.03646" y="552.7559" width="57.065893" height="25.511811" id="path_22"/>
+      <clipPath id="clip_path_22">
+        <use xl:href="#path_22"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_22)">
+        <image xl:href="image41.png" width="113.33333" height="50.666667" transform="translate(884.03646 552.7559) scale(.50352258)"/>
+      </g>
+      <rect x="774.4196" y="613.9567" width="36.289063" height="34.716537" id="path_23"/>
+      <clipPath id="clip_path_23">
+        <use xl:href="#path_23"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_23)">
+        <image xl:href="image42.png" width="300" height="287" transform="translate(774.4196 613.9567) scale(.12096354)"/>
+      </g>
+      <rect x="827.8729" y="655.32283" width="82.04837" height="16.488189" id="path_24"/>
+      <clipPath id="clip_path_24">
+        <use xl:href="#path_24"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_24)">
+        <image xl:href="image43.png" width="209" height="42" transform="translate(827.8729 655.32283) scale(.39257593)"/>
+      </g>
+      <rect x="646.2992" y="607.49684" width="65.19685" height="18.959852" id="path_25"/>
+      <clipPath id="clip_path_25">
+        <use xl:href="#path_25"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_25)">
+        <image xl:href="image44.png" width="524.88" height="152.64" transform="translate(646.2992 607.49684) scale(.12421287)"/>
+      </g>
+      <line x1="798.7987" y1="539.73135" x2="828.82876" y2="506.26596" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="802.5855" y1="549.8243" x2="874.23566" y2="560.04433" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="655.03937" y="535.98425" width="33.779528" height="33.779528" id="path_26"/>
+      <clipPath id="clip_path_26">
+        <use xl:href="#path_26"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_26)">
+        <image xl:href="image45.png" width="150" height="150" transform="translate(655.03937 535.98425) scale(.22519685)"/>
+      </g>
+      <line x1="779.7028" y1="548.6507" x2="698.7113" y2="551.82454" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="791.3844" y1="559.47767" x2="792.1165" y2="604.05802" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="781.4394" y1="554.1774" x2="702.82007" y2="602.32637" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="797.53957" y1="557.61444" x2="857.81455" y2="647.11147" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="871.937" y="504.56693" width="72" height="25" fill="white"/>
+      <text transform="translate(876.937 509.89893)" fill="black">
+        <tspan font-size="12" font-weight="500" x=".34" y="11" textLength="41.544">SUNNY</tspan>
+        <tspan font-size="12" font-weight="500" x="40.552" y="11" textLength="21.108">-CP</tspan>
+      </text>
+      <rect x="874.10236" y="609.96063" width="67" height="25" fill="white"/>
+      <text transform="translate(879.10236 615.29263)" fill="black">
+        <tspan font-size="12" font-weight="500" x=".048" y="11" textLength="56.904">Zephyrus2</tspan>
+      </text>
+      <rect x="682.5118" y="663.8189" width="63" height="25" fill="white"/>
+      <text transform="translate(687.5118 669.1509)" fill="black">
+        <tspan font-size="12" font-weight="500" x=".058" y="11" textLength="21.996">HyV</tspan>
+        <tspan font-size="12" font-weight="500" x="21.394" y="11" textLength="31.548">arRec</tspan>
+      </text>
+      <line x1="802.3027" y1="545.23785" x2="862.3716" y2="529.21192" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="785.34696" y1="557.914" x2="726.65173" y2="655.33895" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="800.8443" y1="554.35346" x2="879.66066" y2="604.636" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="679.6811" y="158.74016" width="71" height="25" fill="white"/>
+      <text transform="translate(684.6811 164.07216)" fill="black">
+        <tspan font-size="12" font-weight="500" x=".266" y="11" textLength="6.888">F</tspan>
+        <tspan font-size="12" font-weight="500" x="6.494" y="11" textLength="54.24">ACS 2014</tspan>
+      </text>
+      <rect x="711.18897" y="119.05512" width="57" height="25" fill="white"/>
+      <text transform="translate(716.18897 124.38712)" fill="black">
+        <tspan font-size="12" font-weight="500" x=".046" y="11" textLength="46.908">RC 2016</tspan>
+      </text>
+      <rect x="751.1811" y="71.55118" width="69" height="39" fill="white"/>
+      <text transform="translate(756.1811 76.71518)" fill="black">
+        <tspan font-size="12" font-weight="500" x="17.392" y="11" textLength="27.552">SAC </tspan>
+        <tspan font-size="12" font-weight="500" x=".478" y="25.335999" textLength="58.044">2014-2018</tspan>
+      </text>
+      <rect x="828.22047" y="76.535433" width="85" height="39" fill="white"/>
+      <text transform="translate(833.22047 81.699434)" fill="black">
+        <tspan font-size="12" font-weight="500" x=".39" y="11" textLength="86.556">Microservices</tspan>
+        <tspan font-size="12" font-weight="500" x="24.156" y="25.335999" textLength="26.688">2017</tspan>
+      </text>
+      <rect x="904.40944" y="105.56693" width="45" height="39" fill="white"/>
+      <text transform="translate(909.40944 110.73093)" fill="black">
+        <tspan font-size="12" font-weight="500" x=".496" y="11" textLength="48.008">MADE</tspan>
+        <tspan font-size="12" font-weight="500" x="4.156" y="25.335999" textLength="26.688">2018</tspan>
+      </text>
+      <rect x="903.2756" y="195.59055" width="52" height="39" fill="white"/>
+      <text transform="translate(908.2756 200.75455)" fill="black">
+        <tspan font-size="12" font-weight="500" x=".222" y="11" textLength="41.556">ESOCC</tspan>
+        <tspan font-size="12" font-weight="500" x="7.656" y="25.335999" textLength="26.688">2017</tspan>
+      </text>
+      <rect x="937.2638" y="144.56693" width="37" height="39" fill="white"/>
+      <text transform="translate(942.2638 149.73093)" fill="black">
+        <tspan font-size="12" font-weight="500" x=".168" y="11" textLength="36.664">NIKT</tspan>
+        <tspan font-size="12" font-weight="500" x=".156" y="25.335999" textLength="26.688">2018</tspan>
+      </text>
+      <line x1="833.63535" y1="195.15043" x2="893.584" y2="207.64975" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="833.61896" y1="190.38243" x2="927.58584" y2="170.13773" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="831.98" y1="186.58283" x2="896.1014" y2="145.0302" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="827.44177" y1="182.67162" x2="856.55514" y2="124.39187" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="818.54395" y1="182.16766" x2="796.07143" y2="119.86391" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="813.1995" y1="186.00361" x2="764.52054" y2="149.94761" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="811.1084" y1="190.53651" x2="760.3867" y2="180.33432" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="926.92913" y="311.81102" width="102.14286" height="36.850393" id="path_27"/>
+      <clipPath id="clip_path_27">
+        <use xl:href="#path_27"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_27)">
+        <image xl:href="image46.png" width="220" height="150" transform="translate(926.92913 296.018) scale(.4642857)"/>
+      </g>
+      <rect x="927.90186" y="408.18897" width="50.050886" height="45.35433" id="path_28"/>
+      <clipPath id="clip_path_28">
+        <use xl:href="#path_28"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_28)">
+        <image xl:href="image47.png" width="350.4" height="317.52" transform="translate(927.90186 408.18897) scale(.14283929)"/>
+      </g>
+      <line x1="916.7575" y1="386.3902" x2="928.2279" y2="400.50583" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="918.988" y1="371.06049" x2="943.2048" y2="354.2963" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="436.85496" y1="581.1152" x2="339.11236" y2="561.5012" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="448.75884" y1="594.6394" x2="454.27526" y2="693.10762" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="252.87044" y="586.77165" width="76.142943" height="25.511811" id="path_29"/>
+      <clipPath id="clip_path_29">
+        <use xl:href="#path_29"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_29)">
+        <image xl:href="image48.png" width="388" height="130" transform="translate(252.87044 586.77165) scale(.1962447)"/>
+      </g>
+      <line x1="436.68472" y1="584.5531" x2="338.86153" y2="594.604" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="267.04366" y="643.46456" width="64.070868" height="32.440946" id="path_2a"/>
+      <clipPath id="clip_path_2a">
+        <use xl:href="#path_2a"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_2a)">
+        <image xl:href="image49.png" width="316" height="160" transform="translate(267.04366 643.46456) scale(.20275591)"/>
+      </g>
+      <line x1="437.92688" y1="588.59992" x2="339.57417" y2="638.953" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="343.5791" y="677.4803" width="61.580233" height="28.346457" id="path_2b"/>
+      <clipPath id="clip_path_2b">
+        <use xl:href="#path_2b"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_2b)">
+        <image xl:href="image50.png" width="600" height="400" transform="translate(332.17535 665.75074) scale(.139560145)"/>
+      </g>
+      <line x1="441.7372" y1="592.75877" x2="389.59777" y2="669.29834" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="493.81532" y="666.14173" width="54.954575" height="14.9527565" id="path_2c"/>
+      <clipPath id="clip_path_2c">
+        <use xl:href="#path_2c"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_2c)">
+        <image xl:href="image51.png" width="430" height="117" transform="translate(493.81532 666.14173) scale(.12780134)"/>
+      </g>
+      <line x1="455.28736" y1="592.20776" x2="508.9961" y2="658.4517" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="536.335" y="598.37795" width="32.756846" height="30.913387" id="path_2d"/>
+      <clipPath id="clip_path_2d">
+        <use xl:href="#path_2d"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_2d)">
+        <image xl:href="image52.png" width="231" height="218" transform="translate(536.335 598.37795) scale(.14180453)"/>
+      </g>
+      <line x1="459.15905" y1="586.58983" x2="526.82986" y2="606.29685" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="119.05512" y="181.41732" width="36.850393" height="36.850393" id="path_2e"/>
+      <clipPath id="clip_path_2e">
+        <use xl:href="#path_2e"/>
+      </clipPath>
+      <g clip-path="url(#clip_path_2e)">
+        <image xl:href="image53.png" width="180" height="180" transform="translate(119.05512 181.41732) scale(.20472441)"/>
+      </g>
+      <line x1="252.79012" y1="224.07138" x2="165.59523" y2="205.8075" marker-end="url(#FilledArrow_Marker)" stroke="#9a9a9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
 </svg>
