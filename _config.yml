@@ -9,9 +9,9 @@ permalink: /events/:year-:month-:day-:title.html
 # Build settings
 incremental: true
 markdown: kramdown
-exclude: [ "layout_archive", "utils", "areas.md" ]
 excerpt_separator: "<!--more-->"
 group_short: "CL"
 group_name: "Concurrency and Logic"
-exclude: [ "no_publications", "images/communities.graffle"]
+exclude: [ "layout_archive", "utils", "images/communities.graffle", "areas.md", "README.md"]
 incremental: false
+no_publications: false

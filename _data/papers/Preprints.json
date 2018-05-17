@@ -1,16 +1,6 @@
 { "title" : "Preprints of Accepted Papers",
   "papers": [
   {
-    "bibitem": "@article{GGM15, author = {Maurizio Gabbrielli and Saverio Giallorenzo and Fabrizio Montesi}, title = {Applied Choreographies}, journal = {CoRR}, volume = {abs/1510.03637}, year = {2015}}",
-    "links": [ 
-      { "name" : "technical report", "link" : "http://arxiv.org/abs/1510.03637", "icon" : "arxiv" } 
-    ],
-    "abstract": "Choreographic Programming is a methodology for the development of concurrent software based on a correctness-by-construction approach which, given a global description of a system (a choreography), automatically generates deadlock-free communicating programs via an EndPoint Projection (EPP). Previous works use target-languages for EPP that, like their source choreography languages, model communications using channel names (e.g., variants of CCS and π-calculus). This leaves a gap between such models and real-world implementations, where communications are concretely supported by low-level mechanisms for message routing. We bridge this gap by developing Applied Choreographies (AC), a new model for choreographic programming. AC brings the correctness-by-construction methodology of choreographies down to the level of a real executable language. The key feature of AC is that its semantics is based on message correlation --- a standard technique in Service-Oriented Computing --- while retaining the usual simple and intuitive syntax of choreography languages. We provide AC with a typing discipline that ensures the correct use of the low-level mechanism of message correlation, thus avoiding communication errors. We also define a two-step compilation from AC to a low-level Correlation Calculus, which is the basis of a real executable language (Jolie). Finally, we prove an operational correspondence theorem, which ensures that compiled programs behave as the original choreography. This is the first result of such correctness property in the case of a real-world implemented language.",
-    "tags" : [ "Choreographic Programming" ],
-    "authors" : [ "Saverio Giallorenzo", "Fabrizio Montesi" ],
-    "grants" : [ "CRC" ]
-  },
-  {
     "bibitem": "@article{CGNS, author = {Cruz-Filipe, Lu{\\'i}s and Gaspar, Gra{\\c c}a and Nunes, Isabel and Schneider-Kamp, Peter}, title = {Active Integrity Constraints for General-Purpose Knowledge Bases}, journal = {Annals of Mathematics and Artificial Intelligence}, doi = {10.1007/s10472-018-9577-y}, note = {accepted for publication}}",
     "links": [
       { "link" : "http://tinyurl.com/lcfilipe/pubs/paperA.pdf" }
@@ -44,84 +34,6 @@
     "abstract": "Choreographic Programming is a paradigm for developing correct-by-construction concurrent programs, by writing high-level descriptions of the desired communications and then synthesising process implementations automatically. So far, choreographic programming has been explored in the <i>monadic</i> setting: interaction terms express point-to-point communications of a single value. However, real-world systems often rely on interactions of <i>polyadic</i> nature, where multiple values are communicated among two or more parties, like multicast, scatter-gather, and atomic exchanges.<br />We introduce a new model for choreographic programming equipped with a primitive for grouped interactions that subsumes all the above scenarios. Intuitively, grouped interactions can be thought of as being carried out as one single interaction. In practice, they are implemented by processes that carry them out in a concurrent fashion. After formalising the intuitive semantics of grouped interactions, we prove that choreographic programs and their implementations are correct and deadlock-free by construction.",
     "non_group" : false,
     "type": "Conference"
-  },
-  {
-    "bibitem": "@unpublished{CMa, author = {Lu{\\'i}s Cruz-Filipe and Fabrizio Montesi}, title = {A Core Model for Choreographic Programming}, note = {submitted for publication}}",
-    "links": [
-      { "link" : "http://tinyurl.com/lcfilipe/pubs/subH.pdf" }
-    ],
-    "tags": [ "Choreographic Programming" ],
-    "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi" ],
-    "abstract": "Choreographic Programming is a paradigm for developing concurrent programs that are deadlock-free by construction, by programming communications declaratively and then synthesising process implementations automatically. Despite strong interest on choreographies, a foundational model that explains which computations can be performed with the hallmark constructs of choreographies is still missing.<br />In this work, we introduce Core Choreographies (CC), a model that includes only the core primitives of choreographic programming. Every computable function can be implemented as a choreography in CC, from which we can synthesise a process implementation where independent computations run in parallel. We discuss the design of CC and argue that it constitutes a canonical model for choreographic programming.",
-    "non_group" : false,
-    "type": "preprint"
-  },
-  {
-    "bibitem": "@unpublished{ACJM, author = {Arbab, Farhad and Cruz-Filipe, Lu{\\'i}s and Jongmans, Sung-Shik and Montesi, Fabrizio}, title = {Connectors Meet Choreographies}, note = {submitted for publication}}",
-    "links": [
-      { "link" : "http://tinyurl.com/lcfilipe/pubs/subC.pdf" }
-    ],
-    "tags": [ "Choreographic Programming" ],
-    "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi" ],
-    "abstract": "Choreographic Programming is a paradigm for developing concurrent programs that are deadlock-free by construction, by syntactically disallowing mismatched I/O and then synthesising process implementations automatically. Most choreography models assume that all communication occurs synchronously between two parties. This has been relaxed in some settings, allowing for example asynchronous communications, many-to-one, or one-to-many. However, these extensions are hardcoded in the syntax and semantics of each particular model.<br />In this work, we present Cho-Reo-graphies (CR), a model where choreographies are parametric in the (Reo) connectors through which parties communicate. CR is the first choreography model where different communication semantics (e.g., synchronous and asynchronous) can freely be mixed in the same choreography. We prove that if a choreography respects the rules of the connectors that it uses, then the process implementation that we can synthesise from it enjoys deadlock freedom.",
-    "non_group" : false,
-    "type": "preprint"
-  },
-  {
-    "bibitem": "@unpublished{CMb, author = {Lu{\\'i}s Cruz-Filipe and Fabrizio Montesi}, title = {Procedural Choreographic Programming}, note = {submitted for publication}}",
-    "links": [
-      { "link" : "http://tinyurl.com/lcfilipe/pubs/subA.pdf" }
-    ],
-    "tags": [ "Choreographic Programming" ],
-    "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi" ],
-    "abstract": "Choreographic Programming is an emerging paradigm for correct-by-construction concurrent programming based on message passing. Models based on choreographic programming have been successfully developed for different settings where concurrent programming is challenging, including service-oriented computing and cyber-physical systems. However, the general applicability of the paradigm is limited by the current lack of support for reusable procedures, which hinders modularity.<br />We propose Procedural Choreographies (PC), a choreographic language model with full procedural abstraction. PC includes unbounded process creation and name mobility, yielding a powerful framework for writing correct concurrent algorithms that can be compiled into a process calculus. This expressivity requires a typing discipline to ensure that processes are properly connected when enacting procedures. Connections may form networks of arbitrary graph structures. We develop a formal synthesis procedure that, given a program in PC, generates a correct-by-construction concurrent implementation in terms of a process calculus. We illustrate the expressivity of PC with a series of examples, including parallel streams and parallel computation based on pipelining.",
-    "non_group" : false,
-    "type": "preprint"
-  },
-  {
-    "bibitem": "@unpublished{CMc, author = {Lu{\\'i}s Cruz-Filipe and Fabrizio Montesi}, title = {On Asynchrony and Choreographies}, note = {submitted for publication}}",
-    "links": [
-      { "link" : "http://tinyurl.com/lcfilipe/pubs/subD.pdf" }
-    ],
-    "tags": [ "Choreographic Programming" ],
-    "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi" ],
-    "abstract": "Choreographic Programming is a paradigm for the development of concurrent software, where deadlocks are prevented syntactically and then correct-by-construction implementations in process models are mechanically generated. The formal semantics of choreography languages are typically based on synchronous communications, in order to achieve a simpler theory. However, many real-world systems have asynchronous communications. Previous attempts at enriching choreographies with asynchrony rely on <i>ad-hoc</i> constructions, whose adequacy is only argued informally.<br />In this work, we present a systematic study of asynchronous communications in choreographies. First, we discuss and formalise the properties that an asynchronous semantics for choreographies should have. Then, we explore how out-of-order execution, previously used in choreographies for modelling concurrency, can be used to endow choreographies with an asynchronous semantics that satisfies our properties. Our development yields a pleasant correspondence with FIFO-based asynchronous messaging, modelled in a process calculus. Finally, we investigate the expressivity of choreography languages with respect to asynchrony. Specifically, we find out that choreography languages equipped with process spawning and name mobility primitives are expressive enough to program asynchronous behaviour over a simple synchronous semantics.",
-    "non_group" : false,
-    "type": "preprint"
-  },
-  {
-    "bibitem": "@unpublished{CCMM, author = {Marco Carbone and Lu{\\'i}s Cruz-Filipe and Fabrizio Montesi and Agata Murawska}, title = {Multiparty Classical Choreographies}, note = {submitted for publication}}",
-    "links": [
-      { "link" : "http://tinyurl.com/lcfilipe/pubs/subG.pdf" }
-    ],
-    "tags": [ "Choreographic Programming" ],
-    "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi" ],
-    "abstract": "We present Multiparty Classical Choreographies (MCC), a language model where global descriptions of communicating systems (choreographies) and processes can be modularly composed to implement typed multiparty sessions. Typing is achieved by generalising classical linear logic to judgements that explicitly record parallelism by means of hypersequents. Our approach unifies different lines of work on choreographies and processes with multiparty sessions, as well as their connection to linear logic. Thus, results developed in one context are carried over to the others. Key novelties of MCC include support for behavioural polymorphism in choreographies, as well as a translation from processes with replication to choreographies.",
-    "non_group" : false,
-    "type": "preprint"
-  },
-  {
-    "bibitem": "@article{MP17,  author = {Fabrizio Montesi and  Marco Peressotti},  title = {Choreographies meet Communication Failures},  journal = {CoRR},  volume = {abs/1712.05465},  year = {2017},  url = {http://arxiv.org/abs/1712.05465} }",
-    "links": [
-      { "link" : "https://arxiv.org/abs/1803.01049", "icon" : "arxiv"}
-    ],
-    "tags": [ "Choreographic Programming" ],
-    "authors": [ "Fabrizio Montesi", "Marco Peressotti" ],
-    "abstract": "Choreographies are global descriptions of communication structures, inspired by the \"Alice and Bob\" notation of security protocols. They have been successfully employed in the design and implementation of distributed systems. However, there is still limited evidence of the applicability of choreographies in the real-world setting of distributed programming, where communication actions may fail. In this work, we propose the first choreography model that allows for communication failures and the programming of user-defined code to deal with such failures. We validate our model by implementing common strategies for handling communication failures in a robust way, which in turn can be used as a library by choreographies that assume reliable communication. We equip our model with a typing discipline that can statically verify reliability properties, in particular at-most-once and exactly-once delivery. We demonstrate the applicability of our model by defining a semantics-preserving compilation procedure towards a process calculus equipped with unreliable I/O actions.",
-    "non_group" : false,
-    "type": "preprint"
-  },
-  {
-    "bibitem": "@article{MP18,  author = {Fabrizio Montesi and  Marco Peressotti},  title = {Classical Transitions},  journal = {CoRR},  volume = {abs/1803.01049},  year = {2018},  url = {http://arxiv.org/abs/1803.01049} }",
-    "links": [
-      { "link" : "http://arxiv.org/abs/1803.01049",
-        "icon" : "arxiv"}
-    ],
-    "tags": [ "Process Calculi" ],
-    "authors": [ "Fabrizio Montesi", "Marco Peressotti" ],
-    "abstract": "We introduce the calculus of Classical Transitions (CT), which extends the research line on the relationship between linear logic and processes to labelled transitions. The key twist from previous work is registering parallelism in typing judgements, by generalising linear logic judgements from one sequents to many (hypersequents). This allows us to bridge the gap between the structures of operators used as proof terms in previous work and those of the standard π-calculus (in particular parallel operator and restriction). The proof theory of CT allows for new proof transformations, which we show correspond to a labelled transition system (LTS) for processes. We prove that CT enjoys subject reduction and progress.",
-    "non_group" : false,
-    "type": "preprint"
   }
 ]
 }

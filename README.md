@@ -13,7 +13,7 @@ HTML tag.
 
 Event posts are found in `_posts` folder within the root. There, a post is a separate `.md` file named following the convention `yyyy-mm-dd-title.md`. The `title` is not important and the only constraint is that the first part of the name corresponds to a date formatted follow the previous rule.
 
-The header of each file follows the convention below, which is self-explanatory. Fields `"place"` and `"date_end"` are optional. In the main part of the post, please use the tag `<!--more-->` to set the limit of the post excerpt, used to preview the article.
+The header of each file follows the convention below, which is self-explanatory. Fields `"place"` and `"date_end"` are optional. Dates may be limited to year, month, etc. In the main part of the post, please use the tag `<!--more-->` to set the limit of the post excerpt, used to preview the article.
 
 ```yaml
 ---
@@ -22,13 +22,13 @@ title: "My Fancy Title"
 place: "Odense (DK)"
 date: 2018-03-10 14:00:00
 date_end: 2018-03-12 14:00:00
-permalink: /first-post.html
 ---
 ```
 
 ### Adding publications
 
-Publications are added inside the `_data/papers` folder, within the root, in files named by year. E.g., file `2017.json` is a json array `[ { object_1 }, { object_2 }, ... ]` that contains papers published in 2017. The schema for each `object` is
+Publications are added inside the `_data/papers` folder, within the root, in files named after the publication year, `preprints.json` (accepted for publication), or `draft.json` (reports etc.). 
+For instance, `2017.json` is a json array `[ { object_1 }, { object_2 }, ... ]` that contains papers published in 2017. The schema for each `object` is
 
 ```json
 {
@@ -43,6 +43,7 @@ Publications are added inside the `_data/papers` folder, within the root, in fil
         "link" : "PAPERLINK"
       }
     ],
+    "type" : "PAPER_TYPE",
     "tags" : [ "TAG1", "TAG2", "TAG3" ],
     "authors" : [ "MEMBER1" , "MEMBER2" ],
     "grants" : [ "G1" , "G2" ],
@@ -54,6 +55,7 @@ Where
 
 - `BIBLINK` is the bibitem of the paper in linearised format (no new lines);
 - `"links"` contains a list of links related to the publication. For each element, if the `"name"` attribute of the element is omitted, it will be visualised using the default name `paper` and if the `"icon"` attribute of the element is omitted, it will be visualised with the [generic link icon](https://fontawesome.com/icons/link?style=solid). Valid names for icons are: `pdf`, `paper` (aliases `pdf`), `arxiv`, `corr` (aliases `arxiv`) , `site`, `website` (aliases `site`), `video`, `slides`, `generic` (the default one);
+- `"type"` contains the publication type (`"book"`,`"book chapter"`,`"journal"`,`"conference"`,`"workshop"`,`"report"`, etc.) following the convention that `"report"` is for publications in `"draft.json"`;
 - `"tags"` contains relevant tags/keywords for the paper, used by the by-keyword filter to select the related papers;
 - `"authors"` contains relevant members in the PLS group that authored the paper. These are used by the by-author filter to select the related papers;
 - `"grants"` contains possible grants that supported the publication;
