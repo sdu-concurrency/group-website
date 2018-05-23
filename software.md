@@ -29,9 +29,13 @@ layout: default
   <div>{{ software.short-bio }}</div>
 {% endif %}
 <div>
+{% if software.website %}
 <small><a class="nodec" href="{{ software.website }}"><span class="fa fa-desktop"></span> Website</a></small>
-| 
-<small><a class="nodec" href="{{ software.repository }}"><span class="fab fa-git"></span> Repository</a></small>
+{% endif %}
+{% if software.repository %}
+  {% if software.website %} | {% endif %}
+  <small><a class="nodec" href="{{ software.repository.link | default: software.repository }}"><span class="{{ software.repository.icon | default: "fas fa-code-branch" }}"></span> Repository</a></small>
+{% endif %}
 </div>
 </div>
 </div>

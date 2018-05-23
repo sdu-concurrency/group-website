@@ -4,7 +4,10 @@
     "short-bio" : "A choreography language for adaptive distributed systems",
     "bio" : "AIOCJ is a choreography programming language for developing adaptive systems. Distributed programs specified in AIOCJ are programmed from a global point of view and projected to singular entities that, distributed and run in parallel, enact the global behaviour. Programs written in AIOCJ are deadlock-free by construction and can adapt at runtime. A developer can specify which fragments of the global interaction can change. At runtime the projected entities can substitute (update) marked fragments with new ones provided by compliant repositories. AIOCJ programs always update in a coherent way, which preserves deadlock freedom. Since AIOCJ choreographies are projected to Jolie programs they can also make use of functions provided by external services.",
     "website" : "http://www.cs.unibo.it/projects/jolie/aiocj.html",
-    "repository" : "https://github.com/thesave/aiocj/",
+    "repository" : {
+      "link" : "https://github.com/thesave/aiocj/",
+      "icon" : "fab fa-github"
+    },
     "logo" : "/images/software/aiocj.png",
     "tags" : [ "choreographic programming", "adaptability" ]
   },
@@ -13,7 +16,10 @@
     "short-bio" : "The first language for choreographic programming",
     "bio" : "Chor is a new programming language for communicating systems, based on choreographies. Choreographies are global descriptions of system implementations, where the behaviour of all entities in a system is given in a single program. Choreographies enhance the quality of software, as they represent ``formal blueprints'' of how communicating systems should behave and offer a concise view of the message flows enacted by a system. In Chor, a choreography can then be projected (or compiled, if you like) onto a set of separate programs that can be run in a distributed system.",
     "website" : "http://www.chor-lang.org/",
-    "repository" : "https://github.com/chorlang/chor-eclipse",
+    "repository" : {
+      "link" : "https://github.com/chorlang/chor-eclipse",
+      "icon" : "fab fa-github"
+    },
     "logo" : "/images/software/chor.png",
     "tags" : [ "choreographic programming" ]
   },
@@ -22,7 +28,10 @@
     "short-bio" : "A Service-Oriented Programming Language",
     "bio" : "Jolie is a general-purpose service-oriented programming language. It brings elegance, simplicity, and pragmatism in the development of modular, integrated, distributed, and concurrent applications. The development of the Jolie language is based on a positive loop between formal theory and practical requirements. One of the strongest values of Jolie is the freedom it gives when designing distributed solutions. Depending on the requirements and the constraints of a specific problem, a programmer can choose whether to build a basic, immediate, yet lightweight solution to integrate applications from different domains or to model the solution by exploiting the language's advanced composition primitives, forging an highly modular distributed system. Although young, the language is continuously maintained and enhanced, with the contribution of researchers from many universities (SDU, UniBO, ITU, DTU, Innopolis). Finally, Jolie programs strive for minimality, the same minimality predicated by the microservice architectural style.",
     "website" : "http://www.jolie.com",
-    "repository" : "https://github.com/jolie/jolie",
+    "repository" : {
+      "link" : "https://github.com/jolie/jolie",
+      "icon" : "fab fa-github"
+    },
     "logo" : "/images/software/jolie.png",
     "tags" : [ "microservices", "integration" ]
   },
@@ -31,7 +40,10 @@
     "short-bio" : "Integrating IoT-related technologies into the Jolie language.",
     "bio" : "The JIoT project is aimed at integrating IoT-related technologies into the Jolie language. The Internet of Things (IoT) promotes the communication among heterogeneous entities, from small sensors to Cloud systems. However, this is realized using a wide range of communication media and data protocols, usually incompatible with each other. Thus, IoT systems tend to grow as homogeneous isolated platforms - usually referred as \"IoT islands\" -, which hardly interact. To achieve a higher degree of interoperability among disparate IoT platforms, the JIoT project investigates how abstractions suitable for service-oriented and microservice architectures can aid integrating disparate IoT islands. Jolie currently supports the main technologies from Service-Oriented Computing, such as TCP/IP, Bluetooth, and RMI at transport level, and HTTP and SOAP at application level. As first technical result of the project, we integrated in Jolie the two most adopted protocols for IoT communication, i.e., CoAP and MQTT. The integration of IoT-specific protocols into the service-oriented setting of Jolie poses some interesting challenges, the two main being i) the integration of unreliable channels (UDP/CoAP) and ii) bridging the simple request-response communication style of Jolie with the peculiarities of the Publish/Subscribe communication pattern.",
     "website" : "http://www.cs.unibo.it/projects/jolie/jiot.html",
-    "repository" : "https://github.com/stefanopiozingaro/jolie/",
+    "repository" : {
+      "link" : "https://github.com/stefanopiozingaro/jolie/",
+      "icon" : "fab fa-github"
+    },
     "logo" : "/images/software/jiot.png",
     "tags" : [ "internet of things", "integration" ]  
   },
@@ -40,7 +52,10 @@
     "short-bio" : "A microservice-based, federated platform for creating, publishing, and trading transportation services.",
     "bio" : "Key element of Mobility as a Service (MaaS) is that MaaS operators can aggregate solutions of multiple transport companies to deliver dynamic, transparent multi-modal travels to their users, who experience transportation as managed directly by a single operator. To enable MaaS, within the Smart Mobility for All EIT Project, we created SMAll, a platform (and its related wiki) where providers of transport solutions can trade their information as well as other services for mobility, like booking, payment, and travel assistance, on demand. SMAll includes the latests technologies in terms of provision, deployment, scaling, and maintenance of applications: microservices and containerisation. In addition, SMAll supports the creation of a federation-based MaaS market, where a SMAll instance is a hub for local (e.g., city-wide) transport operators and geographically sparse SMAll instances can federate to form a global market for MaaS. To test SMAll, we also implemented pilots within the platform, collaborating with the Department of Transportation of Regione Emilia-Romagna, Lepida S.p.A., and Foundazione Bruno Kessler.",
     "website" : "https://forumvirium.fi/en/small-develops-mobility-as-a-service/",
-    "repository" : "https://github.com/small-dev",
+    "repository" : {
+      "link" : "https://github.com/small-dev",
+      "icon" : "fab fa-github"
+    },
     "logo" : "/images/software/small.png",
     "tags" : [ "microservices", "smart cities", "integration" ]
   },
@@ -49,7 +64,10 @@
     "short-bio" : "An extensible Java library for Bigraphs and Bigraphical Reactive Systems.",
     "bio":"Bigraphs and Bigraphical Reactive Systems are a modern, graphical calculus for the description of the syntax and semantics of systems in terms of the orthogonal notions of connectivity and locality. Since they introduction by Robin Milner, bigraphs have been succesfully applied to model complex, concurrent, context-dependent, or ubiquituous systems in a variety of fields beyond computer science like biology and databases.",
     "website" : "http://mads.uniud.it/wordpress/downloads/libbig/",
-    "repository" : "https://github.com/bigraphs/jlibbig",
+    "repository" : {
+      "link" : "https://github.com/bigraphs/jlibbig",
+      "icon" : "fab fa-github"
+    },
     "logo" : "/images/software/jlibbig.png",
     "tags" : [ "rewriting systems" ]
   },
@@ -58,7 +76,10 @@
     "short-bio" : "A configurator optimizer for distributed system.",
     "bio" : "Zephyrus2 is a tool that starting from a simple description of the software components that can be deploy, with their requirements and resources needs, it can compute what is the optimal deployment solution that satisfies all the user needs. Zephyrus2 relies on SMT or CP solvers for the exploration of the search space and provides a new declarative specification language to define the desired configuration and user preferences. It can be deployed as a service by using the Docker container technology.",
     "website" : "https://bitbucket.org/jacopomauro/zephyrus2/src",
-    "repository" : "",
+    "repository" : {
+      "link" : "https://bitbucket.org/jacopomauro/zephyrus2/src",
+      "icon" : "fab fa-bitbucket"
+    },
     "tags" : [ "deployment", "optimization", "configuration", "services" ]
   },
 	{
@@ -66,7 +87,10 @@
     "short-bio" : "A Parallel Constraint Problem (CP) Portfolio Solver",
     "bio" : "sunny-cp is a parallel parallel portfolio solver that allows to solve a Constraint (Satisfaction/Optimization) Problem defined in the MiniZinc language. sunny-cp is built on top of state-of-the-art constraint solvers, including: Choco, Chuffed, G12/LazyFD, G12/FD, G12/Gurobi, G12/MIP, Gecode, HaifaCSP, JaCoP, MinisatID, OR-Tools, Picat that are used to provide a faster and better global solver. sunny-cp performed very well in the MiniZinc Challenge, the international solver competition for the evaluation of CP solvers, winning three goal medals in the editions of 2015, 2016, and 2017. sunny-cp can be deployed as a service by using the Docker container technology.",
     "website" : "https://github.com/CP-Unibo/sunny-cp",
-    "repository" : "https://github.com/CP-Unibo/sunny-cp",
+    "repository" : {
+      "link" : "https://github.com/CP-Unibo/sunny-cp",
+      "icon" : "fab fa-github"
+    },
     "tags" : [ "constraint programming", "MiniZinc", "optimization", "portfolio" ]
   },
 	{
@@ -74,7 +98,10 @@
     "short-bio" : "A reconfigurator tool for Software Product Line (SPL)",
     "bio" : "HyVarRec is a tool that allows to reconfigure an existing configuration for a given Software Product Line (SPL) when it is subject to contextual changes. It can be also used to analyze the correctness of the SPL find when it does not allow a configuration or if there are dead or false optional features. In case no configuration is possible, HyVarRec can provide also an explanation that can be later used by the SPL developers to solve the inconsistency. HyVarRec uses the SMT solver Z3 to solve the optimization problems involved in the reconfiguration and the maximization of the user preferences. HyVarRec can be deployed as a service by using the Docker container technology.",
     "website" : "https://github.com/HyVar/hyvar-rec",
-    "repository" : "https://github.com/HyVar/hyvar-rec",
+    "repository" : {
+      "link" : "https://github.com/HyVar/hyvar-rec",
+      "icon" : "fab fa-github"
+    },
     "tags" : [ "Software Product Line", "reconfiguration", "anomalies", "explanations" ]
   },
 ]
