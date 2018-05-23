@@ -37,11 +37,11 @@ Do we want to keep this? In case we don't, please remove this section and the re
   <div class="card-body">
     <p class="small card-text">
     {{ mp.description }}
-    </p>  
     {% if mp.link %}
-    <span class="small">Please find more details on this project following 
-    <a class="card-link" href="{{mp.link}}">this link</a></span>.
+    <a class="card-link" href="{{mp.link}}">More information</a>
     {% endif %}
+    </p>  
+    <span class="small">Contact person: {{ mp.contact }}</span>
   </div>
 </div>
 
@@ -55,12 +55,11 @@ Do we want to keep this? In case we don't, please remove this section and the re
     <div class="card-header alert-success">{{ pp.title }}</div>
   <div class="card-body">
     <p class="small card-text">
-    {{ pp.description }}
-    </p>  
-    {% if pp.link %}
-    <span class="small">Please find more details on this project following 
-    <a class="card-link" href="{{pp.link}}">this link</a></span>.
+    {{ pp.description }}{% if pp.link %}
+    <a class="card-link" href="{{pp.link}}">More information</a>
     {% endif %}
+    </p>  
+    <span class="small">Contact person: {{ pp.contact }}</span>
   </div>
 </div>
 
