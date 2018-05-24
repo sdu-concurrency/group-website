@@ -24,11 +24,16 @@ validating their properties.
 
 ## Talent Fellowship
 
-Do we want to keep this? In case we don't, please remove this section and the related menu item.
+TBA
 
 ## Theses opportunities
 
 ### Master projects
+{% assign mps = site.data.phd_project | size %}
+
+{% if mps < 1 %}
+There are no Master projects are available at the moment.
+{% endif %}
 
 {% for mp in site.data.master_projects %}
 
@@ -48,6 +53,12 @@ Do we want to keep this? In case we don't, please remove this section and the re
 {% endfor %}
 
 ### PhD projects
+
+{% assign pps = site.data.phd_project | size %}
+
+{% if pps < 1 %}
+There are no PhD projects are available at the moment.
+{% endif %}
 
 {% for pp in site.data.phd_projects %}
 
