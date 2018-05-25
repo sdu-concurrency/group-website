@@ -32,7 +32,7 @@ TBA
 {% assign mps = site.data.phd_project | size %}
 
 {% if mps < 1 %}
-There are no Master projects are available at the moment.
+There are no Master projects available at the moment.
 {% endif %}
 
 {% for mp in site.data.master_projects %}
@@ -57,7 +57,7 @@ There are no Master projects are available at the moment.
 {% assign pps = site.data.phd_project | size %}
 
 {% if pps < 1 %}
-There are no PhD projects are available at the moment.
+There are no PhD projects available at the moment.
 {% endif %}
 
 {% for pp in site.data.phd_projects %}
