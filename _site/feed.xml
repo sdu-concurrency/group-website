@@ -6,9 +6,37 @@
 </description>
     <link>http://concurrency.sdu.dk/</link>
     <atom:link href="http://concurrency.sdu.dk/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 24 May 2018 10:29:28 +0200</pubDate>
-    <lastBuildDate>Thu, 24 May 2018 10:29:28 +0200</lastBuildDate>
+    <pubDate>Fri, 25 May 2018 10:46:43 +0200</pubDate>
+    <lastBuildDate>Fri, 25 May 2018 10:46:43 +0200</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Report from Microservices: Agile and DevOps Experiences (MADE18)</title>
+        <description>&lt;p&gt;&lt;img class=&quot;img-fluid mx-auto d-block&quot; src=&quot;/images/posts/made18.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;On May 21st, 2018 &lt;a href=&quot;/people.html#sg&quot;&gt;Saverio Giallorenzo&lt;/a&gt; co-chaired the &lt;a href=&quot;https://sites.google.com/view/made18/&quot;&gt;Second International Workshop on Microservices: Agile and DevOps Experience (MADE18)&lt;/a&gt;, co-located with the &lt;a href=&quot;https://www.agilealliance.org/xp2018/&quot;&gt;XP2018&lt;/a&gt; conference in Porto, Portugal.
+The workshop has been a success, with 30+ attendees and highly participated presentations.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;The workshop opened with an account on “Technical Debt in Continuous Architecting Processes” given by the workshop’s keynote speaker Antonio Martini, followed by a call for collaboration in the &lt;a href=&quot;http://microservices.sdu.dk/&quot;&gt;Microservices Community&lt;/a&gt;, given by Giallorenzo.&lt;/p&gt;
+
+&lt;p&gt;Accepted authors presented 7 works in total, comprising studies on the impact of microservice development in teams and companies, DevOps techniques for the development of microservices, and tools to aid the design, development, and transition to microservice architectures.&lt;/p&gt;
+
+&lt;p&gt;Giallorenzo also presented a coding, hands-on session called “Microservices, all the way down”, where he illustrated how, using the Jolie language, suitable language abstractions can loose the implicit coupling that often binds collaborating microservices: communication. Interested readers can find the full abstract below.&lt;/p&gt;
+
+&lt;h3 id=&quot;microservices-all-the-way-down--hands-on-experience&quot;&gt;Microservices, all the way down | Hands-on Experience&lt;/h3&gt;
+
+&lt;p&gt;One of the main tenets of the microservice approach is to loose the ties among (distributed) software components (i.e., microservices), so that they can be developed, evolved, and scaled independently. However, there is one often-overlooked element that binds indirectly together collaborating microservices: communication. This binding consists of the dependencies on the libraries and/or frameworks that support the communication protocols and data formats that are chosen in the design of the microservice architecture. Regardless of whether this choice was conscious or not, it can quickly lead to technical debt unless it is carefully managed: the programming paradigms of each library tend to leak into the core logic of the microservice, making switching to other communication stacks difficult or even infeasible. All of a sudden, the so-advertised resilience of microservices gave way to an inflexible and limiting architecture.&lt;/p&gt;
+
+&lt;p&gt;In this hands-on demonstration we will see, using the Jolie language, how suitable language abstractions can loose these implicit couplings. The ultimate aim is to experiment how, through the lens of Jolie, web services, traditional programs, and even IoT devices are all the same: microservices, all the way down.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 21 May 2018 00:00:00 +0200</pubDate>
+        <link>http://concurrency.sdu.dk/events/2018-05-21-MADE18.html</link>
+        <guid isPermaLink="true">http://concurrency.sdu.dk/events/2018-05-21-MADE18.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>CL @ ACM/SIGAPP Symposium On Applied Computing</title>
