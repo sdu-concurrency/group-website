@@ -28,10 +28,17 @@ ul {
 
 </header>
 
-	<section class="wrapper card style4 container">
+<section class="wrapper card style4 container">
 	{% assign data = site.data.papers %}
 		<!-- Content -->
 		<div>
+		<div>
+			<span data-toggle="tooltip" data-placement="auto" title="" data-original-title="Slide this button to filter the papers below. The default, '{{site.group_short}} only', displays the subset of papers written by the members of {{site.group_short}} since its foundation and within its context. Toggling the button to 'All papers' displays all the papers published by the members, both within and outside of the scope of {{site.group_short}}.">
+			All papers or {{ site.group_short }} only?: <input id="display_papers" type="checkbox" data-toggle="toggle" data-on="All papers " data-off="{{ site.group_short }} only" data-onstyle="info" data-offstyle="primary" data-size="small">
+	 		</span>
+	 	</div>
+	 		<script>$(function(){$('[data-toggle="tooltip"]').tooltip()})</script>
+		<hr />
 			<div>Filter by keywords:</div>
 			<span class="filters" >
 				{{ data | collectTags }}
@@ -51,15 +58,6 @@ ul {
 				{{ data | collectTypes }}
 			</span>
 		</div>
-		<hr />
-		<div class="row">
-			<div class="col-4 col-lg-3">
-			Display: <input id="display_papers" type="checkbox" data-toggle="toggle" data-on="All papers " data-off="{{ site.group_short }} only" data-onstyle="info" data-offstyle="primary" data-size="small">
-	 		</div>
-	 		<div class="col-8 col-lg-9 alert alert-warning" role="alert">
-			<div style="line-height: 1.2;" class="small">This button toggles the display of either "Only {{site.group_short}}" papers, i.e., papers written since its foundation of the group and within its context, or "All papers" published by the members of the  group.</div>
-	 		</div>
-	 	</div>
 		<hr />
 		<div>
 		  {{ view-download }}

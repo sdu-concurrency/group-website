@@ -129,7 +129,7 @@ $(document).ready(function() {
         }
         filter = filter.toLowerCase();
         $( ".btn-filter" ).each( function(i, e) {
-            if( $( e ).ignore(".tot").text().toLowerCase() == filter){
+            if( $.trim( $( e ).ignore(".tot").text().toLowerCase() ) == filter){
                 $( e ).trigger( 'click' );
                 return false;
             }
