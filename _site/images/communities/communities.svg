@@ -9,10 +9,8 @@
     </marker>
   </defs>
   <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
-    <title>Canvas 1</title>
     <rect fill="white" width="1155" height="783"/>
     <g>
-      <title>Layer 1</title>
       <rect x="959.2795" y="348.66142" width="63" height="23" fill="white"/>
       <text transform="translate(964.2795 354.02142)" fill="black">
         <tspan font-size="10" font-weight="500" x=".295" y="10" textLength="52.41">Cost Action</tspan>
