@@ -57,9 +57,15 @@
 
   <body class="no-sidebar">
 
-    <nav class="pl-3 navbar navbar-expand-md navbar-light bg-light">
-  <span class="navbar-brand">
-    <strong class="d-inline ">
+    <style>
+  .header-nav .navbar-brand a, .header-nav .nav-link{
+    color: white !important;
+  }
+</style>
+
+<nav class="header-nav pl-3 navbar navbar-static-top navbar-expand-md navbar-dark bg-dark">
+  <div class="navbar-brand">
+    <strong class="d-inline">
     <a href="https://www.sdu.dk/en/Om_SDU/Institutter_centre/Imada_matematik_og_datalogi">IMADA</a>
     </strong>
     <span class="d-inline "> > </span>
@@ -68,12 +74,13 @@
         <strong class="d-none d-xl-inline">Concurrency and Logic</strong>
         <span class="d-none d-md-inline">Group</span>
       </a>
-    </span>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+    </div>
     <div class="ml-auto">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="clear-fix"></div>
+        <div class="collapse navbar-collapse float-right" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 <li class="nav-item my-2 my-lg-0">
                     <li class="nav-item dropdown">
@@ -150,22 +157,22 @@
     <h1 id="events">Events</h1>
 
   </header>
-<section class="wrapper container style4">
+<section class="card border-top-0 container style4">
 <div class="container">
 <div class="item-row row">
 
         <div class="item col-12 col-lg-6 card border-0">
   <div class="card-body">
-  <div class="card-title text-center alert-info rounded-top">
+  <div class="card-title pl-1 pr-1 text-center alert-info rounded-top">
     <h3><a href="/events/2018-05-21-MADE18.html">Report from Microservices: Agile and DevOps Experiences (MADE18)</a></h3>
   </div>
     <div style="margin-top: -1.2em;" class="border border-top-0 text-justify hyphenate">
-    <div class="col-12"><div class="pt-4"></div><small><p><img class="img-fluid mx-auto d-block" src="/images/posts/made18.jpg" /></p>
+    <div class="col-12"><div class="pt-4"></div><p><img class="img-fluid mx-auto d-block" src="/images/posts/made18.jpg" /></p>
 
 <p>On May 21st, 2018 <a href="/people.html#sg">Saverio Giallorenzo</a> co-chaired the <a href="https://sites.google.com/view/made18/">Second International Workshop on Microservices: Agile and DevOps Experience (MADE18)</a>, co-located with the <a href="https://www.agilealliance.org/xp2018/">XP2018</a> conference in Porto, Portugal.
 The workshop has been a success, with 30+ attendees and highly participated presentations.</p>
 
-</small></div>
+</div>
     <a class="nodec float-right" href="/events/2018-05-21-MADE18.html">
     <button class="rounded-0 btn btn-light">Continue reading <span class="fa fa-arrow-circle-right"></span></button>
     </a>
@@ -177,16 +184,16 @@ The workshop has been a success, with 30+ attendees and highly participated pres
 
         <div class="item col-12 col-lg-6 card border-0">
   <div class="card-body">
-  <div class="card-title text-center alert-info rounded-top">
+  <div class="card-title pl-1 pr-1 text-center alert-info rounded-top">
     <h3><a href="/events/2018-04-09-ACMSAC18.html">CL @ ACM/SIGAPP Symposium On Applied Computing</a></h3>
   </div>
     <div style="margin-top: -1.2em;" class="border border-top-0 text-justify hyphenate">
-    <div class="col-12"><div class="pt-4"></div><small><p><img class="img-fluid mx-auto d-block" src="/images/posts/acmsac-2018.png" /></p>
+    <div class="col-12"><div class="pt-4"></div><p><img class="img-fluid mx-auto d-block" src="/images/posts/acmsac-2018.png" /></p>
 
 <p>Our group presented works on choreographic programming and microservices at the <a href="https://www.sigapp.org/sac/sac2018/">33<sup>rd</sup> ACM/SIGAPP Symposium On Applied Computing</a>.
 <a href="/people.html#mp">Marco Peressotti</a> gave a talk about communication abstractions in choreographic programming and <a href="https://www.linkedin.com/in/j-webs">Janine Weber</a> presented a poster about patterns for failure handling in microservice programming (circuit breakers).</p>
 
-</small></div>
+</div>
     <a class="nodec float-right" href="/events/2018-04-09-ACMSAC18.html">
     <button class="rounded-0 btn btn-light">Continue reading <span class="fa fa-arrow-circle-right"></span></button>
     </a>
@@ -198,18 +205,18 @@ The workshop has been a success, with 30+ attendees and highly participated pres
 
         <div class="item col-12 col-lg-6 card border-0">
   <div class="card-body">
-  <div class="card-title text-center alert-info rounded-top">
+  <div class="card-title pl-1 pr-1 text-center alert-info rounded-top">
     <h3><a href="/events/2018-01-25-MADE18.html">Microservices: Agile and DevOps Experiences (MADE18)</a></h3>
   </div>
     <div style="margin-top: -1.2em;" class="border border-top-0 text-justify hyphenate">
-    <div class="col-12"><div class="pt-4"></div><small><p><img class="img-fluid mx-auto d-block" src="/images/posts/xp-2018.png" /></p>
+    <div class="col-12"><div class="pt-4"></div><p><img class="img-fluid mx-auto d-block" src="/images/posts/xp-2018.png" /></p>
 
 <p><a href="/people.html#sg">Saverio Giallorenzo</a> is co-chairing the <a href="https://sites.google.com/view/made18/">Second International Workshop on Microservices: Agile and DevOps Experience (MADE18)</a> taking place on May 21st, 2018 and co-located with the <a href="https://www.agilealliance.org/xp2018/">XP2018</a> conference in Porto, Portugal.</p>
 
 <p>MADE18 is the follow-up workshop of the first International Workshop on Microservices for Agile software development (WMSA17) organized at XP2017. The venue is also a continuation of discussions on software engineering from the first International Conference on Microservices (<a href="/events/2017-10-25-Microservices_Conference">Microservices
 2017</a> organized by the members of CL. The workshop will be conducted in collaboration with the <a href="http://microservices.sdu.dk/">Microservices Community</a>, which was formed at the Microservices 2017 conference.</p>
 
-</small></div>
+</div>
     <a class="nodec float-right" href="/events/2018-01-25-MADE18.html">
     <button class="rounded-0 btn btn-light">Continue reading <span class="fa fa-arrow-circle-right"></span></button>
     </a>
@@ -221,17 +228,17 @@ The workshop has been a success, with 30+ attendees and highly participated pres
 
         <div class="item col-12 col-lg-6 card border-0">
   <div class="card-body">
-  <div class="card-title text-center alert-info rounded-top">
+  <div class="card-title pl-1 pr-1 text-center alert-info rounded-top">
     <h3><a href="/events/2017-10-30-Foundation_Microservices_Community.html">Creation of the Microservices Community</a></h3>
   </div>
     <div style="margin-top: -1.2em;" class="border border-top-0 text-justify hyphenate">
-    <div class="col-12"><div class="pt-4"></div><small><p><img class="img-fluid mx-auto d-block" src="/images/posts/microservices-community.png" /></p>
+    <div class="col-12"><div class="pt-4"></div><p><img class="img-fluid mx-auto d-block" src="/images/posts/microservices-community.png" /></p>
 
 <p>During the discussion panels at <a href="/events/2017-10-25-Microservices_Conference">Microservices 2017</a>, participants recognised the importance of constituting a communal place where international people from research institutions, private companies, universities, and public organisations (like municipalities) can share knowledge and foster collaborations about microservices.</p>
 
 <p>Prompted by this observation, the organisers of <a href="/events/2017-10-25-Microservices_Conference">Microservices 2017</a> in CL put forward the initiative of <a href="http://microservices.sdu.dk/">Microservices Community</a>, with the support of <a href="https://www.sdu.dk/en">SDU</a>.</p>
 
-</small></div>
+</div>
     <a class="nodec float-right" href="/events/2017-10-30-Foundation_Microservices_Community.html">
     <button class="rounded-0 btn btn-light">Continue reading <span class="fa fa-arrow-circle-right"></span></button>
     </a>
@@ -243,15 +250,15 @@ The workshop has been a success, with 30+ attendees and highly participated pres
 
         <div class="item col-12 col-lg-6 card border-0">
   <div class="card-body">
-  <div class="card-title text-center alert-info rounded-top">
+  <div class="card-title pl-1 pr-1 text-center alert-info rounded-top">
     <h3><a href="/events/2017-10-25-Microservices_Conference.html">First International Conference on Microservices</a></h3>
   </div>
     <div style="margin-top: -1.2em;" class="border border-top-0 text-justify hyphenate">
-    <div class="col-12"><div class="pt-4"></div><small><p><img class="img-fluid mx-auto d-block" src="/images/posts/microservices-2017-group.jpg" /></p>
+    <div class="col-12"><div class="pt-4"></div><p><img class="img-fluid mx-auto d-block" src="/images/posts/microservices-2017-group.jpg" /></p>
 
 <p>CL organised the first <a href="http://conf-micro.services/">International Conference on Microservices</a> with the aim to provide a forum for the discussion of all aspects of designing and programming microservice architectures. Both theoretical and experimental contributions are welcome, on topics ranging from formal frameworks to industrial experience reports and demonstrations.</p>
 
-</small></div>
+</div>
     <a class="nodec float-right" href="/events/2017-10-25-Microservices_Conference.html">
     <button class="rounded-0 btn btn-light">Continue reading <span class="fa fa-arrow-circle-right"></span></button>
     </a>
@@ -263,15 +270,15 @@ The workshop has been a success, with 30+ attendees and highly participated pres
 
         <div class="item col-12 col-lg-6 card border-0">
   <div class="card-body">
-  <div class="card-title text-center alert-info rounded-top">
+  <div class="card-title pl-1 pr-1 text-center alert-info rounded-top">
     <h3><a href="/events/2017-01-25-MoM2016.html">First Edition of the Meeting on Microservices</a></h3>
   </div>
     <div style="margin-top: -1.2em;" class="border border-top-0 text-justify hyphenate">
-    <div class="col-12"><div class="pt-4"></div><small><p><img class="img-fluid mx-auto d-block" src="/images/posts/meeting-on-microservices.png" /></p>
+    <div class="col-12"><div class="pt-4"></div><p><img class="img-fluid mx-auto d-block" src="/images/posts/meeting-on-microservices.png" /></p>
 
 <p>Edition 2016 of the Meeting on Microservices (MoM2016) took place on December 20th, 2016. The event has been mainly organised by <a href="http://www.italianasoftware.com/">ItalianaSoftware</a>, a close industrial collaborator of CL.</p>
 
-</small></div>
+</div>
     <a class="nodec float-right" href="/events/2017-01-25-MoM2016.html">
     <button class="rounded-0 btn btn-light">Continue reading <span class="fa fa-arrow-circle-right"></span></button>
     </a>
@@ -297,15 +304,7 @@ jQuery(document).ready(function($) {
 
     </div>
     <!-- Footer -->
-<footer id="footer">
-
-    <!-- <ul class="icons">
-        <li><a href="#" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
-        <li><a href="#" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
-        <li><a href="#" class="icon circle fa-google-plus"><span class="label">Google+</span></a></li>
-        <li><a href="#" class="icon circle fa-github"><span class="label">Github</span></a></li>
-        <li><a href="#" class="icon circle fa-dribbble"><span class="label">Dribbble</span></a></li>
-    </ul> -->
+<footer id="footer" class="bg-dark">
 
 <div class="copyright">
   <div class="row">

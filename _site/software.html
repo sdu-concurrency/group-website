@@ -57,9 +57,15 @@
 
   <body class="no-sidebar">
 
-    <nav class="pl-3 navbar navbar-expand-md navbar-light bg-light">
-  <span class="navbar-brand">
-    <strong class="d-inline ">
+    <style>
+  .header-nav .navbar-brand a, .header-nav .nav-link{
+    color: white !important;
+  }
+</style>
+
+<nav class="header-nav pl-3 navbar navbar-static-top navbar-expand-md navbar-dark bg-dark">
+  <div class="navbar-brand">
+    <strong class="d-inline">
     <a href="https://www.sdu.dk/en/Om_SDU/Institutter_centre/Imada_matematik_og_datalogi">IMADA</a>
     </strong>
     <span class="d-inline "> > </span>
@@ -68,12 +74,13 @@
         <strong class="d-none d-xl-inline">Concurrency and Logic</strong>
         <span class="d-none d-md-inline">Group</span>
       </a>
-    </span>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+    </div>
     <div class="ml-auto">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="clear-fix"></div>
+        <div class="collapse navbar-collapse float-right" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 <li class="nav-item my-2 my-lg-0">
                     <li class="nav-item dropdown">
@@ -179,7 +186,7 @@
 </div>
 </div>
 <div class="border rounded-bottom border-top-0 pt-3 col-12">
-  <p style="text-align:justify;" class="hyphenate"><small>AIOCJ is a choreography programming language for developing adaptive systems. Distributed programs specified in AIOCJ are programmed from a global point of view and projected to singular entities that, distributed and run in parallel, enact the global behaviour. Programs written in AIOCJ are deadlock-free by construction and can adapt at runtime. A developer can specify which fragments of the global interaction can change. At runtime the projected entities can substitute (update) marked fragments with new ones provided by compliant repositories. AIOCJ programs always update in a coherent way, which preserves deadlock freedom. Since AIOCJ choreographies are projected to Jolie programs they can also make use of functions provided by external services.</small></p>
+  <p style="text-align:justify;" class="hyphenate">AIOCJ is a choreography programming language for developing adaptive systems. Distributed programs specified in AIOCJ are programmed from a global point of view and projected to singular entities that, distributed and run in parallel, enact the global behaviour. Programs written in AIOCJ are deadlock-free by construction and can adapt at runtime. A developer can specify which fragments of the global interaction can change. At runtime the projected entities can substitute (update) marked fragments with new ones provided by compliant repositories. AIOCJ programs always update in a coherent way, which preserves deadlock freedom. Since AIOCJ choreographies are projected to Jolie programs they can also make use of functions provided by external services.</p>
 <div class="pb-4">
   <small>Keywords:
     
@@ -213,7 +220,7 @@
 </div>
 </div>
 <div class="border rounded-bottom border-top-0 pt-3 col-12">
-  <p style="text-align:justify;" class="hyphenate"><small>Chor is a new programming language for communicating systems, based on choreographies. Choreographies are global descriptions of system implementations, where the behaviour of all entities in a system is given in a single program. Choreographies enhance the quality of software, as they represent ``formal blueprints'' of how communicating systems should behave and offer a concise view of the message flows enacted by a system. In Chor, a choreography can then be projected (or compiled, if you like) onto a set of separate programs that can be run in a distributed system.</small></p>
+  <p style="text-align:justify;" class="hyphenate">Chor is a new programming language for communicating systems, based on choreographies. Choreographies are global descriptions of system implementations, where the behaviour of all entities in a system is given in a single program. Choreographies enhance the quality of software, as they represent ``formal blueprints'' of how communicating systems should behave and offer a concise view of the message flows enacted by a system. In Chor, a choreography can then be projected (or compiled, if you like) onto a set of separate programs that can be run in a distributed system.</p>
 <div class="pb-4">
   <small>Keywords:
     
@@ -245,7 +252,7 @@
 </div>
 </div>
 <div class="border rounded-bottom border-top-0 pt-3 col-12">
-  <p style="text-align:justify;" class="hyphenate"><small>Jolie is a general-purpose service-oriented programming language. It brings elegance, simplicity, and pragmatism in the development of modular, integrated, distributed, and concurrent applications. The development of the Jolie language is based on a positive loop between formal theory and practical requirements. One of the strongest values of Jolie is the freedom it gives when designing distributed solutions. Depending on the requirements and the constraints of a specific problem, a programmer can choose whether to build a basic, immediate, yet lightweight solution to integrate applications from different domains or to model the solution by exploiting the language's advanced composition primitives, forging an highly modular distributed system. Although young, the language is continuously maintained and enhanced, with the contribution of researchers from many universities (SDU, UniBO, ITU, DTU, Innopolis). Finally, Jolie programs strive for minimality, the same minimality predicated by the microservice architectural style.</small></p>
+  <p style="text-align:justify;" class="hyphenate">Jolie is a general-purpose service-oriented programming language. It brings elegance, simplicity, and pragmatism in the development of modular, integrated, distributed, and concurrent applications. The development of the Jolie language is based on a positive loop between formal theory and practical requirements. One of the strongest values of Jolie is the freedom it gives when designing distributed solutions. Depending on the requirements and the constraints of a specific problem, a programmer can choose whether to build a basic, immediate, yet lightweight solution to integrate applications from different domains or to model the solution by exploiting the language's advanced composition primitives, forging an highly modular distributed system. Although young, the language is continuously maintained and enhanced, with the contribution of researchers from many universities (SDU, UniBO, ITU, DTU, Innopolis). Finally, Jolie programs strive for minimality, the same minimality predicated by the microservice architectural style.</p>
 <div class="pb-4">
   <small>Keywords:
     
@@ -279,7 +286,7 @@
 </div>
 </div>
 <div class="border rounded-bottom border-top-0 pt-3 col-12">
-  <p style="text-align:justify;" class="hyphenate"><small>The JIoT project is aimed at integrating IoT-related technologies into the Jolie language. The Internet of Things (IoT) promotes the communication among heterogeneous entities, from small sensors to Cloud systems. However, this is realized using a wide range of communication media and data protocols, usually incompatible with each other. Thus, IoT systems tend to grow as homogeneous isolated platforms - usually referred as "IoT islands" -, which hardly interact. To achieve a higher degree of interoperability among disparate IoT platforms, the JIoT project investigates how abstractions suitable for service-oriented and microservice architectures can aid integrating disparate IoT islands. Jolie currently supports the main technologies from Service-Oriented Computing, such as TCP/IP, Bluetooth, and RMI at transport level, and HTTP and SOAP at application level. As first technical result of the project, we integrated in Jolie the two most adopted protocols for IoT communication, i.e., CoAP and MQTT. The integration of IoT-specific protocols into the service-oriented setting of Jolie poses some interesting challenges, the two main being i) the integration of unreliable channels (UDP/CoAP) and ii) bridging the simple request-response communication style of Jolie with the peculiarities of the Publish/Subscribe communication pattern.</small></p>
+  <p style="text-align:justify;" class="hyphenate">The JIoT project is aimed at integrating IoT-related technologies into the Jolie language. The Internet of Things (IoT) promotes the communication among heterogeneous entities, from small sensors to Cloud systems. However, this is realized using a wide range of communication media and data protocols, usually incompatible with each other. Thus, IoT systems tend to grow as homogeneous isolated platforms - usually referred as "IoT islands" -, which hardly interact. To achieve a higher degree of interoperability among disparate IoT platforms, the JIoT project investigates how abstractions suitable for service-oriented and microservice architectures can aid integrating disparate IoT islands. Jolie currently supports the main technologies from Service-Oriented Computing, such as TCP/IP, Bluetooth, and RMI at transport level, and HTTP and SOAP at application level. As first technical result of the project, we integrated in Jolie the two most adopted protocols for IoT communication, i.e., CoAP and MQTT. The integration of IoT-specific protocols into the service-oriented setting of Jolie poses some interesting challenges, the two main being i) the integration of unreliable channels (UDP/CoAP) and ii) bridging the simple request-response communication style of Jolie with the peculiarities of the Publish/Subscribe communication pattern.</p>
 <div class="pb-4">
   <small>Keywords:
     
@@ -313,7 +320,7 @@
 </div>
 </div>
 <div class="border rounded-bottom border-top-0 pt-3 col-12">
-  <p style="text-align:justify;" class="hyphenate"><small>Key element of Mobility as a Service (MaaS) is that MaaS operators can aggregate solutions of multiple transport companies to deliver dynamic, transparent multi-modal travels to their users, who experience transportation as managed directly by a single operator. To enable MaaS, within the Smart Mobility for All EIT Project, we created SMAll, a platform (and its related wiki) where providers of transport solutions can trade their information as well as other services for mobility, like booking, payment, and travel assistance, on demand. SMAll includes the latests technologies in terms of provision, deployment, scaling, and maintenance of applications: microservices and containerisation. In addition, SMAll supports the creation of a federation-based MaaS market, where a SMAll instance is a hub for local (e.g., city-wide) transport operators and geographically sparse SMAll instances can federate to form a global market for MaaS. To test SMAll, we also implemented pilots within the platform, collaborating with the Department of Transportation of Regione Emilia-Romagna, Lepida S.p.A., and Foundazione Bruno Kessler.</small></p>
+  <p style="text-align:justify;" class="hyphenate">Key element of Mobility as a Service (MaaS) is that MaaS operators can aggregate solutions of multiple transport companies to deliver dynamic, transparent multi-modal travels to their users, who experience transportation as managed directly by a single operator. To enable MaaS, within the Smart Mobility for All EIT Project, we created SMAll, a platform (and its related wiki) where providers of transport solutions can trade their information as well as other services for mobility, like booking, payment, and travel assistance, on demand. SMAll includes the latests technologies in terms of provision, deployment, scaling, and maintenance of applications: microservices and containerisation. In addition, SMAll supports the creation of a federation-based MaaS market, where a SMAll instance is a hub for local (e.g., city-wide) transport operators and geographically sparse SMAll instances can federate to form a global market for MaaS. To test SMAll, we also implemented pilots within the platform, collaborating with the Department of Transportation of Regione Emilia-Romagna, Lepida S.p.A., and Foundazione Bruno Kessler.</p>
 <div class="pb-4">
   <small>Keywords:
     
@@ -349,7 +356,7 @@
 </div>
 </div>
 <div class="border rounded-bottom border-top-0 pt-3 col-12">
-  <p style="text-align:justify;" class="hyphenate"><small>Bigraphs and Bigraphical Reactive Systems are a modern, graphical calculus for the description of the syntax and semantics of systems in terms of the orthogonal notions of connectivity and locality. Since they introduction by Robin Milner, bigraphs have been succesfully applied to model complex, concurrent, context-dependent, or ubiquituous systems in a variety of fields beyond computer science like biology and databases.</small></p>
+  <p style="text-align:justify;" class="hyphenate">Bigraphs and Bigraphical Reactive Systems are a modern, graphical calculus for the description of the syntax and semantics of systems in terms of the orthogonal notions of connectivity and locality. Since they introduction by Robin Milner, bigraphs have been succesfully applied to model complex, concurrent, context-dependent, or ubiquituous systems in a variety of fields beyond computer science like biology and databases.</p>
 <div class="pb-4">
   <small>Keywords:
     
@@ -380,7 +387,7 @@
 </div>
 </div>
 <div class="border rounded-bottom border-top-0 pt-3 col-12">
-  <p style="text-align:justify;" class="hyphenate"><small>Zephyrus2 is a tool that starting from a simple description of the software components that can be deploy, with their requirements and resources needs, it can compute what is the optimal deployment solution that satisfies all the user needs. Zephyrus2 relies on SMT or CP solvers for the exploration of the search space and provides a new declarative specification language to define the desired configuration and user preferences. It can be deployed as a service by using the Docker container technology.</small></p>
+  <p style="text-align:justify;" class="hyphenate">Zephyrus2 is a tool that starting from a simple description of the software components that can be deploy, with their requirements and resources needs, it can compute what is the optimal deployment solution that satisfies all the user needs. Zephyrus2 relies on SMT or CP solvers for the exploration of the search space and provides a new declarative specification language to define the desired configuration and user preferences. It can be deployed as a service by using the Docker container technology.</p>
 <div class="pb-4">
   <small>Keywords:
     
@@ -417,7 +424,7 @@
 </div>
 </div>
 <div class="border rounded-bottom border-top-0 pt-3 col-12">
-  <p style="text-align:justify;" class="hyphenate"><small>sunny-cp is a parallel parallel portfolio solver that allows to solve a Constraint (Satisfaction/Optimization) Problem defined in the MiniZinc language. sunny-cp is built on top of state-of-the-art constraint solvers, including: Choco, Chuffed, G12/LazyFD, G12/FD, G12/Gurobi, G12/MIP, Gecode, HaifaCSP, JaCoP, MinisatID, OR-Tools, Picat that are used to provide a faster and better global solver. sunny-cp performed very well in the MiniZinc Challenge, the international solver competition for the evaluation of CP solvers, winning three goal medals in the editions of 2015, 2016, and 2017. sunny-cp can be deployed as a service by using the Docker container technology.</small></p>
+  <p style="text-align:justify;" class="hyphenate">sunny-cp is a parallel parallel portfolio solver that allows to solve a Constraint (Satisfaction/Optimization) Problem defined in the MiniZinc language. sunny-cp is built on top of state-of-the-art constraint solvers, including: Choco, Chuffed, G12/LazyFD, G12/FD, G12/Gurobi, G12/MIP, Gecode, HaifaCSP, JaCoP, MinisatID, OR-Tools, Picat that are used to provide a faster and better global solver. sunny-cp performed very well in the MiniZinc Challenge, the international solver competition for the evaluation of CP solvers, winning three goal medals in the editions of 2015, 2016, and 2017. sunny-cp can be deployed as a service by using the Docker container technology.</p>
 <div class="pb-4">
   <small>Keywords:
     
@@ -454,7 +461,7 @@
 </div>
 </div>
 <div class="border rounded-bottom border-top-0 pt-3 col-12">
-  <p style="text-align:justify;" class="hyphenate"><small>HyVarRec is a tool that allows to reconfigure an existing configuration for a given Software Product Line (SPL) when it is subject to contextual changes. It can be also used to analyze the correctness of the SPL find when it does not allow a configuration or if there are dead or false optional features. In case no configuration is possible, HyVarRec can provide also an explanation that can be later used by the SPL developers to solve the inconsistency. HyVarRec uses the SMT solver Z3 to solve the optimization problems involved in the reconfiguration and the maximization of the user preferences. HyVarRec can be deployed as a service by using the Docker container technology.</small></p>
+  <p style="text-align:justify;" class="hyphenate">HyVarRec is a tool that allows to reconfigure an existing configuration for a given Software Product Line (SPL) when it is subject to contextual changes. It can be also used to analyze the correctness of the SPL find when it does not allow a configuration or if there are dead or false optional features. In case no configuration is possible, HyVarRec can provide also an explanation that can be later used by the SPL developers to solve the inconsistency. HyVarRec uses the SMT solver Z3 to solve the optimization problems involved in the reconfiguration and the maximization of the user preferences. HyVarRec can be deployed as a service by using the Docker container technology.</p>
 <div class="pb-4">
   <small>Keywords:
     
@@ -485,15 +492,7 @@ jQuery(document).ready(function($) {
 
     </div>
     <!-- Footer -->
-<footer id="footer">
-
-    <!-- <ul class="icons">
-        <li><a href="#" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
-        <li><a href="#" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
-        <li><a href="#" class="icon circle fa-google-plus"><span class="label">Google+</span></a></li>
-        <li><a href="#" class="icon circle fa-github"><span class="label">Github</span></a></li>
-        <li><a href="#" class="icon circle fa-dribbble"><span class="label">Dribbble</span></a></li>
-    </ul> -->
+<footer id="footer" class="bg-dark">
 
 <div class="copyright">
   <div class="row">

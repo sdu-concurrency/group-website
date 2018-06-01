@@ -37,15 +37,35 @@ layout: default
 
 </header><section class="wrapper card card-body style4 container"><div class="content"><section markdown="1">
 Our research topics fit in four research areas and address issues in three different societal challenges.
+
+<div class="d-sm-none d-md-block">
 The interrelation between these components is illustrated below.
 
   <div class="offset-1 col-10 center">{% include research-areas.svg %}</div>
-
+</div>
   <div class="mt-4"></div>
+
+  <div class="d-sm-block d-md-none nav flex-column nav-pills" id="myTab" role="tablist" aria-orientation="vertical">
+  {% for item in site.data.research-areas %}
+  <a 
+  class="nav-link {% if forloop.first %}active{% endif %}"
+  id="{{ item.id }}-tab" 
+  data-toggle="tab" 
+  href="#{{ item.id }}" 
+  role="tab" 
+  aria-controls="{{ item.id }}" 
+  {% if forloop.first %}
+    aria-selected="true"
+    {% else %}
+    aria-selected="false"
+  {% endif %}
+  >{{ item.title }}</a>
+  {% endfor %}
+  </div>
 
   <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
     {% for item in site.data.research-areas %}
-    <li class="nav-item">
+    <li class="d-sm-none d-md-block nav-item">
       <a class="reset nav-link {% if forloop.first %}active{% endif %}"
       id="{{ item.id }}-tab" data-toggle="tab" href="#{{ item.id }}"
       role="tab" aria-controls="{{ item.id }}"
@@ -66,11 +86,11 @@ The interrelation between these components is illustrated below.
     id="{{ item.id }}" role="tabpanel" aria-labelledby="{{ item.id }}-tab">
     {% for element in item.elements %}
     <div class="pl-4 border-dark">
-      <a class="nodec reset collapsed" data-toggle="collapse" href="#{{ item.id }}_{{ element.id }}" aria-expanded="false" id="{{ item.id }}_{{ element.id }}-item" aria-controls="{{ item.id }}_{{ element.id }}">
+      <a class="nodec reset" data-toggle="collapse" href="#{{ item.id }}_{{ element.id }}" aria-expanded="true" id="{{ item.id }}_{{ element.id }}-item" aria-controls="{{ item.id }}_{{ element.id }}">
         <h5 class="card-title "><span class="collapse_icon fas fa-angle-up"></span>{{ element.title }}</h5></a>
-        <div class="collapse" id="{{ item.id }}_{{ element.id }}">
+        <div class="collapse show" id="{{ item.id }}_{{ element.id }}">
           <div class="card-body">
-            <p class="card-text"><small>{{ element.description }}</small></p>
+            <p class="card-text">{{ element.description }}</p>
           </div>
         </div>
       </div>

@@ -40,7 +40,7 @@ layout: default
 </div>
 </div>
 <div class="border rounded-bottom border-top-0 pt-3 col-12">
-  <p style="text-align:justify;" class="hyphenate"><small>{{ software.bio }}</small></p>
+  <p style="text-align:justify;" class="hyphenate">{{ software.bio }}</p>
 <div class="pb-4">
   <small>Keywords:
     {% for tag in software.tags %}
