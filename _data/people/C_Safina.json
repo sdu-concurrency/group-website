@@ -7,5 +7,6 @@
   "orcid" : "0000-0002-4490-7451",
   "github" : "lsafina",
   "photo" : "/images/people/ls.jpg",
+  "email" : "",
   "research_topics" : [ "microservices", "choreographic programming" ]
 }

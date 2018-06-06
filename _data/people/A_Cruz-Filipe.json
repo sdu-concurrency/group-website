@@ -8,5 +8,6 @@
   "github" : "lcfilipe",
   "website" : "http://tinyurl.com/lcfilipe",
   "photo" : "/images/people/lcf.jpg",
+  "email" : "",
   "research_topics" : [ "choreographic programming", "theorem proving", "data consistency" ]
 }

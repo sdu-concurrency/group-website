@@ -56,9 +56,7 @@ There are no Master projects available at the moment.
 
 {% assign pps = site.data.phd_project | size %}
 
-{% if pps < 1 %}
-There are no PhD projects available at the moment.
-{% endif %}
+If you are interested in doing a PhD in the {{ site.group_name }} please contact us directly.
 
 {% for pp in site.data.phd_projects %}
 
