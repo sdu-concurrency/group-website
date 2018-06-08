@@ -29,7 +29,6 @@
   {
     "title": "Optimal sorting networks",
     "description": "Sorting networks are very simple hardware circuits that sort inputs of fixed size n by executing a predetermined sequence of binary compare-and-swap operations. Each operation costs time and energy, and thus it is important to find sorting networks that are as small as possible. However, finding optimal sorting networks is an extremely complex problem that has only been solved for a few small values of n by ingenious combinations of combinatorial techniques, mathematical insights, and clever programming of search algorithms. If you have a background in Mathematics or Computer Science and are looking for a problem that requires a new, creative approach, then this project is for you!",
-    "image": "",
     "contact": "Luís Cruz-Filipe"
   },
   {
