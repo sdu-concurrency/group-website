@@ -35,12 +35,16 @@ TBA -->
 There are no Master projects available at the moment.
 {% endif %}
 
+{% assign id = 0 %}
 {% for mp in site.data.master_projects %}
+{% capture id %}
+{% increment id %}
+{% endcapture %}
 
 <div class="card mb-4">
-    <div class="card-header alert-info">{{ mp.title }}</div>
-  <div class="card-body">
-    <p class="card-text">
+    <div style="cursor: pointer;" class="card-header alert-info" data-toggle="collapse" data-target="#{{ id }}" aria-expanded="false" aria-controls="{{ id }}">{{ mp.title }}</div>
+  <div class="card-body collapse" id="{{ id }}">
+    <div class="mt-0 card-text">
     {% if mp.image %}
       <div class="col-sm-4 col-md-3 col-lg-2 float-left"><img class="mr-3 mb-1 img-fluid" src="{{mp.image}}"></div>
     {% endif %}
@@ -48,7 +52,7 @@ There are no Master projects available at the moment.
     {% if mp.link %}
     <a class="card-link" href="{{mp.link}}">More information</a>
     {% endif %}
-    </p>  
+    </div>  
     <span>Contact person: {{ mp.contact }}</span>
   </div>
 </div>
@@ -62,18 +66,22 @@ There are no Master projects available at the moment.
 If you are interested in doing a PhD in the {{ site.group_name }} please contact us directly.
 
 {% for pp in site.data.phd_projects %}
+{% capture id %}
+{% increment id %}
+{% endcapture %}
 
 <div class="card mb-4">
-    <div class="card-header alert-success">{{ pp.title }}</div>
-  <div class="card-body">
-    <p class="card-text">
-    {% if mp.image %}
+    <div style="cursor: pointer;" class="card-header alert-info" data-toggle="collapse" data-target="#{{ id }}" aria-expanded="false" aria-controls="{{ id }}">{{ pp.title }}</div>
+  <div class="card-body collapse" id="{{ id }}">
+    <div class="mt-0 card-text">
+    {% if pp.image %}
       <div class="col-sm-4 col-md-3 col-lg-2 float-left"><img class="mr-3 mb-1 img-fluid" src="{{pp.image}}"></div>
     {% endif %}
-    <p class="text-justify hyphenate">{{ pp.description }}</p>{% if pp.link %}
+    <p class="text-justify hyphenate">{{ pp.description }}</p>
+    {% if pp.link %}
     <a class="card-link" href="{{pp.link}}">More information</a>
     {% endif %}
-    </p>  
+    </div>  
     <span>Contact person: {{ pp.contact }}</span>
   </div>
 </div>
