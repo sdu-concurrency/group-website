@@ -42,9 +42,9 @@ There are no Master projects available at the moment.
   <div class="card-body">
     <p class="card-text">
     {% if mp.image %}
-      <div class="col-4 float-left"><img class="mr-3 mb-2 img-fluid" src="{{mp.image}}"></div>
+      <div class="col-sm-4 col-md-3 col-lg-2 float-left"><img class="mr-3 mb-1 img-fluid" src="{{mp.image}}"></div>
     {% endif %}
-    {{ mp.description }}
+    <p class="text-justify hyphenate">{{ mp.description }}</p>
     {% if mp.link %}
     <a class="card-link" href="{{mp.link}}">More information</a>
     {% endif %}
@@ -68,9 +68,9 @@ If you are interested in doing a PhD in the {{ site.group_name }} please contact
   <div class="card-body">
     <p class="card-text">
     {% if mp.image %}
-      <div class="col-4 float-left"><img class="mr-3 mb-2 img-fluid" src="{{pp.image}}"></div>
+      <div class="col-sm-4 col-md-3 col-lg-2 float-left"><img class="mr-3 mb-1 img-fluid" src="{{pp.image}}"></div>
     {% endif %}
-    {{ pp.description }}{% if pp.link %}
+    <p class="text-justify hyphenate">{{ pp.description }}</p>{% if pp.link %}
     <a class="card-link" href="{{pp.link}}">More information</a>
     {% endif %}
     </p>  

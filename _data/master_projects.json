@@ -23,7 +23,7 @@
   },
   {
     "title": "Portfolios Solvers to Conquer the World",
-    "description": "When dealing with complex problems (solving big Sudoku puzzles, assign jobs to resources, ...), one of the best possible techniques to use is to combine the strength of a portfolio of available solvers to produce a better unique solver called \"portfolio solver\". The goal of this thesis is to study new innovative techniques that based on machine learning and heuristics can improve the solving of complex problems, possibly improving even our own gold medals winner solver [SUNNY-CP](https://github.com/CP-Unibo/sunny-cp), i.e., one of the best portfolio solver for optimization problems.",
+    "description": "When dealing with complex problems (solving big Sudoku puzzles, assign jobs to resources, ...), one of the best possible techniques to use is to combine the strength of a portfolio of available solvers to produce a better unique solver called \"portfolio solver\". The goal of this thesis is to study new innovative techniques that based on machine learning and heuristics can improve the solving of complex problems, possibly improving even our own gold medals winner solver <a href=\"https://github.com/CP-Unibo/sunny-cp\">SUNNY-CP</a>, i.e., one of the best portfolio solver for optimization problems.",
     "contact": "Jacopo Mauro"
   },
   {
