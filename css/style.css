@@ -22,6 +22,10 @@ body.is-loading * {
 				transition: none !important;
 }
 
+body {
+	font-size: 13pt;
+}
+
 strong,
 b {
 				font-weight: 400;

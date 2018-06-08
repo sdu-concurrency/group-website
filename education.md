@@ -26,10 +26,10 @@ validating their properties.
 
 TBA -->
 
-## Theses opportunities
+## Thesis proposals
 
 ### Master projects
-{% assign mps = site.data.phd_project | size %}
+{% assign mps = site.data.master_projects | size %}
 
 {% if mps < 1 %}
 There are no Master projects available at the moment.
@@ -40,16 +40,16 @@ There are no Master projects available at the moment.
 <div class="card mb-4">
     <div class="card-header alert-info">{{ mp.title }}</div>
   <div class="card-body">
-    <p class="small card-text">
+    <p class="card-text">
     {% if mp.image %}
-      <img class="float-left mr-3 mb-2 img-fluid" src="{{mp.image}}">
+      <div class="col-4 float-left"><img class="mr-3 mb-2 img-fluid" src="{{mp.image}}"></div>
     {% endif %}
     {{ mp.description }}
     {% if mp.link %}
     <a class="card-link" href="{{mp.link}}">More information</a>
     {% endif %}
     </p>  
-    <span class="small">Contact person: {{ mp.contact }}</span>
+    <span>Contact person: {{ mp.contact }}</span>
   </div>
 </div>
 
@@ -66,15 +66,15 @@ If you are interested in doing a PhD in the {{ site.group_name }} please contact
 <div class="card mb-4">
     <div class="card-header alert-success">{{ pp.title }}</div>
   <div class="card-body">
-    <p class="small card-text">
+    <p class="card-text">
     {% if mp.image %}
-      <img class="float-left mr-3 mb-2 img-fluid" src="{{pp.image}}">
+      <div class="col-4 float-left"><img class="mr-3 mb-2 img-fluid" src="{{pp.image}}"></div>
     {% endif %}
     {{ pp.description }}{% if pp.link %}
     <a class="card-link" href="{{pp.link}}">More information</a>
     {% endif %}
     </p>  
-    <span class="small">Contact person: {{ pp.contact }}</span>
+    <span>Contact person: {{ pp.contact }}</span>
   </div>
 </div>
 
