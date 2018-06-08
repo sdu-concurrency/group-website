@@ -67,6 +67,9 @@ If you are interested in doing a PhD in the {{ site.group_name }} please contact
     <div class="card-header alert-success">{{ pp.title }}</div>
   <div class="card-body">
     <p class="small card-text">
+    {% if mp.image %}
+      <img class="float-left mr-3 mb-2 img-fluid" src="{{pp.image}}">
+    {% endif %}
     {{ pp.description }}{% if pp.link %}
     <a class="card-link" href="{{pp.link}}">More information</a>
     {% endif %}
