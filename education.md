@@ -41,6 +41,9 @@ There are no Master projects available at the moment.
     <div class="card-header alert-info">{{ mp.title }}</div>
   <div class="card-body">
     <p class="small card-text">
+    {% if mp.image %}
+      <img class="float-left mr-3 mb-2 img-fluid" src="{{mp.image}}">
+    {% endif %}
     {{ mp.description }}
     {% if mp.link %}
     <a class="card-link" href="{{mp.link}}">More information</a>
