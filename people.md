@@ -23,12 +23,12 @@ layout: default
 
 <div class="col-sm-12 col-lg-6">
 <div class="row">
-<div class="text-center col-sm-5">
+<div id="{{person.id}}" class="text-center col-sm-5">
 <img style="max-height: 8em;" class="img-thumbnail" src="{{person.photo}}" alt="">
 </div>
 <div class="col-sm-7">
 <div class="row">
-<div id="{{person.id}}" class="col-sm-12"><strong>{{ person.name }}</strong></div>
+<div class="col-sm-12"><strong>{{ person.name }}</strong></div>
 <div class="col-sm-12">{{ person.role }}</div>
 {%if person.website %}
 <div class="col-sm-6">
