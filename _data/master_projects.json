@@ -25,5 +25,10 @@
     "title" : "Strategies for (Board) Games",
     "description" : "Do you like (board) games? Have you ever wondered if for a particular game there is a perfect strategy that allows to maximize yours point and possibly win the game? Do you think you have a new and smart way to find good strategies? Then contact us! Working for a thesis may be as fun as playing a game.",
     "contact" : "Jacopo Mauro"
+  },
+  {
+    "title" : "Microservices and Jolie",
+    "description" : "Microservices are loosely-coupled software components that can be developed, evolved, and scaled independently. They represent the state of the art in distributed systems development, used by companies like Netflix, Amazon, Facebook, and Google. Programming microservices is natively supported in the programming language Jolie. We are interested in studying the microservices paradigm in general, and also in how the Jolie language can be extended with useful new features such as: testing of service systems; monitoring of protocol compliance; build a web programming framework based on microservices; native integration with other languages (e.g., Java and JavaScript); make a multi-reactor implementation of the Jolie interpreter.",
+    "contact" : "Fabrizio Montesi"
   }
 ]
