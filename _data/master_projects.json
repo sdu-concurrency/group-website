@@ -15,5 +15,15 @@
     "title" : "Automatizing Application Deployment on the Cloud",
     "description" : "Deployment of sophisticated distributed software applications requires a deep knowledge on the cloud infrastructure and on the application to deploy. For this reasons attempts are developed to simplify and better automate the process of deploying application (DevOps). The goal of this thesis is to enhance and develop tools (e.g., based on machine learning, local search, genetic algorithms, constraint programming) to tackle some of the computational issues for automatizing the deployment of applications in the cloud, and especially the optimization of the resource usage.",
     "contact" : "Jacopo Mauro"
+  },
+  {
+    "title" : "Portfolios Solvers to Conquer the World",
+    "description" : "When dealing with complex problems (solving big Sudoku puzzles, assign jobs to resources, ...), one of the best possible techniques to use is to combine the strength of a portfolio of available solvers to produce a better unique solver called "portfolio solver". The goal of this thesis is to study new innovative techniques that based on machine learning and heuristics can improve the solving of complex problems, possibly improving even our own gold medals winner solver [SUNNY-CP](https://github.com/CP-Unibo/sunny-cp), i.e., one of the best portfolio solver for optimization problems.",
+    "contact" : "Jacopo Mauro"
+  },
+  {
+    "title" : "Strategies for (Board) Games",
+    "description" : "Do you like (board) games? Have you ever wondered if for a particular game there is a perfect strategy that allows to maximize yours point and possibly win the game? Do you think you have a new and smart way to find good strategies? Then contact us! Working for a thesis may be as fun as playing a game.",
+    "contact" : "Jacopo Mauro"
   }
 ]
