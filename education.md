@@ -22,9 +22,9 @@ includes 4 courses (40 ECTS) and covers the theoretical and practical
 aspects of designing concurrent and distributed systems, specifying and
 validating their properties.
 
-## Talent Fellowship
+<!-- ## Talent Fellowship
 
-TBA
+TBA -->
 
 ## Theses opportunities
 
