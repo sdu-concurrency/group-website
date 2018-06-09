@@ -4,6 +4,11 @@ $.fn.ignore = function(sel){
 
 $(document).ready(function() {
 
+    /* ---- TOOLTIP PAPERTOGGLE PREVIEW ---- */
+    
+    $( "#paperToggle" ).tooltip( "show" );
+    setTimeout( function() { $(".tooltip").tooltip( "hide" ); }, 4000);
+
     /* ---- ABSTRACT PREVIEW LOGIC ---- */
     
     $(".abstract_preview").click( function( e ) {
