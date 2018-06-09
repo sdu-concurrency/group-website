@@ -44,7 +44,7 @@ layout: default
 <div class="pb-4">
   <small>Keywords:
     {% for tag in software.tags %}
-    <a href="/publications/#keyword_{{tag}}" class="nodec badge badge-light">{{ tag | capitalize }}</a>
+    <a href="/publications.html#keyword_{{tag}}" class="nodec badge badge-light">{{ tag | capitalize }}</a>
   {% endfor %}</small>
 </div>
 </div>
