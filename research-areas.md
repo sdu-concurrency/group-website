@@ -38,7 +38,7 @@ layout: default
 </header><section class="wrapper card card-body style4 container"><div class="content"><section markdown="1">
 Our research topics fit in four research areas and address issues in three different societal challenges.
 
-<div class="d-sm-none d-md-block">
+<div class="d-none d-md-block">
 The interrelation between these components is illustrated below.
 
   <div class="offset-1 col-10 center">{% include research-areas.svg %}</div>
@@ -65,7 +65,7 @@ The interrelation between these components is illustrated below.
 
   <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
     {% for item in site.data.research-areas %}
-    <li class="d-sm-none d-md-block nav-item">
+    <li class="d-none d-md-block nav-item">
       <a class="reset nav-link {% if forloop.first %}active{% endif %}"
       id="{{ item.id }}-tab" data-toggle="tab" href="#{{ item.id }}"
       role="tab" aria-controls="{{ item.id }}"
