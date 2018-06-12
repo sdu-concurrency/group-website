@@ -52,8 +52,17 @@ There are no Master projects available at the moment.
     {% if mp.link %}
     <a class="card-link" href="{{mp.link}}">More information</a>
     {% endif %}
-    </div>  
-    <span>Contact person: {{ mp.contact }}</span>
+    </div>
+    <span>Contact person: 
+    {% for person in site.data.people %}
+      {% if person.name == mp.contact or person.id == mp.contact %}
+        <a class="card-link" href="/people.html#{{ person.id}}">{{ person.name }}</a>
+      {% break %}
+      {% endif %}
+    {% endfor %}
+    </span>  
+    <!--span>Contact person: {{ site.people | where:"item","item.id == mp.contact || item.name == mp.contact" }} </span>  
+    <!--span>Contact person: {{ mp.contact }}</span-->
   </div>
 </div>
 
