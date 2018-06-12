@@ -23,7 +23,11 @@ layout: default
       .each(function(i, e) {
         $( e ).trigger( 'click' );
     });
-    $( tab + "-tab" ).trigger( 'click' );
+    // $( tab + "-tab" ).trigger( 'click' );
+    tab = tab.substring( 1, tab.length );
+    $( "." + tab + "-tab" ).each( function(i, e) {
+      $( e ).trigger( 'click' );
+    });
     if( $( item + "-item" ).attr( "aria-expanded" ) == "false" ){
       $( item + "-item" ).trigger( 'click' );
     }
@@ -48,8 +52,7 @@ The interrelation between these components is illustrated below.
   <div class="d-sm-block d-md-none nav flex-column nav-pills" id="myTab" role="tablist" aria-orientation="vertical">
   {% for item in site.data.research-areas %}
   <a 
-  class="nav-link {% if forloop.first %}active{% endif %}"
-  id="{{ item.id }}-tab" 
+  class="{{ item.id }}-tab nav-link {% if forloop.first %}active{% endif %}"
   data-toggle="tab" 
   href="#{{ item.id }}" 
   role="tab" 
@@ -66,8 +69,7 @@ The interrelation between these components is illustrated below.
   <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
     {% for item in site.data.research-areas %}
     <li class="d-none d-md-block nav-item">
-      <a class="reset nav-link {% if forloop.first %}active{% endif %}"
-      id="{{ item.id }}-tab" data-toggle="tab" href="#{{ item.id }}"
+      <a class="{{ item.id }}-tab reset nav-link {% if forloop.first %}active{% endif %}" data-toggle="tab" href="#{{ item.id }}"
       role="tab" aria-controls="{{ item.id }}"
       {% if forloop.first %}
       aria-selected="true"
