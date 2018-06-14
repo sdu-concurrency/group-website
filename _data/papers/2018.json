@@ -1,6 +1,23 @@
 { "title" : "2018",
   "papers": [
-	{
+	  {
+    "bibitem": "@article{CGMP17b, title = \"Cloud-of-Things meets Mobility-as-a-Service: An insider threat perspective\", journal = \"Computers & Security\", volume = \"74\", pages = \"277 - 295\", year = \"2018\", issn = \"0167-4048\", doi = \"https://doi.org/10.1016/j.cose.2017.10.006\", url = \"http://www.sciencedirect.com/science/article/pii/S0167404817302134\", author = \"Franco Callegati and Saverio Giallorenzo and Andrea Melis and Marco Prandini\", keywords = \"Mobility-as-a-Service, Federated platforms, Insider threat, Cloud-of-Things, Internet-of-Things\" }",
+    "links": [ { "link" : "http://www.saveriogiallorenzo.com/publications/cs2017/" } ],
+    "abstract": "Mobility-as-a-Service (MaaS) applies the everything-as-a-service paradigm of Cloud Computing to transportation: a MaaS provider offers to its users the dynamic composition of solutions of different travel agencies into a single, consistent interface. Traditionally, transits and data on mobility belong to a scattered plethora of operators. Thus, we argue that the economic model of MaaS is that of federations of providers, each trading its resources to coordinate multi-modal solutions for mobility. Such flexibility comes with many security and privacy concerns, of which insider threat is one of the most prominent. In this paper, we revise and extend previous work where we classified the potential threats of individual operators and markets of federated MaaS providers, proposing appropriate countermeasures to mitigate the problems. In addition, we consider the emerging case of Cloud-of-Things (CoT) for mobility, i.e., networks of ubiquitous, pervasive devices that provide real-time data on objects and people. Automation and pervasiveness of CoT make an additional attack surface for insiders. In an effort to limit such phenomenon, we present an overlay networking architecture, based on gossip protocols, that lets users share information on mobility with each other. A peculiarity of the architecture is that it both constrains the quality and quantity of data obtainable by insiders, optimizing the routing of requests to involve only users that are able to answer them.",
+    "tags": [ "Smart Cities", "Internet of Things", "Security", "Microservices" ],
+    "authors": ["Saverio Giallorenzo"],
+    "type": "Journal",
+    "non_group": true
+  },{
+    "bibitem": "@inproceedings{GMG18,  author = {Saverio Giallorenzo and  Fabrizio Montesi and  Maurizio Gabbrielli},  title = {Applied Choreographies},  booktitle = {Formal Techniques for Distributed Objects, Components, and Systems  - 38th {IFIP} {WG} 6.1 International Conference, {FORTE} 2018, Held  as Part of the 13th International Federated Conference on Distributed  Computing Techniques, DisCoTec 2018, Madrid, Spain, June 18-21, 2018,  Proceedings},  pages = {21--40},  year = {2018},  url = {https://doi.org/10.1007/978-3-319-92612-4_2},  doi = {10.1007/978-3-319-92612-4_2},  timestamp = {Wed, 30 May 2018 14:24:03 +0200},  biburl = {https://dblp.org/rec/bib/conf/forte/GiallorenzoMG18},  bibsource = {dblp computer science bibliography, https://dblp.org},  publisher = {Springer}, }",
+    "links": [
+      { "link": "http://www.saveriogiallorenzo.com/publications/forte2018/" }
+    ],
+    "abstract": "In Choreographic Programming, a distributed system is programmed by giving a choreography, a global description of its interactions, instead of separately specifying the behaviour of each of its processes. Process implementations in terms of a distributed language can then be automatically projected from a choreography. We present Linear Compositional Choreographies (LCC), a proof theory for reasoning about programs that modularly combine choreographies with processes. Using LCC, we logically reconstruct a semantics and a projection procedure for programs. For the first time, we also obtain a procedure for extracting choreographies from process terms.",
+    "tags" : [ "Choreographic Programming", "Session Types" ],
+    "authors" : [ "Saverio Giallorenzo" , "Fabrizio Montesi" ],
+    "type" : "Conference"
+  },{
 		"bibitem": "@article{DBLP:journals/dc/CarboneMS18,  author = {Marco Carbone and  Fabrizio Montesi and  Carsten Sch{\\\"{u}}rmann},  title = {Choreographies, logically},  journal = {Distributed Computing},  volume = {31},  number = {1},  pages = {51--67},  year = {2018},  url = {https://doi.org/10.1007/s00446-017-0295-1},  doi = {10.1007/s00446-017-0295-1},  timestamp = {Thu, 25 Jan 2018 11:13:07 +0100},  biburl = {https://dblp.org/rec/bib/journals/dc/CarboneMS18},  bibsource = {dblp computer science bibliography, https://dblp.org} }",
 		"links": [
 			{ "link": "http://fabriziomontesi.com/files/cms18.pdf" }
@@ -11,7 +28,7 @@
 		"type" : "Journal"
 	},
   {
-    "bibitem": "@inproceedings{GGLZ18,title={A Language-based Approach for Interoperability of IoT Platforms},author={Gabbrielli, Maurizio and Giallorenzo, Saverio and Lanese, Ivan and Zingaro, Stefano Pio},booktitle={Proceedings of the 51st Hawaii International Conference on System Sciences},year={2018}}",
+    "bibitem": "@inproceedings{DBLP:conf/hicss/GabbrielliGLZ18,  author = {Maurizio Gabbrielli and  Saverio Giallorenzo and  Ivan Lanese and  Stefano Pio Zingaro},  title = {A Language-based Approach for Interoperability of IoT Platforms},  booktitle = {51st Hawaii International Conference on System Sciences, {HICSS} 2018,  Hilton Waikoloa Village, Hawaii, USA, January 3-6, 2018},  year = {2018},  url = {http://aisel.aisnet.org/hicss-51/st/mobile_app_development/3},  timestamp = {Wed, 06 Jun 2018 10:44:30 +0200},  biburl = {https://dblp.org/rec/bib/conf/hicss/GabbrielliGLZ18},  publisher = {{AIS} Electronic Library (AISeL)},  bibsource = {dblp computer science bibliography, https://dblp.org} }",
     "links": [
       { "link" : "http://www.saveriogiallorenzo.com/publications/hicss2018/" },
       { "name" : "website", "link" : "http://www.cs.unibo.it/projects/jolie/jiot.html", "icon" : "website" }
