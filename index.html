@@ -2,54 +2,52 @@
 layout: landing-page
 ---
 <!-- Main -->
-<article id="main">
-
-<div class="container ">
+<div class="container">
 	<div class="row">
-		<div class="bg-alert-success pt-2 mb-5 offset-lg-2 col-lg-8 col-12">
+		<div class="bg-alert-success pt-2 mb-3 offset-lg-2 col-lg-8 col-12">
 			<section class="card-body pb-0">
 
 				<div class="text-justify hyphenate">
 					 <!-- <div class="card-title"><h2
 				class="text-center">{{ site.group_short }}, in a few
-				sentences.</h2></div> -->
-				<p> In the {{ site.group_short }} group at <a
+			sentences.</h2></div> -->
+			<p> In the {{ site.group_short }} group at <a
 				href="https://www.sdu.dk">SDU</a>, we are interested in the challenges
 				brought by modern digital systems, such as big data systems, the
 				Internet of Things, and data clouds: software, data, and systems are
 				getting increasingly larger and complex, pushing beyond the limits of
 				developing and analysing them manually. In our group, we develop theory
 				and tools that automate crucial steps of the development and analysis
-				processes, enhancing their efficiency and reliability.</p>
+			processes, enhancing their efficiency and reliability.</p>
 
-				</div>
-
-			</section>
 		</div>
-	</div>
+
+	</section>
+</div>
+</div>
 </div>
 
-	<!-- Three -->
-	<section class="card container special mb-5">
+<!-- Three -->
+<section class="card container special mb-5">
 
-		<header>
-			<h2>Latest Events</h2>
-		</header>
+	<header>
+		<h2>Latest Events</h2>
+	</header>
 
-		{% assign latest_posts = site.posts | slice: 0, 4%}
+	{% assign latest_posts = site.posts | slice: 0, 4%}
 
-		<div class="row">
+	<div class="row">
 		<div class="col-12 col-lg-6">
-		{% for post in latest_posts %}
-		{% assign index = forloop.index | modulo: 2 %}
-		{% if index == 1 %}
-				<section class="card border-0">
-					<div class="card-body">
+			{% for post in latest_posts %}
+			{% assign index = forloop.index | modulo: 2 %}
+			{% if index == 1 %}
+			<section class="card border-0">
+				<div class="card-body">
 					<div class="card-title pl-1 pr-1 alert-info rounded-top">
 						<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 					</div>
 					<div style="margin-top: -.8em;" class="border border-top-0 text-justify hyphenate">
-				 		<div class="col-12"><div class="pt-4"></div>{{ post.excerpt }}</div>
+						<div class="col-12"><div class="pt-4"></div>{{ post.excerpt }}</div>
 						<a class="nodec float-right" href="{{ post.url }}">
 							<button class="rounded-0 btn btn-light">Continue reading <span class="fa fa-arrow-circle-right"></span></button>
 						</a>
@@ -57,21 +55,21 @@ layout: landing-page
 					</div>
 				</div>
 				<div class="mt-4"></div>
-				</section>
-		{% endif %}
-		{% endfor %}
+			</section>
+			{% endif %}
+			{% endfor %}
 		</div>
 		<div class="col-12 col-lg-6">
-		{% for post in latest_posts %}
-		{% assign index = forloop.index | modulo: 2 %}
-		{% if index == 0 %}
-				<section class="card border-0">
-					<div class="card-body">
+			{% for post in latest_posts %}
+			{% assign index = forloop.index | modulo: 2 %}
+			{% if index == 0 %}
+			<section class="card border-0">
+				<div class="card-body">
 					<div class="card-title pl-1 pr-1 alert-info rounded-top">
 						<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 					</div>
 					<div style="margin-top: -1.2em;" class="border border-top-0 text-justify hyphenate">
-				 		<div class="col-12"><div class="pt-4"></div>{{ post.excerpt }}</div>
+						<div class="col-12"><div class="pt-4"></div>{{ post.excerpt }}</div>
 						<a class="nodec float-right" href="{{ post.url }}">
 							<button class="rounded-0 btn btn-light">Continue reading <span class="fa fa-arrow-circle-right"></span></button>
 						</a>
@@ -79,18 +77,16 @@ layout: landing-page
 					</div>
 				</div>
 				<div class="mt-4"></div>
-				</section>
-		{% endif %}
-		{% endfor %}
+			</section>
+			{% endif %}
+			{% endfor %}
 		</div>
-		</div>
+	</div>
 
-		<footer class="major pb-5">
-			<ul class="buttons pl-0">
-				<li><a href="/events.html" class="button">Events Page</a></li>
-			</ul>
-		</footer>
+	<footer class="major pb-5">
+		<ul class="buttons pl-0">
+			<li><a href="/events.html" class="button">Events Page</a></li>
+		</ul>
+	</footer>
 
-	</section>
-
-</article>
+</section>
