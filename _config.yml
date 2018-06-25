@@ -12,6 +12,6 @@ markdown: kramdown
 excerpt_separator: "<!--more-->"
 group_short: "CL"
 group_name: "Concurrency and Logic"
-exclude: [ "layout_archive", "utils", "images/communities.graffle", "areas.md", "README.md"]
+exclude: [ "docker", "layout_archive", "utils", "images/communities.graffle", "areas.md", "README.md"]
 incremental: false
 no_publications: false
