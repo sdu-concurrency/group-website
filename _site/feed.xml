@@ -6,9 +6,26 @@
 </description>
     <link>http://concurrency.sdu.dk/</link>
     <atom:link href="http://concurrency.sdu.dk/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 25 Jun 2018 18:32:09 +0200</pubDate>
-    <lastBuildDate>Mon, 25 Jun 2018 18:32:09 +0200</lastBuildDate>
-    <generator>Jekyll v3.8.3</generator>
+    <pubDate>Tue, 26 Jun 2018 10:24:25 +0200</pubDate>
+    <lastBuildDate>Tue, 26 Jun 2018 10:24:25 +0200</lastBuildDate>
+    <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Applied Choreographies at FORTE @ DisCoTec 2018</title>
+        <description>&lt;p&gt;&lt;img class=&quot;img-fluid mx-auto d-block&quot; src=&quot;/images/posts/forte2018.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;On June 19th, &lt;a href=&quot;/people.html#sg&quot;&gt;Saverio Giallorenzo&lt;/a&gt; presented the paper “&lt;a href=&quot;/publications.html#paper_GMG18&quot;&gt;Applied Choreographies&lt;/a&gt;” at FORTE 2018.&lt;/p&gt;
+
+&lt;p&gt;In the paper, Giallorenzo, &lt;a href=&quot;/people.html#sg&quot;&gt;Montesi&lt;/a&gt;, and Gabbrielli proposed a solution to mediate the discrepancies between theoretical works on choreographic programming and their implementations (like &lt;a href=&quot;http://www.chor-lang.org/&quot;&gt;Chor&lt;/a&gt; and &lt;a href=&quot;http://www.cs.unibo.it/projects/jolie/aiocj.html&quot;&gt;AIOCJ&lt;/a&gt;), where many undocumented, unproven adaptations, weaken the reliability of results at the formal level.&lt;/p&gt;
+
+&lt;p&gt;FORTE is part of the DisCoTec series of federated conferences along with COORDINATION, DAIS and the ICE workshop. This year it was held at the School of Computer Science (Facultad de Informática) of the University Complutense of Madrid.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 19 Jun 2018 00:00:00 +0200</pubDate>
+        <link>http://concurrency.sdu.dk/events/2018-06-19-forte2018.html</link>
+        <guid isPermaLink="true">http://concurrency.sdu.dk/events/2018-06-19-forte2018.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Collaboration with Ordbogen.com</title>
