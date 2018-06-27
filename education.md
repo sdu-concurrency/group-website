@@ -53,7 +53,7 @@ There are no Master projects available at the moment.
     <a class="card-link" href="{{mp.link}}">More information</a>
     {% endif %}
     </div>
-    <span>Contact person: 
+    <span>Contact person:
     {% for person in site.data.people %}
       {% if person.name == mp.contact or person.id == mp.contact %}
         <a class="card-link" href="/people.html#{{ person.id}}">{{ person.name }}</a>
@@ -72,7 +72,7 @@ There are no Master projects available at the moment.
 
 {% assign pps = site.data.phd_project | size %}
 
-If you are interested in doing a PhD in the {{ site.group_name }} please contact us directly.
+If you are interested in doing a PhD in the {{ site.group_name }} group, please contact us directly.
 
 {% for pp in site.data.phd_projects %}
 {% capture id %}
