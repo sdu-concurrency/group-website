@@ -1,17 +1,11 @@
 FROM alpine as Build
 
+WORKDIR /
+
 RUN apk update && \
-		apk add git && \
-		mkdir -p /var/lib/leonardo/www
-RUN git clone https://github.com/fmontesi/group-website.git /var/lib/leonardo/www
+		apk add git
+RUN git clone --depth=1 https://github.com/fmontesi/group-website.git /www
 
 # Start from scratch, copy the installer, install, remove the installer.
-FROM jolielang/jolie
-WORKDIR /
-RUN mkdir -p /var/lib/leonardo/www
-COPY --from=Build /var/lib/leonardo/www/_site /var/lib/leonardo/www
-COPY leonardo /leonardo
-
-WORKDIR /leonardo
-
-CMD ["jolie","leonardo.ol"]
+FROM jolielang/leonardo
+COPY --from=Build /www/_site /var/lib/leonardo/www
