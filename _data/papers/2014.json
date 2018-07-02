@@ -1,5 +1,38 @@
 { "title" : "2014",
   "papers": [
+		{
+	    "bibitem": "@inproceedings{DBLP:conf/concur/CarboneMS14,  author = {Marco Carbone and  Fabrizio Montesi and  Carsten Sch{\\\"{u}}rmann},  editor = {Paolo Baldan and  Daniele Gorla},  title = {Choreographies, Logically},  booktitle = {{CONCUR} 2014 - Concurrency Theory - 25th International Conference,  {CONCUR} 2014, Rome, Italy, September 2-5, 2014. Proceedings},  series = {Lecture Notes in Computer Science},  volume = {8704},  pages = {47--62},  publisher = {Springer},  year = {2014} }",
+	    "links": [
+	      { "link" : "https://www.fabriziomontesi.com/files/cms14.pdf" }
+	    ],
+	    "tags": [ "Session Types", "Logic", "Choreographic Programming", "Process Calculi" ],
+	    "authors": [ "Fabrizio Montesi" ],
+	    "abstract": "In Choreographic Programming, a distributed system is programmed by giving a choreography, a global description of its interactions, instead of separately specifying the behaviour of each of its processes. Process implementations in terms of a distributed language can then be automatically projected from a choreography. We present Linear Compositional Choreographies (LCC), a proof theory for reasoning about programs that modularly combine choreographies with processes. Using LCC, we logically reconstruct a semantics and a projection procedure for programs. For the first time, we also obtain a procedure for extracting choreographies from process terms.",
+			"non_group" : false,
+	    "type": "conference"
+	  },
+		{
+	    "bibitem": "@inproceedings{DBLP:conf/coordination/CarboneDM14,  author = {Marco Carbone and  Ornela Dardha and  Fabrizio Montesi},  editor = {eva K{\\\"{u}}hn and  Rosario Pugliese},  title = {Progress as Compositional Lock-Freedom},  booktitle = {Coordination Models and Languages - 16th {IFIP} {WG} 6.1 International  Conference, {COORDINATION} 2014, Held as Part of the 9th International  Federated Conferences on Distributed Computing Techniques, DisCoTec  2014, Berlin, Germany, June 3-5, 2014, Proceedings},  series = {Lecture Notes in Computer Science},  volume = {8459},  pages = {49--64},  publisher = {Springer},  year = {2014} }",
+	    "links": [
+	      { "link" : "https://www.fabriziomontesi.com/files/cdm14.pdf" }
+	    ],
+	    "tags": [ "Session Types", "Process Calculi" ],
+	    "authors": [ "Fabrizio Montesi" ],
+	    "abstract": "A session-based process satisfies the progress property if its sessions never get stuck when it is executed in an adequate context. Previous work studied how to define progress by introducing the notion of catalysers, execution contexts generated from the type of a process. In this paper, we refine such definition to capture a more intuitive notion of context adequacy for checking progress. Interestingly, our new catalysers lead to a novel characterisation of progress in terms of the standard notion of lock-freedom. Guided by this discovery, we also develop a conservative extension of catalysers that does not depend on types, generalising the notion of progress to untyped session-based processes. We combine our results with existing techniques for lock-freedom, obtaining a new methodology for proving progress. Our methodology captures new processes wrt previous progress analysis based on session types.",
+			"non_group" : false,
+	    "type": "conference"
+	  },
+		{
+	    "bibitem": "@inproceedings{DBLP:conf/dcai/GabbrielliGM14,  author = {Maurizio Gabbrielli and  Saverio Giallorenzo and  Fabrizio Montesi},  editor = {Sigeru Omatu and  Hugues Bersini and  Juan M. Corchado Rodr{\\'{\\i}}guez and  Sara Rodr{\\'{\\i}}guez and  Pawel Pawlewski and  Edgardo Bucciarelli},  title = {Service-Oriented Architectures: From Design to Production Exploiting  Workflow Patterns},  booktitle = {Distributed Computing and Artificial Intelligence, 11th International  Conference, {DCAI} 2014, Salamanca, Spain, June 4-6, 2014},  series = {Advances in Intelligent Systems and Computing},  volume = {290},  pages = {131--139},  publisher = {Springer},  year = {2014},  url = {https://doi.org/10.1007/978-3-319-07593-8_17},  doi = {10.1007/978-3-319-07593-8_17} }",
+	    "links": [
+	      { "link" : "https://www.fabriziomontesi.com/files/ggm14.pdf" }
+	    ],
+	    "tags": [ "Jolie" ],
+	    "authors": [ "Fabrizio Montesi", "Saverio Giallorenzo" ],
+	    "abstract": "In Service-Oriented Architectures (SOA), services are composed by coordinating their communications into a flow of interactions. Coloured Petri nets (CPN) offer a formal yet easy tool for modelling interactions in SOAs, however mapping abstract SOAs into executable ones requires a non-trivial and time-costly analysis. Here, we propose a methodology that maps CPN-modelled SOAs into Jolie SOAs (our target language), exploiting a collection of recurring control-flow patterns, called Workflow Patterns, as composable blocks of the translation. We validate our approach with a realistic use case. In addition, we pragmatically asses the expressiveness of Jolie wrt the considered WPs.",
+			"non_group" : false,
+	    "type": "conference"
+	  },
   {
     "bibitem": "@inproceedings{C14, author = {Cruz-Filipe, Lu{\\'i}s}, booktitle = {Foundations of Information and Knowledge Systems -- 8th International Symposium, FoIKS 2014, Bordeaux, France, March 3-7, 2014. Proceedings}, editor = {Beierle, Christoph and Meghini, Carlo}, doi = {10.1007/978-3-319-04939-7\\_18}, pages = {361--380}, publisher = {Springer}, series = {LNCS}, title = {Optimizing Computation of Repairs from Active Integrity Constraints}, volume = 8367, year = 2014}",
     "links": [{
@@ -57,8 +90,8 @@
   },
   {
     "bibitem": "@article{MMP14a,  author = {Alessio Mansutti and  Marino Miculan and  Marco Peressotti},  title = {Distributed execution of bigraphical reactive systems},  journal = {{ECEASST}},  volume = {71},  year = {2014},  url = {http://journal.ub.tu-berlin.de/eceasst/article/view/994} }",
-    "links": [ 
-      { "name" : "technical report", 
+    "links": [
+      { "name" : "technical report",
         "link" : "https://arxiv.org/abs/1503.02434",
         "icon" : "arxiv"}
     ],
@@ -79,8 +112,8 @@
   },
   {
     "bibitem": "@inproceedings{MP14,  author = {Marino Miculan and  Marco Peressotti},  editor = {Nathalie Bertrand and  Luca Bortolussi},  title = {{GSOS} for non-deterministic processes with quantitative aspects},  booktitle = {Proceedings Twelfth International Workshop on Quantitative Aspects  of Programming Languages and Systems, {QAPL} 2014, Grenoble, France,  12-13 April 2014.},  series = {{EPTCS}},  volume = {154},  pages = {17--33},  year = {2014},  url = {https://doi.org/10.4204/EPTCS.154.2},  doi = {10.4204/EPTCS.154.2} }",
-    "links": [ 
-      { "name" : "technical report", 
+    "links": [
+      { "name" : "technical report",
         "link" : "https://arxiv.org/abs/1410.0893",
         "icon" : "arxiv"}
     ],
@@ -92,7 +125,7 @@
   },
   {
     "bibitem": "@inproceedings{PGLMG14,  author = {Mila Dalla Preda and  Saverio Giallorenzo and  Ivan Lanese and  Jacopo Mauro and  Maurizio Gabbrielli},  title = {{AIOCJ:} {A} Choreographic Framework for Safe Adaptive Distributed  Applications},  booktitle = {Software Language Engineering - 7th International Conference, {SLE}  2014, V{\\\"{a}}ster{\\aa}s, Sweden, September 15-16, 2014. Proceedings},  pages = {161--170},  year = {2014},  crossref = {DBLP:conf/sle/2014},  url = {https://doi.org/10.1007/978-3-319-11245-9_9},  doi = {10.1007/978-3-319-11245-9_9},  timestamp = {Tue, 23 May 2017 01:10:43 +0200},  biburl = {https://dblp.org/rec/bib/conf/sle/PredaGLMG14},  publisher = {Springer}, bibsource = {dblp computer science bibliography, https://dblp.org} }",
-    "links": [ 
+    "links": [
       { "link" : "http://www.saveriogiallorenzo.com/publications/aiocj/" },
       { "name" : "website", "icon" : "site", "link" : "http://www.cs.unibo.it/projects/jolie/aiocj.html" }
     ],

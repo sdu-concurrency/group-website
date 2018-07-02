@@ -1,5 +1,54 @@
 { "title" : "2015",
-  "papers": [  
+  "papers": [
+		{
+	    "bibitem": "@inproceedings{LMZ15,  author = {Ivan Lanese and  Fabrizio Montesi and  Gianluigi Zavattaro},  editor = {Rocco De Nicola and  Rolf Hennicker},  title = {The Evolution of Jolie - From Orchestrations to Adaptable Choreographies},  booktitle = {Software, Services, and Systems - Essays Dedicated to Martin Wirsing  on the Occasion of His Retirement from the Chair of Programming and  Software Engineering},  series = {Lecture Notes in Computer Science},  volume = {8950},  pages = {506--521},  publisher = {Springer},  year = {2015},  url = {https://doi.org/10.1007/978-3-319-15545-6_29},  doi = {10.1007/978-3-319-15545-6_29} }",
+	    "links": [
+	      { "link" : "https://www.fabriziomontesi.com/files/lmz15.pdf" }
+	    ],
+	    "tags": [ "Jolie", "Choreographic Programming", "Adaptation" ],
+	    "authors": [ "Fabrizio Montesi" ],
+	    "abstract": "Jolie is an orchestration language conceived during Sensoria, an FP7 European project led by Martin Wirsing in the time frame 2005–2010. Jolie was designed having in mind both the novel –at project time– concepts related to Service-Oriented Computing and the traditional approach to the modelling of concurrency typical of process calculi. The foundational work done around Jolie during Sensoria has subsequently produced many concrete results. In this paper we focus on two distinct advancements, one aiming at the development of dynamically adaptable orchestrated systems and one focusing on global choreographic specifications. These works, more recently, contributed to the realisation of a framework for programming dynamically evolvable distributed ServiceOriented applications that are correct-by-construction",
+			"non_group" : false,
+	    "type": "conference"
+	  },
+		{
+	    "bibitem": "@inproceedings{DBLP:conf/concur/CarboneMSY15,  author = {Marco Carbone and  Fabrizio Montesi and  Carsten Sch{\\\"{u}}rmann and  Nobuko Yoshida},  editor = {Luca Aceto and  David de Frutos{-}Escrig},  title = {Multiparty Session Types as Coherence Proofs},  booktitle = {26th International Conference on Concurrency Theory, {CONCUR} 2015,  Madrid, Spain, September 1.4, 2015},  series = {LIPIcs},  volume = {42},  pages = {412--426},  publisher = {Schloss Dagstuhl - Leibniz-Zentrum fuer Informatik},  year = {2015},  url = {https://doi.org/10.4230/LIPIcs.CONCUR.2015.412},  doi = {10.4230/LIPIcs.CONCUR.2015.412} }",
+	    "links": [
+	      { "link" : "https://www.fabriziomontesi.com/files/cmsy15.pdf" }
+	    ],
+	    "tags": [ "Session Types", "Logic", "Process Calculi" ],
+	    "authors": [ "Fabrizio Montesi" ],
+	    "abstract": "We propose a Curry-Howard correspondence between a language for programming multiparty sessions and a generalisation of Classical Linear Logic (CLL). In this framework, propositions correspond to the local behaviour of a participant in a multiparty session type, proofs to processes, and proof normalisation to executing communications. Our key contribution is generalising duality, from CLL, to a new notion of n-ary compatibility, called coherence. Building on coherence as a principle of compositionality, we generalise the cut rule of CLL to a new rule for composing many processes communicating in a multiparty session. We prove the soundness of our model by showing the admissibility of our new rule, which entails deadlock-freedom via our correspondence.",
+			"non_group" : false,
+	    "type": "conference"
+	  },
+		{
+	    "bibitem": "@inproceedings{DBLP:conf/wsfm/Montesi15,  author = {Fabrizio Montesi},  editor = {Thomas T. Hildebrandt and  Ant{\\'{o}}nio Ravara and  Jan Martijn van der Werf and  Matthias Weidlich},  title = {Kickstarting Choreographic Programming},  booktitle = {Web Services, Formal Methods, and Behavioral Types - 11th International  Workshop, {WS-FM} 2014, Eindhoven, The Netherlands, September 11-12,  2014, and 12th International Workshop, {WS-FM/BEAT} 2015, Madrid,  Spain, September 4-5, 2015, Revised Selected Papers},  series = {Lecture Notes in Computer Science},  volume = {9421},  pages = {3--10},  publisher = {Springer},  year = {2015},  url = {https://doi.org/10.1007/978-3-319-33612-1_1} }",
+	    "links": [
+	      { "link" : "http://arxiv.org/abs/1502.02519" }
+	    ],
+	    "tags": [ "Choreographic Programming" ],
+	    "authors": [ "Fabrizio Montesi" ],
+	    "abstract": "We present an overview of some recent efforts aimed at the development of Choreographic Programming, a programming paradigm for the production of concurrent software that is guaranteed to be correct by construction from global descriptions of communication behaviour.",
+			"non_group" : false,
+	    "type": "workshop"
+	  },
+		{
+	    "bibitem": "@article{DBLP:journals/scp/LaneseMM15,  author = {Ivan Lanese and  Manuel Mazzara and  Fabrizio Montesi},  title = {Special issue on Service-Oriented Architecture and Programming {(SOAP}  2013)},  journal = {Sci. Comput. Program.},  volume = {97},  pages = {181--182},  year = {2015},  url = {https://doi.org/10.1016/j.scico.2014.07.007},  doi = {10.1016/j.scico.2014.07.007} }",
+	    "tags": [ "Service-oriented Computing" ],
+	    "authors": [ "Fabrizio Montesi" ],
+	    "abstract": "",
+			"non_group" : true,
+	    "type": "editorial"
+	  },
+		{
+	    "bibitem": "@article{DBLP:journals/jisis/BravettiLMM15,  author = {Mario Bravetti and  Alberto Lluch{-}Lafuente and  Manuel Mazzara and  Fabrizio Montesi},  title = {Guest Editorial: Special Issue on Service-Oriented Architectures and  Programming},  journal = {J. Internet Serv. Inf. Secur.},  volume = {5},  number = {1},  pages = {1--2},  year = {2015},  url = {http://isyou.info/jisis/vol5/no1/jisis-2015-vol5-no1-00.pdf} }",
+	    "tags": [ "Service-oriented Computing" ],
+	    "authors": [ "Fabrizio Montesi" ],
+	    "abstract": "",
+			"non_group" : true,
+	    "type": "editorial"
+	  },
   {
     "bibitem": "@inproceedings{CCS15, author = {Codish, Michael and Cruz-Filipe, Lu{\\'i}s and Schneider-Kamp, Peter}, booktitle = {Language and Automata Theory and Applications -- 9th International Conference, {LATA} 2015, Nice, France, March 2-6, 2015, Proceedings}, editor = {Dediu, Adrian-Horia and Formenti, Enrico and Mart{\\'\\i}n{-}Vide, Carlos and Truthe, Bianca}, doi = {10.1007/978-3-319-15579-1\\_52}, pages = {664--675}, publisher = {Springer}, series = {LNCS}, title = {Sorting networks: the end game}, volume = 8977, year = 2015}",
     "links": [
@@ -79,8 +128,8 @@
   },
   {
     "bibitem": "@article{BMP15,  author = {Tomasz Brengos and  Marino Miculan and  Marco Peressotti},  title = {Behavioural equivalences for coalgebras with unobservable moves},  journal = {J. Log. Algebr. Meth. Program.},  volume = {84},  number = {6},  pages = {826--852},  year = {2015},  doi = {10.1016/j.jlamp.2015.09.002} }",
-    "links": [ 
-      { "name" : "technical report", 
+    "links": [
+      { "name" : "technical report",
         "link" : "https://arxiv.org/abs/1411.0090",
         "icon" : "arxiv"}
     ],
@@ -92,8 +141,8 @@
   },
   {
     "bibitem": "@inproceedings{MPT15,  author = {Marino Miculan and  Marco Peressotti and  Andrea Toneguzzo},  editor = {Tom Holvoet and  Mirko Viroli},  title = {Open Transactions on Shared Memory},  booktitle = {Coordination Models and Languages - 17th {IFIP} {WG} 6.1 International  Conference, {COORDINATION} 2015, Held as Part of the 10th International  Federated Conference on Distributed Computing Techniques, DisCoTec  2015, Grenoble, France, June 2-4, 2015, Proceedings},  series = {Lecture Notes in Computer Science},  volume = {9037},  pages = {213--229},  publisher = {Springer},  year = {2015},  doi = {10.1007/978-3-319-19282-6\\_14}}",
-    "links": [ 
-      { "name" : "technical report", 
+    "links": [
+      { "name" : "technical report",
         "link" : "https://arxiv.org/abs/1503.09097",
         "icon" : "arxiv"}
     ],
