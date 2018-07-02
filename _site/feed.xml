@@ -6,9 +6,22 @@
 </description>
     <link>http://concurrency.sdu.dk/</link>
     <atom:link href="http://concurrency.sdu.dk/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 27 Jun 2018 22:18:45 +0200</pubDate>
-    <lastBuildDate>Wed, 27 Jun 2018 22:18:45 +0200</lastBuildDate>
-    <generator>Jekyll v3.8.3</generator>
+    <pubDate>Mon, 02 Jul 2018 10:23:42 +0200</pubDate>
+    <lastBuildDate>Mon, 02 Jul 2018 10:23:42 +0200</lastBuildDate>
+    <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Meeting with Tek</title>
+        <description>&lt;p&gt;&lt;img class=&quot;img-fluid mx-auto d-block&quot; src=&quot;/images/posts/tekse06.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;On June 28th, members of the Concurrency and Logic had a kickoff meeting with members of the &lt;a href=&quot;https://www.sdu.dk/en/om_sdu/institutter_centre/sdusoftwareengineering&quot;&gt;Software Engineering section&lt;/a&gt;: &lt;a href=&quot;http://findresearcher.sdu.dk/portal/da/persons/kati-kuusinen(9575db52-61c5-4e95-aad5-76193bce9a2c).html&quot;&gt;Kati Kuusinen&lt;/a&gt;, &lt;a href=&quot;http://findresearcher.sdu.dk/portal/en/persons/sanja-lazarovamolnar(b4fa9a39-d23f-4e26-9fb9-76dc16a6f3cd).html&quot;&gt;Sanja Lazarova-Molnar&lt;/a&gt;, and &lt;a href=&quot;http://findresearcher.sdu.dk/portal/da/persons/elena-markoska(6e62c3d2-27ef-458e-9f75-4891f66099a9).html&quot;&gt;Elena Markoska&lt;/a&gt;. At the meeting, we discussed future collaborations between SE@Tek and CL@IMADA, ranging shared research projects and shared lectures and industrial summer courses on &lt;a href=&quot;/research-areas.html#rt_ms&quot;&gt;Microservices&lt;/a&gt; and &lt;a href=&quot;/research-areas.html#rt_do&quot;&gt;DevOps&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 28 Jun 2018 00:00:00 +0200</pubDate>
+        <link>http://concurrency.sdu.dk/events/2018-06-28-meeting-tek.html</link>
+        <guid isPermaLink="true">http://concurrency.sdu.dk/events/2018-06-28-meeting-tek.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Applied Choreographies at FORTE @ DisCoTec 2018</title>

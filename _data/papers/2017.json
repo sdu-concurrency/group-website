@@ -7,7 +7,7 @@
     ],
     "abstract": "We describe a first proposal for a new packaging system for microservices based on the Jolie programming language, called the Jolie Package Manager (JPM). Its main features revolve around service interfaces, which make the functionalities that a service provides and depends on explicit. For the first time, JPM supports binding a service to an externally-provided package, and a notion of interface parametricity that can be used to develop generic service libraries that can modify the behaviour of arbitrary services. We illustrate the latter with a generic circuit breaker package.",
 		"tags" : [ "Microservices", "Jolie" ],
-    "authors" : [ "Fabrizio Montesi", "Dan Sebastian Thrane" ],
+    "authors" : [ "Fabrizio Montesi" ],
     "type" : "Conference",
     "non_group" : false
   },

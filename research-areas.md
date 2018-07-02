@@ -14,9 +14,8 @@ layout: default
   }
 </style>
 <script type="text/javascript" charset="utf-8">
-  var open_tab = function() {
-    item = $( this ).attr( "xlink:href" );
-    tab = item.split( "_" )[0];
+
+  var open_tab_imp = function( item, tab ){
     $( '[id*="-item"]')
       .filter("[aria-expanded=true]")
       .filter(":not(" + item + "-item" + ")")
@@ -32,7 +31,26 @@ layout: default
       $( item + "-item" ).trigger( 'click' );
     }
     //return false;
+  }
+
+  var open_tab = function() {
+    item = $( this ).attr( "xlink:href" );
+    tab = item.split( "_" )[0];
+    open_tab_imp( item, tab );
   };
+</script>
+
+<script type="text/javascript" charset="utf-8">
+  $( document ).ready( function() {
+    $( "svg a" ).each( function( i, el ) {
+      $( el ).click( open_tab );
+    });
+    var hash = window.location.href.substring( window.location.href.indexOf("#") );
+    var tab_item = decodeURIComponent( hash );
+    var tab = tab_item.split( "_" )[0];
+    var item = tab_item;
+    open_tab_imp( item, tab );
+  });
 </script>
 
 <article id="main"><header class="major container" markdown="1">
@@ -102,11 +120,3 @@ The interrelation between these components is illustrated below.
   </div>
 
 </section></div></section></article>
-
-<script type="text/javascript" charset="utf-8">
-  $( document ).ready( function() {
-    $( "svg a" ).each( function( i, el ) {
-      $( el ).click( open_tab );
-    });
-  });
-</script>
