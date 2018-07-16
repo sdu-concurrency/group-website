@@ -21,7 +21,7 @@ layout: none
 	<author>{{ author }}</author>
 		{% endfor %}
 	<abstract>{{ paper.abstract | xml_escape }}</abstract>
-	<bibitem>{{ paper.bibitem }}</bibitem>
+	<bibitem>{{ paper.bibitem | formatBibitem }}</bibitem>
 </paper>
 		{% endif %}
 	{% endfor %}
