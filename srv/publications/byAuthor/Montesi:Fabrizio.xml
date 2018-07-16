@@ -3,27 +3,29 @@ layout: none
 ---
 <papers>
 {% for item in site.data.papers %}
-	{% for paper in item.papers %}
-		{% if paper.authors contains "Fabrizio Montesi" %}
-<paper>
-	<year>{{ item.year }}</year>
-	<content>{{ paper.content | xml_escape }}</content>
-		{% for link in paper.links %}
-	<link>
-		<name>{{ link.name }}</name>
-		<link>{{ link.link }}</link>
-	</link>
-		{% endfor%}
-		{% for tag in paper.tags %}
-	<tag>{{ tag }}</tag>
+<collection>
+	<title>{{ item.year }}</title>
+		{% for paper in item.papers %}
+			{% if paper.authors contains "Fabrizio Montesi" %}
+	<paper>
+		<content>{{ paper.content | xml_escape }}</content>
+			{% for link in paper.links %}
+		<link>
+			<name>{{ link.name }}</name>
+			<link>{{ link.link }}</link>
+		</link>
+			{% endfor%}
+			{% for tag in paper.tags %}
+		<tag>{{ tag }}</tag>
+			{% endfor %}
+			{% for author in paper.authors %}
+		<author>{{ author }}</author>
+			{% endfor %}
+		<abstract>{{ paper.abstract | xml_escape }}</abstract>
+		<bibitem>{{ paper.bibitem | formatBibitem }}</bibitem>
+	</paper>
+			{% endif %}
 		{% endfor %}
-		{% for author in paper.authors %}
-	<author>{{ author }}</author>
-		{% endfor %}
-	<abstract>{{ paper.abstract | xml_escape }}</abstract>
-	<bibitem>{{ paper.bibitem | formatBibitem }}</bibitem>
-</paper>
-		{% endif %}
-	{% endfor %}
+</collection>
 {% endfor %}
 </papers>
