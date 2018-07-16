@@ -1173,6 +1173,44 @@
 		
 			
 	<paper>
+		<content>Fabrizio Montesi, Claudio Guidi, Ivan Lanese, &amp; Gianluigi Zavattaro. (2008). &lt;span class=&quot;paper-title&quot;&gt;Dynamic Fault Handling Mechanisms for Service-Oriented Applications&lt;/span&gt;. In C. Pahl, S. Clarke, &amp; R. Eshuis (Eds.), ECOWS 2008, Sixth European Conference on Web Services, 12-14 November  2008, Dublin, Ireland (pp. 225–234). IEEE Computer Society.</content>
+			
+		<link>
+			<name>doi</name>
+			<link>https://doi.org/10.1109/ECOWS.2008.20</link>
+		</link>
+			
+		<link>
+			<name></name>
+			<link>http://fabriziomontesi.com/files/mglz08.pdf</link>
+		</link>
+			
+			
+		<tag>Jolie</tag>
+			
+		<tag>Microservices</tag>
+			
+			
+		<author>Fabrizio Montesi</author>
+			
+		<abstract>Dynamic fault handling is a new approach for dealing with fault management in service-oriented applications. Fault handlers, termination handlers and compensation handlers are installed at execution time instead of being statically defined. In this paper we present this programming style and our implementation of dynamic fault handling in JOLIE, providing finally a nontrivial example of its usage.</abstract>
+		<bibitem>@inproceedings{DBLP:conf/ecows/MontesiGLZ08,
+  author = {Montesi, Fabrizio and Guidi, Claudio and Lanese, Ivan and Zavattaro, Gianluigi},
+  editor = {Pahl, Claus and Clarke, Siobh{\'{a}}n and Eshuis, Rik},
+  title = {Dynamic Fault Handling Mechanisms for Service-Oriented Applications},
+  booktitle = {{ECOWS} 2008, Sixth European Conference on Web Services, 12-14 November  2008, Dublin, Ireland},
+  pages = {225--234},
+  publisher = {{IEEE} Computer Society},
+  year = {2008},
+  url = {https://doi.org/10.1109/ECOWS.2008.20},
+  doi = {10.1109/ECOWS.2008.20}
+}
+</bibitem>
+	</paper>
+			
+		
+			
+	<paper>
 		<content>Ivan Lanese, Claudio Guidi, Fabrizio Montesi, &amp; Gianluigi Zavattaro. (2008). &lt;span class=&quot;paper-title&quot;&gt;Bridging the Gap between Interaction- and Process-Oriented Choreographies&lt;/span&gt;. In SEFM (pp. 323–332). IEEE Computer Society.</content>
 			
 		<link>
