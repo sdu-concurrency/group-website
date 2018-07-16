@@ -10,7 +10,7 @@ module Jekyll
     def getYear( file, iconMap )
       tmp = JSON.parse( File.read( file ) )
       hashMap = Hash.new
-      tmp["papers"].each { | item | 
+      tmp["papers"].each { | item |
         bibitem = item[ "bibitem" ]
         id = bibitem[ bibitem.index( "{" )+1..bibitem.index( "," )-1 ]
         hashMap[ id ] = item
@@ -28,7 +28,7 @@ module Jekyll
           if ( link["icon"].nil? )
             link["icon"] = iconMap[ link["pdf"] ]
           else
-           unless iconMap[ link["icon"] ].nil? 
+           unless iconMap[ link["icon"] ].nil?
             link["icon"] = iconMap[ link["icon"] ]
            end
           end
@@ -37,17 +37,17 @@ module Jekyll
         b = BibTeX.parse( bibitem ).convert(:latex)
         # use the the bib url if item does not specify a link for the paper
         unless b[0]["url"].nil? || links.any?{ |h| h["name"] == "paper" || h["name"] == nil}
-          links.insert(0, { 
-            "link" => b[0].url, "name" => "paper", 
-            "icon" => (b[0].url.end_with?(".pdf") ? iconMap["pdf"] : iconMap["generic"] ) 
+          links.insert(0, {
+            "link" => b[0].url, "name" => "paper",
+            "icon" => (b[0].url.end_with?(".pdf") ? iconMap["pdf"] : iconMap["generic"] )
           })
         end
         # use the the bib doi if item does not specify one
         unless b[0]["doi"].nil? || links.any?{ |h| h["name"] == "doi"}
-          links.insert(0, { 
-            "link" => "https://doi.org/" << b[0].doi.gsub("\\",""), 
-            "name" => "doi", 
-            "icon" => "ai ai-doi" 
+          links.insert(0, {
+            "link" => "https://doi.org/" << b[0].doi.gsub("\\",""),
+            "name" => "doi",
+            "icon" => "ai ai-doi"
           })
         end
         b[0].delete("doi")
@@ -70,16 +70,16 @@ module Jekyll
         item["links"] = links
         # titlecaseing and null filtering for tags, type, and authors
         type = item["type"]
-        unless type.nil? || type.length == 0 
+        unless type.nil? || type.length == 0
           item["type"] = type.downcase.titleize
         end
         item["authors"].map! { | e |
-          unless e.nil? || e.length == 0 
+          unless e.nil? || e.length == 0
             e.downcase.titleize
           end
           }.collect!
         item["tags"].map! { | e |
-          unless e.nil? || e.length == 0 
+          unless e.nil? || e.length == 0
             e.downcase.titleize
           end
           }.collect!

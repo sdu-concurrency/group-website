@@ -1,0 +1,26 @@
+---
+layout: none
+---
+<papers>
+{% for item in site.data.papers %}
+	{% for paper in item.papers %}
+<paper>
+	<year>{{ item.year }}</year>
+	<content>{{ paper.content | xml_escape }}</content>
+		{% for link in paper.links %}
+	<link>
+		<name>{{ link.name }}</name>
+		<link>{{ link.link }}</link>
+	</link>
+		{% endfor%}
+		{% for tag in paper.tags %}
+	<tag>{{ tag }}</tag>
+		{% endfor %}
+		{% for author in paper.authors %}
+	<author>{{ author }}</author>
+		{% endfor %}
+	<abstract>{{ paper.abstract | xml_escape }}</abstract>
+</paper>
+	{% endfor %}
+{% endfor %}
+</papers>
