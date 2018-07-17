@@ -1,5 +1,49 @@
 { "title" : "2013",
   "papers": [
+		{
+			"bibitem" : "@inproceedings{DBLP:conf/concur/MontesiY13,  author = {Fabrizio Montesi and  Nobuko Yoshida},  editor = {Pedro R. D'Argenio and  Hern{\\'{a}}n C. Melgratti},  title = {Compositional Choreographies},  booktitle = {{CONCUR} 2013 - Concurrency Theory - 24th International Conference,  {CONCUR} 2013, Buenos Aires, Argentina, August 27-30, 2013. Proceedings},  series = {Lecture Notes in Computer Science},  volume = {8052},  pages = {425--439},  publisher = {Springer},  year = {2013},  url = {https://doi.org/10.1007/978-3-642-40184-8\\_30},  doi = {10.1007/978-3-642-40184-8\\_30},  timestamp = {Fri, 02 Jun 2017 20:50:29 +0200},  biburl = {https://dblp.org/rec/bib/conf/concur/MontesiY13},  bibsource = {dblp computer science bibliography, https://dblp.org} } ",
+			"links" : [
+				{ "link" : "https://www.fabriziomontesi.com/files/my13.pdf" }
+			],
+			"abstract" : "We propose a new programming model that supports a compositionality of choreographies. The key of our approach is the introduction of partial choreographies, which can mix global descriptions with communications among external peers. We prove that if two choreographies are composable, then the endpoints independently generated from each choreography are also composable, preserving their typability and deadlock-freedom. The usability of our framework is demonstrated by modelling an industrial use case implemented in a tool for Web Services, Jolie.",
+			"tags" : [ "Choreographic Programming", "Session Types", "Jolie", "Microservices" ],
+			"authors" : [ "Fabrizio Montesi" ],
+			"non_group": false,
+			"type" : "Conference"
+		},
+		{
+			"bibitem" : "@inproceedings{DBLP:conf/popl/CarboneM13,  author = {Marco Carbone and  Fabrizio Montesi},  editor = {Roberto Giacobazzi and  Radhia Cousot},  title = {Deadlock-freedom-by-design: multiparty asynchronous global programming},  booktitle = {The 40th Annual {ACM} {SIGPLAN-SIGACT} Symposium on Principles of  Programming Languages, {POPL} '13, Rome, Italy - January 23 - 25,  2013},  pages = {263--274},  publisher = {{ACM}},  year = {2013},  url = {http://doi.acm.org/10.1145/2429069.2429101},  doi = {10.1145/2429069.2429101},  timestamp = {Mon, 05 Jun 2017 12:41:03 +0200},  biburl = {https://dblp.org/rec/bib/conf/popl/CarboneM13},  bibsource = {dblp computer science bibliography, https://dblp.org} } ",
+			"links" : [
+				{ "link" : "https://www.fabriziomontesi.com/files/cm13.pdf" }
+			],
+			"abstract" : "Over the last decade, global descriptions have been successfully employed for the verification and implementation of communicating systems, respectively as protocol specifications and choreographies. In this work, we bring these two practices together by proposing a purely-global programming model. We show a novel interpretation of asynchrony and parallelism in a global setting and develop a typing discipline that verifies choreographies against protocol specifications, based on multiparty sessions. Exploiting the nature of global descriptions, our type system defines a new class of deadlock-free concurrent systems (deadlock-freedom-bydesign), provides type inference, and supports session mobility. We give a notion of Endpoint Projection (EPP) which generates correct entity code (as π-calculus terms) from a choreography. Finally, we evaluate our approach by providing a prototype implementation for a concrete programming language and by applying it to some examples from multicore and service-oriented programming.",
+			"tags" : [ "Choreographic Programming", "Session Types" ],
+			"authors" : [ "Fabrizio Montesi" ],
+			"non_group": false,
+			"type" : "Conference"
+		},
+		{
+			"bibitem" : "@inproceedings{DBLP:conf/sac/Montesi13,  author = {Fabrizio Montesi},  editor = {Sung Y. Shin and  Jos{\\'{e}} Carlos Maldonado},  title = {Process-aware web programming with Jolie},  booktitle = {Proceedings of the 28th Annual {ACM} Symposium on Applied Computing,  {SAC} '13, Coimbra, Portugal, March 18-22, 2013},  pages = {761--763},  publisher = {{ACM}},  year = {2013},  url = {http://doi.acm.org/10.1145/2480362.2480507},  doi = {10.1145/2480362.2480507},  timestamp = {Mon, 05 Jun 2017 12:41:15 +0200},  biburl = {https://dblp.org/rec/bib/conf/sac/Montesi13},  bibsource = {dblp computer science bibliography, https://dblp.org} }",
+			"links" : [
+				{ "link" : "https://www.fabriziomontesi.com/files/m13.pdf" }
+			],
+			"abstract" : "We present a programming framework, based upon the Jolie language, for the native modelling of process-aware web information systems. Our major contribution is to offer a unifying approach for the programming of distributed architectures based on HTTP that support typical features of the process-oriented paradigm, such as structured communication flows and multiparty sessions.",
+			"tags" : [ "Jolie", "Microservices", "Web" ],
+			"authors" : [ "Fabrizio Montesi" ],
+			"non_group": false,
+			"type" : "Conference"
+		},
+		{
+			"bibitem" : "@inproceedings{DBLP:journals/corr/LaneseMZ13,  author = {Ivan Lanese and  Fabrizio Montesi and  Gianluigi Zavattaro},  editor = {Ant{\\'{o}}nio Ravara and  Josep Silva},  title = {Amending Choreographies},  booktitle = {Proceedings 9th International Workshop on Automated Specification  and Verification of Web Systems, {WWV} 2013, Florence, Italy, 6th  June 2013.},  series = {{EPTCS}},  volume = {123},  pages = {34--48},  year = {2013},  url = {https://doi.org/10.4204/EPTCS.123.5},  doi = {10.4204/EPTCS.123.5},  timestamp = {Mon, 05 Jun 2017 20:50:58 +0200},  biburl = {https://dblp.org/rec/bib/journals/corr/LaneseMZ13},  bibsource = {dblp computer science bibliography, https://dblp.org} } ",
+			"links" : [
+				{ "link" : "https://www.fabriziomontesi.com/files/lmz13.pdf" }
+			],
+			"abstract" : "Choreographies are global descriptions of system behaviors, from which the local behavior of each endpoint entity can be obtained automatically through projection. To guarantee that its projection is correct, i.e. it has the same behaviors of the original choreography, a choreography usually has to respect some coherency conditions. This restricts the set of choreographies that can be projected. In this paper, we present a transformation for amending choreographies that do not respect common syntactic conditions for projection correctness. Specifically, our transformation automatically reduces the amount of concurrency, and it infers and adds hidden communications that make the resulting choreography respect the desired conditions, while preserving its behavior.",
+			"tags" : [ "Choreographic Programming" ],
+			"authors" : [ "Fabrizio Montesi" ],
+			"non_group": false,
+			"type" : "Workshop"
+		},
     {
     "bibitem": "@inproceedings{CEGN2013, author = {Cruz-Filipe, Lu{\\'i}s and Engr{\\' a}cia, Patr{\\'\\i}cia and Gaspar, Gra{\\c c}a and Nunes, Isabel}, booktitle = {2013 International Symposium on Theoretical Aspects of Software Engineering, Birmingham, UK, July 1st--July 3rd 2013}, editor = {Wang, Hai and Banach, Richard}, month = jul, doi = {10.1109/TASE.2013.32}, pages = {183--190}, publisher = {IEEE}, title = {Computing Repairs from Active Integrity Constraints}, year = 2013}",
     "links": [{

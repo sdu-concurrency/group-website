@@ -1,0 +1,33 @@
+{ "title" : "2012",
+  "papers": [
+		{
+			"bibitem" : "@inproceedings{DBLP:conf/esocc/PredaGGMM12,  author = {Mila Dalla Preda and  Maurizio Gabbrielli and  Claudio Guidi and  Jacopo Mauro and  Fabrizio Montesi},  editor = {Flavio De Paoli and  Ernesto Pimentel and  Gianluigi Zavattaro},  title = {Interface-Based Service Composition with Aggregation},  booktitle = {Service-Oriented and Cloud Computing - First European Conference,  {ESOCC} 2012, Bertinoro, Italy, September 19-21, 2012. Proceedings},  series = {Lecture Notes in Computer Science},  volume = {7592},  pages = {48--63},  publisher = {Springer},  year = {2012},  url = {https://doi.org/10.1007/978-3-642-33427-6\\_4},  doi = {10.1007/978-3-642-33427-6\\_4},  timestamp = {Fri, 02 Jun 2017 20:48:19 +0200},  biburl = {https://dblp.org/rec/bib/conf/esocc/PredaGGMM12},  bibsource = {dblp computer science bibliography, https://dblp.org} }",
+			"tags" : [ "Jolie", "Microservices" ],
+			"authors" : [ "Fabrizio Montesi" ],
+			"non_group": false,
+			"type" : "Conference"
+		},
+		{
+			"bibitem" : "@inproceedings{DBLP:conf/soca/PredaGGMM12,  author = {Mila Dalla Preda and  Maurizio Gabbrielli and  Claudio Guidi and  Jacopo Mauro and  Fabrizio Montesi},  title = {Service integration via target-transparent mediation},  booktitle = {2012 Fifth {IEEE} International Conference on Service-Oriented Computing  and Applications (SOCA), Taipei, Taiwan, December 17-19, 2012},  pages = {1--5},  publisher = {{IEEE} Computer Society},  year = {2012},  url = {https://doi.org/10.1109/SOCA.2012.6449432},  doi = {10.1109/SOCA.2012.6449432},  timestamp = {Mon, 05 Jun 2017 12:42:33 +0200},  biburl = {https://dblp.org/rec/bib/conf/soca/PredaGGMM12},  bibsource = {dblp computer science bibliography, https://dblp.org} } ",
+			"links" : [
+				{ "link" : "https://www.fabriziomontesi.com/files/dggmm12.pdf" }
+			],
+			"abstract" : "In the context of Service-Oriented Architectures (SOAs), the integration of services is an important aspect that is usually addressed by using specific tools, such as Enterprise Service Bus (ESB). In this paper we propose a framework to perform service integration building on the extension of service interfaces, capturing a class of service integrators that are decoupled from the services they integrate in an SOA. We show how our service integrators can be used in practice by evaluating our approach with Jolie, a serviceoriented programming language. Finally, we present how our methodology differs from the standard practice with ESB.",
+			"tags" : [ "Jolie", "Microservices" ],
+			"authors" : [ "Fabrizio Montesi" ],
+			"non_group": false,
+			"type" : "Conference"
+		},
+		{
+			"bibitem" : "@inproceedings{DBLP:journals/corr/abs-1302-6331,  author = {Marco Carbone and  Fabrizio Montesi},  editor = {Simon J. Gay and  Paul Kelly},  title = {Merging Multiparty Protocols in Multiparty Choreographies},  booktitle = {Proceedings Fifth Workshop on Programming Language Approaches to Concurrency-  and Communication-cEntric Software, {PLACES} 2012, Tallinn, Estonia,  31 March 2012.},  series = {{EPTCS}},  volume = {109},  pages = {21--27},  year = {2012},  url = {https://doi.org/10.4204/EPTCS.109.4},  doi = {10.4204/EPTCS.109.4},  timestamp = {Mon, 05 Jun 2017 20:50:57 +0200},  biburl = {https://dblp.org/rec/bib/journals/corr/abs-1302-6331},  bibsource = {dblp computer science bibliography, https://dblp.org} }",
+			"links" : [
+				{ "link" : "https://www.fabriziomontesi.com/files/cm13_mm.pdf" }
+			],
+			"abstract" : "Choreography-based programming is a powerful paradigm for defining communication-based systems from a global viewpoint. A choreography can be checked against multiparty protocol specifications, given as behavioural types, that may be instantiated indefinitely at runtime. Each protocol instance is started with a synchronisation among the involved peers. We analyse a simple transformation from a choreography with a possibly unbounded number of protocol instantiations to a choreography instantiating a single protocol, which is the merge of the original ones. This gives an effective methodology for obtaining new protocols by composing existing ones. Moreover, by removing all synchronisations required for starting protocol instances, our transformation reduces the number of communications and resources needed to execute a choreography.",
+			"tags" : [ "Choreographic Programming", "Session Types" ],
+			"authors" : [ "Fabrizio Montesi" ],
+			"non_group": false,
+			"type" : "Workshop"
+		}
+	]
+}

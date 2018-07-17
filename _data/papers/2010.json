@@ -1,0 +1,37 @@
+{ "title" : "2010",
+  "papers": [
+		{
+			"bibitem" : "@inproceedings{DBLP:conf/isola/LaneseM10,  author = {Ivan Lanese and  Fabrizio Montesi},  editor = {Tiziana Margaria and  Bernhard Steffen},  title = {Error Handling: From Theory to Practice},  booktitle = {Leveraging Applications of Formal Methods, Verification, and Validation  - 4th International Symposium on Leveraging Applications, ISoLA 2010,  Heraklion, Crete, Greece, October 18-21, 2010, Proceedings, Part {II}},  series = {Lecture Notes in Computer Science},  volume = {6416},  pages = {66--81},  publisher = {Springer},  year = {2010},  url = {https://doi.org/10.1007/978-3-642-16561-0\\_13},  doi = {10.1007/978-3-642-16561-0\\_13},  timestamp = {Sun, 04 Jun 2017 10:11:24 +0200},  biburl = {https://dblp.org/rec/bib/conf/isola/LaneseM10},  bibsource = {dblp computer science bibliography, https://dblp.org} }",
+			"links" : [
+				{ "link" : "https://www.fabriziomontesi.com/files/lm10.pdf" }
+			],
+			"abstract" : "We describe the different issues that a language designer has to tackle when defining error handling mechanisms for service-oriented computing. We first discuss the issues that have to be considered when developing error handling mechanisms inside a process calculus, i.e. an abstract model. We then analyze how these issues change when moving from a process calculus to a full-fledged language based on it. We consider as an example the language Jolie, and the calculus SOCK it is based upon.",
+			"tags" : [ "Jolie", "Microservices", "Process Calculi" ],
+			"authors" : [ "Fabrizio Montesi" ],
+			"non_group": false,
+			"type" : "Conference"
+		},
+		{
+			"bibitem" : "@inproceedings{DBLP:conf/tgc/MontesiS10,  author = {Fabrizio Montesi and  Davide Sangiorgi},  editor = {Martin Wirsing and  Martin Hofmann and  Axel Rauschmayer},  title = {A Model of Evolvable Components},  booktitle = {Trustworthly Global Computing - 5th International Symposium, {TGC}  2010, Munich, Germany, February 24-26, 2010, Revised Selected Papers},  series = {Lecture Notes in Computer Science},  volume = {6084},  pages = {153--171},  publisher = {Springer},  year = {2010},  url = {https://doi.org/10.1007/978-3-642-15640-3\\_11},  doi = {10.1007/978-3-642-15640-3\\_11},  timestamp = {Mon, 05 Jun 2017 12:40:54 +0200},  biburl = {https://dblp.org/rec/bib/conf/tgc/MontesiS10},  bibsource = {dblp computer science bibliography, https://dblp.org} }",
+			"links" : [
+				{ "link" : "https://www.fabriziomontesi.com/files/ms10.pdf" }
+			],
+			"abstract" : "We present a model of components following the process calculus approach. The main problem was isolating primitives that capture the relevant concepts of component-based systems. The key features of the calculus are: a hierarchical structure of components; a prominent role to input/output interfaces; the possibility of stopping and capturing components; a mechanism of channel interactions, orthogonal to the activity of components, which may produce tunneling effects that bypass the component hierarchy. We present the calculus, explain the syntax, formulate its operational semantics and a basic type system. We show a number of examples of use of the calculus, with particular emphasis to common evolvability patterns for components.",
+			"tags" : [ "Process Calculi" ],
+			"authors" : [ "Fabrizio Montesi" ],
+			"non_group": false,
+			"type" : "Conference"
+		},
+		{
+			"bibitem" : "@inproceedings{DBLP:conf/tgc/LaneseBM10,  author = {Ivan Lanese and  Antonio Bucchiarone and  Fabrizio Montesi},  editor = {Martin Wirsing and  Martin Hofmann and  Axel Rauschmayer},  title = {A Framework for Rule-Based Dynamic Adaptation},  booktitle = {Trustworthly Global Computing - 5th International Symposium, {TGC}  2010, Munich, Germany, February 24-26, 2010, Revised Selected Papers},  series = {Lecture Notes in Computer Science},  volume = {6084},  pages = {284--300},  publisher = {Springer},  year = {2010},  url = {https://doi.org/10.1007/978-3-642-15640-3\\_19},  doi = {10.1007/978-3-642-15640-3\\_19},  timestamp = {Mon, 05 Jun 2017 12:40:54 +0200},  biburl = {https://dblp.org/rec/bib/conf/tgc/LaneseBM10},  bibsource = {dblp computer science bibliography, https://dblp.org} }",
+			"links" : [
+				{ "link" : "https://www.fabriziomontesi.com/files/gm09.pdf" }
+			],
+			"abstract" : "We propose a new approach to dynamic adaptation, based on the combination of adaptation hooks provided by the adaptable application specifying where adaptation can happen, and adaptation rules external to the application, specifying when and how adaptation can be performed. We discuss different design choices that have to be considered when using such an approach, and then we propose a possible solution. We describe the solution in details, we apply it to a sample scenario and we implement it on top of the language Jolie.",
+			"tags" : [ "Jolie", "Microservices" ],
+			"authors" : [ "Fabrizio Montesi" ],
+			"non_group": false,
+			"type" : "Conference"
+		}
+	]
+}

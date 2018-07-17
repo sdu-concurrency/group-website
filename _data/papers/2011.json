@@ -1,0 +1,26 @@
+{ "title" : "2011",
+  "papers": [
+		{
+			"bibitem" : "@inproceedings{DBLP:conf/coordination/MauroGGM11,  author = {Jacopo Mauro and  Maurizio Gabbrielli and  Claudio Guidi and  Fabrizio Montesi},  editor = {Wolfgang De Meuter and  Gruia{-}Catalin Roman},  title = {An Efficient Management of Correlation Sets with Broadcast},  booktitle = {Coordination Models and Languages - 13th International Conference,  {COORDINATION} 2011, Reykjavik, Iceland, June 6-9, 2011. Proceedings},  series = {Lecture Notes in Computer Science},  volume = {6721},  pages = {80--94},  publisher = {Springer},  year = {2011},  url = {https://doi.org/10.1007/978-3-642-21464-6\\_6},  doi = {10.1007/978-3-642-21464-6\\_6},  timestamp = {Fri, 02 Jun 2017 20:46:56 +0200},  biburl = {https://dblp.org/rec/bib/conf/coordination/MauroGGM11},  bibsource = {dblp computer science bibliography, https://dblp.org} }",
+			"links" : [
+				{ "link" : "https://www.fabriziomontesi.com/files/mggm11.pdf" }
+			],
+			"abstract" : "A fundamental aspect which affects the efficiency and the performance of Service-Oriented Architectures is the mechanism which allows to manage sessions and, in particular, to assign incoming messages to the correct sessions (also known as service instances). A relevant mechanism for solving this problem, first introduced by BPEL and then used in other languages (e.g. Jolie) is that one based on correlation sets. The BPEL and Jolie languages are currently allowing the use of messages whose target is only one session. However there are a lot of scenarios where being able to send a broadcast message to more than one session could be useful. Supporting such a broadcast primitive means to allow correlation sets which can contain unspecified variables and this can be very inefficient, since usual implementations in terms of hash tables cannot be used in this case. In this paper we propose a data structure, based on radix trees and an algorithm for managing a correlation mechanism that supports the broadcast primitive, without degrading the performances.",
+			"tags" : [ "Jolie", "Microservices", "Algorithms" ],
+			"authors" : [ "Fabrizio Montesi" ],
+			"non_group": false,
+			"type" : "Conference"
+		},
+		{
+			"bibitem" : "@inproceedings{DBLP:conf/icsoc/MontesiC11,  author = {Fabrizio Montesi and  Marco Carbone},  editor = {Gerti Kappel and  Zakaria Maamar and  Hamid R. Motahari Nezhad},  title = {Programming Services with Correlation Sets},  booktitle = {Service-Oriented Computing - 9th International Conference, {ICSOC}  2011, Paphos, Cyprus, December 5-8, 2011 Proceedings},  series = {Lecture Notes in Computer Science},  volume = {7084},  pages = {125--141},  publisher = {Springer},  year = {2011},  url = {https://doi.org/10.1007/978-3-642-25535-9\\_9},  doi = {10.1007/978-3-642-25535-9\\_9},  timestamp = {Sun, 04 Jun 2017 10:06:13 +0200},  biburl = {https://dblp.org/rec/bib/conf/icsoc/MontesiC11},  bibsource = {dblp computer science bibliography, https://dblp.org} }",
+			"links" : [
+				{ "link" : "https://www.fabriziomontesi.com/files/mc11.pdf" }
+			],
+			"abstract" : "Correlation sets define a powerful mechanism for routing incoming communications to the correct running session within a server, by inspecting the content of the received messages. We present a language for programming services based on correlation sets taking into account key aspects of service-oriented systems, such as distribution, loose coupling, open-endedness and integration. Distinguishing features of our approach are the notion of correlation aliases and an asynchronous communication model. Our language is equipped with formal syntax, semantics, and a typing system for ensuring desirable properties of programs with respect to correlation sets. We provide an implementation as an extension of the JOLIE language and apply it to a nontrivial real-world example of a fully-functional distributed user authentication system.",
+			"tags" : [ "Jolie", "Microservices", "Process Calculi" ],
+			"authors" : [ "Fabrizio Montesi" ],
+			"non_group": false,
+			"type" : "Conference"
+		}
+	]
+}

@@ -21,19 +21,6 @@
     "abstract": "New properties of the front and back ends of sorting networks are studied, illustrating their utility when searching for bounds on optimal networks.  Search focuses first on the &ldquo;out-sides&rdquo; of the network and then on the inner part.  Previous works focused on properties of the front end to break symmetries in the search.  The new, out-side-in, properties shed understanding on how sorting networks sort, and facilitate the computation of new bounds on optimality.  We present new, faster, parallel sorting networks for 17&ndash;20 inputs.  For 17 inputs, we show that no sorting network using less layers exists.",
     "non_group" : true,
     "type": "journal"
-  },
-  {
-    "bibitem": "@unpublished{CMP18, author = {Cruz-Filipe, Lu{\\'i}s and Montesi, Fabrizio and Peressotti, Marco}, title = {Communications in Choreographies, Revisited}, booktitle = {Proceedings of the Symposium on Applied Computing, {SAC} 2018, Pau, France, April 9-13, 2018}, note = {accepted for publication}}",
-		"links": [ 
-			{ "name" : "technical report", 
-				"link" : "https://arxiv.org/abs/1711.10201",
-				"icon" : "arxiv"}
-		],
-    "tags": [ "Choreographic Programming" ],
-    "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi", "Marco Peressotti" ],
-    "abstract": "Choreographic Programming is a paradigm for developing correct-by-construction concurrent programs, by writing high-level descriptions of the desired communications and then synthesising process implementations automatically. So far, choreographic programming has been explored in the <i>monadic</i> setting: interaction terms express point-to-point communications of a single value. However, real-world systems often rely on interactions of <i>polyadic</i> nature, where multiple values are communicated among two or more parties, like multicast, scatter-gather, and atomic exchanges.<br />We introduce a new model for choreographic programming equipped with a primitive for grouped interactions that subsumes all the above scenarios. Intuitively, grouped interactions can be thought of as being carried out as one single interaction. In practice, they are implemented by processes that carry them out in a concurrent fashion. After formalising the intuitive semantics of grouped interactions, we prove that choreographic programs and their implementations are correct and deadlock-free by construction.",
-    "non_group" : false,
-    "type": "Conference"
   }
 ]
 }

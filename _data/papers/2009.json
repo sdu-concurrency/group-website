@@ -1,0 +1,26 @@
+{ "title" : "2009",
+  "papers": [
+	{
+		"bibitem" : "@inproceedings{DBLP:conf/ecows/MontesiGLZ08,  author = {Fabrizio Montesi and  Claudio Guidi and  Ivan Lanese and  Gianluigi Zavattaro},  editor = {Claus Pahl and  Siobh{\\'{a}}n Clarke and  Rik Eshuis},  title = {Dynamic Fault Handling Mechanisms for Service-Oriented Applications},  booktitle = {{ECOWS} 2008, Sixth European Conference on Web Services, 12-14 November  2008, Dublin, Ireland},  pages = {225--234},  publisher = {{IEEE} Computer Society},  year = {2008},  url = {https://doi.org/10.1109/ECOWS.2008.20},  doi = {10.1109/ECOWS.2008.20} }",
+		"links" : [
+			{ "link" : "https://www.fabriziomontesi.com/files/gm09.pdf" }
+		],
+		"abstract" : "This paper is about a new way for programming distributed applications: the service-oriented one. It is a concept paper based upon our experience in developing a t heory and a language for programming services. Both the theoretical formalization and the langu age interpreter showed us the evidence that a new programming paradigm exists. In this paper we illustra te the basic features it is characterized by.",
+		"tags" : [ "Jolie", "Microservices" ],
+		"authors" : [ "Fabrizio Montesi" ],
+		"non_group": false,
+		"type" : "Workshop"
+	},
+	{
+		"bibitem" : "@article{DBLP:journals/fuin/GuidiLMZ09,  author = {Claudio Guidi and  Ivan Lanese and  Fabrizio Montesi and  Gianluigi Zavattaro},  title = {Dynamic Error Handling in Service Oriented Applications},  journal = {Fundam. Inform.},  volume = {95},  number = {1},  pages = {73--102},  year = {2009},  url = {https://doi.org/10.3233/FI-2009-143},  doi = {10.3233/FI-2009-143} }",
+		"links" : [
+			{ "link" : "https://www.fabriziomontesi.com/files/glmz09.pdf" }
+		],
+		"abstract" : "Service Oriented Computing (SOC) allows for the composition of services which communicate using unidirectional one-way or bidirectional request-response communication patterns. Most service orchestration languages proposed so far provide also primitives for error handling based on fault, termination, and compensation handlers. Our work is motivated by the difficulties encountered in programming some error handling strategies using current error handling primitives. We propose as a solution an orchestration programming style in which handlers are dynamically installed. We assess our proposal by formalizing our approach as an extension of the process calculus SOCK and by proving that our formalization satisfies some expected high-level properties.",
+		"tags" : [ "Jolie", "Microservices" ],
+		"authors" : [ "Fabrizio Montesi" ],
+		"non_group": false,
+		"type" : "Journal"
+	}
+]
+}

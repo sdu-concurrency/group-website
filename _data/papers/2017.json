@@ -14,7 +14,10 @@
 	{
     "bibitem": "@inproceedings{M17,  author = {Fabrizio Montesi},  title = {Classical Higher-Order Processes - (Short Paper)},  booktitle = {{FORTE}},  series = {Lecture Notes in Computer Science},  volume = {10321},  pages = {171--178},  publisher = {Springer},  year = {2017} }",
     "links": [
-      { "link" : "http://fabriziomontesi.com/files/m17_forte.pdf" }
+      { "link" : "http://fabriziomontesi.com/files/m17_forte.pdf" },
+			{ "name" : "technical report",
+				"link" : "https://arxiv.org/abs/1802.02917",
+				"icon" : "arxiv"}
     ],
     "abstract": "Classical Processes (CP) is a calculus where the proof theory of classical linear logic types processes `a la π-calculus, building on a CurryHoward correspondence between session types and linear propositions. We contribute to this research line by extending CP with process mobility, inspired by the Higher-Order π-calculus. The key to our calculus is that sequents are asymmetric: one side types sessions as in CP and the other types process variables, which can be instantiated with process values. The controlled interaction between the two sides ensures that process variables can be used at will, but always respecting the linear usage of sessions expected by the environment.",
 		"tags" : [ "Session Types", "Logic", "Process Calculi" ],

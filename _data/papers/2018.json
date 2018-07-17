@@ -1,5 +1,29 @@
 { "title" : "2018",
   "papers": [
+		{
+	    "bibitem": "@inproceedings{DBLP:conf/sac/Cruz-FilipeMP18,  author = {Lu{\\'{\\i}}s Cruz{-}Filipe and  Fabrizio Montesi and  Marco Peressotti},  editor = {Hisham M. Haddad and  Roger L. Wainwright and  Richard Chbeir},  title = {Communications in choreographies, revisited},  booktitle = {Proceedings of the 33rd Annual {ACM} Symposium on Applied Computing,  {SAC} 2018, Pau, France, April 09-13, 2018},  pages = {1248--1255},  publisher = {{ACM}},  year = {2018},  url = {http://doi.acm.org/10.1145/3167132.3167267},  doi = {10.1145/3167132.3167267},  timestamp = {Wed, 04 Jul 2018 14:28:07 +0200},  biburl = {https://dblp.org/rec/bib/conf/sac/Cruz-FilipeMP18},  bibsource = {dblp computer science bibliography, https://dblp.org} } ",
+			"links": [
+				{ "name" : "technical report",
+					"link" : "https://arxiv.org/abs/1711.10201",
+					"icon" : "arxiv"}
+			],
+	    "tags": [ "Choreographic Programming" ],
+	    "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi", "Marco Peressotti" ],
+	    "abstract": "Choreographic Programming is a paradigm for developing correct-by-construction concurrent programs, by writing high-level descriptions of the desired communications and then synthesising process implementations automatically. So far, choreographic programming has been explored in the <i>monadic</i> setting: interaction terms express point-to-point communications of a single value. However, real-world systems often rely on interactions of <i>polyadic</i> nature, where multiple values are communicated among two or more parties, like multicast, scatter-gather, and atomic exchanges.<br />We introduce a new model for choreographic programming equipped with a primitive for grouped interactions that subsumes all the above scenarios. Intuitively, grouped interactions can be thought of as being carried out as one single interaction. In practice, they are implemented by processes that carry them out in a concurrent fashion. After formalising the intuitive semantics of grouped interactions, we prove that choreographic programs and their implementations are correct and deadlock-free by construction.",
+	    "non_group" : false,
+	    "type": "Conference"
+	  },
+		{
+	    "bibitem": "@inproceedings{DBLP:conf/sac/MontesiW18,  author = {Fabrizio Montesi and  Janine Weber},  editor = {Hisham M. Haddad and  Roger L. Wainwright and  Richard Chbeir},  title = {From the decorator pattern to circuit breakers in microservices},  booktitle = {Proceedings of the 33rd Annual {ACM} Symposium on Applied Computing,  {SAC} 2018, Pau, France, April 09-13, 2018},  pages = {1733--1735},  publisher = {{ACM}},  year = {2018},  url = {http://doi.acm.org/10.1145/3167132.3167427},  doi = {10.1145/3167132.3167427},  timestamp = {Wed, 04 Jul 2018 14:28:07 +0200},  biburl = {https://dblp.org/rec/bib/conf/sac/MontesiW18},  bibsource = {dblp computer science bibliography, https://dblp.org} }",
+			"links": [
+				{ "link" : "https://www.fabriziomontesi.com/files/mw18.pdf" }
+			],
+	    "tags": [ "Jolie", "Microservices" ],
+	    "authors": [ "Fabrizio Montesi" ],
+	    "abstract": "We analyse different deployment setups for circuit breaker, a design pattern for preventing cascading failures by guarding calls towards a target service. Then, we define a unifying implementation strategy in the setting of microservices, by using the Jolie programming language. Our implementation captures all setups with a single program, by interpreting a circuit breaker as a decorator that is generic on the interface of its target service.",
+	    "non_group" : false,
+	    "type": "Conference"
+	  },
 	  {
     "bibitem": "@article{CGMP17b, title = \"Cloud-of-Things meets Mobility-as-a-Service: An insider threat perspective\", journal = \"Computers & Security\", volume = \"74\", pages = \"277 - 295\", year = \"2018\", issn = \"0167-4048\", doi = \"https://doi.org/10.1016/j.cose.2017.10.006\", url = \"http://www.sciencedirect.com/science/article/pii/S0167404817302134\", author = \"Franco Callegati and Saverio Giallorenzo and Andrea Melis and Marco Prandini\", keywords = \"Mobility-as-a-Service, Federated platforms, Insider threat, Cloud-of-Things, Internet-of-Things\" }",
     "links": [ { "link" : "http://www.saveriogiallorenzo.com/publications/cs2017/" } ],
