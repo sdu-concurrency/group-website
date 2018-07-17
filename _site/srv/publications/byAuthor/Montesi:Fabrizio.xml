@@ -7,9 +7,30 @@
 		
 			
 		
+</collection>
+
+<collection>
+	<title>2018</title>
+		
+			
+		
+			
+		
+			
+		
 			
 	<paper>
-		<content>Luís Cruz-Filipe, Fabrizio Montesi, &amp; Marco Peressotti. &lt;span class=&quot;paper-title&quot;&gt;Communications in Choreographies, Revisited&lt;/span&gt;. Proceedings of the Symposium on Applied Computing, SAC 2018, Pau, France, April 9-13, 2018.</content>
+		<content>Cruz-Filipe Luı́s, Fabrizio Montesi, &amp; Marco Peressotti. (2018). &lt;span class=&quot;paper-title&quot;&gt;Communications in choreographies, revisited&lt;/span&gt;. In H. M. Haddad, R. L. Wainwright, &amp; R. Chbeir (Eds.), Proceedings of the 33rd Annual ACM Symposium on Applied Computing,  SAC 2018, Pau, France, April 09-13, 2018 (pp. 1248–1255). ACM.</content>
+			
+		<link>
+			<name>doi</name>
+			<link>https://doi.org/10.1145/3167132.3167267</link>
+		</link>
+			
+		<link>
+			<name>paper</name>
+			<link>http://doi.acm.org/10.1145/3167132.3167267</link>
+		</link>
 			
 		<link>
 			<name>technical report</name>
@@ -27,25 +48,63 @@
 		<author>Marco Peressotti</author>
 			
 		<abstract>Choreographic Programming is a paradigm for developing correct-by-construction concurrent programs, by writing high-level descriptions of the desired communications and then synthesising process implementations automatically. So far, choreographic programming has been explored in the &lt;i&gt;monadic&lt;/i&gt; setting: interaction terms express point-to-point communications of a single value. However, real-world systems often rely on interactions of &lt;i&gt;polyadic&lt;/i&gt; nature, where multiple values are communicated among two or more parties, like multicast, scatter-gather, and atomic exchanges.&lt;br /&gt;We introduce a new model for choreographic programming equipped with a primitive for grouped interactions that subsumes all the above scenarios. Intuitively, grouped interactions can be thought of as being carried out as one single interaction. In practice, they are implemented by processes that carry them out in a concurrent fashion. After formalising the intuitive semantics of grouped interactions, we prove that choreographic programs and their implementations are correct and deadlock-free by construction.</abstract>
-		<bibitem>@unpublished{CMP18,
-  author = {Cruz-Filipe, Lu{\'i}s and Montesi, Fabrizio and Peressotti, Marco},
-  title = {Communications in Choreographies, Revisited},
-  booktitle = {Proceedings of the Symposium on Applied Computing, {SAC} 2018, Pau, France, April 9-13, 2018},
-  note = {accepted for publication}
+		<bibitem>@inproceedings{DBLP:conf/sac/Cruz-FilipeMP18,
+  author = {Cruz{-}Filipe, Lu{\'{\i}}s and Montesi, Fabrizio and Peressotti, Marco},
+  editor = {Haddad, Hisham M. and Wainwright, Roger L. and Chbeir, Richard},
+  title = {Communications in choreographies, revisited},
+  booktitle = {Proceedings of the 33rd Annual {ACM} Symposium on Applied Computing,  {SAC} 2018, Pau, France, April 09-13, 2018},
+  pages = {1248--1255},
+  publisher = {{ACM}},
+  year = {2018},
+  url = {http://doi.acm.org/10.1145/3167132.3167267},
+  doi = {10.1145/3167132.3167267},
+  timestamp = {Wed, 04 Jul 2018 14:28:07 +0200},
+  biburl = {https://dblp.org/rec/bib/conf/sac/Cruz-FilipeMP18},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 </bibitem>
 	</paper>
 			
 		
-</collection>
-
-<collection>
-	<title>2018</title>
-		
 			
-		
+	<paper>
+		<content>Fabrizio Montesi, &amp; Janine Weber. (2018). &lt;span class=&quot;paper-title&quot;&gt;From the decorator pattern to circuit breakers in microservices&lt;/span&gt;. In H. M. Haddad, R. L. Wainwright, &amp; R. Chbeir (Eds.), Proceedings of the 33rd Annual ACM Symposium on Applied Computing,  SAC 2018, Pau, France, April 09-13, 2018 (pp. 1733–1735). ACM.</content>
 			
-		
+		<link>
+			<name>doi</name>
+			<link>https://doi.org/10.1145/3167132.3167427</link>
+		</link>
+			
+		<link>
+			<name></name>
+			<link>https://www.fabriziomontesi.com/files/mw18.pdf</link>
+		</link>
+			
+			
+		<tag>Jolie</tag>
+			
+		<tag>Microservices</tag>
+			
+			
+		<author>Fabrizio Montesi</author>
+			
+		<abstract>We analyse different deployment setups for circuit breaker, a design pattern for preventing cascading failures by guarding calls towards a target service. Then, we define a unifying implementation strategy in the setting of microservices, by using the Jolie programming language. Our implementation captures all setups with a single program, by interpreting a circuit breaker as a decorator that is generic on the interface of its target service.</abstract>
+		<bibitem>@inproceedings{DBLP:conf/sac/MontesiW18,
+  author = {Montesi, Fabrizio and Weber, Janine},
+  editor = {Haddad, Hisham M. and Wainwright, Roger L. and Chbeir, Richard},
+  title = {From the decorator pattern to circuit breakers in microservices},
+  booktitle = {Proceedings of the 33rd Annual {ACM} Symposium on Applied Computing,  {SAC} 2018, Pau, France, April 09-13, 2018},
+  pages = {1733--1735},
+  publisher = {{ACM}},
+  year = {2018},
+  url = {http://doi.acm.org/10.1145/3167132.3167427},
+  doi = {10.1145/3167132.3167427},
+  timestamp = {Wed, 04 Jul 2018 14:28:07 +0200},
+  biburl = {https://dblp.org/rec/bib/conf/sac/MontesiW18},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+</bibitem>
+	</paper>
 			
 		
 			
@@ -467,6 +526,11 @@
 		<link>
 			<name></name>
 			<link>http://fabriziomontesi.com/files/m17_forte.pdf</link>
+		</link>
+			
+		<link>
+			<name>technical report</name>
+			<link>https://arxiv.org/abs/1802.02917</link>
 		</link>
 			
 			
@@ -1126,6 +1190,617 @@
 		
 			
 		
+			
+		
+			
+	<paper>
+		<content>Fabrizio Montesi, &amp; Nobuko Yoshida. (2013). &lt;span class=&quot;paper-title&quot;&gt;Compositional Choreographies&lt;/span&gt;. In P. R. D’Argenio &amp; H. C. Melgratti (Eds.), CONCUR 2013 - Concurrency Theory - 24th International Conference,  CONCUR 2013, Buenos Aires, Argentina, August 27-30, 2013. Proceedings (Vol. 8052, pp. 425–439). Springer.</content>
+			
+		<link>
+			<name>doi</name>
+			<link>https://doi.org/10.1007/978-3-642-40184-8_30</link>
+		</link>
+			
+		<link>
+			<name></name>
+			<link>https://www.fabriziomontesi.com/files/my13.pdf</link>
+		</link>
+			
+			
+		<tag>Choreographic Programming</tag>
+			
+		<tag>Session Types</tag>
+			
+		<tag>Jolie</tag>
+			
+		<tag>Microservices</tag>
+			
+			
+		<author>Fabrizio Montesi</author>
+			
+		<abstract>We propose a new programming model that supports a compositionality of choreographies. The key of our approach is the introduction of partial choreographies, which can mix global descriptions with communications among external peers. We prove that if two choreographies are composable, then the endpoints independently generated from each choreography are also composable, preserving their typability and deadlock-freedom. The usability of our framework is demonstrated by modelling an industrial use case implemented in a tool for Web Services, Jolie.</abstract>
+		<bibitem>@inproceedings{DBLP:conf/concur/MontesiY13,
+  author = {Montesi, Fabrizio and Yoshida, Nobuko},
+  editor = {D'Argenio, Pedro R. and Melgratti, Hern{\'{a}}n C.},
+  title = {Compositional Choreographies},
+  booktitle = {{CONCUR} 2013 - Concurrency Theory - 24th International Conference,  {CONCUR} 2013, Buenos Aires, Argentina, August 27-30, 2013. Proceedings},
+  series = {Lecture Notes in Computer Science},
+  volume = {8052},
+  pages = {425--439},
+  publisher = {Springer},
+  year = {2013},
+  url = {https://doi.org/10.1007/978-3-642-40184-8\_30},
+  doi = {10.1007/978-3-642-40184-8\_30},
+  timestamp = {Fri, 02 Jun 2017 20:50:29 +0200},
+  biburl = {https://dblp.org/rec/bib/conf/concur/MontesiY13},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+</bibitem>
+	</paper>
+			
+		
+			
+	<paper>
+		<content>Marco Carbone, &amp; Fabrizio Montesi. (2013). &lt;span class=&quot;paper-title&quot;&gt;Deadlock-freedom-by-design: multiparty asynchronous global programming&lt;/span&gt;. In R. Giacobazzi &amp; R. Cousot (Eds.), The 40th Annual ACM SIGPLAN-SIGACT Symposium on Principles of  Programming Languages, POPL ’13, Rome, Italy - January 23 - 25,  2013 (pp. 263–274). ACM.</content>
+			
+		<link>
+			<name>doi</name>
+			<link>https://doi.org/10.1145/2429069.2429101</link>
+		</link>
+			
+		<link>
+			<name></name>
+			<link>https://www.fabriziomontesi.com/files/cm13.pdf</link>
+		</link>
+			
+			
+		<tag>Choreographic Programming</tag>
+			
+		<tag>Session Types</tag>
+			
+			
+		<author>Fabrizio Montesi</author>
+			
+		<abstract>Over the last decade, global descriptions have been successfully employed for the verification and implementation of communicating systems, respectively as protocol specifications and choreographies. In this work, we bring these two practices together by proposing a purely-global programming model. We show a novel interpretation of asynchrony and parallelism in a global setting and develop a typing discipline that verifies choreographies against protocol specifications, based on multiparty sessions. Exploiting the nature of global descriptions, our type system defines a new class of deadlock-free concurrent systems (deadlock-freedom-bydesign), provides type inference, and supports session mobility. We give a notion of Endpoint Projection (EPP) which generates correct entity code (as π-calculus terms) from a choreography. Finally, we evaluate our approach by providing a prototype implementation for a concrete programming language and by applying it to some examples from multicore and service-oriented programming.</abstract>
+		<bibitem>@inproceedings{DBLP:conf/popl/CarboneM13,
+  author = {Carbone, Marco and Montesi, Fabrizio},
+  editor = {Giacobazzi, Roberto and Cousot, Radhia},
+  title = {Deadlock-freedom-by-design: multiparty asynchronous global programming},
+  booktitle = {The 40th Annual {ACM} {SIGPLAN-SIGACT} Symposium on Principles of  Programming Languages, {POPL} '13, Rome, Italy - January 23 - 25,  2013},
+  pages = {263--274},
+  publisher = {{ACM}},
+  year = {2013},
+  url = {http://doi.acm.org/10.1145/2429069.2429101},
+  doi = {10.1145/2429069.2429101},
+  timestamp = {Mon, 05 Jun 2017 12:41:03 +0200},
+  biburl = {https://dblp.org/rec/bib/conf/popl/CarboneM13},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+</bibitem>
+	</paper>
+			
+		
+			
+	<paper>
+		<content>Fabrizio Montesi. (2013). &lt;span class=&quot;paper-title&quot;&gt;Process-aware web programming with Jolie&lt;/span&gt;. In S. Y. Shin &amp; J. C. Maldonado (Eds.), Proceedings of the 28th Annual ACM Symposium on Applied Computing,  SAC ’13, Coimbra, Portugal, March 18-22, 2013 (pp. 761–763). ACM.</content>
+			
+		<link>
+			<name>doi</name>
+			<link>https://doi.org/10.1145/2480362.2480507</link>
+		</link>
+			
+		<link>
+			<name></name>
+			<link>https://www.fabriziomontesi.com/files/m13.pdf</link>
+		</link>
+			
+			
+		<tag>Jolie</tag>
+			
+		<tag>Microservices</tag>
+			
+		<tag>Web</tag>
+			
+			
+		<author>Fabrizio Montesi</author>
+			
+		<abstract>We present a programming framework, based upon the Jolie language, for the native modelling of process-aware web information systems. Our major contribution is to offer a unifying approach for the programming of distributed architectures based on HTTP that support typical features of the process-oriented paradigm, such as structured communication flows and multiparty sessions.</abstract>
+		<bibitem>@inproceedings{DBLP:conf/sac/Montesi13,
+  author = {Montesi, Fabrizio},
+  editor = {Shin, Sung Y. and Maldonado, Jos{\'{e}} Carlos},
+  title = {Process-aware web programming with Jolie},
+  booktitle = {Proceedings of the 28th Annual {ACM} Symposium on Applied Computing,  {SAC} '13, Coimbra, Portugal, March 18-22, 2013},
+  pages = {761--763},
+  publisher = {{ACM}},
+  year = {2013},
+  url = {http://doi.acm.org/10.1145/2480362.2480507},
+  doi = {10.1145/2480362.2480507},
+  timestamp = {Mon, 05 Jun 2017 12:41:15 +0200},
+  biburl = {https://dblp.org/rec/bib/conf/sac/Montesi13},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+</bibitem>
+	</paper>
+			
+		
+			
+	<paper>
+		<content>Ivan Lanese, Fabrizio Montesi, &amp; Gianluigi Zavattaro. (2013). &lt;span class=&quot;paper-title&quot;&gt;Amending Choreographies&lt;/span&gt;. In A. Ravara &amp; J. Silva (Eds.), Proceedings 9th International Workshop on Automated Specification  and Verification of Web Systems, WWV 2013, Florence, Italy, 6th  June 2013. (Vol. 123, pp. 34–48).</content>
+			
+		<link>
+			<name>doi</name>
+			<link>https://doi.org/10.4204/EPTCS.123.5</link>
+		</link>
+			
+		<link>
+			<name></name>
+			<link>https://www.fabriziomontesi.com/files/lmz13.pdf</link>
+		</link>
+			
+			
+		<tag>Choreographic Programming</tag>
+			
+			
+		<author>Fabrizio Montesi</author>
+			
+		<abstract>Choreographies are global descriptions of system behaviors, from which the local behavior of each endpoint entity can be obtained automatically through projection. To guarantee that its projection is correct, i.e. it has the same behaviors of the original choreography, a choreography usually has to respect some coherency conditions. This restricts the set of choreographies that can be projected. In this paper, we present a transformation for amending choreographies that do not respect common syntactic conditions for projection correctness. Specifically, our transformation automatically reduces the amount of concurrency, and it infers and adds hidden communications that make the resulting choreography respect the desired conditions, while preserving its behavior.</abstract>
+		<bibitem>@inproceedings{DBLP:journals/corr/LaneseMZ13,
+  author = {Lanese, Ivan and Montesi, Fabrizio and Zavattaro, Gianluigi},
+  editor = {Ravara, Ant{\'{o}}nio and Silva, Josep},
+  title = {Amending Choreographies},
+  booktitle = {Proceedings 9th International Workshop on Automated Specification  and Verification of Web Systems, {WWV} 2013, Florence, Italy, 6th  June 2013.},
+  series = {{EPTCS}},
+  volume = {123},
+  pages = {34--48},
+  year = {2013},
+  url = {https://doi.org/10.4204/EPTCS.123.5},
+  doi = {10.4204/EPTCS.123.5},
+  timestamp = {Mon, 05 Jun 2017 20:50:58 +0200},
+  biburl = {https://dblp.org/rec/bib/journals/corr/LaneseMZ13},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+</bibitem>
+	</paper>
+			
+		
+</collection>
+
+<collection>
+	<title>2012</title>
+		
+			
+	<paper>
+		<content>Mila Dalla Preda, Maurizio Gabbrielli, Claudio Guidi, Jacopo Mauro, &amp; Fabrizio Montesi. (2012). &lt;span class=&quot;paper-title&quot;&gt;Interface-Based Service Composition with Aggregation&lt;/span&gt;. In F. D. Paoli, E. Pimentel, &amp; G. Zavattaro (Eds.), Service-Oriented and Cloud Computing - First European Conference,  ESOCC 2012, Bertinoro, Italy, September 19-21, 2012. Proceedings (Vol. 7592, pp. 48–63). Springer.</content>
+			
+		<link>
+			<name>doi</name>
+			<link>https://doi.org/10.1007/978-3-642-33427-6_4</link>
+		</link>
+			
+		<link>
+			<name>paper</name>
+			<link>https://doi.org/10.1007/978-3-642-33427-6_4</link>
+		</link>
+			
+			
+		<tag>Jolie</tag>
+			
+		<tag>Microservices</tag>
+			
+			
+		<author>Fabrizio Montesi</author>
+			
+		<abstract></abstract>
+		<bibitem>@inproceedings{DBLP:conf/esocc/PredaGGMM12,
+  author = {Preda, Mila Dalla and Gabbrielli, Maurizio and Guidi, Claudio and Mauro, Jacopo and Montesi, Fabrizio},
+  editor = {Paoli, Flavio De and Pimentel, Ernesto and Zavattaro, Gianluigi},
+  title = {Interface-Based Service Composition with Aggregation},
+  booktitle = {Service-Oriented and Cloud Computing - First European Conference,  {ESOCC} 2012, Bertinoro, Italy, September 19-21, 2012. Proceedings},
+  series = {Lecture Notes in Computer Science},
+  volume = {7592},
+  pages = {48--63},
+  publisher = {Springer},
+  year = {2012},
+  url = {https://doi.org/10.1007/978-3-642-33427-6\_4},
+  doi = {10.1007/978-3-642-33427-6\_4},
+  timestamp = {Fri, 02 Jun 2017 20:48:19 +0200},
+  biburl = {https://dblp.org/rec/bib/conf/esocc/PredaGGMM12},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+</bibitem>
+	</paper>
+			
+		
+			
+	<paper>
+		<content>Mila Dalla Preda, Maurizio Gabbrielli, Claudio Guidi, Jacopo Mauro, &amp; Fabrizio Montesi. (2012). &lt;span class=&quot;paper-title&quot;&gt;Service integration via target-transparent mediation&lt;/span&gt;. In 2012 Fifth IEEE International Conference on Service-Oriented Computing  and Applications (SOCA), Taipei, Taiwan, December 17-19, 2012 (pp. 1–5). IEEE Computer Society.</content>
+			
+		<link>
+			<name>doi</name>
+			<link>https://doi.org/10.1109/SOCA.2012.6449432</link>
+		</link>
+			
+		<link>
+			<name></name>
+			<link>https://www.fabriziomontesi.com/files/dggmm12.pdf</link>
+		</link>
+			
+			
+		<tag>Jolie</tag>
+			
+		<tag>Microservices</tag>
+			
+			
+		<author>Fabrizio Montesi</author>
+			
+		<abstract>In the context of Service-Oriented Architectures (SOAs), the integration of services is an important aspect that is usually addressed by using specific tools, such as Enterprise Service Bus (ESB). In this paper we propose a framework to perform service integration building on the extension of service interfaces, capturing a class of service integrators that are decoupled from the services they integrate in an SOA. We show how our service integrators can be used in practice by evaluating our approach with Jolie, a serviceoriented programming language. Finally, we present how our methodology differs from the standard practice with ESB.</abstract>
+		<bibitem>@inproceedings{DBLP:conf/soca/PredaGGMM12,
+  author = {Preda, Mila Dalla and Gabbrielli, Maurizio and Guidi, Claudio and Mauro, Jacopo and Montesi, Fabrizio},
+  title = {Service integration via target-transparent mediation},
+  booktitle = {2012 Fifth {IEEE} International Conference on Service-Oriented Computing  and Applications (SOCA), Taipei, Taiwan, December 17-19, 2012},
+  pages = {1--5},
+  publisher = {{IEEE} Computer Society},
+  year = {2012},
+  url = {https://doi.org/10.1109/SOCA.2012.6449432},
+  doi = {10.1109/SOCA.2012.6449432},
+  timestamp = {Mon, 05 Jun 2017 12:42:33 +0200},
+  biburl = {https://dblp.org/rec/bib/conf/soca/PredaGGMM12},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+</bibitem>
+	</paper>
+			
+		
+			
+	<paper>
+		<content>Marco Carbone, &amp; Fabrizio Montesi. (2012). &lt;span class=&quot;paper-title&quot;&gt;Merging Multiparty Protocols in Multiparty Choreographies&lt;/span&gt;. In S. J. Gay &amp; P. Kelly (Eds.), Proceedings Fifth Workshop on Programming Language Approaches to Concurrency-  and Communication-cEntric Software, PLACES 2012, Tallinn, Estonia,  31 March 2012. (Vol. 109, pp. 21–27).</content>
+			
+		<link>
+			<name>doi</name>
+			<link>https://doi.org/10.4204/EPTCS.109.4</link>
+		</link>
+			
+		<link>
+			<name></name>
+			<link>https://www.fabriziomontesi.com/files/cm13_mm.pdf</link>
+		</link>
+			
+			
+		<tag>Choreographic Programming</tag>
+			
+		<tag>Session Types</tag>
+			
+			
+		<author>Fabrizio Montesi</author>
+			
+		<abstract>Choreography-based programming is a powerful paradigm for defining communication-based systems from a global viewpoint. A choreography can be checked against multiparty protocol specifications, given as behavioural types, that may be instantiated indefinitely at runtime. Each protocol instance is started with a synchronisation among the involved peers. We analyse a simple transformation from a choreography with a possibly unbounded number of protocol instantiations to a choreography instantiating a single protocol, which is the merge of the original ones. This gives an effective methodology for obtaining new protocols by composing existing ones. Moreover, by removing all synchronisations required for starting protocol instances, our transformation reduces the number of communications and resources needed to execute a choreography.</abstract>
+		<bibitem>@inproceedings{DBLP:journals/corr/abs-1302-6331,
+  author = {Carbone, Marco and Montesi, Fabrizio},
+  editor = {Gay, Simon J. and Kelly, Paul},
+  title = {Merging Multiparty Protocols in Multiparty Choreographies},
+  booktitle = {Proceedings Fifth Workshop on Programming Language Approaches to Concurrency-  and Communication-cEntric Software, {PLACES} 2012, Tallinn, Estonia,  31 March 2012.},
+  series = {{EPTCS}},
+  volume = {109},
+  pages = {21--27},
+  year = {2012},
+  url = {https://doi.org/10.4204/EPTCS.109.4},
+  doi = {10.4204/EPTCS.109.4},
+  timestamp = {Mon, 05 Jun 2017 20:50:57 +0200},
+  biburl = {https://dblp.org/rec/bib/journals/corr/abs-1302-6331},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+</bibitem>
+	</paper>
+			
+		
+</collection>
+
+<collection>
+	<title>2011</title>
+		
+			
+	<paper>
+		<content>Jacopo Mauro, Maurizio Gabbrielli, Claudio Guidi, &amp; Fabrizio Montesi. (2011). &lt;span class=&quot;paper-title&quot;&gt;An Efficient Management of Correlation Sets with Broadcast&lt;/span&gt;. In W. D. Meuter &amp; G.-C. Roman (Eds.), Coordination Models and Languages - 13th International Conference,  COORDINATION 2011, Reykjavik, Iceland, June 6-9, 2011. Proceedings (Vol. 6721, pp. 80–94). Springer.</content>
+			
+		<link>
+			<name>doi</name>
+			<link>https://doi.org/10.1007/978-3-642-21464-6_6</link>
+		</link>
+			
+		<link>
+			<name></name>
+			<link>https://www.fabriziomontesi.com/files/mggm11.pdf</link>
+		</link>
+			
+			
+		<tag>Jolie</tag>
+			
+		<tag>Microservices</tag>
+			
+		<tag>Algorithms</tag>
+			
+			
+		<author>Fabrizio Montesi</author>
+			
+		<abstract>A fundamental aspect which affects the efficiency and the performance of Service-Oriented Architectures is the mechanism which allows to manage sessions and, in particular, to assign incoming messages to the correct sessions (also known as service instances). A relevant mechanism for solving this problem, first introduced by BPEL and then used in other languages (e.g. Jolie) is that one based on correlation sets. The BPEL and Jolie languages are currently allowing the use of messages whose target is only one session. However there are a lot of scenarios where being able to send a broadcast message to more than one session could be useful. Supporting such a broadcast primitive means to allow correlation sets which can contain unspecified variables and this can be very inefficient, since usual implementations in terms of hash tables cannot be used in this case. In this paper we propose a data structure, based on radix trees and an algorithm for managing a correlation mechanism that supports the broadcast primitive, without degrading the performances.</abstract>
+		<bibitem>@inproceedings{DBLP:conf/coordination/MauroGGM11,
+  author = {Mauro, Jacopo and Gabbrielli, Maurizio and Guidi, Claudio and Montesi, Fabrizio},
+  editor = {Meuter, Wolfgang De and Roman, Gruia{-}Catalin},
+  title = {An Efficient Management of Correlation Sets with Broadcast},
+  booktitle = {Coordination Models and Languages - 13th International Conference,  {COORDINATION} 2011, Reykjavik, Iceland, June 6-9, 2011. Proceedings},
+  series = {Lecture Notes in Computer Science},
+  volume = {6721},
+  pages = {80--94},
+  publisher = {Springer},
+  year = {2011},
+  url = {https://doi.org/10.1007/978-3-642-21464-6\_6},
+  doi = {10.1007/978-3-642-21464-6\_6},
+  timestamp = {Fri, 02 Jun 2017 20:46:56 +0200},
+  biburl = {https://dblp.org/rec/bib/conf/coordination/MauroGGM11},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+</bibitem>
+	</paper>
+			
+		
+			
+	<paper>
+		<content>Fabrizio Montesi, &amp; Marco Carbone. (2011). &lt;span class=&quot;paper-title&quot;&gt;Programming Services with Correlation Sets&lt;/span&gt;. In G. Kappel, Z. Maamar, &amp; H. R. M. Nezhad (Eds.), Service-Oriented Computing - 9th International Conference, ICSOC  2011, Paphos, Cyprus, December 5-8, 2011 Proceedings (Vol. 7084, pp. 125–141). Springer.</content>
+			
+		<link>
+			<name>doi</name>
+			<link>https://doi.org/10.1007/978-3-642-25535-9_9</link>
+		</link>
+			
+		<link>
+			<name></name>
+			<link>https://www.fabriziomontesi.com/files/mc11.pdf</link>
+		</link>
+			
+			
+		<tag>Jolie</tag>
+			
+		<tag>Microservices</tag>
+			
+		<tag>Process Calculi</tag>
+			
+			
+		<author>Fabrizio Montesi</author>
+			
+		<abstract>Correlation sets define a powerful mechanism for routing incoming communications to the correct running session within a server, by inspecting the content of the received messages. We present a language for programming services based on correlation sets taking into account key aspects of service-oriented systems, such as distribution, loose coupling, open-endedness and integration. Distinguishing features of our approach are the notion of correlation aliases and an asynchronous communication model. Our language is equipped with formal syntax, semantics, and a typing system for ensuring desirable properties of programs with respect to correlation sets. We provide an implementation as an extension of the JOLIE language and apply it to a nontrivial real-world example of a fully-functional distributed user authentication system.</abstract>
+		<bibitem>@inproceedings{DBLP:conf/icsoc/MontesiC11,
+  author = {Montesi, Fabrizio and Carbone, Marco},
+  editor = {Kappel, Gerti and Maamar, Zakaria and Nezhad, Hamid R. Motahari},
+  title = {Programming Services with Correlation Sets},
+  booktitle = {Service-Oriented Computing - 9th International Conference, {ICSOC}  2011, Paphos, Cyprus, December 5-8, 2011 Proceedings},
+  series = {Lecture Notes in Computer Science},
+  volume = {7084},
+  pages = {125--141},
+  publisher = {Springer},
+  year = {2011},
+  url = {https://doi.org/10.1007/978-3-642-25535-9\_9},
+  doi = {10.1007/978-3-642-25535-9\_9},
+  timestamp = {Sun, 04 Jun 2017 10:06:13 +0200},
+  biburl = {https://dblp.org/rec/bib/conf/icsoc/MontesiC11},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+</bibitem>
+	</paper>
+			
+		
+</collection>
+
+<collection>
+	<title>2010</title>
+		
+			
+	<paper>
+		<content>Ivan Lanese, &amp; Fabrizio Montesi. (2010). &lt;span class=&quot;paper-title&quot;&gt;Error Handling: From Theory to Practice&lt;/span&gt;. In T. Margaria &amp; B. Steffen (Eds.), Leveraging Applications of Formal Methods, Verification, and Validation  - 4th International Symposium on Leveraging Applications, ISoLA 2010,  Heraklion, Crete, Greece, October 18-21, 2010, Proceedings, Part II (Vol. 6416, pp. 66–81). Springer.</content>
+			
+		<link>
+			<name>doi</name>
+			<link>https://doi.org/10.1007/978-3-642-16561-0_13</link>
+		</link>
+			
+		<link>
+			<name></name>
+			<link>https://www.fabriziomontesi.com/files/lm10.pdf</link>
+		</link>
+			
+			
+		<tag>Jolie</tag>
+			
+		<tag>Microservices</tag>
+			
+		<tag>Process Calculi</tag>
+			
+			
+		<author>Fabrizio Montesi</author>
+			
+		<abstract>We describe the different issues that a language designer has to tackle when defining error handling mechanisms for service-oriented computing. We first discuss the issues that have to be considered when developing error handling mechanisms inside a process calculus, i.e. an abstract model. We then analyze how these issues change when moving from a process calculus to a full-fledged language based on it. We consider as an example the language Jolie, and the calculus SOCK it is based upon.</abstract>
+		<bibitem>@inproceedings{DBLP:conf/isola/LaneseM10,
+  author = {Lanese, Ivan and Montesi, Fabrizio},
+  editor = {Margaria, Tiziana and Steffen, Bernhard},
+  title = {Error Handling: From Theory to Practice},
+  booktitle = {Leveraging Applications of Formal Methods, Verification, and Validation  - 4th International Symposium on Leveraging Applications, ISoLA 2010,  Heraklion, Crete, Greece, October 18-21, 2010, Proceedings, Part {II}},
+  series = {Lecture Notes in Computer Science},
+  volume = {6416},
+  pages = {66--81},
+  publisher = {Springer},
+  year = {2010},
+  url = {https://doi.org/10.1007/978-3-642-16561-0\_13},
+  doi = {10.1007/978-3-642-16561-0\_13},
+  timestamp = {Sun, 04 Jun 2017 10:11:24 +0200},
+  biburl = {https://dblp.org/rec/bib/conf/isola/LaneseM10},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+</bibitem>
+	</paper>
+			
+		
+			
+	<paper>
+		<content>Ivan Lanese, Antonio Bucchiarone, &amp; Fabrizio Montesi. (2010). &lt;span class=&quot;paper-title&quot;&gt;A Framework for Rule-Based Dynamic Adaptation&lt;/span&gt;. In M. Wirsing, M. Hofmann, &amp; A. Rauschmayer (Eds.), Trustworthly Global Computing - 5th International Symposium, TGC  2010, Munich, Germany, February 24-26, 2010, Revised Selected Papers (Vol. 6084, pp. 284–300). Springer.</content>
+			
+		<link>
+			<name>doi</name>
+			<link>https://doi.org/10.1007/978-3-642-15640-3_19</link>
+		</link>
+			
+		<link>
+			<name></name>
+			<link>https://www.fabriziomontesi.com/files/gm09.pdf</link>
+		</link>
+			
+			
+		<tag>Jolie</tag>
+			
+		<tag>Microservices</tag>
+			
+			
+		<author>Fabrizio Montesi</author>
+			
+		<abstract>We propose a new approach to dynamic adaptation, based on the combination of adaptation hooks provided by the adaptable application specifying where adaptation can happen, and adaptation rules external to the application, specifying when and how adaptation can be performed. We discuss different design choices that have to be considered when using such an approach, and then we propose a possible solution. We describe the solution in details, we apply it to a sample scenario and we implement it on top of the language Jolie.</abstract>
+		<bibitem>@inproceedings{DBLP:conf/tgc/LaneseBM10,
+  author = {Lanese, Ivan and Bucchiarone, Antonio and Montesi, Fabrizio},
+  editor = {Wirsing, Martin and Hofmann, Martin and Rauschmayer, Axel},
+  title = {A Framework for Rule-Based Dynamic Adaptation},
+  booktitle = {Trustworthly Global Computing - 5th International Symposium, {TGC}  2010, Munich, Germany, February 24-26, 2010, Revised Selected Papers},
+  series = {Lecture Notes in Computer Science},
+  volume = {6084},
+  pages = {284--300},
+  publisher = {Springer},
+  year = {2010},
+  url = {https://doi.org/10.1007/978-3-642-15640-3\_19},
+  doi = {10.1007/978-3-642-15640-3\_19},
+  timestamp = {Mon, 05 Jun 2017 12:40:54 +0200},
+  biburl = {https://dblp.org/rec/bib/conf/tgc/LaneseBM10},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+</bibitem>
+	</paper>
+			
+		
+			
+	<paper>
+		<content>Fabrizio Montesi, &amp; Davide Sangiorgi. (2010). &lt;span class=&quot;paper-title&quot;&gt;A Model of Evolvable Components&lt;/span&gt;. In M. Wirsing, M. Hofmann, &amp; A. Rauschmayer (Eds.), Trustworthly Global Computing - 5th International Symposium, TGC  2010, Munich, Germany, February 24-26, 2010, Revised Selected Papers (Vol. 6084, pp. 153–171). Springer.</content>
+			
+		<link>
+			<name>doi</name>
+			<link>https://doi.org/10.1007/978-3-642-15640-3_11</link>
+		</link>
+			
+		<link>
+			<name></name>
+			<link>https://www.fabriziomontesi.com/files/ms10.pdf</link>
+		</link>
+			
+			
+		<tag>Process Calculi</tag>
+			
+			
+		<author>Fabrizio Montesi</author>
+			
+		<abstract>We present a model of components following the process calculus approach. The main problem was isolating primitives that capture the relevant concepts of component-based systems. The key features of the calculus are: a hierarchical structure of components; a prominent role to input/output interfaces; the possibility of stopping and capturing components; a mechanism of channel interactions, orthogonal to the activity of components, which may produce tunneling effects that bypass the component hierarchy. We present the calculus, explain the syntax, formulate its operational semantics and a basic type system. We show a number of examples of use of the calculus, with particular emphasis to common evolvability patterns for components.</abstract>
+		<bibitem>@inproceedings{DBLP:conf/tgc/MontesiS10,
+  author = {Montesi, Fabrizio and Sangiorgi, Davide},
+  editor = {Wirsing, Martin and Hofmann, Martin and Rauschmayer, Axel},
+  title = {A Model of Evolvable Components},
+  booktitle = {Trustworthly Global Computing - 5th International Symposium, {TGC}  2010, Munich, Germany, February 24-26, 2010, Revised Selected Papers},
+  series = {Lecture Notes in Computer Science},
+  volume = {6084},
+  pages = {153--171},
+  publisher = {Springer},
+  year = {2010},
+  url = {https://doi.org/10.1007/978-3-642-15640-3\_11},
+  doi = {10.1007/978-3-642-15640-3\_11},
+  timestamp = {Mon, 05 Jun 2017 12:40:54 +0200},
+  biburl = {https://dblp.org/rec/bib/conf/tgc/MontesiS10},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+</bibitem>
+	</paper>
+			
+		
+</collection>
+
+<collection>
+	<title>2009</title>
+		
+			
+	<paper>
+		<content>Fabrizio Montesi, Claudio Guidi, Ivan Lanese, &amp; Gianluigi Zavattaro. (2008). &lt;span class=&quot;paper-title&quot;&gt;Dynamic Fault Handling Mechanisms for Service-Oriented Applications&lt;/span&gt;. In C. Pahl, S. Clarke, &amp; R. Eshuis (Eds.), ECOWS 2008, Sixth European Conference on Web Services, 12-14 November  2008, Dublin, Ireland (pp. 225–234). IEEE Computer Society.</content>
+			
+		<link>
+			<name>doi</name>
+			<link>https://doi.org/10.1109/ECOWS.2008.20</link>
+		</link>
+			
+		<link>
+			<name></name>
+			<link>https://www.fabriziomontesi.com/files/gm09.pdf</link>
+		</link>
+			
+			
+		<tag>Jolie</tag>
+			
+		<tag>Microservices</tag>
+			
+			
+		<author>Fabrizio Montesi</author>
+			
+		<abstract>This paper is about a new way for programming distributed applications: the service-oriented one. It is a concept paper based upon our experience in developing a t heory and a language for programming services. Both the theoretical formalization and the langu age interpreter showed us the evidence that a new programming paradigm exists. In this paper we illustra te the basic features it is characterized by.</abstract>
+		<bibitem>@inproceedings{DBLP:conf/ecows/MontesiGLZ08,
+  author = {Montesi, Fabrizio and Guidi, Claudio and Lanese, Ivan and Zavattaro, Gianluigi},
+  editor = {Pahl, Claus and Clarke, Siobh{\'{a}}n and Eshuis, Rik},
+  title = {Dynamic Fault Handling Mechanisms for Service-Oriented Applications},
+  booktitle = {{ECOWS} 2008, Sixth European Conference on Web Services, 12-14 November  2008, Dublin, Ireland},
+  pages = {225--234},
+  publisher = {{IEEE} Computer Society},
+  year = {2008},
+  url = {https://doi.org/10.1109/ECOWS.2008.20},
+  doi = {10.1109/ECOWS.2008.20}
+}
+</bibitem>
+	</paper>
+			
+		
+			
+	<paper>
+		<content>Claudio Guidi, Ivan Lanese, Fabrizio Montesi, &amp; Gianluigi Zavattaro. (2009). &lt;span class=&quot;paper-title&quot;&gt;Dynamic Error Handling in Service Oriented Applications&lt;/span&gt;. Fundam. Inform., 95(1), 73–102.</content>
+			
+		<link>
+			<name>doi</name>
+			<link>https://doi.org/10.3233/FI-2009-143</link>
+		</link>
+			
+		<link>
+			<name></name>
+			<link>https://www.fabriziomontesi.com/files/glmz09.pdf</link>
+		</link>
+			
+			
+		<tag>Jolie</tag>
+			
+		<tag>Microservices</tag>
+			
+			
+		<author>Fabrizio Montesi</author>
+			
+		<abstract>Service Oriented Computing (SOC) allows for the composition of services which communicate using unidirectional one-way or bidirectional request-response communication patterns. Most service orchestration languages proposed so far provide also primitives for error handling based on fault, termination, and compensation handlers. Our work is motivated by the difficulties encountered in programming some error handling strategies using current error handling primitives. We propose as a solution an orchestration programming style in which handlers are dynamically installed. We assess our proposal by formalizing our approach as an extension of the process calculus SOCK and by proving that our formalization satisfies some expected high-level properties.</abstract>
+		<bibitem>@article{DBLP:journals/fuin/GuidiLMZ09,
+  author = {Guidi, Claudio and Lanese, Ivan and Montesi, Fabrizio and Zavattaro, Gianluigi},
+  title = {Dynamic Error Handling in Service Oriented Applications},
+  journal = {Fundam. Inform.},
+  volume = {95},
+  number = {1},
+  pages = {73--102},
+  year = {2009},
+  url = {https://doi.org/10.3233/FI-2009-143},
+  doi = {10.3233/FI-2009-143}
+}
+</bibitem>
+	</paper>
 			
 		
 </collection>
