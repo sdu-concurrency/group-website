@@ -8,7 +8,7 @@
 			"abstract" : "We describe the different issues that a language designer has to tackle when defining error handling mechanisms for service-oriented computing. We first discuss the issues that have to be considered when developing error handling mechanisms inside a process calculus, i.e. an abstract model. We then analyze how these issues change when moving from a process calculus to a full-fledged language based on it. We consider as an example the language Jolie, and the calculus SOCK it is based upon.",
 			"tags" : [ "Jolie", "Microservices", "Process Calculi" ],
 			"authors" : [ "Fabrizio Montesi" ],
-			"non_group": false,
+			"non_group": true,
 			"type" : "Conference"
 		},
 		{
@@ -19,7 +19,7 @@
 			"abstract" : "We present a model of components following the process calculus approach. The main problem was isolating primitives that capture the relevant concepts of component-based systems. The key features of the calculus are: a hierarchical structure of components; a prominent role to input/output interfaces; the possibility of stopping and capturing components; a mechanism of channel interactions, orthogonal to the activity of components, which may produce tunneling effects that bypass the component hierarchy. We present the calculus, explain the syntax, formulate its operational semantics and a basic type system. We show a number of examples of use of the calculus, with particular emphasis to common evolvability patterns for components.",
 			"tags" : [ "Process Calculi" ],
 			"authors" : [ "Fabrizio Montesi" ],
-			"non_group": false,
+			"non_group": true,
 			"type" : "Conference"
 		},
 		{
@@ -30,7 +30,7 @@
 			"abstract" : "We propose a new approach to dynamic adaptation, based on the combination of adaptation hooks provided by the adaptable application specifying where adaptation can happen, and adaptation rules external to the application, specifying when and how adaptation can be performed. We discuss different design choices that have to be considered when using such an approach, and then we propose a possible solution. We describe the solution in details, we apply it to a sample scenario and we implement it on top of the language Jolie.",
 			"tags" : [ "Jolie", "Microservices" ],
 			"authors" : [ "Fabrizio Montesi" ],
-			"non_group": false,
+			"non_group": true,
 			"type" : "Conference"
 		}
 	]

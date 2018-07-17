@@ -8,7 +8,7 @@
 			"abstract" : "A fundamental aspect which affects the efficiency and the performance of Service-Oriented Architectures is the mechanism which allows to manage sessions and, in particular, to assign incoming messages to the correct sessions (also known as service instances). A relevant mechanism for solving this problem, first introduced by BPEL and then used in other languages (e.g. Jolie) is that one based on correlation sets. The BPEL and Jolie languages are currently allowing the use of messages whose target is only one session. However there are a lot of scenarios where being able to send a broadcast message to more than one session could be useful. Supporting such a broadcast primitive means to allow correlation sets which can contain unspecified variables and this can be very inefficient, since usual implementations in terms of hash tables cannot be used in this case. In this paper we propose a data structure, based on radix trees and an algorithm for managing a correlation mechanism that supports the broadcast primitive, without degrading the performances.",
 			"tags" : [ "Jolie", "Microservices", "Algorithms" ],
 			"authors" : [ "Fabrizio Montesi" ],
-			"non_group": false,
+			"non_group": true,
 			"type" : "Conference"
 		},
 		{
@@ -19,7 +19,7 @@
 			"abstract" : "Correlation sets define a powerful mechanism for routing incoming communications to the correct running session within a server, by inspecting the content of the received messages. We present a language for programming services based on correlation sets taking into account key aspects of service-oriented systems, such as distribution, loose coupling, open-endedness and integration. Distinguishing features of our approach are the notion of correlation aliases and an asynchronous communication model. Our language is equipped with formal syntax, semantics, and a typing system for ensuring desirable properties of programs with respect to correlation sets. We provide an implementation as an extension of the JOLIE language and apply it to a nontrivial real-world example of a fully-functional distributed user authentication system.",
 			"tags" : [ "Jolie", "Microservices", "Process Calculi" ],
 			"authors" : [ "Fabrizio Montesi" ],
-			"non_group": false,
+			"non_group": true,
 			"type" : "Conference"
 		}
 	]

@@ -8,7 +8,7 @@
 		"abstract" : "This paper is about a new way for programming distributed applications: the service-oriented one. It is a concept paper based upon our experience in developing a t heory and a language for programming services. Both the theoretical formalization and the langu age interpreter showed us the evidence that a new programming paradigm exists. In this paper we illustra te the basic features it is characterized by.",
 		"tags" : [ "Jolie", "Microservices" ],
 		"authors" : [ "Fabrizio Montesi" ],
-		"non_group": false,
+		"non_group": true,
 		"type" : "Workshop"
 	},
 	{
@@ -19,7 +19,7 @@
 		"abstract" : "Service Oriented Computing (SOC) allows for the composition of services which communicate using unidirectional one-way or bidirectional request-response communication patterns. Most service orchestration languages proposed so far provide also primitives for error handling based on fault, termination, and compensation handlers. Our work is motivated by the difficulties encountered in programming some error handling strategies using current error handling primitives. We propose as a solution an orchestration programming style in which handlers are dynamically installed. We assess our proposal by formalizing our approach as an extension of the process calculus SOCK and by proving that our formalization satisfies some expected high-level properties.",
 		"tags" : [ "Jolie", "Microservices" ],
 		"authors" : [ "Fabrizio Montesi" ],
-		"non_group": false,
+		"non_group": true,
 		"type" : "Journal"
 	}
 ]

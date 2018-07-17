@@ -1,6 +1,19 @@
 { "title" : "2013",
   "papers": [
 		{
+	    "bibitem": "@PhdThesis{M13:phd,  author = {Fabrizio Montesi},  title = {Choreographic {P}rogramming},  school = \"IT University of Copenhagen\",  type = \"Ph.{D}. Thesis\",  year = 2013,  note = {\\url{http://www.fabriziomontesi.com/files/choreographic_programming.pdf}} }",
+			"links": [
+				{ "link" : "https://www.fabriziomontesi.com/files/choreographic_programming.pdf" },
+				{ "name" : "EAPLS Best PhD Dissertation Award 2014",
+					"link" : "http://eapls.org/items/1855/" }
+			],
+	    "tags": [ "Choreographic Programming", "Logic", "Jolie", "Microservices", "Process Calculi", "Logic", "Session Types" ],
+	    "authors": [ "Fabrizio Montesi" ],
+	    "abstract": "Choreographies are descriptions of distributed systems where the developer gives a global view of how messages are exchanged by endpoint nodes (endpoints for short), instead of separately defining the behaviour of each endpoint. They have a significant impact on the quality of software, as they offer a concise view of the message flows enacted by a system. For this reason, in the last decade choreographies have been employed in the development of programming languages, giving rise to a programming paradigm that in this dissertation we refer to as Choreographic Programming. Recent formal investigations of choreographies show that they have potential as foundations for the development of safe distributed software. The key idea is that since choreographies abstract from the single input/output actions of endpoints, they avoid typical safety problems such as deadlocks and race conditions; the concrete implementation of each endpoint described in a choreography can then be automatically obtained by compilation, ensuring that such implementations are also safe by construction from the originating choreography. However, current formal models for choreographies do not deal with critical aspects of distributed programming, such as asynchrony, mobility, modularity, and multiparty sessions; it remains thus unclear whether choreographies can still guarantee safety when dealing with such nontrivial features. This PhD dissertation argues for the usefulness of choreographic programming as a paradigm for the development of safe distributed systems. We proceed by investigating its foundations and application. To this aim we provide three main contributions. The first contribution is the development of a formal model and type theory for choreographic programming that support asynchrony, mobility, modular development, and multiparty sessions. We prove that our model guarantees safety by mapping choreographies to distributed implementations in terms of a variant of the π-calculus, the reference model for mobile processes. Our translation preserves the expected safety properties of choreographies, among which freedom from deadlocks and race conditions. The second contribution is the development of Linear Connection Logic (LCL), a formal logic that captures the reasoning behind choreographic programming. We show that LCL is a conservative extension of Linear Logic. We then develop a Curry-Howard correspondence between LCL and a calculus of choreographies, proving that: (i) proofs in LCL correspond to choreographies; and (ii) the transformations between proofs in LCL to proofs in Linear Logic and vice versa correspond to compiling choreography programs to π-calculus terms and vice versa. The latter result, known as round-trip development, contributes to the open problem of extracting choreographies from existing endpoint programs. The third contribution is the implementation of a prototype programming framework for choreographic programming, called Chor. Chor provides an Integrated Development Environment (IDE) for programming with choreographies, equipped with a type checker for verifying that choreographies respect protocol specifications given as session types. Programs in Chor can be compiled to executable endpoint implementation in the Jolie programming language, a general-purpose language for distributed computing, which we extend to support the development of multiparty asynchronous sessions. We use Chor for evaluating choreographic programming against a series of use cases.",
+	    "non_group" : true,
+	    "type": "PhD Thesis"
+	  },
+		{
 			"bibitem" : "@inproceedings{DBLP:conf/concur/MontesiY13,  author = {Fabrizio Montesi and  Nobuko Yoshida},  editor = {Pedro R. D'Argenio and  Hern{\\'{a}}n C. Melgratti},  title = {Compositional Choreographies},  booktitle = {{CONCUR} 2013 - Concurrency Theory - 24th International Conference,  {CONCUR} 2013, Buenos Aires, Argentina, August 27-30, 2013. Proceedings},  series = {Lecture Notes in Computer Science},  volume = {8052},  pages = {425--439},  publisher = {Springer},  year = {2013},  url = {https://doi.org/10.1007/978-3-642-40184-8\\_30},  doi = {10.1007/978-3-642-40184-8\\_30},  timestamp = {Fri, 02 Jun 2017 20:50:29 +0200},  biburl = {https://dblp.org/rec/bib/conf/concur/MontesiY13},  bibsource = {dblp computer science bibliography, https://dblp.org} } ",
 			"links" : [
 				{ "link" : "https://www.fabriziomontesi.com/files/my13.pdf" }
@@ -8,7 +21,7 @@
 			"abstract" : "We propose a new programming model that supports a compositionality of choreographies. The key of our approach is the introduction of partial choreographies, which can mix global descriptions with communications among external peers. We prove that if two choreographies are composable, then the endpoints independently generated from each choreography are also composable, preserving their typability and deadlock-freedom. The usability of our framework is demonstrated by modelling an industrial use case implemented in a tool for Web Services, Jolie.",
 			"tags" : [ "Choreographic Programming", "Session Types", "Jolie", "Microservices" ],
 			"authors" : [ "Fabrizio Montesi" ],
-			"non_group": false,
+			"non_group": true,
 			"type" : "Conference"
 		},
 		{
@@ -19,7 +32,7 @@
 			"abstract" : "Over the last decade, global descriptions have been successfully employed for the verification and implementation of communicating systems, respectively as protocol specifications and choreographies. In this work, we bring these two practices together by proposing a purely-global programming model. We show a novel interpretation of asynchrony and parallelism in a global setting and develop a typing discipline that verifies choreographies against protocol specifications, based on multiparty sessions. Exploiting the nature of global descriptions, our type system defines a new class of deadlock-free concurrent systems (deadlock-freedom-bydesign), provides type inference, and supports session mobility. We give a notion of Endpoint Projection (EPP) which generates correct entity code (as π-calculus terms) from a choreography. Finally, we evaluate our approach by providing a prototype implementation for a concrete programming language and by applying it to some examples from multicore and service-oriented programming.",
 			"tags" : [ "Choreographic Programming", "Session Types" ],
 			"authors" : [ "Fabrizio Montesi" ],
-			"non_group": false,
+			"non_group": true,
 			"type" : "Conference"
 		},
 		{
@@ -30,7 +43,7 @@
 			"abstract" : "We present a programming framework, based upon the Jolie language, for the native modelling of process-aware web information systems. Our major contribution is to offer a unifying approach for the programming of distributed architectures based on HTTP that support typical features of the process-oriented paradigm, such as structured communication flows and multiparty sessions.",
 			"tags" : [ "Jolie", "Microservices", "Web" ],
 			"authors" : [ "Fabrizio Montesi" ],
-			"non_group": false,
+			"non_group": true,
 			"type" : "Conference"
 		},
 		{
@@ -41,7 +54,7 @@
 			"abstract" : "Choreographies are global descriptions of system behaviors, from which the local behavior of each endpoint entity can be obtained automatically through projection. To guarantee that its projection is correct, i.e. it has the same behaviors of the original choreography, a choreography usually has to respect some coherency conditions. This restricts the set of choreographies that can be projected. In this paper, we present a transformation for amending choreographies that do not respect common syntactic conditions for projection correctness. Specifically, our transformation automatically reduces the amount of concurrency, and it infers and adds hidden communications that make the resulting choreography respect the desired conditions, while preserving its behavior.",
 			"tags" : [ "Choreographic Programming" ],
 			"authors" : [ "Fabrizio Montesi" ],
-			"non_group": false,
+			"non_group": true,
 			"type" : "Workshop"
 		},
     {

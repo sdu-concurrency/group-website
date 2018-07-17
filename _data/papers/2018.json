@@ -1,7 +1,7 @@
 { "title" : "2018",
   "papers": [
 		{
-	    "bibitem": "@inproceedings{DBLP:conf/sac/Cruz-FilipeMP18,  author = {Lu{\\'{\\i}}s Cruz{-}Filipe and  Fabrizio Montesi and  Marco Peressotti},  editor = {Hisham M. Haddad and  Roger L. Wainwright and  Richard Chbeir},  title = {Communications in choreographies, revisited},  booktitle = {Proceedings of the 33rd Annual {ACM} Symposium on Applied Computing,  {SAC} 2018, Pau, France, April 09-13, 2018},  pages = {1248--1255},  publisher = {{ACM}},  year = {2018},  url = {http://doi.acm.org/10.1145/3167132.3167267},  doi = {10.1145/3167132.3167267},  timestamp = {Wed, 04 Jul 2018 14:28:07 +0200},  biburl = {https://dblp.org/rec/bib/conf/sac/Cruz-FilipeMP18},  bibsource = {dblp computer science bibliography, https://dblp.org} } ",
+	    "bibitem": "@inproceedings{DBLP:conf/sac/Cruz-FilipeMP18,  author = {Cruz-Filipe, Lu{\\'i}s and  Fabrizio Montesi and  Marco Peressotti},  editor = {Hisham M. Haddad and  Roger L. Wainwright and  Richard Chbeir},  title = {Communications in choreographies, revisited},  booktitle = {Proceedings of the 33rd Annual {ACM} Symposium on Applied Computing,  {SAC} 2018, Pau, France, April 09-13, 2018},  pages = {1248--1255},  publisher = {{ACM}},  year = {2018},  url = {http://doi.acm.org/10.1145/3167132.3167267},  doi = {10.1145/3167132.3167267},  timestamp = {Wed, 04 Jul 2018 14:28:07 +0200},  biburl = {https://dblp.org/rec/bib/conf/sac/Cruz-FilipeMP18},  bibsource = {dblp computer science bibliography, https://dblp.org} } ",
 			"links": [
 				{ "name" : "technical report",
 					"link" : "https://arxiv.org/abs/1711.10201",
