@@ -88,7 +88,7 @@ sup {
 
 hr {
 				border-top: 1px solid #dee2e6;
-				margin: 1.5em;
+				margin: 1rem;
 }
 
 blockquote {
@@ -580,7 +580,7 @@ input[type="reset"].small,
 /* Wrapper */
 
 .wrapper {
-				margin-bottom: 5em;
+				margin-bottom: 1rem;
 				padding: 5em;
 }
 
@@ -620,7 +620,7 @@ input[type="reset"].small,
 .wrapper.style4 {
 				background: white;
 				color: inherit;
-				padding: 4em;
+				padding: 2rem;
 		    border-top-left-radius: 0px;
     		border-top-right-radius: 0px;
 }
@@ -988,7 +988,7 @@ input[type="reset"].small,
 		    background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		    background-size: 25em, 25em, auto, cover;
 		    cursor: default;
-		    padding: 1em 0;
+		    /* padding: 1em 0; */
 }
 
 #main> :last-child {

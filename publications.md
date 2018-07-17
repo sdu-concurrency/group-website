@@ -37,12 +37,12 @@ ul {
 			All papers or {{ site.group_short }} only?: <input id="display_papers" type="checkbox" data-toggle="toggle" data-on="All papers " data-off="{{ site.group_short }} only" data-onstyle="info" data-offstyle="primary" data-size="small">
 	 		</span>
 	 	</div>
-	 		<script>$(function(){$('[data-toggle="tooltip"]').tooltip()})</script>
+	 		<!-- <script>$(function(){$('[data-toggle="tooltip"]').tooltip()})</script> -->
 		<hr />
-			<div>Filter by keywords:</div>
-			<span class="filters" >
-				{{ data | collectTags }}
-			</span>
+			<button data-toggle="collapse" data-target="#keyword-filters" class="btn btn-outline-dark">Filter by keywords</button>
+			<div id="keyword-filters" class="filters collapse">
+				<br/><p>{{ data | collectTags }}</p>
+			</div>
 		</div>
 		<hr />
 		<div>
@@ -94,7 +94,7 @@ ul {
 							</div>
 							{% assign g_size = paper.grants | size %}
 							{% if g_size > 0 %}
-							<div><small><strong>Supporting Grants</strong>: 
+							<div><small><strong>Supporting Grants</strong>:
 							{% for grant in paper.grants %}
 							<a class="nodec" href="/grants.html#{{grant}}"><span class="badge badge-info">{{ grant }}</span></a>
 							{% endfor%}
@@ -133,7 +133,7 @@ ul {
 			</div>
 		</div>
 	</section>
-	
+
 	<section class="wrapper card style4 container">
 	{{ view-download }}
 	</section>

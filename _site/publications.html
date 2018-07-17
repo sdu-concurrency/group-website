@@ -35,7 +35,7 @@
     <script>
         var Hyphenopoly = {
             "require" : { "en-gb" : "" },
-            "paths" : { "patterndir" : "/js/patterns/", "maindir" : "/js/" } 
+            "paths" : { "patterndir" : "/js/patterns/", "maindir" : "/js/" }
         };
     </script>
     <script src="/js/Hyphenopoly_Loader.js"></script>
@@ -195,11 +195,11 @@ ul {
 			All papers or CL only?: <input id="display_papers" type="checkbox" data-toggle="toggle" data-on="All papers " data-off="CL only" data-onstyle="info" data-offstyle="primary" data-size="small" />
 	 		</span>
 	 	</div>
-	 		<script>$(function(){$('[data-toggle="tooltip"]').tooltip()})</script>
+	 		<!-- <script>$(function(){$('[data-toggle="tooltip"]').tooltip()})</script> -->
 		<hr />
-			<div>Filter by keywords:</div>
-			<span class="filters">
-				<button class="btn btn-sm btn-filter btn-light keyword">Adaptation
+			<button data-toggle="collapse" data-target="#keyword-filters" class="btn btn-outline-dark">Filter by keywords</button>
+			<div id="keyword-filters" class="filters collapse">
+				<br /><p><button class="btn btn-sm btn-filter btn-light keyword">Adaptation
           <span class="tot badge badge-pill badge-dark" style=" font-size: 8pt;">
           5</span></button><span> </span><button class="btn btn-sm btn-filter btn-light keyword">Algorithms
           <span class="tot badge badge-pill badge-dark" style=" font-size: 8pt;">
@@ -255,8 +255,8 @@ ul {
           <span class="tot badge badge-pill badge-dark" style=" font-size: 8pt;">
           1</span></button><span> </span><button class="btn btn-sm btn-filter btn-light keyword">Web
           <span class="tot badge badge-pill badge-dark" style=" font-size: 8pt;">
-          1</span></button><span> </span>
-			</span>
+          1</span></button><span> </span></p>
+			</div>
 		</div>
 		<hr />
 		<div>
@@ -7661,7 +7661,7 @@ ul {
 							</div>
 							
 							
-							<div><small><strong>Supporting Grants</strong>: 
+							<div><small><strong>Supporting Grants</strong>:
 							
 							<a class="nodec" href="/grants.html#CRC"><span class="badge badge-info">CRC</span></a>
 							
@@ -7813,7 +7813,7 @@ ul {
 			</div>
 		</div>
 	</section>
-	
+
 	<section class="wrapper card style4 container">
 	<div> Export this view as BibTex: <button class="download-bibtex btn btn-sm btn-light"><span class="fa fa-download"></span> Download</button> <button class="copy-bibtex btn btn-sm btn-light"><span class="fa fa-clipboard-list"></span> Copy</button></div>
 	</section>
