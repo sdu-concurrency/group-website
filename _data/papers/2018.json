@@ -3,6 +3,7 @@
 		{
 	    "bibitem": "@inproceedings{DBLP:conf/sac/Cruz-FilipeMP18,  author = {Cruz-Filipe, Lu{\\'i}s and  Fabrizio Montesi and  Marco Peressotti},  editor = {Hisham M. Haddad and  Roger L. Wainwright and  Richard Chbeir},  title = {Communications in choreographies, revisited},  booktitle = {Proceedings of the 33rd Annual {ACM} Symposium on Applied Computing,  {SAC} 2018, Pau, France, April 09-13, 2018},  pages = {1248--1255},  publisher = {{ACM}},  year = {2018},  url = {http://doi.acm.org/10.1145/3167132.3167267},  doi = {10.1145/3167132.3167267},  timestamp = {Wed, 04 Jul 2018 14:28:07 +0200},  biburl = {https://dblp.org/rec/bib/conf/sac/Cruz-FilipeMP18},  bibsource = {dblp computer science bibliography, https://dblp.org} } ",
 			"links": [
+				{ "link" : "https://www.fabriziomontesi.com/files/cmp18.pdf" },
 				{ "name" : "technical report",
 					"link" : "https://arxiv.org/abs/1711.10201",
 					"icon" : "arxiv"}
@@ -35,7 +36,9 @@
   },{
     "bibitem": "@inproceedings{GMG18,  author = {Saverio Giallorenzo and  Fabrizio Montesi and  Maurizio Gabbrielli},  title = {Applied Choreographies},  booktitle = {Formal Techniques for Distributed Objects, Components, and Systems  - 38th {IFIP} {WG} 6.1 International Conference, {FORTE} 2018, Held  as Part of the 13th International Federated Conference on Distributed  Computing Techniques, DisCoTec 2018, Madrid, Spain, June 18-21, 2018,  Proceedings},  pages = {21--40},  year = {2018},  url = {https://doi.org/10.1007/978-3-319-92612-4_2},  doi = {10.1007/978-3-319-92612-4_2},  timestamp = {Wed, 30 May 2018 14:24:03 +0200},  biburl = {https://dblp.org/rec/bib/conf/forte/GiallorenzoMG18},  bibsource = {dblp computer science bibliography, https://dblp.org},  publisher = {Springer}, }",
     "links": [
-      { "link": "http://www.saveriogiallorenzo.com/publications/forte2018/" }
+			{ "link" : "https://www.fabriziomontesi.com/files/gmg18.pdf" },
+      { "name" : "paper (alternative)", "link": "http://www.saveriogiallorenzo.com/publications/forte2018/" },
+			{ "name" : "technical report", "link" : "https://www.saveriogiallorenzo.com/publications/AC/AC_tr.pdf" }
     ],
     "abstract": "Choreographic Programming is a paradigm for distributed programming, where high-level \"Alice and Bob\" descriptions of communications (choreographies) are used to synthesise correct-by-construction programs. However, implementations of choreographic models use message routing technologies distant from their related theoretical models (e.g., CCS/π channels). This drives implementers to mediate discrepancies with the theory through undocumented, unproven adaptations, weakening the reliability of their implementations. As a solution, we propose the framework of Applied Choreographies (AC). In AC, programmers write choreographies in a language that follows the standard syntax and semantics of previous works. Then, choreographies are compiled to a real-world execution model for Service-Oriented Computing (SOC). To manage the complexity of this task, our compilation happens in three steps, respectively dealing with: implementing name-based communications using the concrete mechanism found in SOC, projecting a choreography to a set of processes, and translating processes to a distributed implementation in terms of services.",
     "tags" : [ "Choreographic Programming", "Session Types" ],
@@ -44,7 +47,7 @@
   },{
 		"bibitem": "@article{DBLP:journals/dc/CarboneMS18,  author = {Marco Carbone and  Fabrizio Montesi and  Carsten Sch{\\\"{u}}rmann},  title = {Choreographies, logically},  journal = {Distributed Computing},  volume = {31},  number = {1},  pages = {51--67},  year = {2018},  url = {https://doi.org/10.1007/s00446-017-0295-1},  doi = {10.1007/s00446-017-0295-1},  timestamp = {Thu, 25 Jan 2018 11:13:07 +0100},  biburl = {https://dblp.org/rec/bib/journals/dc/CarboneMS18},  bibsource = {dblp computer science bibliography, https://dblp.org} }",
 		"links": [
-			{ "link": "http://fabriziomontesi.com/files/cms18.pdf" }
+			{ "link": "https://www.fabriziomontesi.com/files/cms18.pdf" }
 		],
 		"abstract": "In Choreographic Programming, a distributed system is programmed by giving a choreography, a global description of its interactions, instead of separately specifying the behaviour of each of its processes. Process implementations in terms of a distributed language can then be automatically projected from a choreography. We present Linear Compositional Choreographies (LCC), a proof theory for reasoning about programs that modularly combine choreographies with processes. Using LCC, we logically reconstruct a semantics and a projection procedure for programs. For the first time, we also obtain a procedure for extracting choreographies from process terms.",
 		"tags" : [ "Choreographic Programming", "Process Calculi", "Logic" ],

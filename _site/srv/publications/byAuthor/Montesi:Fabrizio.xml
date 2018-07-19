@@ -28,8 +28,8 @@
 		</link>
 			
 		<link>
-			<name>paper</name>
-			<link>http://doi.acm.org/10.1145/3167132.3167267</link>
+			<name></name>
+			<link>https://www.fabriziomontesi.com/files/cmp18.pdf</link>
 		</link>
 			
 		<link>
@@ -118,7 +118,7 @@
 			
 		<link>
 			<name></name>
-			<link>http://fabriziomontesi.com/files/cms18.pdf</link>
+			<link>https://www.fabriziomontesi.com/files/cms18.pdf</link>
 		</link>
 			
 			
@@ -161,7 +161,17 @@
 			
 		<link>
 			<name></name>
+			<link>https://www.fabriziomontesi.com/files/gmg18.pdf</link>
+		</link>
+			
+		<link>
+			<name>paper (alternative)</name>
 			<link>http://www.saveriogiallorenzo.com/publications/forte2018/</link>
+		</link>
+			
+		<link>
+			<name>technical report</name>
+			<link>https://www.saveriogiallorenzo.com/publications/AC/AC_tr.pdf</link>
 		</link>
 			
 			
@@ -217,6 +227,11 @@
 			
 		<link>
 			<name></name>
+			<link>https://www.fabriziomontesi.com/files/clm17.pdf</link>
+		</link>
+			
+		<link>
+			<name>full paper</name>
 			<link>http://tinyurl.com/lcfilipe/pubs/paper33.pdf</link>
 		</link>
 			
@@ -254,6 +269,11 @@
 			
 		<link>
 			<name></name>
+			<link>https://www.fabriziomontesi.com/files/cm16_facs.pdf</link>
+		</link>
+			
+		<link>
+			<name>paper (alternative)</name>
 			<link>http://tinyurl.com/lcfilipe/pubs/paper35.pdf</link>
 		</link>
 			
@@ -323,6 +343,11 @@
 			
 		<link>
 			<name></name>
+			<link>https://www.fabriziomontesi.com/files/cm17_forte.pdf</link>
+		</link>
+			
+		<link>
+			<name>paper (alternative)</name>
 			<link>http://tinyurl.com/lcfilipe/pubs/paper39.pdf</link>
 		</link>
 			
@@ -431,7 +456,7 @@
 			
 		<link>
 			<name></name>
-			<link>http://fabriziomontesi.com/files/cmsy16.pdf</link>
+			<link>https://www.fabriziomontesi.com/files/cmsy16.pdf</link>
 		</link>
 			
 			
@@ -466,6 +491,11 @@
 			
 		<link>
 			<name></name>
+			<link>https://www.fabriziomontesi.com/files/dglmmms17.pdf</link>
+		</link>
+			
+		<link>
+			<name>paper (alternative)</name>
 			<link>http://www.saveriogiallorenzo.com/publications/msytt/</link>
 		</link>
 			
@@ -525,7 +555,7 @@
 			
 		<link>
 			<name></name>
-			<link>http://fabriziomontesi.com/files/m17_forte.pdf</link>
+			<link>https://www.fabriziomontesi.com/files/m17_forte.pdf</link>
 		</link>
 			
 		<link>
@@ -568,7 +598,7 @@
 			
 		<link>
 			<name></name>
-			<link>http://fabriziomontesi.com/files/mt17.pdf</link>
+			<link>https://www.fabriziomontesi.com/files/mt17.pdf</link>
 		</link>
 			
 			
@@ -624,6 +654,16 @@
 			
 		<link>
 			<name></name>
+			<link>https://www.fabriziomontesi.com/files/cm16_forte.pdf</link>
+		</link>
+			
+		<link>
+			<name>arxiv</name>
+			<link>http://arxiv.org/abs/1602.08863</link>
+		</link>
+			
+		<link>
+			<name>paper (alternative)</name>
 			<link>http://tinyurl.com/lcfilipe/pubs/paper27.pdf</link>
 		</link>
 			
@@ -697,7 +737,7 @@
 			
 		<link>
 			<name></name>
-			<link>http://fabriziomontesi.com/files/clmsw16.pdf</link>
+			<link>https://www.fabriziomontesi.com/files/clmsw16.pdf</link>
 		</link>
 			
 			
@@ -764,7 +804,12 @@
 			
 		<link>
 			<name></name>
-			<link>http://fabriziomontesi.com/files/m16.pdf</link>
+			<link>https://www.fabriziomontesi.com/files/m16.pdf</link>
+		</link>
+			
+		<link>
+			<name>arxiv</name>
+			<link>https://arxiv.org/abs/1410.3712</link>
 		</link>
 			
 			
@@ -909,6 +954,11 @@
 			
 		<link>
 			<name></name>
+			<link>https://www.fabriziomontesi.com/files/m15.pdf</link>
+		</link>
+			
+		<link>
+			<name>arxiv</name>
 			<link>http://arxiv.org/abs/1502.02519</link>
 		</link>
 			

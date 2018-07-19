@@ -18,7 +18,7 @@
 				"name" : "publisher's website",
 				"link" : "http://drops.dagstuhl.de/opus/volltexte/2016/6181/"
 			},
-			{ "link" : "http://fabriziomontesi.com/files/clmsw16.pdf" }
+			{ "link" : "https://www.fabriziomontesi.com/files/clmsw16.pdf" }
     ],
     "abstract": "Wadler introduced Classical Processes (CP), a calculus based on a propositions-as-types correspondence between propositions of classical linear logic and session types. Carbone et al. introduced Multiparty Classical Processes, a calculus that generalises CP to multiparty session types, by replacing the duality of classical linear logic (relating two types) with a more general notion of coherence (relating an arbitrary number of types). This paper introduces variants of CP and MCP, plus a new intermediate calculus of Globally-governed Classical Processes (GCP). We show a tight relation between these three calculi, giving semantics-preserving translations from GCP to CP and from MCP to GCP. The translation from GCP to CP interprets a coherence proof as an arbiter process that mediates communications in a session, while MCP adds annotations that permit processes to communicate directly without centralised control.",
 		"tags" : [ "Session Types", "Logic", "Process Calculi" ],
@@ -43,7 +43,8 @@
 	{
     "bibitem": "@article{DBLP:journals/scp/Montesi16,  author = {Fabrizio Montesi},  title = {Process-aware web programming with Jolie},  journal = {Sci. Comput. Program.},  volume = {130},  pages = {69--96},  year = {2016} }",
     "links": [
-      { "link" : "http://fabriziomontesi.com/files/m16.pdf" }
+      { "link" : "https://www.fabriziomontesi.com/files/m16.pdf" },
+			{ "name" : "arxiv", "link" : "https://arxiv.org/abs/1410.3712" }
     ],
     "abstract": "We extend the Jolie programming language to capture the native modelling of process-aware web information systems, i.e., web information systems based upon the execution of business processes. Our main contribution is to offer a unifying approach for the programming of distributed architectures on the web, which can capture web servers, stateful process execution, and the composition of services via mediation. We discuss applications of this approach through a series of examples that cover, e.g., static content serving, multiparty sessions, and the evolution of web systems. Finally, we present a performance evaluation that includes a comparison of Jolie-based web systems to other frameworks and a measurement of its scalability.",
 		"tags" : [ "Microservices", "Jolie" ],
@@ -149,7 +150,9 @@
   {
     "bibitem": "@inproceedings{CM16, author = {Lu{\\'i}s Cruz-Filipe and Fabrizio Montesi}, title = {Choreographies in Practice}, pages = {114--123}, doi = {10.1007/978-3-319-39570-8\\_8}, editor = {Elvira Albert and Ivan Lanese}, booktitle = {Formal Techniques for Distributed Objects, Components, and Systems -- 36th IFIP WG 6.1 International Conference, FORTE 2016}, series = {LNCS}, volume = 9688, publisher = {Springer}, year = 2016}",
     "links": [
-      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper27.pdf" }
+			{ "link" : "https://www.fabriziomontesi.com/files/cm16_forte.pdf" },
+			{ "name" : "arxiv", "link" : "http://arxiv.org/abs/1602.08863" },
+      { "name" : "paper (alternative)", "link" : "http://tinyurl.com/lcfilipe/pubs/paper27.pdf" }
     ],
     "tags": [ "Choreographic Programming" ],
     "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi"],
