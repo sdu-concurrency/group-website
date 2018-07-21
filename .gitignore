@@ -3,3 +3,4 @@
 *.lock
 research-areas.pdf
 *.svg~
+.docker-cache/
