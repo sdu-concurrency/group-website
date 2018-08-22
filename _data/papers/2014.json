@@ -33,6 +33,17 @@
 			"non_group" : false,
 	    "type": "conference"
 	  },
+		{
+	    "bibitem": "@incollection{DBLP:books/sp/wsf14/MontesiGZ14,  author = {Fabrizio Montesi and  Claudio Guidi and  Gianluigi Zavattaro},  editor = {Athman Bouguettaya and  Quan Z. Sheng and  Florian Daniel},  title = {Service-Oriented Programming with Jolie},  booktitle = {Web Services Foundations},  pages = {81--107},  publisher = {Springer},  year = {2014} }",
+	    "links": [
+	      { "link" : "https://www.fabriziomontesi.com/files/mgz14.pdf" }
+	    ],
+	    "tags": [ "Jolie" ],
+	    "authors": [ "Fabrizio Montesi" ],
+	    "abstract": "The wide adoption of service-oriented computing has led to a heterogeneous scenario formed by different technologies and specifications. Examples can be found both at the design level —the frameworks for defining services and those for defining their coordination feature fundamentally different primitives— and at the implementation level —different communication technologies are used depending on the context. In this chapter we present Jolie, a fully-fledged service-oriented programming language. Jolie addresses the aforementioned heterogeneity in two ways. On the one hand, it combines computation and composition primitives in an intuitive and concise syntax. On the other hand, the behaviour and deployment of a Jolie program are orthogonal: they can be independently defined and recombined as long as they have compatible typing",
+			"non_group" : false,
+	    "type": "chapter"
+	  },
   {
     "bibitem": "@inproceedings{C14, author = {Cruz-Filipe, Lu{\\'i}s}, booktitle = {Foundations of Information and Knowledge Systems -- 8th International Symposium, FoIKS 2014, Bordeaux, France, March 3-7, 2014. Proceedings}, editor = {Beierle, Christoph and Meghini, Carlo}, doi = {10.1007/978-3-319-04939-7\\_18}, pages = {361--380}, publisher = {Springer}, series = {LNCS}, title = {Optimizing Computation of Repairs from Active Integrity Constraints}, volume = 8367, year = 2014}",
     "links": [{

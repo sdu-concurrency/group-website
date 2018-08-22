@@ -218,7 +218,7 @@
     "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi" ],
     "abstract": "Choreographies are widely used for the specification of concurrent and distributed software architectures.  Since asynchronous communications are ubiquitous in real-world systems, previous works have proposed different approaches for the formal modelling of asynchrony in choreographies.  Such approaches typically rely on ad-hoc syntactic terms or semantics for capturing the concept of messages in transit, yielding different formalisms that have to be studied separately.<br />In this work, we take a different approach, and show that such extensions are not needed to reason about asynchronous communications in choreographies. Rather, we demonstrate how a standard choreography calculus already has all the needed expressive power to encode messages in transit (and thus asynchronous communications) through the primitives of process spawning and name mobility.  The practical consequence of our results is that we can reason about real-world systems within a choreography formalism that is simpler than those hitherto proposed.",
     "non_group" : false,
-    "type": "book chapter"
+    "type": "chapter"
   },
   {
     "bibitem": "@inproceedings{CHHKS17, author = {Cruz-Filipe, Lu{\\'i}s and Heule, Marijn and Hunt Jr., Warren and Kaufmann, Matt and Schneider-Kamp, Peter}, title = {Efficient Certified {RAT} Verification}, year = 2017, booktitle = {CADE 2017}, editor = {de Moura, Leonardo}, doi = {10.1007/978-3-319-63046-5\\_14}, publisher = {Springer}, series = {LNAI}, volume = 10395, pages = {220--236}}",
