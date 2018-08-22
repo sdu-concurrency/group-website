@@ -1,0 +1,175 @@
+{ "title" : "2015",
+  "papers": [
+		{
+	    "bibitem": "@inproceedings{LMZ15,  author = {Ivan Lanese and  Fabrizio Montesi and  Gianluigi Zavattaro},  editor = {Rocco De Nicola and  Rolf Hennicker},  title = {The Evolution of Jolie - From Orchestrations to Adaptable Choreographies},  booktitle = {Software, Services, and Systems - Essays Dedicated to Martin Wirsing  on the Occasion of His Retirement from the Chair of Programming and  Software Engineering},  series = {Lecture Notes in Computer Science},  volume = {8950},  pages = {506--521},  publisher = {Springer},  year = {2015},  url = {https://doi.org/10.1007/978-3-319-15545-6_29},  doi = {10.1007/978-3-319-15545-6_29} }",
+	    "links": [
+	      { "link" : "https://www.fabriziomontesi.com/files/lmz15.pdf" }
+	    ],
+	    "tags": [ "Jolie", "Choreographic Programming", "Adaptation" ],
+	    "authors": [ "Fabrizio Montesi" ],
+	    "abstract": "Jolie is an orchestration language conceived during Sensoria, an FP7 European project led by Martin Wirsing in the time frame 2005–2010. Jolie was designed having in mind both the novel –at project time– concepts related to Service-Oriented Computing and the traditional approach to the modelling of concurrency typical of process calculi. The foundational work done around Jolie during Sensoria has subsequently produced many concrete results. In this paper we focus on two distinct advancements, one aiming at the development of dynamically adaptable orchestrated systems and one focusing on global choreographic specifications. These works, more recently, contributed to the realisation of a framework for programming dynamically evolvable distributed ServiceOriented applications that are correct-by-construction",
+			"non_group" : false,
+	    "type": "conference"
+	  },
+		{
+	    "bibitem": "@inproceedings{DBLP:conf/concur/CarboneMSY15,  author = {Marco Carbone and  Fabrizio Montesi and  Carsten Sch{\\\"{u}}rmann and  Nobuko Yoshida},  editor = {Luca Aceto and  David de Frutos{-}Escrig},  title = {Multiparty Session Types as Coherence Proofs},  booktitle = {26th International Conference on Concurrency Theory, {CONCUR} 2015,  Madrid, Spain, September 1.4, 2015},  series = {LIPIcs},  volume = {42},  pages = {412--426},  publisher = {Schloss Dagstuhl - Leibniz-Zentrum fuer Informatik},  year = {2015},  url = {https://doi.org/10.4230/LIPIcs.CONCUR.2015.412},  doi = {10.4230/LIPIcs.CONCUR.2015.412} }",
+	    "links": [
+	      { "link" : "https://www.fabriziomontesi.com/files/cmsy15.pdf" }
+	    ],
+	    "tags": [ "Session Types", "Logic", "Process Calculi" ],
+	    "authors": [ "Fabrizio Montesi" ],
+	    "abstract": "We propose a Curry-Howard correspondence between a language for programming multiparty sessions and a generalisation of Classical Linear Logic (CLL). In this framework, propositions correspond to the local behaviour of a participant in a multiparty session type, proofs to processes, and proof normalisation to executing communications. Our key contribution is generalising duality, from CLL, to a new notion of n-ary compatibility, called coherence. Building on coherence as a principle of compositionality, we generalise the cut rule of CLL to a new rule for composing many processes communicating in a multiparty session. We prove the soundness of our model by showing the admissibility of our new rule, which entails deadlock-freedom via our correspondence.",
+			"non_group" : false,
+	    "type": "conference"
+	  },
+		{
+	    "bibitem": "@inproceedings{DBLP:conf/wsfm/Montesi15,  author = {Fabrizio Montesi},  editor = {Thomas T. Hildebrandt and  Ant{\\'{o}}nio Ravara and  Jan Martijn van der Werf and  Matthias Weidlich},  title = {Kickstarting Choreographic Programming},  booktitle = {Web Services, Formal Methods, and Behavioral Types - 11th International  Workshop, {WS-FM} 2014, Eindhoven, The Netherlands, September 11-12,  2014, and 12th International Workshop, {WS-FM/BEAT} 2015, Madrid,  Spain, September 4-5, 2015, Revised Selected Papers},  series = {Lecture Notes in Computer Science},  volume = {9421},  pages = {3--10},  publisher = {Springer},  year = {2015},  url = {https://doi.org/10.1007/978-3-319-33612-1_1} }",
+	    "links": [
+				{ "link" : "https://www.fabriziomontesi.com/files/m15.pdf" },
+	      { "name" : "arxiv", "link" : "http://arxiv.org/abs/1502.02519" }
+	    ],
+	    "tags": [ "Choreographic Programming" ],
+	    "authors": [ "Fabrizio Montesi" ],
+	    "abstract": "We present an overview of some recent efforts aimed at the development of Choreographic Programming, a programming paradigm for the production of concurrent software that is guaranteed to be correct by construction from global descriptions of communication behaviour.",
+			"non_group" : false,
+	    "type": "workshop"
+	  },
+		{
+	    "bibitem": "@article{DBLP:journals/scp/LaneseMM15,  author = {Ivan Lanese and  Manuel Mazzara and  Fabrizio Montesi},  title = {Special issue on Service-Oriented Architecture and Programming {(SOAP}  2013)},  journal = {Sci. Comput. Program.},  volume = {97},  pages = {181--182},  year = {2015},  url = {https://doi.org/10.1016/j.scico.2014.07.007},  doi = {10.1016/j.scico.2014.07.007} }",
+	    "tags": [ "Service-oriented Computing" ],
+	    "authors": [ "Fabrizio Montesi" ],
+	    "abstract": "",
+			"non_group" : true,
+	    "type": "editorial"
+	  },
+		{
+	    "bibitem": "@article{DBLP:journals/jisis/BravettiLMM15,  author = {Mario Bravetti and  Alberto Lluch{-}Lafuente and  Manuel Mazzara and  Fabrizio Montesi},  title = {Guest Editorial: Special Issue on Service-Oriented Architectures and  Programming},  journal = {J. Internet Serv. Inf. Secur.},  volume = {5},  number = {1},  pages = {1--2},  year = {2015},  url = {http://isyou.info/jisis/vol5/no1/jisis-2015-vol5-no1-00.pdf} }",
+	    "tags": [ "Service-oriented Computing" ],
+	    "authors": [ "Fabrizio Montesi" ],
+	    "abstract": "",
+			"non_group" : true,
+	    "type": "editorial"
+	  },
+  {
+    "bibitem": "@inproceedings{CCS15, author = {Codish, Michael and Cruz-Filipe, Lu{\\'i}s and Schneider-Kamp, Peter}, booktitle = {Language and Automata Theory and Applications -- 9th International Conference, {LATA} 2015, Nice, France, March 2-6, 2015, Proceedings}, editor = {Dediu, Adrian-Horia and Formenti, Enrico and Mart{\\'\\i}n{-}Vide, Carlos and Truthe, Bianca}, doi = {10.1007/978-3-319-15579-1\\_52}, pages = {664--675}, publisher = {Springer}, series = {LNCS}, title = {Sorting networks: the end game}, volume = 8977, year = 2015}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper18.pdf" }
+    ],
+    "tags": [ "Sorting Networks" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "This paper studies properties of the back end of a sorting network and illustrates the utility of these in the search for networks of optimal size or depth. All previous works focus on properties of the front end of networks and on how to apply these to break symmetries in the search. The new properties help shed understanding on how sorting networks sort and speed-up solvers for both optimal size and depth by an order of magnitude.",
+    "non_group" : true,
+    "type": "conference"
+  },
+  {
+    "bibitem": "@article{CF15, author = {Cruz-Filipe, Lu{\\'i}s and Ferreira, Fernando}, title = {The Finitistic Consistency of Heck's Predicative Fregean System}, journal = {Notre-Dame Journal of Formal Logic}, volume = 56, number = 1, pages = {61--79}, year = 2015}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper19.pdf" }
+    ],
+    "tags": [ "Logic" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "Frege's theory is inconsistent (Russell's paradox). However, the predicative version of Frege's system is consistent. This was proved by Richard Heck in 1996 using a model theoretic argument. In this paper, we give a finitistic proof of this consistency result. As a consequence, Heck's predicative theory is rather weak (as was suspected). We also prove the finitistic consistency of the extension of Heck's theory to &Delta;<sup>1</sup><sub>1</sub>-comprehension and of Heck's ramified predicative second-order system.",
+    "non_group" : true,
+    "type": "journal"
+  },
+  {
+    "bibitem": "@inproceedings{CGN15, author = {Cruz-Filipe, Lu{\\'i}s and Gaspar, Gra{\\c c}a and Nunes, Isabel}, booktitle = {Knowledge Discovery, Knowledge Engineering and Knowledge Management}, editor = {Fred, Ana and Dietz, Jan L.G. and Liu, Kecheng and Filipe, Joaquim}, doi = {10.1007/978-3-662-46549-3\\_13}, pages = {199--214}, publisher = {Springer}, series = {CCIS}, title = {Design Patterns for Description-logic Programs}, volume = 454, year = 2015}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper20.pdf" }
+    ],
+    "tags": [ "Knowledge Representation" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "Originally proposed in the mid-90s, design patterns for software development played a key role in object-oriented programming not only in increasing software quality, but also by giving a better understanding of the power and limitations of this paradigm. Since then, several authors have endorsed a similar task for other programming paradigms, in the hope of achieving similar benefits.<br />In this paper we present a set of design patterns for Mdl-programs, a hybrid formalism combining several description logic knowledge bases via a logic program. These patterns are extensively applied in a natural way in a large-scale example that illustrates how their usage greatly simplifies some programming tasks, at the level of both development and extension.<br />We also discuss some limitations of this formalism, examining some usual patterns in other programming paradigms that have no parallel in Mdl-programs.",
+    "non_group" : true,
+    "type": "conference"
+  },
+  {
+    "bibitem": "@inproceedings{CS15a, author = {Cruz-Filipe, Lu{\\'i}s and Schneider-Kamp, Peter}, booktitle = {Intelligent Computer Mathematics -- International Conference, {CICM} 2015, Washington, DC, USA, July 13-17, 2015, Proceedings}, editor = {Kerber, Manfred and Carette, Jacques and Kaliszyk, Cezary and Rabe, Florian and Sorge, Volker}, doi = {10.1007/978-3-319-20615-8\\_4}, pages = {55--70}, publisher = {Springer}, series = {LNAI}, title = {Optimizing a Certified Proof Checker for a Large-Scale Computer-Generated Proof}, volume = 9150, year = 2015}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper21.pdf" }
+    ],
+    "tags": [ "Theorem Proving", "Sorting Networks" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "In recent work, we formalized the theory of optimal-size sorting networks with the goal of extracting a verified checker for the large-scale computer-generated proof that 25 comparisons are optimal when sorting 9 inputs, which required more than a decade of CPU time and produced 27 GB of proof witnesses.  The checker uses an untrusted oracle based on these witnesses and is able to verify the smaller case of 8 inputs within a couple of days, but it did not scale to the full proof for 9 inputs.<br />In this paper, we describe several non-trivial optimizations of the algorithm in the checker, obtained by appropriately changing the formalization and capitalizing on the symbiosis with an adequate implementation of the oracle. We provide experimental evidence of orders of magnitude improvements to both runtime and memory footprint for 8 inputs, and actually manage to check the full proof for 9 inputs.",
+    "non_group" : true,
+    "type": "conference"
+  },
+  {
+    "bibitem": "@inproceedings{CS15b, author = {Cruz-Filipe, Lu{\\'i}s and Schneider-Kamp, Peter}, booktitle = {Interactive Theorem Proving -- 6th International Conference, {ITP} 2015, Nanjing, China, August 24-27, 2015, Proceedings}, editor = {Urban, Christian and Zhang, Xingyuan}, doi = {10.1007/978-3-319-22102-1\\_10}, pages = {154--169}, publisher = {Springer}, series = {LNCS}, title = {Formalizing Size-Optimal Sorting Networks: Extracting a Certified Proof Checker}, volume = 9236, year = 2015}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper22.pdf" }
+    ],
+    "tags": [ "Theorem Proving", "Sorting Networks" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "Since the proof of the four color theorem in 1976, computer-generated proofs have become a reality in mathematics and computer science. During the last decade, we have seen formal proofs using verified proof assistants being used to verify the validity of such proofs.<br />In this paper, we describe a formalized theory of size-optimal sorting networks. From this formalization we extract a certified checker that successfully verifies computer-generated proofs of optimality on up to 8 inputs. The checker relies on an untrusted oracle to shortcut the search for witnesses on more than 1.6 million NP-complete subproblems.",
+    "non_group" : true,
+    "type": "conference"
+  },
+  {
+    "bibitem": "@inproceedings{CFHLNS15, author = {Cruz-Filipe, Lu{\\'i}s and Franz, Michael and Hakhverdyan, Artavazd and Ludovico, Marta and Nunes, Isabel and Schneider-Kamp, Peter}, booktitle = {Proceedings of the 7th International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management (IC3K2015)}, editor = {Fred, Ana and Dietz, Jan and Aveiro, David and Liu, Kecheng and Filipe, Joaquim}, month = nov, doi = {10.5220/0005586400170026}, pages = {17--26}, publisher = {SCITEPRESS}, title = {{repAIrC}: A Tool for Ensuring Data Consistency by Means of Active Integrity Constraints}, volume = 3, year = 2015}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper23.pdf" }
+    ],
+    "tags": [ "Database Repair" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "Consistency of knowledge repositories is of prime importance in organization management. Integrity constraints are a well-known vehicle for specifying data consistency requirements in knowledge bases; in particular, active integrity constraints go one step further, allowing the specification of preferred ways to overcome inconsistent situations in the context of database management.<br />This paper describes a tool to validate an SQL database with respect to a given set of active integrity constraints, proposing possible repairs in case the database is inconsistent. The tool is able to work with the different kinds of repairs proposed in the literature, namely simple, founded, well-founded and justified repairs. It also implements strategies for parallelizing the search for them, allowing the user both to compute partitions of independent or stratified active integrity constraints, and to apply these partitions to find repairs of inconsistent databases efficiently in parallel.",
+    "non_group" : true,
+    "type": "conference"
+  },
+  {
+    "bibitem": "@inproceedings{CCNS15, author = {Michael Codish and Lu{\\'i}s Cruz-Filipe and Markus Nebel and Peter Schneider-Kamp}, title = {Applying Sorting Networks to Synthesize Optimized Sorting Libraries}, pages = {127--142}, doi = {10.1007/978-3-319-27436-2\\_8}, editor = {Moreno Falaschi}, booktitle = {Logic-Based Program Synthesis and Transformation -- 25th International Symposium, {LOPSTR} 2015, Siena, Italy, July 13--15, 2015. Revised Selected Papers}, series = {LNCS}, volume = 9527, publisher = {Springer}, year = 2015, doi = {10.1007/978-3-319-27436-2}}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper24.pdf" }
+    ],
+    "tags": [ "Sorting Networks" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "This paper shows an application of the theory of sorting networks to facilitate the synthesis of optimized general purpose sorting libraries. Standard sorting libraries are often based on combinations of the classic Quicksort algorithm with insertion sort applied as the base case for small fixed numbers of inputs. Unrolling the code for the base case by ignoring loop conditions eliminates branching and results in code which is equivalent to a sorting network. This enables the application of further program transformations based on sorting network optimizations, and eventually the synthesis of code from sorting networks. We show that if considering the number of comparisons and swaps then theory predicts no real advantage of this approach. However, significant speed-ups are obtained when taking advantage of instruction level parallelism and non-branching conditional assignment instructions, both of which are common in modern CPU architectures. We provide empirical evidence that using code synthesized from efficient sorting networks as the base case for Quicksort libraries results in significant real-world speed-ups.",
+    "non_group" : true,
+    "type": "conference"
+  },
+  {
+    "bibitem": "@article{BMP15,  author = {Tomasz Brengos and  Marino Miculan and  Marco Peressotti},  title = {Behavioural equivalences for coalgebras with unobservable moves},  journal = {J. Log. Algebr. Meth. Program.},  volume = {84},  number = {6},  pages = {826--852},  year = {2015},  doi = {10.1016/j.jlamp.2015.09.002} }",
+    "links": [
+      { "name" : "technical report",
+        "link" : "https://arxiv.org/abs/1411.0090",
+        "icon" : "arxiv"}
+    ],
+    "abstract": "We introduce a general categorical framework for the definition of weak behavioural equivalences, building on and extending recent results in the field. This framework is based on parametrized saturation categories, i.e. categories whose hom-sets are endowed with complete orders and a suitable iteration operators; this structure allows us to provide the abstract definitions of various (weak) behavioural equivalence. We show that the Kleisli categories of many common monads are categories of this kind. This allows us to readily instantiate the abstract definitions to a wide range of existing systems (weighted LTS, Segala systems, calculi with names, etc.), recovering the corresponding notions of weak behavioural equivalences. Moreover, we can provide neatly new weak behavioural equivalences for more complex behaviours, like those definable on topological spaces, measurable spaces, etc.",
+    "tags" : [ "Concurrency", "Coalgebras", "Quantitative Semantics", "Behavioural Theory" ],
+    "authors" : [ "Marco Peressotti" ],
+    "type" : "Journal",
+    "non_group" : true
+  },
+  {
+    "bibitem": "@inproceedings{MPT15,  author = {Marino Miculan and  Marco Peressotti and  Andrea Toneguzzo},  editor = {Tom Holvoet and  Mirko Viroli},  title = {Open Transactions on Shared Memory},  booktitle = {Coordination Models and Languages - 17th {IFIP} {WG} 6.1 International  Conference, {COORDINATION} 2015, Held as Part of the 10th International  Federated Conference on Distributed Computing Techniques, DisCoTec  2015, Grenoble, France, June 2-4, 2015, Proceedings},  series = {Lecture Notes in Computer Science},  volume = {9037},  pages = {213--229},  publisher = {Springer},  year = {2015},  doi = {10.1007/978-3-319-19282-6\\_14}}",
+    "links": [
+      { "name" : "technical report",
+        "link" : "https://arxiv.org/abs/1503.09097",
+        "icon" : "arxiv"}
+    ],
+    "abstract": "Transactional memory has arisen as a good way for solving many of the issues of lock-based programming. However, most implementations admit isolated transactions only, which are not adequate when we have to coordinate communicating processes. To this end, in this paper we present OCTM, an Haskell-like language with open transactions over shared transactional memory: processes can join transactions at runtime just by accessing to shared variables. Thus a transaction can co-operate with the environment through shared variables, but if it is rolled-back, also all its effects on the environment are retracted. For proving the expressive power of TCCS we give an implementation of TCCS, a CCS-like calculus with open transactions.",
+    "tags" : [ "Concurrency", "Programming Languages", "Transactional Memory" ],
+    "authors" : [ "Marco Peressotti" ],
+    "type" : "Conference",
+    "non_group" : true
+  },
+  {
+    "bibitem": "@inproceedings{PGGLM15b,  author = {Mila Dalla Preda and  Maurizio Gabbrielli and  Saverio Giallorenzo and  Ivan Lanese and  Jacopo Mauro},  title = {Dynamic Choreographies - Safe Runtime Updates of Distributed Applications},  booktitle = {Coordination Models and Languages - 17th {IFIP} {WG} 6.1 International  Conference, {COORDINATION} 2015, Held as Part of the 10th International  Federated Conference on Distributed Computing Techniques, DisCoTec  2015, Grenoble, France, June 2-4, 2015, Proceedings},  pages = {67--82},  year = {2015},  crossref = {DBLP:conf/coordination/2015},  url = {https://doi.org/10.1007/978-3-319-19282-6_5},  doi = {10.1007/978-3-319-19282-6_5},  timestamp = {Thu, 15 Jun 2017 21:33:32 +0200},  biburl = {https://dblp.org/rec/bib/conf/coordination/PredaGGLM15},  publisher = {Springer},  bibsource = {dblp computer science bibliography, https://dblp.org} }",
+    "links": [ { "link" : "http://www.saveriogiallorenzo.com/publications/dioc/" } ],
+    "abstract": "Programming distributed applications free from communication deadlocks and races is complex. Preserving these properties when applications are updated at runtime is even harder. <br /> We present DIOC, a language for programming distributed applications that are free from deadlocks and races by construction. A DIOC program describes a whole distributed application as a unique entity (choreography). DIOC allows the programmer to specify which parts of the application can be updated. At runtime, these parts may be replaced by new DIOC fragments from outside the application. DIOC programs are compiled, generating code for each site, in a lower-level language called DPOC. We formalise both DIOC and DPOC semantics as labelled transition systems and prove the correctness of the compilation as a trace equivalence result. As corollaries, DPOC applications are free from communication deadlocks and races, even in presence of runtime updates.",
+    "tags" : [ "Choreographic Programming", "Adaptation" ],
+    "authors" : [ "Saverio Giallorenzo", "Jacopo Mauro" ],
+    "type" : "Conference",
+    "non_group" : true
+  },
+  {
+    "bibitem": "@article{PGGLM15a,  author = {Mila Dalla Preda and  Maurizio Gabbrielli and  Saverio Giallorenzo and  Ivan Lanese and  Jacopo Mauro},  title = {Developing correct, distributed, adaptive software},  journal = {Sci. Comput. Program.},  volume = {97},  pages = {41--46},  year = {2015},  url = {https://doi.org/10.1016/j.scico.2013.11.019},  doi = {10.1016/j.scico.2013.11.019},  timestamp = {Wed, 14 Jun 2017 20:29:38 +0200},  biburl = {https://dblp.org/rec/bib/journals/scp/PredaGGLM15},  bibsource = {dblp computer science bibliography, https://dblp.org} }",
+    "links": [ { "link" : "http://www.saveriogiallorenzo.com/publications/scp2014/" } ],
+    "abstract": "We illustrate our approach to develop and verify distributed, adaptive software systems. The cornerstone of our framework is the use of choreography languages, which allow us to obtain correctness by construction. Workflow Patterns are also used as abstract tools to design real systems, while techniques based on abstract interpretation and on dynamic verification are integrated in our framework to reduce the complexity of verification.",
+    "tags" : [ "Choreographic Programming", "Adaptation" ],
+    "authors" : [ "Saverio Giallorenzo", "Jacopo Mauro" ],
+    "type" : "Journal",
+    "non_group" : true
+  }
+]
+}

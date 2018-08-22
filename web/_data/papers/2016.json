@@ -1,0 +1,197 @@
+{ "title" : "2016",
+  "papers": [
+	{
+    "bibitem": "@inproceedings{DBLP:conf/aina/SafinaMMR16,  author = {Larisa Safina and  Manuel Mazzara and  Fabrizio Montesi and  V{\\'{\\i}}ctor Rivera},  title = {Data-Driven Workflows for Microservices: Genericity in Jolie},  booktitle = {{AINA}},  pages = {430--437},  publisher = {{IEEE} Computer Society},  year = {2016} }",
+    "links": [
+      { "link" : "https://arxiv.org/abs/1511.02597", "icon" : "arxiv" }
+    ],
+    "abstract": "Microservices is an architectural style inspired by service-oriented computing that has recently started gaining popularity. Jolie is a programming language based on the microservices paradigm: the main building block of Jolie systems are services, in contrast to, e.g., functions or objects. The primitives offered by the Jolie language elicit many of the recurring patterns found in microservices, like load balancers and structured processes. However, Jolie still lacks some useful constructs for dealing with message types and data manipulation that are present in service-oriented computing. In this paper, we focus on the possibility of expressing choices at the level of data types, a feature well represented in standards for Web Services, e.g., WSDL. We extend Jolie to support such type choices and show the impact of our implementation on some of the typical scenarios found in microservice systems. This shows how computation can move from a process-driven to a data-driven approach, and leads to the preliminary identification of recurring communication patterns that can be shaped as design patterns.",
+		"tags" : [ "Microservices", "Jolie" ],
+    "authors" : [ "Fabrizio Montesi", "Larisa Safina" ],
+    "type" : "Conference",
+    "non_group" : false
+  },
+	{
+    "bibitem": "@inproceedings{DBLP:conf/concur/CarboneLMSW16,  author = {Marco Carbone and  Sam Lindley and  Fabrizio Montesi and  Carsten Sch{\\\"{u}}rmann and  Philip Wadler},  title = {Coherence Generalises Duality: {A} Logical Explanation of Multiparty  Session Types},  booktitle = {{CONCUR}},  series = {LIPIcs},  volume = {59},  pages = {33:1--33:15},  publisher = {Schloss Dagstuhl - Leibniz-Zentrum fuer Informatik},  year = {2016} }",
+    "links": [
+      {
+				"name" : "publisher's website",
+				"link" : "http://drops.dagstuhl.de/opus/volltexte/2016/6181/"
+			},
+			{ "link" : "https://www.fabriziomontesi.com/files/clmsw16.pdf" }
+    ],
+    "abstract": "Wadler introduced Classical Processes (CP), a calculus based on a propositions-as-types correspondence between propositions of classical linear logic and session types. Carbone et al. introduced Multiparty Classical Processes, a calculus that generalises CP to multiparty session types, by replacing the duality of classical linear logic (relating two types) with a more general notion of coherence (relating an arbitrary number of types). This paper introduces variants of CP and MCP, plus a new intermediate calculus of Globally-governed Classical Processes (GCP). We show a tight relation between these three calculi, giving semantics-preserving translations from GCP to CP and from MCP to GCP. The translation from GCP to CP interprets a coherence proof as an arbiter process that mediates communications in a session, while MCP adds annotations that permit processes to communicate directly without centralised control.",
+		"tags" : [ "Session Types", "Logic", "Process Calculi" ],
+    "authors" : [ "Fabrizio Montesi" ],
+    "type" : "Conference",
+    "non_group" : false
+  },
+	{
+    "bibitem": "@article{DBLP:journals/ftpl/AnconaBB0CDGGGH16,  author = {Davide Ancona and  Viviana Bono and  Mario Bravetti and  Joana Campos and  Giuseppe Castagna and  Pierre{-}Malo Deni{\\'{e}}lou and  Simon J. Gay and  Nils Gesbert and  Elena Giachino and  Raymond Hu and  Einar Broch Johnsen and  Francisco Martins and  Viviana Mascardi and  Fabrizio Montesi and  Rumyana Neykova and  Nicholas Ng and  Luca Padovani and  Vasco T. Vasconcelos and  Nobuko Yoshida},  title = {Behavioral Types in Programming Languages},  journal = {Foundations and Trends in Programming Languages},  volume = {3},  number = {2-3},  pages = {95--230},  year = {2016} } ",
+    "links": [
+      {
+				"name" : "publisher's website",
+				"link" : "https://www.nowpublishers.com/article/Details/PGL-031"
+			}
+    ],
+    "abstract": "A recent trend in programming language research is to use behavioral type theory to ensure various correctness properties of largescale, communication-intensive systems. Behavioral types encompass concepts such as interfaces, communication protocols, contracts, and choreography. The successful application of behavioral types requires a solid understanding of several practical aspects, from their representation in a concrete programming language, to their integration with other programming constructs such as methods and functions, to design and monitoring methodologies that take behaviors into account. This survey provides an overview of the state of the art of these aspects, which we summarize as the pragmatics of behavioral types.",
+		"tags" : [ "Choreographic Programming", "Session Types", "Jolie" ],
+    "authors" : [ "Fabrizio Montesi" ],
+    "type" : "Journal",
+    "non_group" : false
+  },
+	{
+    "bibitem": "@article{DBLP:journals/scp/Montesi16,  author = {Fabrizio Montesi},  title = {Process-aware web programming with Jolie},  journal = {Sci. Comput. Program.},  volume = {130},  pages = {69--96},  year = {2016} }",
+    "links": [
+      { "link" : "https://www.fabriziomontesi.com/files/m16.pdf" },
+			{ "name" : "arxiv", "link" : "https://arxiv.org/abs/1410.3712" }
+    ],
+    "abstract": "We extend the Jolie programming language to capture the native modelling of process-aware web information systems, i.e., web information systems based upon the execution of business processes. Our main contribution is to offer a unifying approach for the programming of distributed architectures on the web, which can capture web servers, stateful process execution, and the composition of services via mediation. We discuss applications of this approach through a series of examples that cover, e.g., static content serving, multiparty sessions, and the evolution of web systems. Finally, we present a performance evaluation that includes a comparison of Jolie-based web systems to other frameworks and a measurement of its scalability.",
+		"tags" : [ "Microservices", "Jolie" ],
+    "authors" : [ "Fabrizio Montesi" ],
+    "type" : "Journal",
+    "non_group" : false
+  },
+  {
+    "bibitem": "@inproceedings{CGMP16,  author = {Franco Callegati and  Saverio Giallorenzo and  Andrea Melis and  Marco Prandini},  title = {Data security issues in MaaS-enabling platforms},  booktitle = {{IEEE} 2nd International Forum on Research and Technologies for Society  and Industry Leveraging a better tomorrow, {RTSI} 2016, Bologna, Italy,  September 7-9, 2016},  pages = {1--5},  year = {2016}, url = {https://doi.org/10.1109/RTSI.2016.7740624},  doi = {10.1109/RTSI.2016.7740624},  timestamp = {Thu, 15 Jun 2017 21:43:44 +0200},  biburl = {https://dblp.org/rec/bib/conf/rtsi/CallegatiGMP16},  publisher = {{IEEE}},  bibsource = {dblp computer science bibliography, https://dblp.org} }",
+    "links": [ { "link" : "http://www.saveriogiallorenzo.com/publications/rtsi2016/" } ],
+    "abstract": "Microservices is an emerging paradigm for the development of distributed systems that, originating from Service-Oriented Architecture, focuses on the small dimension, the loose coupling, and the dynamic topology of services. Microservices are particularly appropriate for the development of distributed systems in the Cloud. However, their dynamic nature calls for suitable techniques for their automatic deployment. In this paper we address this problem and we propose JRO (Jolie Redeployment Optimiser), a tool for the automatic and optimised deployment of microservices written in the Jolie language. The tool uses Zephyrus, a state of the art tool that automatically generates a fully detailed Service-Oriented Architecture configuration starting from a partial and abstract description of the target application.",
+    "tags" : [ "Security", "Microservices", "Smart Cities" ],
+    "authors" : [ "Saverio Giallorenzo" ],
+    "type" : "Conference",
+    "non_group" : true
+  },
+  {
+    "bibitem": "@inproceedings{GGGMM16,  author = {Maurizio Gabbrielli and  Saverio Giallorenzo and  Claudio Guidi and  Jacopo Mauro and  Fabrizio Montesi},  title = {Self-Reconfiguring Microservices},  booktitle = {Theory and Practice of Formal Methods - Essays Dedicated to Frank  de Boer on the Occasion of His 60th Birthday},  pages = {194--210},  year = {2016},  url = {https://doi.org/10.1007/978-3-319-30734-3_14},  doi = {10.1007/978-3-319-30734-3\\_14},  timestamp = {Thu, 15 Jun 2017 21:34:41 +0200},  biburl = {https://dblp.org/rec/bib/conf/birthday/GabbrielliGGMM16},  bibsource = {dblp computer science bibliography, https://dblp.org},  publisher = {Springer}, }",
+    "links": [ { "link" : "http://www.saveriogiallorenzo.com/publications/self-reconfiguring/" } ],
+    "abstract": "Microservices is an emerging paradigm for the development of distributed systems that, originating from Service-Oriented Architecture, focuses on the small dimension, the loose coupling, and the dynamic topology of services. Microservices are particularly appropriate for the development of distributed systems in the Cloud. However, their dynamic nature calls for suitable techniques for their automatic deployment. In this paper we address this problem and we propose JRO (Jolie Redeployment Optimiser), a tool for the automatic and optimised deployment of microservices written in the Jolie language. The tool uses Zephyrus, a state of the art tool that automatically generates a fully detailed Service-Oriented Architecture configuration starting from a partial and abstract description of the target application.",
+    "tags" : [ "Microservices", "Optimisation" ],
+    "authors" : [ "Saverio Giallorenzo", "Jacopo Mauro", "Fabrizio Montesi" ],
+    "type" : "Chapter",
+    "non_group" : true
+  },
+  {
+    "bibitem": "@article{MP16a,  author = {Marino Miculan and  Marco Peressotti},  title = {Structural operational semantics for non-deterministic processes with  quantitative aspects},  journal = {Theor.\\ Comput.\\ Sci.},  volume = {655},  pages = {135--154},  year = {2016}, doi = {10.1016/j.tcs.2016.01.012} }",
+    "links": [
+      { "name" : "technical report",
+        "link" : "https://arxiv.org/abs/1410.0893",
+        "icon" : "arxiv"}
+    ],
+    "abstract": "Recently, unifying theories for processes combining non-determinism with quantitative aspects (such as probabilistic or stochastically timed executions) have been proposed with the aim of providing general results and tools. This paper provides two contributions in this respect. First, we present a general GSOS specification format and a corresponding notion of bisimulation for non-deterministic processes with quantitative aspects. These specifications define labelled transition systems according to the ULTraS model, an extension of the usual LTSs where the transition relation associates any source state and transition label with state reachability weight functions (like, e.g., probability distributions). This format, hence called Weight Function GSOS (WF-GSOS), covers many known systems and their bisimulations (e.g. PEPA, TIPP, PCSP) and GSOS formats (e.g. GSOS, Weighted GSOS, Segala-GSOS). <br/> The second contribution is a characterization of these systems as coalgebras of a class of functors, parametric in the weight structure. This result allows us to prove soundness and completeness of the WF-GSOS specification format, and that bisimilarities induced by these specifications are always congruences.",
+    "tags" : [ "Concurrency", "Coalgebras", "Quantitative Semantics", "Behavioural Theory" ],
+    "authors" : [ "Marco Peressotti" ],
+    "type" : "Journal",
+    "non_group" : true
+  },
+  {
+    "bibitem": "@InProceedings{BP16,  author = {Tomasz Brengos and Marco Peressotti},  title = {A Uniform Framework for Timed Automata},  booktitle = {27th International Conference on Concurrency Theory (CONCUR 2016)},  pages = {26:1--26:15},  series = {Leibniz International Proceedings in Informatics (LIPIcs)},  ISBN = {978-3-95977-017-0},  ISSN = {1868-8969},  year = {2016},  volume = {59},  editor = {Jos{\\'e}e Desharnais and Radha Jagadeesan},  publisher = {Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},  URN = {urn:nbn:de:0030-drops-61690},  doi = {10.4230/LIPIcs.CONCUR.2016.26}}",
+    "links": [
+      { "link" : "http://drops.dagstuhl.de/opus/volltexte/2016/6169/pdf/LIPIcs-CONCUR-2016-26.pdf"}
+    ],
+    "abstract": "Timed automata, and machines alike, currently lack a general mathematical characterisation. In this paper we provide a uniform coalgebraic understanding of these devices. This framework encompasses known behavioural equivalences for timed automata and paves the way for the extension of these notions to new timed behaviours and for the instantiation of established results from the coalgebraic theory as well. Key to this work is the use of lax functors for they allow us to model time flow as a context property and hence offer a general and expressive setting where to study timed systems: the index category encodes \"how step sequences form executions\" (e.g. whether steps duration get accumulated or kept distinct) whereas the base category encodes \"step nature and composition\" (e.g. non-determinism and labels). Finally, we develop the notion of general saturation for lax functors and show how equivalences of interest for timed behaviours are instances of this notion. This characterisation allows us to reason about the expressiveness of said notions within a uniform framework and organise them in a spectrum independent from the behavioural aspects encoded in the base category.",
+    "tags" : [ "Concurrency", "Coalgebras", "Quantitative Semantics", "Behavioural Theory" ],
+    "authors" : [ "Marco Peressotti" ],
+    "type" : "Conference",
+    "non_group" : true
+  },
+  {
+    "bibitem": "@inproceedings{MP16b,  author = {Marino Miculan and  Marco Peressotti},  editor = {Vittorio Bil{\\`{o}} and  Antonio Caruso},  title = {On the Bisimulation Hierarchy of State-to-Function Transition Systems},  booktitle = {Proceedings of the 17th Italian Conference on Theoretical Computer  Science, Lecce, Italy, September 7-9, 2016.},  series = {{CEUR} Workshop Proceedings},  volume = {1720},  pages = {88--102},  publisher = {CEUR-WS.org},  year = {2016},  url = {http://ceur-ws.org/Vol-1720/full7.pdf}}",
+    "links": [],
+    "abstract": "Weighted labelled transition systems (WLTSs) are an established (meta-)model aiming to provide general results and tools for a wide range of systems such as non-deterministic, stochastic, and probabilistic systems. In order to encompass processes combining several quantitative aspects, extensions of the WLTS framework have been further proposed, state-to-function transition systems (FuTSs) and uniform labelled transition systems (ULTraSs) being two prominent examples. In this paper we show that this hierarchy of meta-models collapses when studied under the lens of bisimulation-coherent encodings.",
+    "tags" : [ "Concurrency", "Coalgebras", "Quantitative Semantics", "Behavioural Theory" ],
+    "authors" : [ "Marco Peressotti" ],
+    "type" : "Conference",
+    "non_group" : true
+  },
+  {
+    "bibitem": "@inproceedings{DDPT16,  author = {De Nart, Dario and  Degl'Innocenti, Dante and  Peressotti, Marco and  Tasso, Carlo},  editor = {Maristella Agosti and  Marco Bertini and  Stefano Ferilli and  Simone Marinai and  Nicola Orio},  title = {Stratifying Semantic Data for Citation and Trust: An Introduction  to {RDFDF}},  booktitle = {Digital Libraries and Multimedia Archives - 12th Italian Research  Conference on Digital Libraries, {IRCDL} 2016, Florence, Italy, February  4-5, 2016, Revised Selected Papers},  series = {Communications in Computer and Information Science},  volume = {701},  pages = {104--111},  year = {2016}, doi = {10.1007/978-3-319-56300-8\\_10} }",
+    "links": [],
+    "abstract": "In this paper we analyse the functional requirements of linked data citation and identify a minimal set of operations and primitives needed to realise such task. Citing linked data implies solving a series of data provenance issues and finding a way to identify data subsets. Those two tasks can be handled defining a simple type system inside data and verifying it with a type checker, which is significantly less complex than interpreting reified RDF statements and can be implemented in a non data invasive way. Finally we suggest that data citation should be handled outside of the data, and propose a simple language to describe RDF documents where separation between data and metainformation is explicitly specified.",
+    "tags" : [ "Knowledge Representation" ],
+    "authors" : [ "Marco Peressotti" ],
+    "type" : "Conference",
+    "non_group" : true
+  },
+  {
+    "bibitem": "@article{DDP16,  author = {De Nart, Dario and  Degl'Innocenti, Dante and  Peressotti, Marco},  title = {Well-Stratified Linked Data for Well-Behaved Data Citation},  journal = {{TCDL} Bulletin},  volume = {12},  number = {1},  year = {2016},  url = {http://www.ieee-tcdl.org/Bulletin/v12n1/papers/IEEE-TCDL-DC-2016_paper_2.pdf}}",
+    "links": [
+      { "name" : "technical report",
+        "link" : "https://arxiv.org/abs/1512.02898",
+        "icon" : "arxiv"}
+    ],
+    "abstract": "In this paper we analyse the functional requirements of linked data citation and identify a minimal set of operations and primitives needed to realise such task. Citing linked data implies solving a series of data provenance issues and finding a way to identify data subsets. Those two tasks can be handled defining a simple type system inside data and verifying it with a type checker, which is significantly less complex than interpreting reified RDF statements and can be implemented in a non data invasive way. Finally we suggest that data citation should be handled outside of the data, possibly with an ad hoc language.",
+    "tags" : [ "Knowledge Representation" ],
+    "authors" : [ "Marco Peressotti" ],
+    "type" : "Journal",
+    "non_group" : true
+  },
+  {
+    "bibitem": "@inproceedings{CNS16, author = {Cruz-Filipe, Lu{\\'i}s and Nunes, Isabel and Schneider-Kamp, Peter}, booktitle = {Foundations of Information and Knowledge Systems -- 9th International Symposium, FoIKS 2016, Linz, Austria, March 7--11, 2016. Proceedings}, doi = {10.1007/978-3-319-30024-5\\_13}, editor = {Gyssens, Marc and Simari, Guillermo}, pages = {235--254}, publisher = {Springer}, series = {LNCS}, title = {Integrity Constraints for General-Purpose Knowledge Bases}, volume = 9616, year = 2016}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper25.pdf" }
+    ],
+    "tags": [ "Database Repair" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "Integrity constraints in databases have been studied extensively since the 1980s, and they are considered essential to guarantee database integrity. In recent years, several authors have studied how the same notion can be adapted to reasoning frameworks, in such a way that they achieve the purpose of guaranteeing a system's consistency, but are kept separate from the reasoning mechanisms.<br />In this paper we focus on multi-context systems, a general-purpose framework for combining heterogeneous reasoning systems, enhancing them with a notion of integrity constraints that generalizes the corresponding concept in the database world.",
+    "non_group" : true,
+    "type": "conference"
+  },
+  {
+    "bibitem": "@article{CCFS16, author = {Codish, Michael and Cruz-Filipe, Lu{\\'i}s and Frank, Michael and Schneider-Kamp, Peter}, title = {Sorting nine inputs requires twenty-five comparisons}, journal = {Journal of Computer and System Sciences}, volume = 82, number = 3, pages = {551--563}, year = 2016, doi = {10.1016/j.jcss.2015.11.014}}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper26.pdf" }
+    ],
+    "tags": [ "Sorting Networks" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "This paper describes a computer-assisted non-existence proof of 9-input sorting networks consisting of 24 comparators, hence showing that the 25-comparator sorting network found by Floyd in 1964 is optimal. As a corollary, the 29-comparator network found by Waksman in 1969 is optimal when sorting 10 inputs.<br />This closes the two smallest open instances of the optimal-size sorting network problem, which have been open since the results of Floyd and Knuth from 1966 proving optimality for sorting networks of up to 8 inputs.",
+    "non_group" : true,
+    "type": "journal"
+  },
+  {
+    "bibitem": "@inproceedings{CM16, author = {Lu{\\'i}s Cruz-Filipe and Fabrizio Montesi}, title = {Choreographies in Practice}, pages = {114--123}, doi = {10.1007/978-3-319-39570-8\\_8}, editor = {Elvira Albert and Ivan Lanese}, booktitle = {Formal Techniques for Distributed Objects, Components, and Systems -- 36th IFIP WG 6.1 International Conference, FORTE 2016}, series = {LNCS}, volume = 9688, publisher = {Springer}, year = 2016}",
+    "links": [
+			{ "link" : "https://www.fabriziomontesi.com/files/cm16_forte.pdf" },
+			{ "name" : "arxiv", "link" : "http://arxiv.org/abs/1602.08863" },
+      { "name" : "paper (alternative)", "link" : "http://tinyurl.com/lcfilipe/pubs/paper27.pdf" }
+    ],
+    "tags": [ "Choreographic Programming" ],
+    "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi"],
+    "abstract": "Choreographic Programming is a development methodology for concurrent software that guarantees correctness by construction. The key to this paradigm is to disallow mismatched I/O operations in programs, and mechanically synthesise process implementations.<br />There is still a lack of practical illustrations of the applicability of choreographies to computational problems with standard concurrent solutions. In this work, we explore the potential of choreographic programming by writing concurrent algorithms for sorting, solving linear equations, and computing Fast Fourier Transforms. The lessons learned from this experiment give directions for future improvements of the paradigm.",
+    "non_group" : false,
+    "type": "conference"
+  },
+  {
+    "bibitem": "@inproceedings{C16, author = {Lu{\\'i}s Cruz-Filipe}, title = {Grounded Fixpoints and Active Integrity Constraints}, pages = {11.1--11.14}, doi = {10.4230/OASIcs.ICLP.2016.11}, editor = {Carro, Manuel and King, Andy and De Vos, Marina and Saeedloei, Neda}, booktitle = {Technical Communications of the 32nd International Conference on Logic Programming (ICLP'16)}, series = {OASIcs}, volume = 52, publisher = {Schloss Dagstuhl}, month = nov, year = 2016}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper28.pdf" }
+    ],
+    "tags": [ "Database Repair" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "The formalism of active integrity constraints was introduced as a way to specify particular classes of integrity constraints over relational databases together with preferences on how to repair existing inconsistencies.  The rule-based syntax of such integrity constraints also provides algorithms for finding such repairs that achieve the best asymptotic complexity.<br />However, the different semantics that have been proposed for these integrity constraints all exhibit some counter-intuitive examples.  In this work, we look at active integrity constraints using ideas from algebraic fixpoint theory.  We show how database repairs can be modeled as fixpoints of particular operators on databases, and study how the notion of grounded fixpoint induces a corresponding notion of grounded database repair that captures several natural intuitions, and in particular avoids the problems of previous alternative semantics.<br />In order to study grounded repairs in their full generality, we need to generalize the notion of grounded fixpoint to non-deterministic operators.  We propose such a definition and illustrate its plausibility in the database context.",
+    "non_group" : true,
+    "type": "conference"
+  },
+  {
+    "bibitem": "@inproceedings{CGNS16, author = {Cruz-Filipe, Lu{\\'i}s and Gaspar, Gra{\\c c}a and Nunes, Isabel and Schneider-Kamp, Peter}, title = {Active Integrity Constraints for Multi-Context Systems}, pages = {98--112}, doi = {10.1007/978-3-319-49004-5\\_7}, editor = {Blomqvist, Eva and Vitali, Fabio and Ciancarini, Paolo and Poggi, Francesco}, booktitle = {Knowledge Engineering and Knowledge Management -- 20th International Conference, {EKAW} 2016, Bologna, Italy, November 19-23, 2016. Proceedings}, publisher = {Springer}, series = {LNAI}, month = nov, year = 2016, volume = 10024}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper29.pdf" }
+    ],
+    "tags": [ "Database Repair" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "We introduce a formalism to couple integrity constraints over general-purpose knowledge bases with actions that can be executed to restore consistency.  This formalism generalizes active integrity constraints over databases.  In the more general setting of multi-context systems, adding repair suggestions to integrity constraints allows defining simple iterative algorithms to find all possible grounded repairs &ndash; repairs for the global system that follow the suggestions given by the actions in the individual rules.  We apply our methodology to ontologies, and show that it can express most relevant types of integrity constraints in this domain.",
+    "non_group" : true,
+    "type": "conference"
+  },
+  {
+    "bibitem": "@inproceedings{CFHLNS16, author = {Cruz-Filipe, Lu{\\'i}s and Franz, Michael and Hakhverdyan, Artavazd and Ludovico, Marta and Nunes, Isabel and Schneider-Kamp, Peter}, booktitle = {Knowledge Discovery, Knowledge Engineering and Knowledge Management}, editor = {Fred, Ana and Dietz, Jan L.G. and Aveiro, David and Liu, Kecheng and Filipe, Joaquim}, publisher = {Springer}, series = {CCIS}, number = 631, pages = {399--420}, title = {Active Integrity Constraints: from Theory to Implementation}, doi = {10.1007/978-3-662-46549-3\\_13}, year = 2016}",
+    "links": [
+      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper30.pdf" }
+    ],
+    "tags": [ "Database Repair" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "The problem of database consistency relative to a set of integrity constraints has been extensively studied since the 1980s, and is still recognized as one of the most important and complex in the field.  In recent years, with the proliferation of knowledge repositories (not only databases) in practical applications, there has also been an effort to develop implementations of consistency maintenance algorithms that have a solid theoretical basis.<br />The framework of active integrity constraints (AICs) is one example of such an effort, providing theoretical grounds for rule-based algorithms for ensuring database consistency.  An AIC consists of an integrity constraint together with a specification of actions that may be taken to repair a database that does not satisfy it.  Both denotational and operational semantics have been proposed for AICs.<br />In this paper, we describe <code>repAIrC</code>, a prototype implementation of the algorithms previously proposed targetting SQL databases, i.e., the most prolific type of databases.  Using <code>repAIrC</code>, we can both validate an SQL database with respect to a given set of AICs and compute possible repairs in case the database is inconsistent; the tool is able to work with the different kinds of repairs that have been considered, and achieves optimal asymptotic complexity in their computation.  It also implements strategies for parallelizing the search for repairs, which in many cases can make untractable problems become easily solvable.",
+    "non_group" : true,
+    "type": "conference"
+  }
+]
+}
