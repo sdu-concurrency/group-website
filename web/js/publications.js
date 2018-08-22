@@ -2,6 +2,12 @@ $.fn.ignore = function(sel){
   return this.clone().find(sel||">*").remove().end();
 };
 
+var toggleKeywordFilter = function() {
+  $( "#keyword_filters" ).toggleClass( "closed" );
+  $( "#keyword_filters_btn" ).toggleClass( "fa-angle-down" )
+    .toggleClass( "fa-angle-up" );
+}
+
 $(document).ready(function() {
 
     /* ---- TOOLTIP PAPERTOGGLE PREVIEW ---- */

@@ -9,7 +9,6 @@ module Jekyll
 
       def collectTags( data )
         raise "received Nil data" unless not data.nil?
-        topicsSet = Set.new()
         topicsCount = Hash.new()
         data.each do | item |
           raise "received Nil element in data array" unless not item.nil?
@@ -17,20 +16,19 @@ module Jekyll
           item[ "papers" ].each do | paper |
             raise "Found paper with no tags: #{paper}" unless not paper["tags"].nil?
             paper[ "tags" ].each do | tag |
-              topicsSet.add( tag )
               if topicsCount[ tag ].nil? 
                 topicsCount[ tag ] = 1
               else
-                topicsCount[ tag ] = topicsCount[ tag ]+1
+                topicsCount[ tag ] = topicsCount[ tag ] + 1
               end
             end
           end
         end
         string = ""
-        topicsSet.to_a.sort.each do | tag |
+        topicsCount.sort_by { | tag, count | count }.reverse.each do | tag, count |
           string += "<button class=\"btn btn-sm btn-filter btn-light keyword\">#{tag}
           <span class=\"tot badge badge-pill badge-dark\" style=\" font-size: 8pt;\">
-          #{topicsCount[ tag ]}</span></button><span> </span>"
+          #{count}</span></button><span> </span>"
         end
         string
       end

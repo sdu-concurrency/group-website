@@ -11,9 +11,31 @@ layout: default
 	line-height: 1.4;
 	list-style: none;
 }
-
 ul {
 	margin-left: -2em;
+}
+#keyword_filters {
+  position: relative;
+  overflow: hidden;
+}
+#keyword_filters.closed {
+  position: relative;
+  height: 1.5em;
+  overflow: hidden;
+}
+#keyword_filters.closed:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255, 1) 90%);
+  width: 100%;
+  height: 1em;
+}
+#keyword_filters_btn {
+	cursor: pointer;
 }
 </style>
 
@@ -32,17 +54,20 @@ ul {
 	{% assign data = site.data.papers %}
 		<!-- Content -->
 		<div>
-		<div>
-			<span id="paperToggle" data-toggle="tooltip" data-placement="auto" title="" data-original-title="Slide this button to filter the papers below. The default, '{{site.group_short}} only', displays the subset of papers written by the members of {{site.group_short}} since its foundation and within its context. Toggling the button to 'All papers' displays all the papers published by the members, both within and outside of the scope of {{site.group_short}}.">
-			All papers or {{ site.group_short }} only?: <input id="display_papers" type="checkbox" data-toggle="toggle" data-on="All papers " data-off="{{ site.group_short }} only" data-onstyle="info" data-offstyle="primary" data-size="small">
-	 		</span>
-	 	</div>
-	 		<!-- <script>$(function(){$('[data-toggle="tooltip"]').tooltip()})</script> -->
+			<div>
+				<span id="paperToggle" data-toggle="tooltip" data-placement="auto" title="" data-original-title="Slide this button to filter the papers below. The default, '{{site.group_short}} only', displays the subset of papers written by the members of {{site.group_short}} since its foundation and within its context. Toggling the button to 'All papers' displays all the papers published by the members, both within and outside of the scope of {{site.group_short}}.">
+				All papers or {{ site.group_short }} only?: <input id="display_papers" type="checkbox" data-toggle="toggle" data-on="All papers " data-off="{{ site.group_short }} only" data-onstyle="info" data-offstyle="primary" data-size="small">
+		 		</span>
+		 	</div>
+		</div>
 		<hr />
-			<button data-toggle="collapse" data-target="#keyword-filters" class="btn btn-outline-dark">Filter by keywords</button>
-			<div id="keyword-filters" class="filters collapse">
-				<br/><p>{{ data | collectTags }}</p>
-			</div>
+		<script>
+			
+		</script>
+		<div class="row">
+			<div>Filter by keyword:</div>
+			<div class="col-11 closed" id="keyword_filters">{{ data | collectTags }}</div>
+			<div class="col-1"><span onclick="toggleKeywordFilter();" id="keyword_filters_btn" class="text-info fa fa-2x fa-angle-down" aria-hidden="true"></span></div>
 		</div>
 		<hr />
 		<div>
@@ -63,8 +88,6 @@ ul {
 		  {{ view-download }}
 		</div>
 	</section>
-
-
 	<section class="wrapper card style4 container">
 		<div class="content">
 			<div id="papers">
