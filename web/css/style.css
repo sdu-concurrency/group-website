@@ -1037,6 +1037,7 @@ body.index #main {
 				color: #c1c1c1;
 				padding: 2em 5em 1em 5em;
 				text-align: center;
+				margin-top: 20px;
 }
 
 #footer .copyright {
@@ -1236,6 +1237,21 @@ body.index #main {
 				padding-left: 15px;
 				border-left-color: #1b809e;
 				margin-bottom: 2em;
+}
+
+.seminars, .visitors {
+				padding: 10px;
+				margin: 5px 0;
+				border: 1px solid rgba(0, 0, 0, 0.125);
+				border-left-width: 5px;
+				border-radius: 3px;
+				padding-left: 15px;
+				border-left-color: #1b809e;
+				margin-bottom: 1em;
+}
+
+.visitors {
+				border-left-color: #9e1b1b;
 }
 
 .bib {
