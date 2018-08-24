@@ -4,7 +4,7 @@ layout: default
 
 <article id="main"><header class="major container" markdown="1">
 
-## Seminars and Visitors
+## Seminars & Visitors
 
 </header><section class="wrapper style4 card container"><div class="content"><section markdown="1">
 
@@ -25,27 +25,13 @@ The calendar below reports on the left the schedule of the {{ site.group_short }
 	<h3>Seminars</h3>
 	{% for seminar in site.data.seminars %}
 	{% capture this_id %}{{ seminar.date | date: "%y-%m-%d" }}-{{ seminar.title | downcase | replace: " ", "-" | escape }}{% endcapture %}
-	<div {% if seminar.seminar %}
-		class="seminars"
-		{% else %}
-		class="mb-3 pl-3 border-left"
-		{% endif %}>
-		<div
-		{% if seminar.seminar %}
-		class="font-weight-bold interactive"><a class="float-right small fa fa-link" id="{{this_id}}" href="#{{ this_id }}"></a>
-		{% else %}
-		class="small">
-		{% endif %}
-		{% if seminar.seminar %}
-		Seminar:
-		{% endif%}
+	<div class="seminars">
+		<div class="font-weight-bold interactive"><a class="float-right small fa fa-link" id="{{this_id}}" href="#{{ this_id }}"></a>
 		{{ seminar.title }}
 		</div>
 		<span class="small text-muted"><span class="fa fa-user"></span> {{ seminar.speaker }} <br>
-		<span class="fa fa-calendar"></span> {{ seminar.date }}</span>
-		{% if seminar.seminar %}
+		<span class="fa fa-calendar"></span> {{ seminar.date | date: "%a %d %b %Y"}}</span>
 		<div class="abstract small d-none"><hr>{{ seminar.description | markdownify }}</div>
-		{% endif %}
 	</div>
 	{% endfor %}
 </div>
@@ -57,8 +43,12 @@ The calendar below reports on the left the schedule of the {{ site.group_short }
 		<span class="small text-muted"><span class="fa fa-address-card"></span> {{ visitor.affiliation }}</span>
 		<br>
 		<span class="small text-muted">
-		{{ visitor.from }} <span class="fa fa-angle-right"></span>
-		{{ visitor.to }}</span>
+			{% capture fromDate %}{{ visitor.from | date: "%d %b" }}{% endcapture %}
+			{% assign vf = visitor.from | date: "%Y" %}
+			{% assign vt = visitor.to 	| date: "%Y" %}
+			{% if vf != vt %}{% capture fromDate %}{{ fromDate }} {{ visitor.from | date: "%y" }}{% endcapture %}{% endif %}
+		{{ fromDate }} <span class="fa fa-angle-right"></span>
+		{{ visitor.to | date: "%d %b %Y"}}</span>
 		<div class="abstract small d-none"><hr>{{ visitor.description | markdownify }}</div>
 	</div>
 	{% endfor %}

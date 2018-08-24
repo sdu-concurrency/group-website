@@ -1,31 +1,23 @@
-- speaker: All Concurrency and Logic members
-  date: 2018-08-24
-  title: Back-to-school presentations on ongoing research
-
 - speaker: Saverio Giallorenzo
   date: 2018-06-29
-  title: Report from DisCoTec and feedbacks from paper presentation
+  title: Applied Choreographies
+  description: |
+    Implementations of choreographic models use message routing technologies distant from their related theoretical models (e.g., CCS/π channels). This drives implementers to mediate discrepancies with the theory through undocumented, unproven adaptations, weakening the reliability of their implementations. We present a framework of Applied Choreographies (AC) where programmers write choreographies in a language that follows the standard syntax and semantics of previous works. Then, choreographies are compiled to a real-world execution model for Service-Oriented Computing (SOC). To manage the complexity of this task, our compilation happens in three steps, respectively dealing with: implementing name-based communications using the concrete mechanism found in SOC, projecting a choreography to a set of processes, and translating processes to a distributed implementation in terms of services.
 
 - speaker: Jacopo Mauro
   date: 2018-05-25
   title: Introduction seminar on previous work and research interests
+  description: |
+    Presentation to the Concurrency and Logic group, covering previous work on Constraint Programming and portfolio solvers, Cloud deployments, and DevOps practices. 
 
 - speaker: Luís Cruz-Filipe
   date: 2018-04-20
-  seminar: true
   title: Connectors Meet Choreographies
   description: | 
     Presentation of Cho-Reo-graphies (CR), a model where choreographies are parametric in the (Reo) connectors through which parties communicate. CR is the first choreography model where different communication semantics (e.g., synchronous and asynchronous) can freely be mixed in the same choreography. We prove that if a choreography respects the rules of the connectors that it uses, then the process implementation that we can synthesise from it enjoys deadlock freedom.
 
-- speaker: All Concurrency and Logic members
-  date: 2018-03-16
-  title: Ongoing work presentatations
-  description: | 
-    Presentation and discussion on recent progress on ongoing work.
-
 - speaker: Tomasz Brengos
   date: 2017-06-27
   title: A uniform framework for timed automata
-  seminar: true
   description: | 
     Timed automata, and machines alike, currently lack a general mathematical characterisation. We introduce a uniform coalgebraic understanding of these devices. This framework encompasses known behavioural equivalences for timed automata and paves the way for the extension of these notions to new timed behaviours and for the instantiation of established results from the coalgebraic theory as well. Lax functors are the cornerstone of the framework: they allow us to model time flow as a context property and hence offer a general and expressive setting where to study timed systems. In this setting the index category encodes "how step sequences form executions" (e.g. whether steps duration is accumulated or kept distinct) whereas the base category encodes "step nature and composition" (e.g. non-determinism and labels). Finally, we develop the notion of general saturation for lax functors and show how equivalences of interest for timed behaviours are instances of this notion. This characterisation allows us to reason about the expressiveness of said notions within a uniform framework and organise them in a spectrum independent from the behavioural aspects encoded in the base category.
