@@ -1,23 +1,40 @@
 - speaker: Saverio Giallorenzo
-  date: 2018-06-29
+  date: 2018-06-29 10:30
+  place: IMADA meeting room
+  place_link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9ba423b7d0540c9a98b/
   title: Applied Choreographies
   description: |
     Implementations of choreographic models use message routing technologies distant from their related theoretical models (e.g., CCS/π channels). This drives implementers to mediate discrepancies with the theory through undocumented, unproven adaptations, weakening the reliability of their implementations. We present a framework of Applied Choreographies (AC) where programmers write choreographies in a language that follows the standard syntax and semantics of previous works. Then, choreographies are compiled to a real-world execution model for Service-Oriented Computing (SOC). To manage the complexity of this task, our compilation happens in three steps, respectively dealing with: implementing name-based communications using the concrete mechanism found in SOC, projecting a choreography to a set of processes, and translating processes to a distributed implementation in terms of services.
 
 - speaker: Jacopo Mauro
-  date: 2018-05-25
+  date: 2018-05-25 10:30
+  place: IMADA meeting room
+  place_link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9ba423b7d0540c9a98b/
   title: Introduction seminar on previous work and research interests
   description: |
     Presentation to the Concurrency and Logic group, covering previous work on Constraint Programming and portfolio solvers, Cloud deployments, and DevOps practices. 
 
 - speaker: Luís Cruz-Filipe
-  date: 2018-04-20
+  date: 2018-04-20 10:30
+  place: IMADA meeting room
+  place_link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9ba423b7d0540c9a98b/
   title: Connectors Meet Choreographies
   description: | 
     Presentation of Cho-Reo-graphies (CR), a model where choreographies are parametric in the (Reo) connectors through which parties communicate. CR is the first choreography model where different communication semantics (e.g., synchronous and asynchronous) can freely be mixed in the same choreography. We prove that if a choreography respects the rules of the connectors that it uses, then the process implementation that we can synthesise from it enjoys deadlock freedom.
 
 - speaker: Tomasz Brengos
-  date: 2017-06-27
+  date: 2017-06-27 14:15
+  place: IMADA seminar room
+  place_link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb8e9423b7d0540c9a2b6/
   title: A uniform framework for timed automata
   description: | 
     Timed automata, and machines alike, currently lack a general mathematical characterisation. We introduce a uniform coalgebraic understanding of these devices. This framework encompasses known behavioural equivalences for timed automata and paves the way for the extension of these notions to new timed behaviours and for the instantiation of established results from the coalgebraic theory as well. Lax functors are the cornerstone of the framework: they allow us to model time flow as a context property and hence offer a general and expressive setting where to study timed systems. In this setting the index category encodes "how step sequences form executions" (e.g. whether steps duration is accumulated or kept distinct) whereas the base category encodes "step nature and composition" (e.g. non-determinism and labels). Finally, we develop the notion of general saturation for lax functors and show how equivalences of interest for timed behaviours are instances of this notion. This characterisation allows us to reason about the expressiveness of said notions within a uniform framework and organise them in a spectrum independent from the behavioural aspects encoded in the base category.
+  
+- speaker: Marco Peressotti
+  date: 2017-01-18 10:15
+  place: Room U44
+  place_link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb920423b7d0540c9a482/
+  title: Composable Open Memory Transactions 
+  description: | 
+    Transactional memory (TM) has emerged as a promising high-level concurrency control mechanism alternative to fine grained lock-based synchronization. However, most TM models admit only isolated transactions, which are not adequate in multi-threaded programming where transactions have to interact via shared data before committing. We present Open Transactional Memory (OTM), a programming model supporting safe, data-driven interactions between composable memory transactions. In this model, different transactions are transparently merged at runtime as soon as they access to shared variables; their threads can then cooperate, until they all either commit or abort together. Thus, this model relaxes the isolation requirement still guaranteeing atomicity; moreover, it allows for loosely-coupled interactions since transaction merging is dynamic and driven only by accesses to shared data, with no need to specify participants beforehand. We present OTM in the setting of the Haskell language, taking advantage of its type system for guaranteeing composability. 
+  

@@ -26,11 +26,18 @@ The calendar below reports on the left the schedule of the {{ site.group_short }
 	{% for seminar in site.data.seminars %}
 	{% capture this_id %}{{ seminar.date | date: "%y-%m-%d" }}-{{ seminar.title | downcase | replace: " ", "-" | escape }}{% endcapture %}
 	<div class="seminars">
-		<div class="font-weight-bold interactive"><a class="float-right small fa fa-link" id="{{this_id}}" href="#{{ this_id }}"></a>
+		<div class="font-weight-bold interactive"><a class="nodec float-right small fa fa-link" id="{{this_id}}" href="#{{ this_id }}"></a>
 		{{ seminar.title }}
 		</div>
 		<span class="small text-muted"><span class="fa fa-user"></span> {{ seminar.speaker }} <br>
-		<span class="fa fa-calendar"></span> {{ seminar.date | date: "%a %d %b %Y"}}</span>
+		<span class="fa fa-calendar"></span> {{ seminar.date | date: "%a %d %b %Y at %H:%M"}}<br>
+		<span class="fa fa-map-marker-alt"></span> 
+		{% if seminar.place_link %}
+		<a class="nodec" href="{{ seminar.place_link }}">{{ seminar.place }}</a>
+		{% else %}
+		{{ seminar.place }}
+		{% endif %}
+		</span>
 		<div class="abstract small d-none"><hr>{{ seminar.description | markdownify }}</div>
 	</div>
 	{% endfor %}
@@ -38,11 +45,24 @@ The calendar below reports on the left the schedule of the {{ site.group_short }
 <div class="col-6">
 	<h3>Visitors</h3>
 	{% for visitor in site.data.visiting %}
+	{% capture this_id %}{{ visitor.from | date: "%y-%m-%d" }}-{{ visitor.name | downcase | replace: " ", "-" | escape }}{% endcapture %}
 	<div class="visitors">
-		<div class="font-weight-bold interactive">{{ visitor.name }}</div>
-		<span class="small text-muted"><span class="fa fa-address-card"></span> {{ visitor.affiliation }}</span>
+		<div class="font-weight-bold interactive"><a class="nodec float-right small fa fa-link" id="{{this_id}}" href="#{{ this_id }}"></a>{{ visitor.name }}</div>
+		<span class="small text-muted"><span class="fa fa-address-card"></span> {{ visitor.affiliation }} <br>
+		{% if visitor.website %}
+		<span class="fa fa-desktop"></span> <a class="nodec" href="{{ visitor.website }}">Website</a> <br>
+		{% endif %}
+		{% if visitor.host %}
+		<span class="fa fa-user"></span>
+		{% for person in site.data.people %}
+      {% if person.name == visitor.host or person.id == visitor.host %}
+      Host: <a class="nodec" href="/people.html#{{ person.id}}">{{ visitor.host }}</a>
+      {% break %}
+      {% endif %}
+    {% endfor %}
 		<br>
-		<span class="small text-muted">
+		{% endif %}
+		<span class="fa fa-calendar"></span>
 			{% capture fromDate %}{{ visitor.from | date: "%d %b" }}{% endcapture %}
 			{% assign vf = visitor.from | date: "%Y" %}
 			{% assign vt = visitor.to 	| date: "%Y" %}
