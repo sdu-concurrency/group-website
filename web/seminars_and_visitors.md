@@ -29,7 +29,15 @@ The calendar below reports on the left the schedule of the {{ site.group_short }
 		<div class="font-weight-bold interactive"><a class="nodec float-right small fa fa-link" id="{{this_id}}" href="#{{ this_id }}"></a>
 		{{ seminar.title }}
 		</div>
-		<span class="small text-muted"><span class="fa fa-user"></span> {{ seminar.speaker }} <br>
+		<span class="small text-muted">
+		{% assign speaker = seminar.speaker %}
+		{% for person in site.data.people %}
+			{% if person.name == seminar.speaker or person.id == seminar.speaker %}
+			{% capture speaker %}<a class="nodec" href="/people.html#{{ person.id}}">{{ person.name }}</a>{% endcapture %}
+			{% break %}
+			{% endif %}
+		{% endfor %}
+		<span class="fa fa-user"></span> {{ speaker }} <br>
 		<span class="fa fa-calendar"></span> {{ seminar.date | date: "%a %d %b %Y at %H:%M"}}<br>
 		<span class="fa fa-map-marker-alt"></span> 
 		{% if seminar.place_link %}
@@ -56,7 +64,7 @@ The calendar below reports on the left the schedule of the {{ site.group_short }
 		<span class="fa fa-user"></span>
 		{% for person in site.data.people %}
       {% if person.name == visitor.host or person.id == visitor.host %}
-      Host: <a class="nodec" href="/people.html#{{ person.id}}">{{ visitor.host }}</a>
+      Host: <a class="nodec" href="/people.html#{{ person.id}}">{{ person.name }}</a>
       {% break %}
       {% endif %}
     {% endfor %}

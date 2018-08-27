@@ -22,6 +22,14 @@
   description: | 
     Presentation of Cho-Reo-graphies (CR), a model where choreographies are parametric in the (Reo) connectors through which parties communicate. CR is the first choreography model where different communication semantics (e.g., synchronous and asynchronous) can freely be mixed in the same choreography. We prove that if a choreography respects the rules of the connectors that it uses, then the process implementation that we can synthesise from it enjoys deadlock freedom.
 
+- speaker: Jacopo Mauro
+  date: 2017-10-30 10:15
+  place: Room U147
+  place_link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9b8423b7d0540c9a981/
+  title: Application Deployment - What can be automated? 
+  description: | 
+    In modern software systems, deployment is an integral and critical part of application development. A natural question arises: to what extent can we automate the deployment of complex, distributed, and scalable software systems? In the first part of this talk, we will try to give an answer to this question providing some insights on the complexity of the problems of dealing with application deployment and describing tools that can be used. We then describe a recent approach to take into account deployment at the modeling level, thus allowing to perform deployment conscious decisions during the early stages of a system development. 
+
 - speaker: Tomasz Brengos
   date: 2017-06-27 14:15
   place: IMADA seminar room
@@ -29,7 +37,7 @@
   title: A uniform framework for timed automata
   description: | 
     Timed automata, and machines alike, currently lack a general mathematical characterisation. We introduce a uniform coalgebraic understanding of these devices. This framework encompasses known behavioural equivalences for timed automata and paves the way for the extension of these notions to new timed behaviours and for the instantiation of established results from the coalgebraic theory as well. Lax functors are the cornerstone of the framework: they allow us to model time flow as a context property and hence offer a general and expressive setting where to study timed systems. In this setting the index category encodes "how step sequences form executions" (e.g. whether steps duration is accumulated or kept distinct) whereas the base category encodes "step nature and composition" (e.g. non-determinism and labels). Finally, we develop the notion of general saturation for lax functors and show how equivalences of interest for timed behaviours are instances of this notion. This characterisation allows us to reason about the expressiveness of said notions within a uniform framework and organise them in a spectrum independent from the behavioural aspects encoded in the base category.
-  
+
 - speaker: Marco Peressotti
   date: 2017-01-18 10:15
   place: Room U44
