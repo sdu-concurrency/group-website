@@ -57,9 +57,6 @@ The calendar below reports on the left the schedule of the {{ site.group_short }
 	<div class="visitors">
 		<div class="font-weight-bold interactive"><a class="nodec float-right small fa fa-link" id="{{this_id}}" href="#{{ this_id }}"></a>{{ visitor.name }}</div>
 		<span class="small text-muted"><span class="fa fa-address-card"></span> {{ visitor.affiliation }} <br>
-		{% if visitor.website %}
-		<span class="fa fa-desktop"></span> <a class="nodec" href="{{ visitor.website }}">Website</a> <br>
-		{% endif %}
 		{% if visitor.host %}
 		<span class="fa fa-user"></span>
 		{% for person in site.data.people %}
@@ -71,11 +68,13 @@ The calendar below reports on the left the schedule of the {{ site.group_short }
 		<br>
 		{% endif %}
 		<span class="fa fa-calendar"></span>
+		{% if visitor.from != visitor.to %}
 			{% capture fromDate %}{{ visitor.from | date: "%d %b" }}{% endcapture %}
 			{% assign vf = visitor.from | date: "%Y" %}
 			{% assign vt = visitor.to 	| date: "%Y" %}
 			{% if vf != vt %}{% capture fromDate %}{{ fromDate }} {{ visitor.from | date: "%y" }}{% endcapture %}{% endif %}
 		{{ fromDate }} <span class="fa fa-angle-right"></span>
+		{% endif %}
 		{{ visitor.to | date: "%d %b %Y"}}</span>
 		<div class="abstract small d-none"><hr>{{ visitor.description | markdownify }}</div>
 	</div>

@@ -1,8 +1,25 @@
 - name: Tomasz Brengos
   from: 2017-06-25
   to: 2017-07-05
-  affiliation: Warsaw University of Technology
+  affiliation: Warsaw University of Technology, Poland
   website: https://www.mini.pw.edu.pl/~tbrengos/
   host: Marco Peressotti
   description: |
-    Tomasz Brengos visited the CL group to conduct research on the behavioural theory of timed and Büchi automa. This visit is part of an ongoing collaboration between Tomasz Brengos and Marco Peressotti.
+    Tomasz Brengos visited Marco Peressotti to conduct research on the behavioural theory of timed and Büchi automata and to give the seminar  [A uniform framework for tiemd automata](/seminars_and_visitors.html#17-06-27-a-uniform-framework-for-timed-automata). 
+    
+- name: Jacopo Mauro
+  from: 2017-10-30
+  to: 2017-10-30
+  affiliation: Oslo University, Norway
+  website: https://imada.sdu.dk/~mauro/
+  host: Fabrizio Montesi
+  description: |
+    Jacopo Mauro visited the CL group at IMADA and to give the seminar [Application Deployment - What can be automated?](/seminars_and_visitors.html#17-10-30-application-deployment---what-can-be-automated?).
+
+- name: Marco Peressotti
+  from: 2017-01-18
+  to: 2017-01-18
+  affiliation: University of Udine, Italy
+  host: Fabrizio Montesi
+  description: |
+    Marco Peressotti visited the CL group at IMADA and to give the seminar [Composable Open Memory Transactions ](/seminars_and_visitors.html#17-01-18-composable-open-memory-transactions).
