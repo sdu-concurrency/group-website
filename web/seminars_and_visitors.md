@@ -24,7 +24,7 @@ The calendar below reports on the left the schedule of the {{ site.group_short }
 <div class="col-6">
 	<h3>Seminars</h3>
 	{% for seminar in site.data.seminars %}
-	{% capture this_id %}{{ seminar.date | date: "%y-%m-%d" }}-{{ seminar.title | downcase | replace: " ", "-" | escape }}{% endcapture %}
+	{% capture this_id %}{{ seminar.date | date: "%y-%m-%d" }}-{{ seminar.title | handleize }}{% endcapture %}
 	<div class="seminars">
 		<div class="font-weight-bold interactive"><a class="nodec float-right small fa fa-link" id="{{this_id}}" href="#{{ this_id }}"></a>
 		{{ seminar.title }}

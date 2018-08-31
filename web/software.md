@@ -21,11 +21,11 @@ layout: default
 {% if software.logo %}
   <div class="col-4 align-self-center"><img style="padding-top:15px;max-width:100%;height:auto" src="{{ software.logo }}"></div>
   <div class="col-8 media-body">
-  <h2>{{ software.name }}</h2>
+  <h2>{{ software.name }} <span><a style="font-size:small;" class="small fa fa-link" id="{{ software.name | handleize }}" href="#{{ software.name | handleize }}"></a></span></h2>
   <div>{{ software.short-bio }}</div>
 {% else %}
   <div class="col-12 media-body">
-  <h2>{{ software.name }}</h2>
+  <h2>{{ software.name }} <a style="font-size:small;" class="small fa fa-link" id="{{ software.name | handleize }}" href="#{{ software.name | handleize }}"></a></h2>
   <div>{{ software.short-bio }}</div>
 {% endif %}
 <div>
