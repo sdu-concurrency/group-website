@@ -26,9 +26,8 @@ The calendar below reports on the left the schedule of the {{ site.group_short }
 	{% for seminar in site.data.seminars %}
 	{% capture this_id %}{{ seminar.date | date: "%y-%m-%d" }}-{{ seminar.title | handleize }}{% endcapture %}
 	<div class="seminars">
-		<div class="font-weight-bold interactive"><a class="nodec float-right small fa fa-link" id="{{this_id}}" href="#{{ this_id }}"></a>
-		{{ seminar.title }}
-		</div>
+		<a class="nodec float-right small fa fa-link" id="{{this_id}}" href="#{{ this_id }}"></a>
+		<div class="font-weight-bold interactive">{{ seminar.title }}</div>
 		<span class="small text-muted">
 		{% assign speaker = seminar.speaker %}
 		{% for person in site.data.people %}
@@ -38,13 +37,18 @@ The calendar below reports on the left the schedule of the {{ site.group_short }
 			{% endif %}
 		{% endfor %}
 		<span class="fa fa-user"></span> {{ speaker }} <br>
-		<span class="fa fa-calendar"></span> {{ seminar.date | date: "%a %d %b %Y at %H:%M"}}<br>
+		{% if seminar.affiliation %}
+		<span class="fa fa-address-card"></span> {{ seminar.affiliation }} <br>
+		{% endif %}
+		<span class="fa fa-calendar"></span> {{ seminar.date | date: "%a %d %b %Y at %H:%M"}} |
 		<span class="fa fa-map-marker-alt"></span> 
 		{% if seminar.place_link %}
 		<a class="nodec" href="{{ seminar.place_link }}">{{ seminar.place }}</a>
 		{% else %}
 		{{ seminar.place }}
-		{% endif %}
+		{% endif %} |
+		<span class="fa fa-align-left"></span>
+		<a class="interactive" href="#">abstract</a>
 		</span>
 		<div class="abstract small d-none"><hr>{{ seminar.description | markdownify }}</div>
 	</div>
@@ -55,7 +59,8 @@ The calendar below reports on the left the schedule of the {{ site.group_short }
 	{% for visitor in site.data.visiting %}
 	{% capture this_id %}{{ visitor.from | date: "%y-%m-%d" }}-{{ visitor.name | downcase | replace: " ", "-" | escape }}{% endcapture %}
 	<div class="visitors">
-		<div class="font-weight-bold interactive"><a class="nodec float-right small fa fa-link" id="{{this_id}}" href="#{{ this_id }}"></a>{{ visitor.name }}</div>
+		<a class="nodec float-right small fa fa-link" id="{{this_id}}" href="#{{ this_id }}"></a>
+		<div class="font-weight-bold interactive">{{ visitor.name }}</div>
 		<span class="small text-muted"><span class="fa fa-address-card"></span> {{ visitor.affiliation }} <br>
 		{% if visitor.host %}
 		<span class="fa fa-user"></span>
@@ -86,7 +91,8 @@ The calendar below reports on the left the schedule of the {{ site.group_short }
 <script>
 	$(document).ready(function() {
 		$( ".interactive" ).on( "click", function( e ){
-			$( e.target ).parent().find( ".abstract" ).toggleClass( "d-none" );
+			$( e.target ).parents(".seminars, .visitors").find( ".abstract" ).toggleClass( "d-none" );
+			return false;
 		});
 	});
 </script>

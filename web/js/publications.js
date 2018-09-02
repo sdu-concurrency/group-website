@@ -13,7 +13,7 @@ $(document).ready(function() {
     /* ---- TOOLTIP PAPERTOGGLE PREVIEW ---- */
     
     $( "#paperToggle" ).tooltip( "show" );
-    setTimeout( function() { $(".tooltip").tooltip( "hide" ); }, 4000);
+    setTimeout( function() { $(".tooltip").tooltip( "hide" ); }, 2000);
 
     /* ---- ABSTRACT PREVIEW LOGIC ---- */
     

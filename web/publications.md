@@ -100,7 +100,8 @@ ul {
 						<li class="paper mb-4">
 							<div>
 							{% assign id = id | plus: 1 %}
-							<div id="paper_{{paper.id}}" class="paper">
+							{% capture paper_id %}paper_{{paper.id | handleize }}{% endcapture %}
+							<div id="paper_id" class="paper">
 							{{ paper.content }}
 							</div>
 							<div>
@@ -113,6 +114,7 @@ ul {
 								{% assign icon = link.icon | default: "fa fa-file-pdf"%}
 								<span class="{{icon}}"></span> {{ name }}</a></small>
 							{% endfor%}
+							| <small><a href="#{{paper_id}}" class="nodec permalink" id="{{ id }}" ><span class="fa fa-link"></span> permalink</a></small>
 							</div>
 							</div>
 							{% assign g_size = paper.grants | size %}

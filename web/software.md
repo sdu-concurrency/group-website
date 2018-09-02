@@ -21,21 +21,21 @@ layout: default
 {% if software.logo %}
   <div class="col-4 align-self-center"><img style="padding-top:15px;max-width:100%;height:auto" src="{{ software.logo }}"></div>
   <div class="col-8 media-body">
-  <h2>{{ software.name }} <span><a style="font-size:small;" class="small fa fa-link" id="{{ software.name | handleize }}" href="#{{ software.name | handleize }}"></a></span></h2>
+  <h2 id="{{ software.name | handleize }}">{{ software.name }}</h2>
   <div>{{ software.short-bio }}</div>
 {% else %}
   <div class="col-12 media-body">
-  <h2>{{ software.name }} <a style="font-size:small;" class="small fa fa-link" id="{{ software.name | handleize }}" href="#{{ software.name | handleize }}"></a></h2>
+  <h2 id="{{ software.name | handleize }}">{{ software.name }}</h2>
   <div>{{ software.short-bio }}</div>
 {% endif %}
 <div>
 {% if software.website %}
-<small><a class="nodec" href="{{ software.website }}"><span class="fa fa-desktop"></span> Website</a></small>
+<small><a class="nodec" href="{{ software.website }}"><span class="fa fa-desktop"></span> Website</a></small> |
 {% endif %}
 {% if software.repository %}
-  {% if software.website %} | {% endif %}
-  <small><a class="nodec" href="{{ software.repository.link | default: software.repository }}"><span class="{{ software.repository.icon | default: "fas fa-code-branch" }}"></span> Repository</a></small>
+  <small><a class="nodec" href="{{ software.repository.link | default: software.repository }}"><span class="{{ software.repository.icon | default: "fas fa-code-branch" }}"></span> Repository</a></small> |
 {% endif %}
+<small><a class="nodec" href="#{{ software.name | handleize }}"><span class="fa fa-link"></span> Permalink</a></small>
 </div>
 </div>
 </div>
