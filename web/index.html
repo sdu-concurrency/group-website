@@ -4,21 +4,17 @@ layout: landing-page
 <!-- Main -->
 <div class="container">
 	<div class="row">
-		<div class="bg-alert-success pt-2 mb-3 offset-lg-2 col-lg-8 col-12">
+		<div class="bg-alert-success pt-2  mt-5 mb-3 offset-lg-2 col-lg-8 col-12">
 			<section class="card-body pb-0">
-
-				<div class="text-justify hyphenate">
-					 <!-- <div class="card-title"><h2
-				class="text-center">{{ site.group_short }}, in a few
-			sentences.</h2></div> -->
-			<p> In the {{ site.group_short }} group at <a
+				<div class="mt-5 mb-5 text-justify hyphenate"> 
+				In the {{ site.group_name }} ({{ site.group_short }}) group at <a
 				href="https://www.sdu.dk">SDU</a>, we are interested in the challenges
 				brought by modern digital systems, such as big data systems, the
 				Internet of Things, and data clouds: software, data, and systems are
 				getting increasingly larger and complex, pushing beyond the limits of
 				developing and analysing them manually. In our group, we develop theory
 				and tools that automate crucial steps of the development and analysis
-			processes, enhancing their efficiency and reliability.</p>
+			processes, enhancing their efficiency and reliability.
 
 		</div>
 
@@ -27,49 +23,32 @@ layout: landing-page
 </div>
 </div>
 
-<!-- Three -->
-<section class="card container special mb-5">
+<section class="container">
+<div class="row">
 
-	<header>
-		<h2>Latest Events</h2>
-	</header>
+<div class="mb-5 col-lg-6 col-12">
 
-	{% assign latest_posts = site.posts | slice: 0, 4%}
+		<div class="col-12">
+		<h2 class="text-center">Featured News</h2>
 
-	<div class="row">
-		<div class="col-12 col-lg-6">
-			{% for post in latest_posts %}
-			{% assign index = forloop.index | modulo: 2 %}
-			{% if index == 1 %}
-			<section class="card border-0">
+			{% assign fnews = 0 %}
+			{% for post in site.posts %}
+			{% if fnews < 4 and post.tags contains "featured" %}
+			{% assign fnews = fnews | plus: 1 %}
+			<section class="border-0">
 				<div class="card-body">
-					<div class="card-title pl-1 pr-1 alert-info rounded-top">
-						<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+					<div class="card-title pl-1 pb-1 pr-1 alert-info rounded-top">
+						<h3 class="text-center"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+						<div style="margin-top:-1.5em;" class="small text-right text-muted">
+					      {% if post.date-end %} 
+					        {{ post.date | date: "%b %-d, %Y" }} - {{ post.date-end | date: "%b %-d, %Y" }}
+					      {% else %}
+					         {{ post.date | date: "%b %-d, %Y" }}
+					    	{% endif %}
+				    	</div>
 					</div>
-					<div style="margin-top: -.8em;" class="border border-top-0 text-justify hyphenate">
-						<div class="col-12"><div class="pt-4"></div>{{ post.excerpt }}</div>
-						<a class="nodec float-right" href="{{ post.url }}">
-							<button class="rounded-0 btn btn-light">Continue reading <span class="fa fa-arrow-circle-right"></span></button>
-						</a>
-						<div class="clearfix"></div>
-					</div>
-				</div>
-				<div class="mt-4"></div>
-			</section>
-			{% endif %}
-			{% endfor %}
-		</div>
-		<div class="col-12 col-lg-6">
-			{% for post in latest_posts %}
-			{% assign index = forloop.index | modulo: 2 %}
-			{% if index == 0 %}
-			<section class="card border-0">
-				<div class="card-body">
-					<div class="card-title pl-1 pr-1 alert-info rounded-top">
-						<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-					</div>
-					<div style="margin-top: -1.2em;" class="border border-top-0 text-justify hyphenate">
-						<div class="col-12"><div class="pt-4"></div>{{ post.excerpt }}</div>
+					<div style="margin-top: -.8em;" class="card border border-top-0 text-justify hyphenate">
+						<div class="small col-12"><div class="pt-4"></div>{{ post.excerpt }}</div>
 						<a class="nodec float-right" href="{{ post.url }}">
 							<button class="rounded-0 btn btn-light">Continue reading <span class="fa fa-arrow-circle-right"></span></button>
 						</a>
@@ -83,10 +62,51 @@ layout: landing-page
 		</div>
 	</div>
 
-	<footer class="major pb-5">
-		<ul class="buttons pl-0">
-			<li><a href="/events.html" class="button">Events Page</a></li>
-		</ul>
-	</footer>
+<div class="col-lg-6 col-12">
 
+
+		<div class="col-12">
+		<h2 class="text-center">Latest News</h2>
+
+			{% assign news = 0 %}
+			{% for post in site.posts %}
+			{% if news < 4 %} 
+				{% unless post.tags contains "featured" %}
+					{% assign news = news | plus: 1 %}
+					<section class="border-0">
+						<div class="card-body">
+							<div class="card-title pl-1 pb-2 pr-1 alert-info rounded-top">
+							<h3 class="text-center"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+							<div style="margin-top:-1.5em;" class="small text-right text-muted">
+					      {% if post.date-end %} 
+					        {{ post.date | date: "%b %-d, %Y" }} - {{ post.date-end | date: "%b %-d, %Y" }}
+					      {% else %}
+					         {{ post.date | date: "%b %-d, %Y" }}
+					    	{% endif %}
+					    	</div>
+							</div>
+							<div style="margin-top: -1.2em;" class="card border border-top-0 text-justify hyphenate">
+								<div class="small col-12"><div class="pt-4"></div>{{ post.excerpt }}</div>
+								<a class="nodec float-right" href="{{ post.url }}">
+									<button class="rounded-0 btn btn-light">Continue reading <span class="fa fa-arrow-circle-right"></span></button>
+								</a>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+						<div class="mt-4"></div>
+					</section>
+				{% endunless %}
+			{% endif %}
+			{% endfor %}
+		</div>
+	</div>
+
+</div>
 </section>
+{% comment %}
+<footer class="major pb-5">
+	<ul class="buttons pl-0">
+		<li><a href="/events.html" class="button">Events Page</a></li>
+	</ul>
+</footer>
+{% endcomment %}

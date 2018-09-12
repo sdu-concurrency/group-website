@@ -3,14 +3,16 @@ layout: post
 title:  "Creation of the Microservices Community"
 place:  Odense, Denmark
 date:   2017-10-30
+tag: featured
 ---
 <img class="img-fluid mx-auto d-block" src="/images/posts/microservices-community.png">
 
 During the discussion panels at [Microservices 2017](/events/2017-10-25-Microservices_Conference), participants recognised the importance of constituting a communal place where international people from research institutions, private companies, universities, and public organisations (like municipalities) can share knowledge and foster collaborations about microservices.
 
+<!--more-->
+
 Prompted by this observation, the organisers of [Microservices 2017](/events/2017-10-25-Microservices_Conference) in {{ site.group_short }} put forward the initiative of [Microservices Community](http://microservices.sdu.dk/), with the support of [SDU](https://www.sdu.dk/en). 
 
-<!--more-->
 
 The main activities of the initiative comprise:
 

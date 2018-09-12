@@ -4,7 +4,7 @@ layout: default
 
 <article id="main"><header class="major container" markdown="1">
 
-## Seminars & Visitors
+# Seminars & Visitors
 
 </header><section class="wrapper style4 card container"><div class="content"><section markdown="1">
 
