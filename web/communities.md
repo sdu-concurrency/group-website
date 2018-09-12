@@ -57,7 +57,7 @@ layout: default
         <li>ESOCC 2017</li>
         <li>FACS 2014</li>
         <li>MADE 2018</li>
-        <li><a href="conf-micro.services">Microservices 2017-2019</a></li>
+        <li><a href="http://conf-micro.services">Microservices 2017-2019</a></li>
         <li>NIKT 2018</li>
         <li>RC 2016</li>
         <li>SAC 2014-2019 (SOAP, MiDOS)</li>
