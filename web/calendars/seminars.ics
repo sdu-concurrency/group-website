@@ -24,7 +24,7 @@ DTSTART:{{ seminar.date | date: "%Y%m%dT%H%M%S" }}
 DTEND:{{ seminar.date | date:'%s' | plus:3600 | date: "%Y%m%dT%H%M%S" }}
 SUMMARY:{{ seminar.title }}
 LOCATION:{{ seminar.place }}
-DESCRIPTION:Speaker: {{ seminar.speaker.name }} ({{ seminar.speaker.affiliation }})\nAbstract: {{ seminar.description | plainify }}\nURL: {{ site.url }}/seminars_and_visitors.html#{{ this_id }}{% if seminar.place_link %}/nMAP: {{ seminar.place_link }} {% endif %}
+DESCRIPTION:SPEAKER: {{ seminar.speaker.name }} ({{ seminar.speaker.affiliation }}) \nABSTRACT: {{ seminar.description | plainify | strip_newlines }} \nURL: {{ site.url }}/seminars_and_visitors.html#{{ this_id }}{% if seminar.place_link %} \nMAP: {{ seminar.place_link }} {% endif %}
 END:VEVENT
 {%- endfor %}
 END:VCALENDAR
