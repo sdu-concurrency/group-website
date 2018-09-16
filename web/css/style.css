@@ -1099,6 +1099,7 @@ body.index #main {
 
 .page-content {
 	margin-top: 1em;
+	min-height: 100vh;
 }
 
 #topButton .toggle:after {
