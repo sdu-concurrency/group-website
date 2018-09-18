@@ -10,7 +10,7 @@ layout: default
 
 The {{ site.group_name }} group organises weekly meetings, frequently in the form of public seminars, with the aim of presenting and discussing ongoing research. Seminars are mainly in the domain (but not limited to) concurrency, logic, programming languages, type theory, proofs, and software engineering.
 
-Unless differently indicated, {{ site.group_short }} seminars are held every Friday at 10:30 in [IMADAs møderum](http://vejviser.sdu.dk/opslag?lid=2319), SDU, Odense. The seminars' schedule is managed by [Luís Cruz-Filipe](/people.html#lfc). 
+Unless differently indicated, {{ site.group_short }} seminars are held every Friday at 10:30 in [IMADAs møderum](http://vejviser.sdu.dk/opslag?lid=2319), SDU, Odense. The seminars' schedule is managed by [Luís Cruz-Filipe](/people.html#lfc) and is also available as an [ics feed](/calendars/seminars.ics).
 
 The calendar below reports on the left the schedule of the {{ site.group_short }} seminars and on the right the researchers that visited {{ site.group_short }} group.
 
@@ -29,7 +29,7 @@ The calendar below reports on the left the schedule of the {{ site.group_short }
 		<a class="nodec float-right small fa fa-link" id="{{this_id}}" href="#{{ this_id }}"></a>
 		<div class="font-weight-bold interactive">{{ seminar.title }}</div>
 		<span class="small text-muted">
-		{% assign speaker = seminar.speaker %}
+		{% assign speaker = seminar.speaker.name %}
 		{% for person in site.data.people %}
 			{% if person.name == seminar.speaker.name or person.id == seminar.speaker.id %}
 			{% capture speaker %}<a class="nodec" href="/people.html#{{ person.id}}">{{ person.name }}</a>{% endcapture %}
@@ -40,7 +40,7 @@ The calendar below reports on the left the schedule of the {{ site.group_short }
 		{% if seminar.speaker.affiliation %}
 		<span class="fa fa-address-card"></span> {{ seminar.speaker.affiliation }} <br>
 		{% endif %}
-		<span class="fa fa-calendar"></span> {{ seminar.date | date: "%a %d %b %Y at %H:%M"}} |
+		<span class="fa fa-calendar"></span> <a class="nodec" href="/calendars/seminars.ics">{{ seminar.date | date: "%a %d %b %Y at %H:%M"}}</a> |
 		<span class="fa fa-map-marker-alt"></span> 
 		{% if seminar.place_link %}
 		<a class="nodec" href="{{ seminar.place_link }}">{{ seminar.place }}</a>
