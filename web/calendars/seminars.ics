@@ -31,16 +31,20 @@ END:VTIMEZONE
 {%- for seminar in site.data.seminars %}
 BEGIN:VEVENT
 {%- capture this_id %}{{ seminar.date | date: "%y-%m-%d" }}-{{ seminar.title | handleize }}{% endcapture %}
-DTSTAMP:{{ "now" | date: "%Y%m%dT%H%M%SZ" }}
+{%- assign created=seminar.created | default: "now" %}
+DTSTAMP:{{ created | date: "%Y%m%dT%H%M%SZ" }}
+LAST-MODIFIED:{{ "now" | date: "%Y%m%dT%H%M%SZ" }}
 SEQUENCE:{{ seminar.sequence | default:0 }}
 UID:{{ site.url }}seminars_and_visitors.html#{{ this_id }}
+{%- comment -%}
   {%- if seminar.organiser %}
 ORGANIZER;CN={{ seminar.organiser.name }}:MAILTO:{{ seminar.organiser.email }}
   {%- else %}
 ORGANIZER;CN=Luís Cruz-Filipe:MAILTO:lcf@imada.sdu.dk
   {%- endif %}
+{%- endcomment %}
 DTSTART;TZID=Europe/Copenhagen:{{ seminar.date | date: "%Y%m%dT%H%M%S" }}
-{%- assign duration=seminar.duration | default: 3600 %}
+{%- assign duration=seminar.duration | times:60 | default: 3600 %}
 DTEND;TZID=Europe/Copenhagen:{{ seminar.date | date:'%s' | plus: duration | date: "%Y%m%dT%H%M%S" }}
 SUMMARY:{{ seminar.title }}
 LOCATION:{{ seminar.place }}
