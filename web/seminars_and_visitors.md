@@ -31,7 +31,6 @@ The calendar below reports on the left the schedule of the {{ site.group_short }
 		<div class="font-weight-bold {% if visitor.description %}interactive{% endif %}">{{ visitor.name }}</div>
 		<div class="small text-muted">
 		<span class="fa fa-address-card"></span> {{ visitor.affiliation }} <br>
-		<span class="tag">
 			<span class="fa fa-calendar"></span>
 		{%- if visitor.from != visitor.to %}
 			{%- capture fromDate %}{{ visitor.from | date: "%d %b" }}{% endcapture %}
@@ -41,7 +40,6 @@ The calendar below reports on the left the schedule of the {{ site.group_short }
 			{{ fromDate }} <span class="fa fa-angle-right"></span>
 		{%- endif %}
 		{{ visitor.to | date: "%d %b %Y"}}
-		</span>
 		{%- if visitor.office %}
 		<span class="tag">
 			<span class="fa fa-map-marker-alt"></span>
