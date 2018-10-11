@@ -9,10 +9,10 @@ layout: default
 </header><section class="wrapper card style4 container">
   <div class="content">
     <section>
+    
+      <p class="d-none d-md-block">The graph below represents the interactions that members of the {{ site.group_short }} group have with industrial and public organisations, other academic groups and individuals, open-source communities, and interest groups.</p>
 
-      <p>The graph below represents the interactions that members of the {{ site.group_short }} group have with industrial and public organisations, other academic groups and individuals, open-source communities, and interest groups.</p>
-
-<div class="col-12 center">
+<div class="col-12 center d-none d-md-block">
 <object class="col-12" data="/images/communities/communities.svg" type="image/svg+xml">
   <img src="/images/communities/communities.svg" />
 </object>
