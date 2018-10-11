@@ -37,7 +37,7 @@ The calendar below reports on the left the schedule of the {{ site.group_short }
 			{%- capture fromDate %}{{ visitor.from | date: "%d %b" }}{% endcapture %}
 			{%- assign vf = visitor.from | date: "%Y" %}
 			{%- assign vt = visitor.to 	| date: "%Y" %}
-			{%- if vf != vt %}{% capture fromDate %}{{ fromDate }} {{ visitor.from | date: "%y" }}{% endcapture %}{% endif %}
+			{%- if vf != vt %}{% capture fromDate %}{{ fromDate }} {{ visitor.from | date: "%Y" }}{% endcapture %}{% endif %}
 			{{ fromDate }} <span class="fa fa-angle-right"></span>
 		{%- endif %}
 		{{ visitor.to | date: "%d %b %Y"}}
