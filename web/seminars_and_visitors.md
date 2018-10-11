@@ -15,73 +15,120 @@ Unless differently indicated, {{ site.group_short }} seminars are held every Fri
 The calendar below reports on the left the schedule of the {{ site.group_short }} seminars and on the right the researchers that visited {{ site.group_short }} group.
 
 <style>
-	.interactive {
-		cursor: pointer;
-	}
+	.interactive {cursor: pointer;}
+	.tag {white-space: nowrap; padding-right:1ex;}
 </style>
 
 <div class="row">
-<div class="col-6">
-	<h3>Seminars</h3>
-	{% for seminar in site.data.seminars %}
-	{% capture this_id %}{{ seminar.date | date: "%y-%m-%d" }}-{{ seminar.title | handleize }}{% endcapture %}
-	<div class="seminars">
-		<a class="nodec float-right small fa fa-link" id="{{this_id}}" href="#{{ this_id }}"></a>
-		<div class="font-weight-bold interactive">{{ seminar.title }}</div>
-		<span class="small text-muted">
-		{% assign speaker = seminar.speaker.name %}
-		{% for person in site.data.people %}
-			{% if person.name == seminar.speaker.name or person.id == seminar.speaker.id %}
-			{% capture speaker %}<a class="nodec" href="/people.html#{{ person.id}}">{{ person.name }}</a>{% endcapture %}
-			{% break %}
-			{% endif %}
-		{% endfor %}
-		<span class="fa fa-user"></span> {{ speaker }} <br>
-		{% if seminar.speaker.affiliation %}
-		<span class="fa fa-address-card"></span> {{ seminar.speaker.affiliation }} <br>
-		{% endif %}
-		<span class="fa fa-calendar"></span> <a class="nodec" href="/calendars/seminars.ics">{{ seminar.date | date: "%a %d %b %Y at %H:%M"}}</a> |
-		<span class="fa fa-map-marker-alt"></span> 
-		{% if seminar.place_link %}
-		<a class="nodec" href="{{ seminar.place_link }}">{{ seminar.place }}</a>
-		{% else %}
-		{{ seminar.place }}
-		{% endif %} |
-		<span class="fa fa-align-left"></span>
-		<a class="interactive" href="#">abstract</a>
+<div class="col-md-6 col-xs-12 order-md-2">
+	<h2>Visitors</h2>
+	{% for visitor in site.data.visiting %}
+	{% capture this_id %}{{ visitor.from | date: "%y-%m-%d" }}-{{ visitor.name | downcase | replace: " ", "-" | escape }}{% endcapture %}
+	<div class="visitors" style="overflow:auto">
+		{% if visitor.picture -%}
+			<img class="img-thumbnail float-sm-right" style="max-height: 6em; max-width: 7em;" src="{{visitor.picture}}">
+		{%- endif %}
+		<div class="font-weight-bold {% if visitor.description %}interactive{% endif %}">{{ visitor.name }}</div>
+		<div class="small text-muted">
+		<span class="fa fa-address-card"></span> {{ visitor.affiliation }} <br>
+		<span class="tag">
+			<span class="fa fa-calendar"></span>
+		{%- if visitor.from != visitor.to %}
+			{%- capture fromDate %}{{ visitor.from | date: "%d %b" }}{% endcapture %}
+			{%- assign vf = visitor.from | date: "%Y" %}
+			{%- assign vt = visitor.to 	| date: "%Y" %}
+			{%- if vf != vt %}{% capture fromDate %}{{ fromDate }} {{ visitor.from | date: "%y" }}{% endcapture %}{% endif %}
+			{{ fromDate }} <span class="fa fa-angle-right"></span>
+		{%- endif %}
+		{{ visitor.to | date: "%d %b %Y"}}
 		</span>
-		<div class="abstract small d-none"><hr>{{ seminar.description | markdownify }}</div>
+		{%- if visitor.office %}
+		<span class="tag">
+			<span class="fa fa-map-marker-alt"></span>
+			{%- if visitor.office.link %}
+			<a class="nodec" href="{{ visitor.office.link }}">{{ visitor.office.label }}</a>
+			{%- else %}
+			{{ visitor.office }}
+			{%- endif %}
+			</span>
+		{%- endif %}
+		{%- if visitor.host %}
+		<br> 
+		<span class="tag">
+			<span class="fa fa-user"></span>
+			{%- assign host = visitor.host %}
+			{%- for person in site.data.people -%}
+				{%- if person.name == visitor.host -%}
+				{%- capture host %}
+			<a class="nodec" href="/people.html#{{ person.id}}">{{ person.name }}</a>
+				{%- endcapture -%}
+				{%- break %}
+				{%- endif %}
+			{%- endfor %}
+			{{ host }}
+		</span>
+		{%- endif %}
+		<br> 
+		<span class="tag">
+			<span class="fa fa-link"></span>
+			<a class="nodec" id="{{this_id}}" href="#{{ this_id }}">Permalink</a>
+		</span>
+		</div>
+		{% if visitor.description -%}
+		<div class="abstract small d-none"><hr>{{ visitor.description | markdownify }}</div>
+		{%- endif %}
 	</div>
 	{% endfor %}
 </div>
-<div class="col-6">
-	<h3>Visitors</h3>
-	{% for visitor in site.data.visiting %}
-	{% capture this_id %}{{ visitor.from | date: "%y-%m-%d" }}-{{ visitor.name | downcase | replace: " ", "-" | escape }}{% endcapture %}
-	<div class="visitors">
-		<a class="nodec float-right small fa fa-link" id="{{this_id}}" href="#{{ this_id }}"></a>
-		<div class="font-weight-bold interactive">{{ visitor.name }}</div>
-		<span class="small text-muted"><span class="fa fa-address-card"></span> {{ visitor.affiliation }} <br>
-		{% if visitor.host %}
-		<span class="fa fa-user"></span>
-		{% for person in site.data.people %}
-      {% if person.name == visitor.host or person.id == visitor.host %}
-      Host: <a class="nodec" href="/people.html#{{ person.id}}">{{ person.name }}</a>
-      {% break %}
-      {% endif %}
-    {% endfor %}
-		<br>
+<div class="col-md-6 order-md-1 col-xs-12">
+	<h2>Seminars</h2>
+	{% for seminar in site.data.seminars %}
+	{% capture this_id %}{{ seminar.date | date: "%y-%m-%d" }}-{{ seminar.title | handleize }}{% endcapture %}
+	<div class="seminars">
+		<div class="font-weight-bold interactive">{{ seminar.title }}</div>
+		<div class="small text-muted">
+		{%- if seminar.speaker.website %}
+			{%- capture speaker %}<a class="nodec" href="{{seminar.speaker.website}}">{{ seminar.speaker.name }}</a>{% endcapture %}
+		{%- else %}
+			{%- assign speaker = seminar.speaker.name %}
+		{%- endif %}
+		{%- for person in site.data.people %}
+			{%- if person.name == seminar.speaker.name or person.id == seminar.speaker.id %}
+			{%- capture speaker %}<a class="nodec" href="/people.html#{{ person.id}}">{{ person.name }}</a>{% endcapture %}
+			{%- break %}
+			{%- endif %}
+		{%- endfor %}
+		<span class="tag">
+		<span class="fa fa-user"></span> {{ speaker }} 
+		</span><br>
+		{% if seminar.speaker.affiliation %}
+		<span class="tag">
+			<span class="fa fa-address-card"></span> 
+			{{ seminar.speaker.affiliation }} 
+		</span> <br>
 		{% endif %}
-		<span class="fa fa-calendar"></span>
-		{% if visitor.from != visitor.to %}
-			{% capture fromDate %}{{ visitor.from | date: "%d %b" }}{% endcapture %}
-			{% assign vf = visitor.from | date: "%Y" %}
-			{% assign vt = visitor.to 	| date: "%Y" %}
-			{% if vf != vt %}{% capture fromDate %}{{ fromDate }} {{ visitor.from | date: "%y" }}{% endcapture %}{% endif %}
-		{{ fromDate }} <span class="fa fa-angle-right"></span>
-		{% endif %}
-		{{ visitor.to | date: "%d %b %Y"}}</span>
-		<div class="abstract small d-none"><hr>{{ visitor.description | markdownify }}</div>
+		<span class="tag">
+			<span class="fa fa-calendar"></span>
+			<a class="nodec" href="/calendars/seminars.ics">{{ seminar.date | date: "%a %d %b %Y at %H:%M"}}</a>
+		</span>
+		<span class="tag">
+			<span class="fa fa-map-marker-alt"></span>
+			{%- if seminar.place.link %}
+			<a class="nodec" href="{{ seminar.place.link }}">{{ seminar.place.label }}</a>
+			{%- else %}
+			{{ seminar.place }}
+			{%- endif %}
+		</span>
+		<span class="tag">
+			<span class="fa fa-align-left"></span>
+			<a class="interactive" href="#">Abstract</a>
+		</span>
+		<span class="tag">
+			<span class="fa fa-link"></span>
+			<a class="nodec" id="{{this_id}}" href="#{{ this_id }}">Permalink</a>
+		</span>
+		</div>
+		<div class="abstract small d-none"><hr>{{ seminar.description | markdownify }}</div> 
 	</div>
 	{% endfor %}
 </div>

@@ -1,17 +1,28 @@
+- name: Stefano Pio Zingaro
+  from: 2018-10-01
+  to: 2019-02-28
+  affiliation: University of Bologna, Italy
+  website: https://cs.unibo.it/~stefanopio.zingaro/
+  picture: images/people/spz.jpg
+    
 - name: Tomasz Brengos
   from: 2017-06-25
   to: 2017-07-05
   affiliation: Warsaw University of Technology, Poland
   website: https://www.mini.pw.edu.pl/~tbrengos/
   host: Marco Peressotti
+  office: 
+    label: Ø18-511a-2
+    link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9be423b7d0540c9a9ac/
   description: |
     Tomasz Brengos visited Marco Peressotti to conduct research on the behavioural theory of timed and Büchi automata and to give the seminar  [A uniform framework for tiemd automata](/seminars_and_visitors.html#17-06-27-a-uniform-framework-for-timed-automata). 
-    
+
 - name: Jacopo Mauro
   from: 2017-10-30
   to: 2017-10-30
   affiliation: Oslo University, Norway
   website: https://imada.sdu.dk/~mauro/
+  picture: images/people/jmauro.jpg
   host: Fabrizio Montesi
   description: |
     Jacopo Mauro visited the CL group at IMADA and to give the seminar [Application Deployment - What can be automated?](/seminars_and_visitors.html#17-10-30-application-deployment---what-can-be-automated?).
@@ -20,6 +31,7 @@
   from: 2017-01-18
   to: 2017-01-18
   affiliation: University of Udine, Italy
+  picture: images/people/mperessotti.jpg
   host: Fabrizio Montesi
   description: |
     Marco Peressotti visited the CL group at IMADA and to give the seminar [Composable Open Memory Transactions ](/seminars_and_visitors.html#17-01-18-composable-open-memory-transactions).
