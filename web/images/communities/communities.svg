@@ -444,7 +444,7 @@
       <rect x="828.22047" y="76.535433" width="85" height="39" fill="white"/>
       <text transform="translate(833.22047 81.699434)" fill="black">
         <tspan font-size="12" font-weight="500" x=".39" y="11" textLength="86.556">Microservices</tspan>
-        <tspan font-size="12" font-weight="500" x="24.156" y="25.335999" textLength="58.688">2017-2019</tspan>
+        <tspan font-size="12" font-weight="500" x="5" y="25.335999" textLength="58.688">2017-2019</tspan>
       </text>
       <rect x="904.40944" y="105.56693" width="45" height="39" fill="white"/>
       <text transform="translate(909.40944 110.73093)" fill="black">

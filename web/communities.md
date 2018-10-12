@@ -24,6 +24,7 @@ layout: default
     <ul class="small">
       <li><a href="https://www.tu-braunschweig.de/">Braunschweig University of Technology, Braunschweig, Germany</a></li>
       <li><a href="https://www.cwi.nl/">Centrum Wiskunde and Informatica, Amsterdam, The Netherlands</a></li>
+      <li><a href="http://ens-paris-saclay.fr/">École normale supérieure Paris-Saclay, Paris, France</a></li>
       <li><a href="https://www.inria.fr/en/teams/focus">FoCUS Research Team, Sophia Antipolis - Méditerranée, France</a></li>
       <li><a href="https://www.imperial.ac.uk/">Imperial College London, London, United Kingdom</a></li>
       <li><a href="https://university.innopolis.ru/">Innopolis University, Respublika Tatarstan, Russia</a></li>
