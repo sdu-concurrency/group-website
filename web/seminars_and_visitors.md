@@ -100,10 +100,9 @@ The calendar below reports on the left the schedule of the {{ site.group_short }
 		<span class="fa fa-user"></span> {{ speaker }} 
 		</span><br>
 		{% if seminar.speaker.affiliation %}
-		<span class="tag">
-			<span class="fa fa-address-card"></span> 
-			{{ seminar.speaker.affiliation }} 
-		</span> <br>
+		<span class="fa fa-address-card"></span> 
+		{{ seminar.speaker.affiliation }} 
+		<br>
 		{% endif %}
 		<span class="tag">
 			<span class="fa fa-calendar"></span>
