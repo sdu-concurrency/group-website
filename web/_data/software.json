@@ -27,7 +27,7 @@
     "name" : "Jolie",
     "short-bio" : "A Service-Oriented Programming Language",
     "bio" : "Jolie is a general-purpose service-oriented programming language. It brings elegance, simplicity, and pragmatism in the development of modular, integrated, distributed, and concurrent applications. The development of the Jolie language is based on a positive loop between formal theory and practical requirements. One of the strongest values of Jolie is the freedom it gives when designing distributed solutions. Depending on the requirements and the constraints of a specific problem, a programmer can choose whether to build a basic, immediate, yet lightweight solution to integrate applications from different domains or to model the solution by exploiting the language's advanced composition primitives, forging an highly modular distributed system. Although young, the language is continuously maintained and enhanced, with the contribution of researchers from many universities (SDU, UniBO, ITU, DTU, Innopolis). Finally, Jolie programs strive for minimality, the same minimality predicated by the microservice architectural style.",
-    "website" : "http://www.jolie.com",
+    "website" : "https://www.jolie-lang.org",
     "repository" : {
       "link" : "https://github.com/jolie/jolie",
       "icon" : "fab fa-github"
