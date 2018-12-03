@@ -1,0 +1,11 @@
+{
+  "name" : "Stefano Pio Zingaro",
+  "role" : "PhD Student",
+  "id" : "spz",
+  "dblp" : "z/Zingaro:Stefano_Pio",
+  "google_scholar" : "u4YiPCwAAAAJ",
+  "github" : "saltgz",
+  "photo" : "/images/people/spz.jpg",
+  "email" : "zingaro@sdu.dk",
+  "research_topics" : [ "Microservice Oriented Computing", "Smart City", "IoT", "Fog Computing", "Edge Computing" ]
+}
