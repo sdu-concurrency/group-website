@@ -7,7 +7,7 @@ tag: featured
 ---
 <img class="img-fluid mx-auto d-block" src="/images/posts/microservices2019.jpg">
 
-[Marco Peressotti](/people.html#mp) and [Saverio Giallorenzo](/people.html#sg) together with [Florian Rademacher](http://seelab.fh-dortmund.de/index.php?id=35) and [Sabine Sachweh](http://seelab.fh-dortmund.de/index.php?id=13&L=0) are organising the second edition of the [International Conference on Microservices](http://conf-micro.services/2019).
+[Marco Peressotti](/people.html#mp) and [Saverio Giallorenzo](/people.html#sg) together with [Florian Rademacher](http://seelab.fh-dortmund.de/index.php?id=35) and [Sabine Sachweh](http://seelab.fh-dortmund.de/index.php?id=13&L=0), from the [IDiAL Institute](https://www.fh-dortmund.de/de/idial/index.php) in Dortmund, are organising the second edition of the [International Conference on Microservices](http://conf-micro.services/2019). The conference will take place between the 19th and 23rd of February 2019.
 
 <!--more-->
 

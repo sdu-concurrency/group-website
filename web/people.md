@@ -93,7 +93,7 @@ layout: default
 <h2 id="career">Visiting Members</h2>
 
 <div class="row">
-{% for person in site.data.visiting %}
+{% for person in site.data.people_visiting %}
 
 <div class="col-sm-12 col-lg-6">
 <div class="row">
@@ -143,7 +143,8 @@ layout: default
 <div style="margin-top:-1em; margin-bottom:2em;" class="col-sm-12">
   <small>Research Topics:
 {% for topic in person.research_topics %}
-<a class="nodec" href="/publications.html#keyword_{{topic}}" class="nodec badge badge-light">{{ topic | capitalize }}</a>
+<a class="nodec" style="font-size:smaller; font-weight: 600;" class="nodec text-muted">{{ topic | capitalize }}</a>
+{% if forloop.last == false %},{% endif %}
 {% endfor %}</small>
 </div>
 </div>

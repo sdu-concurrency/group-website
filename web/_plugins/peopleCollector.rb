@@ -15,7 +15,7 @@ module Jekyll
         visiting << JSON.parse( File.read( f ) )
       end
       site.data["people"] = people
-      site.data["visiting"] = visiting
+      site.data["people_visiting"] = visiting
     end
   end
 end
