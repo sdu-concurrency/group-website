@@ -16,7 +16,6 @@ module Jekyll
       end
       site.data["people"] = people
       site.data["visiting"] = visiting
-      pp site.data
     end
   end
 end
