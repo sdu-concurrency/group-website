@@ -2,12 +2,15 @@
   "name" : "Jacopo Mauro",
   "role" : "Associate Professor",
   "id" : "jm",
+  "email" : "mauro@imada.sdu.dk",
+  "phone" : "+45 65 50 25 72",
+  "office": { "label": "Ø13-604a-2",
+    "link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9aa423b7d0540c9a90a"},
   "dblp" : "m/Mauro:Jacopo",
   "google_scholar" : "brh_I2kAAAAJ",
   "orcid" : "0000-0002-5285-2868",
   "github" : "https://github.com/jacopoMauro",
   "website" : "http://heim.ifi.uio.no/~jacopom/",
   "photo" : "/images/people/jmauro.jpg",
-  "email" : "mauro@imada.sdu.dk",
   "research_topics" : [ "optimization", "formal methods", "cloud computing", "service-oriented computing", "concurrent languages", "AI planning", "machine learning" ]
 }

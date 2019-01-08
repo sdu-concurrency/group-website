@@ -45,6 +45,15 @@ layout: default
     <small><a class="nodec" href="tel:{{ person.phone }}"><span class="fas fa-phone"></span> Phone</a></small>
 </div>
 {% endif %}
+{%if person.office %}
+<div class="col-sm-6">
+  {%- if person.office.link %}
+  <small><a class="nodec" href="{{ person.office.link }}"><span class="fas fa-map-marker-alt"></span> {{ person.office.label }}</a></small>
+  {%- else %}
+  <small><span class="fas fa-map-marker-alt"></span> {{ person.office }} </a></small>
+  {%- endif %}
+</div>
+{% endif %}
 <div class="col-sm-6">
     <small><a class="nodec" href="/publications.html#author_{{ person.name }}"><span class="fa fa-list-ul"></span> {{ site.group_short }} Pubs</a></small>
 </div>
