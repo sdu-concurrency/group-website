@@ -1,0 +1,18 @@
+{ "title" : "2019",
+  "papers": [
+    {
+      "bibitem": "@article{KMP19,  author = {Kokke, Wen and Montesi, Fabrizio and Peressotti, Marco},  title = {Better Late Than Never: A Fully-abstract Semantics for Classical Processes},  journal = {Proc. ACM Program. Lang.},  issue_date = {January 2019},  volume = {3},  number = {POPL},  month = jan,  year = {2019},  issn = {2475-1421},  pages = {24:1--24:29},  articleno = {24},  numpages = {29},  url = {http://doi.acm.org/10.1145/3290337},  doi = {10.1145/3290337},  acmid = {3290337},  publisher = {ACM},  address = {New York, NY, USA},  keywords = {Behavioural Theory, Curry-Howard correspondence, Deadlock-freedom}}",
+      "links": [
+				{ "link" : "https://dl.acm.org/citation.cfm?doid=3302515.3290337" },
+				{ "name" : "technical report",
+					"link" : "https://arxiv.org/abs/1811.02209",
+					"icon" : "arxiv"}
+			],
+      "tags": [ "Behavioural Theory", "Logic", "Process Calculi", "Session Types" ],
+      "authors": [ "Fabrizio Montesi", "Marco Peressotti" ],
+      "abstract": "We present Hypersequent Classical Processes (HCP), a revised interpretation of the “Proofs as Processes” correspondence between linear logic and the π-calculus initially proposed by Abramsky [1994], and later developed by Bellin and Scott [1994], Caires and Pfenning [2010], and Wadler [2014], among others. HCP mends the discrepancies between linear logic and the syntax and observable semantics of parallel composition in the π-calculus, by conservatively extending linear logic to hyperenvironments (collections of environments, inspired by the hypersequents by Avron [1991]). Separation of environments in hyperenvironments is internalised by ⊗ and corresponds to parallel process behaviour. Thanks to this property, for the first time we are able to extract a labelled transition system (lts) semantics from proof rewritings. Leveraging the information on parallelism at the level of types, we obtain a logical reconstruction of the delayed actions that Merro and Sangiorgi [2004] formulated to model non-blocking I/O in the π-calculus. We define a denotational semantics for processes based on Brzozowski derivatives, and uncover that non-interference in HCP corresponds to Fubini’s theorem of double antiderivation. Having an lts allows us to validate HCP using the standard toolbox of behavioural theory. We instantiate bisimilarity and barbed congruence for HCP, and obtain a full abstraction result: bisimilarity, denotational equivalence, and barbed congruence coincide.",
+      "non_group" : false,
+      "type": "Conference"
+    }
+]
+}
