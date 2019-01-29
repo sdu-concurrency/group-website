@@ -28,7 +28,11 @@ TBA -->
 
 ## Thesis proposals
 
-### Master projects
+Below is a list of the topics we offer for MSc and PhD theses.
+Many of our proposals can also be developed in the context of company collaborations.
+You are welcome to contact us to know more about these opportunities.
+
+### Topics for MSc theses
 {% assign mps = site.data.master_projects | size %}
 
 {% if mps < 1 %}
