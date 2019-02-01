@@ -5,11 +5,11 @@
 	"phone": "+45 65509026",
   "office": { "label": "Ø18-511a-2",
     "link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9be423b7d0540c9a9ac/"},
-	"dblp" : "p/Peressotti:Marco",
+	"dblp" : "136/6159",
 	"google_scholar" : "O9ZAc-MAAAAJ",
 	"orcid" : "0000-0002-0243-0480",
   "github" : "mperessotti",
   "email" : "peressotti@imada.sdu.dk",
 	"photo" : "/images/people/mperessotti.jpg",
-	"research_topics" : [ "Concurrency", "Programming Languages", "Formal Methods", "Coalgebras", "Quantitative Semantics" ]
+	"research_topics" : [ "Concurrency", "Programming Languages", "Formal Methods", "Coalgebras", "Quantitative Semantics", "Session Types" ]
 }

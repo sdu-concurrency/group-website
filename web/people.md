@@ -64,7 +64,7 @@ layout: default
 {% endif %}
 {%if person.dblp %}
 <div class="col-sm-6">
-    <small><a class="nodec" href="https://dblp.uni-trier.de/pers/hd/{{ person.dblp }}"><span class="ai ai-dblp"></span> DBLP</a></small>
+    <small><a class="nodec" href="https://dblp.org/pid/{{ person.dblp }}"><span class="ai ai-dblp"></span> DBLP</a></small>
 </div>
 {% endif %}
 {%if person.google_scholar %}
@@ -130,7 +130,7 @@ layout: default
 {% endif %}
 {%if person.dblp %}
 <div class="col-sm-6">
-    <small><a class="nodec" href="https://dblp.uni-trier.de/pers/hd/{{ person.dblp }}"><span class="ai ai-dblp"></span> DBLP</a></small>
+    <small><a class="nodec" href="https://dblp.uni-trier.de/pid/{{ person.dblp }}"><span class="ai ai-dblp"></span> DBLP</a></small>
 </div>
 {% endif %}
 {%if person.google_scholar %}
