@@ -4,7 +4,7 @@ layout: default
 <script src="/js/publications.js" type="text/javascript" charset="utf-8"></script>
 <style>
 .paper-title{
-	font-weight: 500;
+	font-weight: 700;
 }
 .paper {
 	font-size: 11pt;

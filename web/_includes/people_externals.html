@@ -1,0 +1,20 @@
+<h2 id="career">External Research Collaborators</h2>
+
+<div class="row">
+{% for person in site.data.people_externals %}
+
+<div class="col-sm-12 col-lg-6">
+<div class="row">
+<div id="{{ person.id }}" class="mb-3 text-center col-sm-5">
+<img style="max-height: 8em;" class="img-thumbnail" src="{{person.photo}}" alt="">
+</div>
+<div class="col-sm-7">
+<div class="row">
+<div class="col-sm-12"><strong>{{ person.name }}</strong></div>
+<div class="col-sm-12">{{ person.role }} at {{ person.affiliation }}</div>
+</div>
+</div>
+</div>
+</div>
+{% endfor %}
+</div>
