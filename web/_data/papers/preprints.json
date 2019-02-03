@@ -23,7 +23,7 @@
     "type": "journal"
   },
   {
-    "bibitem": "@inproceedings{BGMTZ19, author = {Bravetti, Mario and Giallorenzo, Saverio and Mauro, Jacopo and Talevi, Iacopo and Zavattaro, Gianluigi},  title = {Optimal and Automated Deployment for Microservices},  booktitle = {Fundamental Approaches to Software Engineering, 22st International  Conference, {FASE} 2019, Held as Part of the European Joint Conferences  on Theory and Practice of Software, {ETAPS} 2019, Prague, Czech Republic,  April 6-11, 2019, Proceedings.},  year = {2019},  publisher = {Springer} }",
+    "bibitem": "@inproceedings{BGMTZ19, author = {Bravetti, Mario and Giallorenzo, Saverio and Mauro, Jacopo and Talevi, Iacopo and Zavattaro, Gianluigi},  title = {Optimal and Automated Deployment for Microservices},  booktitle = {Fundamental Approaches to Software Engineering, 22nd International  Conference, {FASE} 2019, Held as Part of the European Joint Conferences  on Theory and Practice of Software, {ETAPS} 2019, Prague, Czech Republic,  April 6-11, 2019, Proceedings.},  year = {2019},  publisher = {Springer} }",
     "links": [
       { "link" : "https://saveriogiallorenzo.com/publications/fase2019/fase2019.pdf" },
       { "name" : "technical report",
