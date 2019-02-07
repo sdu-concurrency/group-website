@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 group :jekyll_plugins do
-	gem 'jekyll'
+  gem 'jekyll'
   gem 'json'
   gem 'titleize'
   gem 'unicode_utils'
@@ -9,4 +9,5 @@ group :jekyll_plugins do
   gem 'citeproc-ruby'
   gem 'csl-styles'
   gem 'concurrent-ruby'
+  gem 'possibly'
 end
