@@ -145,7 +145,7 @@
     "abstract": "General frameworks have been recently proposed as unifying theories for processes combining non-determinism with quantitative aspects (such as probabilistic or stochastically timed executions), aiming to provide general results and tools. This paper provides two contributions in this respect. First, we present a general GSOS specification format and a corresponding notion of bisimulation for non-deterministic processes with quantitative aspects. These specifications define labelled transition systems according to the ULTraS model, an extension of the usual LTSs where the transition relation associates any source state and transition label with state reachability weight functions (like, e.g., probability distributions). This format, hence called Weight Function GSOS (WF-GSOS), covers many known systems and their bisimulations (e.g. PEPA, TIPP, PCSP) and GSOS formats (e.g. GSOS, Weighted GSOS, Segala-GSOS, among others). The second contribution is a characterization of these systems as coalgebras of a class of functors, parametric on the weight structure. This result allows us to prove soundness and completeness of the WF-GSOS specification format, and that bisimilarities induced by these specifications are always congruences.",
     "tags" : [ "Concurrency", "Coalgebras", "Quantitative Semantics", "Behavioural Theory" ],
     "authors" : [ "Marco Peressotti" ],
-    "type" : "Conference",
+    "type" : "Workshop",
     "non_group" : true
   },
   {

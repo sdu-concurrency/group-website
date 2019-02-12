@@ -66,7 +66,7 @@
     "abstract": "We introduce loose graph simulations (LGS), a new notion about labelled graphs which subsumes in an intuitive and natural way subgraph isomorphism (SGI), regular language pattern matching (RLPM) and graph simulation (GS). Being a unification of all these notions, LGS allows us to express directly also problems which are \"mixed\" instances of previous ones, and hence which would not fit easily in any of them. After the definition and some examples, we show that the problem of finding loose graph simulations is NP-complete, we provide formal translation of SGI, RLPM, and GS into LGSs, and we give the representation of a problem which extends both SGI and RLPM. Finally, we identify a subclass of the LGS problem that is polynomial.",
     "tags": ["Graph Theory"],
     "authors": ["Marco Peressotti"],
-    "type": "Conference",
+    "type": "Workshop",
     "non_group": true
   },
   {
