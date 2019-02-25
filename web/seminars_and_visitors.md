@@ -50,20 +50,26 @@ The calendar below reports on the left the schedule of the {{ site.group_short }
 			{%- endif %}
 			</span>
 		{%- endif %}
-		{%- if visitor.host %}
+		{%- assign hosts = visitor.hosts | default: visitor.host -%}
+		{%- if hosts.size > 0 %}
 		<br> 
 		<span class="tag">
 			<span class="fa fa-user"></span>
-			{%- assign host = visitor.host %}
-			{%- for person in site.data.people -%}
-				{%- if person.name == visitor.host -%}
-				{%- capture host %}
-			<a class="nodec" href="/people.html#{{ person.id}}">{{ person.name }}</a>
-				{%- endcapture -%}
-				{%- break %}
-				{%- endif %}
+			{%- for host in hosts -%}
+				{%- assign h = host %}
+				{%- for person in site.data.people -%}
+					{%- if person.name == host -%}
+					{%- capture h %}
+				<a class="nodec" href="/people.html#{{ person.id}}">{{ person.name }}</a>
+					{%- endcapture -%}
+					{%- break %}
+					{%- endif %}
+				{%- endfor %}
+				{{ h }}
+				{%- if forloop.rindex > 1 -%}
+					, 
+				{%- endif -%}
 			{%- endfor %}
-			{{ host }}
 		</span>
 		{%- endif %}
 		<br> 
