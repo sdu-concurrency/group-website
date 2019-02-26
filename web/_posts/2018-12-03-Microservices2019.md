@@ -3,11 +3,10 @@ layout: post
 title:  "Organisation of the Second International Conference on Microservices"
 place:  Dortmund, Germany
 date:   2018-12-03
-tag: featured
 ---
-<img class="img-fluid mx-auto d-block" src="/images/posts/microservices2019.jpg">
+<img class="img-fluid mx-auto d-block" src="/images/posts/microservices-2019-banner.jpg">
 
-[Marco Peressotti](/people.html#mp) and [Saverio Giallorenzo](/people.html#sg) together with [Florian Rademacher](http://seelab.fh-dortmund.de/index.php?id=35) and [Sabine Sachweh](http://seelab.fh-dortmund.de/index.php?id=13&L=0), from the [IDiAL Institute](https://www.fh-dortmund.de/de/idial/index.php) in Dortmund, are organising the second edition of the [International Conference on Microservices](http://conf-micro.services/2019). The conference will take place between the 19th and 23rd of February 2019.
+[Marco Peressotti](/people.html#mp) and [Saverio Giallorenzo](/people.html#sg) together with [Florian Rademacher](http://seelab.fh-dortmund.de/index.php?id=35) and [Sabine Sachweh](http://seelab.fh-dortmund.de/index.php?id=13&L=0), from the [IDiAL Institute](https://www.fh-dortmund.de/de/idial/index.php) in Dortmund, are organising the second edition of the [International Conference on Microservices](http://conf-micro.services/2019). The conference will take place between the 19th and 21st of February 2019.
 
 <!--more-->
 
