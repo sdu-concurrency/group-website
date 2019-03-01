@@ -1,5 +1,19 @@
 { "title" : "2019",
-  "papers": [
+  "papers": [ 
+    {
+      "bibitem": "@article{BP19,  author = {Brengos, Tomasz and Peressotti, Marco},  title = {Behavioural equivalences for timed systems},  journal = {Logical Methods in Computer Science},  volume = {15},  number = {1}, pages = {17:1--14:41}, year = {2019},  url = {https://doi.org/10.23638/LMCS-15(1:17)2019}, doi = {10.23638/LMCS-15(1:17)2019} }",
+      "links": [
+        { "link" : "https://lmcs.episciences.org/5220/pdf" },
+        { "name" : "technical report",
+          "link" : "https://arxiv.org/abs/1711.10233",
+          "icon" : "arxiv" }
+      ],
+      "tags": [ "Behavioural Theory", "Quantitative Semantics", "Coalgebras" ],
+      "authors": [ "Marco Peressotti" ],
+      "abstract": "Timed transition systems are behavioural models that include an explicit treatment of time flow and are used to formalise the semantics of several foundational process calculi and automata. Despite their relevance, a general mathematical characterisation of timed transition systems and their behavioural theory is still missing. We introduce the first uniform framework for timed behavioural models that encompasses known behavioural equivalences such as timed bisimulations, timed language equivalences as well as their weak and time-abstract counterparts. All these notions of equivalences are naturally organised by their discriminating power in a spectrum. We prove that this result does not depend on the type of the systems under scrutiny: it holds for any generalisation of timed transition system. We instantiate our framework to timed transition systems and their quantitative extensions such as timed probabilistic systems. ",
+      "non_group" : true,
+      "type": "journal"
+    },
     {
       "bibitem": "@article{KMP19a,  author = {Kokke, Wen and Montesi, Fabrizio and Peressotti, Marco},  title = {Better Late Than Never: A Fully-abstract Semantics for Classical Processes},  journal = {Proc. ACM Program. Lang.},  issue_date = {January 2019},  volume = {3},  number = {POPL},  month = jan,  year = {2019},  issn = {2475-1421},  pages = {24:1--24:29},  articleno = {24},  numpages = {29},  url = {http://doi.acm.org/10.1145/3290337},  doi = {10.1145/3290337},  acmid = {3290337},  publisher = {ACM},  address = {New York, NY, USA},  keywords = {Behavioural Theory, Curry-Howard correspondence, Deadlock-freedom}}",
       "links": [
