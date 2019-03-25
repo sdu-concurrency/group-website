@@ -35,6 +35,7 @@ layout: default
       <li><a href="https://www.univ-paris-diderot.fr/">Paris Diderot University, Paris, France</a></li>
       <li><a href="http://www.rwth-aachen.de/">RWTH Aachen University, Aachen, Germany</a></li>
       <li><a href="http://www.dtu.dk/">Technical University of Denmark, Copenhagen, Denmark</a></li>
+      <li><a href="https://www.fh-dortmund.de">University of Applied Sciences and Arts, Dortmund, Germany</a></li>
       <li><a href="http://www.unibo.it">University of Bologna, Bologna, Italy</a></li>
       <li><a href="https://www.ku.dk/">University of Copenhagen, Copenhagen, Denmark</a></li>
       <li><a href="https://www.ed.ac.uk/">University of Edinburgh, Edinburgh, United Kingdom</a></li>
