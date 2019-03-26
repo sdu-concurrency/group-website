@@ -2,8 +2,7 @@ FROM alpine as Source
 
 WORKDIR /
 
-RUN apk update && \
-		apk add git
+RUN apk update && apk upgrade && apk add git
 RUN git clone --depth=1 https://github.com/fmontesi/group-website.git /git
 
 FROM ruby as Build
