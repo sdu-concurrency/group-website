@@ -3,12 +3,15 @@ FROM alpine as Source
 WORKDIR /
 
 RUN apk update
+RUN echo "UPDATE"
 RUN apk upgrade
-RUN apk add wget
-RUN wget https://github.com/fmontesi/group-website/archive/master.zip
-RUN unzip master.zip
-RUN rm master.zip
-RUN mv group-website-master git
+RUN echo "UPGRADE"
+RUN apk add git openssh
+RUN echo "INSTALLED GIT"
+RUN ssh -vT git@github.com
+RUN echo "KEYS"
+RUN git clone --depth=1 https://github.com/fmontesi/group-website.git /git
+RUN echo "CLONE"
 
 FROM ruby as Build
 COPY --from=Source /git/web /srv/jekyll
