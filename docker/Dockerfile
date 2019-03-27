@@ -3,9 +3,9 @@ FROM alpine as Source
 WORKDIR /
 
 RUN 
-apk update \&&
-apk upgrade \&& 
-apk add git \&&
+apk update  &&\
+apk upgrade &&\ 
+apk add git &&\
 git clone --depth=1 https://github.com/fmontesi/group-website.git /git
 
 FROM ruby as Build
