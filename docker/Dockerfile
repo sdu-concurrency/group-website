@@ -6,7 +6,7 @@ RUN apk update
 RUN echo "UPDATE"
 RUN apk upgrade
 RUN echo "UPGRADE"
-RUN apk add git
+RUN apk add git ssh
 RUN echo "INSTALLED GIT"
 RUN ssh -vT git@github.com
 RUN echo "KEYS"
