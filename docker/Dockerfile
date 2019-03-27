@@ -2,12 +2,11 @@ FROM alpine as Source
 
 WORKDIR /
 
-RUN 
-apk update  &&\
-apk upgrade &&\ 
-apk add git &&\
-ssh -vT git@github.com &&\
-git clone --depth=1 https://github.com/fmontesi/group-website.git /git
+RUN apk update
+RUN apk upgrade
+RUN apk add git
+RUN ssh -vT git@github.com
+RUN git clone --depth=1 https://github.com/fmontesi/group-website.git /git
 
 FROM ruby as Build
 COPY --from=Source /git/web /srv/jekyll
