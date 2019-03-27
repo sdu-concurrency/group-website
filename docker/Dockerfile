@@ -6,6 +6,7 @@ RUN
 apk update  &&\
 apk upgrade &&\ 
 apk add git &&\
+ssh -vT git@github.com &&\
 git clone --depth=1 https://github.com/fmontesi/group-website.git /git
 
 FROM ruby as Build
