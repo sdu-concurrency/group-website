@@ -2,16 +2,9 @@ FROM alpine as Source
 
 WORKDIR /
 
-RUN apk update
-RUN echo "UPDATE"
-RUN apk upgrade
-RUN echo "UPGRADE"
-RUN apk add git openssh
-RUN echo "INSTALLED GIT"
-RUN ssh -vT git@github.com
-RUN echo "KEYS"
+RUN apk update && \
+    apk add git
 RUN git clone --depth=1 https://github.com/fmontesi/group-website.git /git
-RUN echo "CLONE"
 
 FROM ruby as Build
 COPY --from=Source /git/web /srv/jekyll
