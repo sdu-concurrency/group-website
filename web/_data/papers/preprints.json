@@ -33,20 +33,6 @@
     "abstract": "New properties of the front and back ends of sorting networks are studied, illustrating their utility when searching for bounds on optimal networks.  Search focuses first on the &ldquo;out-sides&rdquo; of the network and then on the inner part.  Previous works focused on properties of the front end to break symmetries in the search.  The new, out-side-in, properties shed understanding on how sorting networks sort, and facilitate the computation of new bounds on optimality.  We present new, faster, parallel sorting networks for 17&ndash;20 inputs.  For 17 inputs, we show that no sorting network using less layers exists.",
     "non_group" : true,
     "type": "journal"
-  },
-  {
-    "bibitem": "@inproceedings{BGMTZ19, author = {Bravetti, Mario and Giallorenzo, Saverio and Mauro, Jacopo and Talevi, Iacopo and Zavattaro, Gianluigi},  title = {Optimal and Automated Deployment for Microservices},  booktitle = {Fundamental Approaches to Software Engineering, 22nd International  Conference, {FASE} 2019, Held as Part of the European Joint Conferences  on Theory and Practice of Software, {ETAPS} 2019, Prague, Czech Republic,  April 6-11, 2019, Proceedings.},  year = {2019},  publisher = {Springer} }",
-    "links": [
-      { "link" : "https://saveriogiallorenzo.com/publications/fase2019/fase2019.pdf" },
-      { "name" : "technical report",
-        "link" : "https://arxiv.org/abs/1901.09782",
-        "icon" : "arxiv"}
-    ],
-    "tags": [ "Microservices", "Optimisation" ],
-    "authors": [ "Saverio Giallorenzo", "Jacopo Mauro" ],
-    "abstract": "Microservices are highly modular and scalable Service Oriented Architectures. They underpin automated deployment practices like Continuous Deployment and Autoscaling. In this paper we formalize these practices and show that automated deployment — proven undecidable in the general case — is algorithmically treatable for microservices. Our key assumption is that the configuration life-cycle of a microservice is split into two phases: (i) creation, which entails establishing initial connections with already available microservices, and (ii) subsequent binding/unbinding with other microservices. To illustrate the applicability of our approach, we implement an automatic optimal deployment tool and compute deployment plans for a realistic microservice architecture, modeled in the Abstract Behavioral Specification (ABS) language.",
-    "non_group" : false,
-    "type": "Conference"
   }
 ]
 }

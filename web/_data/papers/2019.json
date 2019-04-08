@@ -33,6 +33,44 @@
       "abstract": "We present Hypersequent Classical Processes (HCP), a revised interpretation of the “Proofs as Processes” correspondence between linear logic and the π-calculus initially proposed by Abramsky [1994], and later developed by Bellin and Scott [1994], Caires and Pfenning [2010], and Wadler [2014], among others. HCP mends the discrepancies between linear logic and the syntax and observable semantics of parallel composition in the π-calculus, by conservatively extending linear logic to hyperenvironments (collections of environments, inspired by the hypersequents by Avron [1991]). Separation of environments in hyperenvironments is internalised by ⊗ and corresponds to parallel process behaviour. Thanks to this property, for the first time we are able to extract a labelled transition system (lts) semantics from proof rewritings. Leveraging the information on parallelism at the level of types, we obtain a logical reconstruction of the delayed actions that Merro and Sangiorgi [2004] formulated to model non-blocking I/O in the π-calculus. We define a denotational semantics for processes based on Brzozowski derivatives, and uncover that non-interference in HCP corresponds to Fubini’s theorem of double antiderivation. Having an lts allows us to validate HCP using the standard toolbox of behavioural theory. We instantiate bisimilarity and barbed congruence for HCP, and obtain a full abstraction result: bisimilarity, denotational equivalence, and barbed congruence coincide.",
       "non_group" : false,
       "type": "Conference"
+    },
+    {
+      "bibitem": "@inproceedings{BGMTZ19,  author = {Mario Bravetti and  Saverio Giallorenzo and  Jacopo Mauro and  Iacopo Talevi and  Gianluigi Zavattaro},  title = {Optimal and Automated Deployment for Microservices},  booktitle = {Fundamental Approaches to Software Engineering - 22nd International  Conference, {FASE} 2019, Held as Part of the European Joint Conferences  on Theory and Practice of Software, {ETAPS} 2019, Prague, Czech Republic,  April 6-11, 2019, Proceedings},  pages = {351--368},  year = {2019},  url = {https://doi.org/10.1007/978-3-030-16722-6\\_21},  doi = {10.1007/978-3-030-16722-6\\_21},  publisher = {Springer} }",
+      "links": [
+        { "link" : "https://saveriogiallorenzo.com/publications/fase2019/" },
+        { "name" : "technical report",
+          "link" : "https://arxiv.org/abs/1901.09782",
+          "icon" : "arxiv"}
+      ],
+      "tags": [ "Microservices", "Deployment", "Optimisation" ],
+      "authors": [ "Saverio Giallorenzo", "Jacopo Mauro" ],
+      "abstract": "Microservices are highly modular and scalable Service Oriented Architectures. They underpin automated deployment practices like Continuous Deployment and Autoscaling. In this paper we formalize these practices and show that automated deployment - proven undecidable in the general case - is algorithmically treatable for microservices. Our key assumption is that the configuration life-cycle of a microservice is split into two phases: (i) creation, which entails establishing initial connections with already available microservices, and (ii) subsequent binding/unbinding with other microservices. To illustrate the applicability of our approach, we implement an automatic optimal deployment tool and compute deployment plans for a realistic microservice architecture, modeled in the Abstract Behavioral Specification (ABS) language.",
+      "non_group" : false,
+      "type": "Conference"
+    },
+    {
+      "bibitem": "@inproceedings{LCCCGG19,  author = {Tong Liu and  Franco Callegati and  Walter Cerroni and  Chiara Contoli and  Maurizio Gabbrielli and  Saverio Giallorenzo},  title = {Constraint Programming for Flexible Service Function Chaining Deployment},  booktitle = {52nd Hawaii International Conference on System Sciences, {HICSS} 2019,  Grand Wailea, Maui, Hawaii, USA, January 8-11, 2019},  pages = {1--10},  year = {2019},  url = {http://hdl.handle.net/10125/59640},  timestamp = {Sun, 07 Apr 2019 15:32:03 +0200},  biburl = {https://dblp.org/rec/bib/conf/hicss/LiuCCCGG19},  bibsource = {dblp computer science bibliography, https://dblp.org}, publisher = {ScholarSpace / {AIS} Electronic Library (AISeL)} }",
+      "links": [
+        { "link" : "https://saveriogiallorenzo.com/publications/hicss2019_cp/" },
+        { "name" : "technical report",
+          "link" : "https://arxiv.org/abs/1812.05534",
+          "icon" : "arxiv"}
+      ],
+      "tags": [ "Software-defined Networks", "Deployment", "Optimisation" ],
+      "authors": [ "Saverio Giallorenzo" ],
+      "abstract": "Network Function Virtualization (NFV) and Software Defined Networking (SDN) are technologies that recently acquired a great momentum thanks to their promise of being a flexible and cost-effective solution for replacing hardware-based, vendor-dependent network middleboxes with software appliances running on general purpose hardware in the cloud. Delivering end-to-end networking services across multiple NFV/SDN network domains by implementing the so-called Service Function Chain (SFC) i.e., a sequence of Virtual Network Functions (VNF) that composes the service, is a challenging task. In this paper we address two crucial sub-problems of this task: i) the language to formalize the request of a given SFC to the network and ii) the solution of the SFC design problem, once the request is received. As for i) in our solution the request is built upon the intent-based approach, with a syntax that focuses on asking the user \"what\" she needs and not \"how\" it should be implemented, in a simple and high level language. Concerning ii) we define a formal model describing network architectures and VNF properties that is then used to solve the SFC design problem by means of Constraint Programming (CP), a programming paradigm which is often used in Artificial Intelligence applications. We argue that CP can be effectively used to address this kind of problems because it provides very expressive and flexible modeling languages which come with powerful solvers, thus providing efficient and scalable performance. We substantiate this claim by validating our tool on some typical and non trivial SFC design problems.",
+      "non_group" : true,
+      "type": "Conference"
+    },{
+      "bibitem": "@inproceedings{CGGMP19,  author = {Franco Callegati and  Saverio Giallorenzo and  Maurizio Gabbrielli and  Andrea Melis and  Marco Prandini},  title = {Federated Platooning: Insider Threats and Mitigations},  booktitle = {52nd Hawaii International Conference on System Sciences, {HICSS} 2019,  Grand Wailea, Maui, Hawaii, USA, January 8-11, 2019},  pages = {1--10},  year = {2019},  url = {http://hdl.handle.net/10125/59758},  timestamp = {Sun, 07 Apr 2019 15:32:03 +0200},  biburl = {https://dblp.org/rec/bib/conf/hicss/CallegatiGGMP19},  bibsource = {dblp computer science bibliography, https://dblp.org}, publisher = {ScholarSpace / {AIS} Electronic Library (AISeL)} }",
+      "links": [
+        { "link" : "https://saveriogiallorenzo.com/publications/hicss2019_sec/" }
+      ],
+      "tags": [ "Smart Cities", "Security" ],
+      "authors": [ "Saverio Giallorenzo" ],
+      "abstract": "Platoon formation is a freight organization system where a group of vehicles follows a predefined trajectory maintaining a desired spatial pattern. Benefits of platooning include fuel savings, reduction of carbon dioxide emissions, and efficient allocation of road capacity. While traditionally platooning has been an exclusive option limited to specific geographical areas managed by a single operator, recent technological developments and EU initiatives are directed at the creation of an international, federated market for platooning, i.e., a consortium of platoon operators that collaborate and coordinate their users to constitute freights covering international routes. In this paper, we look at federated platooning from an insiders’ perspective. In our development, first we outline the basic elements of platooning and federation of platooning operators. Then, we provide a comprehensive analysis to identify the possible insiders (employees, users, operators, and federated members) and the threats they pose. Finally, we propose two layered, composable technical solutions to mitigate those threats: a) a decentralized overlay network that regulates the interactions among the stakeholders, useful to mitigate issues linked to data safety and trustworthiness and b) a dynamic federation platform, needed to monitor and interrupt deviant behaviors of federated members.",
+      "non_group" : true,
+      "type": "Conference"
     }
 ]
 }
