@@ -1,7 +1,7 @@
 { "title" : "2018",
   "papers": [
     {
-      "bibitem": "@inproceedings{DBLP:conf/otm/GLR18,  author = {Saverio Giallorenzo and  Ivan Lanese and  Daniel Russo},  title = {ChIP: {A} Choreographic Integration Process},  booktitle = {On the Move to Meaningful Internet Systems. {OTM} 2018 Conferences  - Confederated International Conferences: CoopIS, C{\\&}TC, and  {ODBASE} 2018, Valletta, Malta, October 22-26, 2018, Proceedings,  Part {II}},  pages = {22--40},  year = {2018}, publisher = {Springer},  url = {https://doi.org/10.1007/978-3-030-02671-4\\_2},  doi = {10.1007/978-3-030-02671-4\\_2}}",
+      "bibitem": "@inproceedings{GLR18,  author = {Saverio Giallorenzo and  Ivan Lanese and  Daniel Russo},  title = {ChIP: {A} Choreographic Integration Process},  booktitle = {On the Move to Meaningful Internet Systems. {OTM} 2018 Conferences  - Confederated International Conferences: CoopIS, C{\\&}TC, and  {ODBASE} 2018, Valletta, Malta, October 22-26, 2018, Proceedings,  Part {II}},  pages = {22--40},  year = {2018}, publisher = {Springer},  url = {https://doi.org/10.1007/978-3-030-02671-4\\_2},  doi = {10.1007/978-3-030-02671-4\\_2}}",
       "links": [
         { "link" : "https://saveriogiallorenzo.com/publications/coopis2018/" }
       ],
@@ -26,7 +26,7 @@
 	    "type": "Conference"
 	  },
 		{
-	    "bibitem": "@inproceedings{DBLP:conf/sac/MontesiW18,  author = {Fabrizio Montesi and  Janine Weber},  editor = {Hisham M. Haddad and  Roger L. Wainwright and  Richard Chbeir},  title = {From the decorator pattern to circuit breakers in microservices},  booktitle = {Proceedings of the 33rd Annual {ACM} Symposium on Applied Computing,  {SAC} 2018, Pau, France, April 09-13, 2018},  pages = {1733--1735},  publisher = {{ACM}},  year = {2018},  url = {http://doi.acm.org/10.1145/3167132.3167427},  doi = {10.1145/3167132.3167427},  timestamp = {Wed, 04 Jul 2018 14:28:07 +0200},  biburl = {https://dblp.org/rec/bib/conf/sac/MontesiW18},  bibsource = {dblp computer science bibliography, https://dblp.org} }",
+	    "bibitem": "@inproceedings{MW18,  author = {Fabrizio Montesi and  Janine Weber},  editor = {Hisham M. Haddad and  Roger L. Wainwright and  Richard Chbeir},  title = {From the decorator pattern to circuit breakers in microservices},  booktitle = {Proceedings of the 33rd Annual {ACM} Symposium on Applied Computing,  {SAC} 2018, Pau, France, April 09-13, 2018},  pages = {1733--1735},  publisher = {{ACM}},  year = {2018},  url = {http://doi.acm.org/10.1145/3167132.3167427},  doi = {10.1145/3167132.3167427},  timestamp = {Wed, 04 Jul 2018 14:28:07 +0200},  biburl = {https://dblp.org/rec/bib/conf/sac/MontesiW18},  bibsource = {dblp computer science bibliography, https://dblp.org} }",
 			"links": [
 				{ "link" : "https://www.fabriziomontesi.com/files/mw18.pdf" }
 			],
@@ -56,7 +56,7 @@
     "authors" : [ "Saverio Giallorenzo" , "Fabrizio Montesi" ],
     "type" : "Conference"
   },{
-		"bibitem": "@article{DBLP:journals/dc/CarboneMS18,  author = {Marco Carbone and  Fabrizio Montesi and  Carsten Sch{\\\"{u}}rmann},  title = {Choreographies, logically},  journal = {Distributed Computing},  volume = {31},  number = {1},  pages = {51--67},  year = {2018},  url = {https://doi.org/10.1007/s00446-017-0295-1},  doi = {10.1007/s00446-017-0295-1},  timestamp = {Thu, 25 Jan 2018 11:13:07 +0100},  biburl = {https://dblp.org/rec/bib/journals/dc/CarboneMS18},  bibsource = {dblp computer science bibliography, https://dblp.org} }",
+		"bibitem": "@article{CMS18,  author = {Marco Carbone and  Fabrizio Montesi and  Carsten Sch{\\\"{u}}rmann},  title = {Choreographies, logically},  journal = {Distributed Computing},  volume = {31},  number = {1},  pages = {51--67},  year = {2018},  url = {https://doi.org/10.1007/s00446-017-0295-1},  doi = {10.1007/s00446-017-0295-1},  timestamp = {Thu, 25 Jan 2018 11:13:07 +0100},  biburl = {https://dblp.org/rec/bib/journals/dc/CarboneMS18},  bibsource = {dblp computer science bibliography, https://dblp.org} }",
 		"links": [
 			{ "link": "https://www.fabriziomontesi.com/files/cms18.pdf" }
 		],
@@ -66,7 +66,7 @@
 		"type" : "Journal"
 	},
   {
-    "bibitem": "@inproceedings{DBLP:conf/hicss/GabbrielliGLZ18,  author = {Maurizio Gabbrielli and  Saverio Giallorenzo and  Ivan Lanese and  Stefano Pio Zingaro},  title = {A Language-based Approach for Interoperability of IoT Platforms},  booktitle = {51st Hawaii International Conference on System Sciences, {HICSS} 2018,  Hilton Waikoloa Village, Hawaii, USA, January 3-6, 2018},  year = {2018},  url = {http://aisel.aisnet.org/hicss-51/st/mobile_app_development/3},  timestamp = {Wed, 06 Jun 2018 10:44:30 +0200},  biburl = {https://dblp.org/rec/bib/conf/hicss/GabbrielliGLZ18},  publisher = {{AIS} Electronic Library (AISeL)},  bibsource = {dblp computer science bibliography, https://dblp.org} }",
+    "bibitem": "@inproceedings{GGLZ18,  author = {Maurizio Gabbrielli and  Saverio Giallorenzo and  Ivan Lanese and  Stefano Pio Zingaro},  title = {A Language-based Approach for Interoperability of IoT Platforms},  booktitle = {51st Hawaii International Conference on System Sciences, {HICSS} 2018,  Hilton Waikoloa Village, Hawaii, USA, January 3-6, 2018},  year = {2018},  url = {http://aisel.aisnet.org/hicss-51/st/mobile_app_development/3},  timestamp = {Wed, 06 Jun 2018 10:44:30 +0200},  biburl = {https://dblp.org/rec/bib/conf/hicss/GabbrielliGLZ18},  publisher = {{AIS} Electronic Library (AISeL)},  bibsource = {dblp computer science bibliography, https://dblp.org} }",
     "links": [
       { "link" : "http://www.saveriogiallorenzo.com/publications/hicss2018/" },
       { "name" : "website", "link" : "http://www.cs.unibo.it/projects/jolie/jiot.html", "icon" : "website" }
