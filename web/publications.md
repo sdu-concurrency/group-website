@@ -115,6 +115,10 @@ ul {
 								<span class="{{icon}}"></span> {{ name }}</a></small>
 							{% endfor%}
 							| <small><a href="#{{paper_id}}" class="nodec permalink" id="{{ id }}" ><span class="fa fa-link"></span> permalink</a></small>
+							{%- if paper.doi -%}
+							<div class="float-sm-right d-none d-sm-block">
+							<div data-badge-type="4" data-doi="{{ paper.doi }}" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div></div>
+							{%- endif -%}
 							</div>
 							</div>
 							{% assign g_size = paper.grants | size %}
@@ -164,3 +168,4 @@ ul {
 	</section>
 
 </article>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
