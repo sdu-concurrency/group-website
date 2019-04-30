@@ -4,7 +4,7 @@ WORKDIR /
 
 RUN apk update && \
     apk add git
-RUN git clone --depth=1 https://github.com/fmontesi/group-website.git /git
+RUN git clone --depth=1 https://github.com/sdu-concurrency/group-website /git
 
 FROM ruby as Build
 COPY --from=Source /git/web /srv/jekyll
