@@ -1,6 +1,26 @@
 { "title" : "Preprints of Accepted Papers",
   "papers": [
   {
+    "bibitem": "@article{GGLMM19, author = {Gabbrielli, Maurizio and Giallorenzo, Saverio and Lanese, Ivan and Montesi, Fabrizio and Peressotti, Marco and Zingaro, Stefano Pio}, title = {No more, no less - A formal model for serverless computing}, booktitle = {Coordination Models and Languages - 21st {IFIP} {WG} 6.1 International  Conference, {COORDINATION} 2019, Held as Part of the 14th International  Federated Conferences on Distributed Computing Techniques, DisCoTec  2019, Copenhagen, Denmark, June 17-21, 2019, Proceedings},year = {2019},note = {accepted for publication}}",
+    "links": [
+      { "link" : "https://saveriogiallorenzo.com/publications/coordination2019/coordination2019.pdf" }
+    ],
+    "tags": [ "Serverless", "Microservices" ],
+    "authors": [ "Saverio Giallorenzo", "Fabrizio Montesi", "Marco Peressotti" ],
+    "abstract": "Serverless computing, also known as Functions-as-a-Service, is a recent paradigm aimed at simplifying the programming of cloud applications. The idea is that developers design applications in terms of functions, which are then deployed on a cloud infrastructure. The infrastructure takes care of executing the functions whenever requested by remote clients, dealing automatically with distribution and scaling with respect to inbound traffic. While vendors already support a variety of programming languages for serverless computing (e.g. Go, Java, Javascript, Python), as far as we know there is no reference model yet to formally reason on this paradigm. In this paper, we propose the first core formal programming model for serverless computing, which combines ideas from both the λ-calculus (for functions) and the π-calculus (for communication). To illustrate our proposal, we model a real-world serverless system. Thanks to our model, we capture limitations of current vendors and formalise possible amendments.",
+    "non_group" : false,
+    "type": "conference"
+  },{
+    "bibitem": "@article{FMSZ19, author = {Giallorenzo, Saverio and Montesi, Fabrizio and Safina, Larisa and Zingaro, Stefano Pio}, title = {Ephemeral Data Handling in Microservices}, booktitle = {2019 {IEEE} International Conference on Services Computing, {SCC} 2019, Milan, IT, July 8-13, 2019},year = {2019},note = {accepted for publication}}",
+    "links": [
+      { "link" : "https://saveriogiallorenzo.com/publications/scc2019/scc2019.pdf" }
+    ],
+    "tags": [ "Microservices", "Programming Languages" ],
+    "authors": [ "Saverio Giallorenzo", "Fabrizio Montesi", "Larisa Safina" ],
+    "abstract": "Ephemeral data handling, whereby processed data do not persist, is an emerging requirement of connected IT systems, due to storage constraints (IoT) or regulatory demands (eHealth, GDPR). We present ongoing work on TQuery, a query language for ephemeral data handling in microservices.",
+    "non_group" : false,
+    "type": "conference"
+  },{
     "bibitem": "@article{CGNS, author = {Cruz-Filipe, Lu{\\'i}s and Gaspar, Gra{\\c c}a and Nunes, Isabel and Schneider-Kamp, Peter}, title = {Active Integrity Constraints for General-Purpose Knowledge Bases}, journal = {Annals of Mathematics and Artificial Intelligence}, doi = {10.1007/s10472-018-9577-y}, note = {accepted for publication}}",
     "links": [
       { "link" : "http://tinyurl.com/lcfilipe/pubs/paperA.pdf" }
