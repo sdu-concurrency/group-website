@@ -1,3 +1,13 @@
+- name: Eros Fabrici
+  from: 2019-03-04
+  to: 2019-06-26
+  affiliation: University of Udine, Italy
+  picture: images/people/efabrici-p.jpg
+  hosts: 
+    - Fabrizio Montesi
+  office: 
+    label: Ø18-511a-2
+    link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9be423b7d0540c9a9ac/
 - name: Wen Kokke
   from: 2019-03-04
   to: 2019-04-30
