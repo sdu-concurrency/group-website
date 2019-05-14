@@ -69,7 +69,7 @@
   {
     "bibitem": "@article{MP17,  author = {Fabrizio Montesi and  Marco Peressotti},  title = {Choreographies meet Communication Failures},  journal = {CoRR},  volume = {abs/1712.05465},  year = {2017},  url = {http://arxiv.org/abs/1712.05465} }",
     "links": [
-      { "link" : "https://arxiv.org/abs/1803.01049", "icon" : "arxiv"}
+      { "link" : "https://arxiv.org/abs/1712.05465", "icon" : "arxiv"}
     ],
     "tags": [ "Choreographic Programming" ],
     "authors": [ "Fabrizio Montesi", "Marco Peressotti" ],
