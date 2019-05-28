@@ -118,6 +118,9 @@ ul {
 							{%- if paper.doi -%}
 							<div class="float-sm-right d-none d-sm-block">
 							<div data-badge-type="4" data-doi="{{ paper.doi }}" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div></div>
+							{%- elsif paper.arxiv -%}
+							<div class="float-sm-right d-none d-sm-block">
+							<div data-badge-type="4" data-arxiv-id="{{ paper.arxiv }}" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div></div>
 							{%- endif -%}
 							</div>
 							</div>

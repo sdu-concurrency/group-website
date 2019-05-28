@@ -3,7 +3,10 @@
   {
     "bibitem": "@article{GGLMM19, author = {Gabbrielli, Maurizio and Giallorenzo, Saverio and Lanese, Ivan and Montesi, Fabrizio and Peressotti, Marco and Zingaro, Stefano Pio}, title = {No more, no less - A formal model for serverless computing}, booktitle = {Coordination Models and Languages - 21st {IFIP} {WG} 6.1 International  Conference, {COORDINATION} 2019, Held as Part of the 14th International  Federated Conferences on Distributed Computing Techniques, DisCoTec  2019, Copenhagen, Denmark, June 17-21, 2019, Proceedings},year = {2019},note = {accepted for publication}}",
     "links": [
-      { "link" : "https://saveriogiallorenzo.com/publications/coordination2019/coordination2019.pdf" }
+      { "link" : "https://saveriogiallorenzo.com/publications/coordination2019/coordination2019.pdf" },
+      { "name" : "technical report",
+        "link" : "https://arxiv.org/abs/1903.07962",
+        "icon" : "arxiv" }
     ],
     "tags": [ "Serverless", "Microservices" ],
     "authors": [ "Saverio Giallorenzo", "Fabrizio Montesi", "Marco Peressotti" ],

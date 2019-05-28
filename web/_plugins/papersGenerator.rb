@@ -118,6 +118,14 @@ module Jekyll
           #   item["abstract"] = cp.items[cp.items.keys[0]].abstract.value
           # end
           item["links"] = links
+          links.each{ |link| 
+            url = link["link"] || link
+            arxiv = url.scan(/.*arxiv.org\/abs\/([0-9]+\.[0-9]+)/).last
+            unless arxiv.nil? 
+              item["arxiv"] = arxiv
+              break
+            end
+          }
           # titlecaseing and null filtering for tags, type, and authors
           type = item["type"]
           unless type.nil? || type.length == 0
