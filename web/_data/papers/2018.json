@@ -12,6 +12,16 @@
       "type": "Conference"
     },
     {
+      "bibitem": "@inproceedings{KMP18,  author = {Wen Kokke and  Fabrizio Montesi and  Marco Peressotti},  editor = {Thomas Ehrhard and  Maribel Fern{\\'{a}}ndez and  Valeria de Paiva and  Lorenzo Tortora de Falco},  title = {Taking Linear Logic Apart},  booktitle = {Proceedings Joint International Workshop on Linearity {\\&} Trends  in Linear Logic and Applications, Linearity-TLLA@FLoC 2018, Oxford,  UK, 7-8 July 2018.},  series = {{EPTCS}},  volume = {292},  pages = {90--103},  year = {2018},  url = {https://doi.org/10.4204/EPTCS.292.5},  doi = {10.4204/EPTCS.292.5} }",
+      "links": [],
+      "abstract": "Process calculi based on logic, such as πDILL and CP, provide a foundation for deadlock-free concurrent programming. However, in previous work, there is a mismatch between the rules for constructing proofs and the term constructors of the π-calculus: the fundamental operator for parallel composition does not correspond to any rule of linear logic. Kokke et al. (2019) introduced Hypersequent Classical Processes (HCP), which addresses this mismatch using hypersequents (collections of sequents) to register parallelism in the typing judgements. However, the step from CP to HCP is a big one. As of yet, HCP does not have reduction semantics, and the addition of delayed actions means that CP processes interpreted as HCP processes do not behave as they would in CP. We introduce HCP-, a variant of HCP with reduction semantics and without delayed actions. We prove progress, preservation, and termination, and show that HCP- supports the same communication protocols as CP.",
+      "tags" : [ "Logic", "Process Calculi", "Session Types" ],
+      "authors" : [ "Fabrizio Montesi", "Marco Peressotti" ],
+      "type" : "Workshop",
+      "non_group" : false,
+      "grants" : [ "DFF-7014-00041" ]
+    },
+    {
 	    "bibitem": "@inproceedings{CMP18,  author = {Cruz-Filipe, Lu{\\'i}s and  Fabrizio Montesi and  Marco Peressotti},  editor = {Hisham M. Haddad and  Roger L. Wainwright and  Richard Chbeir},  title = {Communications in choreographies, revisited},  booktitle = {Proceedings of the 33rd Annual {ACM} Symposium on Applied Computing,  {SAC} 2018, Pau, France, April 09-13, 2018},  pages = {1248--1255},  publisher = {{ACM}},  year = {2018},  url = {http://doi.acm.org/10.1145/3167132.3167267},  doi = {10.1145/3167132.3167267} }",
 			"links": [
 				{ "link" : "https://www.fabriziomontesi.com/files/cmp18.pdf" },

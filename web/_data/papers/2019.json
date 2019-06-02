@@ -37,15 +37,6 @@
       "grants" : [ "DFF-7014-00041" ]
     },
     {
-      "bibitem": "@inproceedings{KMP19b,  author = {Kokke, Wen and Montesi, Fabrizio and Peressotti, Marco},  editor = {Thomas Ehrhard, Maribel Fernández, Valeria de Paiva and Lorenzo Tortora de Falco},  title = {Taking Linear Logic Apart},  editor = {Ehrhard, Thomas and Fern\\'andez, Maribel and Paiva, Valeria de and Tortora de Falco, Lorenzo }, booktitle = { Proceedings Joint International Workshop on Linearity &amp; Trends in Linear Logic and Applications (Linearity-TLLA 2018), Oxford, UK, 7-8 July 2018},  series = {{EPTCS}},  volume = {292},  pages = {90-103},  year = {2019},  doi = {10.4204/EPTCS.292.5},  url = {http://eptcs.web.cse.unsw.edu.au/paper.cgi?LinearityTLLA2018:5} }",
-      "links": [],
-      "abstract": "Process calculi based on logic, such as πDILL and CP, provide a foundation for deadlock-free concurrent programming. However, in previous work, there is a mismatch between the rules for constructing proofs and the term constructors of the π-calculus: the fundamental operator for parallel composition does not correspond to any rule of linear logic. Kokke et al. (2019) introduced Hypersequent Classical Processes (HCP), which addresses this mismatch using hypersequents (collections of sequents) to register parallelism in the typing judgements. However, the step from CP to HCP is a big one. As of yet, HCP does not have reduction semantics, and the addition of delayed actions means that CP processes interpreted as HCP processes do not behave as they would in CP. We introduce HCP-, a variant of HCP with reduction semantics and without delayed actions. We prove progress, preservation, and termination, and show that HCP- supports the same communication protocols as CP.",
-      "tags" : [ "Logic", "Process Calculi", "Session Types" ],
-      "authors" : [ "Fabrizio Montesi", "Marco Peressotti" ],
-      "type" : "Workshop",
-      "non_group" : false
-    },
-    {
       "bibitem": "@inproceedings{BGMTZ19,  author = {Mario Bravetti and  Saverio Giallorenzo and  Jacopo Mauro and  Iacopo Talevi and  Gianluigi Zavattaro},  title = {Optimal and Automated Deployment for Microservices},  booktitle = {Fundamental Approaches to Software Engineering - 22nd International  Conference, {FASE} 2019, Held as Part of the European Joint Conferences  on Theory and Practice of Software, {ETAPS} 2019, Prague, Czech Republic,  April 6-11, 2019, Proceedings},  pages = {351--368},  year = {2019},  url = {https://doi.org/10.1007/978-3-030-16722-6\\_21},  doi = {10.1007/978-3-030-16722-6\\_21},  publisher = {Springer} }",
       "links": [
         { "link" : "https://saveriogiallorenzo.com/publications/fase2019/" },
