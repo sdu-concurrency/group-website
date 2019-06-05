@@ -1,6 +1,18 @@
 { "title" : "2019",
-  "papers": [ 
-    {
+  "papers": [{
+      "bibitem": "@inproceedings{GGLMM19, author = {Maurizio Gabbrielli and  Saverio Giallorenzo and  Ivan Lanese and  Fabrizio Montesi and  Marco Peressotti and  Stefano Pio Zingaro},  editor = {Hanne Riis Nielson and  Emilio Tuosto},  title = {No More, No Less - {A} Formal Model for Serverless Computing},  booktitle = {Coordination Models and Languages - 21st {IFIP} {WG} 6.1 International  Conference, {COORDINATION} 2019, Held as Part of the 14th International  Federated Conference on Distributed Computing Techniques, DisCoTec  2019, Kongens Lyngby, Denmark, June 17-21, 2019, Proceedings},  series = {Lecture Notes in Computer Science},  volume = {11533},  pages = {148--157},  publisher = {Springer},  year = {2019},  url = {https://doi.org/10.1007/978-3-030-22397-7\\_9},  doi = {10.1007/978-3-030-22397-7\\_9}}",
+      "links": [
+        { "name" : "technical report",
+          "link" : "https://arxiv.org/abs/1903.07962",
+          "icon" : "arxiv" }
+      ],
+      "tags": [ "Serverless", "Microservices" ],
+      "authors": [ "Saverio Giallorenzo", "Fabrizio Montesi", "Marco Peressotti" ],
+      "abstract": "Serverless computing, also known as Functions-as-a-Service, is a recent paradigm aimed at simplifying the programming of cloud applications. The idea is that developers design applications in terms of functions, which are then deployed on a cloud infrastructure. The infrastructure takes care of executing the functions whenever requested by remote clients, dealing automatically with distribution and scaling with respect to inbound traffic. While vendors already support a variety of programming languages for serverless computing (e.g. Go, Java, Javascript, Python), as far as we know there is no reference model yet to formally reason on this paradigm. In this paper, we propose the first core formal programming model for serverless computing, which combines ideas from both the λ-calculus (for functions) and the π-calculus (for communication). To illustrate our proposal, we model a real-world serverless system. Thanks to our model, we capture limitations of current vendors and formalise possible amendments.",
+      "non_group" : false,
+      "type": "conference",
+      "grants" : [ "DFF-7014-00041" ]
+    },{
       "bibitem": "@article{BP19,  author = {Brengos, Tomasz and Peressotti, Marco},  title = {Behavioural equivalences for timed systems},  journal = {Logical Methods in Computer Science},  volume = {15},  number = {1}, pages = {17:1--14:41}, year = {2019},  url = {https://doi.org/10.23638/LMCS-15(1:17)2019}, doi = {10.23638/LMCS-15(1:17)2019} }",
       "links": [
         { "link" : "https://lmcs.episciences.org/5220/pdf" },
