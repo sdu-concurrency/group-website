@@ -82,6 +82,13 @@ module Jekyll
           }
           bibitem = item["bibitem"]#.gsub("\\\\","\\")
           b = BibTeX.parse( bibitem ).convert(:latex)
+          # use the the bib url if item does not specify a link for the paper
+          unless b[0]["url"].nil? || links.any?{ |h| h["name"] == "paper" || h["name"] == nil}
+            links.insert(0, {
+              "link" => b[0].url, "name" => "paper",
+              "icon" => (b[0].url.end_with?(".pdf") ? iconMap["pdf"] : iconMap["generic"] )
+            })
+          end
           unless b[0]["doi"].nil? 
             item["doi"] = b[0].doi
             # use the the bib doi if item does not specify one
@@ -92,13 +99,6 @@ module Jekyll
                 "icon" => "ai ai-doi"
               })
             end
-          end
-          # use the the bib url if item does not specify a link for the paper
-          unless b[0]["url"].nil? || links.any?{ |h| h["name"] == "paper" || h["name"] == nil}
-            links.insert(0, {
-              "link" => b[0].url, "name" => "paper",
-              "icon" => (b[0].url.end_with?(".pdf") ? iconMap["pdf"] : iconMap["generic"] )
-            })
           end
           b[0].delete("doi")
           b[0].delete("url")
