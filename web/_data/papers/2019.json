@@ -13,7 +13,7 @@
       "type": "conference",
       "grants" : [ "DFF-7014-00041" ]
     },{
-      "bibitem": "@article{BP19,  author = {Brengos, Tomasz and Peressotti, Marco},  title = {Behavioural equivalences for timed systems},  journal = {Logical Methods in Computer Science},  volume = {15},  number = {1}, pages = {17:1--14:41}, year = {2019},  url = {https://doi.org/10.23638/LMCS-15(1:17)2019}, doi = {10.23638/LMCS-15(1:17)2019} }",
+      "bibitem": "@article{BP19a,  author = {Brengos, Tomasz and Peressotti, Marco},  title = {Behavioural equivalences for timed systems},  journal = {Logical Methods in Computer Science},  volume = {15},  number = {1}, pages = {17:1--14:41}, year = {2019},  url = {https://doi.org/10.23638/LMCS-15(1:17)2019}, doi = {10.23638/LMCS-15(1:17)2019} }",
       "links": [
         { "link" : "https://lmcs.episciences.org/5220/pdf" },
         { "name" : "technical report",

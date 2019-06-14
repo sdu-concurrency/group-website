@@ -88,6 +88,18 @@
     "abstract": "We introduce the calculus of Classical Transitions (CT), which extends the research line on the relationship between linear logic and processes to labelled transitions. The key twist from previous work is registering parallelism in typing judgements, by generalising linear logic judgements from one sequents to many (hypersequents). This allows us to bridge the gap between the structures of operators used as proof terms in previous work and those of the standard π-calculus (in particular parallel operator and restriction). The proof theory of CT allows for new proof transformations, which we show correspond to a labelled transition system (LTS) for processes. We prove that CT enjoys subject reduction and progress.",
     "non_group" : false,
     "type": "report"
+  },
+  {
+    "bibitem": "@article{BP19b,  author = {Tomasz Brengos and  Marco Peressotti},  title = {Two modes of recognition: algebra, coalgebra, and languages},  journal = {CoRR},  volume = {abs/1906.05573},  year = {2019},  url = {https://arxiv.org/abs/1906.05573} }",
+    "links": [
+      { "link" : "https://arxiv.org/abs/1906.05573", "icon" : "arxiv"}
+    ],
+    "tags": [ "Coalgebras", "Formal Languages", "Automata Theory" ],
+    "authors": [ "Marco Peressotti" ],
+    "abstract": "The aim of the paper is to build a connection between two approaches towards categorical language theory: the coalgebraic and algebraic language theory for monads. For a pair of monads modelling the branching and the linear type we defined regular maps that generalize regular languages known in classical non-deterministic automata theory. These maps are behaviours of certain automata (i.e. they possess a coalgebraic nature), yet they arise from Eilenberg-Moore algebras and their homomorphisms (by exploiting duality between the category of Eilenberg-Moore algebras and saturated coalgebras). <br> Given some additional assumptions, we show that regular maps form a certain subcategory of the Kleisli category for the monad which is the composition of the branching and linear type. Moreover, we state a Kleene-like theorem characterising the regular morphisms category in terms of the smallest subcategory closed under certain operations. Additionally, whenever the branching type monad is taken to be the powerset monad, we show that regular maps are described as maps recognized by certain functors whose codomains are categories with all finite hom-sets. <br> We instantiate our framework on classical non-deterministic automata, tree automata, fuzzy automata and weighted automata. ",
+    "non_group" : true,
+    "type": "report",
+    "grants" : [ "DFF-7014-00041" ]
   }
 ]
 }
