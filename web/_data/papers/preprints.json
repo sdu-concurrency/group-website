@@ -1,6 +1,6 @@
 { "title" : "Preprints of Accepted Papers",
   "papers": [{
-    "bibitem": "@article{FMSZ19, author = {Giallorenzo, Saverio and Montesi, Fabrizio and Safina, Larisa and Zingaro, Stefano Pio}, title = {Ephemeral Data Handling in Microservices}, booktitle = {2019 {IEEE} International Conference on Services Computing, {SCC} 2019, Milan, IT, July 8-13, 2019},year = {2019},note = {accepted for publication}}",
+    "bibitem": "@article{GMSZ19, author = {Giallorenzo, Saverio and Montesi, Fabrizio and Safina, Larisa and Zingaro, Stefano Pio}, title = {Ephemeral Data Handling in Microservices}, booktitle = {2019 {IEEE} International Conference on Services Computing, {SCC} 2019, Milan, IT, July 8-13, 2019},year = {2019},note = {accepted for publication}}",
     "links": [
       { "link" : "https://saveriogiallorenzo.com/publications/scc2019/scc2019.pdf" }
     ],
