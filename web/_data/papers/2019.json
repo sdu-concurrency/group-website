@@ -4,7 +4,10 @@
       "links": [
         { "name" : "technical report",
           "link" : "https://arxiv.org/abs/1903.07962",
-          "icon" : "arxiv" }
+          "icon" : "arxiv" },
+        { "name" : "slides",
+					"link" : "https://www.slideshare.net/MarcoPeressotti/no-more-no-less-a-formal-model-for-serverless-computing",
+					"icon" : "slideshare"}
       ],
       "tags": [ "Serverless", "Microservices" ],
       "authors": [ "Saverio Giallorenzo", "Fabrizio Montesi", "Marco Peressotti" ],
