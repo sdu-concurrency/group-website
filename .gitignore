@@ -5,3 +5,4 @@ research-areas.pdf
 *.svg~
 .docker-cache/
 _site/
+web/.jekyll-cache/
