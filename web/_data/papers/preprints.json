@@ -1,15 +1,5 @@
 { "title" : "Preprints of Accepted Papers",
   "papers": [{
-    "bibitem": "@article{GMSZ19, author = {Giallorenzo, Saverio and Montesi, Fabrizio and Safina, Larisa and Zingaro, Stefano Pio}, title = {Ephemeral Data Handling in Microservices}, booktitle = {2019 {IEEE} International Conference on Services Computing, {SCC} 2019, Milan, IT, July 8-13, 2019},year = {2019},note = {accepted for publication}}",
-    "links": [
-      { "link" : "https://saveriogiallorenzo.com/publications/scc2019/scc2019.pdf" }
-    ],
-    "tags": [ "Microservices", "Programming Languages" ],
-    "authors": [ "Saverio Giallorenzo", "Fabrizio Montesi", "Larisa Safina" ],
-    "abstract": "Ephemeral data handling, whereby processed data do not persist, is an emerging requirement of connected IT systems, due to storage constraints (IoT) or regulatory demands (eHealth, GDPR). We present ongoing work on TQuery, a query language for ephemeral data handling in microservices.",
-    "non_group" : false,
-    "type": "conference"
-  },{
     "bibitem": "@article{CGNS, author = {Cruz-Filipe, Lu{\\'i}s and Gaspar, Gra{\\c c}a and Nunes, Isabel and Schneider-Kamp, Peter}, title = {Active Integrity Constraints for General-Purpose Knowledge Bases}, journal = {Annals of Mathematics and Artificial Intelligence}, doi = {10.1007/s10472-018-9577-y}, note = {accepted for publication}}",
     "links": [
       { "link" : "http://tinyurl.com/lcfilipe/pubs/paperA.pdf" }
