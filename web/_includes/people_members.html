@@ -17,7 +17,7 @@
 {% endif %}
 {%if person.email %}
 <div class="col-sm-6">
-    <small><a class="nodec" href="mailto:{{ person.email }}"><span class="fas fa-envelope"></span> E-mail</a></small>
+    <small><a class="nodec" href="mailto:{{ person.email | encode_email }}"><span class="fas fa-envelope"></span> E-mail</a></small>
 </div>
 {% endif %}
 {%if person.phone %}

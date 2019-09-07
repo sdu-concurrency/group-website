@@ -5,6 +5,7 @@ group :jekyll_plugins do
   gem 'json'
   gem 'titleize'
   gem 'unicode_utils'
+  gem 'jekyll-email-protect'
   gem 'bibtex-ruby'
   gem 'citeproc-ruby'
   gem 'csl-styles'

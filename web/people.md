@@ -12,7 +12,7 @@ layout: default
 
 <header class="major container" markdown="1">
 
-# People
+# People 
 
 </header>
 
