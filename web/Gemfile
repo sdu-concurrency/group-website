@@ -1,5 +1,8 @@
 source "https://rubygems.org"
 
+# C liquid engine
+gem "liquid-c"
+
 group :jekyll_plugins do
   gem 'jekyll'
   gem 'json'
