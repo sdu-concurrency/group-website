@@ -1,0 +1,24 @@
+<h3>Current Positions</h3>
+
+<ul>
+{% for position in site.data.open_positions.current %}
+
+<li><a target="_blank" href="{{ position.link }}">{{ position.title }}</a>, deadline: {{ position.deadline | date: "%b %d, %Y" }}</li>
+
+{% endfor %}
+</ul>
+
+<div class="text-muted">
+
+<span class="large">Past Positions</span>
+
+<ul class="small">
+
+{% for position in site.data.open_positions.past %}
+    
+<li><a target="_blank" href="{{ position.link }}">{{ position.title }}</a>, deadline: {{ position.deadline | date: "%b %d, %Y" }}</li>
+    
+{% endfor %}
+</ul>
+
+</div>

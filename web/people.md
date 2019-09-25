@@ -33,7 +33,7 @@ layout: default
 
 <h2 id="career">Open Positions</h2>
 
-<span class="text-muted">No open positions are available at the moment.</span>
+{% include people_open_positions.html %}
 
 </section>
 

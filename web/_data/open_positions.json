@@ -1,0 +1,21 @@
+﻿{
+        "current" : [
+                {
+                        "title" : "Assistant Professor in Computer Science", 
+                        "deadline" : "2019-10-11",
+                        "link" : "https://www.sdu.dk/da/service/ledige_stillinger/1051449"
+                }
+        ],
+        "past" : [
+                {
+                        "title" : "Associate Professor in Computer Science", 
+                        "deadline" : "2019-09-09",
+                        "link" : "https://www.sdu.dk/en/service/ledige_stillinger/1051008"
+                },
+                {
+                        "title" : "Postdoctoral Doctor in Computer Science", 
+                        "deadline" : "2019-07-22",
+                        "link" : "https://www.sdu.dk/da/service/ledige_stillinger/1049681"
+                }
+        ]
+}
