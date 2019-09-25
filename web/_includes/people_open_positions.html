@@ -16,7 +16,7 @@
 
 {% for position in site.data.open_positions.past %}
     
-<li><a target="_blank" href="{{ position.link }}">{{ position.title }}</a>, deadline: {{ position.deadline | date: "%b %d, %Y" }}</li>
+<li>{{ position.title }}, deadline: {{ position.deadline | date: "%b %d, %Y" }}</li>
     
 {% endfor %}
 </ul>
