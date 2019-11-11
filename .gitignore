@@ -1,8 +1,8 @@
-.sass-cache/
-.jekyll-metadata
 *.lock
 research-areas.pdf
 *.svg~
 .docker-cache/
-_site/
+web/_site/
 web/.jekyll-cache/
+web/.sass-cache/
+web/.jekyll-metadata
