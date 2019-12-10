@@ -16,6 +16,28 @@
       "grants" : [ "DFF-7014-00041" ]
     },
     {
+      "bibitem": "@inproceedings{GGLM19,  author = {Maurizio Gabbrielli and  Saverio Giallorenzo and  Ivan Lanese and  Jacopo Mauro},  title = {Guess Who's Coming: Runtime Inclusion of Participants in Choreographies},  booktitle = {The Art of Modelling Computational Systems: {A} Journey from Logic  and Concurrency to Security and Privacy - Essays Dedicated to Catuscia  Palamidessi on the Occasion of Her 60th Birthday},  pages = {118--138},  year = {2019},  url = {https://doi.org/10.1007/978-3-030-31175-9\\_8},  doi = {10.1007/978-3-030-31175-9\\_8},  publisher = {Springer} }",
+      "links": [
+        { "link" : "https://saveriogiallorenzo.com/publications/guess-who/guess-who.pdf" }
+      ],
+      "tags": [ "Choreographic Programming", "Process Calculi", "Concurrency", "Adaptation" ],
+      "authors": [ "Saverio Giallorenzo", "Jacopo Mauro" ],
+      "abstract": "In Choreographic Programming, a choreography specifies in a single artefact the expected behaviour of all the participants in a distributed system. The choreography is used to synthesise correct-by- construction programs for each participant. In previous work, we defined Dynamic Choreographies to support the update of distributed systems at runtime. In this work, we extend Dynamic Choreographies to include new participants at runtime, capturing those use cases where the system might be updated to interact with new, unforeseen stakeholders. We formalise our extension, prove its correctness, and present an implementation in the AIOCJ choreographic framework.",
+      "non_group" : false,
+      "type": "conference"
+    },
+    {
+      "bibitem": "@inproceedings{GGLM19,  author = {Maurizio Gabbrielli and  Saverio Giallorenzo and  Ivan Lanese and  Jacopo Mauro},  title = {Guess Who's Coming: Runtime Inclusion of Participants in Choreographies},  booktitle = {The Art of Modelling Computational Systems: {A} Journey from Logic  and Concurrency to Security and Privacy - Essays Dedicated to Catuscia  Palamidessi on the Occasion of Her 60th Birthday},  pages = {118--138},  year = {2019},  url = {https://doi.org/10.1007/978-3-030-31175-9\\_8},  doi = {10.1007/978-3-030-31175-9\\_8},  publisher = {Springer} }",
+      "links": [
+        { "link" : "https://saveriogiallorenzo.com/publications/guess-who/guess-who.pdf" }
+      ],
+      "tags": [ "Choreographic Programming", "Process Calculi", "Concurrency", "Adaptation" ],
+      "authors": [ "Saverio Giallorenzo", "Jacopo Mauro" ],
+      "abstract": "In Choreographic Programming, a choreography specifies in a single artefact the expected behaviour of all the participants in a distributed system. The choreography is used to synthesise correct-by- construction programs for each participant. In previous work, we defined Dynamic Choreographies to support the update of distributed systems at runtime. In this work, we extend Dynamic Choreographies to include new participants at runtime, capturing those use cases where the system might be updated to interact with new, unforeseen stakeholders. We formalise our extension, prove its correctness, and present an implementation in the AIOCJ choreographic framework.",
+      "non_group" : false,
+      "type": "conference"
+    },
+    {
       "bibitem": "@inproceedings{GGLMPZ19, author = {Maurizio Gabbrielli and  Saverio Giallorenzo and  Ivan Lanese and  Fabrizio Montesi and  Marco Peressotti and  Stefano Pio Zingaro},  editor = {Hanne Riis Nielson and  Emilio Tuosto},  title = {No More, No Less - {A} Formal Model for Serverless Computing},  booktitle = {Coordination Models and Languages - 21st {IFIP} {WG} 6.1 International  Conference, {COORDINATION} 2019, Held as Part of the 14th International  Federated Conference on Distributed Computing Techniques, DisCoTec  2019, Kongens Lyngby, Denmark, June 17-21, 2019, Proceedings},  series = {Lecture Notes in Computer Science},  volume = {11533},  pages = {148--157},  publisher = {Springer},  year = {2019},  url = {https://doi.org/10.1007/978-3-030-22397-7\\_9},  doi = {10.1007/978-3-030-22397-7\\_9}}",
       "links": [
         { "name" : "technical report",
