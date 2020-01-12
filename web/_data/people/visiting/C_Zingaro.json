@@ -5,9 +5,9 @@
   "id" : "spz",
   "dblp" : "220/4883",
   "google_scholar" : "u4YiPCwAAAAJ",
-  "website": "https://cs.unibo.it/~stefanopio.zingaro/"
+  "website": "https://cs.unibo.it/~stefanopio.zingaro/",
   "github" : "szingaro",
   "photo" : "/images/people/spzingaro-p.jpg",
-  "email" : "zingaro@sdu.dk",
+  "email" : "stefanopio.zingaro@unibo.it",
   "research_topics" : [ "Microservices", "Internet of Things", "Machine Learning" ]
 }
