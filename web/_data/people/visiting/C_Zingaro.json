@@ -1,12 +1,13 @@
 {
   "name" : "Stefano Pio Zingaro",
-  "role" : "PhD Student",
+  "role" : "PhD Candidate",
   "affiliation" : "Università di Bologna",
   "id" : "spz",
   "dblp" : "220/4883",
   "google_scholar" : "u4YiPCwAAAAJ",
-  "github" : "saltgz",
+  "website": "https://cs.unibo.it/~stefanopio.zingaro/"
+  "github" : "szingaro",
   "photo" : "/images/people/spzingaro-p.jpg",
   "email" : "zingaro@sdu.dk",
-  "research_topics" : [ "Microservice Oriented Computing", "Smart City", "IoT", "Fog Computing", "Edge Computing" ]
+  "research_topics" : [ "Microservices", "Internet of Things", "Machine Learning" ]
 }
