@@ -10,7 +10,7 @@ layout: default
 
 The {{ site.group_name }} group organises weekly meetings, frequently in the form of public seminars, with the aim of presenting and discussing ongoing research. Seminars are mainly in the domain (but not limited to) concurrency, logic, programming languages, type theory, proofs, and software engineering.
 
-Unless differently indicated, {{ site.group_short }} seminars are held every Friday at 10:30 in [IMADAs møderum](http://vejviser.sdu.dk/opslag?lid=2319), SDU, Odense. The seminars' schedule is managed by [Luís Cruz-Filipe](/people.html#lfc) and is also available as an [ics feed](/calendars/seminars.ics).
+Unless differently indicated, {{ site.group_short }} seminars are held every Friday at 12:30 in [IMADAs møderum 2](https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9ba423b7d0540c9a98b), SDU, Odense. The seminars' schedule is managed by [Luís Cruz-Filipe](/people.html#lfc) and is also available as an [ics feed](/calendars/seminars.ics).
 
 The calendar below reports on the left the schedule of the {{ site.group_short }} seminars and on the right the researchers that visited {{ site.group_short }} group.
 
