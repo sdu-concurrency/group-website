@@ -1,4 +1,19 @@
 - speaker:
+    name: Luís Cruz-Filipe
+    affiliation: Concurrency and Logic research group
+  date: 2020-01-17 12:30
+  duration: 30
+  created: 2020-01-07
+  sequence: 0
+  place: 
+    label: IMADA meeting room
+    link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9ba423b7d0540c9a98b/
+  title: Hypothetical answers to continuous queries over data streams
+  description: |
+    Continuous queries over data streams often delay answers until some relevant input arrives through the data stream. These delays may turn answers, when they arrive, obsolete to users who sometimes have to make decisions with no help whatsoever. Therefore, it can be useful to provide hypothetical answers - “given the current information, it is possible that X will become true at time t” - instead of no information at all.
+    In this talk we present a semantics for queries and corresponding answers that covers such hypothetical answers, together with an online algorithm for updating the set of facts that are consistent with the currently available information.
+    
+- speaker:
     name: Marco Peressotti
     affiliation: Concurrency and Logic research group
   date: 2019-01-11 10:30

@@ -1,3 +1,14 @@
+- name: Ornella Dardha
+  from: 2020-01-27
+  to: 2020-01-30
+  affiliation: University of Glasgow, United Kingdom
+  website: http://www.dcs.gla.ac.uk/~ornela/
+  picture: images/people/odardha-p.jpg
+  hosts: 
+    - Jacopo Mauro
+  office: 
+    label: Ø18-511a-2
+    link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9be423b7d0540c9a9ac/
 - name: Eros Fabrici
   from: 2019-03-04
   to: 2019-06-26
@@ -70,6 +81,7 @@
   from: 2017-01-18
   to: 2017-01-18
   affiliation: University of Udine, Italy
+  website: https://marcoperessotti.com/
   picture: images/people/mperessotti-p.jpg
   host: Fabrizio Montesi
   description: |
