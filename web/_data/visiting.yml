@@ -7,8 +7,8 @@
   hosts: 
     - Jacopo Mauro
   office: 
-    label: Ø18-511a-2
-    link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9be423b7d0540c9a9ac/
+    label: Ø16-601a-2
+    link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9b5423b7d0540c9a969
 - name: Eros Fabrici
   from: 2019-03-04
   to: 2019-06-26
