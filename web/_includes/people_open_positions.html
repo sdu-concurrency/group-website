@@ -1,24 +1,28 @@
+
+<hr>
+
+<h2 id="career">Open Positions</h2>
+
 <h3>Current Positions</h3>
 
+{% if site.data.open_positions.current.size > 0 %}
 <ul>
 {% for position in site.data.open_positions.current %}
 
 <li><a target="_blank" href="{{ position.link }}">{{ position.title }}</a>, deadline: {{ position.deadline | date: "%b %d, %Y" }}</li>
-
 {% endfor %}
 </ul>
+{% else %}
+Currently there are no open positions.
+{% endif %}
 
-<div class="text-muted">
 
-<span class="large">Past Positions</span>
+<h3>Past calls</h3>
 
 <ul class="small">
 
 {% for position in site.data.open_positions.past %}
-    
-<li>{{ position.title }}, deadline: {{ position.deadline | date: "%b %d, %Y" }}</li>
-    
+   
+<li>{{ position.title }}, deadline: {{ position.deadline | date: "%b %d, %Y" }}</li>    
 {% endfor %}
 </ul>
-
-</div>

@@ -1,0 +1,12 @@
+{ "title" : "2020",
+  "papers": [
+    {
+      "bibitem": "@phdthesis{S20, author = {Larisa Safina}, title = {Formal methods and patterns for microservices}, school = {University of Southern Denmark}, year = 2020, month = 1}",
+      "tags": [ "Microservices", "Choreographic Programming" ],
+      "authors": [ "Larisa Safina" ],
+      "abstract": "",
+      "non_group" : false,
+      "type": "thesis"
+    }
+  ]
+}

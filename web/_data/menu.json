@@ -1,63 +1,72 @@
-[{
-  "title": "Research",
-  "link": "/research-areas.html",
-  "subitems": [{
-    "title": "Research Areas",
-    "link": "/research-areas.html"
+[
+  {
+    "title": "Research",
+    "link": "/research-areas.html",
+    "subitems": [
+      {
+        "title": "Research Areas",
+        "link": "/research-areas.html"
+      },
+      {
+        "title": "Software",
+        "link": "/software.html"
+      },
+      {
+        "title": "Publications",
+        "link": "/publications.html"
+      }
+    ]
   },
   {
-    "title": "Software",
-    "link": "/software.html"
+    "title": "Education",
+    "link": "/education.html",
+    "subitems": [
+      {
+        "title": "Bachelor",
+        "link": "/education.html#bachelor"
+      },
+      {
+        "title": "MSc Courses",
+        "link": "/education.html#master-courses"
+      },
+      {
+        "title": "Thesis Proposals",
+        "link": "/education.html#thesis-proposals"
+      }
+    ]
   },
   {
-    "title": "Publications",
-    "link": "/publications.html"
+    "title": "Grants",
+    "link": "/grants.html"
+  },
+  {
+    "title": "People",
+    "link": "/people.html",
+    "subitems": [
+      {
+        "title": "Members",
+        "link": "/people.html#members"
+      },
+      {
+        "title": "Alumni",
+        "link": "/people.html#alumni"
+      },
+      {
+        "title": "Open Positions",
+        "link": "/people.html#career"
+      }
+    ]
+  },
+  {
+    "title": "Seminars & Visitors",
+    "link": "/seminars_and_visitors.html"
+  },
+  {
+    "title": "News",
+    "link": "/news.html"
+  },
+  {
+    "title": "Communities",
+    "link": "/communities.html"
   }
-]
-},
-{
-  "title": "Education",
-  "link": "/education.html",
-  "subitems": [{
-    "title": "Bachelor",
-    "link": "/education.html#bachelor"
-  },
-  {
-    "title": "MSc Courses",
-    "link": "/education.html#master-courses"
-  },
-  {
-    "title": "Thesis Proposals",
-    "link": "/education.html#thesis-proposals"
-  }
-]
-},
-{
-  "title": "Grants",
-  "link": "/grants.html"
-}, {
-  "title": "People",
-  "link": "/people.html",
-  "subitems": [{
-    "title": "Members",
-    "link": "/people.html#members"
-  },
-  {
-    "title": "Open Positions",
-    "link": "/people.html#career"
-  }
-]
-},
-{
-  "title": "Seminars & Visitors",
-  "link": "/seminars_and_visitors.html"
-},
-{
-  "title": "News",
-  "link": "/news.html"
-},
-{
-  "title": "Communities",
-  "link": "/communities.html"
-}
 ]

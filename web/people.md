@@ -18,20 +18,13 @@ layout: default
 
 <section class="wrapper card style4 container">
 
-
 {% include people_members.html %}
 
-<hr>
+{% include people_alumni.html %}
 
 {% include people_visiting.html %}
 
-<hr>
-
 {% include people_externals.html %}
-
-<hr>
-
-<h2 id="career">Open Positions</h2>
 
 {% include people_open_positions.html %}
 

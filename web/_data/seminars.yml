@@ -1,3 +1,15 @@
+- speaker: 
+    name: Ornela Dardha 
+    affiliation: University of Glasgow, United Kingdom
+    website: http://www.dcs.gla.ac.uk/~ornela/
+  date: 2020-01-29 14:15
+  place: 
+    label: IMADA seminar room
+    link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb8e9423b7d0540c9a2b6/
+  title: A New Linear Logic for Deadlock-Free Session-Typed Processes 
+  description: | 
+    The π-calculus, viewed as a core concurrent programming language, has been used as the target of much research on type systems for concurrency. In this paper we propose a new type system for deadlock- free session-typed π-calculus processes, by integrating two separate lines of work. The first is the propositions-as-types approach by Caires and Pfenning, which provides a linear logic foundation for session types and guarantees deadlock-freedom by forbidding cyclic process connections. The second is Kobayashi’s approach in which types are annotated with priorities so that the type system can check whether or not processes contain genuine cyclic dependencies between communication operations. We combine these two techniques for the first time, and define a new and more expressive variant of classical linear logic with a proof assignment that gives a session type system with Kobayashi-style priorities. This can be seen in three ways: (i) as a new linear logic in which cyclic structures can be derived and a Cycle-elimination theorem generalises Cut-elimination 
+
 - speaker:
     name: Luís Cruz-Filipe
     affiliation: Concurrency and Logic research group
