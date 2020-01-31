@@ -1,4 +1,19 @@
-[
+[{
+    "title" : "Choreographies for connected IT systems",
+    "id" : "CHOCO",
+    "participants" : [
+      {
+        "name" : "Fabrizio Montesi",
+        "role" : "PI",
+        "affiliation" : "University of Southern Denmark"
+      }
+    ],
+    "_website" : "",
+    "_number" : "",
+    "period" : { "start" : "01-08-2020", "end" : "31-07-2023" },
+    "foundation" : "Villum Foundation",
+    "amount" : "7.100,000 DKK"
+  },
   {
     "title" : "Open Data Framework",
     "id" : "ODF",
