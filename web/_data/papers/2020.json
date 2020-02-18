@@ -14,7 +14,7 @@
       "authors": [ "Saverio Giallorenzo", "Jacopo Mauro" ],
       "abstract": "Following previous work on the automated deployment of component-based applications, we present a formal model specifically tailored for reasoning on the deployment of microservice architectures. The first result that we present is a formal proof of decidability of the problem of synthesizing optimal deployment plans for microservice architectures, a problem which was proved to be undecidable for generic component-based applications. Then, given that such proof translates the deployment problem into a constraint satisfaction problem, we present the implementation of a tool that, by exploiting state-of-the-art constraint solvers, can be used to actually synthesize optimal deployment plans. We evaluate the applicability of our tool on a realistic microservice architecture taken from the literature.",
       "non_group" : false,
-      "type": "book"
+      "type": "chapter"
     }
   ]
 }
