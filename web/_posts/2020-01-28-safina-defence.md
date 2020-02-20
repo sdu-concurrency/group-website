@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Larisa Safina successfully defends her PhD Thesis"
+title:  "Larisa Safina defends her PhD Thesis"
 place:  Odense, Denmark
 date:   2020-01-28
 ---
