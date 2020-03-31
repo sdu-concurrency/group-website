@@ -20,19 +20,6 @@
     "abstract": "New properties of the front and back ends of sorting networks are studied, illustrating their utility when searching for bounds on optimal networks.  Search focuses first on the &ldquo;out-sides&rdquo; of the network and then on the inner part.  Previous works focused on properties of the front end to break symmetries in the search.  The new, out-side-in, properties shed understanding on how sorting networks sort, and facilitate the computation of new bounds on optimality.  We present new, faster, parallel sorting networks for 17&ndash;20 inputs.  For 17 inputs, we show that no sorting network using less layers exists.",
     "non_group" : true,
     "type": "journal"
-  },
-  {
-    "bibitem": "@inproceedings{AHMNP19, title={{A Graph-Based Tool to Embed the π-Calculus into a Computational DPO Framework}}, author={Jakob Lykke Andersen and Marc Hellmuth and Daniel Merkle and Nikolai N{\\o}jgaard and Marco Peressotti}, booktitle = {Proceedings of SOFSEM 2020 Student Research Forum}, series = {{CEUR} Workshop Proceedings}, publisher = {CEUR-WS.org}, year={2019}, note={accepted for publication}}",
-    "links": [
-      { "name" : "technical report",
-        "link" : "https://arxiv.org/abs/1911.00407",
-        "icon" : "arxiv" }
-    ],
-    "tags": [ "Process Calculi", "Graph Theory" ],
-    "authors": [ "Marco Peressotti" ],
-    "abstract": "Graph transformation approaches have been successfully used to analyse and design chemical and biological systems. Here we build on top of a DPO framework, in which molecules are modelled as typed attributed graphs and chemical reactions are modelled as graph transformations. Edges and vertexes can be labelled with first-order terms, which can be used to encode, e.g., steric information of molecules. While targeted to chemical settings, the computational framework is intended to be very generic and applicable to the exploration of arbitrary spaces derived via iterative application of rewrite rules, such as process calculi like Milner's π-calculus. To illustrate the generality of the framework, we introduce EpiM: a tool for computing execution spaces of π-calculus processes. EpiM encodes π-calculus processes as typed attributed graphs and then exploits the existing DPO framework to compute their dynamics in the form of graphs where nodes are π-calculus processes and edges are reduction steps. EpiM takes advantage of the graph-based representation and facilities offered by the framework, like efficient isomorphism checking to prune the space without resorting to explicit structural equivalences. EpiM is available as an online Python-based tool. ",
-    "non_group" : true,
-    "type": "workshop"
   }
 ]
 }
