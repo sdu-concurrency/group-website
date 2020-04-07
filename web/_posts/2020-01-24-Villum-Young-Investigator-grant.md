@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Fabrizio Montesi receives DKK 7.1 million grant"
-place:  Søborg, DK
+title:  "Fabrizio Montesi receives prestigious Villum Young Investagor grant of DKK 7.1 millions"
+place:  Copenhagen, DK
 date:   2020-01-24
 tag: featured
 ---
 <img class="img-fluid mx-auto d-block" src="/images/posts/fm-villum.jpg">
 
-[Fabrizio Montesi](/people.html#fm), has received the prestigious Villum Foundation's [Villum Young Investigator](https://veluxfoundations.dk/en/teknisk-og-naturvidenskabelig-forskning/arslegat) grant, for a total of DKK 7.1 million. 
+[Fabrizio Montesi](/people.html#fm), has received the prestigious Villum Foundation's [Villum Young Investigator](https://veluxfoundations.dk/en/teknisk-og-naturvidenskabelig-forskning/arslegat) grant, for a total of DKK 7.1 millions. 
 The Villum Young Investigator Programme funds particularly talented young researchers in the technical and natural sciences.
 
 <!--more-->
