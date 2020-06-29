@@ -1,6 +1,6 @@
 [{
     "title" : "Choreographies for connected IT systems",
-    "id" : "CHOCO",
+    "id" : "Choco",
     "participants" : [
       {
         "name" : "Fabrizio Montesi",
@@ -8,11 +8,42 @@
         "affiliation" : "University of Southern Denmark"
       }
     ],
-    "_website" : "",
+    "website" : "https://www.fabriziomontesi.com/projects/choco/",
+    "_number" : "",
+    "period" : { "start" : "01-08-2020", "end" : "31-07-2025" },
+    "foundation" : "Villum Foundation",
+    "amount" : "7 million DKK (~1 million EUR)"
+  },
+  {
+    "title" : "Choreographies for connected IT systems",
+    "id" : "Gem",
+    "participants" : [
+      {
+        "name" : "Fabrizio Montesi",
+        "role" : "PI",
+        "affiliation" : "University of Southern Denmark"
+	  },
+	  {
+        "name" : "Saverio Giallorenzo",
+        "role" : "Collaborator",
+        "affiliation" : "University of Bologna"
+	  },
+	  {
+        "name" : "Marco Peressotti",
+        "role" : "Collaborator",
+        "affiliation" : "University of Southern Denmark"
+	  },
+	  {
+		"name" : "Olaf Zimmermann",
+        "role" : "Collaborator",
+        "affiliation" : "University of Applied Sciences in Rapperswil, Switzerland"
+	  }
+    ],
+    "website" : "https://www.fabriziomontesi.com/projects/gem/",
     "_number" : "",
     "period" : { "start" : "01-08-2020", "end" : "31-07-2023" },
-    "foundation" : "Villum Foundation",
-    "amount" : "7.100,000 DKK"
+    "foundation" : "Independent Research Fund Denmark",
+    "amount" : "2,341,440 DKK (~300k EUR)"
   },
   {
     "title" : "Open Data Framework",
