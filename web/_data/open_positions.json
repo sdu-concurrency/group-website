@@ -1,30 +1,40 @@
 ﻿{
-        "current" : [
-                {
-                        "title" : "Assistant Professor in Computer Science", 
-                        "deadline" : "2020-05-30",
-                        "link" : "https://www.sdu.dk/da/service/ledige_stillinger/1098235"
-                }
-        ],
-        "past" : [
-                {
-                        "title" : "Assistant Professor in Computer Science", 
-                        "deadline" : "2019-10-11",
-                        "link" : "https://www.sdu.dk/da/service/ledige_stillinger/1051449"
-                },
-                {
-                        "title" : "Associate Professor in Computer Science", 
-                        "deadline" : "2019-09-09",
-                        "link" : "https://www.sdu.dk/en/service/ledige_stillinger/1051008"
-                },
-                {
-                        "title" : "Post-doctoral Researcher in Computer Science", 
-                        "deadline" : "2019-07-22",
-                        "link" : "https://www.sdu.dk/da/service/ledige_stillinger/1049681"
-                },
-                {
-                        "title" : "Post-doctoral Researcher in Computer Science", 
-                        "deadline" : "2018-10-29"
-                }
-        ]
+	"current": [
+		{
+			"title": "Postdoc in Programming Languages",
+			"deadline": "2020-08-05",
+			"link": "https://www.sdu.dk/da/service/ledige_stillinger/1103996?sc_lang=en"
+		},
+		{
+			"title": "PhD positions in Programming Languages",
+			"deadline": "2020-08-05",
+			"link": "https://www.sdu.dk/en/service/ledige_stillinger/1104002?sc_lang=en"
+		}
+	],
+	"past": [
+		{
+			"title": "Assistant Professor in Computer Science",
+			"deadline": "2020-05-30",
+			"link": "https://www.sdu.dk/da/service/ledige_stillinger/1098235"
+		},
+		{
+			"title": "Assistant Professor in Computer Science",
+			"deadline": "2019-10-11",
+			"link": "https://www.sdu.dk/da/service/ledige_stillinger/1051449"
+		},
+		{
+			"title": "Associate Professor in Computer Science",
+			"deadline": "2019-09-09",
+			"link": "https://www.sdu.dk/en/service/ledige_stillinger/1051008"
+		},
+		{
+			"title": "Post-doctoral Researcher in Computer Science",
+			"deadline": "2019-07-22",
+			"link": "https://www.sdu.dk/da/service/ledige_stillinger/1049681"
+		},
+		{
+			"title": "Post-doctoral Researcher in Computer Science",
+			"deadline": "2018-10-29"
+		}
+	]
 }
