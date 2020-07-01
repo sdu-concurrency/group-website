@@ -26,6 +26,8 @@ layout: default
 
 {% include people_externals.html %}
 
+{% include people_former.html %}
+
 {% include people_open_positions.html %}
 
 </section>
