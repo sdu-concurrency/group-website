@@ -13,7 +13,12 @@ layout: default
 <section class="wrapper card style4 container">
 {% assign size = site.data.software | size %}
 <div class="item-row row">
-{% for software in site.data.software %}
+{% assign sorted_software = site.data.software | sort:"name" %}
+
+{% comment %}
+for software in site.data.software
+{% endcomment %}
+{% for software in sorted_software %}
 {% assign i = forloop.index | modulo: 2 %}
 
 <div class="item mb-4 col-12 col-lg-6">
