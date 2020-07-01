@@ -1,6 +1,17 @@
 { "title" : "2020",
   "papers": [
     {
+	  "bibitem": "@article{CM20, author = {Lu{\\'{\\i}}s Cruz{-}Filipe and  Fabrizio Montesi},  title = {A core model for choreographic programming},  journal = {Theor. Comput. Sci.},  volume = {802},  pages = {38--66},  year = {2020},  url = {https://doi.org/10.1016/j.tcs.2019.07.005},  doi = {10.1016/j.tcs.2019.07.005}}",
+	  "links": [
+		{ "link" : "https://www.fabriziomontesi.com/files/cm20.pdf" }
+	  ],
+      "tags": [ "Choreographic Programming", "Process Calculi" ],
+      "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi" ],
+	  "abstract": "Choreographic Programming is a paradigm for developing concurrent programs that are deadlock-free by construction, as a result of programming communications declaratively and then synthesising process implementations automatically. Despite strong interest on choreographies, a foundational model that explains which computations can be performed with the hallmark constructs of choreographies is still missing. In this work, we introduce Core Choreographies (CC), a model that includes only the core primitives of choreographic programming. Every computable function can be implemented as a choreography in CC, from which we can synthesise a process implementation where independent computations run in parallel. We discuss the design of CC and argue that it constitutes a canonical model for choreographic programming.",
+      "type": "journal",
+      "non_group": false
+    },
+    {
       "bibitem": "@phdthesis{S20, author = {Larisa Safina}, title = {Formal methods and patterns for microservices}, school = {University of Southern Denmark}, year = 2020, month = 1}",
       "tags": [ "Microservices", "Choreographic Programming" ],
       "authors": [ "Larisa Safina" ],
