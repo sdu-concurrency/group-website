@@ -4,5 +4,6 @@ research-areas.pdf
 .docker-cache/
 web/_site/
 web/.jekyll-cache/
+web/.plugins_cache/
 web/.sass-cache/
 web/.jekyll-metadata

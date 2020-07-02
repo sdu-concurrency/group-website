@@ -20,11 +20,11 @@ layout: default
 
 {% include people_members.html %}
 
-{% include people_alumni.html %}
-
 {% include people_visiting.html %}
 
 {% include people_externals.html %}
+
+{% include people_alumni.html %}
 
 {% include people_former.html %}
 
