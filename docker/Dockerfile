@@ -10,7 +10,7 @@ FROM ruby as Build
 COPY --from=Source /git/web /srv/jekyll
 WORKDIR /srv/jekyll
 RUN bundle install
-RUN bundle exec jekyll build
+RUN bundle exec jekyll build --trace
 RUN mv /srv/jekyll/_site /site
 
 FROM jolielang/leonardo
