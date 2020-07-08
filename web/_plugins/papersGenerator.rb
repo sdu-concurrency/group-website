@@ -104,11 +104,12 @@ module Jekyll
           b[0].delete("url")
           b[0].title = "<span class=\"paper-title\">#{b[0].title}</span>"
           cp = CiteProc::Processor.new style: 'apa', format: 'text'
-          name = cp.engine.style.macros['author'] > 'names' > 'name'
-          name[:initialize] = 'false'
-          name["sort-separator"] = ' '
-          name["form"] = 'long'
-          name["name-as-sort-order"] = 'active'
+          # BROKEN
+          # name = cp.engine.style.macros['author'] > 'names' > 'name'
+          # name[:initialize] = 'false'
+          # name["sort-separator"] = ' '
+          # name["form"] = 'long'
+          # name["name-as-sort-order"] = 'active'
 
           item["id"] = b[0].key
 
