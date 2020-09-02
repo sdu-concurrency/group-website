@@ -3,7 +3,6 @@ layout: post
 title:  "Report from the Second International Conference on Microservices"
 place:  Dortmund, Germany
 date:   2019-02-22
-tag: featured
 ---
 <img class="img-fluid mx-auto d-block" src="/images/posts/microservices-2019-group.jpg">
 
