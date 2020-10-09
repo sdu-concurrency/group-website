@@ -1,5 +1,7 @@
 ﻿{
 	"current": [
+	],
+	"past": [
 		{
 			"title": "Postdoc in Programming Languages",
 			"deadline": "2020-08-05",
@@ -9,9 +11,7 @@
 			"title": "PhD positions in Programming Languages",
 			"deadline": "2020-08-05",
 			"link": "https://www.sdu.dk/en/service/ledige_stillinger/1104002?sc_lang=en"
-		}
-	],
-	"past": [
+		},
 		{
 			"title": "Assistant Professor in Computer Science",
 			"deadline": "2020-05-30",
