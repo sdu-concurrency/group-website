@@ -1,0 +1,11 @@
+{
+  "name" : "Valentino Picotti",
+  "role" : "PhD Student",
+  "id" : "vp",
+  "github" : "xpicox",
+  "photo" : "/images/people/vpicotti-p.jpg",
+  "email" : "picotti@imada.sdu.dk",
+  "office": { "label": "Ø18-511a-2",
+    "link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9be423b7d0540c9a9ac/"},
+  "research_topics" : [ "microservices", "choreographic programming", "programming languages" ]
+}
