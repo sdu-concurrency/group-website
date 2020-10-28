@@ -1,0 +1,11 @@
+{
+  "name" : "Lovro Lugovic",
+  "role" : "PhD Student",
+  "id" : "ll",
+  "github" : "lovrolu",
+  "photo" : "/images/people/llugovic-p.jpg",
+  "email" : "lugovic@imada.sdu.dk",
+  "office": { "label": "Ø18-511a-2",
+    "link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9be423b7d0540c9a9ac/"},
+  "research_topics" : [ "programming languages", "choreographic programming" ]
+}

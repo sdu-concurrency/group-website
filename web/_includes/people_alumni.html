@@ -46,6 +46,16 @@
     <small><a class="nodec" href="https://github.com/{{ person.github }}"><span class="icon fa-github"></span> Github</a></small>
 </div>
 {% endif %}
+{%if person.twitter %}
+<div class="col-sm-6">
+    <small><a class="nodec" href="https://twitter.com/{{ person.twitter }}"><span class="icon fa-twitter"></span> Twitter</a></small>
+</div>
+{% endif %}
+{%if person.linkedin %}
+<div class="col-sm-6">
+    <small><a class="nodec" href="https://linkedin.com/in/{{ person.linkedin }}"><span class="icon fa-linkedin"></span> LinkedIn</a></small>
+</div>
+{% endif %}
 </div>
 </div>
 </div>
