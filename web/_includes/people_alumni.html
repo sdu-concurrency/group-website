@@ -16,42 +16,42 @@
 <div class="row">
 <div class="col-sm-12"><strong>{{ person.name }}</strong></div>
 <div class="col-sm-12">Former {{ person.role }}</div>
-{%if person.website %}
+{%if person.website != blank %}
 <div class="col-sm-6">
     <small><a class="nodec" href="{{ person.website }}"><span class="fa fa-desktop"></span> Website</a></small>
 </div>
 {% endif %}
-{%if person.email %}
+{%if person.email != blank %}
 <div class="col-sm-6">
     <small><a class="nodec" href="mailto:{{ person.email | encode_email }}"><span class="fas fa-envelope"></span> E-mail</a></small>
 </div>
 {% endif %}
-{%if person.phone %}
+{%if person.phone != blank %}
 <div class="col-sm-6">
     <small><a class="nodec" href="https://orcid.org/{{ person.orcid }}"><span class="ai ai-orcid"></span> ORCID</a></small>
 </div>
 {% endif %}
-{%if person.dblp %}
+{%if person.dblp != blank %}
 <div class="col-sm-6">
     <small><a class="nodec" href="https://dblp.uni-trier.de/pid/{{ person.dblp }}"><span class="ai ai-dblp"></span> DBLP</a></small>
 </div>
 {% endif %}
-{%if person.google_scholar %}
+{%if person.google_scholar != blank %}
 <div class="col-sm-6">
     <small><a class="nodec" href="https://scholar.google.com/citations?user={{ person.google_scholar }}"><span class="ai ai-google-scholar"></span> Scholar</a></small>
 </div>
 {% endif %}
-{%if person.github %}
+{%if person.github != blank %}
 <div class="col-sm-6">
     <small><a class="nodec" href="https://github.com/{{ person.github }}"><span class="icon fa-github"></span> Github</a></small>
 </div>
 {% endif %}
-{%if person.twitter %}
+{%if person.twitter != blank %}
 <div class="col-sm-6">
     <small><a class="nodec" href="https://twitter.com/{{ person.twitter }}"><span class="icon fa-twitter"></span> Twitter</a></small>
 </div>
 {% endif %}
-{%if person.linkedin %}
+{%if person.linkedin != blank %}
 <div class="col-sm-6">
     <small><a class="nodec" href="https://linkedin.com/in/{{ person.linkedin }}"><span class="icon fa-linkedin"></span> LinkedIn</a></small>
 </div>
