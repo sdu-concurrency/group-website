@@ -77,6 +77,8 @@ People entries are stored inside the `_data/people` folder, within the root, in 
   "google_scholar" : "USER",
   "orcid" : "ID",
   "github" : "USER",
+  "twitter" : "USER",
+  "linkedin" : "USER",
   "photo" : "URL",
   "research_topics" : [ "TOPIC1", "TOPIC2" ]
 }
@@ -88,8 +90,11 @@ Where
 `https://dblp.uni-trier.de/pers/hd/p/Professorson:Professor`);
 - `"google_scholar"` is optional and contains the person's profile identifier on [Google Scholar](https://scholar.google.com) (the argument `"user"` in the profile URL);
 - `"orcid"` is optional and contains the person's [ORCID](https://orcid.org/) identifier;
+- `"twitter"` is optional and contains the person's [Twitter](https://twitter/) handler;
+- `"linkedin"` is optional and contains the person's [LinkedIn](https://linkedin.com/) profile (e.g, `in/professor-professorson` where Professorson's profile is at
+`https://linkedin.com/in/professor-professorson`);
 
-People images can be included in the folder `images/people` under the root. To link the image in the json entry use the path from the root to the file, e.g, `/images/people/PHOTO.jpg`.
+Profile pictures must be 10x8 portraits and can be included in the folder `images/people` under the root. To link the image in the json entry use the path from the root to the file, e.g, `/images/people/PHOTO.jpg`.
 
 
 ### Adding grants
