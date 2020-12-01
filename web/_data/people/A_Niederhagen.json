@@ -10,9 +10,9 @@
   "orcid" : "",
   "github" : "",
   "twitter" : "",
-  "linkedin" : "",
-  "website" : "",
+  "linkedin" : "ruben-niederhagen",
+  "website" : "http://www.polycephaly.org/",
   "email" : "niederhagen@imada.sdu.dk",
   "photo" : "/images/people/rniederhagen-p.jpg",
-  "research_topics" : [ "Post-quantum cryptography", "Embedded Security" ]
+  "research_topics" : [ "Post-Quantum Cryptography", "Cryptographic Engineering", "Embedded Security" ]
 }
