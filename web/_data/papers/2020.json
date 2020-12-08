@@ -77,6 +77,20 @@
       "non_group" : false,
       "type": "conference",
       "grants" : [ "DFF-7014-00041" ]
+    },
+    {
+      "bibitem": "@inproceedings{MP20,  author = {Miculan, Marino and Peressotti, Marco}, editor = {Cordasco, Gennaro and Gargano, Luisa and Rescigno, Adele A.}, title = {Software Transactional Memory with Interactions}, booktitle = {Proceedings of the 21st Italian Conference on Theoretical Computer Science, Ischia, Italy, September 14-16, 2020}, series = {{CEUR} Workshop Proceedings}, volume = {2756}, pages = {67--80}, publisher = {CEUR-WS.org}, year = {2020}, url = {http://ceur-ws.org/Vol-2756/paper_7.pdf}}",
+      "links": [
+        { "name" : "technical report",
+          "link" : "https://arxiv.org/abs/2007.10809",
+          "icon" : "arxiv"}
+      ],
+      "abstract": "Software Transactional memory (STM) is an emerging abstraction for concurrent programming alternative to lock-based synchronizations. Most STM models admit only isolated transactions, which are not adequate in multithreaded programming where transactions need to interact via shared data before committing. To overcome this limitation, in this paper we present Open Transactional Memory (OTM), a programming abstraction supporting safe, data-driven interactions between composable memory transactions. This is achieved by relaxing isolation between transactions, still ensuring atomicity. This model allows for loosely-coupled interactions since transaction merging is driven only by accesses to shared data, with no need to specify participants beforehand.",
+      "tags" : [ "Concurrency", "Programming Languages", "Transactional Memory" ],
+      "authors" : [ "Marco Peressotti" ],
+      "type" : "Conference",
+      "grants" : [ "DFF-7014-00041" ],
+      "non_group" : false
     }
   ]
 }
