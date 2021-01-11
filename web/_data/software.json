@@ -62,8 +62,8 @@
   {
     "name" : "JLibBig",
     "short-bio" : "An extensible Java library for Bigraphs and Bigraphical Reactive Systems.",
-    "bio":"Bigraphs and Bigraphical Reactive Systems are a modern, graphical calculus for the description of the syntax and semantics of systems in terms of the orthogonal notions of connectivity and locality. Since they introduction by Robin Milner, bigraphs have been succesfully applied to model complex, concurrent, context-dependent, or ubiquituous systems in a variety of fields beyond computer science like biology and databases.",
-    "website" : "http://mads.uniud.it/wordpress/downloads/libbig/",
+    "bio":"Bigraphs and Bigraphical Reactive Systems are a modern, graphical calculus for the description of the syntax and semantics of systems in terms of the orthogonal notions of connectivity and locality. Since their introduction by Robin Milner, bigraphs have been succesfully applied to model complex, concurrent, context-dependent, or ubiquituous systems in a variety of fields beyond computer science like biology and databases.",
+    "website" : "https://bigraphs.github.io/jlibbig/",
     "repository" : {
       "link" : "https://github.com/bigraphs/jlibbig",
       "icon" : "fab fa-github"
