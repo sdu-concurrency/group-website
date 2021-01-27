@@ -1,38 +1,17 @@
 ﻿[
-       {
-             "title" : "Application to Society",
-             "id" : "sa",
-             "elements" : [
-                {
-                        "title" : "Cloud Computing", 
-                        "description" : "Cloud computing is a new paradigm that enables the ubiquitous access to pools of computing resources that can be rapidly provisioned with minimal management effort. Since the launch of Amazon EC2 in 2006, cloud computing has revolutionize the software development, allowing the developers to partially abstract from the computing medium and develop applications that can be deployed in matter of minutes and can easily scale based on the request load. More than 50% of organizations are using the cloud to message, store data, and compute.", 
-                        "id": "cc"
-                },
-                { 
-                        "title" : "Digital Transformation", 
-                        "description" : "The promise of Digital Transformation is to accelerate and improve business activities, processes, and models through digital automation. This process has already started decades ago, but recently it has become a crucial asset for companies in highly-competing markets. At the essence of Digital Transformation there are two factors: integration and flexibility. Companies already own many digital systems, used to automate specific tasks. However, these systems are frequently silos: they are not meant to interact with other systems and the data they manage is difficult to extract and share. Integration of these legacy systems (both within the same company or belonging to different ones) as well as with recent applications, devices, and the Cloud must go hand-in-hand with a high flexibility to change how the integrated systems interact with each other. Together, these two factors lead to increased productivity, as well as better reactivity and system consistency.",
-                        "id": "dt"
-                },
-                {
-                        "title" : "Reliable Computing",
-                        "description" : "In a world where we rely more and more on computers to perform tasks of ever-increasing responsibility, it is essential to be able to guarantee that these computers are doing their work correctly. It is unacceptable that a plane crashes because of a software fault, or that a patient in a hospital dies because a computer assigned them the wrong medication.<br />One of the goals of our group's research is to increase reliability of computations, by either designing tools and techniques to generate code that is mathematically guaranteed to satisfy specific safety properties (correctness-by-construction) or by exploring methods to verify interesting properties of existing computer systems (hardware/software verification).",
-                        "id": "rc"
-                }
-        ]
-     },
      {
              "title" : "Research Areas",
              "id" : "ra",
                    "elements" : [
                 { 
-                        "title" : "Applied Logic",
-                        "description" : "Traditionally the science that studies reasoning, logic has become an important tool in several areas of Computer Science. In our group, we apply logic and logic techniques to specify and verify properties of programming models, be it in the form of particular logics that we can use to write and prove interesting properties; as type systems that automatically ensure interesting properties of our systems; or through correspondences between logic proofs and programs that allow us to view the latter in insightful new ways. We also use logic and state-of-the-art solvers to optimize real world problems such as scheduling, packing, timetabling, configuration, and logistics problems.",
-                        "id": "al"
-                },
-                { 
                         "title" : "Concurrency Theory", 
                         "description" : "Concurrency refers to the ability of multiple (possibly interacting) activities to overlap over time, so that one starts before the other finishes. Digital systems are a prime example of such ability for they exhibit concurrent aspects at every scale: from computing clouds to modern CPUs. Concurrency Theory is the science of concurrency. This research area started as part of Theoretical Computer Science but extends far beyond that. In fact, concurrent features appear in many different fields like Biology, Economics, Medicine, and Social Sciences. Building upon our group’s expertise in applied logic, programming languages, and software engineering, we continuously apply and advance the state-of-the-art in concurrency. Most of all, we focus on programming languages and tools to design, develop, and analyse complex concurrent systems.", 
                         "id": "ct"
+                },
+                { 
+                        "title" : "Knowledge representation",
+                        "description" : "Knowledge representation is the subfield of AI that studies reasoning. In our group, we work in different subareas of this topic. We investigate techniques for online reasoning with incomplete information that arrives over time. We apply logic and logic techniques to specify and verify properties of programming models, both by: developing logics to write and prove interesting properties; designing type systems that automatically ensure interesting properties of our systems; or studying correspondences between logic proofs and programs that allow us to view the latter in insightful new ways. Finally, we also use logic and state-of-the-art solvers to optimize real world problems such as scheduling, packing, timetabling, configuration, and logistics problems.",
+                        "id": "al"
                 },
                 { 
                         "title" : "Programming Languages", 
@@ -76,9 +55,35 @@
                         "id": "qm"
                 },
                 { 
-                        "title" : "Theorem Proving",
-                        "description" : "Since researchers in 1973 proved a mathematical result (the four-color theorem) using a computer program, there has been an increasing interest in using computers to do abstract mathematics &ndash; rather than simply viewing them as extremely powerful calculators. Although the classical results of Gödel and Turing tell us that there are limits to how much can be automated, computers have gained notourious success at being able to prove safety and correctness properties of sensitive software &ndash; either on their own or interactively.<br />Building upon our group's expertise on theorem proving, we plan to start applying it to choreographic programming, evolving our mathematical constructions into full-fledged certified compilers that are guaranteed not to introduce errors in the code they generate.",
+                        "title" : "Stream Reasoning",
+                        "description" : "Modern day computer systems have to react in real time to information that they receive from e.g. sensors, continuously producing results in an online fashion. This reasoning problem is known as <i>continuous query answering</i>. We investigate how one can compute answers to contiuous queries in an online fashion, by continuously updating the system's knowledge with incoming information, giving information about how likely it is that a particular answer will be produced. We also study how to integrate practical problems such as data arriving out of order, or being lost in transmission, in our theoretical framework, in order to develop usable tools.",
                         "id": "tp"
+                },
+                { 
+                        "title" : "Theorem Proving",
+                        "description" : "Since researchers in 1973 proved a mathematical result (the four-color theorem) using a computer program, there has been an increasing interest in using computers to do abstract mathematics &ndash; rather than simply viewing them as extremely powerful calculators. Although the classical results of Gödel and Turing tell us that there are limits to how much can be automated, computers have gained notourious success at being able to prove safety and correctness properties of sensitive software &ndash; either on their own or interactively.<br />Building upon our group's expertise on theorem proving, we are currently applying it to choreographic programming, evolving our mathematical constructions into full-fledged certified compilers that are guaranteed not to introduce errors in the code they generate.",
+                        "id": "tp"
+                }
+        ]
+     },
+       {
+             "title" : "Application to Society",
+             "id" : "sa",
+             "elements" : [
+                {
+                        "title" : "Cloud Computing", 
+                        "description" : "Cloud computing is a new paradigm that enables the ubiquitous access to pools of computing resources that can be rapidly provisioned with minimal management effort. Since the launch of Amazon EC2 in 2006, cloud computing has revolutionize the software development, allowing the developers to partially abstract from the computing medium and develop applications that can be deployed in matter of minutes and can easily scale based on the request load. More than 50% of organizations are using the cloud to message, store data, and compute.", 
+                        "id": "cc"
+                },
+                { 
+                        "title" : "Digital Transformation", 
+                        "description" : "The promise of Digital Transformation is to accelerate and improve business activities, processes, and models through digital automation. This process has already started decades ago, but recently it has become a crucial asset for companies in highly-competing markets. At the essence of Digital Transformation there are two factors: integration and flexibility. Companies already own many digital systems, used to automate specific tasks. However, these systems are frequently silos: they are not meant to interact with other systems and the data they manage is difficult to extract and share. Integration of these legacy systems (both within the same company or belonging to different ones) as well as with recent applications, devices, and the Cloud must go hand-in-hand with a high flexibility to change how the integrated systems interact with each other. Together, these two factors lead to increased productivity, as well as better reactivity and system consistency.",
+                        "id": "dt"
+                },
+                {
+                        "title" : "Reliable Computing",
+                        "description" : "In a world where we rely more and more on computers to perform tasks of ever-increasing responsibility, it is essential to be able to guarantee that these computers are doing their work correctly. It is unacceptable that a plane crashes because of a software fault, or that a patient in a hospital dies because a computer assigned them the wrong medication.<br />One of the goals of our group's research is to increase reliability of computations, by either designing tools and techniques to generate code that is mathematically guaranteed to satisfy specific safety properties (correctness-by-construction) or by exploring methods to verify interesting properties of existing computer systems (hardware/software verification).",
+                        "id": "rc"
                 }
         ]
      }
