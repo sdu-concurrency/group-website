@@ -14,7 +14,7 @@
                         "id": "cy"
                 },
                 { 
-                        "title" : "Knowledge representation",
+                        "title" : "Knowledge Representation",
                         "description" : "Knowledge representation is the subfield of AI that studies reasoning. In our group, we work in different subareas of this topic. We investigate techniques for online reasoning with incomplete information that arrives over time. We apply logic and logic techniques to specify and verify properties of programming models, both by: developing logics to write and prove interesting properties; designing type systems that automatically ensure interesting properties of our systems; or studying correspondences between logic proofs and programs that allow us to view the latter in insightful new ways. Finally, we also use logic and state-of-the-art solvers to optimize real world problems such as scheduling, packing, timetabling, configuration, and logistics problems.",
                         "id": "al"
                 },
