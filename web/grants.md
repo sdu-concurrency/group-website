@@ -24,7 +24,7 @@ layout: default
 <ul>
 <li><strong>Duration</strong>: from {{ grant.period.start }} to {{ grant.period.end }}</li>
 {% if grant.website %}
-<li><strong>Website</strong>: <a href="{{ grant.website }}" title="">{{ grant.website}}</a></li>
+<li><strong>Website</strong>: <a href="{{ grant.website }}" title="">{{ grant.website }}</a></li>
 {% endif %}
 {% if grant.number %}
 <li><strong>Grant number</strong>: {{ grant.number }}</li>
