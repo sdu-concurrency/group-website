@@ -1,7 +1,7 @@
 { "title" : "2017",
   "papers": [
 	{
-    "bibitem": "@inproceedings{MT17,  author = {Fabrizio Montesi and  Dan Sebastian Thrane},  title = {Packaging Microservices - (Work in Progress)},  booktitle = {{DAIS}},  series = {Lecture Notes in Computer Science},  volume = {10320},  pages = {131--137},  publisher = {Springer},  year = {2017} }",
+    "bibitem": "@inproceedings{MT17,  author = {Fabrizio Montesi and  Dan Sebastian Thrane},  title = {Packaging Microservices - (Work in Progress)},  booktitle = {{DAIS}},  series = {Lecture Notes in Computer Science},  volume = {10320},  pages = {131--137},  publisher = {Springer},  year = {2017}, doi = {10.1007/978-3-319-59665-5\\_9}}",
     "links": [
       { "link" : "https://www.fabriziomontesi.com/files/mt17.pdf" }
     ],
@@ -12,7 +12,7 @@
     "non_group" : false
   },
 	{
-    "bibitem": "@inproceedings{M17,  author = {Fabrizio Montesi},  title = {Classical Higher-Order Processes - (Short Paper)},  booktitle = {{FORTE}},  series = {Lecture Notes in Computer Science},  volume = {10321},  pages = {171--178},  publisher = {Springer},  year = {2017} }",
+    "bibitem": "@inproceedings{M17,  author = {Fabrizio Montesi},  title = {Classical Higher-Order Processes - (Short Paper)},  booktitle = {{FORTE}},  series = {Lecture Notes in Computer Science},  volume = {10321},  pages = {171--178},  publisher = {Springer},  year = {2017}, doi = {10.1007/978-3-319-60225-7\\_12} }",
     "links": [
       { "link" : "https://www.fabriziomontesi.com/files/m17_forte.pdf" },
 			{ "name" : "technical report",
@@ -26,7 +26,7 @@
     "non_group" : false
   },
 	{
-    "bibitem": "@article{CMSY17,  author = {Marco Carbone and  Fabrizio Montesi and  Carsten Sch{\\\"{u}}rmann and  Nobuko Yoshida},  title = {Multiparty session types as coherence proofs},  journal = {Acta Inf.},  volume = {54},  number = {3},  pages = {243--269},  year = {2017} }",
+    "bibitem": "@article{CMSY17,  author = {Marco Carbone and  Fabrizio Montesi and  Carsten Sch{\\\"{u}}rmann and  Nobuko Yoshida},  title = {Multiparty session types as coherence proofs},  journal = {Acta Inf.},  volume = {54},  number = {3},  pages = {243--269},  year = {2017}, doi = {10.1007/s00236-016-0285-y}}",
     "links": [
       { "link" : "https://www.fabriziomontesi.com/files/cmsy16.pdf" }
     ],
@@ -37,7 +37,7 @@
     "non_group" : false
   },
 	{
-    "bibitem": "@incollection{GLMM17,  author = {Claudio Guidi and  Ivan Lanese and  Manuel Mazzara and  Fabrizio Montesi},  title = {Microservices: {A} Language-Based Approach},  booktitle = {Present and Ulterior Software Engineering},  pages = {217--225},  publisher = {Springer},  year = {2017} }",
+    "bibitem": "@incollection{GLMM17,  author = {Claudio Guidi and  Ivan Lanese and  Manuel Mazzara and  Fabrizio Montesi},  title = {Microservices: {A} Language-Based Approach},  booktitle = {Present and Ulterior Software Engineering},  pages = {217--225},  publisher = {Springer},  year = {2017}, doi = {10.1007/978-3-319-67425-4\\_13}}",
     "abstract": "Microservices is an emerging development paradigm where software is obtained by composing autonomous entities, called (micro)services. However, microservice systems are currently developed using general-purpose programming languages that do not provide dedicated abstractions for service composition. Instead, current practice is focused on the deployment aspects of microservices, in particular by using containerization. In this chapter, we make the case for a language-based approach to the engineering of microservice architectures, which we believe is complementary to current practice. We discuss the approach in general, and then we instantiate it in terms of the Jolie programming language.",
     "tags" : [ "Microservices", "Jolie" ],
     "authors" : [ "Fabrizio Montesi" ],
@@ -45,7 +45,7 @@
     "non_group" : false
   },
   {
-    "bibitem": "@incollection{DGLMMMS17, title={Microservices: yesterday, today, and tomorrow}, author={Dragoni, Nicola and Giallorenzo, Saverio and Lafuente, Alberto Lluch and Mazzara, Manuel and Montesi, Fabrizio and Mustafin, Ruslan and Safina, Larisa}, booktitle={Present and Ulterior Software Engineering}, pages={195--216}, year={2017}, publisher={Springer}}",
+    "bibitem": "@incollection{DGLMMMS17, title={Microservices: yesterday, today, and tomorrow}, author={Dragoni, Nicola and Giallorenzo, Saverio and Lafuente, Alberto Lluch and Mazzara, Manuel and Montesi, Fabrizio and Mustafin, Ruslan and Safina, Larisa}, booktitle={Present and Ulterior Software Engineering}, pages={195--216}, year={2017}, publisher={Springer}, doi = {10.1007/978-3-319-67425-4\\_12}}",
     "links": [
 			{ "link" : "https://www.fabriziomontesi.com/files/dglmmms17.pdf" },
       { "name" : "paper (alternative)", "link" : "http://www.saveriogiallorenzo.com/publications/msytt/" }
@@ -137,7 +137,7 @@
     "type": "journal"
   },
   {
-    "bibitem": "@inproceedings{CLM17, author = {Cruz{-}Filipe, Lu{\\'i}s and Larsen, Kim S. and Montesi, Fabrizio}, title = {The Paths to Choreography Extraction}, editor = {Esparza, Javier and Murawski, Andrzej S.}, series = {LNCS}, booktitle = {FoSSaCS}, volume = 10203, publisher = {Springer}, year = 2017, pages = {424--440}}",
+    "bibitem": "@inproceedings{CLM17, author = {Cruz{-}Filipe, Lu{\\'i}s and Larsen, Kim S. and Montesi, Fabrizio}, title = {The Paths to Choreography Extraction}, editor = {Esparza, Javier and Murawski, Andrzej S.}, series = {LNCS}, booktitle = {FoSSaCS}, volume = 10203, publisher = {Springer}, year = 2017, pages = {424--440}, doi = {10.1007/978-3-662-54458-7\\_25}}",
     "links": [
 			{ "link" : "https://www.fabriziomontesi.com/files/clm17.pdf" },
       { "name" : "full paper",
@@ -162,7 +162,7 @@
     "type": "conference"
   },
   {
-    "bibitem": "@inproceedings{CM17a, author = {Lu{\\'i}s Cruz-Filipe and Fabrizio Montesi}, title = {A Core Model for Choreographic Programming}, publisher = {Springer}, series = {LNCS}, booktitle = {FACS}, year = 2017, volume = 10231, pages = {17--35}, editor = {Kouchnarenko, Olga and Khosravi, Ramin}}",
+    "bibitem": "@inproceedings{CM17a, author = {Lu{\\'i}s Cruz-Filipe and Fabrizio Montesi}, title = {A Core Model for Choreographic Programming}, publisher = {Springer}, series = {LNCS}, booktitle = {FACS}, year = 2017, volume = 10231, pages = {17--35}, editor = {Kouchnarenko, Olga and Khosravi, Ramin}, doi = {10.1007/978-3-319-57666-4\\_3}}",
     "links": [
 			{ "link" : "https://www.fabriziomontesi.com/files/cm16_facs.pdf" },
       { "name" : "paper (alternative)", "link" : "http://tinyurl.com/lcfilipe/pubs/paper35.pdf" }
@@ -207,7 +207,7 @@
     "type": "conference"
   },
   {
-    "bibitem": "@inproceedings{CM17c, author = {Cruz-Filipe, Lu{\\'i}s and Montesi, Fabrizio}, title = {Procedural Choreographic Programming}, pages = {92--107}, editor = {Ahmed Bouajjani and Alexandra Silva}, booktitle = {Formal Techniques for Distributed Objects, Components, and Systems -- 37th IFIP WG 6.1 International Conference, FORTE 2017}, series = {LNCS}, publisher = {Springer}, year = 2017, volume = 10321}",
+    "bibitem": "@inproceedings{CM17c, author = {Cruz-Filipe, Lu{\\'i}s and Montesi, Fabrizio}, title = {Procedural Choreographic Programming}, pages = {92--107}, editor = {Ahmed Bouajjani and Alexandra Silva}, booktitle = {Formal Techniques for Distributed Objects, Components, and Systems -- 37th IFIP WG 6.1 International Conference, FORTE 2017}, series = {LNCS}, publisher = {Springer}, year = 2017, volume = 10321, doi = {10.1007/978-3-319-60225-7\\_7}}",
     "links": [
 			{ "link" : "https://www.fabriziomontesi.com/files/cm17_forte.pdf" },
       { "name" : "paper (alternative)", "link" : "http://tinyurl.com/lcfilipe/pubs/paper39.pdf" }

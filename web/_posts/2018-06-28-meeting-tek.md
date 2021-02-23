@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Concurrency and Logic meets Software Engineering"
+title:  "ACP meets Software Engineering"
 place:  Odense, Denmark
 date:   2018-06-28
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Concurrency and Logic group lecturing at CyberSecurity Summer School 2020"
+title:  "ACP group lecturing at CyberSecurity Summer School 2020"
 place:  Ballerup, Denmark
 date:   2020-08-26
 ---

@@ -34,7 +34,7 @@
 	    "type": "conference"
 	  },
 		{
-	    "bibitem": "@incollection{DBLP:books/sp/wsf14/MontesiGZ14,  author = {Fabrizio Montesi and  Claudio Guidi and  Gianluigi Zavattaro},  editor = {Athman Bouguettaya and  Quan Z. Sheng and  Florian Daniel},  title = {Service-Oriented Programming with Jolie},  booktitle = {Web Services Foundations},  pages = {81--107},  publisher = {Springer},  year = {2014} }",
+	    "bibitem": "@incollection{DBLP:books/sp/wsf14/MontesiGZ14,  author = {Fabrizio Montesi and  Claudio Guidi and  Gianluigi Zavattaro},  editor = {Athman Bouguettaya and  Quan Z. Sheng and  Florian Daniel},  title = {Service-Oriented Programming with Jolie},  booktitle = {Web Services Foundations},  pages = {81--107},  publisher = {Springer},  year = {2014}, doi = {10.1007/978-1-4614-7518-7_4} }",
 	    "links": [
 	      { "link" : "https://www.fabriziomontesi.com/files/mgz14.pdf" }
 	    ],

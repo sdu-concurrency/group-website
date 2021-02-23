@@ -58,13 +58,15 @@ layout: default
 # Research Areas
 
 </header><section class="wrapper card card-body style4 container"><div class="content"><section markdown="1">
-Our research topics fit in four research areas and address issues in three different societal challenges.
+Our research topics span over five different research areas, addressing issues in different societal challenges.
 
 <div class="d-none d-md-block">
+<!--
 The interrelation between these components is illustrated below.
 
   <div class="offset-1 col-10 center">{% include research-areas.svg %}</div>
 </div>
+-->
   <div class="mt-4"></div>
 
   <div class="d-sm-block d-md-none nav flex-column nav-pills" id="myTab" role="tablist" aria-orientation="vertical">
