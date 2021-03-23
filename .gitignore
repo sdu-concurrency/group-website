@@ -7,3 +7,4 @@ web/.jekyll-cache/
 web/.plugins_cache/
 web/.sass-cache/
 web/.jekyll-metadata
+*.json~
