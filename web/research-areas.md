@@ -53,11 +53,11 @@ layout: default
 
 <article id="main">
   <header class="major container">
-    <h1 id="research-areas">Research Areas</h1>
+    <h1 id="research-areas">Research</h1>
   </header>
   <section class="wrapper card card-body style4 container">
     <div class="content">
-        Our research topics span over five different research areas, addressing issues in different societal challenges.
+        Our research covers topics from different research areas, addressing issues in different societal challenges.
 
         {%-comment-%}
         <div class="d-none d-md-block">
@@ -107,7 +107,7 @@ layout: default
           id="{{ item.id }}" role="tabpanel" aria-labelledby="{{ item.id }}-tab">
           {% for element in item.elements %}
           <div class="pl-4 border-dark">
-            <a class="nodec reset" data-toggle="collapse" href="#{{ item.id }}_{{ element.id }}" aria-expanded="true" id="{{ item.id }}_{{ element.id }}-item" aria-controls="{{ item.id }}_{{ element.id }}">
+            <a class="nodec reset" data-toggle="collapse" href="#{{ item.id }}_{{ element.id }}" aria-expanded="false" id="{{ item.id }}_{{ element.id }}-item" aria-controls="{{ item.id }}_{{ element.id }}">
               <h5 class="card-title "><span class="collapse_icon fas fa-angle-up"></span>{{ element.title }}</h5></a>
               <div class="collapse show" id="{{ item.id }}_{{ element.id }}">
                 <div class="card-body">

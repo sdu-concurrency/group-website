@@ -4,9 +4,14 @@
              "id" : "ra",
                    "elements" : [
                 { 
-                        "title" : "Concurrency Theory", 
-                        "description" : "Concurrency refers to the ability of multiple (possibly interacting) activities to overlap over time, so that one starts before the other finishes. Digital systems are a prime example of such ability for they exhibit concurrent aspects at every scale: from computing clouds to modern CPUs. Concurrency Theory is the science of concurrency. This research area started as part of Theoretical Computer Science but extends far beyond that. In fact, concurrent features appear in many different fields like Biology, Economics, Medicine, and Social Sciences. Building upon our group’s expertise in applied logic, programming languages, and software engineering, we continuously apply and advance the state-of-the-art in concurrency. Most of all, we focus on programming languages and tools to design, develop, and analyse complex concurrent systems.", 
-                        "id": "ct"
+                        "title" : "Artificial Intelligence • Knowledge Representation",
+                        "description" : "Knowledge representation is the subfield of AI that studies reasoning. In our group, we work in different subareas of this topic. We investigate techniques for online reasoning with incomplete information that arrives over time. We apply logic and logic techniques to specify and verify properties of programming models, both by: developing logics to write and prove interesting properties; designing type systems that automatically ensure interesting properties of our systems; or studying correspondences between logic proofs and programs that allow us to view the latter in insightful new ways. Finally, we also use logic and state-of-the-art solvers to optimize real world problems such as scheduling, packing, timetabling, configuration, and logistics problems.",
+                        "id": "kr"
+                },
+                { 
+                        "title" : "Artificial Intelligence • Optimization",
+                        "description" : "Optimization problems are everywhere: scheduling, planning, manufacturing, logistics, transportation, smart factories, medicine and smart cities are just examples of applications domains.  Solving these optimization problems is a key requirement towards environmental, social, economic, and energy resources sustainability and efficiency.  In our group, we apply and study complete or heuristic-based algorithm techniques for optimization problems combining in particular their strengths by using machine based algorithm selection techniques.",
+                        "id": "opt"
                 },
                 {
                         "title" : "Cybersecurity",
@@ -14,19 +19,19 @@
                         "id": "cy"
                 },
                 { 
-                        "title" : "Knowledge Representation",
-                        "description" : "Knowledge representation is the subfield of AI that studies reasoning. In our group, we work in different subareas of this topic. We investigate techniques for online reasoning with incomplete information that arrives over time. We apply logic and logic techniques to specify and verify properties of programming models, both by: developing logics to write and prove interesting properties; designing type systems that automatically ensure interesting properties of our systems; or studying correspondences between logic proofs and programs that allow us to view the latter in insightful new ways. Finally, we also use logic and state-of-the-art solvers to optimize real world problems such as scheduling, packing, timetabling, configuration, and logistics problems.",
-                        "id": "al"
+                        "title" : "Programming Languages • Concurrency Theory", 
+                        "description" : "Concurrency refers to the ability of multiple (possibly interacting) activities to overlap over time, so that one starts before the other finishes. Digital systems are a prime example of such ability for they exhibit concurrent aspects at every scale: from computing clouds to modern CPUs. Concurrency Theory is the science of concurrency. This research area started as part of Theoretical Computer Science but extends far beyond that. In fact, concurrent features appear in many different fields like Biology, Economics, Medicine, and Social Sciences. Building upon our group’s expertise in applied logic, programming languages, and software engineering, we continuously apply and advance the state-of-the-art in concurrency. Most of all, we focus on programming languages and tools to design, develop, and analyse complex concurrent systems.", 
+                        "id": "ct"
                 },
                 { 
-                        "title" : "Programming Languages", 
-                        "description" : "Programming languages have a central role in solving computing problems for they empower developers with building blocks for solving problems or classes of problems. Research on programming languages is not just to find solutions to important problems, but to find the best expression of those solutions, typically in the form of a language, language extension, library, program analysis, or transformation. The aim is for simple, understandable solutions that are also general since by acting at the level of a language (or its toolchain) they apply to many sorts of programs and sorts of problems. Therefore, a rigorous approach to software behaviour is critical to prove that (classes of) programs enjoy desired properties, and/or eschew undesired ones. Building upon our group’s expertise, we develop programming language solutions to the challenges issued by the growing complexity of concurrent systems, especially in the wake of the digital transformation.", 
-                        "id": "pl"
-                },
-                { 
-                        "title" : "Software Engineering", 
+                        "title" : "Programming Languages • Software Engineering", 
                         "description" : "Software Engineering is the establishment and use of sound engineering principles in order to economically obtain software that is reliable and works efficiently on real machines. Software engineering is needed due to the hight rate of change in user requirements and environment on which the software is working. Based on the application to develop, the available resources and constraints, Software Engineering provides best practices and methodologies to ease and guide the task of developing and maintaining the software from the initial requirement specification through its entire evolution.", 
                         "id": "se"
+                },
+                { 
+                        "title" : "Programming Languages • Theory of Programming Languages", 
+                        "description" : "Programming languages have a central role in solving computing problems for they empower developers with building blocks for solving problems or classes of problems. Research on programming languages is not just to find solutions to important problems, but to find the best expression of those solutions, typically in the form of a language, language extension, library, program analysis, or transformation. The aim is for simple, understandable solutions that are also general since by acting at the level of a language (or its toolchain) they apply to many sorts of programs and sorts of problems. Therefore, a rigorous approach to software behaviour is critical to prove that (classes of) programs enjoy desired properties, and/or eschew undesired ones. Building upon our group’s expertise, we develop programming language solutions to the challenges issued by the growing complexity of concurrent systems, especially in the wake of the digital transformation.", 
+                        "id": "pl"
                 }
         ]
      },
@@ -71,8 +76,8 @@
                 },
                 { 
                         "title" : "Stream Reasoning",
-                        "description" : "Modern day computer systems have to react in real time to information that they receive from e.g. sensors, continuously producing results in an online fashion. This reasoning problem is known as <i>continuous query answering</i>. We investigate how one can compute answers to contiuous queries in an online fashion, by continuously updating the system's knowledge with incoming information, giving information about how likely it is that a particular answer will be produced. We also study how to integrate practical problems such as data arriving out of order, or being lost in transmission, in our theoretical framework, in order to develop usable tools.",
-                        "id": "tp"
+                        "description" : "Modern day computer systems have to react in real time to information that they receive from e.g. sensors, continuously producing results in an online fashion. This reasoning problem is known as <i>continuous query answering</i>. We investigate how one can compute answers to continuous queries in an online fashion, by continuously updating the system's knowledge with incoming information, giving information about how likely it is that a particular answer will be produced. We also study how to integrate practical problems such as data arriving out of order, or being lost in transmission, in our theoretical framework, in order to develop usable tools.",
+                        "id": "sr"
                 },
                 { 
                         "title" : "Theorem Proving",
