@@ -16,11 +16,15 @@ At the undergraduate level, we offer courses within the Computer Science bachelo
 
 ## Master Courses
 
-At the graduate level, we offer a course package on <i>Concurrency  and
-Logic</i> within the Master programme in Computer Science. This package
-includes 4 courses (40 ECTS) and covers the theoretical and practical
+At the graduate level, we coordinate a course package on <i>Cybersecurity and
+Cloud Computing</i> within the Master programme in Computer Science at SDU, which includes 7 courses (55 ECTS). It covers the theoretical and practical
 aspects of designing concurrent and distributed systems, specifying and
-validating their properties.
+validating their properties; and the fundamentals of cybersecurity and
+cryptography.
+
+We also collaborate on the package on <i>Data Science and Artificial
+Intelligence</i> with 2 courses (20 ECTS) on optimization and knowledge
+representation.
 
 <!-- ## Talent Fellowship
 
