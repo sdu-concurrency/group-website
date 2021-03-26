@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Fabrizio Montesi receives Villum Young Investagor grant of DKK 7.1 millions"
+title:  "Fabrizio Montesi receives Villum Young Investigator grant of DKK 7.1 millions"
 place:  Copenhagen, DK
 date:   2020-01-24
 tag: featured
