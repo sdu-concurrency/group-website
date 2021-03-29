@@ -109,7 +109,7 @@ layout: default
           <div class="pl-4 border-dark">
             <a class="nodec reset" data-toggle="collapse" href="#{{ item.id }}_{{ element.id }}" aria-expanded="false" id="{{ item.id }}_{{ element.id }}-item" aria-controls="{{ item.id }}_{{ element.id }}">
               <h5 class="card-title "><span class="collapse_icon fas fa-angle-up"></span>{{ element.title }}</h5></a>
-              <div class="collapse show" id="{{ item.id }}_{{ element.id }}">
+              <div class="collapse" id="{{ item.id }}_{{ element.id }}">
                 <div class="card-body">
                   <p class="card-text">{{ element.description }}</p>
                 </div>

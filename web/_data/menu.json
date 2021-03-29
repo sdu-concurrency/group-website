@@ -23,7 +23,7 @@
     "subitems": [
       {
         "title": "Bachelor",
-        "link": "/education.html#bachelor"
+        "link": "/education.html"
       },
       {
         "title": "MSc Courses",
@@ -45,7 +45,7 @@
     "subitems": [
       {
         "title": "Members",
-        "link": "/people.html#members"
+        "link": "/people.html"
       },
       {
         "title": "Alumni",
