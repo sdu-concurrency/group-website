@@ -8,6 +8,8 @@ RUN git clone --depth=1 https://github.com/sdu-concurrency/group-website /git
 
 FROM ruby as Build
 COPY --from=Source /git/web /srv/jekyll
+RUN apt update && \
+    apt install -y graphviz
 WORKDIR /srv/jekyll
 RUN bundle install
 RUN bundle exec jekyll build --trace
