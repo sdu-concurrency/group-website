@@ -141,7 +141,7 @@
     "links": [
       { "link" : "https://doi.org/10.1007/978-3-030-13838-7_4" }
     ],
-    "tags": [ "Logic","Process Calculi","Concurrency", ],
+    "tags": [ "Logic","Process Calculi","Concurrency" ],
     "authors": [ "Luís Cruz-Filipe","Fabrizio Montesi" ],
     "abstract": "We present Multiparty Classical Choreographies (MCC), a language model where global descriptions of communicating systems (choreographies) implement typed multiparty sessions. Typing is achieved by generalising classical linear logic to judgements that explicitly record parallelism by means of hypersequents. Our approach unifies different lines of work on choreographies and processes with multiparty sessions, as well as their connection to linear logic. Thus, results developed in one context are carried over to the others. Key novelties of MCC include support for server invocation in choreographies, as well as logic-driven compilation of choreographies with replicated processes.",
     "non_group" : false,
