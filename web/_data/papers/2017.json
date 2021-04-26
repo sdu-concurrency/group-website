@@ -192,7 +192,7 @@
     "tags": [ "Formal Proofs" ],
     "authors": [ "Luís Cruz-Filipe" ],
     "abstract": "In 2016, Heule, Kullmann and Marek solved the Boolean Pythagorean Triples problem: is there a binary coloring of the natural numbers such that every Pythagorean triple contains an element of each color?  By encoding a finite portion of this problem as a propositional formula and showing its unsatisfiability, they established that such a coloring does not exist.  Subsequently, this answer was verified by a correct-by-construction checker extracted from a Coq formalization, which was able to reproduce the original proof.  However, none of these works address the question of formally addressing the relationship between the propositional formula that was constructed and the mathematical problem being considered.  In this work, we formalize the Boolean Pythagorean Triples problem in Coq.  We recursively define a family of propositional formulas, parameterized on a natural number <i>n</i>, and show that unsatisfiability of this formula for any particular <i>n</i> implies that there does not exist a solution to the problem.  We then formalize the mathematical argument behind the simplification step in the original proof of unsatisfiability and the logical argument underlying cube-and-conquer, obtaining a verified proof of Heule <i>et al.</i>'s solution.",
-    "non_group" : true,
+    "non_group" : false,
     "type": "conference"
   },
   {
@@ -237,7 +237,7 @@
     "tags": [ "Formal Proofs" ],
     "authors": [ "Luís Cruz-Filipe" ],
     "abstract": "Clausal proofs have become a popular approach to validate the results of SAT solvers. However, validating clausal proofs in the most widely supported format (DRAT) is expensive even in highly optimized implementations.  We present a new format, called LRAT, which extends the DRAT format with hints that facilitate a simple and fast validation algorithm.  Checking validity of LRAT proofs can be implemented using trusted systems such as the languages supported by theorem provers.  We demonstrate this by implementing two certified LRAT checkers, one in Coq and one in ACL2.",
-    "non_group" : true,
+    "non_group" : false,
     "type": "conference"
   },
   {

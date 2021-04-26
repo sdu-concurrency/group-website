@@ -12,17 +12,6 @@
     "type" : "report"
   },
   {
-    "bibitem": "@unpublished{CMa, author = {Lu{\\'i}s Cruz-Filipe and Fabrizio Montesi}, title = {A Core Model for Choreographic Programming}, note = {submitted for publication}}",
-    "links": [
-      { "link" : "http://tinyurl.com/lcfilipe/pubs/subH.pdf" }
-    ],
-    "tags": [ "Choreographic Programming" ],
-    "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi" ],
-    "abstract": "Choreographic Programming is a paradigm for developing concurrent programs that are deadlock-free by construction, by programming communications declaratively and then synthesising process implementations automatically. Despite strong interest on choreographies, a foundational model that explains which computations can be performed with the hallmark constructs of choreographies is still missing.<br />In this work, we introduce Core Choreographies (CC), a model that includes only the core primitives of choreographic programming. Every computable function can be implemented as a choreography in CC, from which we can synthesise a process implementation where independent computations run in parallel. We discuss the design of CC and argue that it constitutes a canonical model for choreographic programming.",
-    "non_group" : false,
-    "type": "report"
-  },
-  {
     "bibitem": "@unpublished{ACJM, author = {Arbab, Farhad and Cruz-Filipe, Lu{\\'i}s and Jongmans, Sung-Shik and Montesi, Fabrizio}, title = {Connectors Meet Choreographies}, note = {submitted for publication}}",
     "links": [
       { "link" : "http://tinyurl.com/lcfilipe/pubs/subC.pdf" }
@@ -52,17 +41,6 @@
     "tags": [ "Choreographic Programming" ],
     "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi" ],
     "abstract": "Choreographic Programming is a paradigm for the development of concurrent software, where deadlocks are prevented syntactically and then correct-by-construction implementations in process models are mechanically generated. The formal semantics of choreography languages are typically based on synchronous communications, in order to achieve a simpler theory. However, many real-world systems have asynchronous communications. Previous attempts at enriching choreographies with asynchrony rely on <i>ad-hoc</i> constructions, whose adequacy is only argued informally.<br />In this work, we present a systematic study of asynchronous communications in choreographies. First, we discuss and formalise the properties that an asynchronous semantics for choreographies should have. Then, we explore how out-of-order execution, previously used in choreographies for modelling concurrency, can be used to endow choreographies with an asynchronous semantics that satisfies our properties. Our development yields a pleasant correspondence with FIFO-based asynchronous messaging, modelled in a process calculus. Finally, we investigate the expressivity of choreography languages with respect to asynchrony. Specifically, we find out that choreography languages equipped with process spawning and name mobility primitives are expressive enough to program asynchronous behaviour over a simple synchronous semantics.",
-    "non_group" : false,
-    "type": "report"
-  },
-  {
-    "bibitem": "@unpublished{CCMM, author = {Marco Carbone and Lu{\\'i}s Cruz-Filipe and Fabrizio Montesi and Agata Murawska}, title = {Multiparty Classical Choreographies}, note = {submitted for publication}}",
-    "links": [
-      { "link" : "http://tinyurl.com/lcfilipe/pubs/subG.pdf" }
-    ],
-    "tags": [ "Choreographic Programming" ],
-    "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi" ],
-    "abstract": "We present Multiparty Classical Choreographies (MCC), a language model where global descriptions of communicating systems (choreographies) and processes can be modularly composed to implement typed multiparty sessions. Typing is achieved by generalising classical linear logic to judgements that explicitly record parallelism by means of hypersequents. Our approach unifies different lines of work on choreographies and processes with multiparty sessions, as well as their connection to linear logic. Thus, results developed in one context are carried over to the others. Key novelties of MCC include support for behavioural polymorphism in choreographies, as well as a translation from processes with replication to choreographies.",
     "non_group" : false,
     "type": "report"
   },

@@ -126,6 +126,26 @@
       "abstract": "Platoon formation is a freight organization system where a group of vehicles follows a predefined trajectory maintaining a desired spatial pattern. Benefits of platooning include fuel savings, reduction of carbon dioxide emissions, and efficient allocation of road capacity. While traditionally platooning has been an exclusive option limited to specific geographical areas managed by a single operator, recent technological developments and EU initiatives are directed at the creation of an international, federated market for platooning, i.e., a consortium of platoon operators that collaborate and coordinate their users to constitute freights covering international routes. In this paper, we look at federated platooning from an insiders’ perspective. In our development, first we outline the basic elements of platooning and federation of platooning operators. Then, we provide a comprehensive analysis to identify the possible insiders (employees, users, operators, and federated members) and the threats they pose. Finally, we propose two layered, composable technical solutions to mitigate those threats: a) a decentralized overlay network that regulates the interactions among the stakeholders, useful to mitigate issues linked to data safety and trustworthiness and b) a dynamic federation platform, needed to monitor and interrupt deviant behaviors of federated members.",
       "non_group" : true,
       "type": "Conference"
+    },{
+    "bibitem": "@article{CCEMS, author = {Codish, Michael and Cruz-Filipe, Luís and Ehlers, Thorsten and Müller, Mike and Schneider-Kamp, Peter}, title = {Sorting networks: to the end and back again}, journal = {Journal of Computer and System Sciences}, volume={104},pages={184--201},year={2019}}",
+    "links": [
+      { "link" : "https://doi.org/10.1016/j.jcss.2016.04.004" }
+    ],
+    "tags": [ "Sorting Networks" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "New properties of the front and back ends of sorting networks are studied, illustrating their utility when searching for bounds on optimal networks.  Search focuses first on the &ldquo;out-sides&rdquo; of the network and then on the inner part.  Previous works focused on properties of the front end to break symmetries in the search.  The new, out-side-in, properties shed understanding on how sorting networks sort, and facilitate the computation of new bounds on optimality.  We present new, faster, parallel sorting networks for 17&ndash;20 inputs.  For 17 inputs, we show that no sorting network using less layers exists.",
+    "non_group" : true,
+    "type": "journal"
+    },{
+    "bibitem": "@article{CMS19,author={Luís Cruz{-}Filipe and João Marques{-}Silva and Peter Schneider{-}Kamp},title={Formally Verifying the Solution to the Boolean Pythagorean Triples Problem},ournal={J. Automated Reasoning},volume={63},number={3},pages={695--722},year={2019}}",
+    "links": [
+      { "link" : "https://doi.org/10.1016/j.jcss.2016.04.004" }
+    ],
+    "tags": [ "Knowledge Representation","Formal Proofs" ],
+    "authors": [ "Luís Cruz-Filipe" ],
+    "abstract": "The Boolean Pythagorean Triples problem asks: does there exist a binary coloring of the natural numbers such that every Pythagorean triple contains an element of each color? This problem was first solved in 2016, when Heule, Kullmann and Marek encoded a finite restriction of this problem as a propositional formula and showed its unsatisfiability. In this work we formalize their development in the theorem prover Coq. We state the Boolean Pythagorean Triples problem in Coq, define its encoding as a propositional formula and establish the relation between solutions to the problem and satisfying assignments to the formula. We verify Heule et al.'s proof by showing that the symmetry breaks they introduced to simplify the propositional formula are sound, and by implementing a correct-by-construction checker for proofs of unsatisfiability based on reverse unit propagation.",
+    "non_group" : false,
+    "type": "journal"
     }
 ]
 }

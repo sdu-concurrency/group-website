@@ -1,0 +1,15 @@
+{ "title" : "2021",
+  "papers": [
+    {
+      "bibitem": "@article{BC21,author={Bart Bogaerts and Luís Cruz{-}Filipe},title={Stratification in Approximation Fixpoint Theory and Its Application to Active Integrity Constraints},journal={{ACM} Transactions on Computational Logic},volume={22},number={1},pages={6:1--6:19},year={2021}}",
+      "links": [
+        { "link" : "https://doi.org/10.1145/3430750" }
+      ],
+      "abstract": "Approximation fixpoint theory (AFT) is an algebraic study of fixpoints of lattice operators that unifies various knowledge representation formalisms. In AFT, stratification of operators has been studied, essentially resulting in a theory that specifies when certain types of fixpoints can be computed stratum per stratum. Recently, novel types of fixpoints related to groundedness have been introduced in AFT. In this article, we study how those fixpoints behave under stratified operators.<br />One recent application domain of AFT is the field of active integrity constraints (AICs). We apply our extended stratification theory to AICs and find that existing notions of stratification in AICs are covered by this general algebraic definition of stratification. As a result, we obtain stratification results for a large variety of semantics for AICs.",
+	"tags" : [ "Logic","Database Repair" ],
+      "authors" : [ "Luís Cruz-Filipe" ],
+      "type" : "Journal",
+      "non_group" : false
+    }
+  ]
+}

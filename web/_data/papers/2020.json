@@ -9,7 +9,7 @@
 	    "type": "editorial"
 	  },
     {
-	  "bibitem": "@article{CM20, author = {Lu{\\'{\\i}}s Cruz{-}Filipe and  Fabrizio Montesi},  title = {A core model for choreographic programming},  journal = {Theor. Comput. Sci.},  volume = {802},  pages = {38--66},  year = {2020},  url = {https://doi.org/10.1016/j.tcs.2019.07.005},  doi = {10.1016/j.tcs.2019.07.005}}",
+	  "bibitem": "@article{CM20, author = {Lu{\\'{\\i}}s Cruz{-}Filipe and  Fabrizio Montesi},  title = {A core model for choreographic programming},  journal = {Theoretical Computer Science},  volume = {802},  pages = {38--66},  year = {2020},  url = {https://doi.org/10.1016/j.tcs.2019.07.005},  doi = {10.1016/j.tcs.2019.07.005}}",
 	  "links": [
 		{ "link" : "https://www.fabriziomontesi.com/files/cm20.pdf" }
 	  ],
@@ -99,6 +99,17 @@
       "type" : "Conference",
       "grants" : [ "DFF-7014-00041" ],
       "non_group" : false
+    },
+    {
+      "bibitem": "@inproceedings{CNG20,author={Luís Cruz{-}Filipe and Isabel Nunes and Graça Gaspar},title={Hypothetical Answers to Continuous Queries over Data Streams},booktitle = {The Thirty-Fourth {AAAI} Conference on Artificial Intelligence, {AAAI} 2020},pages={2798--2805},publisher={{AAAI} Press},year={2020}}",
+      "links": [
+        { "link" : "https://aaai.org/ojs/index.php/AAAI/article/view/5668" }
+      ],
+      "abstract": "Continuous queries over data streams often delay answers until some relevant input arrives through the data stream. These delays may turn answers, when they arrive, obsolete to users who sometimes have to make decisions with no help whatsoever. Therefore, it can be useful to provide hypothetical answers &endash; &ldquo;given the current information, it is possible that X will become true at time t&rdquo; &endash; instead of no information at all.<br />In this paper we present a semantics for queries and corresponding answers that covers such hypothetical answers, together with an online algorithm for updating the set of facts that are consistent with the currently available information.",
+      "tags" : [ "Knowledge Representation", "Logic" ],
+      "authors" : [ "Luís Cruz-Filipe" ],
+      "type" : "Conference",
+      "non_group" : false
     }
-  ]
+]
 }

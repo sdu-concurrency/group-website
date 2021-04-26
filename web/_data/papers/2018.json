@@ -100,7 +100,7 @@
     "tags": [ "Database Repair" ],
     "authors": [ "Luís Cruz-Filipe" ],
     "abstract": "Active integrity constraints (AICs) constitute a formalism to associate with a database not just the constraints it should adhere to, but also how to fix the database in case one or more of these constraints are violated. The intuitions regarding which repairs are &ldquo;good&rdquo; given such a description are closely related to intuitions that live in various areas of non-monotonic reasoning, such as logic programming and autoepistemic logic.<br />In this paper, we apply <i>approximation fixpoint theory</i>, an abstract, algebraic framework designed to unify semantics of non-monotonic logics, to the field of AICs. This results in a new family of semantics for AICs. We study properties of our new semantics and relationships to existing semantics. In particular, we argue that two of the newly defined semantics stand out. <i>Grounded repairs</i> have a simple definition that is purely based on semantic principles that semantics for AICs should adhere to. And, as we show, they coincide with the intended interpretation of AICs on many examples. The second semantics of interest is the AFT-well-founded semantics: it is a computationally cheap semantics that provides upper- and lower bounds for many other classes of repairs.",
-    "non_group" : true,
+    "non_group" : false,
     "type": "Journal"
   },
   {
@@ -111,7 +111,7 @@
     "tags": [ "Logic","Theorem Proving" ],
     "authors": [ "Luís Cruz-Filipe" ],
     "abstract": "This panel took place on Tuesday 7th August 2018. After the moderator had introduced the topic, the panelists presented their experiences and points of view, and then took questions from the floor.",
-    "non_group" : true,
+    "non_group" : false,
     "type": "Conference"
   },
   {
@@ -119,10 +119,10 @@
       "links": [
       { "link" : "http://doi.org/10.1007/s10472-018-9577-y" }
     ],
-    "tags": [ "Logic","Knowledge Representation" ],
+    "tags": [ "Database Repair", "Knowledge Representation" ],
     "authors": [ "Luís Cruz-Filipe" ],
-    "abstract": "In the database world, integrity constraints are essential to guarantee database integrity. The related problem of database repair deals with finding the best way to change a database so that it satisfies its integrity constraints. These two topics have been studied intensively since the 1980s. The formalism of active integrity constraints, proposed in 2004, aims at addressing them jointly, by providing a syntax whereby a particular subclass of integrity constraints can be specified together with preferred ways to repair inconsistency. In the last decade, several authors have proposed adaptations of the notion of integrity constraints to other reasoning frameworks than relational databases.<br />In this article, we extend this line of work in two ways. First, we target multi-context systems, a general-purpose framework for combining heterogeneous reasoning systems, able to model most other reasoning frameworks, as we demonstrate. Second, we extend the notions of active integrity constraints and grounded repairs to this generalized setting. This way of including repair suggestions inside integrity constraints, subject to a validity check, enables us to define simple iterative algorithms to find all possible grounded repairs for an inconsistent multi-context system, avoiding the need to solve complex or undecidable problems.",
-    "non_group" : true,
+    "abstract": "In the database world, <i>integrity constraints</i> are essential to guarantee database integrity.  The related problem of database repair deals with finding the best way to change a database so that it satisfies its integrity constraints.  These two topics have been studied intensively since the 1980s.  The formalism of <i>active integrity constraints</i>, proposed in 2004, aims at addressing them jointly, by providing a syntax whereby a particular subclass of integrity constraints can be specified together with preferred ways to repair inconsistency.<br />In the last decade, several authors have proposed adaptations of the notion of integrity constraints to other reasoning frameworks than relational databases.  In this article, we extend this line of work in two ways.  First, we target multi-context systems, a general-purpose framework for combining heterogeneous reasoning systems, able to model most other reasoning frameworks, as we demonstrate.  Second, we extend the notions of active integrity constraints and grounded repairs to this generalized setting.  This way of including repair suggestions inside integrity constraints, subject to a validity check, enables us to define simple iterative algorithms to find all possible grounded repairs for an inconsistent multi-context system, avoiding the need to solve complex or undecidable problems.",
+    "non_group" : false,
     "type": "Journal"
   },
   {
@@ -133,7 +133,7 @@
     "tags": [ "Logic","Knowledge Representation","Theorem Proving" ],
     "authors": [ "Luís Cruz-Filipe" ],
     "abstract": "DRAT proofs have become the standard for verifying unsatisfiability proofs emitted by modern SAT solvers. However, recent work showed that the specification of the format differs from its implementation in existing tools due to optimizations necessary for efficiency. Although such differences do not compromise soundness of DRAT checkers, the sets of correct proofs according to the specification and to the implementation are incomparable. We discuss how it is possible to design DRAT checkers faithful to the specification by carefully modifying the standard optimization techniques. We implemented such modifications in a configurable DRAT checker. Our experimental results show negligible overhead due to these modifications, suggesting that efficient verification of the DRAT specification is possible. Furthermore, we show that the differences between specification and implementation of DRAT often arise in practice.",
-    "non_group" : true,
+    "non_group" : false,
     "type": "Conference"
   },
   {
@@ -144,7 +144,7 @@
     "tags": [ "Logic","Process Calculi","Concurrency", ],
     "authors": [ "Luís Cruz-Filipe","Fabrizio Montesi" ],
     "abstract": "We present Multiparty Classical Choreographies (MCC), a language model where global descriptions of communicating systems (choreographies) implement typed multiparty sessions. Typing is achieved by generalising classical linear logic to judgements that explicitly record parallelism by means of hypersequents. Our approach unifies different lines of work on choreographies and processes with multiparty sessions, as well as their connection to linear logic. Thus, results developed in one context are carried over to the others. Key novelties of MCC include support for server invocation in choreographies, as well as logic-driven compilation of choreographies with replicated processes.",
-    "non_group" : true,
+    "non_group" : false,
     "type": "Conference"
   }
 ]

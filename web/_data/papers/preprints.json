@@ -1,25 +1,4 @@
 { "title" : "Preprints of Accepted Papers",
-  "papers": [{
-    "bibitem": "@article{CGNS, author = {Cruz-Filipe, Lu{\\'i}s and Gaspar, Gra{\\c c}a and Nunes, Isabel and Schneider-Kamp, Peter}, title = {Active Integrity Constraints for General-Purpose Knowledge Bases}, journal = {Annals of Mathematics and Artificial Intelligence}, doi = {10.1007/s10472-018-9577-y}, note = {accepted for publication}}",
-    "links": [
-      { "link" : "http://tinyurl.com/lcfilipe/pubs/paperA.pdf" }
-    ],
-    "tags": [ "Database Repair", "Knowledge Representation" ],
-    "authors": [ "Luís Cruz-Filipe" ],
-    "abstract": "In the database world, <i>integrity constraints</i> are essential to guarantee database integrity.  The related problem of database repair deals with finding the best way to change a database so that it satisfies its integrity constraints.  These two topics have been studied intensively since the 1980s.  The formalism of <i>active integrity constraints</i>, proposed in 2004, aims at addressing them jointly, by providing a syntax whereby a particular subclass of integrity constraints can be specified together with preferred ways to repair inconsistency.<br />In the last decade, several authors have proposed adaptations of the notion of integrity constraints to other reasoning frameworks than relational databases.  In this article, we extend this line of work in two ways.  First, we target multi-context systems, a general-purpose framework for combining heterogeneous reasoning systems, able to model most other reasoning frameworks, as we demonstrate.  Second, we extend the notions of active integrity constraints and grounded repairs to this generalized setting.  This way of including repair suggestions inside integrity constraints, subject to a validity check, enables us to define simple iterative algorithms to find all possible grounded repairs for an inconsistent multi-context system, avoiding the need to solve complex or undecidable problems.",
-    "non_group" : true,
-    "type": "journal"
-  },
-  {
-    "bibitem": "@article{CCEMS, author = {Codish, Michael and Cruz-Filipe, Lu{\\'i}s and Ehlers, Thorsten and M{\\\"u}ller, Mike and Schneider-Kamp, Peter}, title = {Sorting networks: to the end and back again}, journal = {Journal of Computer and System Sciences}, doi = {10.1016/j.jcss.2016.04.004}, note = {accepted for publication}}",
-    "links": [
-      { "link" : "http://tinyurl.com/lcfilipe/pubs/paperB.pdf" }
-    ],
-    "tags": [ "Sorting Networks" ],
-    "authors": [ "Luís Cruz-Filipe" ],
-    "abstract": "New properties of the front and back ends of sorting networks are studied, illustrating their utility when searching for bounds on optimal networks.  Search focuses first on the &ldquo;out-sides&rdquo; of the network and then on the inner part.  Previous works focused on properties of the front end to break symmetries in the search.  The new, out-side-in, properties shed understanding on how sorting networks sort, and facilitate the computation of new bounds on optimality.  We present new, faster, parallel sorting networks for 17&ndash;20 inputs.  For 17 inputs, we show that no sorting network using less layers exists.",
-    "non_group" : true,
-    "type": "journal"
-  }
+  "papers": [
 ]
 }
