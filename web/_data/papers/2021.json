@@ -1,5 +1,29 @@
 { "title" : "2021",
   "papers": [
+	{
+	    "bibitem": "@inproceedings{DBLP:conf/coordination/GiallorenzoMPRS21,  author = {Saverio Giallorenzo and  Fabrizio Montesi and  Marco Peressotti and  Florian Rademacher and  Sabine Sachweh},  editor = {Ferruccio Damiani and  Ornela Dardha},  title = {Jolie and {LEMMA:} Model-Driven Engineering and Programming Languages  Meet on Microservices},  booktitle = {Coordination Models and Languages - 23rd {IFIP} {WG} 6.1 International  Conference, {COORDINATION} 2021, Held as Part of the 16th International  Federated Conference on Distributed Computing Techniques, DisCoTec  2021, Valletta, Malta, June 14-18, 2021, Proceedings},  series = {Lecture Notes in Computer Science},  volume = {12717},  pages = {276--284},  publisher = {Springer},  year = {2021},  url = {https://doi.org/10.1007/978-3-030-78142-2_17},  doi = {10.1007/978-3-030-78142-2_17} }",
+	    "tags": [ "Microservices", "Jolie" ],
+	    "authors": [ "Saverio Giallorenzo", "Fabrizio Montesi", "Marco Peressotti" ],
+	    "abstract": "",
+		"non_group" : false,
+	    "type": "conference"
+	},
+	{
+	    "bibitem": "@inproceedings{DBLP:conf/ecoop/GiallorenzoMPRS21,  author = {Saverio Giallorenzo and  Fabrizio Montesi and  Marco Peressotti and  David Richter and  Guido Salvaneschi and  Pascal Weisenburger},  editor = {Anders Møller and  Manu Sridharan},  title = {Multiparty Languages: The Choreographic and Multitier Cases (Pearl)},  booktitle = {35th European Conference on Object-Oriented Programming, {ECOOP} 2021,  July 11-17, 2021, Aarhus, Denmark (Virtual Conference)},  series = {LIPIcs},  volume = {194},  pages = {22:1--22:27},  publisher = {Schloss Dagstuhl - Leibniz-Zentrum für Informatik},  year = {2021},  url = {https://doi.org/10.4230/LIPIcs.ECOOP.2021.22},  doi = {10.4230/LIPIcs.ECOOP.2021.22}}",
+	    "tags": [ "Choreographic Programming", "Multitier Programming" ],
+	    "authors": [ "Saverio Giallorenzo", "Fabrizio Montesi", "Marco Peressotti" ],
+	    "abstract": "",
+		"non_group" : false,
+	    "type": "conference"
+	},
+	{
+	    "bibitem": "@inproceedings{DBLP:conf/itp/Cruz-FilipeMP21,  author = {Luís Cruz{-}Filipe and  Fabrizio Montesi and  Marco Peressotti},  editor = {Liron Cohen and  Cezary Kaliszyk},  title = {Formalising a Turing-Complete Choreographic Language in Coq},  booktitle = {12th International Conference on Interactive Theorem Proving, {ITP}  2021, June 29 to July 1, 2021, Rome, Italy (Virtual Conference)},  series = {LIPIcs},  volume = {193},  pages = {15:1--15:18},  publisher = {Schloss Dagstuhl - Leibniz-Zentrum für Informatik},  year = {2021},  url = {https://doi.org/10.4230/LIPIcs.ITP.2021.15},  doi = {10.4230/LIPIcs.ITP.2021.15} }",
+	    "tags": [ "Choreographic Programming" ],
+	    "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi", "Marco Peressotti" ],
+	    "abstract": "",
+		"non_group" : false,
+	    "type": "conference"
+	},
     {
       "bibitem": "@article{BC21,author={Bart Bogaerts and Luís Cruz{-}Filipe},title={Stratification in Approximation Fixpoint Theory and Its Application to Active Integrity Constraints},journal={{ACM} Transactions on Computational Logic},volume={22},number={1},pages={6:1--6:19},year={2021}}",
       "links": [

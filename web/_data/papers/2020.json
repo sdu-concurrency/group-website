@@ -1,6 +1,14 @@
 { "title" : "2020",
   "papers": [
 	{
+	    "bibitem": "@inproceedings{DBLP:conf/birthday/GiallorenzoLMSZ20,  author = {Saverio Giallorenzo and Ivan Lanese and Fabrizio Montesi and Davide Sangiorgi and Stefano Pio Zingaro},  editor = {Frank S. de Boer and  Jacopo Mauro}, title = {The Servers of Serverless Computing: {A} Formal Revisitation of Functions  as a Service},  booktitle = {Recent Developments in the Design and Implementation of Programming  Languages, Gabbrielli's Festschrift, November 27, 2020, Bologna, Italy},  series = {OASIcs},  volume = {86},  pages = {5:1--5:21},  publisher = {Schloss Dagstuhl - Leibniz-Zentrum für Informatik},  year = {2020},  url = {https://doi.org/10.4230/OASIcs.Gabbrielli.5},  doi = {10.4230/OASIcs.Gabbrielli.5},  biburl = {https://dblp.org/rec/conf/birthday/GiallorenzoLMSZ20.bib} }",
+	    "tags": [ "Serverless", "Process Calculi", "Functional Programming" ],
+	    "authors": [ "Saverio Giallorenzo", "Fabrizio Montesi" ],
+	    "abstract": "",
+		"non_group" : false,
+	    "type": "conference"
+	  },
+	{
 	    "bibitem": "@proceedings{DBLP:conf/microservices/2019,  author = {Lu{\\'{\\i}}s Cruz{-}Filipe and Saverio Giallorenzo and Fabrizio Montesi and Marco Peressotti and Florian Rademacher and Sabine Sachweh},  title = {Joint Post-proceedings of the First and Second International Conference on Microservices, Microservices 2017/2019, October 23-27, 2017, Odense, Denmark / February 19-21, 2019, Dortmund, Germany},  series = {OASIcs},  volume = {78},  year = {2020},  url = {https://www.dagstuhl.de/dagpub/978-3-95977-137-5} }",
 	    "tags": [ "Microservices" ],
 	    "authors": [ "Luís Cruz-Filipe", "Saverio Giallorenzo", "Fabrizio Montesi", "Marco Peressotti" ],
