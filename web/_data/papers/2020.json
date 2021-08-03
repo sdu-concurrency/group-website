@@ -78,7 +78,7 @@
       "grants" : [ "DFF-7014-00041" ]
     },    
     {
-      "bibitem": "@inproceedings{CMP20, title={{Computing Embeddings of Directed Bigraphs}}, author={Chiapperini Alessio and Marino Miculan and Marco Peressotti}, booktitle = {Graph Transformation - 13th International Conference, {ICGT} 2020, Held as Part of {STAF} 2020, Bergen, Norway, June 25-26, 2020, Proceedings}, series = {Lecture Notes in Computer Science}, volume = {12150}, pages = {38--56}, publisher = {Springer}, year = {2020}, url =  https://doi.org/10.1007/978-3-030-51372-6_3}, doi = {10.1007/978-3-030-51372-6_3}",
+      "bibitem": "@inproceedings{CMP20, title={{Computing Embeddings of Directed Bigraphs}}, author={Alessio Chiapperini and Marino Miculan and Marco Peressotti}, booktitle = {Graph Transformation - 13th International Conference, {ICGT} 2020, Held as Part of {STAF} 2020, Bergen, Norway, June 25-26, 2020, Proceedings}, series = {Lecture Notes in Computer Science}, volume = {12150}, pages = {38--56}, publisher = {Springer}, year = {2020}, url =  https://doi.org/10.1007/978-3-030-51372-6_3}, doi = {10.1007/978-3-030-51372-6_3}",
       "links": [
         { "name" : "technical report",
           "link" : "https://arxiv.org/abs/2003.10209",

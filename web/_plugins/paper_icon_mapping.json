@@ -7,7 +7,10 @@
 "website" : "fa fa-desktop",
 "video" : "fa fa-video",
 "slides" : "fa fa-list-alt",
+"file" : "fa fa-file-alt",
+"source" : "fa fa-file-code",
 "slideshare" : "fab fa-slideshare",
 "generic" : "fa fa-link",
-"errata" : "fas fa-exclamation-circle"
+"errata" : "fas fa-exclamation-circle",
+"award" : "fas fa-award"
 }

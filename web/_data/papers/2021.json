@@ -1,28 +1,49 @@
 { "title" : "2021",
   "papers": [
 	{
-	    "bibitem": "@inproceedings{DBLP:conf/coordination/GiallorenzoMPRS21,  author = {Saverio Giallorenzo and  Fabrizio Montesi and  Marco Peressotti and  Florian Rademacher and  Sabine Sachweh},  editor = {Ferruccio Damiani and  Ornela Dardha},  title = {Jolie and {LEMMA:} Model-Driven Engineering and Programming Languages  Meet on Microservices},  booktitle = {Coordination Models and Languages - 23rd {IFIP} {WG} 6.1 International  Conference, {COORDINATION} 2021, Held as Part of the 16th International  Federated Conference on Distributed Computing Techniques, DisCoTec  2021, Valletta, Malta, June 14-18, 2021, Proceedings},  series = {Lecture Notes in Computer Science},  volume = {12717},  pages = {276--284},  publisher = {Springer},  year = {2021},  url = {https://doi.org/10.1007/978-3-030-78142-2_17},  doi = {10.1007/978-3-030-78142-2_17} }",
-	    "tags": [ "Microservices", "Jolie" ],
-	    "authors": [ "Saverio Giallorenzo", "Fabrizio Montesi", "Marco Peressotti" ],
-	    "abstract": "",
+		"bibitem": "@inproceedings{DBLP:conf/coordination/GiallorenzoMPRS21,  author = {Saverio Giallorenzo and  Fabrizio Montesi and  Marco Peressotti and  Florian Rademacher and  Sabine Sachweh},  editor = {Ferruccio Damiani and  Ornela Dardha},  title = {Jolie and {LEMMA:} Model-Driven Engineering and Programming Languages  Meet on Microservices},  booktitle = {Coordination Models and Languages - 23rd {IFIP} {WG} 6.1 International  Conference, {COORDINATION} 2021, Held as Part of the 16th International  Federated Conference on Distributed Computing Techniques, DisCoTec  2021, Valletta, Malta, June 14-18, 2021, Proceedings},  series = {Lecture Notes in Computer Science},  volume = {12717},  pages = {276--284},  publisher = {Springer},  year = {2021},  url = {https://doi.org/10.1007/978-3-030-78142-2_17},  doi = {10.1007/978-3-030-78142-2_17} }",
+		"tags": [ "Microservices", "Jolie" ],
+		"authors": [ "Saverio Giallorenzo", "Fabrizio Montesi", "Marco Peressotti" ],
+		"abstract": "In the field of microservices, Model-Driven Engineering has emerged as a powerful methodology for architectural design, and new programming languages have introduced language abstractions to deal with microservice development more effectively. In this article, we present the first preliminary investigation of how the two approaches can be married, taking the LEMMA framework and the Jolie programming language as respective representatives. By developing a conceptual metamodel for Jolie, we elicit a strong link between the two approaches, which shows that there is much to gain. We discuss a few low-hanging fruits that come from our finding and present some interesting future directions that arise from our new viewpoint.",
+		"links": [
+			{ "name" : "technical report",
+				"link" : "http://arxiv.org/abs/2104.02458",
+				"icon" : "arxiv" }
+		],
+		"grants" : ["Gem"],
 		"non_group" : false,
-	    "type": "conference"
+		"type": "conference"
 	},
 	{
 	    "bibitem": "@inproceedings{DBLP:conf/ecoop/GiallorenzoMPRS21,  author = {Saverio Giallorenzo and  Fabrizio Montesi and  Marco Peressotti and  David Richter and  Guido Salvaneschi and  Pascal Weisenburger},  editor = {Anders Møller and  Manu Sridharan},  title = {Multiparty Languages: The Choreographic and Multitier Cases (Pearl)},  booktitle = {35th European Conference on Object-Oriented Programming, {ECOOP} 2021,  July 11-17, 2021, Aarhus, Denmark (Virtual Conference)},  series = {LIPIcs},  volume = {194},  pages = {22:1--22:27},  publisher = {Schloss Dagstuhl - Leibniz-Zentrum für Informatik},  year = {2021},  url = {https://doi.org/10.4230/LIPIcs.ECOOP.2021.22},  doi = {10.4230/LIPIcs.ECOOP.2021.22}}",
 	    "tags": [ "Choreographic Programming", "Multitier Programming" ],
 	    "authors": [ "Saverio Giallorenzo", "Fabrizio Montesi", "Marco Peressotti" ],
-	    "abstract": "",
+	    "abstract": "Choreographic languages aim to express multiparty communication protocols, by providing primitives that make interaction manifest. Multitier languages enable programming computation that spans across several tiers of a distributed system, by supporting primitives that allow computation to change the location of execution. Rooted into different theoretical underpinnings—respectively process calculi and lambda calculus—the two paradigms have been investigated independently by different research communities with little or no contact. As a result, the link between the two paradigms has remained hidden for long. In this paper, we show that choreographic languages and multitier languages are surprisingly similar. We substantiate our claim by isolating the core abstractions that differentiate the two approaches and by providing algorithms that translate one into the other in a straightforward way. We believe that this work paves the way for joint research and cross-fertilisation among the two communities. ",
+      "links": [
+        { "name" : "distinguished paper award",
+          "link" : "https://2021.ecoop.org/details/ecoop-2021-ecoop-research-papers/9/Multiparty-Languages-the-Choreographic-and-Multitier-Cases",
+          "icon" : "award" }
+      ],
+		"grants" : ["Choco"],
 		"non_group" : false,
-	    "type": "conference"
+		"type": "conference"
 	},
 	{
-	    "bibitem": "@inproceedings{DBLP:conf/itp/Cruz-FilipeMP21,  author = {Luís Cruz{-}Filipe and  Fabrizio Montesi and  Marco Peressotti},  editor = {Liron Cohen and  Cezary Kaliszyk},  title = {Formalising a Turing-Complete Choreographic Language in Coq},  booktitle = {12th International Conference on Interactive Theorem Proving, {ITP}  2021, June 29 to July 1, 2021, Rome, Italy (Virtual Conference)},  series = {LIPIcs},  volume = {193},  pages = {15:1--15:18},  publisher = {Schloss Dagstuhl - Leibniz-Zentrum für Informatik},  year = {2021},  url = {https://doi.org/10.4230/LIPIcs.ITP.2021.15},  doi = {10.4230/LIPIcs.ITP.2021.15} }",
-	    "tags": [ "Choreographic Programming" ],
-	    "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi", "Marco Peressotti" ],
-	    "abstract": "",
+		"bibitem": "@inproceedings{DBLP:conf/itp/Cruz-FilipeMP21,  author = {Luís Cruz{-}Filipe and  Fabrizio Montesi and  Marco Peressotti},  editor = {Liron Cohen and  Cezary Kaliszyk},  title = {Formalising a Turing-Complete Choreographic Language in Coq},  booktitle = {12th International Conference on Interactive Theorem Proving, {ITP}  2021, June 29 to July 1, 2021, Rome, Italy (Virtual Conference)},  series = {LIPIcs},  volume = {193},  pages = {15:1--15:18},  publisher = {Schloss Dagstuhl - Leibniz-Zentrum für Informatik},  year = {2021},  url = {https://doi.org/10.4230/LIPIcs.ITP.2021.15},  doi = {10.4230/LIPIcs.ITP.2021.15} }",
+		"tags": [ "Choreographic Programming" ],
+		"authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi", "Marco Peressotti" ],
+		"abstract": "Theory of choreographic languages typically includes a number of complex results that are proved by structural induction. The high number of cases and the subtle details in some of them lead to long reviewing processes, and occasionally to errors being found in published proofs. In this work, we take a published proof of Turing completeness of a choreographic language and formalise it in Coq. Our development includes formalising the choreographic language and its basic properties, Kleene’s theory of partial recursive functions, the encoding of these functions as choreographies, and proving this encoding correct. With this effort, we show that theorem proving can be a very useful tool in the field of choreographic languages: besides the added degree of confidence that we get from a mechanised proof, the formalisation process led us to a significant simplification of the underlying theory. Our results offer a foundation for the future formal development of choreographic languages. ",		
+		"links": [
+			{ "name" : "technical report",
+				"link" : "https://arxiv.org/abs/2102.02627",
+				"icon" : "arxiv" },
+			{ "name" : "Coq sources",
+				"link" : "https://doi.org/10.5281/zenodo.4479102",
+				"icon" : "source" }
+		],
+		"grants" : ["Choco"],
 		"non_group" : false,
-	    "type": "conference"
+		"type": "conference"
 	},
     {
       "bibitem": "@article{BC21,author={Bart Bogaerts and Luís Cruz{-}Filipe},title={Stratification in Approximation Fixpoint Theory and Its Application to Active Integrity Constraints},journal={{ACM} Transactions on Computational Logic},volume={22},number={1},pages={6:1--6:19},year={2021}}",
