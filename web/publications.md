@@ -101,7 +101,7 @@ ul {
 							<div>
 							{% assign id = id | plus: 1 %}
 							{% capture paper_id %}paper_{{paper.id | handleize }}{% endcapture %}
-							<div id="paper_id" class="paper">
+							<div id="{{paper_id}}" class="paper">
 							{{ paper.content }}
 							</div>
 							<div>
