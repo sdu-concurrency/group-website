@@ -1,3 +1,14 @@
+- name: Zesen Quin
+  from: 2021-09-01
+  to: 2021-12-31
+  affiliation: Aarhus University, Denmark
+  picture: images/people/zquin-p.jpg
+  hosts:
+    - Fabrizio Montesi
+    - Marco Peressotti
+  office:
+    label: Ø18-511a-2
+    link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9be423b7d0540c9a9ac/
 - name: Ornela Dardha
   from: 2020-01-27
   to: 2020-01-30
