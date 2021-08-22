@@ -15,9 +15,9 @@
   affiliation: University of Glasgow, United Kingdom
   website: http://www.dcs.gla.ac.uk/~ornela/
   picture: images/people/odardha-p.jpg
-  hosts: 
+  hosts:
     - Jacopo Mauro
-  office: 
+  office:
     label: Ø16-601a-2
     link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9b5423b7d0540c9a969
 - name: Eros Fabrici
@@ -25,9 +25,9 @@
   to: 2019-06-26
   affiliation: University of Udine, Italy
   picture: images/people/efabrici-p.jpg
-  hosts: 
+  hosts:
     - Fabrizio Montesi
-  office: 
+  office:
     label: Ø18-511a-2
     link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9be423b7d0540c9a9ac/
 - name: Wen Kokke
@@ -35,10 +35,10 @@
   to: 2019-04-30
   affiliation: University of Edinburgh, United Kingdom
   website: https://wenkokke.github.io/
-  hosts: 
+  hosts:
     - Fabrizio Montesi
     - Marco Peressotti
-  office: 
+  office:
     label: Ø18-511a-2
     link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9be423b7d0540c9a9ac/
 - name: Isabel Nunes
@@ -48,7 +48,7 @@
   website: http://www.di.fc.ul.pt/~in/
   picture: images/people/inunes-p.jpg
   host: Luís Cruz-Filipe
-  office: 
+  office:
     label: Ø16-601a-2
     link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9b5423b7d0540c9a969
 - name: Stefano Pio Zingaro
@@ -62,7 +62,7 @@
   google_scholar: u4YiPCwAAAAJ
   github: szingaro
   host: Fabrizio Montesi
-  office: 
+  office:
     label: Ø18-511a-2
     link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9be423b7d0540c9a9ac/
   description: |
@@ -83,11 +83,11 @@
   website: https://www.mini.pw.edu.pl/~tbrengos/
   picture: images/people/tbrengos-p.jpg
   host: Marco Peressotti
-  office: 
+  office:
     label: Ø18-511a-2
     link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9be423b7d0540c9a9ac/
   description: |
-    Tomasz Brengos visited Marco Peressotti to conduct research on the behavioural theory of timed and Büchi automata and to give the seminar  [A uniform framework for tiemd automata](/seminars_and_visitors.html#17-06-27-a-uniform-framework-for-timed-automata). 
+    Tomasz Brengos visited Marco Peressotti to conduct research on the behavioural theory of timed and Büchi automata and to give the seminar  [A uniform framework for tiemd automata](/seminars_and_visitors.html#17-06-27-a-uniform-framework-for-timed-automata).
 - name: Marco Peressotti
   from: 2017-01-18
   to: 2017-01-18
