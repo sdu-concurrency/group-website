@@ -1,8 +1,8 @@
-- name: Zesen Quin
+- name: Zesen Qian
   from: 2021-09-01
   to: 2021-12-31
   affiliation: Aarhus University, Denmark
-  picture: images/people/zquin-p.jpg
+  picture: images/people/zqian-p.jpg
   hosts:
     - Fabrizio Montesi
     - Marco Peressotti
