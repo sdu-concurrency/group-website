@@ -1,3 +1,17 @@
+- speaker:
+    name: Saverio Giallorenzo
+    affiliation: University of Bologna, Italy
+  date: 2021-10-12 15:15
+  duration: 45
+  created: 2021-09-28
+  sequence: 0
+  place:
+    label: IMADA meeting room
+    link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9ba423b7d0540c9a98b/
+  title: Challenges of Serverless: can languages help?
+  description: |
+    Serverless computing is a Cloud development paradigm where developers write and compose stateless functions, abstracting from their deployment and scaling. In this seminar, we introduce some of the essential elements of serverless platforms and focus on the challenges of configuring and developing serverless systems. We discuss how languages at different levels of the implementation stack can help in dealing with those challenges and present the concrete example of a declarative language we recently introduced to tackle the problem of optimising the scheduling of function execution.
+
 - speaker: 
     name: Ornela Dardha 
     affiliation: University of Glasgow, United Kingdom
