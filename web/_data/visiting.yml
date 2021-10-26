@@ -1,3 +1,19 @@
+- name: Saverio Giallorenzo
+  from: 2021-10-11
+  to: 2021-10-15
+  affiliation: University of Bologna, Italy
+  website: https://saveriogiallorenzo.com
+  picture: images/people/sgiallorenzo-p.jpg
+  email: saverio.giallorenzo@gmail.com
+  dblp: 146/2078
+  google_scholar: 4CLysk8AAAAJ
+  github: thesave
+  host: Fabrizio Montesi
+  office:
+    label: Ø13-604a-2
+    link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9aa423b7d0540c9a90a/
+  description: |
+    Saverio Giallorezno visited to collaborate on future project proposals and ongoing work on choreographies, microservices, and serverless architectures.
 - name: Zesen Qian
   from: 2021-09-01
   to: 2021-12-31
