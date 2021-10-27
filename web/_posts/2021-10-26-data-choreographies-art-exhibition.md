@@ -2,10 +2,10 @@
 layout: post
 title:  "Data Choreographies Art Exhibition"
 place:  Kulturværftet, Helsingør, Denmark
-date:   2021-11-04
+date:   2021-10-26
 ---
 
-<img class="img-fluid mx-auto d-block" src="/images/posts/data-choreographies-art-exhibition.jpg">
+<img class="img-fluid mx-auto d-block" src="/images/posts/data-choreographies-art-exhibition.png">
 
 An art exhibition called "Data Choreographies" will be opening on the
 4<sup>th</sup> of November at Catch (Kulturværftet, Helsingør, Denmark), with
