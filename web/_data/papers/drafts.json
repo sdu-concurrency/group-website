@@ -14,7 +14,7 @@
   {
     "bibitem": "@unpublished{ACJM, author = {Arbab, Farhad and Cruz-Filipe, Lu{\\'i}s and Jongmans, Sung-Shik and Montesi, Fabrizio}, title = {Connectors Meet Choreographies}, note = {submitted for publication}}",
     "links": [
-      { "link" : "http://tinyurl.com/lcfilipe/pubs/subC.pdf" }
+      { "link" : "https://imada.sdu.dk/~lcf/pubs/subC.pdf" }
     ],
     "tags": [ "Choreographic Programming" ],
     "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi" ],
@@ -25,7 +25,7 @@
   {
     "bibitem": "@unpublished{CMb, author = {Lu{\\'i}s Cruz-Filipe and Fabrizio Montesi}, title = {Procedural Choreographic Programming}, note = {submitted for publication}}",
     "links": [
-      { "link" : "http://tinyurl.com/lcfilipe/pubs/subA.pdf" }
+      { "link" : "https://imada.sdu.dk/~lcf/pubs/subA.pdf" }
     ],
     "tags": [ "Choreographic Programming" ],
     "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi" ],
@@ -36,7 +36,7 @@
   {
     "bibitem": "@unpublished{CMc, author = {Lu{\\'i}s Cruz-Filipe and Fabrizio Montesi}, title = {On Asynchrony and Choreographies}, note = {submitted for publication}}",
     "links": [
-      { "link" : "http://tinyurl.com/lcfilipe/pubs/subD.pdf" }
+      { "link" : "https://imada.sdu.dk/~lcf/pubs/subD.pdf" }
     ],
     "tags": [ "Choreographic Programming" ],
     "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi" ],

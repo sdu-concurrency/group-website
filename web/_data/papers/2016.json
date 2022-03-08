@@ -128,7 +128,7 @@
   {
     "bibitem": "@inproceedings{CNS16, author = {Cruz-Filipe, Lu{\\'i}s and Nunes, Isabel and Schneider-Kamp, Peter}, booktitle = {Foundations of Information and Knowledge Systems -- 9th International Symposium, FoIKS 2016, Linz, Austria, March 7--11, 2016. Proceedings}, doi = {10.1007/978-3-319-30024-5\\_13}, editor = {Gyssens, Marc and Simari, Guillermo}, pages = {235--254}, publisher = {Springer}, series = {LNCS}, title = {Integrity Constraints for General-Purpose Knowledge Bases}, volume = 9616, year = 2016}",
     "links": [
-      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper25.pdf" }
+      { "link" : "https://imada.sdu.dk/~lcf/pubs/paper25.pdf" }
     ],
     "tags": [ "Database Repair" ],
     "authors": [ "Luís Cruz-Filipe" ],
@@ -139,7 +139,7 @@
   {
     "bibitem": "@article{CCFS16, author = {Codish, Michael and Cruz-Filipe, Lu{\\'i}s and Frank, Michael and Schneider-Kamp, Peter}, title = {Sorting nine inputs requires twenty-five comparisons}, journal = {Journal of Computer and System Sciences}, volume = 82, number = 3, pages = {551--563}, year = 2016, doi = {10.1016/j.jcss.2015.11.014}}",
     "links": [
-      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper26.pdf" }
+      { "link" : "https://imada.sdu.dk/~lcf/pubs/paper26.pdf" }
     ],
     "tags": [ "Sorting Networks" ],
     "authors": [ "Luís Cruz-Filipe" ],
@@ -152,7 +152,7 @@
     "links": [
 			{ "link" : "https://www.fabriziomontesi.com/files/cm16_forte.pdf" },
 			{ "name" : "arxiv", "link" : "http://arxiv.org/abs/1602.08863" },
-      { "name" : "paper (alternative)", "link" : "http://tinyurl.com/lcfilipe/pubs/paper27.pdf" }
+      { "name" : "paper (alternative)", "link" : "https://imada.sdu.dk/~lcf/pubs/paper27.pdf" }
     ],
     "tags": [ "Choreographic Programming" ],
     "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi"],
@@ -163,7 +163,7 @@
   {
     "bibitem": "@inproceedings{C16, author = {Lu{\\'i}s Cruz-Filipe}, title = {Grounded Fixpoints and Active Integrity Constraints}, pages = {11.1--11.14}, doi = {10.4230/OASIcs.ICLP.2016.11}, editor = {Carro, Manuel and King, Andy and De Vos, Marina and Saeedloei, Neda}, booktitle = {Technical Communications of the 32nd International Conference on Logic Programming (ICLP'16)}, series = {OASIcs}, volume = 52, publisher = {Schloss Dagstuhl}, month = nov, year = 2016}",
     "links": [
-      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper28.pdf" }
+      { "link" : "https://imada.sdu.dk/~lcf/pubs/paper28.pdf" }
     ],
     "tags": [ "Database Repair" ],
     "authors": [ "Luís Cruz-Filipe" ],
@@ -174,7 +174,7 @@
   {
     "bibitem": "@inproceedings{CGNS16, author = {Cruz-Filipe, Lu{\\'i}s and Gaspar, Gra{\\c c}a and Nunes, Isabel and Schneider-Kamp, Peter}, title = {Active Integrity Constraints for Multi-Context Systems}, pages = {98--112}, doi = {10.1007/978-3-319-49004-5\\_7}, editor = {Blomqvist, Eva and Vitali, Fabio and Ciancarini, Paolo and Poggi, Francesco}, booktitle = {Knowledge Engineering and Knowledge Management -- 20th International Conference, {EKAW} 2016, Bologna, Italy, November 19-23, 2016. Proceedings}, publisher = {Springer}, series = {LNAI}, month = nov, year = 2016, volume = 10024}",
     "links": [
-      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper29.pdf" }
+      { "link" : "https://imada.sdu.dk/~lcf/pubs/paper29.pdf" }
     ],
     "tags": [ "Database Repair" ],
     "authors": [ "Luís Cruz-Filipe" ],
@@ -185,7 +185,7 @@
   {
     "bibitem": "@inproceedings{CFHLNS16, author = {Cruz-Filipe, Lu{\\'i}s and Franz, Michael and Hakhverdyan, Artavazd and Ludovico, Marta and Nunes, Isabel and Schneider-Kamp, Peter}, booktitle = {Knowledge Discovery, Knowledge Engineering and Knowledge Management}, editor = {Fred, Ana and Dietz, Jan L.G. and Aveiro, David and Liu, Kecheng and Filipe, Joaquim}, publisher = {Springer}, series = {CCIS}, number = 631, pages = {399--420}, title = {Active Integrity Constraints: from Theory to Implementation}, doi = {10.1007/978-3-662-46549-3\\_13}, year = 2016}",
     "links": [
-      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper30.pdf" }
+      { "link" : "https://imada.sdu.dk/~lcf/pubs/paper30.pdf" }
     ],
     "tags": [ "Database Repair" ],
     "authors": [ "Luís Cruz-Filipe" ],

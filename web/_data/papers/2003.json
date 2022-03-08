@@ -2,7 +2,7 @@
   "papers": [{
     "bibitem": "@inproceedings{C03, author = {Cruz-Filipe, Lu{\\'i}s}, booktitle = {Types for Proofs and Programs}, editor = {Geuvers, Herman and Wiedijk, Freek}, month = apr, doi = {10.1007/3-540-39185-1\\_7}, pages = {108--126}, publisher = {Springer}, series = {LNCS}, title = {A Constructive Formalization of the Fundamental Theorem of Calculus}, volume = 2646, year = 2003}",
     "links": [{
-      "link": "http://tinyurl.com/lcfilipe/pubs/paper01.pdf"
+      "link": "https://imada.sdu.dk/~lcf/pubs/paper01.pdf"
     }],
     "tags": ["Theorem Proving"],
     "authors": ["Luís Cruz-Filipe"],
@@ -13,7 +13,7 @@
   {
     "bibitem": "@inproceedings{CS03, author = {Cruz-Filipe, Lu{\\'i}s and Spitters, Bas}, booktitle = {Theorem Proving in Higher Order Logics, 16th International Conference, TPHOLs 2003}, editor = {Basin, David A. and Wolff, Burkhart}, month = sep, doi = {10.1007/10930755\\_14}, pages = {205--220}, publisher = {Springer}, series = {LNCS}, title = {Program Extraction from Large Proof Developments}, volume = 2758, year = 2003}",
     "links": [{
-      "link": "http://tinyurl.com/lcfilipe/pubs/paper02.pdf"
+      "link": "https://imada.sdu.dk/~lcf/pubs/paper02.pdf"
     }],
     "tags": ["Theorem Proving"],
     "authors": ["Luís Cruz-Filipe"],

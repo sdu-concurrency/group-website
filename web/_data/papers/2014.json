@@ -47,7 +47,7 @@
   {
     "bibitem": "@inproceedings{C14, author = {Cruz-Filipe, Lu{\\'i}s}, booktitle = {Foundations of Information and Knowledge Systems -- 8th International Symposium, FoIKS 2014, Bordeaux, France, March 3-7, 2014. Proceedings}, editor = {Beierle, Christoph and Meghini, Carlo}, doi = {10.1007/978-3-319-04939-7\\_18}, pages = {361--380}, publisher = {Springer}, series = {LNCS}, title = {Optimizing Computation of Repairs from Active Integrity Constraints}, volume = 8367, year = 2014}",
     "links": [{
-      "link": "http://tinyurl.com/lcfilipe/pubs/paper13.pdf"
+      "link": "https://imada.sdu.dk/~lcf/pubs/paper13.pdf"
     }],
     "tags": ["Database Repair"],
     "authors": ["Luís Cruz-Filipe"],
@@ -58,7 +58,7 @@
   {
     "bibitem": "@article{CLMRV14, author = {Cruz-Filipe, Lu{\\'i}s and Lanese, Ivan and Martins, Francisco and Ravara, Ant{\\'o}nio and Vasconcelos, Vasco T.}, journal = {Formal Aspects of Computing}, month = sep, doi = {10.1007/s00165-013-0284-5}, pages = {865--918}, title = {The Stream-based Service-Centered Calculus: a Foundation for Service-Oriented Programming}, volume = 26, year = 2014}",
     "links": [{
-      "link": "http://tinyurl.com/lcfilipe/pubs/paper14.pdf"
+      "link": "https://imada.sdu.dk/~lcf/pubs/paper14.pdf"
     }],
     "tags": ["Process Calculi"],
     "authors": ["Luís Cruz-Filipe"],
@@ -69,7 +69,7 @@
   {
     "bibitem": "@inproceedings{CCS14, author = {Codish, Michael and Cruz-Filipe, Lu{\\'i}s and Schneider-Kamp, Peter}, title = {The Quest for Optimal Sorting Networks: Efficient Generation of Two-Layer Prefixes}, pages = {359--366}, doi = {10.1109/SYNASC.2014.55}, editor = {Winkler, Franz and Negru, Viorel and Ida, Tetsuo and Jebelan, Tudor and Petcu, Dana and Watt, Stephen M. and Zaharie, Daniela}, booktitle = {16th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing, SYNASC 2014}, publisher = {IEEE}, year = 2015}",
     "links": [{
-      "link": "http://tinyurl.com/lcfilipe/pubs/paper15.pdf"
+      "link": "https://imada.sdu.dk/~lcf/pubs/paper15.pdf"
     }],
     "tags": ["Sorting Networks"],
     "authors": ["Luís Cruz-Filipe"],
@@ -80,7 +80,7 @@
   {
     "bibitem": "@inproceedings{CGN2014, author = {Cruz-Filipe, Lu{\\'i}s and Gaspar, Gra{\\c c}a and Nunes, Isabel}, title = {Information Flow within Relational Multi-context Systems}, pages = {97--108}, doi = {10.1007/978-3-319-13704-9\\_8}, editor = {Janowicz, Krzysztof and Schlobach, Stefan and Lambrix, Patrick and Hyv{\\\"{o}}nen, Eero}, booktitle = {Knowledge Engineering and Knowledge Management -- 19th International Conference, {EKAW} 2014, Link{\\\"{o}}ping, Sweden, November 24--28, 2014. Proceedings}, publisher = {Springer}, series = {LNAI}, volume = 8876, year = 2014}",
     "links": [{
-      "link": "http://tinyurl.com/lcfilipe/pubs/paper16.pdf"
+      "link": "https://imada.sdu.dk/~lcf/pubs/paper16.pdf"
     }],
     "tags": ["Knowledge Representation"],
     "authors": ["Luís Cruz-Filipe"],
@@ -91,7 +91,7 @@
   {
     "bibitem": "@inproceedings{CCFS14, author = {Codish, Michael and Cruz-Filipe, Lu{\\'i}s and Frank, Michael and Schneider-Kamp, Peter}, title = {Twenty-Five Comparators is Optimal when Sorting Nine Inputs (and Twenty-Nine for Ten)}, pages = {186--193}, doi = {10.1109/ICTAI.2014.36}, booktitle = {26th {IEEE} International Conference on Tools with Artificial Intelligence, {ICTAI} 2014, Limassol, Cyprus, November 10--12, 2014}, publisher = {IEEE}, year = 2014, month = dec}",
     "links": [{
-      "link": "http://tinyurl.com/lcfilipe/pubs/paper17.pdf"
+      "link": "https://imada.sdu.dk/~lcf/pubs/paper17.pdf"
     }],
     "tags": ["Sorting Networks"],
     "authors": ["Luís Cruz-Filipe"],

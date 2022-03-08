@@ -117,7 +117,7 @@
   {
     "bibitem": "@article{BCCSZ17, author = {Bundala, Daniel and Codish, Michael and Cruz-Filipe, Lu{\\'i}s and Schneider-Kamp, Peter and Z{\\'a}vodn{\\'y}, Jakub}, title = {Optimal-Depth Sorting Networks}, journal = {Journal of Computer and System Sciences}, year = 2017, month = mar, pages = {185--204}, volume = 84, doi = {10.1016/j.jcss.2016.09.004}}",
     "links": [
-      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper31.pdf" }
+      { "link" : "https://imada.sdu.dk/~lcf/pubs/paper31.pdf" }
     ],
     "tags": [ "Sorting Networks" ],
     "authors": [ "Luís Cruz-Filipe" ],
@@ -128,7 +128,7 @@
   {
     "bibitem": "@article{CHN17, author = {Cruz-Filipe, Lu{\\'i}s and Gaspar, Graça and Nunes, Isabel}, title = {From description-logic programs to multi-context systems}, journal = {Journal of Logical and Algebraic Methods in Programming}, year = 2017, month = apr, volume = 88, pages = {26--44}, doi = {10.1016/j.jlamp.2017.01.005}}",
     "links": [
-      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper32.pdf" }
+      { "link" : "https://imada.sdu.dk/~lcf/pubs/paper32.pdf" }
     ],
     "tags": [ "Knowledge Representation" ],
     "authors": [ "Luís Cruz-Filipe" ],
@@ -141,7 +141,7 @@
     "links": [
 			{ "link" : "https://www.fabriziomontesi.com/files/clm17.pdf" },
       { "name" : "full paper",
-				"link" : "http://tinyurl.com/lcfilipe/pubs/paper33.pdf"
+				"link" : "https://imada.sdu.dk/~lcf/pubs/paper33.pdf"
 			}
     ],
     "tags": [ "Choreographic Programming" ],
@@ -153,7 +153,7 @@
   {
     "bibitem": "@inproceedings{CMS17, author = {Cruz-Filipe, Lu\\'{\\i}s and Joao Marques-Silva and Peter Schneider-Kamp}, title = {Efficient Certified Resolution Proof Checking}, editor = {Legay, Axel and Margaria, Tiziana}, year = 2017, series = {LNCS}, booktitle = {TACAS}, volume = 10205, publisher = {Springer}, pages = {118--135}}",
     "links": [
-      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper34.pdf" }
+      { "link" : "https://imada.sdu.dk/~lcf/pubs/paper34.pdf" }
     ],
     "tags": [ "Formal Proofs" ],
     "authors": [ "Luís Cruz-Filipe" ],
@@ -165,7 +165,7 @@
     "bibitem": "@inproceedings{CM17a, author = {Lu{\\'i}s Cruz-Filipe and Fabrizio Montesi}, title = {A Core Model for Choreographic Programming}, publisher = {Springer}, series = {LNCS}, booktitle = {FACS}, year = 2017, volume = 10231, pages = {17--35}, editor = {Kouchnarenko, Olga and Khosravi, Ramin}, doi = {10.1007/978-3-319-57666-4\\_3}}",
     "links": [
 			{ "link" : "https://www.fabriziomontesi.com/files/cm16_facs.pdf" },
-      { "name" : "paper (alternative)", "link" : "http://tinyurl.com/lcfilipe/pubs/paper35.pdf" }
+      { "name" : "paper (alternative)", "link" : "https://imada.sdu.dk/~lcf/pubs/paper35.pdf" }
     ],
     "tags": [ "Choreographic Programming" ],
     "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi" ],
@@ -176,7 +176,7 @@
   {
     "bibitem": "@article{CCNS17, author = {Codish, Michael and Cruz-Filipe, Lu{\\'i}s and Nebel, Markus and Schneider-Kamp, Peter}, title = {Optimizing Sorting Algorithms by Using Sorting Networks}, journal = {Formal Aspects of Computing}, year = 2017, month = may, pages = {559--579}, volume = 29, doi = {10.1007/s00165-016-0401-3}}",
     "links": [
-      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper36.pdf" }
+      { "link" : "https://imada.sdu.dk/~lcf/pubs/paper36.pdf" }
     ],
     "tags": [ "Sorting Networks" ],
     "authors": [ "Luís Cruz-Filipe" ],
@@ -187,7 +187,7 @@
   {
     "bibitem": "@inproceedings{CS17, author = {Cruz{-}Filipe, Lu{\\'i}s and Schneider{-}Kamp, Peter}, title = {Formally Proving the Boolean Triples Conjecture}, year = 2017, series = {EPiC Series in Computing}, editor = {Eiter, Thomas and Sands, David}, publisher = {EasyChair Publications}, booktitle = {Proceedings of LPAR-21}, volume = 46, pages = {509--522}}",
     "links": [
-      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper37.pdf" }
+      { "link" : "https://imada.sdu.dk/~lcf/pubs/paper37.pdf" }
     ],
     "tags": [ "Formal Proofs" ],
     "authors": [ "Luís Cruz-Filipe" ],
@@ -198,7 +198,7 @@
   {
     "bibitem": "@inproceedings{CM17b, author = {Cruz-Filipe, Lu{\\'i}s and Montesi, Fabrizio}, title = {Encoding Asynchrony in Choreographies}, editor = {Shin, D. and Lencastre, M.}, pages = {1175--1177}, booktitle = {Proceedings of the Symposium on Applied Computing, {SAC} 2017, Marrakech, Morocco, April 3-7, 2017}, year = 2017, doi = {10.1145/3019612.3019901}}",
     "links": [
-      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper38.pdf" }
+      { "link" : "https://imada.sdu.dk/~lcf/pubs/paper38.pdf" }
     ],
     "tags": [ "Choreographic Programming" ],
     "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi" ],
@@ -210,7 +210,7 @@
     "bibitem": "@inproceedings{CM17c, author = {Cruz-Filipe, Lu{\\'i}s and Montesi, Fabrizio}, title = {Procedural Choreographic Programming}, pages = {92--107}, editor = {Ahmed Bouajjani and Alexandra Silva}, booktitle = {Formal Techniques for Distributed Objects, Components, and Systems -- 37th IFIP WG 6.1 International Conference, FORTE 2017}, series = {LNCS}, publisher = {Springer}, year = 2017, volume = 10321, doi = {10.1007/978-3-319-60225-7\\_7}}",
     "links": [
 			{ "link" : "https://www.fabriziomontesi.com/files/cm17_forte.pdf" },
-      { "name" : "paper (alternative)", "link" : "http://tinyurl.com/lcfilipe/pubs/paper39.pdf" }
+      { "name" : "paper (alternative)", "link" : "https://imada.sdu.dk/~lcf/pubs/paper39.pdf" }
     ],
     "tags": [ "Choreographic Programming" ],
     "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi" ],
@@ -221,7 +221,7 @@
   {
     "bibitem": "@incollection{CM17d, author = {Cruz-Filipe, Lu{\\'\\i}s and Montesi, Fabrizio}, title = {That's Enough: Asynchrony with Standard Choreography Primitives}, booktitle = {Logic and Computation: Essays in Honour of Am{\\'\\i}lcar Sernadas}, editor = {Caleiro, Carlos and Dion{\\'\\i}sio, Francisco and Gouveia, Paula and Mateus, Paulo and Rasga, Jo{\\~a}o}, publisher = {College Publications}, series = {Tributes}, volume = 33, year = 2017, isbn = {978-1-84890-248-0}, pages = {125--142}}",
     "links": [
-      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper40.pdf" }
+      { "link" : "https://imada.sdu.dk/~lcf/pubs/paper40.pdf" }
     ],
     "tags": [ "Choreographic Programming" ],
     "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi" ],
@@ -232,7 +232,7 @@
   {
     "bibitem": "@inproceedings{CHHKS17, author = {Cruz-Filipe, Lu{\\'i}s and Heule, Marijn and Hunt Jr., Warren and Kaufmann, Matt and Schneider-Kamp, Peter}, title = {Efficient Certified {RAT} Verification}, year = 2017, booktitle = {CADE 2017}, editor = {de Moura, Leonardo}, doi = {10.1007/978-3-319-63046-5\\_14}, publisher = {Springer}, series = {LNAI}, volume = 10395, pages = {220--236}}",
     "links": [
-      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper41.pdf" }
+      { "link" : "https://imada.sdu.dk/~lcf/pubs/paper41.pdf" }
     ],
     "tags": [ "Formal Proofs" ],
     "authors": [ "Luís Cruz-Filipe" ],
@@ -243,7 +243,7 @@
   {
     "bibitem": "@inproceedings{BC17, author = {Bogaerts, Bart and Cruz-Filipe, Lu{\\'i}s}, title = {Semantics for Active Integrity Constraints Using Approximation Fixpoint Theory}, year = 2017, pages = {866--872}, editor = {Carles Sierra}, booktitle = {Proceedings of the Twenty-Sixth International Joint Conference on Artificial Intelligence, {IJCAI} 2017, Melbourne, Australia, August 19-25, 2017}, publisher = {ijcai.org}}",
     "links": [
-      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper42.pdf" }
+      { "link" : "https://imada.sdu.dk/~lcf/pubs/paper42.pdf" }
     ],
     "tags": [ "Database Repair" ],
     "authors": [ "Luís Cruz-Filipe" ],
@@ -254,7 +254,7 @@
   {
     "bibitem": "@inproceedings{CLS17a, author = {Cruz-Filipe, Lu{\\'i}s and Larsen, Kim S. and Schneider-Kamp, Peter}, booktitle = {Interactive Theorem Proving -- 8th International Conference, {ITP} 2017, Bras{\\'\\i}lia, Brazil, September 26-29, 2017, Proceedings}, editor = {Ayala-Rincon, Mauricio and Mu{\\~n}oz, Cesar}, publisher = {Springer}, series = {LNCS}, volume = 10499, pages = {164--170}, title = {How to Get More Out of Your Oracles}, year = 2017}",
     "links": [
-      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper43.pdf" }
+      { "link" : "https://imada.sdu.dk/~lcf/pubs/paper43.pdf" }
     ],
     "tags": [ "Formal Proofs" ],
     "authors": [ "Luís Cruz-Filipe" ],
@@ -265,7 +265,7 @@
   {
     "bibitem": "@article{CLS17b, author = {Cruz{-}Filipe, Lu{\\'i}s and Larsen, Kim S. and Schneider{-}Kamp, Peter}, title = {Formally Proving Size Optimality of Sorting Networks}, year = 2017, month = dec, volume = 59, number = 4, pages = {425--454}, journal = {Journal of Automated Reasoning}}",
     "links": [
-      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper44.pdf" }
+      { "link" : "https://imada.sdu.dk/~lcf/pubs/paper44.pdf" }
     ],
     "tags": [ "Formal Proofs", "Sorting Networks" ],
     "authors": [ "Luís Cruz-Filipe" ],
@@ -276,7 +276,7 @@
   {
     "bibitem": "@incollection{CM17e, author = {Cruz-Filipe, Lu{\\'i}s and Montesi, Fabrizio}, title = {On Asynchrony and Choreographies}, booktitle = {Proceedings 10th Interaction and Concurrency Experience}, editor = {Bartoletti, M. and Bocchi, L. and Henrio, L. and Knight, S.}, publisher = {Open Publishing Association}, series = {EPTCS}, volume = 261, year = 2017, pages = {76--90}, doi = {10.4204/EPTCS.261.8}}",
     "links": [
-      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper45.pdf" }
+      { "link" : "https://imada.sdu.dk/~lcf/pubs/paper45.pdf" }
     ],
     "tags": [ "Choreographic Programming" ],
     "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi" ],

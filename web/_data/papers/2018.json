@@ -95,7 +95,7 @@
   {
     "bibitem": "@article{BC18, author = {Bogaerts, Bart and Cruz-Filipe, Lu{\\'i}s}, title = {Fixpoint Semantics for Active Integrity Constraints}, year = 2018, journal = {Artificial Intelligence}, month = feb, volume = 255, pages = {43--70}}",
     "links": [
-      { "link" : "http://tinyurl.com/lcfilipe/pubs/paper46.pdf" }
+      { "link" : "https://imada.sdu.dk/~lcf/pubs/paper46.pdf" }
     ],
     "tags": [ "Database Repair" ],
     "authors": [ "Luís Cruz-Filipe" ],
