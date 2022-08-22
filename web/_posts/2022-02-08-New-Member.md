@@ -7,4 +7,4 @@ tag: featured
 ---
 <img class="img-fluid mx-auto d-block" src="/images/people/skos-p.jpg">
 
-We are pleased to announce that [Sophia Kostopoulou](/people.html#sk) will be joining our section as a PhD student!
+We are pleased to announce that [Sofia Kostopoulou](/people.html#sk) will be joining our section as a PhD student!
