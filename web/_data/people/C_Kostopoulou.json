@@ -1,13 +1,13 @@
 {
-  "name" : "Sofia Kostopoulou",
-  "role" : "PhD Student",
-  "id" : "sk",
-  "photo" : "/images/people/skos-p.jpg",
-  "email" : "skos@sdu.dk",
-  "linkedin" : "sophia-kostopoulou-239a6b40",
+  "name": "Sofia Kostopoulou",
+  "role": "PhD Student",
+  "id": "sk",
+  "photo": "/images/people/skos-p.jpg",
+  "email": "skos@sdu.dk",
+  "linkedin": "sophia-kostopoulou-239a6b40",
   "office": {
     "label": "Ø9-602a-2",
     "link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5a"
   },
-  "research_topics" : [ "jolie", "microservices", "artificial intelligence", "data analytics" ]
+  "research_topics": ["jolie", "microservices", "artificial intelligence", "data analytics"]
 }
