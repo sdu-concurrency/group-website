@@ -4,8 +4,10 @@
   "id" : "sk",
   "photo" : "/images/people/skos-p.jpg",
   "email" : "skos@sdu.dk",
-    "linkedin" : "sophia-kostopoulou-239a6b40",
-  "office": { "label": "Ø18-511a-2",
-  "link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9be423b7d0540c9a9ac/"},
+  "linkedin" : "sophia-kostopoulou-239a6b40",
+  "office": {
+    "label": "Ø9-602a-2",
+    "link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5a"
+  },
   "research_topics" : [ "jolie", "microservices", "artificial intelligence", "data analytics" ]
 }
