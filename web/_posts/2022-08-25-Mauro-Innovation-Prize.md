@@ -4,7 +4,7 @@ title:  "Jacopo Mauro receives the Innovation Prize from the Faculty of Science"
 place:  Odense, Denmark
 date:   2022-08-25
 ---
-<img class="img-fluid mx-auto d-block" src="/images/posts/mauro-innovation-prize.png">
+<img class="img-fluid mx-auto d-block" src="/images/posts/mauro-innovation-prize.jpg">
 
 The [Faculty of Science](https://www.sdu.dk/en/om_sdu/fakulteterne/naturvidenskab) awards
 [Jacopo Mauro](/people.html#jm) with this year's Innovation Prize for bringing
