@@ -1,9 +1,9 @@
 { "title" : "Technical Reports",
-  "papers": [  
+  "papers": [
   {
     "bibitem": "@article{GGM15, author = {Maurizio Gabbrielli and Saverio Giallorenzo and Fabrizio Montesi}, title = {Applied Choreographies}, journal = {CoRR}, volume = {abs/1510.03637}, year = {2015}}",
-    "links": [ 
-      { "name" : "technical report", "link" : "http://arxiv.org/abs/1510.03637", "icon" : "arxiv" } 
+    "links": [
+      { "name" : "technical report", "link" : "http://arxiv.org/abs/1510.03637", "icon" : "arxiv" }
     ],
     "abstract": "Choreographic Programming is a methodology for the development of concurrent software based on a correctness-by-construction approach which, given a global description of a system (a choreography), automatically generates deadlock-free communicating programs via an EndPoint Projection (EPP). Previous works use target-languages for EPP that, like their source choreography languages, model communications using channel names (e.g., variants of CCS and π-calculus). This leaves a gap between such models and real-world implementations, where communications are concretely supported by low-level mechanisms for message routing. We bridge this gap by developing Applied Choreographies (AC), a new model for choreographic programming. AC brings the correctness-by-construction methodology of choreographies down to the level of a real executable language. The key feature of AC is that its semantics is based on message correlation --- a standard technique in Service-Oriented Computing --- while retaining the usual simple and intuitive syntax of choreography languages. We provide AC with a typing discipline that ensures the correct use of the low-level mechanism of message correlation, thus avoiding communication errors. We also define a two-step compilation from AC to a low-level Correlation Calculus, which is the basis of a real executable language (Jolie). Finally, we prove an operational correspondence theorem, which ensures that compiled programs behave as the original choreography. This is the first result of such correctness property in the case of a real-world implemented language.",
     "tags" : [ "Choreographic Programming" ],

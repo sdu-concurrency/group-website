@@ -6,16 +6,16 @@ JEKYLL := $(BUNDLE) exec jekyll
 
 all : install build
 
-install: 
+install:
 	$(BUNDLE) install
 
-update: 
+update:
 	$(BUNDLE) update
-	
-clean: 
+
+clean:
 	$(JEKYLL) clean
 
-build: 
+build:
 	$(JEKYLL) build
 
 serve:

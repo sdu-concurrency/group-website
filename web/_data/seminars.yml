@@ -12,17 +12,17 @@
   description: |
     Serverless computing is a Cloud development paradigm where developers write and compose stateless functions, abstracting from their deployment and scaling. In this seminar, we introduce some of the essential elements of serverless platforms and focus on the challenges of configuring and developing serverless systems. We discuss how languages at different levels of the implementation stack can help in dealing with those challenges and present the concrete example of a declarative language we recently introduced to tackle the problem of optimising the scheduling of function execution.
 
-- speaker: 
-    name: Ornela Dardha 
+- speaker:
+    name: Ornela Dardha
     affiliation: University of Glasgow, United Kingdom
     website: http://www.dcs.gla.ac.uk/~ornela/
   date: 2020-01-29 14:15
-  place: 
+  place:
     label: IMADA seminar room
     link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb8e9423b7d0540c9a2b6/
-  title: A New Linear Logic for Deadlock-Free Session-Typed Processes 
-  description: | 
-    The π-calculus, viewed as a core concurrent programming language, has been used as the target of much research on type systems for concurrency. In this paper we propose a new type system for deadlock- free session-typed π-calculus processes, by integrating two separate lines of work. The first is the propositions-as-types approach by Caires and Pfenning, which provides a linear logic foundation for session types and guarantees deadlock-freedom by forbidding cyclic process connections. The second is Kobayashi’s approach in which types are annotated with priorities so that the type system can check whether or not processes contain genuine cyclic dependencies between communication operations. We combine these two techniques for the first time, and define a new and more expressive variant of classical linear logic with a proof assignment that gives a session type system with Kobayashi-style priorities. This can be seen in three ways: (i) as a new linear logic in which cyclic structures can be derived and a Cycle-elimination theorem generalises Cut-elimination 
+  title: A New Linear Logic for Deadlock-Free Session-Typed Processes
+  description: |
+    The π-calculus, viewed as a core concurrent programming language, has been used as the target of much research on type systems for concurrency. In this paper we propose a new type system for deadlock- free session-typed π-calculus processes, by integrating two separate lines of work. The first is the propositions-as-types approach by Caires and Pfenning, which provides a linear logic foundation for session types and guarantees deadlock-freedom by forbidding cyclic process connections. The second is Kobayashi’s approach in which types are annotated with priorities so that the type system can check whether or not processes contain genuine cyclic dependencies between communication operations. We combine these two techniques for the first time, and define a new and more expressive variant of classical linear logic with a proof assignment that gives a session type system with Kobayashi-style priorities. This can be seen in three ways: (i) as a new linear logic in which cyclic structures can be derived and a Cycle-elimination theorem generalises Cut-elimination
 
 - speaker:
     name: Luís Cruz-Filipe
@@ -31,14 +31,14 @@
   duration: 30
   created: 2020-01-07
   sequence: 0
-  place: 
+  place:
     label: IMADA meeting room
     link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9ba423b7d0540c9a98b/
   title: Hypothetical answers to continuous queries over data streams
   description: |
     Continuous queries over data streams often delay answers until some relevant input arrives through the data stream. These delays may turn answers, when they arrive, obsolete to users who sometimes have to make decisions with no help whatsoever. Therefore, it can be useful to provide hypothetical answers - “given the current information, it is possible that X will become true at time t” - instead of no information at all.
     In this talk we present a semantics for queries and corresponding answers that covers such hypothetical answers, together with an online algorithm for updating the set of facts that are consistent with the currently available information.
-    
+
 - speaker:
     name: Marco Peressotti
     affiliation: Concurrency and Logic research group
@@ -46,7 +46,7 @@
   duration: 30
   created: 2019-01-07
   sequence: 0
-  place: 
+  place:
     label: IMADA meeting room
     link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9ba423b7d0540c9a98b/
   title: A fully-abstract semantics for Classical Processes
@@ -60,7 +60,7 @@
   duration: 45
   created: 2018-06-21
   sequence: 0
-  place: 
+  place:
     label: IMADA meeting room
     link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9ba423b7d0540c9a98b/
   title: Applied Choreographies
@@ -71,14 +71,14 @@
     name: Jacopo Mauro
     affiliation: Concurrency and Logic research group
   date: 2018-05-25 10:30
-  place: 
+  place:
     label: IMADA meeting room
     link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9ba423b7d0540c9a98b/
   title: Introduction seminar on previous work and research interests
   description: |
-    Presentation to the Concurrency and Logic group, covering previous work on Constraint Programming and portfolio solvers, Cloud deployments, and DevOps practices. 
+    Presentation to the Concurrency and Logic group, covering previous work on Constraint Programming and portfolio solvers, Cloud deployments, and DevOps practices.
 
-- speaker: 
+- speaker:
     name: Luís Cruz-Filipe
     affiliation: Concurrency and Logic research group
   date: 2018-04-20 10:30
@@ -86,40 +86,39 @@
     label:  IMADA meeting room
     link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9ba423b7d0540c9a98b/
   title: Connectors Meet Choreographies
-  description: | 
+  description: |
     Presentation of Cho-Reo-graphies (CR), a model where choreographies are parametric in the (Reo) connectors through which parties communicate. CR is the first choreography model where different communication semantics (e.g., synchronous and asynchronous) can freely be mixed in the same choreography. We prove that if a choreography respects the rules of the connectors that it uses, then the process implementation that we can synthesise from it enjoys deadlock freedom.
 
-- speaker: 
+- speaker:
     name: Jacopo Mauro
     affiliation: Oslo University, Norway
   date: 2017-10-30 10:15
-  place: 
+  place:
     label: Room U147
     link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9b8423b7d0540c9a981/
-  title: Application Deployment - What can be automated? 
-  description: | 
-    In modern software systems, deployment is an integral and critical part of application development. A natural question arises: to what extent can we automate the deployment of complex, distributed, and scalable software systems? In the first part of this talk, we will try to give an answer to this question providing some insights on the complexity of the problems of dealing with application deployment and describing tools that can be used. We then describe a recent approach to take into account deployment at the modeling level, thus allowing to perform deployment conscious decisions during the early stages of a system development. 
+  title: Application Deployment - What can be automated?
+  description: |
+    In modern software systems, deployment is an integral and critical part of application development. A natural question arises: to what extent can we automate the deployment of complex, distributed, and scalable software systems? In the first part of this talk, we will try to give an answer to this question providing some insights on the complexity of the problems of dealing with application deployment and describing tools that can be used. We then describe a recent approach to take into account deployment at the modeling level, thus allowing to perform deployment conscious decisions during the early stages of a system development.
 
-- speaker: 
+- speaker:
     name: Tomasz Brengos
     affiliation: Warsaw University of Technology, Poland
     website: https://www.mini.pw.edu.pl/~tbrengos/www/
   date: 2017-06-27 14:15
-  place: 
+  place:
     label: IMADA seminar room
     link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb8e9423b7d0540c9a2b6/
   title: A uniform framework for timed automata
-  description: | 
+  description: |
     Timed automata, and machines alike, currently lack a general mathematical characterisation. We introduce a uniform coalgebraic understanding of these devices. This framework encompasses known behavioural equivalences for timed automata and paves the way for the extension of these notions to new timed behaviours and for the instantiation of established results from the coalgebraic theory as well. Lax functors are the cornerstone of the framework: they allow us to model time flow as a context property and hence offer a general and expressive setting where to study timed systems. In this setting the index category encodes "how step sequences form executions" (e.g. whether steps duration is accumulated or kept distinct) whereas the base category encodes "step nature and composition" (e.g. non-determinism and labels). Finally, we develop the notion of general saturation for lax functors and show how equivalences of interest for timed behaviours are instances of this notion. This characterisation allows us to reason about the expressiveness of said notions within a uniform framework and organise them in a spectrum independent from the behavioural aspects encoded in the base category.
 
-- speaker: 
+- speaker:
     name: Marco Peressotti
     affiliation: University of Udine, Italy
   date: 2017-01-18 10:15
-  place: 
+  place:
     label: Room U44
     link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb920423b7d0540c9a482/
-  title: Composable Open Memory Transactions 
-  description: | 
-    Transactional memory (TM) has emerged as a promising high-level concurrency control mechanism alternative to fine grained lock-based synchronization. However, most TM models admit only isolated transactions, which are not adequate in multi-threaded programming where transactions have to interact via shared data before committing. We present Open Transactional Memory (OTM), a programming model supporting safe, data-driven interactions between composable memory transactions. In this model, different transactions are transparently merged at runtime as soon as they access to shared variables; their threads can then cooperate, until they all either commit or abort together. Thus, this model relaxes the isolation requirement still guaranteeing atomicity; moreover, it allows for loosely-coupled interactions since transaction merging is dynamic and driven only by accesses to shared data, with no need to specify participants beforehand. We present OTM in the setting of the Haskell language, taking advantage of its type system for guaranteeing composability. 
-  
+  title: Composable Open Memory Transactions
+  description: |
+    Transactional memory (TM) has emerged as a promising high-level concurrency control mechanism alternative to fine grained lock-based synchronization. However, most TM models admit only isolated transactions, which are not adequate in multi-threaded programming where transactions have to interact via shared data before committing. We present Open Transactional Memory (OTM), a programming model supporting safe, data-driven interactions between composable memory transactions. In this model, different transactions are transparently merged at runtime as soon as they access to shared variables; their threads can then cooperate, until they all either commit or abort together. Thus, this model relaxes the isolation requirement still guaranteeing atomicity; moreover, it allows for loosely-coupled interactions since transaction merging is dynamic and driven only by accesses to shared data, with no need to specify participants beforehand. We present OTM in the setting of the Haskell language, taking advantage of its type system for guaranteeing composability.

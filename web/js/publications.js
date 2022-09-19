@@ -11,24 +11,24 @@ var toggleKeywordFilter = function() {
 $(document).ready(function() {
 
     /* ---- TOOLTIP PAPERTOGGLE PREVIEW ---- */
-    
+
     $( "#paperToggle" ).tooltip( "show" );
     setTimeout( function() { $(".tooltip").tooltip( "hide" ); }, 2000);
 
     /* ---- ABSTRACT PREVIEW LOGIC ---- */
-    
+
     $(".abstract_preview").click( function( e ) {
         $( "#abstract_content_" + $( this ).attr( "id" ) ).toggle( 100 );
         return false;
     });
-    
+
     /* ---- BIBITEM VIEW LOGIC ---- */
 
     $(".bibitem_preview").click( function( e ) {
         $( "#bibitem_content_" + $( this ).attr( "id" ) ).toggle( 100 );
         return false;
     });
-    
+
     /* ---- TAGS VIEW LOGIC ---- */
 
     $(".tags_preview").click( function( e ) {
@@ -36,7 +36,7 @@ $(document).ready(function() {
         return false;
     });
     $(".tags-item").click( function( e ) {
-      var filter = $(this).text().trim(); 
+      var filter = $(this).text().trim();
       $( ".btn-filter" ).each( function(i, e) {
           if( $.trim( $( e ).ignore(".tot").text() ) == filter){
               $( e ).trigger( 'click' );
@@ -45,7 +45,7 @@ $(document).ready(function() {
       });
       return false;
     })
-    
+
     /* ---- FILTERS LOGIC ---- */
 
     var basicBtnClasses = "btn btn-sm";
@@ -97,7 +97,7 @@ $(document).ready(function() {
                 break;
             }}
         }
-        
+
         var filterCategory = function (i,e){
           var found = false;
           if (selectedTopics[i].size == 0){
@@ -112,7 +112,7 @@ $(document).ready(function() {
           };
           return found;
         };
-         
+
         var filterFunction = function(i,e){
           if (filterCategory(0,e) && filterCategory(1,e) && filterCategory(2,e)) {
             checkDisplay(e);
@@ -146,7 +146,7 @@ $(document).ready(function() {
             }
         });
     }
-    
+
     var collectBibtex = function(){
       var text = "";
       $("li.paper").filter(":visible").each(function(i,e){
@@ -154,7 +154,7 @@ $(document).ready(function() {
       });
       return text;
     }
-        
+
     $(".copy-bibtex").click( function(e){
       var icon = $(this).children("span");
       icon.attr("class","fa fa-clock");
@@ -167,7 +167,7 @@ $(document).ready(function() {
       el.style.left = '-9999px';
       document.body.appendChild(el);
       const selected =
-        document.getSelection().rangeCount > 0 
+        document.getSelection().rangeCount > 0
           ? document.getSelection().getRangeAt(0)
           : false;
       el.select();
@@ -184,7 +184,7 @@ $(document).ready(function() {
       }, 250);
       return false;
     }).children("span").attr("class","fa fa-clipboard-list");
-    
+
     $(".download-bibtex").click( function(e){
       var icon = $(this).children("span");
       icon.attr("class","fa fa-clock");

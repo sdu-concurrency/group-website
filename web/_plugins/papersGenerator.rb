@@ -89,7 +89,7 @@ module Jekyll
               "icon" => (b[0].url.end_with?(".pdf") ? iconMap["pdf"] : iconMap["generic"] )
             })
           end
-          unless b[0]["doi"].nil? 
+          unless b[0]["doi"].nil?
             item["doi"] = b[0].doi
             # use the the bib doi if item does not specify one
             unless links.any?{ |h| h["name"] == "doi"}
@@ -119,10 +119,10 @@ module Jekyll
           #   item["abstract"] = cp.items[cp.items.keys[0]].abstract.value
           # end
           item["links"] = links
-          links.each{ |link| 
+          links.each{ |link|
             url = link["link"] || link
             arxiv = url.scan(/.*arxiv.org\/abs\/([0-9]+\.[0-9]+)/).last
-            unless arxiv.nil? 
+            unless arxiv.nil?
               item["arxiv"] = arxiv
               break
             end

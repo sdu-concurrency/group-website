@@ -11,7 +11,7 @@ During the discussion panels at [Microservices 2017](/events/2017-10-25-Microser
 
 <!--more-->
 
-Prompted by this observation, the organisers of [Microservices 2017](/events/2017-10-25-Microservices_Conference) in {{ site.group_short }} put forward the initiative of [Microservices Community](http://microservices.sdu.dk/), with the support of [SDU](https://www.sdu.dk/en). 
+Prompted by this observation, the organisers of [Microservices 2017](/events/2017-10-25-Microservices_Conference) in {{ site.group_short }} put forward the initiative of [Microservices Community](http://microservices.sdu.dk/), with the support of [SDU](https://www.sdu.dk/en).
 
 
 The main activities of the initiative comprise:

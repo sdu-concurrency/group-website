@@ -75,11 +75,11 @@ layout: default
 jQuery(document).ready(function($) {
   $('.item-row').masonry({
     itemSelector : '.item'
-  });  
+  });
 });
 jQuery(document).ready(function($) {
   $('.inner-item-row').masonry({
     itemSelector : '.inner-item'
-  });  
+  });
 });
 </script>

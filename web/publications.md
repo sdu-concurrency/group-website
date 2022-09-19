@@ -62,7 +62,7 @@ ul {
 		</div>
 		<hr />
 		<script>
-			
+
 		</script>
 		<div class="row">
 			<div>Filter by keyword:</div>

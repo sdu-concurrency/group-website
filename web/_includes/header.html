@@ -1,11 +1,11 @@
 <!--script>
-var nav_toggle = function(){ 
+var nav_toggle = function(){
   $( "#navbar" ).toggleClass('fixed-top').toggleClass('static-top');
   $( "#nav_spacer" ).toggleClass('d-none');
 };
 var nav_switch = function() {
   var min_height = 400; // pixels
-  if ( 
+  if (
     ( $( window ).height() < min_height && $( "#navbar" ).hasClass( 'fixed-top'  ) ) ||
     ( $( window ).height() > min_height && $( "#navbar" ).hasClass( 'static-top' ) )
   ){ nav_toggle(); }
@@ -41,7 +41,7 @@ $( nav_switch );$( window ).resize( nav_switch );
                 {% if item.subitems %}
                 <li class="nav-item my-2 my-lg-0">
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="{{ item.link }}" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" 
+                    <a class="nav-link dropdown-toggle" href="{{ item.link }}" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true"
                     aria-expanded="false">{{ item.title }}</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                       {% for subitem in item.subitems %}

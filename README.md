@@ -6,7 +6,7 @@
 
 Static pages are in the root folder as markdown (`.md`) files. Unless some html
 tags are needed, you can directly edit the content using the markdown syntax.
-In case you need to add html elements and still want to write content inside of them in markdown, just remember to add the `markdown="1"` attribute to the 
+In case you need to add html elements and still want to write content inside of them in markdown, just remember to add the `markdown="1"` attribute to the
 HTML tag.
 
 ### Writing event posts
@@ -27,18 +27,18 @@ date_end: 2018-03-12 14:00:00
 
 ### Adding publications
 
-Publications are added inside the `_data/papers` folder, within the root, in files named after the publication year, `preprints.json` (accepted for publication), or `draft.json` (reports etc.). 
+Publications are added inside the `_data/papers` folder, within the root, in files named after the publication year, `preprints.json` (accepted for publication), or `draft.json` (reports etc.).
 For instance, `2017.json` is a json array `[ { object_1 }, { object_2 }, ... ]` that contains papers published in 2017. The schema for each `object` is
 
 ```json
 {
     "bibitem": "BIB_CONTENT",
     "links": [
-      { 
-        "link" : "PAPERLINK", 
+      {
+        "link" : "PAPERLINK",
         "name" : "PAPERLINK_NAME",
-        "icon" : "PAPERLINK_ICON" 
-      }, 
+        "icon" : "PAPERLINK_ICON"
+      },
       {
         "link" : "PAPERLINK"
       }
@@ -51,7 +51,7 @@ For instance, `2017.json` is a json array `[ { object_1 }, { object_2 }, ... ]` 
 }
 ```
 
-Where 
+Where
 
 - `BIBLINK` is the bibitem of the paper in linearised format (no new lines);
 - `"links"` contains a list of links related to the publication. For each element, if the `"name"` attribute of the element is omitted, it will be visualised using the default name `paper` and if the `"icon"` attribute of the element is omitted, it will be visualised with the [generic link icon](https://fontawesome.com/icons/link?style=solid). Valid names for icons are: `pdf`, `paper` (aliases `pdf`), `arxiv`, `corr` (aliases `arxiv`) , `site`, `website` (aliases `site`), `video`, `slides`, `generic` (the default one);
@@ -105,11 +105,11 @@ Grant entries are stored inside the `_data` folder, within the root, in a json f
 {
   "title" : "NAME",
   "id" : "NAME",
-  "participants" : [ 
-    { 
+  "participants" : [
+    {
       "name" : "NAME",
       "role" : "ROLE",
-      "affiliation" : "AFF" 
+      "affiliation" : "AFF"
     }
   ],
   "website" : "LINK",

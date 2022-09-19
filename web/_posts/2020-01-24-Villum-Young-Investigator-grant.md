@@ -7,7 +7,7 @@ tag: featured
 ---
 <img class="img-fluid mx-auto d-block" src="/images/posts/fm-villum.jpg">
 
-[Fabrizio Montesi](/people.html#fm) has received a prestigious Villum Foundation [Villum Young Investigator](https://veluxfoundations.dk/en/teknisk-og-naturvidenskabelig-forskning/arslegat) grant, for a total of DKK 7.1 millions (~1 million EUR). 
+[Fabrizio Montesi](/people.html#fm) has received a prestigious Villum Foundation [Villum Young Investigator](https://veluxfoundations.dk/en/teknisk-og-naturvidenskabelig-forskning/arslegat) grant, for a total of DKK 7.1 millions (~1 million EUR).
 The Villum Young Investigator Programme funds particularly talented young researchers in the technical and natural sciences.
 
 <!--more-->

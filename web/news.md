@@ -16,7 +16,7 @@ layout: default
   <div class="card-title pl-1 pr-1 text-center alert-info rounded-top">
     <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
     <div style="margin-top:-1.5em;" class="small text-right text-muted">
-      {% if post.date-end %} 
+      {% if post.date-end %}
         {{ post.date | date: "%b %-d, %Y" }} - {{ post.date-end | date: "%b %-d, %Y" }}
       {% else %}
          {{ post.date | date: "%b %-d, %Y" }}
@@ -43,6 +43,6 @@ layout: default
 jQuery(document).ready(function($) {
   $('.item-row').masonry({
     itemSelector : '.item'
-  });  
+  });
 });
 </script>

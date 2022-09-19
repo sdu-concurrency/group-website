@@ -9,7 +9,7 @@ layout: default
 </header><section class="wrapper card style4 container">
   <div class="content">
     <section>
-    
+
       <p class="d-none d-md-block">The graph below represents the interactions that members of the {{ site.group_short }} group have with industrial and public organisations, other academic groups and individuals, open-source communities, and interest groups.</p>
 
 <div class="col-12 center d-none d-md-block">
@@ -65,7 +65,7 @@ layout: default
         <li>SAC 2014-2019 (SOAP, MiDOS)</li>
       </ul>
     </ul>
-  </div> 
+  </div>
   <div class="col-md-12 col-lg-6">
     <h2>Industry and Public Organisations</h2>
     <ul class="small">

@@ -1,4 +1,4 @@
-[ 
+[
   {
     "name" : "AIOCJ",
     "short-bio" : "A choreography language for adaptive distributed systems",
@@ -45,7 +45,7 @@
       "icon" : "fab fa-github"
     },
     "logo" : "/images/software/jiot.png",
-    "tags" : [ "internet of things", "integration" ]  
+    "tags" : [ "internet of things", "integration" ]
   },
   {
     "name" : "SMAll",

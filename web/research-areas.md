@@ -71,12 +71,12 @@ layout: default
 
         <div class="d-sm-block d-md-none nav flex-column nav-pills" id="myTab" role="tablist" aria-orientation="vertical">
           {% for item in site.data.research-areas %}
-          <a 
+          <a
           class="{{ item.id }}-tab nav-link {% if forloop.first %}active{% endif %}"
-          data-toggle="tab" 
-          href="#{{ item.id }}" 
-          role="tab" 
-          aria-controls="{{ item.id }}" 
+          data-toggle="tab"
+          href="#{{ item.id }}"
+          role="tab"
+          aria-controls="{{ item.id }}"
           {% if forloop.first %}
             aria-selected="true"
             {% else %}

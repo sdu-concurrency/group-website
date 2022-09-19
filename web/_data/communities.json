@@ -83,8 +83,8 @@
       {
         "name": "Denmark",
         "children": [
-          { "name" : "Technical University of Denmark" }, 
-          { "name" : "Information Technology University" }, 
+          { "name" : "Technical University of Denmark" },
+          { "name" : "Information Technology University" },
           { "name" : "University of Copenhagen" }
         ]
       },

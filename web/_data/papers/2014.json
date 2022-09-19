@@ -112,7 +112,7 @@
     "type" : "Journal",
     "non_group" : true
   },
-  
+
   {
     "bibitem": "@inproceedings{MP14b,  author = {Marino Miculan and  Marco Peressotti},  title = {A {CSP} implementation of the bigraph embedding problem},  booktitle = {First International Workshop on Meta Models for Process Languages},  volume = {abs/1412.1042},  year = {2014} }",
     "links": [

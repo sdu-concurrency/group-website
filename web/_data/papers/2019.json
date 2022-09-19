@@ -79,7 +79,7 @@
 					"link" : "https://www.slideshare.net/MarcoPeressotti/better-late-than-never-a-fully-abstract-semantics-for-classical-processes",
 					"icon" : "slideshare"},
         { "name" : "presentation",
-          "link" : "https://youtu.be/pLbq7CaWByw", 
+          "link" : "https://youtu.be/pLbq7CaWByw",
           "icon" : "video" }
 			],
       "tags": [ "Behavioural Theory", "Logic", "Process Calculi", "Session Types" ],

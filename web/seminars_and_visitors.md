@@ -52,7 +52,7 @@ The calendar below reports on the left the schedule of the {{ site.group_short }
 		{%- endif %}
 		{%- assign hosts = visitor.hosts | default: visitor.host -%}
 		{%- if hosts.size > 0 %}
-		<br> 
+		<br>
 		<span class="tag">
 			<span class="fa fa-user"></span>
 			{%- for host in hosts -%}
@@ -67,12 +67,12 @@ The calendar below reports on the left the schedule of the {{ site.group_short }
 				{%- endfor %}
 				{{ h }}
 				{%- if forloop.rindex > 1 -%}
-					, 
+					,
 				{%- endif -%}
 			{%- endfor %}
 		</span>
 		{%- endif %}
-		<br> 
+		<br>
 		<span class="tag">
 			<span class="fa fa-link"></span>
 			<a class="nodec" id="{{this_id}}" href="#{{ this_id }}">Permalink</a>
@@ -103,11 +103,11 @@ The calendar below reports on the left the schedule of the {{ site.group_short }
 			{%- endif %}
 		{%- endfor %}
 		<span class="tag">
-		<span class="fa fa-user"></span> {{ speaker }} 
+		<span class="fa fa-user"></span> {{ speaker }}
 		</span><br>
 		{% if seminar.speaker.affiliation %}
-		<span class="fa fa-address-card"></span> 
-		{{ seminar.speaker.affiliation }} 
+		<span class="fa fa-address-card"></span>
+		{{ seminar.speaker.affiliation }}
 		<br>
 		{% endif %}
 		<span class="tag">
@@ -131,7 +131,7 @@ The calendar below reports on the left the schedule of the {{ site.group_short }
 			<a class="nodec" id="{{this_id}}" href="#{{ this_id }}">Permalink</a>
 		</span>
 		</div>
-		<div class="abstract small d-none"><hr>{{ seminar.description | markdownify }}</div> 
+		<div class="abstract small d-none"><hr>{{ seminar.description | markdownify }}</div>
 	</div>
 	{% endfor %}
 </div>

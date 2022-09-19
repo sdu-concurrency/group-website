@@ -63,6 +63,6 @@ for software in site.data.software
 jQuery(document).ready(function($) {
   $('.item-row').masonry({
     itemSelector : '.item'
-  });  
+  });
 });
 </script>

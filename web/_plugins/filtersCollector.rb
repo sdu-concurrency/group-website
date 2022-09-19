@@ -16,7 +16,7 @@ module Jekyll
           item[ "papers" ].each do | paper |
             raise "Found paper with no tags: #{paper}" unless not paper["tags"].nil?
             paper[ "tags" ].each do | tag |
-              if topicsCount[ tag ].nil? 
+              if topicsCount[ tag ].nil?
                 topicsCount[ tag ] = 1
               else
                 topicsCount[ tag ] = topicsCount[ tag ] + 1
@@ -46,7 +46,7 @@ module Jekyll
         end
         string = ""
         typeSet.to_a.sort.each do | tag |
-          string += "<button class=\"btn btn-sm btn-filter 
+          string += "<button class=\"btn btn-sm btn-filter
           btn-light type\">#{tag}</button><span> </span>"
         end
         string
@@ -64,7 +64,7 @@ module Jekyll
         end
         string = ""
         authorsSet.to_a.sort.each do | author |
-          string += "<button class=\"btn btn-sm btn-filter 
+          string += "<button class=\"btn btn-sm btn-filter
           btn-light author\">#{author}</button><span> </span>"
         end
         string

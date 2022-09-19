@@ -14,12 +14,12 @@
   "website" : "http://saveriogiallorenzo.com",
   "photo" : "/images/people/sgiallorenzo-p.jpg",
   "email" : "saverio@imada.sdu.dk",
-  "research_topics" : [ 
-    "adaptation", 
-    "choreographic programming", 
-    "microservices", 
-    "security", 
-    "smart cities", 
-    "internet of things" 
+  "research_topics" : [
+    "adaptation",
+    "choreographic programming",
+    "microservices",
+    "security",
+    "smart cities",
+    "internet of things"
   ]
 }

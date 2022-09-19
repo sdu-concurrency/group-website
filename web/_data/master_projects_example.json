@@ -1,11 +1,11 @@
 [
-  { 
+  {
     "title" : "Some project title",
     "description" : "Some nice description in <strong>HTML</strong> format (mind the \"quotes\").",
     "link" : "http://concurrency.sdu.dk",
     "contact" : "Professor Professorson"
   },
-  { 
+  {
     "title" : "Some project title2",
     "description" : "Some nice description 2 in <strong>HTML</strong> format (mind the \"quotes\").",
     "contact" : "Professor Professorson"

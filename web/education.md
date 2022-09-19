@@ -68,8 +68,8 @@ There are no Master projects available at the moment.
       {% break %}
       {% endif %}
     {% endfor %}
-    </span>  
-    <!--span>Contact person: {{ site.people | where:"item","item.id == mp.contact || item.name == mp.contact" }} </span>  
+    </span>
+    <!--span>Contact person: {{ site.people | where:"item","item.id == mp.contact || item.name == mp.contact" }} </span>
     <!--span>Contact person: {{ mp.contact }}</span-->
   </div>
 </div>
@@ -98,7 +98,7 @@ If you are interested in doing a PhD in the {{ site.group_name }} group, please 
     {% if pp.link %}
     <a class="card-link" href="{{pp.link}}">More information</a>
     {% endif %}
-    </div>  
+    </div>
     <span>Contact person: {{ pp.contact }}</span>
   </div>
 </div>

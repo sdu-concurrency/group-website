@@ -2,7 +2,7 @@
 title: Artificial Intelligence, Cybersecurity, and Programming Languages
 email: concurrency@imada.sdu.dk
 description: > # this means to ignore newlines until "baseurl:"
-  
+
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://acp.sdu.dk" # the base hostname & protocol for your site
 permalink: /news/:year-:month-:day-:title.html
