@@ -65,10 +65,7 @@ The calendar below reports on the left the schedule of the {{ site.group_short }
 					{%- break %}
 					{%- endif %}
 				{%- endfor %}
-				{{ h }}
-				{%- if forloop.rindex > 1 -%}
-					,
-				{%- endif -%}
+				{{ h }}{%- if forloop.rindex > 1 -%}, {%- endif -%}
 			{%- endfor %}
 		</span>
 		{%- endif %}
