@@ -1,0 +1,13 @@
+{
+    "name": "Andrea Melis",
+    "role": "Post-doctoral Researcher",
+    "id": "amelis",
+    "photo": "/images/people/amelis-p.jpg",
+    "email": "a.melis@unibo.it",
+    "affiliation": "University of Bologna, Italy",
+    "office": {
+        "label": "Ø9-601b-2",
+        "link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad59"
+    },
+    "research_topics" : ["security", "cybersecurity", "privacy"]
+}

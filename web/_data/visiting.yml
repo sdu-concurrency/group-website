@@ -1,3 +1,25 @@
+- name: Marco Prandini
+  from: 2022-10-17
+  to: 2022-12-23
+  affiliation: University of Bologna, Italy
+  website: https://www.unibo.it/sitoweb/marco.prandini/en
+  picture: images/people/mprandini-p.jpg
+  email: marco.prandini@unibo.it
+  host: Jacopo Mauro
+  office:
+    label: Ø13-602b-2
+    link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9aa423b7d0540c9a907
+- name: Andrea Melis
+  from: 2022-10-31
+  to: 2022-12-23
+  affiliation: University of Bologna, Italy
+  website: https://www.unibo.it/sitoweb/a.melis/en
+  picture: images/people/amelis-p.jpg
+  email: a.melis@unibo.it
+  host: Jacopo Mauro
+  office:
+    label: Ø9-601b-2
+    link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad59
 - name: Saverio Giallorenzo
   from: 2021-10-11
   to: 2021-10-15

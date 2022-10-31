@@ -1,0 +1,13 @@
+{
+    "name": "Marco Prandini",
+    "role": "Associate Professor",
+    "id": "mprandini",
+    "photo": "/images/people/mprandini-p.jpg",
+    "email": "marco.prandini@unibo.it",
+    "affiliation": "University of Bologna, Italy",
+    "office": {
+        "label": "Ø13-602b-2",
+        "link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9aa423b7d0540c9a907"
+    },
+    "research_topics" : ["security", "e-voting", "software-defined networking"]
+}
