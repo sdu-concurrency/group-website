@@ -31,6 +31,15 @@
     <small><a class="nodec" href="https://orcid.org/{{ person.orcid }}"><span class="ai ai-orcid"></span> ORCID</a></small>
 </div>
 {% endif %}
+{%if person.office %}
+<div class="col-sm-6">
+    {%- if person.office.link %}
+    <small><a class="nodec" href="{{ person.office.link }}"><span class="fas fa-map-marker-alt"></span> {{ person.office.label }}</a></small>
+    {%- else %}
+    <small><span class="fas fa-map-marker-alt"></span> {{ person.office }} </a></small>
+    {%- endif %}
+</div>
+{% endif %}
 {%if person.dblp %}
 <div class="col-sm-6">
     <small><a class="nodec" href="https://dblp.uni-trier.de/pid/{{ person.dblp }}"><span class="ai ai-dblp"></span> DBLP</a></small>
