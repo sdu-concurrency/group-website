@@ -1,4 +1,5 @@
 ---
+permalink: /risu/
 layout: default
 ---
 <html lang="en-US">
