@@ -12,6 +12,6 @@ markdown: kramdown
 excerpt_separator: "<!--more-->"
 group_short: "ACP"
 group_name: "Artificial Intelligence, Cybersecurity, and Programming Languages"
-exclude: [ "docker", "layout_archive", "utils", "images/communities.graffle", "areas.md", "README.md"]
+exclude: ["images/communities.graffle"]
 incremental: false
 no_publications: false
