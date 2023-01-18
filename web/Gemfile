@@ -1,18 +1,18 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-# C liquid engine
-gem "liquid-c"
+gem 'jekyll', '~> 4.2.0'
 
 group :jekyll_plugins do
-  gem 'jekyll'
+  gem 'jekyll-email-protect'
+  gem 'jekyll-diagrams'
+
+  # Dependencies of custom plugins.
   gem 'json'
   gem 'titleize'
   gem 'unicode_utils'
-  gem 'jekyll-email-protect'
   gem 'bibtex-ruby'
   gem 'citeproc-ruby'
   gem 'csl-styles'
   gem 'concurrent-ruby'
   gem 'possibly'
-  gem 'jekyll-diagrams'
 end
