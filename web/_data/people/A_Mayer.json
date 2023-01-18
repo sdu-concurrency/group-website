@@ -1,0 +1,16 @@
+{
+  "id": "pmayer",
+  "name": "Peter Mayer",
+  "role": "Assistant Professor",
+  "phone": "+45 65503531",
+  "office": {
+    "label": "Ø14-602a-1",
+    "link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb8d3423b7d0540c9a209"
+  },
+  "google_scholar": "eNveze4AAAAJ",
+  "orcid": "0000-0002-6267-4874",
+  "github": "petermayer",
+  "email": "mayer@imada.sdu.dk",
+  "photo": "/images/people/pmayer-p.jpg",
+  "research_topics": ["Usable Authentication", "Password Managers", "Security Awareness", "Email Security", "Notifications"]
+}
