@@ -1,0 +1,14 @@
+{
+  "name" : "Dan Plyukhin",
+  "role": "Post-doctoral Researcher",
+  "id": "dp",
+  "photo": "/images/people/dplyukhin-p.jpg",
+  "phone": "+45 65 50 72 56",
+  "dblp" : "232/0111",
+  "google_scholar" : "MPmNRGIAAAAJ",
+  "github" : "dplyukhin",
+  "twitter" : "dplyukhin",
+  "email" : "dplyukhin@imada.sdu.dk",
+  "website" : "https://dplyukhin.github.io",
+  "research_topics" : [ "Choreographic Programming", "Actor Model", "Cloud Computing", "Programming Languages" ]
+}
