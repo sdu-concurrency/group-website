@@ -1,0 +1,17 @@
+{
+  "name" : "Matteo Acclavio",
+  "role": "Post-doctoral Researcher",
+  "id": "ma",
+  "photo": "/images/people/macclavio-p.jpg",
+  "office": {
+    "label": "Ø9-602a-2",
+    "link": "https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cba2e423b7d0540c9ad5a"
+  },
+  "dblp" : "182/1948",
+  "google_scholar" : "R5Oy8AIAAAAJ",
+  "orcid" : "0000-0002-0425-2825",
+  "github" : "macclavio",
+  "email" : "acclavio@imada.sdu.dk",
+  "website" : "https://matteoacclavio.com",
+  "research_topics" : ["Proof Theory", "Logic", "Concurrency", "Program equivalence", "Formal Methods"]
+}
