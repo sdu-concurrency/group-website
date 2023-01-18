@@ -92,7 +92,7 @@
              "elements" : [
                 {
                         "title" : "Cloud Computing",
-                        "description" : "Cloud computing is a new paradigm that enables the ubiquitous access to pools of computing resources that can be rapidly provisioned with minimal management effort. Since the launch of Amazon EC2 in 2006, cloud computing has revolutionize the software development, allowing the developers to partially abstract from the computing medium and develop applications that can be deployed in matter of minutes and can easily scale based on the request load. More than 50% of organizations are using the cloud to message, store data, and compute.",
+                        "description" : "Cloud computing is a new paradigm that enables the ubiquitous access to pools of computing resources that can be rapidly provisioned with minimal management effort. Since the launch of Amazon EC2 in 2006, cloud computing has revolutionized the software development, allowing the developers to partially abstract from the computing medium and develop applications that can be deployed in matter of minutes and can easily scale based on the request load. More than 50% of organizations are using the cloud to message, store data, and compute.",
                         "id": "cc"
                 },
                 {
