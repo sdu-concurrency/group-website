@@ -4,7 +4,7 @@ JEKYLL := $(BUNDLE) exec jekyll
 
 .PHONY: all install update clean build serve
 
-all : install build
+all: install build
 
 install:
 	$(BUNDLE) install
