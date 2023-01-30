@@ -1,6 +1,4 @@
 FROM jekyll/jekyll:4.2.0 AS build
-RUN apk update && \
-    apk add graphviz
 
 # NOTE: We don't make use of the image's `/srv/jekyll` WORKDIR because it's
 # declared as a VOLUME in the `jekyll/jekyll` image. After a path is declared as
