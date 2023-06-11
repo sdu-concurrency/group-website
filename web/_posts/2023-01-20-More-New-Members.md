@@ -3,7 +3,6 @@ layout: post
 title: "More New Members"
 place: Odense, Denmark
 date: 2023-01-20
-tag: featured
 ---
 <img class="img-fluid mx-auto d-block" src="/images/posts/new-ppl-3.jpg">
 

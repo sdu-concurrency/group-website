@@ -1,4 +1,18 @@
 - speaker:
+    name: Fabrizio Montesi and Lovro Lugović
+    affiliation: Concurrency and Logic research group
+  date: 2023-06-13 14:05
+  duration: 45
+  created: 2023-06-11
+  sequence: 0
+  place:
+    label: IMADA meeting room
+    link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9ba423b7d0540c9a98b/
+  title: "ACP at DisCoTec 2023: JoT, hacc, and Choreographies"
+  description: |
+    Fabrizio and Lovro will be informally presenting several papers that will appear at DisCoTec 2023.
+
+- speaker:
     name: Saverio Giallorenzo
     affiliation: University of Bologna, Italy
   date: 2021-10-12 15:15
