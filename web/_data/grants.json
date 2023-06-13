@@ -1,4 +1,76 @@
-[{
+[
+  {
+    "title" : "X-IDF: Explainable Internet Data Flows",
+    "id" : "X-IDF",
+    "participants" : [
+      {
+        "name" : "Fabrizio Montesi",
+        "role" : "PI",
+        "affiliation" : "University of Southern Denmark"
+      },
+      {
+        "name" : "Claes de Vreese",
+        "role" : "PI",
+        "affiliation" : "University of Southern Denmark"
+      }
+    ],
+    "_number" : "",
+    "period" : { "start" : "2023", "end" : "2025" },
+    "foundation" : "Villum Foundation (Villum Synergy Project)",
+    "amount" : "~3 million DKK (~400k EUR)"
+  },
+  {
+    "title" : "DeCoRe: Tools and Methods for the Design and Coordination of Reactive Hybrid Systems",
+    "id" : "DeCoRe",
+    "participants" : [
+      {
+        "name" : "Fabrizio Montesi",
+        "role" : "PI",
+        "affiliation" : "University of Southern Denmark"
+      },
+      {
+        "name": "Thomas Troels Hildebrandt",
+        "role": "Participant",
+        "affiliation": "University of Copenhagen"
+      },
+      {
+        "name": "Kim Guldstrand Larsen",
+        "role": "Participant",
+        "affiliation": "Aalborg University"
+      },
+      {
+        "name": "Marco Chiarandini",
+        "role": "Participant",
+        "affiliation": "University of Southern Denmark"
+      },
+      {
+        "name": "Narongrit Unwerawattana",
+        "role": "Participant",
+        "affiliation": "University of Southern Denmark"
+      },
+      {
+        "name": "Steven Beck Klinberg",
+        "role": "Participant",
+        "affiliation": "Sanovo Technology Group"
+      },
+      {
+        "name": "Morten Marquard",
+        "role": "Participant",
+        "affiliation": "DCR Solutions"
+      },
+      {
+        "name": "Claudio Guidi",
+        "role": "Participant",
+        "affiliation": "italianaSoftware"
+      }
+    ],
+    "website" : "https://direc.dk/decore-tools-and-methods-for-the-design-and-coordination-of-reactive-hybrid-systems/",
+    "_number" : "",
+    "period" : { "start" : "2022", "end" : "2023" },
+    "foundation" : "Innovation Fund Denmark, DIREC (Digital Research Centre Denmark)",
+    "amount" : "~2.3 million DKK (~300k EUR)"
+  },
+  {
     "title" : "Choreographies for connected IT systems",
     "id" : "Choco",
     "participants" : [
@@ -11,7 +83,7 @@
     "website" : "https://www.fabriziomontesi.com/projects/choco/",
     "_number" : "",
     "period" : { "start" : "01-08-2020", "end" : "31-07-2025" },
-    "foundation" : "Villum Foundation",
+    "foundation" : "Villum Foundation (Villum Young Investigator Project)",
     "amount" : "7 million DKK (~1 million EUR)"
   },
   {
