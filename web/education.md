@@ -36,7 +36,7 @@ Below is a list of the topics we offer for MSc and PhD theses.
 Many of our proposals can also be developed in the context of company collaborations.
 You are welcome to contact us to know more about these opportunities.
 
-### Topics for MSc theses
+### MSc Thesis Supervisors
 {% assign mps = site.data.master_projects | size %}
 
 {% if mps < 1 %}
@@ -44,65 +44,97 @@ There are no Master projects available at the moment.
 {% endif %}
 
 {% assign id = 0 %}
-{% for mp in site.data.master_projects %}
-{% capture id %}
-{% increment id %}
-{% endcapture %}
+{% for supervisor in site.data.master_projects %}
+<h3>
+{% for person in site.data.people %}
+  {% if person.name == supervisor.name or person.id == supervisor.name %}
+    <a href="/people.html#{{ person.id}}">{{ person.name }}</a>
+  {% break %}
+  {% endif %}
+{% endfor %}
+</h3>
+<div class="row">
+  <div class="col-sm-3">
+    {% if supervisor.image %}
+      <img class="mr-3 mb-1 img-fluid" src="{{supervisor.image}}">
+    {% endif %}
+  </div>
 
-<div class="card mb-4">
-    <div style="cursor: pointer;" class="card-header alert-info" data-toggle="collapse" data-target="#{{ id }}" aria-expanded="false" aria-controls="{{ id }}">{{ mp.title }}</div>
-  <div class="card-body collapse" id="{{ id }}">
-    <div class="mt-0 card-text">
-    {% if mp.image %}
-      <div class="col-sm-4 col-md-3 col-lg-2 float-left"><img class="mr-3 mb-1 img-fluid" src="{{mp.image}}"></div>
-    {% endif %}
-    <p class="text-justify hyphenate">{{ mp.description }}</p>
-    {% if mp.link %}
-    <a class="card-link" href="{{mp.link}}">More information</a>
-    {% endif %}
+  <div class="col-sm">
+    {% for mp in supervisor.projects %}
+    {% capture id %}
+    {% increment id %}
+    {% endcapture %}
+
+    <div class="card mb-4">
+        <div style="cursor: pointer;" class="card-header alert-info" data-toggle="collapse" data-target="#{{ id }}" aria-expanded="false" aria-controls="{{ id }}">{{ mp.title }}</div>
+      <div class="card-body collapse" id="{{ id }}">
+        <div class="mt-0 card-text">
+        {% if mp.image %}
+          <div class="col-sm-4 col-md-3 col-lg-2 float-left"><img class="mr-3 mb-1 img-fluid" src="{{mp.image}}"></div>
+        {% endif %}
+        <p class="text-justify hyphenate">{{ mp.description }}</p>
+        {% if mp.link %}
+        <a class="card-link" href="{{mp.link}}">More information</a>
+        {% endif %}
+        </div>
+      </div>
     </div>
-    <span>Contact person:
-    {% for person in site.data.people %}
-      {% if person.name == mp.contact or person.id == mp.contact %}
-        <a class="card-link" href="/people.html#{{ person.id}}">{{ person.name }}</a>
-      {% break %}
-      {% endif %}
+
     {% endfor %}
-    </span>
-    <!--span>Contact person: {{ site.people | where:"item","item.id == mp.contact || item.name == mp.contact" }} </span>
-    <!--span>Contact person: {{ mp.contact }}</span-->
   </div>
 </div>
-
 {% endfor %}
 
 ### PhD projects
 
-{% assign pps = site.data.phd_project | size %}
+{% assign pps = site.data.phd_projects | size %}
 
+{% if pps < 1 %}
 If you are interested in doing a PhD in the {{ site.group_name }} group, please contact us directly.
+{% endif %}
 
-{% for pp in site.data.phd_projects %}
-{% capture id %}
-{% increment id %}
-{% endcapture %}
+{% assign id = 0 %}
+{% for supervisor in site.data.phd_projects %}
+<h3>
+{% for person in site.data.people %}
+  {% if person.name == supervisor.name or person.id == supervisor.name %}
+    <a href="/people.html#{{ person.id}}">{{ person.name }}</a>
+  {% break %}
+  {% endif %}
+{% endfor %}
+</h3>
+<div class="row">
+  <div class="col-sm-3">
+    {% if supervisor.image %}
+      <img class="mr-3 mb-1 img-fluid" src="{{supervisor.image}}">
+    {% endif %}
+  </div>
 
-<div class="card mb-4">
-    <div style="cursor: pointer;" class="card-header alert-info" data-toggle="collapse" data-target="#{{ id }}" aria-expanded="false" aria-controls="{{ id }}">{{ pp.title }}</div>
-  <div class="card-body collapse" id="{{ id }}">
-    <div class="mt-0 card-text">
-    {% if pp.image %}
-      <div class="col-sm-4 col-md-3 col-lg-2 float-left"><img class="mr-3 mb-1 img-fluid" src="{{pp.image}}"></div>
-    {% endif %}
-    <p class="text-justify hyphenate">{{ pp.description }}</p>
-    {% if pp.link %}
-    <a class="card-link" href="{{pp.link}}">More information</a>
-    {% endif %}
+  <div class="col-sm">
+    {% for pp in supervisor.projects %}
+    {% capture id %}
+    {% increment id %}
+    {% endcapture %}
+
+    <div class="card mb-4">
+        <div style="cursor: pointer;" class="card-header alert-info" data-toggle="collapse" data-target="#{{ id }}" aria-expanded="false" aria-controls="{{ id }}">{{ pp.title }}</div>
+      <div class="card-body collapse" id="{{ id }}">
+        <div class="mt-0 card-text">
+        {% if pp.image %}
+          <div class="col-sm-4 col-md-3 col-lg-2 float-left"><img class="mr-3 mb-1 img-fluid" src="{{pp.image}}"></div>
+        {% endif %}
+        <p class="text-justify hyphenate">{{ pp.description }}</p>
+        {% if pp.link %}
+        <a class="card-link" href="{{pp.link}}">More information</a>
+        {% endif %}
+        </div>
+      </div>
     </div>
-    <span>Contact person: {{ pp.contact }}</span>
+
+    {% endfor %}
   </div>
 </div>
-
 {% endfor %}
 
 </section></div></section></article>
