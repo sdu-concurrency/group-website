@@ -1,4 +1,17 @@
 - speaker:
+    name: Peter Mayer
+  date: 2023-06-20 14:05
+  duration: 45
+  created: 2023-06-11
+  sequence: 0
+  place:
+    label: IMADA meeting room
+    link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb9ba423b7d0540c9a98b/
+  title: "Awareness, Intention, (In)Action: Individuals’ Reactions to Data Breaches"
+  description: |
+    Data breaches are prevalent. We provide novel insights into individuals’ awareness, perception, and responses to breaches that affect them through two online surveys: a main survey (n = 413) in which we presented participants with up to three breaches that affected them, and a follow-up survey (n = 108) in which we investigated whether the main study participants followed through with their intentions to act. Overall, 73% of participants were affected by at least one breach, but participants were unaware of 74% of breaches affecting them. While some reported intention to take action, most participants believed the breach would not impact them. We also found a sizeable intention-behavior gap. Participants did not follow through with their intention when they were apathetic about breaches, considered potential costs, forgot, or felt resigned about taking action. Our findings suggest that breached organizations should be held accountable for more proactively informing and protecting affected consumers.
+
+- speaker:
     name: Fabrizio Montesi and Lovro Lugović
     affiliation: Concurrency and Logic research group
   date: 2023-06-13 14:05
