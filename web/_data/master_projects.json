@@ -46,6 +46,16 @@
     "image": "images/people/fmontesi-p.jpg",
     "projects": [
       {
+        "title": "Choreographic Programming",
+        "description": "Choreographic Programming is a new programming paradigm where programmers write specifications of how concurrent programs should interact, and then a compiler automatically generates code that is guaranteed to be correct and deadlock-free. As a young paradigm, there are a lot of useful and interesting open questions, both on the theoretical and practical levels: efficient and safe programming primitives for concurrent access to shared resources; automatic deployment of code generated from choreographies in cloud environments; specifying and proving safety properties of choreographies (e.g., liveness, security, and privacy properties); integrating choreographic programming with mainstream programming languages and frameworks; exploring the theoretical limits of choreographic programming and its relationship to standard models of computing.",
+        "image": "images/software/chor.png"
+      },
+      {
+        "title": "Concurrency Theory",
+        "description": "Many modern digital systems (as in the Internet of Things, Industry 4.0, and Cloud Computing) are highly concurrent: they carry out multiple activities at the same time and include massive numbers of actors that communicate to exchange data, using multiple CPUs and large-scale networks. Concurrency theory offers solid methodologies to conceptualise these systems, identify problems, and support decision making. Subjects for projects range from pure theory to implementations of theoretical models: quantitative properties of concurrent systems such as availability, efficiency, performance, reliability, robustness, safety, security, survivability, and timeliness; automatic verification of security protocols; new programming approaches for concurrency (e.g., transactional memories); inductive and coinductive proof methods and their applications (e.g., for infinite behaviours, as in service-oriented systems).",
+        "image": "images/dining-philosopher.png"
+      },
+      {
         "title": "Microservices and Jolie",
         "description": "Microservices are loosely-coupled software components that can be developed, evolved, and scaled independently. They represent the state of the art in distributed systems development, used by companies like Netflix, Amazon, Facebook, and Google. Programming microservices is natively supported in the programming language Jolie. We are interested in studying the microservices paradigm in general, and also in how the Jolie language can be extended with useful new features such as: testing of service systems; monitoring of protocol compliance; build a web programming framework based on microservices; native integration with other languages (e.g., Java and JavaScript); make a multi-reactor implementation of the Jolie interpreter.",
         "image": "images/software/jolie.png"
