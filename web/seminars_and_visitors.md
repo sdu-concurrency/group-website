@@ -8,9 +8,7 @@ layout: default
 
 </header><section class="wrapper style4 card container"><div class="content"><section markdown="1">
 
-The {{ site.group_name }} group organises weekly meetings, frequently in the form of public seminars, with the aim of presenting and discussing ongoing research. Seminars are mainly in the domain (but not limited to) concurrency, logic, programming languages, type theory, proofs, and software engineering.
-
-The seminars' schedule is available as an [ics feed](/calendars/seminars.ics).
+The {{ site.group_name }} group organises weekly meetings, frequently in the form of public seminars, with the aim of presenting and discussing ongoing research. Seminars are mainly in the domain (but not limited to) concurrency, logic, programming languages, type theory, proofs, and software engineering. The seminar's schedule is available as an [ics feed](/calendars/seminars.ics).
 
 The calendar below reports on the left the schedule of the {{ site.group_short }} seminars and on the right the researchers that visited {{ site.group_short }} group.
 
