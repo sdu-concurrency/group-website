@@ -1,4 +1,31 @@
 - speaker:
+    name: Luís Cruz-Filipe
+    affiliation: Concurrency and Logic research group
+  date: 2023-06-27 14:05
+  duration: 45
+  created: 2023-06-23
+  sequence: 0
+  title: "Reasoning About Choreographic Programs"
+  description: |
+    Choreographic programming is a paradigm where a concurrent or distributed system is developed in a top-down fashion. Programs, called choreographies, detail the desired interactions between processes, and can be compiled to distributed implementations based on message passing. Choreographic languages usually guarantee deadlock-freedom and provide an operational correspondence between choreographies and their compiled implementations, but until now little work has been done on verifying other properties.
+    We present a Hoare-style logic for reasoning about the behaviour of choreographies, and illustrate its usage in representative examples. We show that this logic is sound and complete, and discuss decidability of its judgements. Using existing results from choreographic programming, we show that any functional correctness property proven for a choreography also holds for its compiled implementation.
+
+- speaker:
+    name: Hugo López
+    affiliation: Technical University of Denmark
+    website: http://lopezacosta.net/
+  date: 2023-06-26 14:00
+  duration: 45
+  created: 2023-06-23
+  sequence: 0
+  place:
+    label: IMADA seminar room
+    link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb8e9423b7d0540c9a2b6
+  title: "The Surprising Mystery of Pomset Logic and BV"
+  description: |
+    There is no abstract becaue otherwise it wouldn't be surprising, and it wouldn't be a mystery.
+
+- speaker:
     name: Peter Mayer
   date: 2023-06-20 14:05
   duration: 45
