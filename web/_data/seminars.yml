@@ -5,6 +5,9 @@
   duration: 45
   created: 2023-06-23
   sequence: 0
+  place:
+    label: CP3 meeting room
+    link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb8d9423b7d0540c9a236
   title: "Reasoning About Choreographic Programs"
   description: |
     Choreographic programming is a paradigm where a concurrent or distributed system is developed in a top-down fashion. Programs, called choreographies, detail the desired interactions between processes, and can be compiled to distributed implementations based on message passing. Choreographic languages usually guarantee deadlock-freedom and provide an operational correspondence between choreographies and their compiled implementations, but until now little work has been done on verifying other properties.
