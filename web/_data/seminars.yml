@@ -70,6 +70,20 @@
     Serverless computing is a Cloud development paradigm where developers write and compose stateless functions, abstracting from their deployment and scaling. In this seminar, we introduce some of the essential elements of serverless platforms and focus on the challenges of configuring and developing serverless systems. We discuss how languages at different levels of the implementation stack can help in dealing with those challenges and present the concrete example of a declarative language we recently introduced to tackle the problem of optimising the scheduling of function execution.
 
 - speaker:
+    name: Marco Peressotti
+    affiliation: Concurrency and Logic research group
+  date: 2020-11-26 15:45
+  duration: 45
+  created: 2020-11-19
+  sequence: 0
+  place:
+    label: IMADA Methods Lab
+    link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb8e4423b7d0540c9a28e
+  title: A Semantic Investigation of Choreography Projection
+  description: |
+    We discuss the challenges of choreography projection and some ideas to improve the state-of-the-art to support news classes of recursive choreographies without resorting to `repair' techniques that introduce extra communications to make choreographies projectable e.g., amendment. Key to the improvements explored in this talk is the investigation of a semantic characterisation of projection and merging rooted in behavioural theory. This semantic characterisation provides a context for studying concrete syntactic realisations i.e., projection procedures. As an example, we show how a new class of recursive choreographies can be projected leveraging a few classical bisimilarity laws. 
+
+- speaker:
     name: Ornela Dardha
     affiliation: University of Glasgow, United Kingdom
     website: http://www.dcs.gla.ac.uk/~ornela/
