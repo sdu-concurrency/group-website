@@ -1,0 +1,83 @@
+{ "title" : "2023",
+  "papers": [
+    {
+      "bibitem": "@inproceedings{CGMP23,  author = {Cruz{-}Filipe, Lu{\\'{\\i}}s and Graversen, Eva and Montesi, Fabrizio and Peressotti, Marco},  editor = {Jongmans, Sung{-}Shik and Lopes, Ant{\\'{o}}nia},  title = {Reasoning About Choreographic Programs},  booktitle = {Coordination Models and Languages},  series = {Lecture Notes in Computer Science},  volume = {13908},  pages = {144--162},  publisher = {Springer},  year = {2023},  url = {https://doi.org/10.1007/978-3-031-35361-1\\_8},  doi = {10.1007/978-3-031-35361-1\\_8},  isbn = {978-3-031-35361-1} }",
+      "tags": [ "Choreographic Programming", "Logic" ],
+      "authors": [ "Luís Cruz-Filipe", "Eva Graversen", "Fabrizio Montesi", "Marco Peressotti" ],
+      "abstract": "Choreographic programming is a paradigm where a concurrent or distributed system is developed in a top-down fashion. Programs, called choreographies, detail the desired interactions between processes, and can be compiled to distributed implementations based on message passing. Choreographic languages usually guarantee deadlock-freedom and provide an operational correspondence between choreographies and their compiled implementations, but until now little work has been done on verifying other properties.  This paper presents a Hoare-style logic for reasoning about the behaviour of choreographies, and illustrate its usage in representative examples. We show that this logic is sound and complete, and discuss decidability of its judgements. Using existing results from choreographic programming, we show that any functional correctness property proven for a choreography also holds for its compiled implementation.",
+      "links": [
+        { "name" : "technical report",
+          "link" : "https://doi.org/10.48550/arXiv.2304.14539",
+          "icon" : "arxiv" }
+      ],
+      "grants" : ["Choco"],
+      "non_group" : false,
+      "type": "conference"
+    },
+    {
+      "bibitem": "@inproceedings{GMPRU23,  author = {Giallorenzo, Saverio and Montesi, Fabrizio and Peressotti, Marco and Rademacher, Florian and Unwerawattana, Narongrit},  editor = {Jongmans, Sung{-}Shik and Lopes, Ant{\\'{o}}nia},  title = {JoT: {A} Jolie Framework for Testing Microservices},  booktitle = {Coordination Models and Languages},  series = {Lecture Notes in Computer Science},  volume = {13908},  pages = {172--191},  publisher = {Springer},  year = {2023},  url = {https://doi.org/10.1007/978-3-031-35361-1\\_10},  doi = {10.1007/978-3-031-35361-1\\_10},  isbn = {978-3-031-35361-1} }",
+      "tags": [ "Microservices", "Jolie" ],
+      "authors": [ "Fabrizio Montesi", "Marco Peressotti", "Narongrit Unwerawattana" ],
+      "abstract": "We present JoT, a testing framework for Microservice Architectures (MSAs) based on technology agnosticism, a core principle of microservices. The main advantage of JoT is that it reduces the amount of work for a) testing for MSAs whose services use different technology stacks, b) writing tests that involve multiple services, and c) reusing tests of the same MSA under different deployment configurations or after changing some of its components (e.g., when, for performance, one reimplements a service with a different technology). In JoT, tests are orchestrators that can both consume or offer operations from/to the MSA under test. The language for writing JoT tests is Jolie, which provides constructs that support technology agnosticism and the definition of terse test behaviours. We present the methodology we envision for testing MSAs with JoT and we validate it by implementing non-trivial test scenarios taken from a reference MSA from the literature (Lakeside Mutual).",
+      "links": [
+        { "name" : "Tool",
+          "link" : "https://github.com/jolie/jot",
+          "icon" : "website" },          
+        { "name" : "Best Artefact Award",
+        "link" : "https://www.discotec.org/2023/programme#discotec-best-artefacts",
+        "icon" : "award" }
+      ],
+      "grants" : ["GEM"],
+      "non_group" : false,
+      "type": "conference"
+    },
+    {
+      "bibitem": "@inproceedings{CGLMP23,  author = {Cruz{-}Filipe, Lu{\\'{\\i}}s and Graversen, Eva and Lugovi{\\'c}, Lovro and Montesi, Fabrizio and Peressotti, Marco},  editor = {Ali, Karim and Salvaneschi, Guido},  title = {Modular Compilation for Higher-Order Functional Choreographies},  booktitle = {37th European Conference on Object-Oriented Programming (ECOOP 2023)},  series = {Leibniz International Proceedings in Informatics (LIPIcs)},  isbn = {978-3-95977-281-5},  issn = {1868-8969},  year = {2023},  volume = {263},  pages = {7:1--7:37},  publisher = {Schloss Dagstuhl -- Leibniz-Zentrum f{\\\"u}r Informatik},  address = {Dagstuhl, Germany},  url = {https://drops.dagstuhl.de/opus/volltexte/2023/18200},  urn = {urn:nbn:de:0030-drops-182005},  doi = {10.4230/LIPIcs.ECOOP.2023.7} }",
+      "tags": [ "Choreographic Programming" ],
+      "authors": [ "Luís Cruz-Filipe", "Eva Graversen", "Fabrizio Montesi", "Lovro Lugović", "Marco Peressotti" ],
+      "abstract": "Choreographic programming is a paradigm for concurrent and distributed software, whereby descriptions of the intended communications (choreographies) are automatically compiled into distributed code with strong safety and liveness properties (e.g., deadlock-freedom). Recent efforts tried to combine the theories of choreographic programming and higher-order functional programming, in order to integrate the benefits of the former with the modularity of the latter. However, they do not offer a satisfactory theory of compilation compared to the literature, because of important syntactic and semantic shortcomings: compilation is not modular (editing a part might require recompiling everything) and the generated code can perform unexpected global synchronisations.  In this paper, we find that these shortcomings are not mere coincidences. Rather, they stem from genuine new challenges posed by the integration of choreographies and functions: knowing which participants are involved in a choreography becomes nontrivial, and divergence in applications requires rethinking how to prove the semantic correctness of compilation. We present a novel theory of compilation for functional choreographies that overcomes these challenges, based on types and a careful design of the semantics of choreographies and distributed code. The result: a modular notion of compilation, which produces code that is deadlock-free and correct (it operationally corresponds to its source choreography).",
+      "links": [
+        { "name" : "technical report",
+          "link" : "https://arxiv.org/abs/2111.03701",
+          "icon" : "arxiv" }
+      ],
+      "grants" : ["Choco"],
+      "non_group" : false,
+      "type": "conference"
+    },
+    {
+      "bibitem": "@article{GMPR23,  author = {Giallorenzo, Saverio and Montesi, Fabrizio and Peressotti, Marco and Rademacher, Florian},  title = {LEMMA2Jolie: A Tool to Generate Microservice APIs from Domain},  journal = {Science of Computer Programming},  volume = {228},  pages = {102956},  year = {2023},  issn = {0167-6423},  doi = {10.1016/j.scico.2023.102956},  url = {https://www.sciencedirect.com/science/article/pii/S0167642323000382} } ",
+      "tags": [ "Microservices", "Jolie"],
+      "authors": [ "Fabrizio Montesi", "Marco Peressotti" ],
+      "abstract": "We introduce LEMMA2Jolie, a tool for translating domain models of microservice architectures given in LEMMA into concrete APIs of microservices in the Jolie programming language. Our tool combines the state of the art for the design and implementation of microservices: developers can use Domain-Driven Design (DDD) for the construction of the domain models of a microservice architecture, and then automatically transition to a service-oriented programming language that provides native linguistic support for implementing the behaviour of each microservice.",
+      "links": [
+        { "name" : "technical report",
+          "link" : "https://arxiv.org/abs/2202.11397",
+          "icon" : "arxiv" },
+        { "name" : "tool",
+          "link" : "https://github.com/frademacher/lemma2jolie",
+          "icon" : "website" }
+      ],
+      "grants" : ["GEM"],
+      "non_group" : false,
+      "type": "journal"
+    },
+    {
+      "bibitem": "@article{CMP23,  author = {Cruz{-}Filipe, Lu{\\'{\\i}}s and Montesi, Fabrizio and Peressotti, Marco},  title = {A Formal Theory of Choreographic Programming},  journal = {Journal of Automated Reasoning},  volume = {67},  number = {21},  pages = {1--34},  year = {2023},  issn = {1573-0670},  url = {https://doi.org/10.1007/s10817-023-09665-3},  doi = {10.1007/s10817-023-09665-3} }",
+      "tags": [ "Choreographic Programming", "Formal Proofs"],
+      "authors": [ "Luís Cruz-Filipe", "Fabrizio Montesi", "Marco Peressotti" ],
+      "abstract": "",
+      "links": [
+        { "name" : "technical report",
+          "link" : "https://arxiv.org/abs/2209.01886",
+          "icon" : "arxiv" },
+        { "name" : "Coq sources",
+          "link" : "https://doi.org/10.5281/zenodo.7773479",
+          "icon" : "source" }
+      ],
+      "grants" : ["Choco"],
+      "non_group" : false,
+      "type": "journal"
+    }
+  ]
+}

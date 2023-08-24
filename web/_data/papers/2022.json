@@ -1,34 +1,51 @@
 { "title" : "2022",
   "papers": [
-	{
-		"bibitem": "@article{CMP22,  title = {Computing (Optimal) Embeddings of Directed Bigraphs},  author = {Chiapperini, Alessio and Miculan, Marino and Peressotti, Marco},  journal = {Science of Computer Programming},  volume = {221},  pages = {102842},  year = {2022},  issn = {0167-6423},  doi = {10.1016/j.scico.2022.102842},  url = {https://www.sciencedirect.com/science/article/pii/S0167642322000752},  keywords = {Graph Rewriting Systems, Bigraphs, Weighted Bigraphs, Integer Linear Programming} } ",
-    "tags": [ "Process Calculi", "Rewriting Systems" ],
-    "authors": [ "Marco Peressotti" ],
-		"abstract": "Bigraphs and bigraphical reactive systems are a well-known meta-model successfully used for formalizing a wide range of models and situations, such as process calculi, service oriented architectures, multi-agent systems, biological systems, etc.. A key problem in both the theory and the implementations of bigraphs is how to compute embeddings, i.e., structure-preserving mappings of a given bigraph (the pattern or guest) inside another (the target or host). In this paper, we present an algorithm for computing embeddings for directed bigraphs, an extension of Milner’s bigraphs which take into account the request directions between controls and names. This algorithm solves the embedding problem by means of a reduction to a constraint satisfaction problem. We first prove soundness and completeness of this algorithm; then we present an implementation in jLibBig, a general Java library for manipulating bigraphical reactive systems. The effectiveness of this implementation is shown by several experimental results. Finally, we show that this algorithm can be readily adapted to find the optimal embeddings in a weighted variant of the embedding problem.",
-		"links": [
-      { "name" : "tool",
-        "link" : "https://bigraphs.github.io/jlibbig/",
-        "icon" : "website" }
-		],
-		"non_group" : false,
-		"type": "journal"
-	},
-	{
-		"bibitem": "@inproceedings{GMPR22,  author = {Giallorenzo, Saverio and Montesi, Fabrizio and Peressotti, Marco and Rademacher, Florian},  editor = {ter Beek, Maurice H. and Sirjani, Marjan},  title = {Model-Driven Generation of Microservice Interfaces: From LEMMA Domain Models to Jolie APIs},  booktitle = {Coordination Models and Languages},  year = {2022},  series = {Lecture Notes in Computer Science},  volume = {13271},  pages = {223--240},  publisher = {Springer},  isbn = {978-3-031-08143-9},  url = {https://doi.org/10.1007/978-3-031-08143-9\\_13},  doi = {10.1007/978-3-031-08143-9\\_13} } ",
-		"tags": [ "Microservices", "Jolie" ],
-		"authors": [ "Saverio Giallorenzo", "Fabrizio Montesi", "Marco Peressotti" ],
-		"abstract": "We formally define and implement a translation from domain models in the LEMMA modelling framework to microservice APIs in the Jolie programming language. Our tool enables a software development process whereby microservice architectures can first be designed with the leading method of Domain-Driven Design (DDD), and then corresponding data types and service interfaces (APIs) in Jolie are automatically generated. Developers can extend and use these APIs as guides in order to produce compliant implementations. Our tool thus contributes to enhancing productivity and improving the design adherence of microservices.",
-		"links": [
-			{ "name" : "technical report",
-				"link" : "https://arxiv.org/abs/2202.11397",
-				"icon" : "arxiv" },
-      { "name" : "tool",
-        "link" : "https://github.com/frademacher/lemma2jolie",
-        "icon" : "website" }
-		],
-		"grants" : ["Gem"],
-		"non_group" : false,
-		"type": "journal"
-	}
+    {
+      "bibitem": "@inproceedings{CGLMP22,  author = {Cruz{-}Filipe, Lu{\\'{\\i}}s and Graversen, Eva and Lugovi{\\'c}, Lovro and Montesi, Fabrizio and Peressotti, Marco},  editor = {Seidl, Helmut and Liu, Zhiming and Pasareanu, Corina},  title = {Functional Choreographic Programming},  booktitle = {Theoretical Aspects of Computing - {ICTAC} 2022 - 19th International Colloquium, Tbilisi, Georgia, September 27-29, 2022, Proceedings},  series = {Lecture Notes in Computer Science},  publisher = {Springer},  year = {2022},  pages = {212--237},  doi = {10.1007/978-3-031-17715-6_15},  isbn = {978-3-031-17715-6} }",
+      "tags": [ "Choreographic Programming" ],
+      "authors": [ "Luís Cruz-Filipe", "Eva Graversen", "Fabrizio Montesi", "Lovro Lugović", "Marco Peressotti" ],
+      "abstract": "Choreographic programming is an emerging programming paradigm for concurrent and distributed systems, where developers write the communications that should be enacted and a compiler then automatically generates a distributed implementation.  Currently, the most advanced incarnation of the paradigm is Choral, an object-oriented choreographic programming language that targets Java. Choral deviated significantly from known theories of choreographies, and in particular introduced the possibility of expressing higher-order choreographies that are fully distributed.  In this article, we introduce Chorλ, the first functional choreographic programming language. It is also the first theory that explains the core ideas of higher-order choreographic programming. We show that bridging the gap between practice and theory requires developing a new evaluation strategy and typing discipline for λ terms that accounts for the distributed nature of computation in choreographies.",
+      "links": [
+        { "name" : "technical report",
+          "link" : "https://arxiv.org/abs/2202.11397",
+          "icon" : "arxiv" },
+        { "name" : "tool",
+          "link" : "https://github.com/frademacher/lemma2jolie",
+          "icon" : "website" }
+      ],
+      "grants" : ["GEM"],
+      "non_group" : false,
+      "type": "conference"
+    },
+    {
+      "bibitem": "@article{CMP22,  title = {Computing (Optimal) Embeddings of Directed Bigraphs},  author = {Chiapperini, Alessio and Miculan, Marino and Peressotti, Marco},  journal = {Science of Computer Programming},  volume = {221},  pages = {102842},  year = {2022},  issn = {0167-6423},  doi = {10.1016/j.scico.2022.102842},  url = {https://www.sciencedirect.com/science/article/pii/S0167642322000752},  keywords = {Graph Rewriting Systems, Bigraphs, Weighted Bigraphs, Integer Linear Programming} } ",
+      "tags": [ "Process Calculi", "Rewriting Systems" ],
+      "authors": [ "Marco Peressotti" ],
+      "abstract": "Bigraphs and bigraphical reactive systems are a well-known meta-model successfully used for formalizing a wide range of models and situations, such as process calculi, service oriented architectures, multi-agent systems, biological systems, etc.. A key problem in both the theory and the implementations of bigraphs is how to compute embeddings, i.e., structure-preserving mappings of a given bigraph (the pattern or guest) inside another (the target or host). In this paper, we present an algorithm for computing embeddings for directed bigraphs, an extension of Milner’s bigraphs which take into account the request directions between controls and names. This algorithm solves the embedding problem by means of a reduction to a constraint satisfaction problem. We first prove soundness and completeness of this algorithm; then we present an implementation in jLibBig, a general Java library for manipulating bigraphical reactive systems. The effectiveness of this implementation is shown by several experimental results. Finally, we show that this algorithm can be readily adapted to find the optimal embeddings in a weighted variant of the embedding problem.",
+      "links": [
+        { "name" : "tool",
+          "link" : "https://bigraphs.github.io/jlibbig/",
+          "icon" : "website" }
+      ],
+      "non_group" : false,
+      "type": "journal"
+    },
+    {
+      "bibitem": "@inproceedings{GMPR22,  author = {Giallorenzo, Saverio and Montesi, Fabrizio and Peressotti, Marco and Rademacher, Florian},  editor = {ter Beek, Maurice H. and Sirjani, Marjan},  title = {Model-Driven Generation of Microservice Interfaces: From LEMMA Domain Models to Jolie APIs},  booktitle = {Coordination Models and Languages},  year = {2022},  series = {Lecture Notes in Computer Science},  volume = {13271},  pages = {223--240},  publisher = {Springer},  isbn = {978-3-031-08143-9},  url = {https://doi.org/10.1007/978-3-031-08143-9\\_13},  doi = {10.1007/978-3-031-08143-9\\_13} } ",
+      "tags": [ "Microservices", "Jolie" ],
+      "authors": [ "Saverio Giallorenzo", "Fabrizio Montesi", "Marco Peressotti" ],
+      "abstract": "We formally define and implement a translation from domain models in the LEMMA modelling framework to microservice APIs in the Jolie programming language. Our tool enables a software development process whereby microservice architectures can first be designed with the leading method of Domain-Driven Design (DDD), and then corresponding data types and service interfaces (APIs) in Jolie are automatically generated. Developers can extend and use these APIs as guides in order to produce compliant implementations. Our tool thus contributes to enhancing productivity and improving the design adherence of microservices.",
+      "links": [
+        { "name" : "technical report",
+          "link" : "https://arxiv.org/abs/2202.11397",
+          "icon" : "arxiv" },
+        { "name" : "tool",
+          "link" : "https://github.com/frademacher/lemma2jolie",
+          "icon" : "website" }
+      ],
+      "grants" : ["Gem"],
+      "non_group" : false,
+      "type": "conference"
+    }
   ]
 }

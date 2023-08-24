@@ -1,5 +1,61 @@
 [
   {
+    "title" : "Cyber Security and Business Continuity",
+    "id" : "Cyber-SMV",
+    "website" : "https://cyber-smv.dk/",
+    "participants" : [
+      {
+        "name" : "Jan Stentoft",
+        "role" : "PI",
+        "affiliation" : "University of Southern Denmark"
+      },
+      {
+        "name" : "Marco Peressotti",
+        "role" : "Participant",
+        "affiliation" : "University of Southern Denmark"
+      },
+      {
+        "name" : "Peter Mayer",
+        "role" : "Participant",
+        "affiliation" : "University of Southern Denmark"
+      },
+      {
+        "name" : "Fabrizio Montesi",
+        "role" : "Participant",
+        "affiliation" : "University of Southern Denmark"
+      },
+      {
+        "name" : "Narongrit Unwerawattana",
+        "role" : "Developer",
+        "affiliation" : "University of Southern Denmark"
+      },
+      {
+        "name" : "Amelie Theussen",
+        "role" : "Participant",
+        "affiliation" : "Royal Danish Defence College"
+      },
+      {
+        "name" : "Ole Stegmann Mikkelsen",
+        "role" : "Participant",
+        "affiliation" : "University of Southern Denmark"
+      },
+      {
+        "name" : "Vincent Keating",
+        "role" : "Participant",
+        "affiliation" : "University of Southern Denmark"
+      },
+      {
+        "name" : "Olivier Schmitt",
+        "role" : "Participant",
+        "affiliation" : "University of Southern Denmark"
+      },
+    ],
+    "_number" : "",
+    "period" : { "start" : "2023", "end" : "2026" },
+    "foundation" : "Industriens Fond (ACTION:CALL)",
+    "amount" : "~8.5 million DKK (~1140k EUR)"
+  },
+  {
     "title" : "X-IDF: Explainable Internet Data Flows",
     "id" : "X-IDF",
     "participants" : [
