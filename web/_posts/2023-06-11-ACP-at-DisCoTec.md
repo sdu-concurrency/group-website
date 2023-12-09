@@ -3,7 +3,6 @@ layout: post
 title: "ACP at DisCoTec 2023"
 place: Lisbon, Portugal
 date: 2023-06-11
-tag: featured
 ---
 <img class="img-fluid mx-auto d-block" src="/images/posts/discotec2023-banner.png">
 
