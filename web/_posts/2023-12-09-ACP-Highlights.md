@@ -18,3 +18,4 @@ tag: featured
 - **Luís Cruz-Filipe**, **Fabrizio Montesi**, and **Robert R. Rasmussen**: [Keep me out of the loop: a more flexible choreographic projection](https://doi.org/10.29007/wbw3) at LPAR 2023
 - Saverio Giallorenzo, **Fabrizio Montesi**, **Marco Peressotti**, and Florian Rademacher: [LEMMA2Jolie: A tool to generate microservice APIs from domain models](https://www.sciencedirect.com/science/article/pii/S0167642323000382) at SCP 2023
 - Jacques Carette, Chris Heunen, **Robin Kaarsgaard** and Amr Sabry. [The Quantum Effect: a recipe for QuantumPi](https://doi.org/10.48550/arXiv.2302.01885) at QPL 2023
+- **Luís Cruz-Filipe**, **Sofia Kostopoulou**, **Fabrizio Montesi**, and **Jonas Vistrup**. [μXL: Explainable Lead Generation with Microservices and Hypothetical Answers](https://dl.acm.org/doi/abs/10.1007/978-3-031-46235-1_1) at ESOCC 2023
