@@ -1,0 +1,10 @@
+{
+    "name": "Marco Prandini",
+    "role": "Adjunct Professor",
+    "id": "mprandini",
+    "photo": "/images/people/mprandini-p.jpg",
+    "website" : "https://www.unibo.it/sitoweb/marco.prandini/en",
+    "email": "marco.prandini@unibo.it",
+    "affiliation": "University of Bologna, Italy",
+    "research_topics" : ["security", "e-voting", "software-defined networking"]
+}
