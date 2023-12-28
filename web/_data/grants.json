@@ -1,5 +1,20 @@
 [
   {
+    "title" : "Choreographies for Distributed Systems: Reasoning, Expressivity, and Development (CHORDS)",
+    "id" : "CHORDS",
+    "participants" : [
+      {
+        "name" : "Fabrizio Montesi",
+        "role" : "PI",
+        "affiliation" : "University of Southern Denmark"
+      }
+    ],
+    "_number" : "",
+    "period" : { "start" : "2024", "end" : "2029" },
+    "foundation" : "European Research Council (ERC)",
+    "amount" : "~2 million EUR (~15 million DKK)"
+  },
+  {
     "title" : "Cyber Security and Business Continuity",
     "id" : "Cyber-SMV",
     "website" : "https://cyber-smv.dk/",
