@@ -2,7 +2,6 @@
 layout: post
 title: "ACP Highlights - December 2023"
 date: 2023-12-09
-tag: featured
 ---
 
 ### Invited talks and appearances
