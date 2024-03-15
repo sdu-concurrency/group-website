@@ -1,5 +1,6 @@
 ﻿{
-	"current": [
+	"current": [],
+	"past": [
 		{
 			"title": "PhD Position in User-Centred Security",
 			"deadline": "2023-10-26",
@@ -9,14 +10,12 @@
 			"title": "Postdoc Position in User-Centred Security",
 			"deadline": "2023-10-26",
 			"link": "https://www.sdu.dk/da/service/ledige_stillinger/1215395"
-	  	}
-	],
-	"past": [
+		},
 		{
 			"title": "Assistant Professor Positions in Programming Languages and Systems",
 			"deadline": "2023-08-14",
 			"link": "https://www.sdu.dk/en/service/ledige_stillinger/1210957"
-	  	},
+		},
 		{
 			"title": "Assistant Professor Positions in Computer Science with Focus on Artificial Intelligence",
 			"deadline": "2023-08-14",

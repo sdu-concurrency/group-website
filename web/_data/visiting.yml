@@ -1,14 +1,20 @@
+- name: Laura Bocchi 
+  from: 2024-02-25
+  to: 2024-02-27
+  affiliation: University of Kent, United Kingdom
+  website: https://www.kent.ac.uk/computing/people/3119/bocchi-laura
+  picture: images/people/lcosta-p.jpg
+  host: Marco Peressotti
 - name: Hugo López
   from: 2023-06-26
   to: 2023-06-27
   affiliation: Technical University of Denmark
   website: http://lopezacosta.net/
-  picture: images/people/lcosta.jpg
+  picture: images/people/lcosta-p.jpg
   host: Marco Peressotti
   office:
     label: Ø13-603a-1
     link: https://clients.mapsindoors.com/sdu/573f26e4bc1f571b08094312/details/563cb8d2423b7d0540c9a200
-
 - name: Marco Prandini
   from: 2022-10-17
   to: 2022-12-23
